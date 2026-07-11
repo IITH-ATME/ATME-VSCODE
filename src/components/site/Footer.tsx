@@ -53,33 +53,33 @@ const deptLink = (name: string, fallback: string): FL =>
     : { label: name, href: fallback };
 
 const UG_DEPTS: FL[] = [
-  deptLink("Civil Engineering",                                  "https://new.atme.edu.in/departments/civil-engineering/"),
-  deptLink("Computer Science & Engineering",                     "https://new.atme.edu.in/departments/computer-science-and-engineering/"),
-  deptLink("CSE — Data Science",                                 "https://new.atme.edu.in/departments/computer-science-engineering-data-science/"),
-  { label: "CSE — AI & Machine Learning",  href: "https://new.atme.edu.in/departments/computer-science-engineering-artificial-intelligence-machine-learning/" },
-  { label: "Computer Science & Design",    href: "https://new.atme.edu.in/departments/computer-science-design/" },
-  { label: "CSE — Cyber Security",         href: "https://new.atme.edu.in/departments/computer-science-engineering-cyber-security/" },
-  deptLink("Electronics & Communication Engineering",            "https://new.atme.edu.in/departments/electronics-and-communication-engineering/"),
-  deptLink("Electrical & Electronics Engineering",               "https://new.atme.edu.in/departments/electrical-electronics-engineering/"),
-  deptLink("Mechanical Engineering",                             "https://new.atme.edu.in/departments/department-of-mechanical-engineering/"),
-  deptLink("Bachelor of Computer Applications",                  "https://new.atme.edu.in/departments/bachelor-of-computer-applications-bca/"),
+  deptLink("Civil Engineering",                                  "https://atme.edu.in/departments/civil-engineering/"),
+  deptLink("Computer Science & Engineering",                     "https://atme.edu.in/departments/computer-science-and-engineering/"),
+  deptLink("CSE — Data Science",                                 "https://atme.edu.in/departments/computer-science-engineering-data-science/"),
+  { label: "CSE — AI & Machine Learning",  href: "https://atme.edu.in/departments/computer-science-engineering-artificial-intelligence-machine-learning/" },
+  { label: "Computer Science & Design",    href: "https://atme.edu.in/departments/computer-science-design/" },
+  { label: "CSE — Cyber Security",         href: "https://atme.edu.in/departments/computer-science-engineering-cyber-security/" },
+  deptLink("Electronics & Communication Engineering",            "https://atme.edu.in/departments/electronics-and-communication-engineering/"),
+  deptLink("Electrical & Electronics Engineering",               "https://atme.edu.in/departments/electrical-electronics-engineering/"),
+  deptLink("Mechanical Engineering",                             "https://atme.edu.in/departments/department-of-mechanical-engineering/"),
+  deptLink("Bachelor of Computer Applications",                  "https://atme.edu.in/departments/bachelor-of-computer-applications-bca/"),
 ];
 
 const PG_DEPTS: FL[] = [
   { label: "Master of Computer Applications (MCA)", to: "/departments/$slug", params: { slug: "mca" } },
-  { label: "Master of Business Administration (MBA)",href: "https://new.atme.edu.in/departments/master-of-business-administration-mba/" },
+  { label: "Master of Business Administration (MBA)",href: "https://atme.edu.in/departments/master-of-business-administration-mba/" },
   { label: "VTU Honor Degree",  to: "/vtu-honor-degree" },
   { label: "VTU Minor Degree",  to: "/vtu-minor-degree" },
 ];
 
 const OTHER_DEPTS: FL[] = [
-  { label: "Chemistry",   href: "https://new.atme.edu.in/programs/chemistry-about-the-department/" },
-  { label: "Mathematics", href: "https://new.atme.edu.in/programs/maths-about-the-department/" },
-  { label: "Physics",     href: "https://new.atme.edu.in/programs/physics-about-the-department/" },
-  { label: "Humanities",  href: "https://new.atme.edu.in/programs/humanities-staff-details/" },
+  { label: "Chemistry",   href: "https://atme.edu.in/programs/chemistry-about-the-department/" },
+  { label: "Mathematics", href: "https://atme.edu.in/programs/maths-about-the-department/" },
+  { label: "Physics",     href: "https://atme.edu.in/programs/physics-about-the-department/" },
+  { label: "Humanities",  href: "https://atme.edu.in/programs/humanities-staff-details/" },
   { label: "Library",     to: "/resources/elibrary" },
-  { label: "NSS",         href: "https://new.atme.edu.in/programs/nss/" },
-  { label: "Sports",      href: "https://new.atme.edu.in/programs/sports-about/" },
+  { label: "NSS",         href: "https://atme.edu.in/programs/nss/" },
+  { label: "Sports",      href: "https://atme.edu.in/programs/sports-about/" },
 ];
 
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {
