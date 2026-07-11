@@ -98,15 +98,16 @@ function Col({ title, children, className, topFill }: { title: string; children:
 }
 
 
-function LinkList({ items }: { items: FL[] }) {
+function LinkList({ items, nowrap }: { items: FL[]; nowrap?: boolean }) {
+  const linkCls = "hover:text-amber-300 hover:translate-x-0.5 inline-block transition-all " + (nowrap ? "whitespace-nowrap" : "break-words");
   return (
     <ul className="space-y-2 text-[13px] font-medium leading-snug">
       {items.map((l) => (
         <li key={l.label}>
           {l.href ? (
-            <a href={resolveAssetUrl(l.href)} target="_blank" rel="noreferrer" className="hover:text-amber-300 hover:translate-x-0.5 inline-block transition-all break-words">› {l.label}</a>
+            <a href={resolveAssetUrl(l.href)} target="_blank" rel="noreferrer" className={linkCls}>› {l.label}</a>
           ) : (
-            <Link to={l.to as string} params={l.params as never} className="hover:text-amber-300 hover:translate-x-0.5 inline-block transition-all break-words">› {l.label}</Link>
+            <Link to={l.to as string} params={l.params as never} className={linkCls}>› {l.label}</Link>
           )}
         </li>
       ))}
@@ -131,7 +132,7 @@ export function Footer() {
       <div className="h-1 w-full bg-white/40" />
 
       {/* Footer columns */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,2.3fr)_minmax(0,2.2fr)_minmax(0,1.3fr)] xl:grid-cols-[minmax(0,200px)_minmax(0,240px)_minmax(0,252px)_minmax(0,305px)_minmax(0,200px)] items-stretch">
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,3.4fr)_minmax(0,2.2fr)_minmax(0,1.3fr)] xl:grid-cols-[minmax(0,200px)_minmax(0,240px)_minmax(0,372px)_minmax(0,305px)_minmax(0,200px)] items-stretch">
 
         <Col title="About us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />
@@ -139,7 +140,7 @@ export function Footer() {
           <LinkList items={ABOUT_LINKS} />
         </Col>
         <Col title="Quick Links" className="h-full"><LinkList items={QUICK_LINKS} /></Col>
-        <Col title="Departments — UG" className="h-full"><LinkList items={UG_DEPTS} /></Col>
+        <Col title="Departments — UG" className="h-full"><LinkList items={UG_DEPTS} nowrap /></Col>
         <Col title="Departments — PG" className="h-full"><LinkList items={PG_DEPTS} /></Col>
         <Col title="Basic Sciences & Others" className="h-full"><LinkList items={OTHER_DEPTS} /></Col>
       </div>

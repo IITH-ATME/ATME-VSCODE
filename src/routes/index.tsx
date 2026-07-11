@@ -35,13 +35,15 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-// Source: new.atme.edu.in homepage
+// Source: old.atme.edu.in homepage (new.atme.edu.in now redirects and no
+// longer serves its own uploaded media, so those URLs 404).
 const accreditations = [
-  { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/naac.png", t: "NAAC A+ Accredited" },
-  { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/nba.png",  t: "NBA Accredited" },
+  { src: "https://old.atme.edu.in/wp-content/uploads/2022/11/naac-banner.jpg", t: "NAAC A+ Accredited" },
+  { src: "https://old.atme.edu.in/wp-content/uploads/2025/10/NBA-Web-01.png",  t: "NBA Accredited" },
+  // TODO: no working AICTE logo image found on old.atme.edu.in or atme.edu.in at time of fix.
   { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/aicte.png",t: "AICTE Approved" },
-  { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/qsi.png",  t: "QS I-GAUGE Rated" },
-  { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/nabl.png", t: "NABL Accredited" },
+  { src: "https://old.atme.edu.in/wp-content/uploads/2025/09/Qs-Igauge-Web.png",  t: "QS I-GAUGE Rated" },
+  { src: "https://old.atme.edu.in/wp-content/uploads/2025/09/nabl-logo.jpg", t: "NABL Accredited" },
 ];
 
 const ugCourses = [
@@ -295,7 +297,7 @@ function Home() {
             {accreditations.map((a, i) => (
               <Reveal key={a.t} delay={i * 80}>
                 <div className="rounded-2xl border bg-card p-6 flex flex-col items-center text-center hover:shadow-lg transition">
-                  <img src={a.src} alt={a.t} className="h-20 w-20 object-contain" />
+                  <img src={a.src} alt={a.t} className="h-20 w-20 object-contain" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
                   <h5 className="mt-4 font-semibold text-sm">{a.t}</h5>
                 </div>
               </Reveal>
@@ -326,7 +328,7 @@ function Home() {
               <Reveal key={c.slug} delay={i * 60} className="h-full">
                 <Link to="/departments/$slug" params={{ slug: c.slug }} className="h-full flex flex-col group rounded-2xl overflow-hidden border bg-card hover:shadow-xl transition-all hover:-translate-y-1 active:-translate-y-1">
                   <div className="aspect-[16/10] overflow-hidden bg-muted">
-                    <img src={c.img} alt={c.t} loading="lazy" className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <img src={c.img} alt={c.t} loading="lazy" className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
                   </div>
                   <div className="p-5 flex-1 flex flex-col">
                     <div className="flex-1 flex items-center justify-center text-center">
@@ -525,7 +527,7 @@ function Home() {
                 <Reveal key={e.t} delay={i * 80}>
                   <a href={e.href} className="block group rounded-2xl overflow-hidden border bg-card hover:shadow-lg transition">
                     <div className="aspect-[16/10] overflow-hidden bg-white relative flex items-center justify-center">
-                      <img src={e.img} alt={e.t} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                      <img src={e.img} alt={e.t} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
                       <span className="absolute top-3 left-3 text-[10px] font-bold tracking-wider uppercase bg-primary text-primary-foreground px-2 py-1 rounded">{e.level}</span>
                     </div>
                     <div className="p-5">
