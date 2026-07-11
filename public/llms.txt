@@ -1,0 +1,33 @@
+# ATME College of Engineering
+
+> ATME College of Engineering, Mysuru — an autonomous, AICTE-approved, VTU-affiliated, NAAC A+ accredited engineering institution offering undergraduate and postgraduate programmes across Civil, Computer Science, Electronics, Mechanical, and allied disciplines.
+
+## Pages
+
+- [Home](/): Overview of ATME College of Engineering, accreditations, and programmes.
+- [About](/about): History, vision and mission, leadership.
+- [Administration](/administration): Governing council and administrative team.
+- [Admissions](/admissions): UG and PG admission information.
+- [Departments](/departments): All academic departments and faculty.
+- [Research](/research): Research activities, publications, and centres.
+- [Placements](/placements): Recruiter list and placement statistics.
+- [Campus Life](/campus-life): Student life, clubs, and events.
+- [Campus Tour](/campus-tour): Virtual tour of the campus.
+- [Careers](/careers): Career opportunities at ATME.
+- [Library](/library): Library resources and services.
+- [Resources](/resources): Notes, papers, videos, and e-library.
+- [Sports](/sports): Sports facilities and achievements.
+- [News Clippings](/news-clippings): Media coverage.
+- [Upcoming Events](/upcoming-events): Conferences, workshops, and events.
+- [Circulars](/circulars): Official circulars.
+- [NIRF](/nirf): NIRF disclosures.
+- [NABL](/nabl): NABL accreditation details.
+- [Mandatory Disclosure](/mandatory-disclosure): AICTE mandatory disclosure.
+- [Contact](/contact): Address, phone, and email.
+
+## Optional
+
+- [Privacy Policy](/privacy-policy)
+- [Student Handbook](/student-handbook)
+- [Employee Handbook](/employee-handbook)
+- [Hostel Policy](/hostel-policy)

@@ -1,0 +1,487 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+
+
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-glow: var(--primary-glow);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-display: "DejaVu Sans", "Bitstream Vera Sans", "Verdana", system-ui, sans-serif;
+  --font-sans: "DejaVu Sans", "Bitstream Vera Sans", "Verdana", system-ui, sans-serif;
+  --font-mono: "Ubuntu Mono", "DejaVu Sans Mono", ui-monospace, monospace;
+}
+
+
+:root {
+  --radius: 0.75rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.15 0 0);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0 0);
+
+  /* Brand teal — #129199 across the site */
+  --primary: #129199;
+  --primary-foreground: #ffffff;
+  --primary-glow: #1aaab2;
+  --primary-dark: #0d6f76;
+
+  --secondary: #f1f8f9;
+  --secondary-foreground: #0d3438;
+
+  --muted: #f1f8f9;
+  --muted-foreground: #5b6f72;
+
+  --accent: #d6eef0;
+  --accent-foreground: #0d3438;
+
+  --destructive: oklch(0.55 0.20 27);
+  --destructive-foreground: #ffffff;
+
+  /* Yellow contrast borders across the site */
+  --border: #f5c518;
+  --input: #f5c518;
+  --ring: #f5c518;
+  --brand-yellow: #f5c518;
+  --brand-yellow-soft: #fff4c2;
+
+  /* Banner / hero theming — single source of truth for all page banners.
+     Override these to recolor every hero across the site. */
+  --banner-bg: var(--primary);           /* fallback bg when no image */
+  --banner-overlay: rgb(18 145 153 / 0.55); /* tint over banner images */
+  --banner-text: #ffffff;                /* main heading text */
+  --banner-subtle: rgb(255 255 255 / 0.9); /* body / subtitle text */
+  --banner-eyebrow: #f5c518;             /* eyebrow label */
+  --banner-accent: #f5c518;              /* accent words / second line */
+
+  /* Solid brand surfaces (no gradients) */
+  --gradient-hero: var(--primary);
+  --gradient-soft: var(--secondary);
+  --shadow-soft: 0 10px 40px -10px rgb(18 145 153 / 0.25);
+  --shadow-card: 0 4px 24px -8px rgb(18 145 153 / 0.15);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; font-size: 17px; }
+  html, body { overflow-x: hidden; max-width: 100%; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  /* Justify body copy on all viewports */
+  p { text-align: justify; text-justify: inter-word; hyphens: auto; }
+  /* Tighten card padding & break long words on mobile so content doesn't
+     overflow narrow cards. */
+  @media (max-width: 767px) {
+    .content-card { padding: 0.875rem !important; }
+    /* Prevent any nested card/section inside a content-card from overflowing
+       its parent on small screens. */
+    .content-card * { min-width: 0; }
+    .content-card section,
+    .content-card article,
+    .content-card > div > section,
+    .content-card > div > div {
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .prose { word-break: break-word; overflow-wrap: anywhere; }
+  }
+  img, video, iframe, object { max-width: 100%; height: auto; }
+  code, pre, kbd, samp { font-family: var(--font-mono); overflow-wrap: anywhere; }
+}
+
+
+@utility gradient-hero { background-color: var(--primary); background-image: none; }
+@utility gradient-soft { background-color: var(--secondary); background-image: none; }
+@utility shadow-soft { box-shadow: var(--shadow-soft); }
+@utility shadow-card { box-shadow: var(--shadow-card); }
+@utility container-page { max-width: 95%; margin-inline: auto; padding-inline: 1.25rem; }
+
+/* Make all section containers span 95% of viewport width */
+.container {
+  max-width: 95% !important;
+  width: 95%;
+  margin-inline: auto;
+}
+
+/* Custom yellow check bullets — applied to lists inside .prose (markdown
+   pages), inside any .content-prose/.content-card region, to Tailwind
+   `list-disc` lists (whose default markers Tailwind preflight strips), and
+   to any list that explicitly opts in via `.check-bullets`. */
+.prose ul:not(.no-bullets),
+.content-prose ul:not(.no-bullets),
+.content-card ul:not(.no-bullets),
+article ul:not(.no-bullets):not([role]),
+ul.list-disc:not(.no-bullets),
+ul.check-bullets {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+.prose ul:not(.no-bullets) > li,
+.content-prose ul:not(.no-bullets) > li,
+.content-card ul:not(.no-bullets) > li,
+article ul:not(.no-bullets):not([role]) > li,
+ul.list-disc:not(.no-bullets) > li,
+ul.check-bullets > li {
+  position: relative;
+  padding-left: 2.25rem;
+  margin: 0.45rem 0;
+  list-style: none !important;
+}
+.prose ul:not(.no-bullets) > li::marker,
+.content-prose ul:not(.no-bullets) > li::marker,
+.content-card ul:not(.no-bullets) > li::marker,
+article ul:not(.no-bullets):not([role]) > li::marker,
+ul.list-disc:not(.no-bullets) > li::marker,
+ul.check-bullets > li::marker { content: ""; }
+.prose ul:not(.no-bullets) > li::before,
+.content-prose ul:not(.no-bullets) > li::before,
+.content-card ul:not(.no-bullets) > li::before,
+article ul:not(.no-bullets):not([role]) > li::before,
+ul.list-disc:not(.no-bullets) > li::before,
+ul.check-bullets > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 9999px;
+  border: 2px solid #f5c518;
+  background-color: #fffbe6;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f5c518' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='5 12 10 17 19 7'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.75rem 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+/* Nested lists keep the same bullet style on a white inner background. */
+.prose ul:not(.no-bullets) ul > li::before,
+.content-prose ul:not(.no-bullets) ul > li::before,
+.content-card ul:not(.no-bullets) ul > li::before,
+article ul:not(.no-bullets):not([role]) ul > li::before,
+ul.list-disc:not(.no-bullets) ul > li::before,
+ul.check-bullets ul > li::before {
+  background-color: #fff;
+}
+
+/* Ordered lists: restore numeric markers Tailwind preflight strips. */
+.prose ol:not(.no-bullets),
+.content-prose ol:not(.no-bullets),
+.content-card ol:not(.no-bullets),
+ol.list-decimal:not(.no-bullets) {
+  list-style: decimal outside !important;
+  padding-left: 1.5rem !important;
+}
+.prose ol:not(.no-bullets) > li,
+.content-prose ol:not(.no-bullets) > li,
+.content-card ol:not(.no-bullets) > li,
+ol.list-decimal:not(.no-bullets) > li {
+  margin: 0.35rem 0;
+}
+.prose ol:not(.no-bullets) > li::marker,
+.content-prose ol:not(.no-bullets) > li::marker,
+.content-card ol:not(.no-bullets) > li::marker,
+ol.list-decimal:not(.no-bullets) > li::marker {
+  color: #129199;
+  font-weight: 700;
+}
+
+/* Standard content wrappers — guarantees floated media stays inside yellow
+   bordered layouts and scraped/markdown content cannot bleed horizontally. */
+.content-flow,
+.content-card,
+.content-prose,
+.prose,
+.trustee-section {
+  display: flow-root;
+  min-width: 0;
+  max-width: 100%;
+}
+.content-flow::after,
+.content-card::after,
+.content-prose::after,
+.prose::after,
+.trustee-section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--card);
+  box-shadow: var(--shadow-card);
+  padding: 1.5rem;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 48rem) {
+  .content-card { padding: 2.5rem; }
+}
+/* Justify paragraphs across all main content regions (prose, cards, flow,
+   trustee, and main page <section>s). Avoid headings, buttons, navs, and
+   tight UI text. On narrow screens, fall back to left-align to prevent
+   ugly inter-word gaps from poor line-break opportunities. */
+.content-prose p,
+.content-flow p,
+.content-card p,
+.trustee-section p,
+.prose p,
+main section p,
+section.content-section p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: normal;
+}
+/* Don't justify inside controls, navs, cards-as-buttons, tables, lists of links */
+nav p,
+button p,
+a p,
+table p,
+.no-justify p,
+.no-justify {
+  text-align: inherit !important;
+  hyphens: manual !important;
+}
+/* Preserve explicitly centered section subtitles/headline copy. */
+.text-center p,
+p.text-center,
+main section .text-center p,
+main section p.text-center,
+section.content-section .text-center p,
+section.content-section p.text-center,
+.content-prose p.text-center,
+.content-flow p.text-center,
+.content-card p.text-center,
+.trustee-section p.text-center,
+.prose p.text-center {
+  text-align: center !important;
+  text-justify: auto;
+  hyphens: manual;
+}
+.content-prose img,
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center all images in prose / markdown content (achievements, activities, etc.) */
+.prose img,
+.content-prose img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Linked images: the custom link renderer uses inline-block, which prevents
+   mx-auto on the inner image from centering. Make image-only links block-level
+   so the image can center, and strip text-link border/padding styling. */
+.prose a:has(> img:only-child),
+.content-prose a:has(> img:only-child) {
+  display: block;
+  border-style: none;
+  padding: 0;
+  background: transparent;
+  margin: 0;
+}
+/* Tables: responsive horizontal scroll + safe wrapping on mobile.
+   Applies to any table inside content/prose wrappers OR a markdown wrapper
+   div whose direct child is a <table>. Standardises widths so tables fill
+   their container, but overflow horizontally rather than break layout. */
+.content-prose table,
+.prose table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+}
+.content-prose table thead,
+.content-prose table tbody,
+.prose table thead,
+.prose table tbody {
+  width: 100%;
+}
+.content-prose table th,
+.content-prose table td,
+.prose table th,
+.prose table td {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  vertical-align: middle;
+}
+/* When a table is intentionally wrapped in a scroll container, let the
+   inner table size to its content so columns don't collapse. Adds sticky
+   header, smooth momentum scrolling, subtle scrollbar, and edge fades to
+   hint at horizontal overflow on small screens. */
+.table-scroll {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #129199 transparent;
+  overscroll-behavior-x: contain;
+  /* RTL-safe: respect document direction without forcing LTR. */
+  direction: inherit;
+}
+.table-scroll::-webkit-scrollbar { height: 8px; }
+.table-scroll::-webkit-scrollbar-track { background: transparent; }
+.table-scroll::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, #129199 70%, transparent);
+  border-radius: 9999px;
+}
+.table-scroll::-webkit-scrollbar-thumb:hover { background: #129199; }
+.table-scroll > table {
+  width: 100%;
+  min-width: max-content;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll > table th,
+.table-scroll > table td {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  /* Cap absurd unbroken tokens (URLs, long IDs) on tiny screens so a single
+     cell can't blow out the layout. */
+  max-width: min(80vw, 32rem);
+}
+/* Sticky header that stays visible while scrolling horizontally AND
+   vertically inside the wrapper. */
+.table-scroll > table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #129199;
+  color: #fff;
+}
+
+/* Section spacing — teal horizontal divider rules removed per design.
+   Headings still clear floats but no longer draw an underline/topline. */
+.prose h1,
+.prose h2,
+.prose h3 { clear: both; }
+.prose > h2:not(:first-of-type),
+.prose > h3:not(:first-of-type) {
+  margin-top: 2rem;
+  padding-top: 0;
+  border-top: 0;
+}
+.prose hr { display: none; }
+
+
+/* Hide list items that ended up empty after sanitizing (no text and no
+   meaningful children) so we don't render a lonely yellow check bullet. */
+article li:empty,
+.content-prose li:empty,
+.prose li:empty { display: none !important; }
+
+/* Sticky header offset — keep in-page anchor jumps and accordion panels from
+   being hidden beneath the global header on every breakpoint. */
+:root { --header-offset: 96px; }
+@media (max-width: 1024px) { :root { --header-offset: 132px; } }
+@media (max-width: 640px)  { :root { --header-offset: 156px; } }
+
+html { scroll-padding-top: var(--header-offset); }
+article :is(h1, h2, h3, h4, h5, h6),
+[id]:not(body):not(html) { scroll-margin-top: var(--header-offset); }
+
+/* Floating chat/social widgets must never sit above sticky page chrome or
+   cover thumbnails on small screens. */
+[class*="chaty"], .chaty, #chaty, .chaty-widget,
+.floating-share, .social-floating { z-index: 30 !important; }
+@media (max-width: 768px) {
+  [class*="chaty"], .chaty, #chaty, .chaty-widget,
+  .floating-share, .social-floating { display: none !important; }
+}
+
+/* Ensure all page wrappers render edge-to-edge content area consistently. */
+.container-page { width: 100%; }
+
+/* Reserve space at the bottom of every page so floating share/WhatsApp/back-to-top
+   buttons never sit on top of the last accordion or PDF thumbnail. */
+main { padding-bottom: 6rem; }
+@media (max-width: 640px) { main { padding-bottom: 7rem; } }
+
+/* Nested IPR / Publications accordions — consistent typography & no overflow */
+.nested-accordion { max-width: 100%; }
+.nested-accordion > summary { list-style: none; }
+.nested-accordion > summary::-webkit-details-marker { display: none; }
+.nested-accordion > summary::marker { content: ""; }
+.nested-accordion summary { text-align: left !important; word-spacing: normal; hyphens: manual; }
+.nested-accordion p, .nested-accordion div { text-align: left !important; hyphens: manual; }
+.nested-accordion iframe { display: block; max-width: 100%; }
+.nested-accordion .nested-accordion { margin-left: 0; }
+@media (max-width: 640px) {
+  .nested-accordion iframe { min-height: 280px; }
+}
+
+/* Mobile: justify all body paragraphs across department pages and content sections
+   for a clean newspaper-style read. Skip nested accordions and table cells. */
+@media (max-width: 640px) {
+  main p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    overflow-wrap: anywhere;
+  }
+  .nested-accordion p,
+  table p,
+  th p, td p,
+  nav p,
+  .no-justify p,
+  .no-justify {
+    text-align: left !important;
+    hyphens: manual;
+  }
+}

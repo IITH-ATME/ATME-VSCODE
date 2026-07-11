@@ -1,0 +1,256 @@
+// Auto-generated from scraped atme.edu.in profile pages
+import type { Faculty } from "./departments";
+import rajeshN from "@/assets/rajesh-n.png.asset.json";
+import jayaprakashN from "@/assets/jayaprakash-narayana.png.asset.json";
+import swathiCA from "@/assets/swathi-c-a.jpg.asset.json";
+
+
+export const cseAllFaculty: Faculty[] = [
+  { id: "dr-putte-gowda-d", name: "Dr. Puttegowda D", designation: "Professor and HOD", qualification: "PhD", doj: "01/02/2012", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-PUTTEGOWDA-D-1.jpg", cvUrl: "https://atme.edu.in/dr-putte-gowda-d/" },
+  { id: "dr-j-v-gorabal", name: "Dr. J V Gorabal", designation: "Professor", qualification: "PhD", doj: "20/08/2020", image: "https://old.atme.edu.in/wp-content/uploads/2022/09/2.jpg", cvUrl: "https://atme.edu.in/dr-j-v-gorabal/" },
+  { id: "dr-jayantkumar-a-rathod", name: "Dr. Jayantkumar A Rathod", designation: "Professor", qualification: "PhD in Computer Science and Engineering, VTU Belagavi", doj: "05/02/2026", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/DR.JAYANTKUMAR-A-RATHOD-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dr-jayantkumar-a-rathod/" },
+  { id: "nasreen-fathima", name: "Dr. NasreenFathima", designation: "Associate Professor", qualification: "PhD", doj: "23/07/2014", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-Nasreen-Fathima-1-1.jpg", cvUrl: "https://atme.edu.in/nasreen-fathima/" },
+  { id: "mr-anil-kumar-c-j", name: "Dr. Anil Kumar C J", designation: "Associate Professor", qualification: "PhD", doj: "16/07/2012", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Dr.-ANIL-KUMAR-C-J-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-anil-kumar-c-j/" },
+  { id: "dr-shilpa-b-l", name: "Dr. Shilpa B L", designation: "Associate Professor", qualification: "PhD", doj: "08/07/2024", image: "https://old.atme.edu.in/wp-content/uploads/2024/07/Shilpa-B-L.jpg", cvUrl: "https://atme.edu.in/dr-shilpa-b-l/" },
+  { id: "dr-drakshayini-k-b", name: "Dr. Drakshayini K B", designation: "Associate Professor", qualification: "PhD", doj: "13/11/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-DRAKSHAYINI-K-B-1.jpg", cvUrl: "https://atme.edu.in/dr-drakshayini-k-b/" },
+  { id: "dr-padmaja-k", name: "Dr. Padmaja K", designation: "Associate Professor", qualification: "PhD in Data Science; MTech in CSE; BE in CSE", doj: "01/06/2026", image: "/__l5e/assets-v1/76935ed6-7251-4568-be21-512d654514b2/padmaja-k.jpg", cvUrl: "/departments/cse/faculty/dr-padmaja-k" },
+  { id: "lakshmi-shree-c-v", name: "Mrs. Lakshmi Shree C V", designation: "Assistant Professor", qualification: "MTech in Computer Science and Engineering", doj: "03/09/2024", image: "https://old.atme.edu.in/wp-content/uploads/2025/03/Lakshmi-Shree-C-V-2.jpg", cvUrl: "https://atme.edu.in/lakshmi-shree-c-v/" },
+  
+  { id: "mrs-keerthana-m-m", name: "Keerthana M M", designation: "Assistant Professor", qualification: "MTech in Computer Science & Engineering , VKIT, Bangalore.", doj: "15/07/2015", image: "https://old.atme.edu.in/wp-content/uploads/2022/05/Ms.Keerthana-M-M.jpg", cvUrl: "https://atme.edu.in/mrs-keerthana-m-m/" },
+  { id: "mr-raghuram-a-s", name: "Raghuram A S", designation: "Assistant Professor", qualification: "MTech", doj: "07/08/2017", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/RAGHURAM-A-S-1.jpg", cvUrl: "https://atme.edu.in/mr-raghuram-a-s/" },
+  { id: "mrs-kavyashree-e-d", name: "Kavyashree E D", designation: "Assistant Professor", qualification: "MTech", doj: "21/08/2017", image: "https://old.atme.edu.in/wp-content/uploads/2026/02/Mrs.-Kavyashree-E-D-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-kavyashree-e-d/" },
+  { id: "mr-kalathma-m-k", name: "Kalathma M K", designation: "Assistant Professor", qualification: "MTech", doj: "25/08/2021", image: "https://old.atme.edu.in/wp-content/uploads/2026/02/KALATHMA-M-K-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-kalathma-m-k/" },
+  { id: "mrs-roopa-b", name: "Roopa B", designation: "Assistant Professor", qualification: "MTech", doj: "27/08/2021", image: "https://old.atme.edu.in/wp-content/uploads/6.jpg", cvUrl: "https://atme.edu.in/mrs-roopa-b/" },
+  { id: "mr-sandesh-r", name: "Sandesh R", designation: "Assistant Professor", qualification: "MTech", doj: "08/08/2022", image: "https://old.atme.edu.in/wp-content/uploads/2026/02/Sandesh-R-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-sandesh-r/" },
+  { id: "mrs-shrilakshmi-prasad", name: "Shrilakshmi Prasad", designation: "Assistant Professor", qualification: "MTech in Computer Science and Engineering", doj: "05/06/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/SHRILAKSHMI-PRASAD-1.jpg", cvUrl: "https://atme.edu.in/mrs-shrilakshmi-prasad/" },
+  { id: "mrs-ashwini-p", name: "Mrs. Ashwini P", designation: "Assistant Professor", qualification: "MTech in Computer Science and Engineering", doj: "10/06/2024", image: "/__l5e/assets-v1/68b8da23-7152-483b-b3c8-f9ecd8a03ba3/Ashwini-P.jpg", cvUrl: "https://atme.edu.in/mrs-ashwini-p/" },
+  { id: "vanishree", name: "Ms. B S Vanishree", designation: "Assistant Professor", qualification: "MTech", doj: "05/05/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/07/Ms.-B-S-VANISHREE-1-1.jpg", cvUrl: "https://atme.edu.in/vanishree/" },
+  { id: "bindushree-v", name: "Mrs. Bindushree V", designation: "Assistant Professor", qualification: "Pursuing PhD. in Medical Image Processing", doj: "28/07/2021", image: "https://old.atme.edu.in/wp-content/uploads/2026/02/Bindushree-V-1.jpg.jpeg", cvUrl: "https://atme.edu.in/bindushree-v/" },
+  { id: "kaushik-triyambaka-mysur", name: "Mr Kaushik Triyambaka Mysur", designation: "Assistant Professor", qualification: "MTech in Computer Science", doj: "28/07/2021", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Kaushik-Triyambaka-Mysur-1.jpg", cvUrl: "https://atme.edu.in/kaushik-triyambaka-mysur/" },
+  { id: "yashaswini-urs", name: "Ms Yashaswini", designation: "Assistant Professor", qualification: "MSc", doj: "01/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Ms.-Yashaswini-Urs-2.jpg", cvUrl: "https://atme.edu.in/yashaswini-urs/" },
+  { id: "ms-rakshitha-n-m", name: "Ms Rakshitha N M", designation: "Assistant professor", qualification: "MCA", doj: "01/09/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/RAKSHITHA-N-M-1.jpg", cvUrl: "https://atme.edu.in/ms-rakshitha-n-m/" },
+  { id: "ms-kavitha-s", name: "Ms Kavitha S", designation: "Assistant professor", qualification: "MTech", doj: "26/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Ms.-KAVITHA-S-1.jpg", cvUrl: "https://atme.edu.in/ms-kavitha-s/" },
+  { id: "gadi-divyasree", name: "Mrs Gadi Divyasree", designation: "Assistant professor", qualification: "MTech in Computer Science & Engineering, JNT University, Anantapur,-2020", doj: "25/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Gadi-Divyasree-1.jpg", cvUrl: "https://atme.edu.in/gadi-divyasree/" },
+  { id: "darshini-m-s", name: "Mrs Darshini M S", designation: "Assistant professor", qualification: "MTech in Computer Science & Engineering from VTU PG Studies,2019", doj: "28/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/DARSHINI-M-S-1.jpg", cvUrl: "https://atme.edu.in/darshini-m-s/" },
+  { id: "mr-theja-n", name: "Mr Theja N", designation: "Assistant professor", qualification: "MTech", doj: "10/09/2025", image: "", cvUrl: "https://old.atme.edu.in/mr-theja-n/" },
+  { id: "ms-akanksha-v", name: "Ms Akanksha V", designation: "Assistant professor", qualification: "MTech", doj: "25/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/11/Akanksha-V-1.jpg", cvUrl: "https://atme.edu.in/ms-akanksha-v/" },
+  { id: "bhavya-dechamma-k-s", name: "Ms Bhavya Dechamma K S", designation: "Assistant professor", qualification: "MTech", doj: "17/11/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Bhavya-Dechamma-K-S-1.jpg", cvUrl: "https://atme.edu.in/bhavya-dechamma-k-s/" },
+  { id: "arpitha-a", name: "Mrs Arpitha A", designation: "Assistant professor", qualification: "Pursuing PhD. in Visvesvaraya Technological University, Belagavi", doj: "15/10/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/12/Arpitha-A-1-1.jpg", cvUrl: "https://atme.edu.in/arpitha-a/" },
+  { id: "ms-kavyashree-b-l", name: "Ms.Kavyashree B.L", designation: "Assistant Professor", qualification: "MTech in Computer Science & Engineering, City Engineering College, Bangalore, VTU Belagavi – 2016", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Ms.Kavyashree-B.L-1.jpg", cvUrl: "https://atme.edu.in/ms-kavyashree-b-l/" },
+  { id: "k-s-yogesh", name: "K S Yogesh", designation: "SYSTEM ANALYST", qualification: "M.Tech in Software Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/K-S-YOGESH-1.jpg.jpeg", cvUrl: "https://atme.edu.in/k-s-yogesh/" },
+  { id: "rajiv-p", name: "Rajiv P", designation: "FOREMAN", qualification: "BE in COMPUTER SCIENCE & ENGINEERING", doj: "16/09/2013", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/RAJIV-P-1.jpg.jpeg", cvUrl: "https://atme.edu.in/rajiv-p/" },
+  { id: "vinay-kumar-m-n", name: "Vinay Kumar M N", designation: "PROGRAMMER", qualification: "B.E in ECE", doj: "28/12/2021", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/VINAY-KUMAR-MN-1.jpg.jpeg", cvUrl: "https://atme.edu.in/vinay-kumar-m-n/" },
+  { id: "nagappa-tn", name: "Nagappa TN", designation: "Programmer", qualification: "B.E in Computer Science and Engineering", doj: "15 th July 2016", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Nagappa-T-N-1.jpg.jpeg", cvUrl: "https://atme.edu.in/nagappa-tn/" },
+  
+  { id: "rakesh-h-m", name: "Rakesh H M", designation: "ASSISTANT INSTRUCTOR", qualification: "Master of Computer Application", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/03/RAKESH-H-M-1.jpg.jpeg", cvUrl: "https://atme.edu.in/rakesh-h-m/" },
+  { id: "vidyashree-h-m", name: "Vidyashree H M", designation: "Programmer", qualification: "MCA", doj: "29/09/2024", image: "https://old.atme.edu.in/wp-content/uploads/2025/12/Vidyashree-H-M-1.jpg.jpeg", cvUrl: "https://atme.edu.in/vidyashree-h-m/" },
+  { id: "sathisha-h-d", name: "Mr. SATHISHA H D", designation: "Assistant Programmer", qualification: "DIPLOMA Computer Science And Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/12/SATHISHA-H-D-1.jpg", cvUrl: "https://atme.edu.in/sathisha-h-d/" },
+  { id: "sinchana-s", name: "Sinchana S", designation: "Assistant Programmer", qualification: "BE", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/01/Sinchana-S-1.jpg.jpeg", cvUrl: "https://atme.edu.in/sinchana-s/" },
+  { id: "yogesha-k-c", name: "Yogesha K C", designation: "Attender", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Yogesha-K-C-1.jpg.jpeg", cvUrl: "https://atme.edu.in/yogesha-k-c/" },
+  { id: "dhananjaya-k-s", name: "Dhananjaya K S", designation: "Attender", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Dhananjaya-K-S-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dhananjaya-k-s/" },
+  { id: "mrs-kavitha-g", name: "Mrs. Kavitha G", designation: "Attender", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mrs-Kavitha-G-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-kavitha-g/" },
+  { id: "mahesha-b-p", name: "Mr. Mahesha B P", designation: "Attender", qualification: "", doj: "19/01/2026", image: "/__l5e/assets-v1/8f5e95ec-2ca8-4304-925e-a04759385bee/mahesha-b-p.png", cvUrl: "/departments/cse/faculty/mahesha-b-p" },
+
+
+];
+
+export const eceAllFaculty: Faculty[] = [
+  { id: "dr-l-basavaraj", name: "Dr. Basavaraj L", designation: "Principal", qualification: "Ph.D", doj: "01/02/2013", image: "/__l5e/assets-v1/2c5de403-cb15-45f8-80ce-399e44b17c0e/dr-l-basavaraj.jpeg", cvUrl: "https://atme.edu.in/dr-l-basavaraj/" },
+  { id: "dr-s-r-bhagyashree", name: "Dr. S R Bhagyashree", designation: "Dean-Research, Professor", qualification: "Ph.D", doj: "16/07/2011", image: "/__l5e/assets-v1/81200721-6480-43db-a54b-b2e399be5314/dr-s-r-bhagyashree.png", cvUrl: "https://atme.edu.in/dr-s-r-bhagyashree/" },
+  { id: "dr-prathibha-m-k", name: "Dr. Prathiba M K", designation: "Associate Professor & HOD", qualification: "Ph.D", doj: "16/07/2012", image: "/__l5e/assets-v1/e02f9b1e-3cbd-4232-b31b-89535724fbae/dr-prathibha-m-k.jpg", cvUrl: "https://atme.edu.in/dr-prathibha-m-k/" },
+  { id: "dr-manjula-a-v", name: "Dr. Manjula A V", designation: "Associate Professor", qualification: "Ph.D", doj: "28/08/2025", image: "/__l5e/assets-v1/2764de29-a3ca-4e21-bc8f-3edf01000dd9/dr-manjula-a-v.jpg", cvUrl: "https://atme.edu.in/dr-manjula-a-v/" },
+  { id: "dr-veeraprathap-v", name: "Dr. Veeraprathap V", designation: "Associate Professor", qualification: "Ph.D", doj: "02/05/2024", image: "/__l5e/assets-v1/99751a74-695a-4bf5-910c-abba68ef74e5/dr-veeraprathap-v.png", cvUrl: "https://atme.edu.in/dr-veeraprathap-v/" },
+  { id: "mrs-shalini-hanok", name: "Dr. Shalini Hanok", designation: "Associate Professor", qualification: "Ph.D", doj: "26/08/2022", image: "/__l5e/assets-v1/b570dfd1-e0bc-4082-b46c-3096da18151d/mrs-shalini-hanok.jpg", cvUrl: "https://atme.edu.in/mrs-shalini-hanok/" },
+  { id: "mr-guruprasad-k-n", name: "Mr. Guruprasad K N", designation: "Assistant Professor", qualification: "M.Tech in Digital Electronics & Communication Systems", doj: "", image: "/__l5e/assets-v1/7d51c4ae-bcfc-4b7f-b267-f33dde39c5c5/mr-guruprasad-k-n.png", cvUrl: "https://atme.edu.in/mr-guruprasad-k-n/" },
+  { id: "mr-pradeep-kumar-y", name: "Mr. Pradeep Kumar Y", designation: "Assistant Professor", qualification: "M.Tech", doj: "15/07/2013", image: "/__l5e/assets-v1/d270de45-7aaa-440a-9d50-9386f16ccc10/mr-pradeep-kumar-y.png", cvUrl: "https://atme.edu.in/mr-pradeep-kumar-y/" },
+  { id: "chandra-shekar-p", name: "Mr. Chandra Shekar P", designation: "Assistant Professor", qualification: "M.Tech", doj: "15/07/2013", image: "/__l5e/assets-v1/1dc04eec-6641-4bd4-8e64-7cb598dd0e7f/chandra-shekar-p.png", cvUrl: "https://atme.edu.in/chandra-shekar-p/" },
+  { id: "mr-manjunath-k", name: "Mr. Manjunath K", designation: "Assistant Professor", qualification: "M.Tech in VLSI Design & Embedded Systems", doj: "16/07/2015", image: "/__l5e/assets-v1/e7073e1c-06ea-491b-b90f-523adce25dd4/mr-manjunath-k.png", cvUrl: "https://atme.edu.in/mr-manjunath-k/" },
+  { id: "mr-girish-m", name: "Mr. Girish M", designation: "Assistant Professor", qualification: "M.Tech", doj: "15/07/2015", image: "/__l5e/assets-v1/708ba8bc-f93f-4ed8-be01-412a56071b71/mr-girish-m.png", cvUrl: "https://atme.edu.in/mr-girish-m/" },
+  { id: "mrs-juslin-f", name: "Mrs. Juslin F", designation: "Assistant Professor", qualification: "MTech in Digital Electronics & Communication Systems", doj: "08/07/2016", image: "/__l5e/assets-v1/43b8921e-938b-4835-9f4a-ec8269062735/mrs-juslin-f.png", cvUrl: "https://atme.edu.in/mrs-juslin-f/" },
+  { id: "ms-anupama-shetter", name: "Ms. Anupama Shetter", designation: "Assistant Professor", qualification: "M.Tech", doj: "01/08/2017", image: "/__l5e/assets-v1/9144a23c-fa47-4132-baec-1f105bd3efe6/ms-anupama-shetter.png", cvUrl: "https://atme.edu.in/ms-anupama-shetter/" },
+  { id: "ms-mythri-r", name: "Ms. Mythri R", designation: "Assistant Professor", qualification: "M.Tech", doj: "30/06/2023", image: "/__l5e/assets-v1/a809e732-8970-4e43-b565-a255290a87c8/ms-mythri-r.png", cvUrl: "https://atme.edu.in/ms-mythri-r/" },
+  { id: "rajeev-gowda-r", name: "Mr. Rajeev Gowda R", designation: "Assistant Professor", qualification: "M.Tech", doj: "23/01/2023", image: "/__l5e/assets-v1/277d8658-cafd-4ad8-91d6-4168ab862b0d/rajeev-gowda-r.png", cvUrl: "https://atme.edu.in/rajeev-gowda-r/" },
+  { id: "swetha-k-t", name: "Mrs. Swetha K T", designation: "Assistant Professor", qualification: "M.Tech", doj: "04/06/2024", image: "/__l5e/assets-v1/5caeefe9-e859-4468-accf-e606d8cac652/swetha-k-t.jpeg", cvUrl: "https://atme.edu.in/swetha-k-t/" },
+  { id: "madhurya-b-eshwar", name: "Mrs. Madhurya B Eshwar", designation: "Assistant Professor", qualification: "M.Tech", doj: "03/03/2025", image: "/__l5e/assets-v1/aca1e85d-9edb-4ee0-97c6-c2ef8a834513/madhurya-b-eshwar.png", cvUrl: "https://atme.edu.in/madhurya-b-eshwar/" },
+  { id: "mr-nagesh-m-s", name: "Mr. Nagesh M S", designation: "Assistant Professor", qualification: "M.Tech", doj: "05-06-2025", image: "/__l5e/assets-v1/bb483445-c0af-4a29-bc02-7afc35d17f6d/mr-nagesh-m-s.png", cvUrl: "https://atme.edu.in/mr-nagesh-m-s/" },
+  { id: "mr-manjunatha-h-r", name: "Mr. Manjunatha H R", designation: "Foreman", qualification: "Diploma", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Manjunatha-H-R-2.jpg", cvUrl: "https://atme.edu.in/mr-manjunatha-h-r/" },
+  { id: "soma-sundara", name: "Soma Sundara", designation: "Instructor", qualification: "BE in Electronics and Communication Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Soma-Sundara-2.jpg", cvUrl: "https://atme.edu.in/soma-sundara/" },
+  { id: "srikanta-murthy-b", name: "Srikanta Murthy B", designation: "Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Srikanta-Murthy-B-2.jpg", cvUrl: "https://atme.edu.in/srikanta-murthy-b/" },
+  { id: "karunakara-babu", name: "Karunakara Babu", designation: "Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Karunakara-Babu-2.jpg", cvUrl: "https://atme.edu.in/karunakara-babu/" },
+  { id: "manuloka-h-g", name: "Manuloka H G", designation: "Instructor", qualification: "BE in Electronics and Communication Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/08/Mr.-Manuloka-H-G-2.jpg", cvUrl: "https://atme.edu.in/manuloka-h-g/" },
+];
+
+export const eeeAllFaculty: Faculty[] = [
+  { id: "dr-parthasarathy-l", name: "Dr. Parthasarathy L", designation: "Professor and Head", qualification: "PhD", doj: "18.07.2011", image: "/__l5e/assets-v1/21df3cc3-c2ed-4c77-bf76-7a1c2449949d/Dr-Parthasarathy-L-new.png", cvUrl: "https://atme.edu.in/dr-parthasarathy-l/" },
+  { id: "mr-raghavendra-l", name: "Dr. Raghavendra L", designation: "Associate Professor", qualification: "PhD", doj: "18.07.2014", image: "/__l5e/assets-v1/9bad81a4-373d-4a0a-849f-e0269d9d2506/Dr-Raghavendra-L.jpeg", cvUrl: "https://atme.edu.in/mr-raghavendra-l/" },
+  { id: "dr-sathish-k-r", name: "Dr. Sathish K R", designation: "Assistant Professor", qualification: "PhD", doj: "16.07.2012", image: "/__l5e/assets-v1/f7c64fed-799e-4e40-b169-f1fdcee8c30e/Dr-Sathish-K-R.png", cvUrl: "https://atme.edu.in/dr-sathish-k-r/" },
+  { id: "mr-praveen-kumar-m", name: "Dr.Praveen Kumar M", designation: "Assistant Professor", qualification: "PhD", doj: "01.02.2013", image: "/__l5e/assets-v1/b8d7032d-e71d-4fd2-aa9f-7264e68524d2/Dr-Praveen-Kumar-M.jpg", cvUrl: "https://atme.edu.in/mr-praveen-kumar-m/" },
+  { id: "mr-shreeshayana-r", name: "Mr.Shreeshayana R", designation: "Assistant Professor", qualification: "MTech", doj: "17.07.2013", image: "/__l5e/assets-v1/baa724af-6b18-4cd4-85a3-168aa0d9ebb5/Shreeshayana-R.png", cvUrl: "https://atme.edu.in/mr-shreeshayana-r/" },
+  { id: "mohan-m", name: "Mr.Mohan M", designation: "Assistant Professor", qualification: "MTech", doj: "11.02.2013", image: "/__l5e/assets-v1/518df682-8b07-4fbd-9fbc-b39c490581bc/Mohan-M.jpg", cvUrl: "https://atme.edu.in/mohan-m/" },
+  { id: "ms-swapna-h", name: "Ms.Swapna H", designation: "Assistant Professor", qualification: "MTech", doj: "17.08.2016", image: "/__l5e/assets-v1/3ae7f0bc-436c-4945-bcbf-c58d8a503c63/Swapna-H.jpg", cvUrl: "https://atme.edu.in/ms-swapna-h/" },
+  
+  { id: "mrs-kavyashree-s", name: "Mrs.Kavyashree S", designation: "Assistant Professor", qualification: "MTech", doj: "12.06.2023", image: "/__l5e/assets-v1/70470c9d-c11e-4bf7-b390-0806cc485003/Kavyashree-S.jpeg", cvUrl: "https://atme.edu.in/mrs-kavyashree-s/" },
+  { id: "mrs-swathi-c-a", name: "Mrs.Swathi C A", designation: "Assistant Professor", qualification: "MTech", doj: "12/06/2023", image: swathiCA.url, cvUrl: "https://atme.edu.in/mrs-swathi-c-a/" },
+  { id: "shilpashri-v-n", name: "Mrs. Shilpashri V N", designation: "Assistant Professor", qualification: "", doj: "", image: "/__l5e/assets-v1/b4fe7fdb-4eea-43d0-ab11-2755297173c8/Shilpashri-V-N.png", cvUrl: "https://atme.edu.in/shilpashri-v-n/" },
+  { id: "yasin-sharief", name: "Yasin Sharief", designation: "Foreman", qualification: "BE in Electrical and Electronics Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Yasin-Sharief-1-1.jpg", cvUrl: "https://atme.edu.in/yasin-sharief/" },
+  { id: "kushal-r", name: "Kushal R", designation: "Instructor", qualification: "", doj: "", image: "https://atme.edu.in/wp-content/uploads/2022/12/kush.png", cvUrl: "https://atme.edu.in/kushal-r/" },
+  { id: "sunil-kumar-l", name: "Mr. Sunil Kumar L", designation: "Instructor", qualification: "Diploma in Electrical and Electronics Engineering", doj: "01/03/2017", image: "/__l5e/assets-v1/8406a0ad-141e-4b5d-8c3a-99cec28eaf67/sunil-kumar-l.png", cvUrl: "https://atme.edu.in/sunil-kumar-l/" },
+  { id: "rajesh-n", name: "Mr. Rajesh N", designation: "Mechanic", qualification: "ITI", doj: "05/08/2024", image: rajeshN.url, cvUrl: "" },
+  { id: "m-u-giridarshan", name: "M U Giridarshan", designation: "Assistant Instructor", qualification: "Bachelor of Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/M-U-GIRIDARSHAN-1.jpg", cvUrl: "https://atme.edu.in/m-u-giridarshan/" },
+  { id: "sindhu-n", name: "Sindhu N", designation: "Assistant Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Sindhu-N-1.jpg", cvUrl: "https://atme.edu.in/sindhu-n/" },
+  { id: "mr-lohit-kumar-m-c-2", name: "Mr. Lohit Kumar M C", designation: "Attender", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Mr.-Lohit-Kumar-M-C-1.jpg", cvUrl: "https://atme.edu.in/mr-lohit-kumar-m-c-2/" },
+  { id: "mrs-anusha-b-s", name: "Mrs. Anusha B S", designation: "Attender", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Mrs.-Anusha-B-S-1.jpg", cvUrl: "https://atme.edu.in/mrs-anusha-b-s/" },
+
+];
+
+export const meAllFaculty: Faculty[] = [
+  { id: "dr-srinivasa-k", name: "Dr. Srinivasa K", designation: "Professor & Dean Student Affairs", qualification: "BE, M.Tech, Ph.D", doj: "13/09/2010", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://old.atme.edu.in/dr-srinivasa-k/" },
+  { id: "mr-ravikumar-s", name: "Mr. Ravikumar S", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "26/05/2012", image: "/__l5e/assets-v1/c3a1f515-69a4-48f8-916f-01b6cc4f6dec/mr.-ravi-kumar-s-1.jpg", cvUrl: "https://old.atme.edu.in/mr-ravikumar-s/" },
+  { id: "devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "19/08/2022", image: "/__l5e/assets-v1/54e032df-fd86-497f-9102-ac1dbab55fe5/prof.-devaraj-mr-1.jpg", cvUrl: "https://old.atme.edu.in/devaraj-m-r/" },
+  { id: "dr-chethan-s", name: "Dr. Chethan S", designation: "Associate Dean Academics, Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "15/07/2014", image: "/__l5e/assets-v1/e19510b2-7ab1-462d-b546-e8a8a71fc37c/dr.-chethan-s.jpg", cvUrl: "https://old.atme.edu.in/dr-chethan-s/" },
+  { id: "mr-rohith-s", name: "Mr. Rohith S", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "04/07/2016", image: "/__l5e/assets-v1/9880dbb7-73a4-48f3-8c35-1a76dc24efc4/rohith-s.jpg", cvUrl: "https://old.atme.edu.in/mr-rohith-s/" },
+  { id: "mr-chetana-s", name: "Mr. Chetan S", designation: "Assistant Professor", qualification: "BE, M.Tech, Ph.D", doj: "03/02/2023", image: "/__l5e/assets-v1/fb144a66-8307-4ef8-aa23-29181590f632/dr.-chetana-s.jpg", cvUrl: "https://old.atme.edu.in/mr-chetana-s/" },
+  { id: "mr-sukruth-sagar-b-p", name: "Mr. Sukruth Sagar B P", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "14/06/2024", image: "/__l5e/assets-v1/f7da68b6-1eff-4537-aaf5-3adac9c5ff56/sukruth-sagar-b-p.jpg", cvUrl: "https://old.atme.edu.in/mr-sukruth-sagar-b-p/" },
+  { id: "mr-pradeep-kumar-k-b", name: "Mr. Pradeep Kumar K B", designation: "Instructor", qualification: "MA & ITI", doj: "", image: "/__l5e/assets-v1/bad7ddeb-e06a-45d8-b589-366588e7f881/mr.-pradeep-kumar-k-b.jpg", cvUrl: "https://old.atme.edu.in/mr-pradeep-kumar-k-b/" },
+  { id: "madesha-s", name: "Mr. Madesha S", designation: "Foreman", qualification: "Diploma in Mechanical Engineering", doj: "", image: "/__l5e/assets-v1/32b7a0c0-8052-4787-ab02-3e821ec91bef/mr.-madesha-s-1.jpg", cvUrl: "https://old.atme.edu.in/madesha-s/" },
+  { id: "mr-ravikumara-m-p", name: "Mr. Ravikumara M P", designation: "Instructor", qualification: "Diploma in Mechanical Engineering", doj: "", image: "/__l5e/assets-v1/9775765b-5911-42d5-96d3-bd7cebee87bb/mr.-ravi-kumar-m-p.jpg", cvUrl: "https://old.atme.edu.in/mr-ravikumara-m-p/" },
+  { id: "mr-h-c-chidambara", name: "Mr. H C Chidambara", designation: "Instructor", qualification: "ITI", doj: "", image: "/__l5e/assets-v1/cea80375-506c-4dfb-8c66-7e9faf623071/mr.-h.-c.-chidambara.jpg", cvUrl: "https://old.atme.edu.in/mr-h-c-chidambara/" },
+  { id: "nagendra-r", name: "Mr. Nagendra R", designation: "Attender", qualification: "SSLC", doj: "", image: "/__l5e/assets-v1/66f29778-3b74-41ac-a115-a4bf3d5bdc52/mr.-nagendra-r.jpg", cvUrl: "https://old.atme.edu.in/nagendra-r/" },
+  { id: "mr-lohit-kumar-m-c", name: "Mr. Lohit Kumar M C", designation: "Attender", qualification: "", doj: "", image: "/__l5e/assets-v1/1d086ea3-f7e0-4a7a-8db6-2d34ccc39a5f/mr.-lohit-kumar-m-c.jpg", cvUrl: "https://old.atme.edu.in/mr-lohit-kumar-m-c/" },
+];
+
+export const ceAllFaculty: Faculty[] = [
+  { id: "jyothi-d-n", name: "Dr. Jyothi D N", designation: "Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "14.07.2015", image: "/__l5e/assets-v1/4904c83f-30c2-4b71-a895-eff19eae3c2c/Jyothi-D-N.jpg", cvUrl: "https://old.atme.edu.in/jyothi-d-n/" },
+  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor", qualification: "B.E, M.Tech, Ph.D", doj: "", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
+
+  { id: "mr-manu-vijay", name: "Mr. Manu Vijay", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "21.08.2012", image: "/__l5e/assets-v1/fb43e973-3996-4ab8-9649-690959f0513c/Manu-Vijay.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-vijay/" },
+  { id: "mrs-shruthi-h-g", name: "Dr. Shruthi H G", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "17.07.2014", image: "/__l5e/assets-v1/5c3a6605-6649-43ee-8dca-f54abb0922fd/Shruthi-H-G.jpg", cvUrl: "https://old.atme.edu.in/mrs-shruthi-h-g/" },
+  { id: "bharathi-b", name: "Mrs. Bharathi B", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "10.08.2015", image: "/__l5e/assets-v1/c5c627fc-e11e-42f4-b623-d2163e081dd2/Bharathi-B.jpg", cvUrl: "https://old.atme.edu.in/bharathi-b/" },
+  { id: "mr-rudresh-a-n", name: "Mr. Rudresh A N", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "12.08.2015", image: "/__l5e/assets-v1/b2757fef-f204-4366-bdd8-a616279f530b/Rudresh-A-N.jpg", cvUrl: "https://old.atme.edu.in/mr-rudresh-a-n/" },
+  { id: "puneeth-k", name: "Mr. Puneeth K", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "05.08.2017", image: "/__l5e/assets-v1/eb111848-1132-45ec-a948-cffb95c0b4a5/Puneeth-K.jpg", cvUrl: "https://old.atme.edu.in/puneeth-k/" },
+  { id: "namitha-a-p", name: "Mrs. Namitha A P", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "24.08.2020", image: "/__l5e/assets-v1/bb705d52-0a5e-4097-b285-e621ca00138c/Namitha-A-P.jpg", cvUrl: "https://old.atme.edu.in/namitha-a-p/" },
+  { id: "akhila-c-g", name: "Mrs. Akhila C G", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "29.08.2022", image: "/__l5e/assets-v1/cbd327af-f086-4713-bd4b-f36986febc01/Akhila-C-G-new.jpg", cvUrl: "https://old.atme.edu.in/akhila-c-g/" },
+  { id: "likhit-m-l", name: "Mr. Likhit M L", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "09.10.2025", image: "/__l5e/assets-v1/17f43612-419f-44fb-96ef-b215c28da574/Likhit-M-L.jpg", cvUrl: "https://old.atme.edu.in/likhit-m-l/" },
+  { id: "mr-jayaram-b-s", name: "Mr. Jayaram B S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "/__l5e/assets-v1/d8aa23ca-935b-43a4-b408-84dcffd4bb3c/JAYARAM-B-S-2.jpg", cvUrl: "https://old.atme.edu.in/mr-jayaram-b-s/" },
+  { id: "ms-siddamma-s", name: "Ms. Siddamma S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/09/SIDDAMMA-S.jpg", cvUrl: "https://old.atme.edu.in/ms-siddamma-s/" },
+  { id: "mr-manu-kumar-k", name: "Mr. Manu Kumar K", designation: "Attender", qualification: "SSLC", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/09/MANU-KUMAR-K.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-kumar-k/" },
+];
+
+export const dsAllFaculty: Faculty[] = [
+  { id: "dr-anitha-d-b-new", name: "Dr. Anitha D B", designation: "Associate Professor", qualification: "PhD", doj: "24/04/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Dr-Anitha-D-B-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dr-anitha-d-b-new/" },
+  { id: "dr-vinod-kumar-p-2", name: "Dr. Vinod Kumar P", designation: "Associate Professor", qualification: "PhD", doj: "01/02/2013", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Dr.-Vinod-Kumar-P-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dr-vinod-kumar-p-2/" },
+  { id: "dr-neethi-m-v", name: "Dr. Neethi M V", designation: "Assistant Professor", qualification: "PhD", doj: "30/06/2023", image: "", cvUrl: "" },
+  { id: "mrs-madhu-nagaraj", name: "Mrs. Madhu Nagaraj", designation: "Assistant Professor", qualification: "MTech", doj: "30/06/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Mrs.-Madhu-Nagaraj-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-madhu-nagaraj/" },
+  { id: "mrs-ambika-v", name: "Ms. Ambika V", designation: "Assistant Professor", qualification: "MTech", doj: "03/06/2024", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Mrs-AMBIKA-V-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-ambika-v/" },
+  { id: "j-n-karthik", name: "Mr. J N Karthik", designation: "Assistant Professor", qualification: "MTech", doj: "01/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Mr.-J-N-Karthik-1.jpg.jpeg", cvUrl: "https://atme.edu.in/j-n-karthik/" },
+  { id: "ms-sushmitha-n", name: "Ms. Sushmitha N", designation: "Assistant Professor", qualification: "MTech", doj: "17/11/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Ms.-Sushmitha-N-1.jpg.jpeg", cvUrl: "https://atme.edu.in/ms-sushmitha-n/" },
+  { id: "babuprasad-b", name: "Babuprasad B", designation: "Instructor", qualification: "Diploma in EC", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2023/08/Babuprasad-B.jpg", cvUrl: "https://atme.edu.in/babuprasad-b/" },
+  { id: "bhoomika-a-l", name: "Bhoomika A L", designation: "Instructor", qualification: "MCA", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/12/Bhoomika-A-L.jpg", cvUrl: "https://atme.edu.in/bhoomika-a-l/" },
+  { id: "hemanth-kumar-k", name: "Hemanth Kumar K", designation: "Assistant Instructor", qualification: "BE in ECE", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/02/Hemanth-Kumar-K-1.jpg.jpeg", cvUrl: "https://atme.edu.in/hemanth-kumar-k/" },
+  { id: "yashwanth-m-s", name: "Yashwanth M S", designation: "Attender", qualification: "SSLC", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/12/Yashwanth-M-S.jpg", cvUrl: "https://atme.edu.in/yashwanth-m-s/" },
+
+];
+
+export const cseStaff: Faculty[] = [
+];
+
+export const eceStaff: Faculty[] = [
+];
+
+export const eeeStaff: Faculty[] = [
+];
+
+export const meStaff: Faculty[] = [
+  { id: "madesha-s", name: "Madesha S", designation: "Technical Staff", qualification: "Diploma in Mechanical Engineering", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/12/Mr.-Madesha-S-2.jpg", cvUrl: "https://atme.edu.in/madesha-s/" },
+];
+
+export const ceStaff: Faculty[] = [
+];
+
+export const dsStaff: Faculty[] = [
+];
+
+// Auto-added: AIML / CSD / CY / MBA / MCA faculty
+export const aimlAllFaculty: Faculty[] = [
+  { id: "mr-anil-kumar-c-j", name: "Dr. Anil Kumar C J", designation: "Associate Professor", qualification: "PhD", doj: "16/07/2012", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Dr.-ANIL-KUMAR-C-J-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-anil-kumar-c-j/" },
+  { id: "uma-mahesh-r-n", name: "Dr. Uma Mahesh", designation: "Associate Professor", qualification: "PhD", doj: "12/02/2024", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Prof.-Uma-Mahesh-R-N-1.jpg.jpeg", cvUrl: "https://atme.edu.in/uma-mahesh-r-n/" },
+  { id: "hussana-johar-r-b", name: "Dr. Hussana Johar.R.B", designation: "Associate Professor", qualification: "PhD", doj: "01/12/2022", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Dr-Hussana-Johar-R-B-1.jpg.jpeg", cvUrl: "https://atme.edu.in/hussana-johar-r-b/" },
+  { id: "mrs-vanitha-g-naik", name: "Mrs. Vanitha G Naik", designation: "Assistant Professor", qualification: "MTech", doj: "12/06/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Vanitha-G-Naik-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-vanitha-g-naik/" },
+  { id: "dr-khateeja-ambareen", name: "Dr. Khateeja Ambareen", designation: "Assistant Professor", qualification: "MTech", doj: "28/08/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Mrs.-Khateeja-Ambareen-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dr-khateeja-ambareen/" },
+  { id: "likitha-d", name: "Likitha D", designation: "Assistant Professor", qualification: "MTech", doj: "18/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/LIKITHA.D-1.jpg.jpeg", cvUrl: "https://atme.edu.in/likitha-d/" },
+  { id: "apoorva-s-m", name: "Apoorva S M", designation: "Assistant Professor", qualification: "MTech", doj: "01/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/APOORVA-S-M-1.jpg.jpeg", cvUrl: "https://atme.edu.in/apoorva-s-m/" },
+  { id: "mrs-suma-h-c", name: "Suma H C", designation: "Assistant Professor", qualification: "MTech", doj: "28/01/2026", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Suma-H-C-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-suma-h-c/" },
+  { id: "manjunath-h", name: "Manjunath H", designation: "Instructor", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/07/Manjunath-H.jpg", cvUrl: "https://atme.edu.in/manjunath-h/" },
+  { id: "geetha-b", name: "Geetha B", designation: "Instructor", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/07/Geetha-B.jpg", cvUrl: "https://atme.edu.in/geetha-b/" },
+  { id: "ruchitha-b-s", name: "Ruchitha B S", designation: "Programmer", qualification: "MCA, in Master of Computer Applications, Maharani cluster university Bangalore", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/11/RUCHITHA-B-S-1.jpg", cvUrl: "https://atme.edu.in/ruchitha-b-s/" },
+  { id: "basavaraju-k-n", name: "Basavaraju K N", designation: "Attender", qualification: "SSLC, ITI (Fitter)", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2023/07/Basavaraju-K-N-2.jpg", cvUrl: "https://atme.edu.in/basavaraju-k-n/" },
+
+];
+export const aimlStaff: Faculty[] = [];
+export const csdAllFaculty: Faculty[] = [
+  { id: "nasreen-fathima", name: "Dr. Nasreen Fathima", designation: "Associate Professor and Head", qualification: "PhD", doj: "23/07/2014", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-Nasreen-Fathima-1-1.jpg", cvUrl: "https://atme.edu.in/nasreen-fathima/" },
+  { id: "dr-pavithra-a-c", name: "Dr. Pavithra A.C", designation: "Associate Professor", qualification: "PhD", doj: "16-7-2012", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-PAVITHRA-A-C-1.jpg", cvUrl: "https://atme.edu.in/dr-pavithra-a-c/" },
+  { id: "dr-shwetha-g-k", name: "Dr. Shwetha G K", designation: "Associate Professor", qualification: "BE., MTech., PhD", doj: "05-02-2026", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-Shwetha-G-K-1.jpg", cvUrl: "https://atme.edu.in/dr-shwetha-g-k/" },
+  { id: "mr-yogesh-n", name: "Mr. Yogesh.N", designation: "Assistant Professor", qualification: "MTech", doj: "22/05/2023", image: "https://old.atme.edu.in/wp-content/uploads/2023/05/YOGESH-N-2-1.jpg", cvUrl: "https://atme.edu.in/mr-yogesh-n/" },
+  { id: "darshini-y", name: "Ms. Darshini.Y", designation: "Assistant Professor", qualification: "MTech", doj: "23/07/2023", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Ms.-Darshini-Y-1.jpg", cvUrl: "https://atme.edu.in/darshini-y/" },
+  
+  { id: "dr-mrs-divya-n", name: "Mrs. Divya N", designation: "Assistant Professor", qualification: "MTech in Computer Science and Engineering", doj: "1/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/DIVYA-N-1.jpg", cvUrl: "https://atme.edu.in/dr-mrs-divya-n/" },
+  { id: "shashank-patil", name: "Mr. Shashank Patil", designation: "Assistant Professor", qualification: "MTech", doj: "28/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Shashank-Patil-1.jpg.jpeg", cvUrl: "https://atme.edu.in/shashank-patil/" },
+  { id: "lavanya-n", name: "Mrs. Lavanya.N", designation: "Assistant Professor", qualification: "", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/5.jpg", cvUrl: "https://atme.edu.in/lavanya-n/" },
+  { id: "pushpa-p", name: "Mrs. Pushpa.P", designation: "Assistant Professor", qualification: "UG: BE (CSE)", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2024/03/Pushpa-P.jpg", cvUrl: "https://atme.edu.in/pushpa-p/" },
+  { id: "janhavi-nandish", name: "Mrs. Janhavi Nandish", designation: "Assistant Professor", qualification: "MTech in Computer Science & Engineering 2018", doj: "03/02/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/05/Janhavi-Nandish-2.jpg", cvUrl: "https://atme.edu.in/janhavi-nandish/" },
+  { id: "harshitha-m-k", name: "Ms. Harshitha M K", designation: "Assistant Professor", qualification: "M.Tech in Software Engineering; B.E in Computer Science & Engineering", doj: "", image: "/__l5e/assets-v1/e5404074-e29e-4978-9a35-1a33ed61b4cd/harshitha-m-k.jpg", cvUrl: "/departments/csd/faculty/harshitha-m-k" },
+  { id: "pardeepu-j", name: "Pardeepu J", designation: "", qualification: "DIPLOMA IN ELECTRONICS & COMMUNICATION", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/04/PARDEEPU-J-2.jpg", cvUrl: "https://atme.edu.in/pardeepu-j/" },
+  { id: "mahadeva-swamy-dm", name: "Mahadeva Swamy Dm", designation: "Programmer", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2023/08/MAHADEVA-SWAMY-DM-1.jpg", cvUrl: "https://atme.edu.in/mahadeva-swamy-dm/" },
+  { id: "mukesh-k", name: "Mukesh K", designation: "Instructor", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/04/MUKESH-K-2.jpg", cvUrl: "https://atme.edu.in/mukesh-k/" },
+
+];
+export const csdStaff: Faculty[] = [];
+export const cyAllFaculty: Faculty[] = [
+  { id: "nasreen-fathima", name: "Nasreen Fathima", designation: "Associate Professor", qualification: "PhD", doj: "23/07/2014", image: "https://old.atme.edu.in/wp-content/uploads/2026/05/Dr.-Nasreen-Fathima-1-1.jpg", cvUrl: "https://atme.edu.in/nasreen-fathima/" },
+  { id: "dr-pavithra-m-s", name: "Dr.Pavithra M.S", designation: "Associate Professor", qualification: "PhD", doj: "20/07/2023", image: "https://old.atme.edu.in/wp-content/uploads/2024/06/Pavithra-M-S.jpg", cvUrl: "https://atme.edu.in/dr-pavithra-m-s/" },
+  { id: "suhasini", name: "Mrs. Suhasini", designation: "Assistant Professor", qualification: "Pursuing PhD", doj: "28/1/2026", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Mrs.Suhasini-1.jpg", cvUrl: "https://atme.edu.in/suhasini/" },
+  { id: "mrs-razikha-amreen-m-i", name: "Mrs.Razikha Amreen M I", designation: "Assistant Professor", qualification: "Pursuing PhD in Machine Learning and Artificial Intelligence", doj: "22/09/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/10/Razikha-amreen-M-I-1-1.jpg", cvUrl: "https://atme.edu.in/mrs-razikha-amreen-m-i/" },
+  { id: "ms-sandhya-g", name: "Ms.Sandhya G", designation: "Assistant Professor", qualification: "MTech", doj: "01/08/2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Ms.Sandhya-G-1.jpg", cvUrl: "https://atme.edu.in/ms-sandhya-g/" },
+  { id: "mr-chetan-godinal", name: "Mr.Chethan Godinal", designation: "Assistant Professor", qualification: "MTech in Computer Science and Engineering-2025", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2026/03/Chetan-Godinal-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-chetan-godinal/" },
+  { id: "mrs-pallavi-r", name: "Mrs. Pallavi R", designation: "Assistant Professor", qualification: "MBA", doj: "23/02/2026", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Mrs.Pallavi-R-1.jpg", cvUrl: "https://atme.edu.in/mrs-pallavi-r/" },
+  { id: "ms-shambhavi-k-a", name: "Ms.Shambhavi K.A", designation: "Assistant Professor", qualification: "MTech", doj: "09-06-2025", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Ms.Shambhavi-1.jpg", cvUrl: "https://atme.edu.in/ms-shambhavi-k-a/" },
+  { id: "pardeepu-j", name: "Pardeepu J", designation: "", qualification: "DIPLOMA IN ELECTRONICS & COMMUNICATION", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/04/PARDEEPU-J-2.jpg", cvUrl: "https://atme.edu.in/pardeepu-j/" },
+  { id: "mukesh-k", name: "Mukesh K", designation: "Instructor", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/04/MUKESH-K-2.jpg", cvUrl: "https://atme.edu.in/mukesh-k/" },
+
+];
+export const cyStaff: Faculty[] = [];
+export const mcaAllFaculty: Faculty[] = [
+  { id: "dr-shakunthala-c", name: "Dr Shakunthala C", designation: "Associate Professor & Head", qualification: "Ph.D in Electrical and Electronics Engineering; M.Tech in Computer Applications in Industrial Drives; B.E in Electrical and Electronics Engineering", doj: "15/04/2021", image: "https://old.atme.edu.in/wp-content/uploads/2022/09/Dr.-Shakunthala-C-2.jpg", cvUrl: "https://atme.edu.in/dr-shakunthala-c/" },
+  { id: "dr-basanth-kumar", name: "Dr. Basanth Kumar", designation: "Associate Professor", qualification: "Ph.D; MCA (Master of Computer Applications); B.Sc.", doj: "11/05/2026", image: "/__l5e/assets-v1/9fb25a17-6c04-44ff-9ce6-87f8d71487e8/mca-Basanth_Kumar.png", cvUrl: "/p/dr-basanth-kumar" },
+  { id: "siddegowda-c-j", name: "Dr. Siddegowda C J", designation: "Assistant Professor", qualification: "Ph.D; MCA; B.Sc in Computer Science", doj: "27/05/2024", image: "/__l5e/assets-v1/523dd97f-ee1d-4790-9901-4baeec1a668b/mca-Siddegowda_Photo.jpeg", cvUrl: "https://atme.edu.in/siddegowda-c-j/" },
+  { id: "yeshashwini-bhandari-k-r", name: "Yeshashwini Bhandari K R", designation: "Assistant Professor", qualification: "Ph.D (Pursuing); MCA in Computer Applications; B.Sc in Computer Science", doj: "10/06/2024", image: "/__l5e/assets-v1/6183f54b-a3ec-45a1-9d81-a252848f60ce/mca-Yeshashwini_Bhandari_K_R.png", cvUrl: "https://atme.edu.in/yeshashwini-bhandari-k-r/" },
+  { id: "prashant-r-kaigaddi", name: "Prashant R Kaigaddi", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "19/08/2024", image: "https://old.atme.edu.in/wp-content/uploads/2024/11/Prashant-R-Kaigaddi.jpg", cvUrl: "https://atme.edu.in/prashant-r-kaigaddi/" },
+  { id: "tanya-r", name: "Tanya R", designation: "Assistant Professor", qualification: "Ph.D (Pursuing); MCA; BCA", doj: "23/10/2024", image: "https://old.atme.edu.in/wp-content/uploads/2024/11/Tanya-R-1-1.jpg", cvUrl: "https://atme.edu.in/tanya-r/" },
+  { id: "harshitha-h-b", name: "Harshitha H B", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "25/10/2024", image: "https://old.atme.edu.in/wp-content/uploads/2024/11/Ms.-Harshitha-H.-B-2.jpg", cvUrl: "https://atme.edu.in/harshitha-h-b/" },
+  { id: "vijay-kumar-s", name: "Vijay Kumar S", designation: "Assistant Professor", qualification: "MCA; B.Sc in Computer Science", doj: "25/10/2024", image: "https://old.atme.edu.in/wp-content/uploads/2024/11/Vijay-kumar-S.jpg", cvUrl: "https://atme.edu.in/vijay-kumar-s/" },
+  { id: "manikanta", name: "Manikanta", designation: "Assistant Professor", qualification: "Ph.D (Pursuing); MCA; BCA", doj: "23/09/2024", image: "/__l5e/assets-v1/22fbb97b-4251-4a70-a014-45c51cc8ac86/mca-Manikanta_Photo.png", cvUrl: "https://atme.edu.in/manikanta/" },
+  { id: "umme-hani-sharrif", name: "Umme Hani Sharrif", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "28/04/2025", image: "/__l5e/assets-v1/19a3f31b-d111-420b-95a9-72c1e237d3dd/mca-Hani_Photo.png", cvUrl: "https://atme.edu.in/umme-hani-sharrif/" },
+  { id: "poojitha-s", name: "Poojitha S", designation: "Assistant Professor", qualification: "MCA; B.Sc in Computer Science", doj: "11/08/2025", image: "/__l5e/assets-v1/f5553e14-a4bd-4b7b-99bb-94dd84e888d6/mca-Poojitha.jpeg", cvUrl: "https://atme.edu.in/poojitha-s/" },
+  { id: "gowtham-mg", name: "Gowtham M G", designation: "Assistant Professor", qualification: "MCA; B.Sc in Computer Science", doj: "22/09/2025", image: "/__l5e/assets-v1/63661fed-c824-41e5-ab06-4086c1d819f9/mca-Gowtham_Photo.png", cvUrl: "https://atme.edu.in/gowtham-mg/" },
+  { id: "yathiraj-d-n", name: "Yathiraj D N", designation: "Assistant Professor", qualification: "MCA; B.Sc", doj: "22/09/2025", image: "/__l5e/assets-v1/fccc7e26-2813-4801-bd91-d45b6d0108bc/mca-Yathiraj_Photo.png", cvUrl: "https://atme.edu.in/yathiraj-d-n/" },
+  { id: "keerthi-h", name: "Keerthi H", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "25/09/2025", image: "/__l5e/assets-v1/9c6c475f-6d31-42b6-a24a-f39d5f628df3/mca-Keerthi_Photo.jpeg", cvUrl: "https://atme.edu.in/keerthi-h/" },
+  { id: "sushmitha-b-h", name: "Sushmitha B H", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "24/10/2025", image: "/__l5e/assets-v1/9fc1a4e6-1831-45fd-991d-3b8fdab20d39/mca-Sushmitha_Photo.jpeg", cvUrl: "https://atme.edu.in/sushmitha-b-h/" },
+  { id: "teharin", name: "Teharin", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "20/05/2026", image: "/__l5e/assets-v1/86adcc69-d97f-452a-85b1-3c938b515c5f/mca-Teharin_Photo.png", cvUrl: "/p/teharin" },
+  { id: "clara-b", name: "Clara B", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "22/05/2026", image: "/__l5e/assets-v1/f74704cb-1416-4f1b-a390-f0f150ab8fc5/mca-Clara_Photo.png", cvUrl: "/p/clara-b" },
+  { id: "jayaprakash", name: "Jayaprakash", designation: "Instructor", qualification: "Diploma in ECE", doj: "01/08/2013", image: jayaprakashN.url, cvUrl: "/p/jayaprakash" },
+  { id: "bhumika-v-r", name: "Bhumika V R", designation: "Programmer", qualification: "MCA; BCA", doj: "02/09/2024", image: "https://old.atme.edu.in/wp-content/uploads/2025/11/Bhumika-V-R-1.jpg", cvUrl: "https://atme.edu.in/bhumika-v-r/" },
+  { id: "kruthika-n", name: "Kruthika N", designation: "Assistant Instructor", qualification: "BCA", doj: "28/07/2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Kruthika-N-1.jpg", cvUrl: "https://atme.edu.in/kruthika-n/" },
+  { id: "venkatesha-g", name: "Venkatesha G", designation: "Attender", qualification: "II PUC", doj: "01/06/2023", image: "https://old.atme.edu.in/wp-content/uploads/2025/11/Venkatesha-G-1.jpg", cvUrl: "https://atme.edu.in/venkatesha-g/" },
+];
+export const mcaStaff: Faculty[] = [];
+export const mbaAllFaculty: Faculty[] = [
+  { id: "dr-oscar-abhishek", name: "Dr. Oscar Abhishek", designation: "Associate Professor & Head", qualification: "PhD", doj: "04/11/2024", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Dr.-Oscar-Abhishek-1.jpg", cvUrl: "https://atme.edu.in/dr-oscar-abhishek/" },
+  { id: "lakshmi-m-r", name: "Lakshmi M R", designation: "Assistant Professor", qualification: "MBA", doj: "14/10/2024", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Lakshmi-M-R-1.jpg", cvUrl: "https://atme.edu.in/lakshmi-m-r/" },
+  
+  { id: "jeevitha-p", name: "Ms. Jeevitha P", designation: "Assistant Professor", qualification: "M.Com (FS)", doj: "23/12/2024", image: "https://old.atme.edu.in/wp-content/uploads/2026/04/Ms.-Jeevitha-P-1.jpg", cvUrl: "https://atme.edu.in/jeevitha-p/" },
+  { id: "dr-parthasarathy-n", name: "Dr. Parthasarathy N", designation: "Associate Professor", qualification: "MBA, PhD", doj: "", image: "/__l5e/assets-v1/9491c96f-387a-4a84-920c-1e52159e67d1/Dr-Parthasarathy-N.jpg", cvUrl: "/departments/mba/faculty/dr-parthasarathy-n" },
+  { id: "kavana-j", name: "Kavana J", designation: "Assistant Professor", qualification: "MBA, Pursuing PhD", doj: "", image: "/__l5e/assets-v1/e2f8710b-1e5f-4911-b053-99c907237972/Kavana-J.jpg", cvUrl: "/departments/mba/faculty/kavana-j" },
+  { id: "kavya-p", name: "Kavya P", designation: "Attender", qualification: "SSLC", doj: "", image: "https://old.atme.edu.in/wp-content/uploads/2025/11/Kavya-P-1.jpg", cvUrl: "https://atme.edu.in/kavya-p/" },
+];
+export const mbaStaff: Faculty[] = [];

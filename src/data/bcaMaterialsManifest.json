@@ -1,0 +1,1130 @@
+[
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "module",
+    "label": "Course module-C",
+    "url": "/__l5e/assets-v1/84f85d5d-d2cc-4da2-8e18-7a14a1af65b6/Course_module-C.docx",
+    "filename": "Course_module-C.docx"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "module",
+    "label": "Course Module",
+    "url": "/__l5e/assets-v1/b75260de-7993-4653-8146-44d7afa292e5/Course_Module.pdf",
+    "filename": "Course_Module.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "lesson",
+    "label": "Lesson_Plan_C",
+    "url": "/__l5e/assets-v1/67dedcb6-34e0-4d7b-8a77-d2417078a83b/Lesson_Plan_C.docx",
+    "filename": "Lesson_Plan_C.docx"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "lesson",
+    "label": "BCA104_Lesson Plan",
+    "url": "/__l5e/assets-v1/3801a35d-e1f8-4fd5-af33-9e7ce3c30988/BCA104_Lesson_Plan.pdf",
+    "filename": "BCA104_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "notes",
+    "label": "C module-1",
+    "url": "/__l5e/assets-v1/2b9f2e37-c997-46fe-a6e4-94fde71d4e32/C_module-1.pdf",
+    "filename": "C_module-1.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "notes",
+    "label": "C Module-2",
+    "url": "/__l5e/assets-v1/0d6dae3e-71ce-41a8-958b-26d38c4fad93/C_Module-2.pdf",
+    "filename": "C_Module-2.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "notes",
+    "label": "Module -03",
+    "url": "/__l5e/assets-v1/82d7cad6-80fe-40e7-baea-723041276691/Module_-03.pdf",
+    "filename": "Module_-03.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "notes",
+    "label": "MODULE 4",
+    "url": "/__l5e/assets-v1/2727ba9f-927b-49d3-8950-3c78e343e849/MODULE_4.pdf",
+    "filename": "MODULE_4.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "notes",
+    "label": "MODULE 5",
+    "url": "/__l5e/assets-v1/74e9322d-8ef9-41a9-8a5a-2a6112ecd9e2/MODULE_5.pdf",
+    "filename": "MODULE_5.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "BinaryNumber System",
+    "url": "/__l5e/assets-v1/eabe01f7-9514-4c4e-8e29-e068e744cdc2/BinaryNumber_System.pdf",
+    "filename": "BinaryNumber_System.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "CE Module 2",
+    "url": "/__l5e/assets-v1/4860374a-0ec6-4ace-8fb2-8f9c45218188/CE_Module_2.pdf",
+    "filename": "CE_Module_2.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "CE_Module_1",
+    "url": "/__l5e/assets-v1/270bb00e-af0d-4bef-a0f7-9a94d94f6b6f/CE_Module_1.pdf",
+    "filename": "CE_Module_1.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "CE_Module3",
+    "url": "/__l5e/assets-v1/49920b61-504e-4aad-891a-7d509e1b4504/CE_Module3.pdf",
+    "filename": "CE_Module3.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "CE_Module5Part1",
+    "url": "/__l5e/assets-v1/1d72ed31-1478-4898-a530-5abdc8d1b044/CE_Module5Part1.pdf",
+    "filename": "CE_Module5Part1.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA104",
+    "kind": "notes",
+    "label": "Module_4_Office_Tools",
+    "url": "/__l5e/assets-v1/6aea31bb-8d90-4a88-b0ea-785781f1c6f8/Module_4_Office_Tools.pdf",
+    "filename": "Module_4_Office_Tools.pdf"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "ppt",
+    "label": "C ppt Module1 &2",
+    "url": "/__l5e/assets-v1/ef4fb4c0-22bc-4196-9fba-b640caf1372d/C_ppt_Module1_2.pptx",
+    "filename": "C_ppt_Module1_2.pptx"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "ppt",
+    "label": "C ppt Module5",
+    "url": "/__l5e/assets-v1/5d0be846-f335-47ce-b442-4c077bb7d04d/C_ppt_Module5.ppt",
+    "filename": "C_ppt_Module5.ppt"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "ppt",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/d83f9d6d-4416-4629-8e5b-18bcf3a5079e/Module_4.pptx",
+    "filename": "Module_4.pptx"
+  },
+  {
+    "sem": 1,
+    "code": "BBCA103",
+    "kind": "ppt",
+    "label": "Module3 ppt",
+    "url": "/__l5e/assets-v1/878c14da-34b4-4b8d-9cb1-28a13719757e/Module3_ppt.pptx",
+    "filename": "Module3_ppt.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA203",
+    "kind": "module",
+    "label": "Course Module DMS_BCA",
+    "url": "/__l5e/assets-v1/9cb00b30-3de7-4441-b4e8-012dcdfb3736/Course_Module_DMS_BCA.pdf",
+    "filename": "Course_Module_DMS_BCA.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "module",
+    "label": "Course Module",
+    "url": "/__l5e/assets-v1/8879a072-9090-4b64-8aa8-5b698ec27f6f/Course_Module.pdf",
+    "filename": "Course_Module.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "module",
+    "label": "Course_Module_BBCA205",
+    "url": "/__l5e/assets-v1/2be33c93-d143-4f82-bfcd-b909b5693225/Course_Module_BBCA205.pdf",
+    "filename": "Course_Module_BBCA205.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA252",
+    "kind": "module",
+    "label": "Course_Module_BBCA252",
+    "url": "/__l5e/assets-v1/5a1ce797-e1f5-4f54-b12a-e95e561beedd/Course_Module_BBCA252.pdf",
+    "filename": "Course_Module_BBCA252.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA203",
+    "kind": "lesson",
+    "label": "lesson plan-DMS_BCA",
+    "url": "/__l5e/assets-v1/fab7757b-b5cd-4952-90d5-7a908bbcb9b9/lesson_plan-DMS_BCA.pdf",
+    "filename": "lesson_plan-DMS_BCA.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "lesson",
+    "label": "DSA_Lesson Plan",
+    "url": "/__l5e/assets-v1/7e8d414c-fe53-4cca-aec2-83d0b76b5c52/DSA_Lesson_Plan.pdf",
+    "filename": "DSA_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "lesson",
+    "label": "Lesson_Plan_BBCA205",
+    "url": "/__l5e/assets-v1/96a78a3d-762a-4912-bfae-53a8d956d864/Lesson_Plan_BBCA205.pdf",
+    "filename": "Lesson_Plan_BBCA205.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA252",
+    "kind": "lesson",
+    "label": "Lesson_Plan_BBCA252",
+    "url": "/__l5e/assets-v1/e43bfa44-8c87-4203-a793-9ab36faafa34/Lesson_Plan_BBCA252.pdf",
+    "filename": "Lesson_Plan_BBCA252.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCAL208",
+    "kind": "lesson",
+    "label": "Lab Manual BCAL208",
+    "url": "/__l5e/assets-v1/3a803db9-1215-461b-8996-f70e877ad7a7/Lab_Manual_BCAL208.pdf",
+    "filename": "Lab_Manual_BCAL208.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "MODULE 1",
+    "url": "/__l5e/assets-v1/2757a292-6a97-41a9-b83d-e79218e358a4/MODULE_1.pdf",
+    "filename": "MODULE_1.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/be92410d-bdf7-4494-956d-dee186fdc2c7/Module_2.pdf",
+    "filename": "Module_2.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "Module 3 Unit I",
+    "url": "/__l5e/assets-v1/770dbf0b-670e-4222-b711-1717c7a5e544/Module_3_Unit_I.docx",
+    "filename": "Module_3_Unit_I.docx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "Module 3 Unit II",
+    "url": "/__l5e/assets-v1/5e01e1cc-8e86-44c3-a93e-ca943e55b220/Module_3_Unit_II.pdf",
+    "filename": "Module_3_Unit_II.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/29b405d7-f769-4c7d-a4ca-b87a0f034d8f/Module_4.pdf",
+    "filename": "Module_4.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "notes",
+    "label": "Module 5",
+    "url": "/__l5e/assets-v1/a8f92e2b-56b0-4b07-9cb2-01b5c7ceb0dc/Module_5.pdf",
+    "filename": "Module_5.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "notes",
+    "label": "Unix and Shell Scripting Notes",
+    "url": "/__l5e/assets-v1/3280f65b-0e2e-40c8-917a-1425bbaa797b/Unix_and_Shell_Scripting_Notes.pdf",
+    "filename": "Unix_and_Shell_Scripting_Notes.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCAL208",
+    "kind": "notes",
+    "label": "Lab Manual BCAL208",
+    "url": "/__l5e/assets-v1/1880d259-e6b9-4659-a5f5-e8e093a73a16/Lab_Manual_BCAL208.pdf",
+    "filename": "Lab_Manual_BCAL208.pdf"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "ppt",
+    "label": "BCA204",
+    "url": "/__l5e/assets-v1/803893a7-594d-4e5a-8932-4df8198e55f6/BCA204.pptx",
+    "filename": "BCA204.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA204",
+    "kind": "ppt",
+    "label": "Module_1_DS",
+    "url": "/__l5e/assets-v1/e495e080-6c7e-4566-a45d-b3d9613f6b07/Module_1_DS.pptx",
+    "filename": "Module_1_DS.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "ppt",
+    "label": "Module-1",
+    "url": "/__l5e/assets-v1/29db0954-329f-48fd-b7e8-ded0fdb402ff/Module-1.pptx",
+    "filename": "Module-1.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "ppt",
+    "label": "Module-2",
+    "url": "/__l5e/assets-v1/8a156196-0b49-4d9f-9896-a457b5d23e3a/Module-2.pptx",
+    "filename": "Module-2.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "ppt",
+    "label": "Module-3",
+    "url": "/__l5e/assets-v1/6c23f22c-3e44-4716-967a-b192cd92e29c/Module-3.pptx",
+    "filename": "Module-3.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "ppt",
+    "label": "Module-4",
+    "url": "/__l5e/assets-v1/05064cc3-5a8f-4c30-9e9e-0be1b2b3853a/Module-4.pptx",
+    "filename": "Module-4.pptx"
+  },
+  {
+    "sem": 2,
+    "code": "BBCA205",
+    "kind": "ppt",
+    "label": "Module-5",
+    "url": "/__l5e/assets-v1/ca3ee378-b232-4765-bb4a-9643a472b4ab/Module-5.pptx",
+    "filename": "Module-5.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "module",
+    "label": "COURSE MODULE-BCA",
+    "url": "/__l5e/assets-v1/c1d1edcc-38fc-45e3-ad56-a00c5517003a/COURSE_MODULE-BCA.pdf",
+    "filename": "COURSE_MODULE-BCA.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "module",
+    "label": "BBCA302_Course Module",
+    "url": "/__l5e/assets-v1/3085173b-8c9a-49e2-8f9c-02257a66498c/BBCA302_Course_Module.pdf",
+    "filename": "BBCA302_Course_Module.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "module",
+    "label": "BBCA304 Course Module",
+    "url": "/__l5e/assets-v1/380c7b15-b1f6-40dc-ba49-1b0795361855/BBCA304_Course_Module.pdf",
+    "filename": "BBCA304_Course_Module.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "lesson",
+    "label": "Lesson_Plan_BBCA301",
+    "url": "/__l5e/assets-v1/155f5214-5d52-42dc-a56f-dafaec08f427/Lesson_Plan_BBCA301.pdf",
+    "filename": "Lesson_Plan_BBCA301.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "lesson",
+    "label": "BBCA302 Lesson Plan",
+    "url": "/__l5e/assets-v1/d279f4a2-0f53-43e7-8cb1-221381ec019f/BBCA302_Lesson_Plan.pdf",
+    "filename": "BBCA302_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "lesson",
+    "label": "BBCA302 Lesson Plan",
+    "url": "/__l5e/assets-v1/8399685e-bacd-4fc5-bb32-e69cb32b34ba/BBCA302_Lesson_Plan.pdf",
+    "filename": "BBCA302_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "lesson",
+    "label": "BBCA304 Lesson Plan",
+    "url": "/__l5e/assets-v1/386d5f78-2338-411f-85c1-2be507b8a6b2/BBCA304_Lesson_Plan.pdf",
+    "filename": "BBCA304_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/57adb6d9-3a3e-4b0d-857d-8fdcd2ec5299/Module_2.pdf",
+    "filename": "Module_2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "Module 2_continue",
+    "url": "/__l5e/assets-v1/b16d5c3c-829b-44c4-8cfb-67b28b9d3681/Module_2_continue.pdf",
+    "filename": "Module_2_continue.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "MODULE 4a",
+    "url": "/__l5e/assets-v1/6d27bbe4-49a2-4f6a-8729-478cb2746efa/MODULE_4a.pdf",
+    "filename": "MODULE_4a.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "MODULE 5",
+    "url": "/__l5e/assets-v1/821e414a-6adb-4c31-abf9-a97e5a100941/MODULE_5.pdf",
+    "filename": "MODULE_5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "OS_Notes M1",
+    "url": "/__l5e/assets-v1/d9308ae5-4022-4357-b1bf-d34692f2e141/OS_Notes_M1.pdf",
+    "filename": "OS_Notes_M1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "Module 2 & 3",
+    "url": "/__l5e/assets-v1/00913f70-d04c-46bb-812a-dec9a2afa627/Module_2_3.pptx",
+    "filename": "Module_2_3.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "MODULE_1",
+    "url": "/__l5e/assets-v1/ae531497-a0bb-48b1-9364-f0d55ebc80a3/MODULE_1.pptx",
+    "filename": "MODULE_1.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "MODULE4",
+    "url": "/__l5e/assets-v1/6c038787-9bb4-4681-9640-6ba484ed6ffc/MODULE4.pptx",
+    "filename": "MODULE4.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "lesson",
+    "label": "MODULE5",
+    "url": "/__l5e/assets-v1/6a515e4a-4799-4e8e-9816-647fb53710ea/MODULE5.pptx",
+    "filename": "MODULE5.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "notes",
+    "label": "Unit-1",
+    "url": "/__l5e/assets-v1/bf5be308-0b57-4e82-9f87-1c2bd62904f4/Unit-1.pdf",
+    "filename": "Unit-1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "notes",
+    "label": "Unit-2",
+    "url": "/__l5e/assets-v1/b2dd5cbe-aebb-4d1f-b5f4-7f9ad2ef8f2f/Unit-2.pdf",
+    "filename": "Unit-2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "notes",
+    "label": "Unit-3",
+    "url": "/__l5e/assets-v1/746796dc-f047-41a1-81b4-f21f76c62c5b/Unit-3.pdf",
+    "filename": "Unit-3.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "notes",
+    "label": "Unit-4",
+    "url": "/__l5e/assets-v1/506e7f61-5b26-45e1-95be-b3e9fab74fef/Unit-4.pdf",
+    "filename": "Unit-4.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "notes",
+    "label": "Unit-5",
+    "url": "/__l5e/assets-v1/37abcec9-5791-481f-8265-e730e04b8783/Unit-5.pdf",
+    "filename": "Unit-5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 1",
+    "url": "/__l5e/assets-v1/d688bdd2-0eb9-4643-bffa-64aff265e5f0/Module_1.pdf",
+    "filename": "Module_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 2 Part 1",
+    "url": "/__l5e/assets-v1/0eb75f32-ec01-4d12-967d-98d72b28e6d2/Module_2_Part_1.pdf",
+    "filename": "Module_2_Part_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 2 Part 2",
+    "url": "/__l5e/assets-v1/ee00f701-e20f-45b6-8e0c-04fdcc7c5f14/Module_2_Part_2.pdf",
+    "filename": "Module_2_Part_2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/9deea3bd-fbfc-4420-a2d4-8f11b15370e6/Module_2.docx",
+    "filename": "Module_2.docx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 3 Part 1",
+    "url": "/__l5e/assets-v1/345bee2b-d497-41cd-b1ab-6caeb9d30a29/Module_3_Part_1.pdf",
+    "filename": "Module_3_Part_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 3",
+    "url": "/__l5e/assets-v1/727119de-0682-4fe7-89b5-615ff006283c/Module_3.pdf",
+    "filename": "Module_3.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/ddd6da5b-d61f-4fbe-87ec-5e4e29fca31c/Module_4.pdf",
+    "filename": "Module_4.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA302",
+    "kind": "notes",
+    "label": "Module 5",
+    "url": "/__l5e/assets-v1/a48f7472-9a83-4343-b577-b1e9c1b77643/Module_5.pdf",
+    "filename": "Module_5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 1",
+    "url": "/__l5e/assets-v1/b23d2ff9-18e6-4724-b693-7721584645ed/Module_1.pdf",
+    "filename": "Module_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 2 Part 1",
+    "url": "/__l5e/assets-v1/e103e335-a536-4e61-a807-62aac870a31f/Module_2_Part_1.pdf",
+    "filename": "Module_2_Part_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 2 Part 2",
+    "url": "/__l5e/assets-v1/a16c2a30-f92b-4dbc-b605-54d282aed1df/Module_2_Part_2.pdf",
+    "filename": "Module_2_Part_2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/279933e7-6804-4ffb-a049-40f228d90a31/Module_2.docx",
+    "filename": "Module_2.docx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 3 Part 1",
+    "url": "/__l5e/assets-v1/968de573-4157-4cf4-93d4-4997495af15c/Module_3_Part_1.pdf",
+    "filename": "Module_3_Part_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 3",
+    "url": "/__l5e/assets-v1/9796c4c0-be11-4291-be14-40e8a9b176fe/Module_3.pdf",
+    "filename": "Module_3.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/e95cfc66-2b73-4f9e-8178-3eedd7e9a17a/Module_4.pdf",
+    "filename": "Module_4.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA303",
+    "kind": "notes",
+    "label": "Module 5",
+    "url": "/__l5e/assets-v1/354d3d05-8544-4eda-aa84-a5def3261ef8/Module_5.pdf",
+    "filename": "Module_5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "notes",
+    "label": "BBCA304 MODULE 3",
+    "url": "/__l5e/assets-v1/b0d3f4de-0c8c-440d-ac6b-ccf06f7eaa57/BBCA304_MODULE_3.pdf",
+    "filename": "BBCA304_MODULE_3.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "notes",
+    "label": "BBCA304 MODULE 4",
+    "url": "/__l5e/assets-v1/9af7498f-103d-4942-ac60-f3ee0ae63e27/BBCA304_MODULE_4.pdf",
+    "filename": "BBCA304_MODULE_4.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "notes",
+    "label": "BCS502-module-5",
+    "url": "/__l5e/assets-v1/b9734bce-2e22-4241-907a-81009a82eb31/BCS502-module-5.pdf",
+    "filename": "BCS502-module-5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "notes",
+    "label": "COMPUTER NETWORK MODULE 2",
+    "url": "/__l5e/assets-v1/f88cc583-f7da-44d7-a632-f79d68174013/COMPUTER_NETWORK_MODULE_2.pdf",
+    "filename": "COMPUTER_NETWORK_MODULE_2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "notes",
+    "label": "COMPUTER NETWORKS MODULE 1",
+    "url": "/__l5e/assets-v1/0f82eba9-7573-4710-b6a7-6067f72ae1a8/COMPUTER_NETWORKS_MODULE_1.pdf",
+    "filename": "COMPUTER_NETWORKS_MODULE_1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/f7996ff4-2ade-458f-8728-38115ff0ad14/Module_2.pdf",
+    "filename": "Module_2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "Module 2_continue",
+    "url": "/__l5e/assets-v1/beddb520-7593-4c95-9c18-6805be7a5447/Module_2_continue.pdf",
+    "filename": "Module_2_continue.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "MODULE 2_PART2",
+    "url": "/__l5e/assets-v1/38ddf529-204d-46c3-87d4-6d57dc76c2c7/MODULE_2_PART2.pdf",
+    "filename": "MODULE_2_PART2.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "MODULE 3_Notes",
+    "url": "/__l5e/assets-v1/6ba8f51c-6a64-4100-983b-7fd2b22867da/MODULE_3_Notes.pdf",
+    "filename": "MODULE_3_Notes.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "MODULE 4a",
+    "url": "/__l5e/assets-v1/e5a6fd8d-8f1f-4ae6-a21f-861435ff34ee/MODULE_4a.pdf",
+    "filename": "MODULE_4a.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "MODULE 5",
+    "url": "/__l5e/assets-v1/0117bf18-5537-4f58-a0c1-bb9da0d0c9c3/MODULE_5.pdf",
+    "filename": "MODULE_5.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA305",
+    "kind": "notes",
+    "label": "OS_Notes M1",
+    "url": "/__l5e/assets-v1/0250e061-b673-4e79-b305-2fa344400803/OS_Notes_M1.pdf",
+    "filename": "OS_Notes_M1.pdf"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "ppt",
+    "label": "Java Module-1",
+    "url": "/__l5e/assets-v1/62581a5f-4080-44ee-82eb-79aace975dae/Java_Module-1.pptx",
+    "filename": "Java_Module-1.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA301",
+    "kind": "ppt",
+    "label": "Java Module-2",
+    "url": "/__l5e/assets-v1/b8387f96-6e72-49e1-bb99-a9a93ea82d66/Java_Module-2.pptx",
+    "filename": "Java_Module-2.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "ppt",
+    "label": "Computer Network Module 3",
+    "url": "/__l5e/assets-v1/0d2f40eb-8268-43a0-9a00-74e36b6f7fad/Computer_Network_Module_3.pptx",
+    "filename": "Computer_Network_Module_3.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "ppt",
+    "label": "Computer Networks Module 1",
+    "url": "/__l5e/assets-v1/928cd999-2116-4c6f-9338-4605cd6a1b48/Computer_Networks_Module_1.pptx",
+    "filename": "Computer_Networks_Module_1.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "ppt",
+    "label": "Computer Networks Module 2",
+    "url": "/__l5e/assets-v1/36112b27-6731-4817-919e-063ec4025055/Computer_Networks_Module_2.pptx",
+    "filename": "Computer_Networks_Module_2.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "ppt",
+    "label": "COMPUTER NETWORKS MODULE 5",
+    "url": "/__l5e/assets-v1/4d2dc331-40f2-487d-b66d-9c199ee68eee/COMPUTER_NETWORKS_MODULE_5.pptx",
+    "filename": "COMPUTER_NETWORKS_MODULE_5.pptx"
+  },
+  {
+    "sem": 3,
+    "code": "BBCA304",
+    "kind": "ppt",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/7308d7ac-c315-417f-ba3a-c98a5672ea25/Module_4.pptx",
+    "filename": "Module_4.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA401",
+    "kind": "module",
+    "label": "Course_Module_BBCA401",
+    "url": "/__l5e/assets-v1/85b977a3-89f6-42b0-8882-186b84bba6f6/Course_Module_BBCA401.pdf",
+    "filename": "Course_Module_BBCA401.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "module",
+    "label": "COURSE MODULE-BBCA402",
+    "url": "/__l5e/assets-v1/0ab5075f-c88f-4235-a198-233a188b7c57/COURSE_MODULE-BBCA402.pdf",
+    "filename": "COURSE_MODULE-BBCA402.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "module",
+    "label": "Course Module_BBCA403",
+    "url": "/__l5e/assets-v1/a641c32a-fab5-45a7-a1cb-9ca38c6a61b1/Course_Module_BBCA403.pdf",
+    "filename": "Course_Module_BBCA403.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "module",
+    "label": "BBCA405- Digital Entrepreneurship",
+    "url": "/__l5e/assets-v1/db1cb768-aca8-45b1-b744-909e20795730/BBCA405-_Digital_Entrepreneurship.pdf",
+    "filename": "BBCA405-_Digital_Entrepreneurship.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCAL406",
+    "kind": "module",
+    "label": "COURSE MODULE-BBCA402",
+    "url": "/__l5e/assets-v1/8fe34dca-1942-42a1-b9d3-7607c54536c4/COURSE_MODULE-BBCA402.docx",
+    "filename": "COURSE_MODULE-BBCA402.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA401",
+    "kind": "lesson",
+    "label": "Lesson_Plan_BBC401",
+    "url": "/__l5e/assets-v1/3a75474e-95f1-4fd6-91eb-128f2c5142fd/Lesson_Plan_BBC401.pdf",
+    "filename": "Lesson_Plan_BBC401.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "lesson",
+    "label": "Lesson Plan- BBCA402",
+    "url": "/__l5e/assets-v1/e96affb2-562f-46c9-a64b-4b3ff262c399/Lesson_Plan-_BBCA402.pdf",
+    "filename": "Lesson_Plan-_BBCA402.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "lesson",
+    "label": "BBCA403 Lesson Plan",
+    "url": "/__l5e/assets-v1/932bff96-50ac-4b2e-8c78-4fb7210185ad/BBCA403_Lesson_Plan.pdf",
+    "filename": "BBCA403_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "lesson",
+    "label": "BBCA405 Lesson Plan",
+    "url": "/__l5e/assets-v1/3c9aec8b-14c4-4ff7-aa13-8d709054efdb/BBCA405_Lesson_Plan.pdf",
+    "filename": "BBCA405_Lesson_Plan.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCAL406",
+    "kind": "lesson",
+    "label": "Lesson_Plan_BBCAL406",
+    "url": "/__l5e/assets-v1/fea79837-abdb-4c43-9036-a4ef7221a798/Lesson_Plan_BBCAL406.docx",
+    "filename": "Lesson_Plan_BBCAL406.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-1-DAA",
+    "url": "/__l5e/assets-v1/cf97b3be-46b7-46c8-9afa-8af743aa64a6/Unit-1-DAA.pdf",
+    "filename": "Unit-1-DAA.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-2-DAA-Part A",
+    "url": "/__l5e/assets-v1/30fc74bc-8a0c-43dc-9ea2-8d0b5afd1db7/Unit-2-DAA-Part_A.pdf",
+    "filename": "Unit-2-DAA-Part_A.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-2-DAA-Part B",
+    "url": "/__l5e/assets-v1/ebbea1a8-1bdc-4d80-b1b5-ce361e978790/Unit-2-DAA-Part_B.pdf",
+    "filename": "Unit-2-DAA-Part_B.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-3-DAA",
+    "url": "/__l5e/assets-v1/b7aeb60d-542d-4415-87f4-f16feeb00e28/Unit-3-DAA.pdf",
+    "filename": "Unit-3-DAA.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-4-DAA",
+    "url": "/__l5e/assets-v1/155424eb-d1d3-4a7a-b79f-aba152dc883a/Unit-4-DAA.pdf",
+    "filename": "Unit-4-DAA.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "notes",
+    "label": "Unit-5-DAA",
+    "url": "/__l5e/assets-v1/27a42fda-9b1a-44b7-88ac-d2ce2684f1cc/Unit-5-DAA.pdf",
+    "filename": "Unit-5-DAA.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "BBCA403_Module 1Part A",
+    "url": "/__l5e/assets-v1/3595a6f6-e505-467b-9340-fdb90751625b/BBCA403_Module_1Part_A.pdf",
+    "filename": "BBCA403_Module_1Part_A.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "BBCA403_Module4_DataLoading_Wrangling",
+    "url": "/__l5e/assets-v1/465647b3-6cf2-4895-a23b-a4f494fa1c70/BBCA403_Module4_DataLoading_Wrangling.pdf",
+    "filename": "BBCA403_Module4_DataLoading_Wrangling.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 1 PartB",
+    "url": "/__l5e/assets-v1/669927c1-7540-47cc-9a24-2f85eeea7e74/Module_1_PartB.docx",
+    "filename": "Module_1_PartB.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 1",
+    "url": "/__l5e/assets-v1/e2e735a0-117d-4b44-991d-bea1241e35c9/Module_1.docx",
+    "filename": "Module_1.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 1Part A",
+    "url": "/__l5e/assets-v1/76e3482e-00f4-4e8a-bc01-daef2b29e484/Module_1Part_A.pdf",
+    "filename": "Module_1Part_A.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/123f7fff-9b36-4e17-a1ad-8ec1cea24e73/Module_4.pdf",
+    "filename": "Module_4.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 5 Chapter 1",
+    "url": "/__l5e/assets-v1/6c3f46ef-7d2f-4e0d-b78a-62eeeb49db83/Module_5_Chapter_1.pdf",
+    "filename": "Module_5_Chapter_1.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 5",
+    "url": "/__l5e/assets-v1/acecd96c-4d00-4c10-9b03-48310b7b7033/Module_5.docx",
+    "filename": "Module_5.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module 5_Chapter 2",
+    "url": "/__l5e/assets-v1/6df9b269-bf74-4793-92dd-19de12b76d3a/Module_5_Chapter_2.pdf",
+    "filename": "Module_5_Chapter_2.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module",
+    "url": "/__l5e/assets-v1/cbbbd4f8-2b93-415a-ba1b-157beb120121/Module.docx",
+    "filename": "Module.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module_2",
+    "url": "/__l5e/assets-v1/ebac0481-79f5-4358-b460-b351b9774607/Module_2.pdf",
+    "filename": "Module_2.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module1CompleteNotes",
+    "url": "/__l5e/assets-v1/305aea63-1144-480e-ac07-59121625a8f8/Module1CompleteNotes.pdf",
+    "filename": "Module1CompleteNotes.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA403",
+    "kind": "notes",
+    "label": "Module4_Detailed_Notes",
+    "url": "/__l5e/assets-v1/a832d3e5-c8f5-445f-97b8-b6806dcda246/Module4_Detailed_Notes.docx",
+    "filename": "Module4_Detailed_Notes.docx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "Module 1 BBCA405",
+    "url": "/__l5e/assets-v1/f9308d5a-73ca-46f0-89fd-7c5a3fcd2abf/Module_1_BBCA405.pdf",
+    "filename": "Module_1_BBCA405.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/aa522cb3-9663-4ffa-b64d-44eb1495fe49/Module_2.pdf",
+    "filename": "Module_2.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "MODULE 3 BBCA405",
+    "url": "/__l5e/assets-v1/f3441d14-4554-4299-8002-74b61a4f896a/MODULE_3_BBCA405.pdf",
+    "filename": "MODULE_3_BBCA405.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "MODULE 4",
+    "url": "/__l5e/assets-v1/a9277f96-350c-4d99-9b19-dbc20fbca629/MODULE_4.pdf",
+    "filename": "MODULE_4.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "MODULE 5 - Unit I",
+    "url": "/__l5e/assets-v1/f39b1e11-45c5-4a88-843f-bbbfdb6e9cff/MODULE_5_-_Unit_I.pdf",
+    "filename": "MODULE_5_-_Unit_I.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "notes",
+    "label": "MODULE 5 - Unit II",
+    "url": "/__l5e/assets-v1/221378bd-943d-4c6a-9718-d54d0cb4291a/MODULE_5_-_Unit_II.pdf",
+    "filename": "MODULE_5_-_Unit_II.pdf"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "ppt",
+    "label": "Unit-1",
+    "url": "/__l5e/assets-v1/e5e571ee-0a09-4605-81fa-0c3dcdb3f0db/Unit-1.pptx",
+    "filename": "Unit-1.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA402",
+    "kind": "ppt",
+    "label": "Unit-2",
+    "url": "/__l5e/assets-v1/4cbc7269-3283-4bd0-b956-ef63be116fe0/Unit-2.pptx",
+    "filename": "Unit-2.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "ppt",
+    "label": "Module 1",
+    "url": "/__l5e/assets-v1/aab4d271-f6f2-4bb8-8a77-2f5cd11f306f/Module_1.pptx",
+    "filename": "Module_1.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "ppt",
+    "label": "Module 2",
+    "url": "/__l5e/assets-v1/77a8d6a1-1ce3-43f2-a5ce-4068ab9e32c3/Module_2.pptx",
+    "filename": "Module_2.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "ppt",
+    "label": "Module 3",
+    "url": "/__l5e/assets-v1/7b85742e-4fb0-4f93-a704-0e5b64390488/Module_3.pptx",
+    "filename": "Module_3.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "ppt",
+    "label": "Module 4",
+    "url": "/__l5e/assets-v1/26992026-5420-4de9-8a6b-64af6fdaa1b3/Module_4.pptx",
+    "filename": "Module_4.pptx"
+  },
+  {
+    "sem": 4,
+    "code": "BBCA405",
+    "kind": "ppt",
+    "label": "Module 5",
+    "url": "/__l5e/assets-v1/530016fc-b529-4b12-aa4b-118a9d54ae07/Module_5.pptx",
+    "filename": "Module_5.pptx"
+  }
+]
