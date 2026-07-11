@@ -2526,9 +2526,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 - Puttegowda, D., Dayananda, K.J., “Color K-means, Gaussian Filter and Aperture Concept for Text Localization in Images” th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT –June 2023, pp. 844-848
 - Puttegowda, D., Harsha, A.B., Bhaskar, H.N., …Deepika, D., Monika, B.V. “Deep Learning based Container for Text Recognition” th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT –June 2023, pp.920-926
-- Rajeshwari D , D , “ Modeling a Functional Engine for the Opinion Mining as a Service using Compounded Score Computation and Machine Learning”
-- International Journal of Advanced Computer Science and Applications
-- (IJACSA), Vol. 12, No. 3, 2021
+- Rajeshwari D, D, “Modeling a Functional Engine for the Opinion Mining as a Service using Compounded Score Computation and Machine Learning”, International Journal of Advanced Computer Science and Applications (IJACSA), Vol. 12, No. 3, 2021
 - Sayeda Umera Almas, Puttegowda D Ocean Coefficient: A Feature Extraction Technique for Five Factor Model based Classifications, International Journal of Engineering and Advanced Technology (IJEAT) ISSN: 2249 – 8958, Volume-9 Issue-4, April 2020
 - Sayeda Umera Almas, Puttegowda D Five Factor Model of Personality Trait Analysis on Twitter Data using Benchmark Classifier International Journal of Innovative Technology and Exploring Engineering (IJITEE) ISSN: 2278-3075, Volume-9 Issue-6, April 2020
 - Dayananda K J, Puttegowda D “Performance Analysis of Color K-Means and Range Filter for Text Detection in Images or Video”, International Conference on Recent Trends in Science and Technology 2020 (ICRTST 2020), June 16,17, 2020.
@@ -2554,11 +2552,12 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Membership in Professional Bodies
 
-- **Sl .No:** Name of Society | Membership Number
-- **1:** MISTE | LM 116840
-- **2:** CSI | L1503790
-- **3:** The Institute of Engineers (India) IEI | AM099859-4
-- **4:** IEEE | 96882282
+| Sl. No | Name of Society | Membership Number |
+| --- | --- | --- |
+| 1 | MISTE | LM 116840 |
+| 2 | CSI | L1503790 |
+| 3 | The Institute of Engineers (India) IEI | AM099859-4 |
+| 4 | IEEE | 96882282 |
 
 ### FDPs/Conferences/Workshops/STTP/MOOC Certification
 

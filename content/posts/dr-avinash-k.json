@@ -1,0 +1,54 @@
+{
+  "id": "6862",
+  "title": "Dr. Avinash K",
+  "slug": "dr-avinash-k",
+  "link": "https://old.atme.edu.in/dr-avinash-k/",
+  "status": "publish",
+  "published_date": "2022-09-12 07:43:08",
+  "published_date_gmt": "2022-09-12 07:43:08",
+  "modified": "2025-09-02 09:01:56",
+  "modified_gmt": "2025-09-02 09:01:56",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "chemistry-faculty",
+      "name": "Chemistry-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<p style=\"text-align: center;\">[wp_code id=\"1\"]</p>",
+  "featured_image": null,
+  "attachments": [
+    {
+      "id": "6863",
+      "title": "Dr-Avinash-K",
+      "url": "https://old.atme.edu.in/wp-content/uploads/Dr-Avinash-K.jpg"
+    },
+    {
+      "id": "25209",
+      "title": "word-image-6862-1",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/09/word-image-6862-1.jpeg"
+    },
+    {
+      "id": "25210",
+      "title": "Faculty_Dr_Avinash_K",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/09/Faculty_Dr_Avinash_K.html"
+    },
+    {
+      "id": "25211",
+      "title": "1. Dr. Avinash K_Faculty Profile_updated",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/09/1.-Dr.-Avinash-K_Faculty-Profile_updated.doc"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

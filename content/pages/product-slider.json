@@ -1,0 +1,16 @@
+{
+  "id": "1650",
+  "title": "Product Slider",
+  "slug": "product-slider",
+  "link": "https://old.atme.edu.in/product-slider/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2018-01-31 06:23:30",
+  "date_gmt": "2018-01-31 06:23:30",
+  "modified": "2018-01-31 06:23:30",
+  "modified_gmt": "2018-01-31 06:23:30",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-product number=\"5\" slider_autoplay_speed=\"200\"][/vc_column][/vc_row]"
+}

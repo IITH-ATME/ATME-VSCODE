@@ -1,0 +1,33 @@
+{
+  "id": "16763",
+  "title": "shreeshayana",
+  "slug": "shreeshayana",
+  "link": "https://old.atme.edu.in/shreeshayana/",
+  "status": "publish",
+  "published_date": "2024-01-12 09:39:05",
+  "published_date_gmt": "2024-01-12 09:39:05",
+  "modified": "2024-01-12 09:39:05",
+  "modified_gmt": "2024-01-12 09:39:05",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "uncategorized",
+      "name": "Uncategorized"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<p style=\"text-align: center;\">[embeddoc url=\"https://drive.google.com/file/d/1-POZjqBaC3WIfoVaLd_dhIilnQ-w7mEk/view?usp=drive_link\" viewer=\"google\" cache=\"off\"]</p>",
+  "featured_image": null,
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

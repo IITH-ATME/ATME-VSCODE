@@ -1,0 +1,43 @@
+{
+  "id": "6391",
+  "title": "Azadi Ka Amrit Mahotsav",
+  "slug": "azadi-ka-amrit-mahotsav",
+  "link": "https://old.atme.edu.in/azadi-ka-amrit-mahotsav/",
+  "status": "publish",
+  "published_date": "2022-08-13 13:58:15",
+  "published_date_gmt": "2022-08-13 13:58:15",
+  "modified": "2022-08-13 13:58:15",
+  "modified_gmt": "2022-08-13 13:58:15",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "In commemoration of the 75th Independence Day,“Azadi Ka Amrit Mahotsav” ‘Har Ghar Tiranga’ campaign is held in college premises by hoisting the Indian National Tricolor Flag.",
+  "featured_image": {
+    "id": "6392",
+    "title": "har ghar tiranga banner-01",
+    "url": "https://old.atme.edu.in/wp-content/uploads/har-ghar-tiranga-banner-01.jpg"
+  },
+  "attachments": [
+    {
+      "id": "6392",
+      "title": "har ghar tiranga banner-01",
+      "url": "https://old.atme.edu.in/wp-content/uploads/har-ghar-tiranga-banner-01.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

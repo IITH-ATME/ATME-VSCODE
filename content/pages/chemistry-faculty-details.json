@@ -1,0 +1,16 @@
+{
+  "id": "4078",
+  "title": "Faculty Details",
+  "slug": "faculty-details",
+  "link": "https://old.atme.edu.in/chemistry/faculty-details/",
+  "status": "publish",
+  "parent_id": "3980",
+  "menu_order": "0",
+  "date": "2022-05-13 10:51:13",
+  "date_gmt": "2022-05-13 10:51:13",
+  "modified": "2022-05-13 11:08:35",
+  "modified_gmt": "2022-05-13 11:08:35",
+  "categories": [],
+  "excerpt": "",
+  "content": "<p>[vc_row][vc_column width=\"1/6\"][vc_wp_custommenu title=\"Chemistry\" nav_menu=\"140\"][/vc_column][vc_column width=\"5/6\"][vc_column_text]</p>\n<h3>Department of Chemistry</h3>\n<p>[/vc_column_text][vc_row_inner][vc_column_inner width=\"1/4\"][/vc_column_inner][vc_column_inner width=\"1/4\"][/vc_column_inner][vc_column_inner width=\"1/4\"][/vc_column_inner][vc_column_inner width=\"1/4\"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</p>\n"
+}

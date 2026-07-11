@@ -1,0 +1,55 @@
+{
+  "id": "7117",
+  "title": "Mrs. Navya N",
+  "slug": "mrs-navya-n",
+  "link": "https://old.atme.edu.in/mrs-navya-n/",
+  "status": "publish",
+  "published_date": "2022-09-13 13:15:09",
+  "published_date_gmt": "2022-09-13 13:15:09",
+  "modified": "2023-02-08 08:22:17",
+  "modified_gmt": "2023-02-08 08:22:17",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "ece-faculty",
+      "name": "ECE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<p style=\"text-align: justify;\"><strong>Navya N</strong></p>\n<p style=\"text-align: justify;\"><strong>Education Details: </strong></p>\n\n<ul style=\"text-align: justify;\">\n \t<li>Mtech – Digital Electronics and Communication</li>\n \t<li>BE – Electronics and communication</li>\n</ul>\n<strong>Contact Details</strong>\n<table width=\"565\">\n<tbody>\n<tr>\n<td width=\"141\"><strong>Email ID</strong></td>\n<td width=\"424\"><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"mailto:navyan_ec@old.atme.edu.in\">navyan_ec@old.atme.edu.in</a></span></td>\n</tr>\n<tr>\n<td><strong>LinkedIn ID</strong></td>\n<td><a href=\"https://www.linkedin.com/in/navya-n-18b8a3138/\"><span style=\"color: #0000ff;\">https://www.linkedin.com/in/navya-n-18b8a3138/</span></a></td>\n</tr>\n<tr>\n<td><strong>Google Scholor  ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"http://scholar.google.co.in/citations?user=uSRvTgIAAAAJ\">http://scholar.google.co.in/citations?user=uSRvTgIAAAAJ</a></span></td>\n</tr>\n<tr>\n<td><strong>Orcid ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"http://www.orcid.org/0000-0001-9715-0256\">http://www.orcid.org/0000-0001-9715-0256</a></span></td>\n</tr>\n<tr>\n<td><strong>Vidwaan ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://vidwan.inflibnet.ac.in/profile/223147\">https://vidwan.inflibnet.ac.in/profile/223147</a></span></td>\n</tr>\n<tr>\n<td><strong>Scopus ID</strong></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p style=\"text-align: justify;\"><strong>Professional Experience</strong></p>\n\n<ul style=\"text-align: justify;\">\n \t<li>5 years of Experience</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Publication Details:</strong></p>\n\n<ul style=\"text-align: justify;\">\n \t<li>Enhanced detection of Malaria disease using Image processing and Machine learning, Published In JETIR (www.JETIR.org) ISSN UGC Approved (Journal No: 63975) &amp; 5.87 Impact Factor, Published in Volume 6 Issue 6, June-2019.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>FDP/Conferences/Workshops attended/Conducted</strong></p>\n\n<ul style=\"text-align: justify;\">\n \t<li>Attended one day National seminar on Indian Language computing (organized by Computer Society of India, Mysuru chapter).</li>\n \t<li>Attended workshop on ARM CORTEX M3 (organized by GSSS in association with Electro systems association).</li>\n \t<li>CODE YUDDHA (24hour hackathon QWINIX, MIT MYSURU).</li>\n \t<li>Attended FDP on Advanced Optimization Techniques and Hands-on with MATLAB/SCILAB Organized by Electronics &amp; ICT Academy</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Paper Publications:</strong></p>\n<p style=\"text-align: justify;\"><strong>National Conference:</strong></p>\n\n<ul style=\"text-align: justify;\">\n \t<li>Presented a paper in a National level conference on computer science and management applications</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>International Journal Publication</strong></p>\n\n<ul>\n \t<li style=\"text-align: justify;\">Enhanced detection of Malaria disease using Image processing and Machine learning, Published In JETIR (www.JETIR.org)</li>\n</ul>\n<!-- /wp:list -->",
+  "featured_image": {
+    "id": "7732",
+    "title": "Fac-18",
+    "url": "https://old.atme.edu.in/wp-content/uploads/Fac-18.jpg"
+  },
+  "attachments": [
+    {
+      "id": "7650",
+      "title": "Fac-20",
+      "url": "https://old.atme.edu.in/wp-content/uploads/Fac-20.jpg"
+    },
+    {
+      "id": "7732",
+      "title": "Fac-18",
+      "url": "https://old.atme.edu.in/wp-content/uploads/Fac-18.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [
+    "mailto:navyan_ec@old.atme.edu.in"
+  ],
+  "external_links": [
+    "http://scholar.google.co.in/citations?user=uSRvTgIAAAAJ",
+    "http://www.orcid.org/0000-0001-9715-0256",
+    "https://vidwan.inflibnet.ac.in/profile/223147",
+    "https://www.linkedin.com/in/navya-n-18b8a3138/"
+  ]
+}

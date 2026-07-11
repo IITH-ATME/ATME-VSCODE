@@ -1,0 +1,16 @@
+{
+  "id": "5408",
+  "title": "Faculty Profiles",
+  "slug": "faculty-profiles",
+  "link": "https://old.atme.edu.in/mathematics/faculty-profiles/",
+  "status": "publish",
+  "parent_id": "3982",
+  "menu_order": "0",
+  "date": "2022-05-20 13:27:15",
+  "date_gmt": "2022-05-20 13:27:15",
+  "modified": "2022-05-20 13:27:15",
+  "modified_gmt": "2022-05-20 13:27:15",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style4\" title=\"Faculty Profiles\" number=\"-1\" orderby=\"menu_order\" slider_autoplay_speed=\"200\" cat=\"151\"][/vc_column][/vc_row]"
+}

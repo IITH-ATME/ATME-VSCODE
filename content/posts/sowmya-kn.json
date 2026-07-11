@@ -1,0 +1,39 @@
+{
+  "id": "9138",
+  "title": "Sowmya KN",
+  "slug": "sowmya-kn",
+  "link": "https://old.atme.edu.in/sowmya-kn/",
+  "status": "publish",
+  "published_date": "2022-12-19 08:37:08",
+  "published_date_gmt": "2022-12-19 08:37:08",
+  "modified": "2023-08-21 11:09:05",
+  "modified_gmt": "2023-08-21 11:09:05",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<strong>Sowmya KN</strong>\nProgrammer\n\n<strong>Department: </strong>COMPUTER SCIENCE AND ENGINEERING\n\n<strong>Date of Joining Institution: </strong>5-9-2022\n\n<strong>E-mail: </strong><a href=\"mailto:Sowmyakn-cs@old.atme.edu.in\">Sowmyakn-cs@old.atme.edu.in</a>\n\n<strong>Qualification: </strong>UG, B.E(CS)\n\n<strong>Total Experience in Years: 11</strong> months\n\n&nbsp;\n\n<!-- /wp:list -->",
+  "featured_image": {
+    "id": "9107",
+    "title": "CS-08",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/CS-08.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [
+    "mailto:Sowmyakn-cs@old.atme.edu.in"
+  ],
+  "external_links": []
+}

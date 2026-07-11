@@ -1,0 +1,50 @@
+{
+  "id": "15511",
+  "title": "Pooja P P",
+  "slug": "pooja-p-p",
+  "link": "https://old.atme.edu.in/pooja-p-p/",
+  "status": "publish",
+  "published_date": "2023-08-12 09:36:44",
+  "published_date_gmt": "2023-08-12 09:36:44",
+  "modified": "2023-08-12 09:48:13",
+  "modified_gmt": "2023-08-12 09:48:13",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p><strong>Pooja P P</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Assistant Professor</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Education Details</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><!-- wp:list-item -->\n<li>Ph.D(pursuing) Computer Science and Engineering, Christ Deemed University,Bangalore</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>M.Tech Information Tecnology, N I E, Mysuru, VTU.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>B.E CSE Govt Engineering College,Chamrajnagar,VTU.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p><strong>Professional Experience</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><!-- wp:list-item -->\n<li>Teaching Experience – 2.5 years</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Assistant Professor, A T M E College of Engineering, Mysuru, July 2023 – Till Date.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Assistant Professor, East Point Engineering College,Bangalore, October 2022- June 2023</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Assistant Professor, MYCEM College, Mysuru,February  2020 – June 2020</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Lecturer, Nrupatunga PU College, Mysuru, June 2019 – January 2020</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p><strong>Publication Details</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>International Journals:</strong></p>\n<ol>\n<li>Pooja.P.P,Kanakam Sri Nath, Kadavakal Pramod Siddhartha, Abhishek Aste, achin NV publishe paper titled  “Forecasting Road Accidents through Data Mining Techniques” in International Journal of All Research Education and Scientific Methods (IJARESM),ISSN: 2455-6211, Volume 11, Issue 5, May-2023. <a href=\"http://www.ijaresm.com/forecasting-road-accidents-through-data-mining-techniques\" target=\"_blank\" rel=\"noreferrer noopener\">http://www.ijaresm.com/forecasting-road-accidents-through-data-mining-technique</a></li>\n<li>Pooja.P.P,Rekha.K.S publishe paper titled  ‘Design &amp; Implementation of Alive Human     Detection Robot’ in  IJSRD - International Journal for Scientific Research &amp; Development| Vol. 6, Issue 03, 2018 | ISSN (online): 2321-0613</li>\n</ol>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":1} --><!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p><strong>Roles and Responsibility</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><!-- wp:list-item -->\n<li>Project Coordinator</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>IA Coordinator</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Student Mentor</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->",
+  "featured_image": {
+    "id": "15512",
+    "title": "Pooja-P-P-1",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2023/08/Pooja-P-P-1.jpg"
+  },
+  "attachments": [
+    {
+      "id": "15512",
+      "title": "Pooja-P-P-1",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/08/Pooja-P-P-1.jpg"
+    },
+    {
+      "id": "15513",
+      "title": "Pooja-P-P",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/08/Pooja-P-P.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": [
+    "http://www.ijaresm.com/forecasting-road-accidents-through-data-mining-techniques"
+  ]
+}

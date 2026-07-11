@@ -1,0 +1,16 @@
+{
+  "id": "889",
+  "title": "Info Box 1",
+  "slug": "info-box-1",
+  "link": "https://old.atme.edu.in/info-box-1/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-10-20 10:21:05",
+  "date_gmt": "2017-10-20 10:21:05",
+  "modified": "2021-10-08 11:33:55",
+  "modified_gmt": "2021-10-08 11:33:55",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column width=\"1/4\"][eikra-vc-info-box icon=\"fas fa-video\" title=\"Over 20,640 Free Tutorial\"]Eimply dummy text of the printing inavailable industry.[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\"][eikra-vc-info-box icon=\"fa fa-user\" title=\"Skilled 10,640 Lecturer\"]Eimply dummy text of the printing inavailable industry.[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\"][eikra-vc-info-box title=\"Over 1000 Scholarship\"]Eimply dummy text of the printing inavailable industry.[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\"][eikra-vc-info-box icon=\"fa fa-book\" title=\"Over 5,640 Book Store\"]Eimply dummy text of the printing inavailable industry.[/eikra-vc-info-box][/vc_column][/vc_row]"
+}

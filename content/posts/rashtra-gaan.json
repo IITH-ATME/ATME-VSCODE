@@ -1,0 +1,42 @@
+{
+  "id": "4739",
+  "title": "Rashtra Gaan",
+  "slug": "rashtra-gaan",
+  "link": "https://old.atme.edu.in/rashtra-gaan/",
+  "status": "publish",
+  "published_date": "2021-09-22 08:53:44",
+  "published_date_gmt": "2021-09-22 08:53:44",
+  "modified": "2022-05-16 10:06:58",
+  "modified_gmt": "2022-05-16 10:06:58",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [
+    {
+      "nicename": "rashtra-gaan",
+      "name": "Rashtra Gaan"
+    }
+  ],
+  "excerpt": "",
+  "content": "<div class=\"entry-header\">\n<h2 class=\"entry-title event-entry-title course-entry-title\">Rashtra Gaan</h2>\n</div>\n&nbsp;\n<div class=\"entry-blog single-course-content\">\n<div class=\"entry-summary clearfix\">\n<div class=\"container\">\n<div class=\"vc_row wpb_row vc_row-fluid\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner \">\n<div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p style=\"text-align: center;\">The Students and Staff of ATMECE will join for the mass recitation of National Anthem.</p>\n<p style=\"text-align: center;\">Date : 9th August 2021</p>\n<p style=\"text-align: center;\">Time : 11:30 AM</p>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "featured_image": {
+    "id": "4724",
+    "title": "18",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2021/09/18.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

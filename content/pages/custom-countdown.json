@@ -1,0 +1,16 @@
+{
+  "id": "1825",
+  "title": "Custom Countdown",
+  "slug": "custom-countdown",
+  "link": "https://old.atme.edu.in/custom-countdown/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2018-09-14 06:12:00",
+  "date_gmt": "2018-09-14 06:12:00",
+  "modified": "2018-09-14 06:12:00",
+  "modified_gmt": "2018-09-14 06:12:00",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row full_width=\"stretch_row\" css=\".vc_custom_1536905491197{padding-top: 100px !important;padding-bottom: 100px !important;background-image: url(https://old.atme.edu.in/wp-content/uploads/2017/10/bg.jpg?id=1029) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}\"][vc_column][eikra-vc-countdown style=\"dark\" title1=\"Next Drawing Course\" title2=\"Available Now\" date=\"2019-11-07\"][/vc_column][/vc_row]"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "10544",
+  "title": "ATMEYA - 2K23",
+  "slug": "atmeya-2k23",
+  "link": "https://old.atme.edu.in/atmeya-2k23/",
+  "status": "publish",
+  "published_date": "2023-05-13 10:32:08",
+  "published_date_gmt": "2023-05-13 10:32:08",
+  "modified": "2023-05-14 07:33:59",
+  "modified_gmt": "2023-05-14 07:33:59",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\" style=\"text-align: center;\"><strong>Annual Cultural fest ATMEya-2023</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\" style=\"text-align: center;\"><br /><strong>“Protecting the Lives of Life Savers”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph --><!-- /wp:paragraph -->\n\n<!-- wp:paragraph --><!-- /wp:paragraph -->\n<p>ATMEya is the annual college cultural fest that ATME has been organizing since the Inception of this college from 2010. The students, staff and Management of this institution have repeatedly established standards which have been constantly beaten in the consecutive years. ATMEya has been based on a wide array of themes - from Traffic Awareness, Amar Jawan to Lead the Blind and Arise-Awake-Adopt Orphans. This year ATMEya is based on the theme Protecting the Lives of Life Savers held on 24th and 25th March 2023.</p>\n<p>For more details click on <span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://old.atme.edu.in/wp-content/uploads/2023/05/Atmeya-23-Report.pdf\">Report</a></span></p>\n<!-- wp:paragraph -->\n<p>&nbsp;</p>\n<!-- /wp:paragraph -->",
+  "featured_image": {
+    "id": "10549",
+    "title": "atmeya banner 1",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2023/05/atmeya-banner-1.jpg"
+  },
+  "attachments": [
+    {
+      "id": "10546",
+      "title": "Atmeya 23 Report",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/05/Atmeya-23-Report.pdf"
+    },
+    {
+      "id": "10549",
+      "title": "atmeya banner 1",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/05/atmeya-banner-1.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [
+      {
+        "id": "10546",
+        "title": "Atmeya 23 Report",
+        "url": "https://old.atme.edu.in/wp-content/uploads/2023/05/Atmeya-23-Report.pdf"
+      }
+    ],
+    "linked_in_content": [
+      "https://old.atme.edu.in/wp-content/uploads/2023/05/Atmeya-23-Report.pdf"
+    ]
+  },
+  "internal_links": [
+    "https://old.atme.edu.in/wp-content/uploads/2023/05/Atmeya-23-Report.pdf"
+  ],
+  "external_links": []
+}

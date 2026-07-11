@@ -1,0 +1,37 @@
+{
+  "id": "10130",
+  "title": "MRS AKSHATHA A",
+  "slug": "mrs-akshatha-a",
+  "link": "https://old.atme.edu.in/mrs-akshatha-a/",
+  "status": "publish",
+  "published_date": "2023-03-03 07:28:37",
+  "published_date_gmt": "2023-03-03 07:28:37",
+  "modified": "2023-03-03 07:54:12",
+  "modified_gmt": "2023-03-03 07:54:12",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:paragraph {\"extUtilities\":[]} -->\n<p><strong>MRS AKSHATHA A </strong><br />ASSISTANT PROFESSOR</p>\n<p><br /><strong>E-mail</strong>: Akshatagowda93@gmail.com <br /><br /></p>\n<p><strong>Qualification</strong><br />UG: BE<br />PG: M.TECH</p>\n<p><strong>Total Experience in Years</strong><br />Teaching: 1.3</p>\n<p><strong>Papers Published</strong><br />International: 1</p>\n<!-- /wp:paragraph -->",
+  "featured_image": {
+    "id": "10128",
+    "title": "CS-2",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2023/03/CS-2.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

@@ -73,13 +73,13 @@ const PG_DEPTS: FL[] = [
 ];
 
 const OTHER_DEPTS: FL[] = [
-  { label: "Chemistry",   href: "https://atme.edu.in/programs/chemistry-about-the-department/" },
-  { label: "Mathematics", href: "https://atme.edu.in/programs/maths-about-the-department/" },
-  { label: "Physics",     href: "https://atme.edu.in/programs/physics-about-the-department/" },
-  { label: "Humanities",  href: "https://atme.edu.in/programs/humanities-staff-details/" },
+  { label: "Chemistry",   to: "/departments/$slug", params: { slug: "chemistry" } },
+  { label: "Mathematics", to: "/departments/$slug", params: { slug: "mathematics" } },
+  { label: "Physics",     to: "/departments/$slug", params: { slug: "physics" } },
+  { label: "Humanities",  to: "/departments/$slug", params: { slug: "humanities" } },
   { label: "Library",     to: "/resources/elibrary" },
-  { label: "NSS",         href: "https://atme.edu.in/programs/nss/" },
-  { label: "Sports",      href: "https://atme.edu.in/programs/sports-about/" },
+  { label: "NSS",         to: "/p/$", params: { _splat: "nss-unit" } },
+  { label: "Sports",      to: "/sports" },
 ];
 
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {
@@ -87,7 +87,7 @@ function Col({ title, children, className, topFill }: { title: string; children:
     <div className={className}>
       {topFill}
       <div className="px-3 py-6 h-full flex flex-col">
-        <h4 className="font-display text-[13px] font-bold text-white pb-3 mb-4 border-b-2 border-white/25 relative tracking-wide">
+        <h4 className="font-display text-[13px] font-bold text-white pb-3 mb-4 border-b-2 border-white/25 relative tracking-wide whitespace-nowrap">
           <span className="absolute -bottom-[2px] left-0 w-14 h-[2px] bg-amber-300" />
           {title}
         </h4>
@@ -131,7 +131,7 @@ export function Footer() {
       <div className="h-1 w-full bg-white/40" />
 
       {/* Footer columns */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,2.8fr)_minmax(0,2.2fr)_minmax(0,0.8fr)] xl:grid-cols-[minmax(0,200px)_minmax(0,240px)_minmax(0,312px)_minmax(0,305px)_minmax(0,140px)] items-stretch">
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,2.3fr)_minmax(0,2.2fr)_minmax(0,1.3fr)] xl:grid-cols-[minmax(0,200px)_minmax(0,240px)_minmax(0,252px)_minmax(0,305px)_minmax(0,200px)] items-stretch">
 
         <Col title="About us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />

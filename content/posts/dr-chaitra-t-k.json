@@ -1,0 +1,44 @@
+{
+  "id": "20764",
+  "title": "Dr. Chaitra T K",
+  "slug": "dr-chaitra-t-k",
+  "link": "https://old.atme.edu.in/dr-chaitra-t-k/",
+  "status": "publish",
+  "published_date": "2024-09-04 07:36:01",
+  "published_date_gmt": "2024-09-04 07:36:01",
+  "modified": "2025-09-03 09:09:16",
+  "modified_gmt": "2025-09-03 09:09:16",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "ece-faculty",
+      "name": "ECE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<p style=\"text-align: center;\">[wp_code id=\"2\"]</p>",
+  "featured_image": null,
+  "attachments": [
+    {
+      "id": "20765",
+      "title": "Chaitra-T-K",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2024/09/Chaitra-T-K.jpg"
+    },
+    {
+      "id": "20766",
+      "title": "Chaitra-T-K-1",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2024/09/Chaitra-T-K-1.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

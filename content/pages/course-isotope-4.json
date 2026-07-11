@@ -1,0 +1,16 @@
+{
+  "id": "1364",
+  "title": "Course Isotope 4",
+  "slug": "course-isotope-4",
+  "link": "https://old.atme.edu.in/course-isotope-4/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-12-07 09:36:19",
+  "date_gmt": "2017-12-07 09:36:19",
+  "modified": "2018-01-31 06:14:27",
+  "modified_gmt": "2018-01-31 06:14:27",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-course-isotope all=\"All\" style=\"style2\" button_display=\"true\"][/vc_column][/vc_row]"
+}

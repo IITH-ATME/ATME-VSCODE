@@ -1,0 +1,54 @@
+{
+  "id": "8568",
+  "title": "“KOTI KANTA GEETHA GAAYANA” ORGANISED BY ATMECE",
+  "slug": "science-fiesta-for-school-children-from-7th-to-12th-standard-3",
+  "link": "https://old.atme.edu.in/science-fiesta-for-school-children-from-7th-to-12th-standard-3/",
+  "status": "publish",
+  "published_date": "2022-11-03 11:31:44",
+  "published_date_gmt": "2022-11-03 11:31:44",
+  "modified": "2022-11-03 11:33:19",
+  "modified_gmt": "2022-11-03 11:33:19",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:pdfemb/pdf-embedder-viewer {\"pdfID\":8572,\"url\":\"https://old.atme.edu.in/wp-content/uploads/2022/11/KOTI-Kanta-Gayana-E-.pdf\"} -->\n<p class=\"wp-block-pdfemb-pdf-embedder-viewer\"></p>\n<!-- /wp:pdfemb/pdf-embedder-viewer -->",
+  "featured_image": {
+    "id": "8569",
+    "title": "Kannada-rajyotsava",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/11/Kannada-rajyotsava.jpg"
+  },
+  "attachments": [
+    {
+      "id": "8569",
+      "title": "Kannada-rajyotsava",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/11/Kannada-rajyotsava.jpg"
+    },
+    {
+      "id": "8572",
+      "title": "KOTI Kanta Gayana-(E)-",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/11/KOTI-Kanta-Gayana-E-.pdf"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [
+      {
+        "id": "8572",
+        "title": "KOTI Kanta Gayana-(E)-",
+        "url": "https://old.atme.edu.in/wp-content/uploads/2022/11/KOTI-Kanta-Gayana-E-.pdf"
+      }
+    ],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

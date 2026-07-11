@@ -1,0 +1,16 @@
+{
+  "id": "1636",
+  "title": "Course Isotope 6",
+  "slug": "course-isotope-6",
+  "link": "https://old.atme.edu.in/course-isotope-6/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2018-01-31 06:11:25",
+  "date_gmt": "2018-01-31 06:11:25",
+  "modified": "2018-01-31 06:15:25",
+  "modified_gmt": "2018-01-31 06:15:25",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-course-isotope all=\"All\" style=\"style2\" button_display=\"true\" box_style=\"3\"][/vc_column][/vc_row]"
+}

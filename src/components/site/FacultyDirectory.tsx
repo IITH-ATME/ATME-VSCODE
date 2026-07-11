@@ -281,8 +281,12 @@ export function FacultyDirectory({
                           </td>
                           <td className="px-3 py-3 align-top text-foreground/85">{(() => {
                             // Show only degree tokens (e.g. BE, ME, MTech, PhD), not full descriptions.
-                            const items = parseQualificationList(f.qualification);
-                            const blob = items.join(" , ") + " " + (f.qualification || "");
+                            // A degree still "Pursuing" is not yet held — strip those clauses so an
+                            // in-progress PhD doesn't get shown as a completed one (falls through to
+                            // the next, already-completed degree instead).
+                            const stripPursuing = (s: string) => s.replace(/\bpursuing\b[^,|]*/gi, "");
+                            const items = parseQualificationList(f.qualification).filter((it) => !/^pursuing\b/i.test(it));
+                            const blob = stripPursuing(items.join(" , ") + " " + (f.qualification || ""));
                             const DEGREES: { re: RegExp; label: string }[] = [
                               { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
                               { re: /\bM[\.\-\s]*Tech\b/i, label: "MTech" },

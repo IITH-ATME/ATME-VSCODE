@@ -414,7 +414,11 @@ function extractLabVideos(md: string): { extracted: string; remaining: string } 
     }
     return true;
   });
-  let extracted = byHeading.extracted;
+  // Drop the matched "#### Lab Videos" wrapper heading line itself — callers
+  // only want the video content beneath it. (The fallback path below never
+  // includes a wrapper heading in the first place, so both code paths now
+  // consistently return wrapper-free content.)
+  let extracted = byHeading.extracted.replace(/^####\s+.*\n?/, "");
 
   // `sanitizeMarkdown` removes the empty "Lab Videos" wrapper heading when
   // the first real content is a nested heading. In that case, recover the
@@ -643,6 +647,14 @@ function DeptSubPage() {
     .trim().length;
   const isThin = plainTextLen < 400;
 
+  // CSE-only exception: Lab Videos belongs under Teaching Methods (matching
+  // the old site), not Student Learning like every other department.
+  // `canonKey` is null for real scraped pages (only placeholder pages set
+  // it), so match against `k` — the already-lowercased canonKey/pageKey
+  // fallback used by every other branch below.
+  const isCseTeachingMethods = dept.slug === "cse" && k === "innovative-teaching-learning-methods";
+  const studentLearningLabVideosMd = dept.slug === "cse" ? "" : labVideosMd;
+
   return (
     <DeptContext.Provider value={dept.slug}>
     <Layout>
@@ -705,7 +717,7 @@ function DeptSubPage() {
           {/* Student Learning Centric — semester tables (renders for both
               placeholder and scraped variants so the layout stays uniform). */}
           {canonKey === "student-learning-centric" || /student-learning|rd-for-students|^resources?$|^resourses?$|-resources?$|^civil-resources$|^cyber-security-resources$|^mca-resources$|^resources-mba$|^teachers-teaching-analysis$/.test(k) ? (
-            <StudentLearningCentric md={bodyMd} deptName={dept.name} slug={dept.slug} labVideosMd={labVideosMd} />
+            <StudentLearningCentric md={bodyMd} deptName={dept.name} slug={dept.slug} labVideosMd={studentLearningLabVideosMd} />
           ) : isAbout ? (
             <DepartmentAboutView dept={dept} md={isPlaceholder || isThin ? "" : bodyMd} />
           ) : canonKey === "infrastructure" || isInfra ? (
@@ -729,18 +741,21 @@ function DeptSubPage() {
             />
 
           ) : isAccordionPage ? (
-            <AccordionedContentWithFallback
-              md={bodyMd}
-              canonKey={canonKey || inferCanonKey(pageKey)}
-              deptName={dept.name}
-              openFirst={/research/.test(k)}
-              flat={
-                (canonKey || inferCanonKey(pageKey)) === "achievements" ||
-                (canonKey || inferCanonKey(pageKey)) === "co-curricular" ||
-                (canonKey || inferCanonKey(pageKey)) === "industry-interface" ||
-                /achievement|achivement|activit|co-curricular|extra-curricular|extracurricular|professional-society|industry/.test(k)
-              }
-            />
+            <>
+              <AccordionedContentWithFallback
+                md={bodyMd}
+                canonKey={canonKey || inferCanonKey(pageKey)}
+                deptName={dept.name}
+                openFirst={/research/.test(k)}
+                flat={
+                  (canonKey || inferCanonKey(pageKey)) === "achievements" ||
+                  (canonKey || inferCanonKey(pageKey)) === "co-curricular" ||
+                  (canonKey || inferCanonKey(pageKey)) === "industry-interface" ||
+                  /achievement|achivement|activit|co-curricular|extra-curricular|extracurricular|professional-society|industry/.test(k)
+                }
+              />
+              {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
+            </>
           ) : (
             <div className={PROSE_CLS}>
               <MD>{bodyMd}</MD>
@@ -1762,7 +1777,9 @@ function SemesterScaffoldTable({ semester, deptName }: { semester: string; deptN
 }
 
 function LabVideosPanel({ md, deptName }: { md: string; deptName: string }) {
-  const cleaned = md.replace(/^####\s+.*$/m, "").trim();
+  // `extractLabVideos` already strips the "Lab Videos" wrapper heading, so
+  // `md` here is wrapper-free video content ready to hand to AccordionedContent.
+  const cleaned = md.trim();
   if (!cleaned) return null;
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white overflow-hidden">

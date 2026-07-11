@@ -1,0 +1,47 @@
+{
+  "id": "9477",
+  "title": "Orientation Program – 2022",
+  "slug": "induction-2022",
+  "link": "https://old.atme.edu.in/induction-2022/",
+  "status": "publish",
+  "published_date": "2023-01-04 07:43:50",
+  "published_date_gmt": "2023-01-04 07:43:50",
+  "modified": "2023-01-04 07:48:59",
+  "modified_gmt": "2023-01-04 07:48:59",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:html -->\n<p><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://old.atme.edu.in/wp-content/uploads/2023/01/Induction-Program-Report.pdf\"><b>Report on Orientation Program – 2022</b></a></span></p>\n<!-- /wp:html -->",
+  "featured_image": {
+    "id": "9479",
+    "title": "op ebanner",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/op-ebanner.jpg"
+  },
+  "attachments": [
+    {
+      "id": "9479",
+      "title": "op ebanner",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/op-ebanner.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": [
+      "https://old.atme.edu.in/wp-content/uploads/2023/01/Induction-Program-Report.pdf"
+    ]
+  },
+  "internal_links": [
+    "https://old.atme.edu.in/wp-content/uploads/2023/01/Induction-Program-Report.pdf"
+  ],
+  "external_links": []
+}

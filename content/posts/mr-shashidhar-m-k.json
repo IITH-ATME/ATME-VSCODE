@@ -1,0 +1,49 @@
+{
+  "id": "6849",
+  "title": "Mr. SHASHIDHAR M K",
+  "slug": "mr-shashidhar-m-k",
+  "link": "https://old.atme.edu.in/mr-shashidhar-m-k/",
+  "status": "publish",
+  "published_date": "2022-09-12 07:23:28",
+  "published_date_gmt": "2022-09-12 07:23:28",
+  "modified": "2023-01-31 08:47:59",
+  "modified_gmt": "2023-01-31 08:47:59",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "me-faculty",
+      "name": "ME-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p><strong>FACULTY DETAILS</strong><br /><strong>Faculty Name : SHASHIDHAR M K</strong></p>\n<p><strong><!-- /wp:paragraph -->\n\n<!-- wp:paragraph --></strong></p>\n<p><strong>Education Details</strong><br />● M. Tech in Computer Integrated Manufacturing<br />● B. E in Mechanical Engineering</p>\n<p><strong>Contact Details</strong></p>\n<table width=\"663\">\n<tbody>\n<tr>\n<td width=\"124\"><strong>Email ID</strong></td>\n<td width=\"539\"><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"mailto:shashidharmk_me@old.atme.edu.in\">shashidharmk_me@old.atme.edu.in</a></span></td>\n</tr>\n<tr>\n<td><strong>LinkedIn ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://www.linkedin.com/in/shashidhar-gowda-a24589202\">https://www.linkedin.com/in/shashidhar-gowda-a24589202</a></span></td>\n</tr>\n<tr>\n<td><strong>Google Scholor  ID</strong></td>\n<td> </td>\n</tr>\n<tr>\n<td><strong>Orcid ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://orcid.org/0000-0002-2417-7455\">https://orcid.org/0000-0002-2417-7455</a></span></td>\n</tr>\n<tr>\n<td><strong>Vidwaan ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://vidwan.inflibnet.ac.in/profile/323807\">https://vidwan.inflibnet.ac.in/profile/323807</a></span></td>\n</tr>\n<tr>\n<td><strong>Scopus ID</strong></td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Professional Experience</strong><br />● Teaching Experience : 7 Years<br />● Industry Experience : 8 Years</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Professional body membership</strong><br />• International Association of Engineers</p>\n<!-- /wp:paragraph -->",
+  "featured_image": {
+    "id": "6851",
+    "title": "ME-02",
+    "url": "https://old.atme.edu.in/wp-content/uploads/ME-02.jpg"
+  },
+  "attachments": [
+    {
+      "id": "6851",
+      "title": "ME-02",
+      "url": "https://old.atme.edu.in/wp-content/uploads/ME-02.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [
+    "mailto:shashidharmk_me@old.atme.edu.in"
+  ],
+  "external_links": [
+    "https://orcid.org/0000-0002-2417-7455",
+    "https://vidwan.inflibnet.ac.in/profile/323807",
+    "https://www.linkedin.com/in/shashidhar-gowda-a24589202"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "1349",
+  "title": "Info Box 5",
+  "slug": "info-box-5",
+  "link": "https://old.atme.edu.in/info-box-5/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-12-07 08:59:48",
+  "date_gmt": "2017-12-07 08:59:48",
+  "modified": "2017-12-18 12:36:25",
+  "modified_gmt": "2017-12-18 12:36:25",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row css=\".vc_custom_1509619684241{padding-top: 45px !important;padding-bottom: 45px !important;}\"][vc_column width=\"1/4\" css=\".vc_custom_1510312951745{padding-top: 0px !important;padding-right: 0px !important;padding-left: 0px !important;}\"][eikra-vc-info-box layout=\"layout5\" icontype=\"image\" title=\"12,000\" subtitle=\"Online Courses\" image=\"1146\"]Online Courses[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\" css=\".vc_custom_1509614493180{border-left-width: 1px !important;padding-top: 0px !important;padding-right: 0px !important;padding-left: 0px !important;border-left-color: #cccccc !important;border-left-style: solid !important;}\"][eikra-vc-info-box layout=\"layout5\" icontype=\"image\" title=\"3,500\" subtitle=\"Expert Instructors\" image=\"1147\"]Expert Instructors[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\" css=\".vc_custom_1509614500361{border-left-width: 1px !important;padding-top: 0px !important;padding-right: 0px !important;padding-left: 0px !important;border-left-color: #cccccc !important;border-left-style: solid !important;}\"][eikra-vc-info-box layout=\"layout5\" icontype=\"image\" title=\"Unlimited\" subtitle=\"Course Access\" image=\"1148\"]Course Access[/eikra-vc-info-box][/vc_column][vc_column width=\"1/4\" css=\".vc_custom_1509614507974{border-left-width: 1px !important;padding-top: 0px !important;padding-right: 0px !important;padding-left: 0px !important;border-left-color: #cccccc !important;border-left-style: solid !important;}\"][eikra-vc-info-box layout=\"layout5\" icontype=\"image\" title=\"Learn\" subtitle=\"From Anywhere\" image=\"1149\"]From Anywhere[/eikra-vc-info-box][/vc_column][/vc_row]"
+}

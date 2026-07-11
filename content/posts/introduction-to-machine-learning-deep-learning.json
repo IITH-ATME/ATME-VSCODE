@@ -1,0 +1,56 @@
+{
+  "id": "4583",
+  "title": "“Introduction to Machine Learning & Deep Learning”",
+  "slug": "introduction-to-machine-learning-deep-learning",
+  "link": "https://old.atme.edu.in/introduction-to-machine-learning-deep-learning/",
+  "status": "publish",
+  "published_date": "2021-06-18 06:33:22",
+  "published_date_gmt": "2021-06-18 06:33:22",
+  "modified": "2022-05-16 06:20:16",
+  "modified_gmt": "2022-05-16 06:20:16",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [
+    {
+      "nicename": "deep-learning",
+      "name": "Deep Learning”"
+    },
+    {
+      "nicename": "introduction-to-machine-learning",
+      "name": "Introduction to Machine Learning"
+    },
+    {
+      "nicename": "machine-learning",
+      "name": "Machine Learning"
+    }
+  ],
+  "excerpt": "",
+  "content": "<div class=\"entry-header\">\n<h2 class=\"entry-title event-entry-title course-entry-title\" style=\"text-align: center;\">“Introduction to Machine Learning &amp; Deep Learning”</h2>\n</div>\n<div class=\"entry-blog single-course-content\">\n<div class=\"entry-summary clearfix\">\n<div class=\"container\">\n<div class=\"vc_row wpb_row vc_row-fluid\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner \">\n<div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p style=\"text-align: center;\"><strong>Date:</strong> 19th June 2021\n<strong>Time:</strong> 10.00 am to 12.00 pm</p>\n<p style=\"text-align: center;\"><strong>Target participants:</strong> 6th Semester students\n<strong>Meeting Platform:</strong> Microsoft Teams</p>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "featured_image": {
+    "id": "4584",
+    "title": "40",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/40.jpg"
+  },
+  "attachments": [
+    {
+      "id": "4584",
+      "title": "40",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/40.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

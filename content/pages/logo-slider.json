@@ -1,0 +1,16 @@
+{
+  "id": "1085",
+  "title": "Logo Slider",
+  "slug": "logo-slider",
+  "link": "https://old.atme.edu.in/logo-slider/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-10-25 07:06:07",
+  "date_gmt": "2017-10-25 07:06:07",
+  "modified": "2017-12-18 12:36:25",
+  "modified_gmt": "2017-12-18 12:36:25",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-logo logos=\"%5B%7B%22image%22%3A%221080%22%7D%2C%7B%22image%22%3A%221081%22%7D%2C%7B%22image%22%3A%221082%22%7D%2C%7B%22image%22%3A%221079%22%7D%5D\" slider_autoplay_speed=\"200\"][/vc_column][/vc_row]"
+}

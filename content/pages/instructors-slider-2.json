@@ -1,0 +1,16 @@
+{
+  "id": "1356",
+  "title": "Instructors Slider 2",
+  "slug": "instructors-slider-2",
+  "link": "https://old.atme.edu.in/instructors-slider-2/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-12-07 09:06:30",
+  "date_gmt": "2017-12-07 09:06:30",
+  "modified": "2017-12-18 12:36:25",
+  "modified_gmt": "2017-12-18 12:36:25",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style2\" title=\"Our Skilled Instructors\" number=\"5\" orderby=\"id_dsc\" orderby_alt=\"name\" item1=\"4\" item2=\"4\" count=\"25\" designation_dis=\"true\" button_dis=\"true\" buttontext=\"BECOME AN INSTRUCTOR\" buttonurl=\"\" slider_autoplay=\"true\" slider_stop_on_hover=\"true\" slider_interval=\"5000\" slider_autoplay_speed=\"200\" slider_loop=\"true\" student_dis=\"true\"][/vc_column][/vc_row]"
+}

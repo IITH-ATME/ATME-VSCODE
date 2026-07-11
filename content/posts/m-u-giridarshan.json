@@ -1,0 +1,42 @@
+{
+  "id": "22601",
+  "title": "M U Giridarshan",
+  "slug": "m-u-giridarshan",
+  "link": "https://old.atme.edu.in/m-u-giridarshan/",
+  "status": "publish",
+  "published_date": "2025-04-02 10:35:36",
+  "published_date_gmt": "2025-04-02 10:35:36",
+  "modified": "2026-04-30 10:45:06",
+  "modified_gmt": "2026-04-30 10:45:06",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "eee-faculty",
+      "name": "EEE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<div style=\"border: 2px solid black; padding: 10px; box-sizing: border-box;\">\n<div style=\"border: 2px solid black; padding: 10px; font-family: Arial, sans-serif; font-size: 16px;\">\n\n<!-- Heading -->\n<div style=\"background-color: #001f4d; color: white; padding: 10px; text-align: center; font-weight: bold;\">Technical Staff Profile</div>\n<!-- Faculty Profile: Two Columns -->\n<table style=\"width: 100%; border: 2px solid black; border-collapse: collapse; margin-top: 10px;\">\n<tbody>\n<tr><!-- Photo Placeholder -->\n<td style=\"border: 2px solid black; width: 30%; text-align: center; padding: 10px;\"><img class=\"aligncenter wp-image-28352 size-full\" src=\"https://old.atme.edu.in/wp-content/uploads/2026/04/M-U-GIRIDARSHAN-1.jpg\" alt=\"\" width=\"150\" height=\"200\"></td>\n<!-- Details -->\n<td style=\"border: 2px solid black; width: 70%; padding: 10px;\">\n<p style=\"text-align: left;\"><strong>Faculty Name: M U GIRIDARSHAN</strong></p>\n<p style=\"text-align: left;\"><strong>Designation: Assistant Instructor</strong></p>\n<p style=\"text-align: left;\"><strong>Program: Electrical and Electronics Engineering</strong></p>\n<p style=\"text-align: left;\"><strong>Professional Experience:</strong></p>\n<p style=\"text-align: left;\"><strong>Date of Joining Institution:</strong> 10/03/2025</p>\n\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td width=\"253\"><strong>Academic: 6 months</strong></td>\n<td width=\"257\"><strong>Industry: 4.5 years</strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<!-- Contact Details -->\n<div style=\"background-color: #001f4d; color: white; padding: 10px; text-align: center; font-weight: bold; margin-top: 20px;\">Contact Details</div>\n<table style=\"border-collapse: collapse;\" width=\"100%\">\n<tbody>\n<tr>\n<td width=\"18%\"><strong>Email ID</strong></td>\n<td width=\"44%\"><strong>Official:</strong></td>\n<td width=\"37%\"><strong>Personal:</strong></td>\n</tr>\n<tr>\n<td width=\"18%\">&nbsp;</td>\n<td width=\"44%\"><a href=\"mailto:giridarshanmu.ee@old.atme.edu.in\"><strong>giridarshanmu.ee@old.atme.edu.in</strong></a></td>\n<td width=\"37%\"><a href=\"mailto:mugiridarshan2706@gmail.com\"><strong>mugiridarshan2706@gmail.com</strong></a></td>\n</tr>\n</tbody>\n</table>\n<!-- Academic Details -->\n<div style=\"background-color: #001f4d; color: white; padding: 10px; text-align: center; font-weight: bold; margin-top: 20px;\">Academic Details</div>\n<p style=\"text-align: left;\"><strong>Qualification</strong></p>\n\n<ul>\n \t<li style=\"text-align: left;\">Bachelor of Engineering</li>\n \t<li style=\"text-align: left;\">Diploma in EEE</li>\n</ul>\n<!-- Roles and Responsibilities: Institute Level -->\n<div style=\"background-color: #001f4d; color: white; padding: 10px; text-align: center; font-weight: bold;\">Roles and Responsibilities: Institute Level</div>\n<div style=\"padding: 15px;\">DG Maintenance</div>\n<!-- Roles and Responsibilities: Department Level -->\n<div style=\"background-color: #001f4d; color: white; padding: 10px; text-align: center; font-weight: bold;\">Roles and Responsibilities: Department Level</div>\n<div style=\"padding: 15px;\">Instructor for SCI LAB, MICROCONTROLLER LAB and PSA 1 LAB</div>\n</div>\n</div>",
+  "featured_image": null,
+  "attachments": [
+    {
+      "id": "24004",
+      "title": "gir",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/04/gir-e1754283573190.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [
+    "mailto:giridarshanmu.ee@old.atme.edu.in",
+    "mailto:mugiridarshan2706@gmail.com"
+  ],
+  "external_links": []
+}

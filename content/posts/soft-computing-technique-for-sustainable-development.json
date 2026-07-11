@@ -1,0 +1,56 @@
+{
+  "id": "4694",
+  "title": "“Soft Computing Technique For Sustainable Development”",
+  "slug": "soft-computing-technique-for-sustainable-development",
+  "link": "https://old.atme.edu.in/soft-computing-technique-for-sustainable-development/",
+  "status": "publish",
+  "published_date": "2021-06-18 06:29:18",
+  "published_date_gmt": "2021-06-18 06:29:18",
+  "modified": "2022-05-16 09:58:59",
+  "modified_gmt": "2022-05-16 09:58:59",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [
+    {
+      "nicename": "development",
+      "name": "Development"
+    },
+    {
+      "nicename": "soft-computing-technique",
+      "name": "Soft Computing Technique"
+    },
+    {
+      "nicename": "technical-talk",
+      "name": "Technical Talk"
+    }
+  ],
+  "excerpt": "",
+  "content": "“Soft Computing Technique For Sustainable Development”\nDate: 19th June 2021\nVenue: ATME College of Engineering\nTime: 11:15am to 12.15pm",
+  "featured_image": {
+    "id": "4737",
+    "title": "42",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2021/06/42.jpg"
+  },
+  "attachments": [
+    {
+      "id": "4737",
+      "title": "42",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2021/06/42.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

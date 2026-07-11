@@ -1,0 +1,16 @@
+{
+  "id": "62",
+  "title": "Checkout",
+  "slug": "checkout",
+  "link": "https://old.atme.edu.in/checkout/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-09-20 09:36:50",
+  "date_gmt": "2017-09-20 09:36:50",
+  "modified": "2017-12-18 12:36:24",
+  "modified_gmt": "2017-12-18 12:36:24",
+  "categories": [],
+  "excerpt": "",
+  "content": "[woocommerce_checkout]"
+}

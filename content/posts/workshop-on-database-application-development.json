@@ -1,0 +1,70 @@
+{
+  "id": "4475",
+  "title": "Workshop on Database Application Development",
+  "slug": "workshop-on-database-application-development",
+  "link": "https://old.atme.edu.in/workshop-on-database-application-development/",
+  "status": "publish",
+  "published_date": "2021-01-04 12:58:45",
+  "published_date_gmt": "2021-01-04 12:58:45",
+  "modified": "2022-05-14 11:25:20",
+  "modified_gmt": "2022-05-14 11:25:20",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "computer-science-engineering",
+      "name": "Computer Science &amp; Engineering."
+    }
+  ],
+  "tags": [
+    {
+      "nicename": "anil-kumar",
+      "name": "Anil Kumar"
+    },
+    {
+      "nicename": "computer-science",
+      "name": "Computer Science"
+    },
+    {
+      "nicename": "database-application-development",
+      "name": "Database Application Development"
+    },
+    {
+      "nicename": "java",
+      "name": "JAVA"
+    },
+    {
+      "nicename": "jsp",
+      "name": "JSP"
+    },
+    {
+      "nicename": "php",
+      "name": "PHP"
+    },
+    {
+      "nicename": "rashmi-k",
+      "name": "Rashmi K"
+    },
+    {
+      "nicename": "workshop",
+      "name": "Workshop"
+    }
+  ],
+  "excerpt": "",
+  "content": "<div class=\"entry-header\">\n<h2 class=\"entry-title event-entry-title course-entry-title\">Workshop on Database Application Development</h2>\n</div>\n&nbsp;\n\n&nbsp;\n<div class=\"entry-blog single-course-content\">\n<div class=\"entry-summary clearfix\">\n<div class=\"container\">\n<div class=\"vc_row wpb_row vc_row-fluid\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner \">\n<div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n\n<strong>Organizing Department Name</strong>:  Department of Computer Science &amp; Engineering.\n\n<strong>Event type:</strong> Within department.\n\n<strong>Title of the event</strong>: Workshop on Database Application Development\n\n<strong>Date</strong>: 23/12/2020 and 24/12/2020\n\n<strong>Venue</strong>: Department of Computer Science &amp; Engineering, ATMECE.\n\n<strong>Resource person/Guest: Name:           </strong>Mr Anil Kumar and Mrs Rashmi K,\n\n<strong>Designation: </strong>Assistant Professor\n\n<strong>Event Description</strong>: Conducting two days of workshop on “Database Application Development” in CS Dept. This workshop is targeted to pre final year students for implementation of mini project using database.\n\nThis workshop concentrated on different front end design tool like PHP, JAVA and JSP with MySql database.\n\nDay 1: Will be takeover by Resource person Mrs Rashmi K concentrating on following topics\n<ul>\n \t<li>Installation of JAVA</li>\n \t<li>Java Database Connectivity process</li>\n \t<li>Java Server Pages.</li>\n \t<li>Creating database and table in MySQL.</li>\n \t<li>Implementing simple application using JSP with MySQL.</li>\n \t<li>Insert new record, update record and delete record operation in application.</li>\n \t<li>Applying Triggers and stored procedure to application.</li>\n</ul>\nDay 2: Will be takeover by Resource person Mr Anil Kumar concentrating\n<ul>\n \t<li>Introduction to PHP</li>\n \t<li>Syntax and defining rule for PHP</li>\n \t<li>Installation and description of XAMPP tool.</li>\n \t<li>Simple Login page implementation using database.</li>\n \t<li>Insert, update and delete operation on application.</li>\n \t<li>Applying Triggers and stored procedure to application.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "featured_image": {
+    "id": "4485",
+    "title": "69",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/69.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

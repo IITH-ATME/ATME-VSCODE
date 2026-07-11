@@ -1,0 +1,43 @@
+{
+  "id": "6935",
+  "title": "Mrs. Rani T",
+  "slug": "mrs-rani-t",
+  "link": "https://old.atme.edu.in/mrs-rani-t/",
+  "status": "publish",
+  "published_date": "2022-09-12 09:27:16",
+  "published_date_gmt": "2022-09-12 09:27:16",
+  "modified": "2022-09-12 10:17:21",
+  "modified_gmt": "2022-09-12 10:17:21",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "physics-faculty",
+      "name": "Physics-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<strong>FACULTY DETAILS</strong>\n<strong>Faculty Name : Mrs. Rani T</strong>\n\n<strong>Education Details</strong>\n<ul>\n \t<li>B.Sc</li>\n \t<li>M.Sc</li>\n</ul>\n<strong>Professional Experience</strong>\n\n•12 years, Asst Professor, Dept of Physics , ATME College of Engineering. Current\n\n<!-- /wp:list -->",
+  "featured_image": {
+    "id": "6936",
+    "title": "Mrs.-Rani-T",
+    "url": "https://old.atme.edu.in/wp-content/uploads/Mrs.-Rani-T.jpg"
+  },
+  "attachments": [
+    {
+      "id": "6936",
+      "title": "Mrs.-Rani-T",
+      "url": "https://old.atme.edu.in/wp-content/uploads/Mrs.-Rani-T.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

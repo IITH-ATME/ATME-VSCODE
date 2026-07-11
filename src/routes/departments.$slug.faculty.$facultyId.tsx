@@ -423,7 +423,16 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
     let lastMatchTitle: string | null = null;
     for (const s of sections) {
       const norm = normalize(s.title);
-      const match = CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm === a || norm.includes(a)));
+      // Prefer an exact alias match over a substring one, and check it across
+      // every canonical section before falling back to `includes()`. Without
+      // this, a specific heading like "Roles and Responsibilities: Department
+      // Level" gets swallowed by the broader "Roles and Responsibilities"
+      // alias belonging to the (earlier, in array order) Institute Level
+      // section, since its normalized text contains that shorter alias as a
+      // substring.
+      const match =
+        CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm === a)) ??
+        CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm.includes(a)));
       const targetTitle = match?.title ?? lastMatchTitle;
       if (!targetTitle) continue;
       const bucket = byCanonical.get(targetTitle) ?? [];
@@ -654,9 +663,19 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
   // "Detail" paragraphs, narrative bullets, etc.) is intentionally dropped to
   // keep this card uniform across every faculty profile.
   const find = (re: RegExp): string => {
+    // Capture the unit alongside the number — source data isn't always in
+    // years (e.g. "Teaching: 8 months" for a recent joinee) — and default to
+    // "years" only when no unit is present, instead of always assuming years.
     const pickNumber = (s: string) => {
-      const m = s.match(/(\d+(?:\.\d+)?)/);
-      return m ? m[1] : "";
+      const m = s.match(/(\d+(?:\.\d+)?)\s*(years?|yrs?\.?|months?|mos?\.?|days?)?/i);
+      if (!m) return "";
+      const num = m[1];
+      const unitRaw = (m[2] || "").toLowerCase();
+      const single = parseFloat(num) === 1;
+      const unit = /^mo/.test(unitRaw) ? (single ? "month" : "months")
+        : /^d/.test(unitRaw) ? (single ? "day" : "days")
+        : (single ? "year" : "years");
+      return `${num} ${unit}`;
     };
     for (const it of items) {
       if (it.columns && it.columns.length >= 1) {
@@ -679,11 +698,17 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
       }
       const text = it.text.replace(/\*\*/g, "").trim();
       // Match patterns like "Teaching Experience: 12", "Teaching: 12 years",
-      // "Teaching Experience — 12 yrs", etc.
-      const m = text.match(/^([A-Za-z][A-Za-z ()&/.-]{1,40}?)\s*[:\-–—|]\s*(.+)$/);
-      if (m && re.test(m[1])) {
-        const num = pickNumber(m[2]);
-        if (num) return num;
+      // "Teaching Experience — 12 yrs", etc. A single bullet sometimes packs
+      // all three together (e.g. "Teaching: 21 Years: Research: 6 Years |
+      // Industry: 2 Years") — scan for every "Label: value" pair in the line
+      // rather than only the one starting the string, so a combined summary
+      // line doesn't silently swallow the later labels.
+      const pairRe = /(teaching|research|industry|industrial)(?:\s+experience)?\s*[:\-–—|]\s*([^|]*?)(?=(?:teaching|research|industry|industrial)(?:\s+experience)?\s*[:\-–—|]|$)/gi;
+      for (const pm of text.matchAll(pairRe)) {
+        if (re.test(pm[1])) {
+          const num = pickNumber(pm[2]);
+          if (num) return num;
+        }
       }
     }
     return "";
@@ -748,7 +773,7 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
                 {r.label}
               </th>
               <td className="px-3 py-2 align-top text-foreground/90 border-l" style={{ borderColor: "#f5c518" }}>
-                {r.value ? `${r.value} years` : <span className="text-muted-foreground select-none">—</span>}
+                {r.value || <span className="text-muted-foreground select-none">—</span>}
               </td>
             </tr>
           ))}

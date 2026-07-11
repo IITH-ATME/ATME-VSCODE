@@ -1,0 +1,63 @@
+{
+  "id": "4931",
+  "title": "Seminar on Emerging technologies at ATME",
+  "slug": "seminar-on-emerging-technologies-at-atme",
+  "link": "https://old.atme.edu.in/seminar-on-emerging-technologies-at-atme/",
+  "status": "publish",
+  "published_date": "2022-05-09 07:43:43",
+  "published_date_gmt": "2022-05-09 07:43:43",
+  "modified": "2022-08-01 01:55:58",
+  "modified_gmt": "2022-08-01 01:55:58",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [
+    {
+      "nicename": "emerging-technologies",
+      "name": "Emerging technologies"
+    },
+    {
+      "nicename": "implementation-of-the-new-courses",
+      "name": "implementation of the new courses"
+    }
+  ],
+  "excerpt": "",
+  "content": "<div class=\"entry-header\">\n<h2 class=\"entry-title event-entry-title course-entry-title\">Seminar on Emerging technologies at ATME</h2>\n</div>\n<div class=\"entry-blog single-course-content\">\n<div class=\"entry-summary clearfix\">\n<div class=\"container\">\n<div class=\"vc_row wpb_row vc_row-fluid\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner \">\n<div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p style=\"text-align: justify;\">Dr. Ashok Rao, Professor Emeritus, IISc, Bangalore, addressed the faculty members of CSE, ECE and Mathematics department, to sensitize the issue on the implementation of the new courses AI&amp;ML, CS&amp;D, CS &amp; DS on 29.04.2022. In his address he emphasized on the methods and prepared Ness that needs to be made to take the course forward. He also emphasized on the relevance of these advanced subjects in the coming days and further mentioned that these courses are going to be the future of Engineering in coming days. He wished best wishes of the upcoming courses. Dr. Ashok Rao clarified few queries raised by the faculties about taking forward the new courses on this occasion.</p>\n<strong>Report</strong>\n\n[pdf-embedder url=\"https://old.atme.edu.in/wp-content/uploads/2022/05/seminar.pdf\"]\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "featured_image": {
+    "id": "4938",
+    "title": "2-01",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/2-01-scaled.jpg"
+  },
+  "attachments": [
+    {
+      "id": "4937",
+      "title": "seminar",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/seminar.pdf"
+    },
+    {
+      "id": "4938",
+      "title": "2-01",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/2-01-scaled.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [
+      {
+        "id": "4937",
+        "title": "seminar",
+        "url": "https://old.atme.edu.in/wp-content/uploads/2022/05/seminar.pdf"
+      }
+    ],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

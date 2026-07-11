@@ -1,0 +1,43 @@
+{
+  "id": "21144",
+  "title": "Mrs. Kavitha G",
+  "slug": "mrs-kavitha-g",
+  "link": "https://old.atme.edu.in/mrs-kavitha-g/",
+  "status": "publish",
+  "published_date": "2024-10-17 08:57:50",
+  "published_date_gmt": "2024-10-17 08:57:50",
+  "modified": "2026-06-01 06:38:20",
+  "modified_gmt": "2026-06-01 06:38:20",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<b>Mrs. Kavitha G</b>\n\n<b>Attender</b>\n<div>\n<div><b>Department:&nbsp;</b>Computer Science &amp; Engineering</div>\n<div><b>Date of Joining:</b>&nbsp;20/09/2024</div>\n<div><b>Mobile number:&nbsp;</b>9643983712</div>\n<div><b>Present Address:&nbsp;</b>Mahadeshwara Layout, Citizen School Back, Nanhanagud Town.</div>\n</div>",
+  "featured_image": {
+    "id": "28573",
+    "title": "Mrs-Kavitha-G-1.jpg",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/Mrs-Kavitha-G-1.jpg.jpeg"
+  },
+  "attachments": [
+    {
+      "id": "21146",
+      "title": "Kavitha-G",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2024/10/Kavitha-G.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

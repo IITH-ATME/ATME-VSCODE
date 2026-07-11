@@ -1,0 +1,16 @@
+{
+  "id": "3304",
+  "title": "",
+  "slug": "staff-details-2",
+  "link": "https://old.atme.edu.in/library-3/staff-details-2/",
+  "status": "publish",
+  "parent_id": "5530",
+  "menu_order": "0",
+  "date": "2022-05-11 09:16:35",
+  "date_gmt": "2022-05-11 09:16:35",
+  "modified": "2025-08-18 09:56:06",
+  "modified_gmt": "2025-08-18 09:56:06",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-text-title style=\"style2\" title=\"Staff Details\"]<strong><span class=\"vc_tta-title-text\">Teaching staff Details</span></strong>\n<table>\n<tbody>\n<tr>\n<td><strong>&nbsp;Sl. No.</strong></td>\n<td><strong>Name</strong></td>\n<td><strong>Designation</strong></td>\n<td><strong>Qualification</strong></td>\n<td><strong>Contact Details</strong></td>\n</tr>\n<tr>\n<td>1</td>\n<td>Mrs. Priya R.</td>\n<td>Librarian</td>\n<td>MLISc. KSET NET</td>\n<td><a href=\"mailto:library@old.atme.edu.in\">library@old.atme.edu.in</a></td>\n</tr>\n<tr>\n<td>2</td>\n<td>Mr. Nandeesh H G</td>\n<td>Assit. Librarian</td>\n<td>MLISc, (PGDLAN)</td>\n<td>&nbsp;</td>\n</tr>\n</tbody>\n</table>\n&nbsp;\n\n<strong><span class=\"vc_tta-title-text\">Technical staff Details</span></strong>\n<table width=\"889\">\n<tbody>\n<tr>\n<td width=\"94\"><strong>&nbsp;Sl. No.</strong></td>\n<td width=\"273\"><strong>Name</strong></td>\n<td width=\"188\"><strong>Designation</strong></td>\n<td width=\"325\"><strong>Qualification</strong></td>\n</tr>\n<tr>\n<td width=\"94\">1</td>\n<td width=\"273\">Mr. Prakasha P</td>\n<td width=\"188\">SDA</td>\n<td width=\"325\">M.A</td>\n</tr>\n<tr>\n<td width=\"94\">2</td>\n<td width=\"273\">Mrs. Ramyashree M S</td>\n<td width=\"188\">Lib. Assistant</td>\n<td width=\"325\">MA</td>\n</tr>\n<tr>\n<td width=\"94\">3</td>\n<td width=\"273\">Mr. Ravi c</td>\n<td width=\"188\">Lib. Assistant</td>\n<td width=\"325\">BLISc, MLISc</td>\n</tr>\n</tbody>\n</table>\n&nbsp;\n\n<strong>Supporting Staff</strong>\n<table width=\"889\">\n<tbody>\n<tr>\n<td width=\"94\"><strong>&nbsp;Sl. No.</strong></td>\n<td width=\"273\"><strong>Name</strong></td>\n<td width=\"188\"><strong>Designation</strong></td>\n<td width=\"325\"><strong>Qualification</strong></td>\n</tr>\n<tr>\n<td width=\"94\">1</td>\n<td width=\"273\">Mr. Shivanna Nayaka</td>\n<td width=\"188\">Attender</td>\n<td width=\"325\">PUC</td>\n</tr>\n</tbody>\n</table>\n[/eikra-vc-text-title][/vc_column][/vc_row][vc_row][vc_column][vc_tta_accordion active_section=\"-1\" collapsible_all=\"true\"][vc_tta_section title=\"Supporting staff\" tab_id=\"1754991819183-0be8cda8-5bda\"][vc_row_inner][vc_column_inner width=\"1/4\"][vc_single_image image=\"24395\" img_size=\"170x260\" onclick=\"custom_link\" link=\"https://old.atme.edu.in/mr-prakash-p/\"][/vc_column_inner][vc_column_inner width=\"1/4\"][vc_single_image image=\"24398\" img_size=\"170x260\" onclick=\"custom_link\" link=\"https://old.atme.edu.in/mr-ravi-c/\"][/vc_column_inner][vc_column_inner width=\"1/4\"][vc_single_image image=\"24401\" img_size=\"170x260\" onclick=\"custom_link\" link=\"https://old.atme.edu.in/mrs-ramya-shree-m-s/\"][/vc_column_inner][vc_column_inner width=\"1/4\"][vc_single_image image=\"24405\" img_size=\"170x260\" onclick=\"custom_link\" link=\"https://old.atme.edu.in/mr-shivanna-nayaka-s/\"][/vc_column_inner][/vc_row_inner][/vc_tta_section][/vc_tta_accordion][/vc_column][/vc_row]"
+}

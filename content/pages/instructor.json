@@ -1,0 +1,16 @@
+{
+  "id": "10942",
+  "title": "Instructor",
+  "slug": "instructor",
+  "link": "https://old.atme.edu.in/instructor/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2023-07-04 05:39:58",
+  "date_gmt": "2023-07-04 05:39:58",
+  "modified": "2023-07-04 05:39:58",
+  "modified_gmt": "2023-07-04 05:39:58",
+  "categories": [],
+  "excerpt": "",
+  "content": "<!-- wp:shortcode -->[learn_press_single_instructor]<!-- /wp:shortcode -->"
+}

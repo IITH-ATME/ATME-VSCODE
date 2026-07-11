@@ -1,0 +1,16 @@
+{
+  "id": "5454",
+  "title": "Faculty Details",
+  "slug": "faculty-details-2",
+  "link": "https://old.atme.edu.in/chemistry/faculty-details-2/",
+  "status": "publish",
+  "parent_id": "3980",
+  "menu_order": "0",
+  "date": "2022-05-23 06:38:28",
+  "date_gmt": "2022-05-23 06:38:28",
+  "modified": "2022-05-23 06:39:05",
+  "modified_gmt": "2022-05-23 06:39:05",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style4\" title=\"Faculty Details\" number=\"-1\" orderby=\"menu_order\" slider_autoplay_speed=\"200\" cat=\"150\"][/vc_column][/vc_row]"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5487",
+  "title": "Faculty Details",
+  "slug": "faculty-details-2",
+  "link": "https://old.atme.edu.in/physics/faculty-details-2/",
+  "status": "publish",
+  "parent_id": "3985",
+  "menu_order": "0",
+  "date": "2022-05-23 07:15:56",
+  "date_gmt": "2022-05-23 07:15:56",
+  "modified": "2022-05-23 07:15:56",
+  "modified_gmt": "2022-05-23 07:15:56",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style4\" title=\"Faculty Details\" number=\"-1\" orderby=\"menu_order\" slider_autoplay_speed=\"200\" cat=\"152\"][/vc_column][/vc_row]"
+}

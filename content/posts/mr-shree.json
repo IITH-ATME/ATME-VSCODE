@@ -1,0 +1,33 @@
+{
+  "id": "16774",
+  "title": "Mr.shree",
+  "slug": "mr-shree",
+  "link": "https://old.atme.edu.in/mr-shree/",
+  "status": "publish",
+  "published_date": "2024-01-12 10:39:06",
+  "published_date_gmt": "2024-01-12 10:39:06",
+  "modified": "2024-01-12 10:39:06",
+  "modified_gmt": "2024-01-12 10:39:06",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "uncategorized",
+      "name": "Uncategorized"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "",
+  "featured_image": null,
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

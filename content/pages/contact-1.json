@@ -1,0 +1,16 @@
+{
+  "id": "1111",
+  "title": "Contact 1",
+  "slug": "contact-1",
+  "link": "https://old.atme.edu.in/contact-1/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-10-27 06:06:44",
+  "date_gmt": "2017-10-27 06:06:44",
+  "modified": "2022-02-14 07:32:52",
+  "modified_gmt": "2022-02-14 07:32:52",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column width=\"1/3\" css=\".vc_custom_1509100691886{margin-top: 10px !important;}\"][eikra-vc-contact][/vc_column][vc_column width=\"2/3\"][vc_custom_heading text=\"Contact With Us\" font_container=\"tag:h2|font_size:30px|text_align:justify|color:%23002147|line_height:1.5\" use_theme_fonts=\"yes\"][vc_separator color=\"custom\" align=\"align_left\" border_width=\"3\" el_width=\"10\" accent_color=\"#fdc800\"][contact-form-7 id=\"1976\"][/vc_column][/vc_row]"
+}

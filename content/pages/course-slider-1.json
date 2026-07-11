@@ -1,0 +1,16 @@
+{
+  "id": "978",
+  "title": "Course Slider 1",
+  "slug": "course-slider-1",
+  "link": "https://old.atme.edu.in/course-slider-1/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-10-23 08:52:46",
+  "date_gmt": "2017-10-23 08:52:46",
+  "modified": "2018-01-31 06:02:18",
+  "modified_gmt": "2018-01-31 06:02:18",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-course number=\"5\" slider_autoplay_speed=\"200\"][/vc_column][/vc_row]"
+}

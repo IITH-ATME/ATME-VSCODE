@@ -1,0 +1,16 @@
+{
+  "id": "1628",
+  "title": "Course Slider 3",
+  "slug": "course-slider-3",
+  "link": "https://old.atme.edu.in/course-slider-3/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2018-01-31 06:02:52",
+  "date_gmt": "2018-01-31 06:02:52",
+  "modified": "2018-01-31 06:03:56",
+  "modified_gmt": "2018-01-31 06:03:56",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-course number=\"5\" slider_autoplay_speed=\"200\" title=\"Featured Courses\" cat=\"0\" orderby=\"date\" col_lg=\"3\" col_md=\"4\" col_sm=\"6\" col_xs=\"6\" col_mobile=\"12\" slider_autoplay=\"true\" slider_stop_on_hover=\"true\" slider_interval=\"5000\" slider_loop=\"true\" style=\"3\"][/vc_column][/vc_row]"
+}

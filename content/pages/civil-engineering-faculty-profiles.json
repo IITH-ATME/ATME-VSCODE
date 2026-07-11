@@ -1,0 +1,16 @@
+{
+  "id": "5394",
+  "title": "",
+  "slug": "faculty-profiles",
+  "link": "https://old.atme.edu.in/civil-engineering/faculty-profiles/",
+  "status": "publish",
+  "parent_id": "5063",
+  "menu_order": "0",
+  "date": "2022-05-20 12:49:30",
+  "date_gmt": "2022-05-20 12:49:30",
+  "modified": "2022-05-20 13:29:45",
+  "modified_gmt": "2022-05-20 13:29:45",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style4\" title=\"Faculty\" number=\"-1\" orderby=\"menu_order\" slider_autoplay_speed=\"200\" cat=\"148\"][/vc_column][/vc_row]"
+}

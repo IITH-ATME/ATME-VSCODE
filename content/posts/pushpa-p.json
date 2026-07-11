@@ -1,0 +1,42 @@
+{
+  "id": "10026",
+  "title": "Pushpa P",
+  "slug": "pushpa-p",
+  "link": "https://old.atme.edu.in/pushpa-p/",
+  "status": "publish",
+  "published_date": "2023-02-15 09:21:37",
+  "published_date_gmt": "2023-02-15 09:21:37",
+  "modified": "2024-03-28 04:33:00",
+  "modified_gmt": "2024-03-28 04:33:00",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:paragraph {\"extUtilities\":[]} -->\n<p><strong>Pushpa P</strong><br />Assistant Professor</p>\n<p><strong>Contact Details</strong></p>\n<table width=\"790\">\n<tbody>\n<tr>\n<td width=\"141\"><strong>Email ID</strong></td>\n<td width=\"649\"><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"mailto:PushpaP_cg@old.atme.edu.in\">PushpaP_cg@old.atme.edu.in</a></span></td>\n</tr>\n<tr>\n<td><strong>LinkedIn ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://www.linkdin.com/in/pushpa-p-nayak-673393264\">https://www.linkdin.com/in/pushpa-p-nayak-673393264</a></span></td>\n</tr>\n<tr>\n<td><strong>Google Scholor  ID</strong></td>\n<td> </td>\n</tr>\n<tr>\n<td><strong>Orcid ID</strong></td>\n<td> </td>\n</tr>\n<tr>\n<td><strong>Vidwaan ID</strong></td>\n<td><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://vidwan.inflibnet.ac.in/profile/324275\">https://vidwan.inflibnet.ac.in/profile/324275</a></span></td>\n</tr>\n<tr>\n<td><strong>Scopus ID</strong></td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p><strong>Qualification</strong><br />UG: B.E (CSE)<br />PG: M.Tech (CSE)</p>\n<p><strong>Total Experience in Years</strong><br />Teaching: 1 year</p>\n<p><strong>Papers Published</strong><br />International: 1</p>\n<!-- /wp:paragraph -->",
+  "featured_image": {
+    "id": "19104",
+    "title": "Pushpa-P",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2024/03/Pushpa-P.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [
+    "mailto:PushpaP_cg@old.atme.edu.in"
+  ],
+  "external_links": [
+    "https://vidwan.inflibnet.ac.in/profile/324275",
+    "https://www.linkdin.com/in/pushpa-p-nayak-673393264"
+  ]
+}

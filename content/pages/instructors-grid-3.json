@@ -1,0 +1,16 @@
+{
+  "id": "1817",
+  "title": "Instructors Grid 3",
+  "slug": "instructors-grid-3",
+  "link": "https://old.atme.edu.in/instructors-grid-3/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2018-09-14 06:05:10",
+  "date_gmt": "2018-09-14 06:05:10",
+  "modified": "2018-09-14 06:05:37",
+  "modified_gmt": "2018-09-14 06:05:37",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-grid style=\"style3\" number=\"4\"][/vc_column][/vc_row]"
+}

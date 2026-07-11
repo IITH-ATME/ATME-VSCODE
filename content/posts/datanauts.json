@@ -1,0 +1,78 @@
+{
+  "id": "23011",
+  "title": "Student Club Inauguration and Technical Talk",
+  "slug": "datanauts",
+  "link": "https://old.atme.edu.in/datanauts/",
+  "status": "publish",
+  "published_date": "2025-05-20 08:48:15",
+  "published_date_gmt": "2025-05-20 08:48:15",
+  "modified": "2025-05-20 12:35:43",
+  "modified_gmt": "2025-05-20 12:35:43",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<h4 style=\"text-align: center;\"><span style=\"text-decoration: underline; color: #000080;\"><span style=\"text-decoration: underline;\">REPORT on </span>Student Club Inauguration and Technical Talk</span></h4>\n<p style=\"text-align: justify;\">The Department of CSE (Data Science) launched its technical club <em><strong>DataNauts</strong></em> on 14 th May 2025 at AB401, in the presence of Dr. Basavaraj L (Principal), Dr. Anitha D B (Associate Professor &amp; HOD), and Mr. Yogabalaji G, Decision Scientist at Mu Sigma Inc., Bengaluru.</p>\n<p style=\"text-align: justify;\">As part of the launch, a technical talk on <strong>“How Data is used to Build Solutions and Maximizing Efficiency”</strong> was conducted for 4 th and 6 th semester students, coordinated by the staff members of the department and students.</p>\n\n[ngg src=\"galleries\" ids=\"2\" display=\"imagebrowser\"]\n<h4 style=\"text-align: center;\"><span style=\"text-decoration: underline; color: #000080;\">Watch the Video</span></h4>\n<p style=\"text-align: center;\">[video width=\"1280\" height=\"720\" mp4=\"https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Video-2025-05-19-at-11.01.30-AM-1.mp4\"][/video]</p>\n\n<h5 style=\"text-align: left;\">&nbsp;</h5>",
+  "featured_image": {
+    "id": "23031",
+    "title": "DataNauts-banner",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/DataNauts-banner.jpg"
+  },
+  "attachments": [
+    {
+      "id": "23012",
+      "title": "WhatsApp Image 2025-05-14 at 8.15.03 PM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-14-at-8.15.03-PM-scaled.jpeg"
+    },
+    {
+      "id": "23013",
+      "title": "WhatsApp Image 2025-05-14 at 10.18.07 AM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-14-at-10.18.07-AM.jpeg"
+    },
+    {
+      "id": "23014",
+      "title": "WhatsApp Image 2025-05-14 at 10.18.06 AM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-14-at-10.18.06-AM.jpeg"
+    },
+    {
+      "id": "23015",
+      "title": "WhatsApp Image 2025-05-16 at 11.03.17 AM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-16-at-11.03.17-AM.jpeg"
+    },
+    {
+      "id": "23016",
+      "title": "WhatsApp Image 2025-05-16 at 11.03.16 AM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-16-at-11.03.16-AM.jpeg"
+    },
+    {
+      "id": "23017",
+      "title": "WhatsApp Image 2025-05-16 at 11.03.18 AM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-16-at-11.03.18-AM.jpeg"
+    },
+    {
+      "id": "23028",
+      "title": "Datanauts",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/WhatsApp-Video-2025-05-19-at-11.01.30-AM-1.mp4"
+    },
+    {
+      "id": "23031",
+      "title": "DataNauts-banner",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2025/05/DataNauts-banner.jpg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

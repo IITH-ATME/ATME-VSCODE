@@ -1,0 +1,16 @@
+{
+  "id": "1041",
+  "title": "Pricing Table 2",
+  "slug": "pricing-table-2",
+  "link": "https://old.atme.edu.in/pricing-table-2/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2017-10-23 12:22:25",
+  "date_gmt": "2017-10-23 12:22:25",
+  "modified": "2017-12-18 12:36:25",
+  "modified_gmt": "2017-12-18 12:36:25",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column width=\"1/3\"][eikra-vc-pricing pricebox_style=\"style2\" title=\"BASIC\" price=\"$59\" unit=\"Month\" features=\"Access to all courses\nExample code available\nHigh resolution videos\n-------\n-------\" btnurl=\"#\"][/vc_column][vc_column width=\"1/3\"][eikra-vc-pricing pricebox_style=\"style2\" price=\"$79\" unit=\"Month\" features=\"Access to all courses\nExample code available\nHigh resolution videos\nCertificate after completion\n-------\" btnurl=\"#\"][/vc_column][vc_column width=\"1/3\"][eikra-vc-pricing pricebox_style=\"style2\" title=\"PLATINUM\" price=\"$99\" unit=\"Month\" features=\"Access to all courses\nExample code available\nHigh resolution videos\nCertificate after completion\nPrivate sessions\" btnurl=\"#\"][/vc_column][/vc_row]"
+}

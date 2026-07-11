@@ -1,0 +1,16 @@
+{
+  "id": "5011",
+  "title": "",
+  "slug": "faculty-details-ece",
+  "link": "https://old.atme.edu.in/electronics-communication-engineering/faculty-details-ece/",
+  "status": "publish",
+  "parent_id": "3617",
+  "menu_order": "0",
+  "date": "2022-05-18 13:46:23",
+  "date_gmt": "2022-05-18 13:46:23",
+  "modified": "2022-05-18 15:26:08",
+  "modified_gmt": "2022-05-18 15:26:08",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-instructor-slider style=\"style4\" title=\"Faculty Details\" number=\"-1\" orderby=\"menu_order\" slider_autoplay_speed=\"200\" cat=\"156\"][vc_empty_space][/vc_column][/vc_row]"
+}

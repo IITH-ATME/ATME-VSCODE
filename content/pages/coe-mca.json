@@ -1,0 +1,16 @@
+{
+  "id": "20288",
+  "title": "COE-MCA",
+  "slug": "coe-mca",
+  "link": "https://old.atme.edu.in/coe-mca/",
+  "status": "publish",
+  "parent_id": "0",
+  "menu_order": "0",
+  "date": "2024-07-18 07:46:24",
+  "date_gmt": "2024-07-18 07:46:24",
+  "modified": "2025-01-23 11:19:57",
+  "modified_gmt": "2025-01-23 11:19:57",
+  "categories": [],
+  "excerpt": "",
+  "content": "[vc_row][vc_column][eikra-vc-text-title style=\"style2\" title=\"2024-25 Calendar of Events (COE)\"][/eikra-vc-text-title][vc_tta_accordion active_section=\"-1\" collapsible_all=\"true\"][vc_tta_section title=\"Odd Semester\" tab_id=\"1686032704890-2a50f9e5-55ad\"][vc_column_text]\n<p style=\"text-align: center;\">[raw_pdf id=21531]</p>\n[/vc_column_text][/vc_tta_section][vc_tta_section title=\"Even Semester\" tab_id=\"1737630795463-bc8d5714-5f5f\"][vc_column_text]\n<p style=\"text-align: center;\">[raw_pdf id=21532]</p>\n[/vc_column_text][/vc_tta_section][/vc_tta_accordion][vc_empty_space][/vc_column][/vc_row][vc_row][vc_column][eikra-vc-text-title style=\"style2\" title=\"2023-24 Even Semester Calendar of Events\"][/eikra-vc-text-title][vc_tta_accordion active_section=\"-1\" collapsible_all=\"true\"][vc_tta_section title=\"2nd Semester\" tab_id=\"1737630668361-3881e575-2649\"][vc_column_text]\n<p style=\"text-align: center;\">[pdf-embedder url=\"https://old.atme.edu.in/wp-content/uploads/2024/07/MCA-COE-2nd-Sem-2023-24.pdf\" title=\"MCA-COE-2nd Sem 2023-24\" width=\"750px\"]</p>\n[/vc_column_text][/vc_tta_section][/vc_tta_accordion][vc_empty_space][/vc_column][/vc_row][vc_row disable_element=\"yes\"][vc_column][eikra-vc-text-title style=\"style2\" title=\"2023-24 Odd Semester Calendar of Events\"][/eikra-vc-text-title][vc_column_text]\n<p style=\"text-align: center;\">[embedpress_pdf]https://old.atme.edu.in/wp-content/uploads/2023/12/CSE_COE_2023_24ODD.pdf[/embedpress_pdf]</p>\n[/vc_column_text][/vc_column][/vc_row]"
+}

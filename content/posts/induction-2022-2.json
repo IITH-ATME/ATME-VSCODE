@@ -1,0 +1,59 @@
+{
+  "id": "9644",
+  "title": "Alumni Reunion",
+  "slug": "induction-2022-2",
+  "link": "https://old.atme.edu.in/induction-2022-2/",
+  "status": "publish",
+  "published_date": "2023-01-31 11:11:53",
+  "published_date_gmt": "2023-01-31 11:11:53",
+  "modified": "2023-01-31 11:11:54",
+  "modified_gmt": "2023-01-31 11:11:54",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "atme",
+      "name": "ATME"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<!-- wp:pdfemb/pdf-embedder-viewer {\"pdfID\":9646,\"url\":\"https://old.atme.edu.in/wp-content/uploads/2023/01/ATME_6th_Alumni_Meet_Report_Jan_2023.pdf\"} -->\n<p class=\"wp-block-pdfemb-pdf-embedder-viewer\"></p>\n<!-- /wp:pdfemb/pdf-embedder-viewer -->",
+  "featured_image": {
+    "id": "9647",
+    "title": "WhatsApp Image 2023-01-31 at 4.19.26 PM",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-31-at-4.19.26-PM.jpeg"
+  },
+  "attachments": [
+    {
+      "id": "9645",
+      "title": "ATME_6th_Alumni_Meet_Report_Jan_2023",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/ATME_6th_Alumni_Meet_Report_Jan_2023.docx"
+    },
+    {
+      "id": "9646",
+      "title": "ATME_6th_Alumni_Meet_Report_Jan_2023",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/ATME_6th_Alumni_Meet_Report_Jan_2023.pdf"
+    },
+    {
+      "id": "9647",
+      "title": "WhatsApp Image 2023-01-31 at 4.19.26 PM",
+      "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-31-at-4.19.26-PM.jpeg"
+    }
+  ],
+  "pdfs": {
+    "attached_media": [
+      {
+        "id": "9646",
+        "title": "ATME_6th_Alumni_Meet_Report_Jan_2023",
+        "url": "https://old.atme.edu.in/wp-content/uploads/2023/01/ATME_6th_Alumni_Meet_Report_Jan_2023.pdf"
+      }
+    ],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}

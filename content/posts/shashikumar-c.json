@@ -1,0 +1,37 @@
+{
+  "id": "9114",
+  "title": "Shashikumar C",
+  "slug": "shashikumar-c",
+  "link": "https://old.atme.edu.in/shashikumar-c/",
+  "status": "publish",
+  "published_date": "2022-12-19 07:57:54",
+  "published_date_gmt": "2022-12-19 07:57:54",
+  "modified": "2022-12-19 08:01:17",
+  "modified_gmt": "2022-12-19 08:01:17",
+  "author": {
+    "login": "admin",
+    "display_name": "admin",
+    "email": "skilltechmysore@gmail.com"
+  },
+  "categories": [
+    {
+      "nicename": "cse-faculty",
+      "name": "CSE-faculty"
+    }
+  ],
+  "tags": [],
+  "excerpt": "",
+  "content": "<strong>Shashikumar C</strong>\nProgrammer\n\n<strong>Department: </strong>COMPUTER SCIENCE AND ENGINEERING\n\n<strong>Date of Joining Institution: </strong>7-8-2012\n\n<strong>E-mail: </strong>Shashikumarc363@gmail.com\n\n<strong>Mobile Number: </strong>8746044647\n\n<strong>Total Experience in Years: </strong>10 years\n\n<strong>Present Address: </strong>#300 Ambedkar colony,varuna hobli,Vajamangala post bhugathagalli Mysore 570028\n\n<!-- /wp:list -->",
+  "featured_image": {
+    "id": "9101",
+    "title": "CS-02",
+    "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/CS-02-2.jpg"
+  },
+  "attachments": [],
+  "pdfs": {
+    "attached_media": [],
+    "linked_in_content": []
+  },
+  "internal_links": [],
+  "external_links": []
+}
