@@ -1782,7 +1782,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Contact Details
 
-- **Email (Official):** dr.nalinier.dead@atme.edu.in
+- **Email (Official):** dr.nalinier.dean@atme.edu.in
 - **Vidwan ID:** 407628
 - **Google Scholar ID:** [https://scholar.google.com/citations?hl=en&user=yArOLlwAAAAJ](https://scholar.google.com/citations?hl=en&user=yArOLlwAAAAJ)
 - **Scopus ID:** 57189074031 and 57220428520
