@@ -61,6 +61,16 @@ export const FULL_MENU_DEPTS = new Set<string>([
 
 ]);
 
+/**
+ * Per-department overrides that drop a canonical section even though the
+ * department is in FULL_MENU_DEPTS. Use when old.atme.edu.in genuinely has
+ * no such page for that specific department (e.g. Civil Engineering has no
+ * Magazine or Innovative Teaching Learning Methods page).
+ */
+export const DEPT_EXCLUDED_SECTIONS: Record<string, Set<string>> = {
+  ce: new Set(["magazine", "innovative-teaching"]),
+};
+
 export type ResolvedSection = {
   canonicalKey: string;
   label: string;

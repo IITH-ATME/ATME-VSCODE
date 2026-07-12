@@ -28,6 +28,7 @@ import {
   PLACEHOLDER_PREFIX,
   getCanonicalByKey,
   isCanonicalSectionAvailable,
+  DEPT_EXCLUDED_SECTIONS,
 } from "@/data/canonicalSections";
 import { getCanonicalFallback, NEW_NEWSLETTERS } from "@/data/deptCanonicalFallbacks";
 
@@ -196,7 +197,7 @@ export const Route = createFileRoute("/departments/$slug/$page")({
         hasInfra,
         slug: resolveDeptSlug(params.slug),
       });
-      if (!allowed) throw notFound();
+      if (!allowed || DEPT_EXCLUDED_SECTIONS[resolveDeptSlug(params.slug)]?.has(canonKey)) throw notFound();
       // For Student Learning Centric, try to source the markdown from a scraped
       // resources page if one exists for this department.
       let placeholderMd = "";
@@ -737,7 +738,8 @@ function DeptSubPage() {
             <PdfGridSections
               md={bodyMd}
               fallbackTitle={niceTitle}
-              flat={canonKey === "achievements" || canonKey === "co-curricular" || canonKey === "news-letter"}
+              flat={canonKey === "achievements" || canonKey === "co-curricular" || canonKey === "news-letter" || /news-?letter/.test(k)}
+              mergeAll={canonKey === "news-letter" || /news-?letter/.test(k)}
             />
 
           ) : isAccordionPage ? (
@@ -1294,8 +1296,26 @@ function parsePdfSections(md: string): {
   };
 }
 
-function PdfGridSections({ md, fallbackTitle, flat = false }: { md: string; fallbackTitle: string; flat?: boolean }) {
-  const { preamble, sections } = parsePdfSections(md);
+function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: { md: string; fallbackTitle: string; flat?: boolean; mergeAll?: boolean }) {
+  const { preamble, sections: parsedSections } = parsePdfSections(md);
+  // Newsletter pages sometimes parse into two headed sections (e.g. a
+  // prepended "Latest Issue" plus the original scraped section) that both
+  // list the same run of PDFs. Retain a single section with everything,
+  // deduped by URL, rather than showing the archive twice.
+  const sections = mergeAll && parsedSections.length > 1
+    ? (() => {
+        const seen = new Set<string>();
+        const pdfs: typeof parsedSections[number]["pdfs"] = [];
+        for (const s of parsedSections) {
+          for (const p of s.pdfs) {
+            if (seen.has(p.url)) continue;
+            seen.add(p.url);
+            pdfs.push(p);
+          }
+        }
+        return [{ ...parsedSections[0], pdfs }];
+      })()
+    : parsedSections;
 
 
 

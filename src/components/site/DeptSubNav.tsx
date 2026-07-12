@@ -3,7 +3,7 @@ import { Link } from "@tanstack/react-router";
 import scrapedDept from "@/data/deptScraped.json";
 import { getDeptPages } from "@/data/deptPageConfig";
 import { getDept, resolveDeptSlug } from "@/data/departments";
-import { resolveCanonicalSections, PLACEHOLDER_PREFIX, isCanonicalSectionAvailable, FULL_MENU_DEPTS } from "@/data/canonicalSections";
+import { resolveCanonicalSections, PLACEHOLDER_PREFIX, isCanonicalSectionAvailable, FULL_MENU_DEPTS, DEPT_EXCLUDED_SECTIONS } from "@/data/canonicalSections";
 import { INFRA_DATA } from "@/data/infrastructureScraped";
 import {
   BookOpen,
@@ -148,7 +148,9 @@ export function DeptSubNav({ slug, activeKey }: { slug: string; activeKey?: stri
     // Only the canonical 13 sections — no HOD Profile / Counselling / Resources
     // extras. Keeps the horizontal menu focused on the standard structure.
     const canonical = resolveCanonicalSections(pages as Record<string, unknown>);
+    const excluded = DEPT_EXCLUDED_SECTIONS[resolvedSlug];
     entries = canonical
+      .filter((c) => !excluded?.has(c.canonicalKey))
       .filter((c) =>
         isCanonicalSectionAvailable(c.canonicalKey, {
           hasScraped: c.scrapedKey != null,

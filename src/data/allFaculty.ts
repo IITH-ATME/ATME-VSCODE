@@ -131,10 +131,10 @@ export const meAllFaculty: Faculty[] = [
 
 export const ceAllFaculty: Faculty[] = [
   { id: "jyothi-d-n", name: "Dr. Jyothi D N", designation: "Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "14.07.2015", image: "/__l5e/assets-v1/4904c83f-30c2-4b71-a895-eff19eae3c2c/Jyothi-D-N.jpg", cvUrl: "https://old.atme.edu.in/jyothi-d-n/" },
-  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor", qualification: "B.E, M.Tech, Ph.D", doj: "", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
+  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor", qualification: "B.E, M.Tech, Ph.D", doj: "19-06-2026", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
 
   { id: "mr-manu-vijay", name: "Mr. Manu Vijay", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "21.08.2012", image: "/__l5e/assets-v1/fb43e973-3996-4ab8-9649-690959f0513c/Manu-Vijay.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-vijay/" },
-  { id: "mrs-shruthi-h-g", name: "Dr. Shruthi H G", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "17.07.2014", image: "/__l5e/assets-v1/5c3a6605-6649-43ee-8dca-f54abb0922fd/Shruthi-H-G.jpg", cvUrl: "https://old.atme.edu.in/mrs-shruthi-h-g/" },
+  { id: "mrs-shruthi-h-g", name: "Dr. Shruthi H G", designation: "Assistant Professor", qualification: "BE, MTech, Pursuing PhD", doj: "17.07.2014", image: "/__l5e/assets-v1/5c3a6605-6649-43ee-8dca-f54abb0922fd/Shruthi-H-G.jpg", cvUrl: "https://old.atme.edu.in/mrs-shruthi-h-g/" },
   { id: "bharathi-b", name: "Mrs. Bharathi B", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "10.08.2015", image: "/__l5e/assets-v1/c5c627fc-e11e-42f4-b623-d2163e081dd2/Bharathi-B.jpg", cvUrl: "https://old.atme.edu.in/bharathi-b/" },
   { id: "mr-rudresh-a-n", name: "Mr. Rudresh A N", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "12.08.2015", image: "/__l5e/assets-v1/b2757fef-f204-4366-bdd8-a616279f530b/Rudresh-A-N.jpg", cvUrl: "https://old.atme.edu.in/mr-rudresh-a-n/" },
   { id: "puneeth-k", name: "Mr. Puneeth K", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "05.08.2017", image: "/__l5e/assets-v1/eb111848-1132-45ec-a948-cffb95c0b4a5/Puneeth-K.jpg", cvUrl: "https://old.atme.edu.in/puneeth-k/" },
