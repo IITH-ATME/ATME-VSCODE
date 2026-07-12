@@ -97,6 +97,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
   csd: [
     { key: "cs-infrastructure", label: "Infrastructure" },
     { key: "cse-faculty-profile-csdesign", label: "Faculty" },
+    { key: "csd-achievements", label: "Achievements" },
     { key: "resourses", label: "Resources" },
   ],
   ds: [
@@ -107,6 +108,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "cseds-placements", label: "Placements" },
     { key: "cseds-innovative-teaching-learning-methods", label: "Teaching Methods" },
     { key: "coe-cse-ds", label: "COE" },
+    { key: "ds-annual-report", label: "Annual Report" },
     { key: "cseds-resources", label: "Resources" },
   ],
   cy: [

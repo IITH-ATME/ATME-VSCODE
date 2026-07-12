@@ -1027,29 +1027,9 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
   };
 
   const renderList = (bullets: ProfileItem[]) => {
-    const allNumbered = bullets.length > 0 && bullets.every((b) => b.num != null);
-    if (allNumbered) {
-      return (
-        <ol className="space-y-2.5 text-sm md:text-[15px] leading-relaxed text-foreground/90">
-          {bullets.map((item, i) => (
-            <li key={i} className="flex gap-3 break-words text-left">
-              <span
-                className="shrink-0 inline-flex items-center justify-center min-w-[1.75rem] h-6 px-1.5 rounded-md text-xs font-semibold text-white"
-                style={{ backgroundColor: "#129199" }}
-              >
-                {i + 1}.
-              </span>
-              <div className="flex-1 min-w-0">
-
-                <div className={proseClass}>
-                  <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{item.text}</ReactMarkdown>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ol>
-      );
-    }
+    // Academic Details keeps its own distinct left-border style regardless of
+    // whether its source items happen to be numbered — checked first so the
+    // numbered-list branch below never intercepts it.
     const isAcademic = !!sectionTitle && /^academic details$/i.test(sectionTitle);
     if (isAcademic) {
       return (

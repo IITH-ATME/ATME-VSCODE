@@ -900,5 +900,160 @@ export const INFRA_DATA: Record<string, InfraData> = {
       }
     ],
     "images": []
+  },
+  "physics":   {
+    "sections": [
+      {
+        "heading": "Engineering Physics Laboratory",
+        "paras": [],
+        "items": [],
+        "subsections": [
+          {
+            "heading": "Features",
+            "paras": [],
+            "items": [
+              "Well equipped and spacious as per the norms",
+              "Optimum quality equipments",
+              "Ergonomically designed working tables.",
+              "Adequate safety measures.",
+              "Uninterrupted Power Supply support."
+            ]
+          },
+          {
+            "heading": "Major Equipments",
+            "paras": [],
+            "items": [
+              "Optical fiber experiment setup",
+              "Tangent Galvanometer",
+              "Springs in series and parallel",
+              "Black-Body Radiator",
+              "Function Generators (Audio Frequency Oscillators)",
+              "Black-Box Experiment setup",
+              "Traveling Microscope ( Two motion and Single Motion)",
+              "Diode Laser",
+              "Optical Gratings",
+              "Ultrasonic Interferometer",
+              "Spectrometer",
+              "Cathode Ray Oscilloscope",
+              "Oscillation counter",
+              "B-H curve Setup",
+              "Torsional Pendulum",
+              "Single Cantilever",
+              "Uniform Bending",
+              "Fermi Energy Measurement",
+              "Photo diode Characteristics"
+            ]
+          },
+          {
+            "heading": "Research",
+            "paras": [
+              "Department has set up a research laboratory with simple equipments like Raspberry Pi Model – B, accessories and peripherals, Servo Motors, Stepper Motors, and DC motors. Research work is in progress in the field of Tribology."
+            ],
+            "items": []
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "/images/uploads/2022/05/physiscs_lab_bnr.png",
+        "alt": "Engineering Physics Laboratory"
+      }
+    ]
+  },
+  "chemistry":   {
+    "sections": [
+      {
+        "heading": "Infrastructure/Facilities",
+        "paras": [
+          "Department of Chemistry was established in the year 2010 with very good infrastructure of working area of 275 sq.m comprising spacious laboratory, HOD’s chamber, staff room, store room, internet and desktop facilities. The department has all instruments, glassware’s, chemicals and reagents required for conducting experiments as per the university curriculum. The lab is connected with UPS and water supply for the smooth conduction of practical. The department has given more emphasis on safety measures with fire extinguisher, safety measure display boards and first aid kit."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Department Library",
+        "paras": [
+          "The library is equipped with more than 100 text & reference books for students & staffs."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Major Equipment of Laboratories",
+        "paras": [],
+        "items": [
+          "pH Meter",
+          "Potentiometer",
+          "Conductometer",
+          "Colorimeter",
+          "Flame Photometer",
+          "Magnetic Stirrer",
+          "Distilled Water Plant",
+          "Hot Air Oven",
+          "De Ioniser"
+        ]
+      },
+      {
+        "heading": "Facilities Provided",
+        "paras": [
+          "The department is well equipped with instruments required to carry out Engineering chemistry lab as well as research in core chemistry. The department is recognized as research centre with two research guides, from VTU. The R&D centre is focused on the core areas of Chemistry related to Engineering sciences and to contribute overall development of the society."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Facilities for Students",
+        "paras": [],
+        "items": [
+          "Stocked Reference Books.",
+          "Stocked Text Books",
+          "Support for Student Projects"
+        ]
+      },
+      {
+        "heading": "Facilities for Faculty",
+        "paras": [],
+        "items": [
+          "Well Stocked Department Library",
+          "Internet Facility with Wifi connectivity"
+        ]
+      },
+      {
+        "heading": "R & D Activities",
+        "paras": [
+          "The faculty members of the Department are well qualified and have expertise in frontier areas of research such as Organic synthesis, catalysis, composite materials, fuel cells, solar energy, pharmaceutical chemistry, analytical chemistry and nanomaterial’s. They have contributed towards publication of a good number of research papers in national and international Journals and Conferences. The faculties with doctoral degree in the department are supervising as VTU research guide for other students for their Ph.D Degree."
+        ],
+        "items": []
+      }
+    ],
+    "images": []
+  },
+  "mathematics":   {
+    "sections": [
+      {
+        "heading": "Department Library",
+        "paras": [
+          "The library is equipped with 100 books and Reference Books for quick reference for both students and staff."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Facilities for Students",
+        "paras": [],
+        "items": [
+          "Stocked Reference Books.",
+          "Stocked Text Books",
+          "Support for Student Projects"
+        ]
+      },
+      {
+        "heading": "Facilities for Faculty",
+        "paras": [],
+        "items": [
+          "Internet Facility with Wifi connectivity",
+          "Maternity leave",
+          "Bus facility"
+        ]
+      }
+    ],
+    "images": []
   }
 };

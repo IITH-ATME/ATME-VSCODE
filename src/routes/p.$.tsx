@@ -516,7 +516,7 @@ function RehostedPage() {
   const fallbackBanner = isCampusLife
     ? null
     : (sectionKey && SECTION_BANNER[sectionKey]) || resolveAssetUrl(campusBanner.url);
-  const heroSrc = bannerImg?.src || fallbackBanner;
+  const heroSrc = resolveAssetUrl(bannerImg?.src) || fallbackBanner;
   const heroAlt = bannerImg?.alt || page.title || "ATME banner";
   const heroImgOpacity = isPlacements && bannerImg ? "opacity-40" : "opacity-70";
   void showToc;
@@ -1409,7 +1409,7 @@ function RehostedPage() {
                       .map((chunk) => {
                         const heading = chunk.match(/^#{1,4}\s+(.+)$/m)?.[1]?.trim();
                         const image = chunk.match(
-                          /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/__l5e\/assets-v1\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/i,
+                          /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/(?:__l5e\/assets-v1|images)\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/i,
                         );
                         if (!heading || !image) return null;
                         const body = chunk
@@ -1478,7 +1478,7 @@ function RehostedPage() {
                     )
                   ) {
                     const imgRe =
-                      /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/__l5e\/assets-v1\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/i;
+                      /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/(?:__l5e\/assets-v1|images)\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/i;
                     type Block = { heading: string; imageAlt: string; imageSrc: string; body: string };
                     const blocks: Block[] = [];
                     const intro: string[] = [];
@@ -1584,7 +1584,7 @@ function RehostedPage() {
                               const imageBlock = (
                                 <figure className="m-0 w-full">
                                   <img
-                                    src={block.imageSrc}
+                                    src={resolveAssetUrl(block.imageSrc)}
                                     alt={block.imageAlt}
                                     loading="lazy"
                                     className="block w-full h-56 sm:h-64 md:h-72 object-cover rounded-lg border border-[#f5c518] bg-white shadow-md"
@@ -1750,7 +1750,7 @@ function RehostedPage() {
                   // adjacent to the portrait so the long message wraps next
                   // to the image rather than dropping below it.
                   const personRe =
-                    /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/__l5e\/assets-v1\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/gi;
+                    /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/(?:__l5e\/assets-v1|images)\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/gi;
                   const allMatches = [...bodyMd.matchAll(personRe)];
                   const personLike = (alt: string, src: string) => {
                     const a = (alt || "").toLowerCase();
@@ -1787,7 +1787,7 @@ function RehostedPage() {
                   const renderChunk = (chunk: string, i: number | string) => {
                     const allImgs = [
                       ...chunk.matchAll(
-                        /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/__l5e\/assets-v1\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/gi,
+                        /!\[([^\]]*)\]\((https?:\/\/[^)\s]+\.(?:jpe?g|png|webp)|\/(?:__l5e\/assets-v1|images)\/[^)\s]+\.(?:jpe?g|png|webp))(?:\s+"[^"]*")?\)/gi,
                       ),
                     ];
                     const headingMatch = chunk.match(/^#{1,4}\s+(.+)$/m);
@@ -1821,7 +1821,7 @@ function RehostedPage() {
                         >
                           <figure className="m-0 mx-auto sm:mx-0 max-w-[220px] sm:max-w-none w-full">
                             <img
-                              src={portrait[2]}
+                              src={resolveAssetUrl(portrait[2])}
                               alt={portrait[1] || headingMatch[1]}
                               loading="lazy"
                               className="w-full h-auto max-h-[320px] rounded-xl border border-[#f5c518] shadow-md bg-white object-contain"

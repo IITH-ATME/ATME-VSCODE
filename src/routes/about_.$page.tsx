@@ -52,7 +52,7 @@ const PORTRAIT: Record<string, { src: string; name: string; role: string }> = {
   },
 };
 
-export const Route = createFileRoute("/about/$page")({
+export const Route = createFileRoute("/about_/$page")({
   component: AboutPage,
   head: ({ params }) => {
     const m = ROUTE_MAP[params.page];
@@ -62,7 +62,7 @@ export const Route = createFileRoute("/about/$page")({
 });
 
 function AboutPage() {
-  const { page } = useParams({ from: "/about/$page" });
+  const { page } = useParams({ from: "/about_/$page" });
   const m = ROUTE_MAP[page];
   if (!m) {
     return (
@@ -114,18 +114,6 @@ function AboutPage() {
             ))
           )}
 
-          {inlinePdfs.length > 0 && (
-            <div className="not-prose mt-8 space-y-8">
-              {inlinePdfs.map((doc) => (
-                <section key={doc.url}>
-                  <h3 className="text-lg sm:text-xl font-display font-semibold text-[#129199] mb-3">
-                    {doc.title}
-                  </h3>
-                  <PdfEmbed url={doc.url} title={doc.title} />
-                </section>
-              ))}
-            </div>
-          )}
         </article>
 
         <aside className="space-y-2">
@@ -137,6 +125,19 @@ function AboutPage() {
           ))}
         </aside>
       </div>
+
+      {inlinePdfs.length > 0 && (
+        <div className="container-page pb-12 space-y-8">
+          {inlinePdfs.map((doc) => (
+            <section key={doc.url}>
+              <h3 className="text-lg sm:text-xl font-display font-semibold text-[#129199] mb-3">
+                {doc.title}
+              </h3>
+              <PdfEmbed url={doc.url} title={doc.title} />
+            </section>
+          ))}
+        </div>
+      )}
     </Layout>
   );
 }

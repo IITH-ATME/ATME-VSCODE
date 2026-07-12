@@ -54,7 +54,7 @@ import { Route as DepartmentsSlugRouteImport } from './routes/departments.$slug'
 import { Route as CampusLifeAtmeyaRouteImport } from './routes/campus-life.atmeya'
 import { Route as CampusLifePageRouteImport } from './routes/campus-life.$page'
 import { Route as AdminRescrapeRouteImport } from './routes/admin.rescrape'
-import { Route as AboutPageRouteImport } from './routes/about.$page'
+import { Route as AboutPageRouteImport } from './routes/about_.$page'
 import { Route as DepartmentsSlugIndexRouteImport } from './routes/departments.$slug.index'
 import { Route as DepartmentsSlugPageRouteImport } from './routes/departments.$slug.$page'
 import { Route as ApiAdminRescrapeFacultyRouteImport } from './routes/api.admin.rescrape-faculty'
@@ -289,9 +289,9 @@ const AdminRescrapeRoute = AdminRescrapeRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutPageRoute = AboutPageRouteImport.update({
-  id: '/$page',
-  path: '/$page',
-  getParentRoute: () => AboutRoute,
+  id: '/about_/$page',
+  path: '/about/$page',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const DepartmentsSlugIndexRoute = DepartmentsSlugIndexRouteImport.update({
   id: '/',
@@ -323,7 +323,7 @@ const DepartmentsSlugFacultyFacultyIdRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteWithChildren
+  '/about': typeof AboutRoute
   '/administration': typeof AdministrationRoute
   '/admissions': typeof AdmissionsRoute
   '/campus-life': typeof CampusLifeRouteWithChildren
@@ -376,7 +376,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteWithChildren
+  '/about': typeof AboutRoute
   '/administration': typeof AdministrationRoute
   '/admissions': typeof AdmissionsRoute
   '/campus-tour': typeof CampusTourRoute
@@ -428,7 +428,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteWithChildren
+  '/about': typeof AboutRoute
   '/administration': typeof AdministrationRoute
   '/admissions': typeof AdmissionsRoute
   '/campus-life': typeof CampusLifeRouteWithChildren
@@ -457,7 +457,7 @@ export interface FileRoutesById {
   '/vtu-minor-degree': typeof VtuMinorDegreeRoute
   '/women-cell': typeof WomenCellRoute
   '/youth4work': typeof Youth4workRoute
-  '/about/$page': typeof AboutPageRoute
+  '/about_/$page': typeof AboutPageRoute
   '/admin/rescrape': typeof AdminRescrapeRoute
   '/campus-life/$page': typeof CampusLifePageRoute
   '/campus-life/atmeya': typeof CampusLifeAtmeyaRoute
@@ -616,7 +616,7 @@ export interface FileRouteTypes {
     | '/vtu-minor-degree'
     | '/women-cell'
     | '/youth4work'
-    | '/about/$page'
+    | '/about_/$page'
     | '/admin/rescrape'
     | '/campus-life/$page'
     | '/campus-life/atmeya'
@@ -641,7 +641,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRouteWithChildren
+  AboutRoute: typeof AboutRoute
   AdministrationRoute: typeof AdministrationRoute
   AdmissionsRoute: typeof AdmissionsRoute
   CampusLifeRoute: typeof CampusLifeRouteWithChildren
@@ -670,6 +670,7 @@ export interface RootRouteChildren {
   VtuMinorDegreeRoute: typeof VtuMinorDegreeRoute
   WomenCellRoute: typeof WomenCellRoute
   Youth4workRoute: typeof Youth4workRoute
+  AboutPageRoute: typeof AboutPageRoute
   AdminRescrapeRoute: typeof AdminRescrapeRoute
   DepartmentsSlugRoute: typeof DepartmentsSlugRouteWithChildren
   PSplatRoute: typeof PSplatRoute
@@ -1001,12 +1002,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminRescrapeRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/about/$page': {
-      id: '/about/$page'
-      path: '/$page'
+    '/about_/$page': {
+      id: '/about_/$page'
+      path: '/about/$page'
       fullPath: '/about/$page'
       preLoaderRoute: typeof AboutPageRouteImport
-      parentRoute: typeof AboutRoute
+      parentRoute: typeof rootRouteImport
     }
     '/departments/$slug/': {
       id: '/departments/$slug/'
@@ -1045,16 +1046,6 @@ declare module '@tanstack/react-router' {
     }
   }
 }
-
-interface AboutRouteChildren {
-  AboutPageRoute: typeof AboutPageRoute
-}
-
-const AboutRouteChildren: AboutRouteChildren = {
-  AboutPageRoute: AboutPageRoute,
-}
-
-const AboutRouteWithChildren = AboutRoute._addFileChildren(AboutRouteChildren)
 
 interface CampusLifeRouteChildren {
   CampusLifePageRoute: typeof CampusLifePageRoute
@@ -1104,7 +1095,7 @@ const DepartmentsSlugRouteWithChildren = DepartmentsSlugRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRouteWithChildren,
+  AboutRoute: AboutRoute,
   AdministrationRoute: AdministrationRoute,
   AdmissionsRoute: AdmissionsRoute,
   CampusLifeRoute: CampusLifeRouteWithChildren,
@@ -1133,6 +1124,7 @@ const rootRouteChildren: RootRouteChildren = {
   VtuMinorDegreeRoute: VtuMinorDegreeRoute,
   WomenCellRoute: WomenCellRoute,
   Youth4workRoute: Youth4workRoute,
+  AboutPageRoute: AboutPageRoute,
   AdminRescrapeRoute: AdminRescrapeRoute,
   DepartmentsSlugRoute: DepartmentsSlugRouteWithChildren,
   PSplatRoute: PSplatRoute,
