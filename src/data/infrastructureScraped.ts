@@ -71,7 +71,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "By completing the Final Year Project Laboratory, students gain hands-on experience in system design, development, testing, and evaluation. This practical exposure prepares students to meet industry requirements, pursue higher studies, and engage in research and development activities. Overall, the Project Lab serves as a bridge between academic learning and real-time engineering applications.",
           "Lab Name – DAA/Data structure lab"
         ],
-        "items": []
+        "items": [],
+        "noImage": true
       },
       {
         "heading": "The Data Structures Laboratory",
@@ -92,7 +93,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "Overall, the DAA Lab helps students develop strong problem-solving abilities and prepares them for advanced studies, competitive programming, and real-world software development where algorithmic efficiency is critical.",
           "Lab Name – Machine Learning lab"
         ],
-        "items": []
+        "items": [],
+        "noImage": true
       },
       {
         "heading": "Machine Learning Laboratory",
@@ -442,25 +444,104 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "paras": [
           "The library is having a collection of titles with a total of 638 Technical & aptitude books. The student project reports are also available for quick reference for students."
         ],
-        "items": []
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/eeelib-1024x593.jpg", "alt": "" }
       },
       {
-        "heading": "Laboratories",
+        "heading": "Transformers and Generators Laboratory",
         "paras": [
-          "Transformers and Generators Laboratory : This laboratory is utilized by the students to conduct experiments related to Transformers and Generators machines and gain practical experience on them. This laboratory supports teaching, research and consultancy work on Transformers & Genearots machines. The laboratory can also be used for project work related to electrical machines and energy conversion.",
-          "Electric Circuit Analysis Laboratory: The Electric Circuit Analysis Laboratory aims to provide students with hands-on experience in analyzing both DC and AC electrical circuits. Students explore the behavior of simple circuits under open and short circuit conditions and measure key parameters such as resonant frequency, bandwidth, and quality factor in resonance circuits. The lab includes verification of fundamental network theorems such as Thevenin’s, Norton’s, Superposition, and Maximum Power Transfer theorems. Experiments on power factor correction and measurement of time constants in RC circuits enhance students’ understanding of circuit dynamics. The lab also enables students to measure power in three-phase circuits using the two-wattmeter method, bridging the gap between theory and practical application.",
-          "Analog Electronic Circuits laboratory : The laboratory facilitates design and study of the performance of various analog electronic circuits. Lab mainly concentrates on designing and analyzing of rectifiers, amplifiers, oscillators. Lab is equipped with the basic electronic instruments such as Digital meters, Power supplies, function generators, etc.",
-          "Electrical Hardware Laboratory: The Electrical Hardware Laboratory is aimed at imparting practical knowledge of basic electrical circuit analysis, wiring techniques, and measurement methods. Students verify Kirchhoff’s laws for both DC and AC circuits and learn to measure current, power, and power factor for various types of lamps. The lab also includes evaluation of voltmeter loading effect, resistance measurement using different methods, and determination of inductance using the three-voltmeter method. Experiments on star and delta connections, lamp control circuits, earth resistance measurement, and fuse characteristics help students gain hands-on experience with real-world electrical systems.",
-          "Power Electronics laboratory: This laboratory deals with studying the performance characteristics of power electronic switching devices like SCR, MOSFET, IGBT etc. Power Electronic control modules for speed control of separately excited dc motor, universal motor etc., are available.",
-          "Signals & DSP Laboratory: In this laboratory the digital signals are simulated using octave software. The student will be simulating linear and circular convolution and also study the design and simulation of IIR an FIR filters using various methods.",
-          "Power system analysis Laboratory: Laboratory is equipped with 24 computers with Mi-Power Simulation Package and LAN facility. Student can carry out load flow studies, short circuit analysis, Economic Dispatch and many power system related studies using MiPower.",
-          "Electric Motors Laboratory: This laboratory focuses on performing experiments on DC machines to determine their characteristics and evaluate different control methods. Students also carry out tests for the pre-determination of performance characteristics of DC machines. Additionally, the lab includes load tests on both single-phase and three-phase induction motors to assess their performance. Tests on induction motors are conducted to analyze their operational characteristics, and experiments on synchronous motors are performed to plot their performance curves.",
-          "Microcontrollers Laboratory: This laboratory enables students to understand basic concepts and applications of Microcontrollers. It is designed to understand the internal organization of Intel 8051 Microcontrollers, and for all the control oriented applications extensively used.",
-          "Sci Lab / MATLAB for Electrical and Electronic Measurements Laboratory: This laboratory enables students to design and simulate the measurement of resistance using Wheatstone and Kelvin’s double bridge, and inductance using Schering, De-Sauty’s, Maxwell, and Anderson bridges. The lab also covers the simulation-based analysis of frequency, real/reactive power, power factor, and energy in single-phase and three-phase circuits.",
-          "Control System Laboratory: A control system plays a vital role in studying the stability studies of all electrical systems, which is highlighted in this laboratory. The analysis of Lag Lead compensator network, frequency response, effect of PID controllers, Speed torque Characteristics of AC & DC Servo motors, MATLAB programming for second order, third order & DC Position control system are taught to students.",
-          "Relay and High Voltage Laboratory: The laboratory is equipped with state of the art high voltage equipments to study the breakdown characteristics of air insulation for both uniform and non-uniform configurations. In relay part, the laboratory has different types of electromechanical, microprocessor based relays and negative sequence relay, these characteristics are analyzed and protection scheme for generator and motor are studied."
+          "This laboratory is utilized by the students to conduct experiments related to Transformers and Generators machines and gain practical experience on them. This laboratory supports teaching, research and consultancy work on Transformers & Genearots machines. The laboratory can also be used for project work related to electrical machines and energy conversion."
         ],
-        "items": []
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/trans-450x350.jpg", "alt": "trans" }
+      },
+      {
+        "heading": "Electric Circuit Analysis Laboratory",
+        "paras": [
+          "The Electric Circuit Analysis Laboratory aims to provide students with hands-on experience in analyzing both DC and AC electrical circuits. Students explore the behavior of simple circuits under open and short circuit conditions and measure key parameters such as resonant frequency, bandwidth, and quality factor in resonance circuits. The lab includes verification of fundamental network theorems such as Thevenin’s, Norton’s, Superposition, and Maximum Power Transfer theorems. Experiments on power factor correction and measurement of time constants in RC circuits enhance students’ understanding of circuit dynamics. The lab also enables students to measure power in three-phase circuits using the two-wattmeter method, bridging the gap between theory and practical application."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/electric-circuit-450x350.jpg", "alt": "electric circuit" }
+      },
+      {
+        "heading": "Analog Electronic Circuits Laboratory",
+        "paras": [
+          "The laboratory facilitates design and study of the performance of various analog electronic circuits. Lab mainly concentrates on designing and analyzing of rectifiers, amplifiers, oscillators. Lab is equipped with the basic electronic instruments such as Digital meters, Power supplies, function generators, etc."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/analog-electric-circuit-450x350.jpg", "alt": "analog electric circuit" }
+      },
+      {
+        "heading": "Electrical Hardware Laboratory",
+        "paras": [
+          "The Electrical Hardware Laboratory is aimed at imparting practical knowledge of basic electrical circuit analysis, wiring techniques, and measurement methods. Students verify Kirchhoff’s laws for both DC and AC circuits and learn to measure current, power, and power factor for various types of lamps. The lab also includes evaluation of voltmeter loading effect, resistance measurement using different methods, and determination of inductance using the three-voltmeter method. Experiments on star and delta connections, lamp control circuits, earth resistance measurement, and fuse characteristics help students gain hands-on experience with real-world electrical systems."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/electrical-hardware-450x350.jpg", "alt": "electrical hardware" }
+      },
+      {
+        "heading": "Power Electronics Laboratory",
+        "paras": [
+          "This laboratory deals with studying the performance characteristics of power electronic switching devices like SCR, MOSFET, IGBT etc. Power Electronic control modules for speed control of separately excited dc motor, universal motor etc., are available."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/power-450x350.jpg", "alt": "power" }
+      },
+      {
+        "heading": "Signals & DSP Laboratory",
+        "paras": [
+          "In this laboratory the digital signals are simulated using octave software. The student will be simulating linear and circular convolution and also study the design and simulation of IIR an FIR filters using various methods."
+        ],
+        "items": [],
+        "noImage": true
+      },
+      {
+        "heading": "Power System Analysis Laboratory",
+        "paras": [
+          "Laboratory is equipped with 24 computers with Mi-Power Simulation Package and LAN facility. Student can carry out load flow studies, short circuit analysis, Economic Dispatch and many power system related studies using MiPower."
+        ],
+        "items": [],
+        "noImage": true
+      },
+      {
+        "heading": "Electric Motors Laboratory",
+        "paras": [
+          "This laboratory focuses on performing experiments on DC machines to determine their characteristics and evaluate different control methods. Students also carry out tests for the pre-determination of performance characteristics of DC machines. Additionally, the lab includes load tests on both single-phase and three-phase induction motors to assess their performance. Tests on induction motors are conducted to analyze their operational characteristics, and experiments on synchronous motors are performed to plot their performance curves."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/motors-450x350.jpg", "alt": "motors" }
+      },
+      {
+        "heading": "Microcontrollers Laboratory",
+        "paras": [
+          "This laboratory enables students to understand basic concepts and applications of Microcontrollers. It is designed to understand the internal organization of Intel 8051 Microcontrollers, and for all the control oriented applications extensively used."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/mcs-450x350.jpg", "alt": "mcs" }
+      },
+      {
+        "heading": "Sci Lab / MATLAB for Electrical and Electronic Measurements Laboratory",
+        "paras": [
+          "This laboratory enables students to design and simulate the measurement of resistance using Wheatstone and Kelvin’s double bridge, and inductance using Schering, De-Sauty’s, Maxwell, and Anderson bridges. The lab also covers the simulation-based analysis of frequency, real/reactive power, power factor, and energy in single-phase and three-phase circuits."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/sci-matlab-450x350.jpg", "alt": "sci-matlab" }
+      },
+      {
+        "heading": "Control System Laboratory",
+        "paras": [
+          "A control system plays a vital role in studying the stability studies of all electrical systems, which is highlighted in this laboratory. The analysis of Lag Lead compensator network, frequency response, effect of PID controllers, Speed torque Characteristics of AC & DC Servo motors, MATLAB programming for second order, third order & DC Position control system are taught to students."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/control-system-450x350.jpg", "alt": "control system" }
+      },
+      {
+        "heading": "Relay and High Voltage Laboratory",
+        "paras": [
+          "The laboratory is equipped with state of the art high voltage equipments to study the breakdown characteristics of air insulation for both uniform and non-uniform configurations. In relay part, the laboratory has different types of electromechanical, microprocessor based relays and negative sequence relay, these characteristics are analyzed and protection scheme for generator and motor are studied."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2025/07/relay-450x350.jpg", "alt": "relay" }
       },
       {
         "heading": "Project Laboratory",
@@ -474,7 +555,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "AutoCAD: For Electrical wiring diagram.",
           "OCTAVE 7.0: For simulation Purpose.",
           "Arduino IDE: For development of the project."
-        ]
+        ],
+        "noImage": true
       },
       {
         "heading": "VTU Recognized R & D Centre",
@@ -482,10 +564,12 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "Research Laboratories",
           "Research Center at Department of Electrical and Electronics Engineering is recognized by Visvesvaraya Technological University, Belagavi. The research center emphasis on research under areas of specialization that include Power Systems Engineering."
         ],
-        "items": []
+        "items": [],
+        "noImage": true
       },
       {
         "heading": "Major Equipment and Software Tools Available in Various Laboratories",
+        "noImage": true,
         "paras": [],
         "items": [
           "Single Phase transformer 2KVA/230V 1:1, 1KVA/230V 1:1",
@@ -548,6 +632,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Instructional Materials",
+        "noImage": true,
         "paras": [
           "Facilities for Students:",
           "Facilities for Faculty:",
@@ -639,6 +724,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Engineering Graphics Laboratory",
+        "noImage": true,
         "paras": [
           "Shared first-year facility for all engineering branches, used to teach the fundamentals of engineering drawing through Solid Edge. The lab is equipped with Dell desktops on LAN, an Epson multimedia projector and a smart board, with individual workstations for every student."
         ],
@@ -646,6 +732,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Material Testing Laboratory",
+        "noImage": true,
         "paras": [
           "Supports experimental study of mechanical properties of engineering materials. Major equipment includes Vickers / Brinell / Rockwell hardness testers, Impact, Torsion, Fatigue and Wear testing machines, a 60-ton Universal Testing Machine, magnetic crack detector, ultrasonic flaw detector, single-disc polishing machine, dye-penetrant tester and a metallographic inverted microscope."
         ],
@@ -653,6 +740,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Machine Shop / Manufacturing Laboratory",
+        "noImage": true,
         "paras": [
           "Hands-on training in conventional machining operations on lathes, milling, drilling, grinding and shaping machines. Equipment includes all-geared lathe machines, shaping machine, drilling machine, milling machine, bench grinding machine and hand cutting machine, used to fabricate metal work-pieces from given drawings."
         ],
@@ -660,6 +748,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Foundry & Forging Laboratory",
+        "noImage": true,
         "paras": [
           "Exposes students to sand-moulding processes, properties of moulding sands and hot-working of metals. Major equipment includes Universal Sand Testing Machine with attachments, sieve shaker, rapid moisture tester, permeability meter, hardness tester, clay-content tester, specimen drier with digital temperature indicator, electronic balance, muffle furnace, centrifugal blower with motor and a smithy furnace."
         ],
@@ -667,6 +756,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Mechanical Measurements & Metrology Laboratory",
+        "noImage": true,
         "paras": [
           "Covers measurement techniques, calibration and quality-control standards. Equipment includes calibration setups for pressure gauge, thermocouple, LVDT and load cell, autocollimator, sine bar & sine centre, bevel protractor, gear-tooth micrometer, lathe & drill tool dynamometers, slip-gauge box, mechanical comparator, floating-carriage micrometer and magnetic stand with dial gauge."
         ],
@@ -674,6 +764,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Fluid Mechanics & Machinery Laboratory",
+        "noImage": true,
         "paras": [
           "Used for experiments on fluid properties and performance testing of hydraulic machines. Major equipment includes Pelton & Francis turbine test rigs, centrifugal pump test rig, centrifugal air blower, two-stage reciprocating air compressor test rig, impact-of-jet apparatus, Venturimeter & orifice apparatus, pipe-friction setup, nozzle apparatus, minor-losses setup, V-notch apparatus and a reciprocating pump test rig."
         ],
@@ -681,6 +772,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Energy Conversion (IC Engines) Laboratory",
+        "noImage": true,
         "paras": [
           "Supports testing of fuels, lubricants and internal-combustion engines. Equipment includes flash & fire point apparatus, viscometers, planimeter, digital bomb calorimeter, Boy's gas calorimeter, 2-stroke and 4-stroke single-cylinder petrol and diesel engine test rigs, a variable-compression-ratio (VCR) petrol engine test rig, multi-cylinder petrol engine test rig and valve / port timing diagram setups."
         ],
@@ -688,6 +780,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Heat Transfer & Refrigeration Laboratory",
+        "noImage": true,
         "paras": [
           "Used for experiments on conduction, convection and radiation along with performance testing of refrigeration and air-conditioning systems. Equipment includes thermal-conductivity apparatus, composite-wall heat-transfer setup, natural & forced convection rigs, pin-fin apparatus, emissivity setup, Stefan-Boltzmann apparatus, parallel & counter-flow heat exchanger, drop/film condensation apparatus, transient-conduction setup, vapour-compression refrigeration test rig and a vapour-compression air-conditioning test rig."
         ],
@@ -695,6 +788,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Modelling & Analysis (CAD/CAE) Laboratory",
+        "noImage": true,
         "paras": [
           "Networked computer lab for solid modelling and finite-element analysis using industry-standard tools. Workstations are loaded with FEA workbenches (Static Structural, Thermal, Modal, Harmonic) running on Dell Optiplex desktops, supported by an Epson LCD projector for live demonstrations."
         ],
@@ -702,6 +796,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "CNC, Robotics & Automation Laboratory",
+        "noImage": true,
         "paras": [
           "Final-year facility for CNC part-programming and simulation, with exposure to Flexible Manufacturing Systems, Robotics and Hydraulic & Pneumatic systems. Equipped with Dell Optiplex desktops, simulation software and an Epson LCD projector."
         ],
@@ -709,6 +804,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Design & Dynamics Laboratory",
+        "noImage": true,
         "paras": [
           "Used by final-year students for experiments on machine dynamics, stress analysis and vibrating systems. Major equipment includes journal bearing apparatus, principal stress & strain setup, balancing of rotating masses apparatus, vibration studies setup, whirling-of-shaft apparatus, motorised gyroscope, curved-beam apparatus, polariscope and universal governor apparatus."
         ],
@@ -716,6 +812,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Project Laboratory",
+        "noImage": true,
         "paras": [
           "Dedicated space for final-year project fabrication covering fitting, welding and sheet-metal work. Equipment includes bench vices, leg vice, fitting tools, arc-welding machine and sheet-metal tools, along with general-purpose engineering tools."
         ],
@@ -723,6 +820,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Department Library",
+        "noImage": true,
         "paras": [
           "The department library houses 800+ volumes across thermal, design, manufacturing, materials and industrial engineering, along with reference books, lab manuals, project reports and selected journals available for student and faculty reference."
         ],
@@ -738,75 +836,87 @@ export const INFRA_DATA: Record<string, InfraData> = {
   "ce": {
     "sections": [
       {
-        "heading": "Infrastructure & Facilities",
+        "heading": "Infrastructure/Facilities",
         "paras": [
-          "The Department of Civil Engineering is supported by a strong infrastructure of well-equipped laboratories, modern classrooms with multimedia projectors, a department library and dedicated drawing and design halls. The facilities cover the full breadth of the Civil Engineering curriculum — from materials testing and surveying to environmental, transportation, geotechnical and structural studies — and support both academic instruction and student project work."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Concrete & Highway Materials Laboratory",
-        "paras": [
-          "Equipped to test the physical and mechanical properties of concrete, cement, aggregates and bituminous mixes. Major facilities include a Compression Testing Machine, Universal Testing Machine (UTM), Marshall stability apparatus, Los Angeles abrasion machine, Vicat & Le-Chatelier apparatus, slump cone, vibrating tables, and aggregate impact / crushing test rigs used in CBT and CBCS lab courses."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Strength of Materials & Structures Laboratory",
-        "paras": [
-          "Used for experimental study of stress, strain, deflection and torsion behaviour of structural members. Equipment includes Universal Testing Machine, Torsion testing machine, Brinell & Rockwell hardness testers, Izod / Charpy impact testers, spring testing machine and deflection beam apparatus."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Geotechnical Engineering Laboratory",
-        "paras": [
-          "Supports experimental investigation of soil properties for foundation and earthwork design. Equipment includes consolidation apparatus, direct shear and triaxial shear test setups, CBR test apparatus, permeameters, sieve shakers, hydrometers, standard & modified Proctor compaction setups and field density (core cutter / sand replacement) kits."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Environmental Engineering Laboratory",
-        "paras": [
-          "Facilitates physical, chemical and biological analysis of water and wastewater samples. Equipment includes turbidity meter, pH and conductivity meters, BOD incubator, COD digester, jar test apparatus, UV-Visible spectrophotometer, and Jackson turbidity tubes used in water-quality and wastewater-treatment experiments."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Surveying & GIS Laboratory",
-        "paras": [
-          "Equipped for plane and modern surveying practice — Total Stations, Auto Levels, Dumpy Levels, Theodolites, Plane Tables, prismatic compasses, chains, tapes and GPS receivers. Computer-aided drafting and GIS work is supported by licensed copies of AutoCAD Civil and open-source QGIS for digital mapping and terrain analysis."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Computer-Aided Analysis & Design Laboratory",
-        "paras": [
-          "A networked computer lab used for structural analysis, design and drafting courses. Workstations are loaded with AutoCAD, STAAD.Pro, ETABS, SAP2000, Revit Structure and Primavera P6 to support practical sessions on structural modelling, reinforced-concrete & steel design, building information modelling and construction project planning."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Fluid Mechanics & Hydraulics Laboratory",
-        "paras": [
-          "Houses apparatus for flow measurement and hydraulic experimentation, including Venturimeter and Orifice meter setups, hydraulic ram, Bernoulli's apparatus, notches & weirs, pipe friction test rigs, centrifugal & reciprocating pump test rigs, Pelton & Francis turbine test rigs and an open-channel flume."
+          "Department has sufficient class rooms and most of them are equipped with multimedia projectors. Department also has its own Seminar Hall, 8 well equipped laboratories"
         ],
         "items": []
       },
       {
         "heading": "Department Library",
         "paras": [
-          "The department library houses a curated collection of textbooks, reference books, IS / IRC codes, conference proceedings, journals and project reports across structural, geotechnical, environmental, transportation and water-resources engineering. Final-year project reports and lab manuals are available for student reference."
+          "The department has freshly set up Department Library. The collection of the Library comprises 320 Books including Periodicals, Reference Books; mainly in Structural Engineering, Transportation Engineering, Soil Mechanics, Waste Water Engineering , Management and Technology. However the Library is providing opportunity to access for both students and faculties."
         ],
-        "items": []
+        "items": [],
+        "noImage": true
+      },
+      {
+        "heading": "Building Material Testing Laboratory",
+        "paras": [
+          "A well-equipped materials testing laboratory is available for developing design criteria and evaluating various types of building materials. The laboratory includes facilities for performing all kinds of tests on concrete and bituminous mixes. Impact Testing Machine, UTM, Torsion, Sieve Analysis, Phycnometer. RHN, BHN & VHN, Knife edge test on tiles, Density test on Aggregates, Hot Air oven for Moisture content determination, Wire Basket."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2026/04/BMT-Lab.png", "alt": "Building Material Testing Laboratory" }
+      },
+      {
+        "heading": "Basic Surveying Practice",
+        "paras": [
+          "This laboratory helps the students to gain basic knowledge on the various surveying and leveling instruments and their working. The available instruments includes Theodolite with Accessories, Dumpy level with Accessories, Total Station with Accessories, Plain Table with Accessories, Prismatic Compass with Accessories, Chain 30m, Tape, Arrows, Cross staff, Ranging rod, CilonGhat Tracer, Planimeter, Surveyor's Compass with Accessories"
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2026/04/Surveying-Lab.png", "alt": "Basic Surveying Practice" }
+      },
+      {
+        "heading": "Fluid Mechanics Laboratory",
+        "paras": [
+          "The Fluid Mechanics Laboratory is a facility for the study of fluid flow phenomena. All experimental setups are devised as bench system i.e. an individual setup works as a complete unit of fluid input in system as well as storage of fluid. Orifice Meter, Venturimeter, V-Notch, Rectangle Notch, Major Losses, Minor Losses, Kaplan Turbine, Francis Turbine, Impact of Jet, Centrifugal Pump."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2026/04/Fluid-Mechanics-Lab.png", "alt": "Fluid Mechanics Laboratory" }
+      },
+      {
+        "heading": "Engineering Geology Laboratory",
+        "paras": [
+          "In this lab physical properties of minerals are identified. This lab contains Mineral Specimens, Rock Specimens, Plastic Specimen Trays, Streak Plates, Pocket Lens Pen Knife and Round Magnets."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2026/04/Geology-Lab.png", "alt": "Engineering Geology Laboratory" }
+      },
+      {
+        "heading": "Computer Aided Engineering Drawing Laboratory",
+        "paras": [
+          "In this lab computer system is used to aid in the modification, optimization design. Computer with Accessories, Auto cad design software, Staad pro software & Excel."
+        ],
+        "items": [],
+        "noImage": true
+      },
+      {
+        "heading": "Geo Technical Engineering Laboratory",
+        "paras": [
+          "In this lab Students are made to carry out all soil mechanics fundamental experiments according to standards, to understand the techniques, skills and modern engineering tools necessary for engineering practice. In this proposal, different laboratory tests can be developed to estimate the mechanical and engineering properties of soils. The major equipments is CBR, Direct Shear, Triaxial Apparatus, UCC Strength, Casagrande Apparatus, Sieve Analysis, Pycnometer, Density Bottle, Core Cutter apparatus, Hot Air Oven (thermostatically controlled), Sand Pouring Cylinder, Cone Penetrometer apparatus for liquid limit determination of soil, Shrinkage Limit Device, Rapid Moisture Meter, Soil Hydro Meter, Vane Shear Test Apparatus Motorized."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/2026/04/Geotechncal-Engineering-Lab.png", "alt": "Geo Technical Engineering Laboratory" }
+      },
+      {
+        "heading": "Environmental Engineering Laboratory",
+        "paras": [
+          "The Laboratory has sophisticated equipments to analyze pollution parameters in water and waste water. The facilities include pH meter, Conductivity, Flame photometer, Hot air oven Spectro-photometer, Turbidity meter, Muffle furnace, Burettes, Conical Flasks."
+        ],
+        "items": [],
+        "noImage": true
+      },
+      {
+        "heading": "Concrete & Highway Material Testing Laboratory",
+        "paras": [
+          "This lab is of utmost importance for a Civil Engineering student as it deals with the testing of various construction materials such as cement, aggregates, concrete (fresh & hardened), tiles and bricks. The various apparatus set up in the Concrete lab are Length Gauge & Thickness Gauge, Le-Chatelier Flask, Vee Bee Apparatus, Crushing Valve Apparatus, Bitumen Penetrometer, Ductility & Softening Point Apparatus, Flash & Fire Point Apparatus, Tar Viscometer, Abrasion Testing machine, Concrete Cube Vibrating  Table, Mortar Vibrating Machine, Vicat Apparatus, Cement Autoclave, Blains Air Permeability, Compaction Factor Apparatus, Aggregate Impact Tester, Standard Cement for Air Permeability, CTM, Marshall Apparatus, Flexure (Beam) Testing."
+        ],
+        "items": [],
+        "noImage": true
       }
     ],
     "images": [
-      { "url": "/__l5e/assets-v1/518402e6-97ce-4757-879e-2e24ac2c2500/civil-overview.jpg", "alt": "Civil Engineering Department" },
-      { "url": "/__l5e/assets-v1/29117779-80c3-4826-b894-8852355a318f/ce-geotech.png", "alt": "Geotechnical Engineering Laboratory" },
-      { "url": "/__l5e/assets-v1/0b3c44c6-5dde-4b8c-b828-25f6ba624df4/ce-survey.png", "alt": "Surveying Laboratory" },
-      { "url": "/__l5e/assets-v1/39f5635b-cd1e-47c7-9adf-54e16a9027f4/ce-fluid.png", "alt": "Fluid Mechanics Laboratory" },
-      { "url": "/__l5e/assets-v1/50c702d6-e3da-4aad-813b-a2ec64d5ed3a/ce-survey-store.jpg", "alt": "Civil Engineering Survey Store" }
+      { "url": "/images/uploads/2022/12/CV-03-1200x600.jpg", "alt": "" }
     ]
   },
   "mca": {
@@ -832,10 +942,12 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "HP Desktops, i5 Processors, 4 GB RAM, 1 TB Hard Disk",
           "System Software: OS — Windows 10 & Linux",
           "Application Software: XAMPP, JDK & JRE (Version 8), Turbo C, Microsoft Office (Edition 16), Anaconda, Code::Blocks, MySQL"
-        ]
+        ],
+        "image": { "url": "/images/uploads/2025/12/1.png", "alt": "MCA Laboratory" }
       },
       {
         "heading": "Computer Programming Laboratory",
+        "noImage": true,
         "paras": [
           "Objectives: To develop problem-solving and logical thinking skills through structured and object-oriented programming; to provide hands-on experience in programming using C and Java for developing software applications; to enable students to design, implement, test, and debug programs using modern programming techniques.",
           "Lab Activities: Writing and executing programs using C programming concepts such as control structures, functions, arrays, pointers, structures, and file handling; developing Java programs using classes, objects, inheritance, polymorphism, exception handling, and collections; implementing algorithms for searching, sorting, and data processing; developing mini-projects and application-based programming assignments; debugging, testing, and optimising programs for improved performance.",
@@ -846,6 +958,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       },
       {
         "heading": "Python and UNIX Programming Laboratory",
+        "noImage": true,
         "paras": [
           "Objectives: To provide hands-on experience in Python programming and UNIX/Linux operating system environments; to develop problem-solving, scripting, and automation skills using Python and Shell Programming; to enable students to design and implement software solutions and system administration tasks efficiently.",
           "Lab Activities: Developing Python programs using control structures, functions, modules, file handling, and object-oriented programming concepts; implementing applications using Python libraries and frameworks; performing file, directory, user, and process management tasks in UNIX/Linux; writing and executing Shell Scripts using loops, conditional statements, and functions; automating routine system tasks and solving real-world computing problems; developing mini-projects integrating Python programming and UNIX/Linux tools.",

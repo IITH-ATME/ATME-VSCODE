@@ -1,22 +1,35 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Mail, Phone, Smartphone, Facebook, Youtube, Linkedin, Instagram, Twitter } from "lucide-react";
-import { departmentsIndex as departments } from "@/data/departmentsIndex";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { ABOUT, DEPARTMENTS_NAV, type NavLink } from "@/lib/navStructure";
 
 type FL = { label: string; href?: string; to?: string; params?: Record<string, string> };
 
+// Pull the exact same link targets the header dropdowns use, so the footer
+// can never drift out of sync with "updated" routes again. Falls back to a
+// dead "#" (never expected to hit) only if a label is renamed upstream.
+const ABOUT_ALL_LINKS: NavLink[] = [
+  ...ABOUT.columns[0].links,
+  ...ABOUT.columns[1].links,
+  ...(ABOUT.columns[1].groups?.[0].links ?? []),
+];
+const byLabel = (links: NavLink[], label: string): FL => {
+  const found = links.find((l) => l.label === label);
+  return found ? { label: found.label, to: found.to, params: found.params, href: found.href } : { label, href: "#" };
+};
+
 const ABOUT_LINKS: FL[] = [
-  { label: "About College",                to: "/about" },
-  { label: "Vision & Mission",             to: "/about/$page", params: { page: "vision-mission" } },
-  { label: "Governing Council (GC)",       to: "/about/$page", params: { page: "governing-council" } },
-  { label: "Chairman's Message",           to: "/about/$page", params: { page: "chairmans-message" } },
-  { label: "About Principal",              to: "/about/$page", params: { page: "about-principal" } },
-  { label: "Principal Message",            to: "/about/$page", params: { page: "principal-message" } },
-  { label: "Dean Research",                to: "/p/$", params: { _splat: "atme-research/dean-research-message" } },
-  { label: "Dean Student Affairs",         to: "/about/$page", params: { page: "dean-student-affairs" } },
-  { label: "Dean Academics",               to: "/p/$", params: { _splat: "dean-academics" } },
-  { label: "Academic Council (AC)",        to: "/about/$page", params: { page: "academic-council" } },
-  { label: "Statutory Declaration",        to: "/about/$page", params: { page: "statutory-declaration" } },
+  byLabel(ABOUT_ALL_LINKS, "About College"),
+  byLabel(ABOUT_ALL_LINKS, "Vision & Mission"),
+  byLabel(ABOUT_ALL_LINKS, "Governing Council (GC)"),
+  byLabel(ABOUT_ALL_LINKS, "Chairman's Message"),
+  byLabel(ABOUT_ALL_LINKS, "About Principal"),
+  byLabel(ABOUT_ALL_LINKS, "Principal Message"),
+  byLabel(ABOUT_ALL_LINKS, "Dean Research"),
+  byLabel(ABOUT_ALL_LINKS, "Dean Student Affairs"),
+  byLabel(ABOUT_ALL_LINKS, "Dean Academics"),
+  byLabel(ABOUT_ALL_LINKS, "Academic Council (AC)"),
+  byLabel(ABOUT_ALL_LINKS, "Statutory Declaration and Undertaking"),
 ];
 
 const QUICK_LINKS: FL[] = [
@@ -36,50 +49,26 @@ const QUICK_LINKS: FL[] = [
   { label: "Privacy Policy",          to: "/privacy-policy" },
 ];
 
-// Map internal dept slugs by name where available
-const internalSlugByName: Record<string, string> = {
-  "Computer Science & Engineering": "cse",
-  "Electronics & Communication Engineering": "ece",
-  "Electrical & Electronics Engineering": "eee",
-  "Mechanical Engineering": "me",
-  "Civil Engineering": "ce",
-  "CSE — Data Science": "ds",
-  "Bachelor of Computer Applications": "bca",
-};
-const hasInternal = (n: string) => Boolean(departments.find(d => d.slug === internalSlugByName[n]));
-const deptLink = (name: string, fallback: string): FL =>
-  hasInternal(name)
-    ? { label: name, to: "/departments/$slug", params: { slug: internalSlugByName[name] } }
-    : { label: name, href: fallback };
+// Departments UG/PG/Basic-Sciences links are sourced directly from the same
+// DEPARTMENTS_NAV structure the header dropdown renders, so the footer can
+// never point at a stale/external URL while the header points internally.
+const deptCol = (heading: string) => DEPARTMENTS_NAV.columns.find((c) => c.heading === heading)!;
+const asFL = (l: NavLink): FL => ({ label: l.label, to: l.to, params: l.params, href: l.href });
 
-const UG_DEPTS: FL[] = [
-  deptLink("Civil Engineering",                                  "https://atme.edu.in/departments/civil-engineering/"),
-  deptLink("Computer Science & Engineering",                     "https://atme.edu.in/departments/computer-science-and-engineering/"),
-  deptLink("CSE — Data Science",                                 "https://atme.edu.in/departments/computer-science-engineering-data-science/"),
-  { label: "CSE — AI & Machine Learning",  href: "https://atme.edu.in/departments/computer-science-engineering-artificial-intelligence-machine-learning/" },
-  { label: "Computer Science & Design",    href: "https://atme.edu.in/departments/computer-science-design/" },
-  { label: "CSE — Cyber Security",         href: "https://atme.edu.in/departments/computer-science-engineering-cyber-security/" },
-  deptLink("Electronics & Communication Engineering",            "https://atme.edu.in/departments/electronics-and-communication-engineering/"),
-  deptLink("Electrical & Electronics Engineering",               "https://atme.edu.in/departments/electrical-electronics-engineering/"),
-  deptLink("Mechanical Engineering",                             "https://atme.edu.in/departments/department-of-mechanical-engineering/"),
-  deptLink("Bachelor of Computer Applications",                  "https://atme.edu.in/departments/bachelor-of-computer-applications-bca/"),
-];
+const UG_DEPTS: FL[] = deptCol("UG Programmes").links.map(asFL);
 
 const PG_DEPTS: FL[] = [
-  { label: "Master of Computer Applications (MCA)", to: "/departments/$slug", params: { slug: "mca" } },
-  { label: "Master of Business Administration (MBA)",href: "https://atme.edu.in/departments/master-of-business-administration-mba/" },
-  { label: "VTU Honor Degree",  to: "/vtu-honor-degree" },
-  { label: "VTU Minor Degree",  to: "/vtu-minor-degree" },
+  ...deptCol("PG Programmes").links.map(asFL),
+  ...deptCol("Academic Programmes").links.map(asFL), // VTU Honor/Minor Degree
 ];
 
+const studentLifeLinks = deptCol("Academic Programmes").groups?.[0].links ?? [];
+const findLink = (label: string) => studentLifeLinks.find((l) => l.label === label);
 const OTHER_DEPTS: FL[] = [
-  { label: "Chemistry",   to: "/departments/$slug", params: { slug: "chemistry" } },
-  { label: "Mathematics", to: "/departments/$slug", params: { slug: "mathematics" } },
-  { label: "Physics",     to: "/departments/$slug", params: { slug: "physics" } },
-  { label: "Humanities",  to: "/departments/$slug", params: { slug: "humanities" } },
-  { label: "Library",     to: "/resources/elibrary" },
-  { label: "NSS",         to: "/p/$", params: { _splat: "nss-unit" } },
-  { label: "Sports",      to: "/sports" },
+  ...(deptCol("PG Programmes").groups?.[0].links.map(asFL) ?? []), // Basic Sciences
+  asFL(findLink("Library")!),
+  asFL(findLink("NSS Unit")!),
+  asFL(findLink("Sports")!),
 ];
 
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {

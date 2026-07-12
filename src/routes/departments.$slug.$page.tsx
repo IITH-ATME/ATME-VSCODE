@@ -2323,7 +2323,7 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
     }
     chunks.forEach((c, idx) => {
       const items = idx === chunks.length - 1 ? s.items : [];
-      rows.push({ heading: c.heading, paras: c.paras, items, intro: false, groupHeader: false, image: idx === 0 ? s.image : undefined });
+      rows.push({ heading: c.heading, paras: c.paras, items, intro: false, groupHeader: false, noImage: s.noImage, image: idx === 0 ? s.image : undefined });
     });
   });
 

@@ -175,9 +175,8 @@ type RawCell = { text: string; columns?: string[] };
 
 /** Pull all rendered "cells" out of a markdown block. */
 function extractCells(md: string): RawCell[] {
-  // Replace <br> with newline so multi-line cells split into items.
-  let text = md.replace(/<br\s*\/?>/gi, "\n");
   // Drop the noisy header anchor & images.
+  let text = md;
   text = text.replace(/^\[\]\([^)]*\)\s*$/gim, "");
   text = text.replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gim, "");
   text = text.replace(/^\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)\s*$/gim, "");
@@ -186,7 +185,13 @@ function extractCells(md: string): RawCell[] {
 
   const cells: RawCell[] = [];
   for (const rawLine of text.split(/\r?\n/)) {
-    const ln = rawLine.trim();
+    // Expand <br> into newlines only now — after real line breaks have
+    // already isolated each table row. Doing this globally beforehand (the
+    // previous approach) let a <br> inside one cell of a multi-column row
+    // get mistaken for the end of that row, splitting a single logical row
+    // (e.g. a two-column Patent table) across multiple bogus "rows" and
+    // producing garbled, duplicated content.
+    const ln = rawLine.replace(/<br\s*\/?>/gi, "\n").trim();
     if (!ln) continue;
     // Table separator like `| --- | --- |`
     if (/^\|?\s*(:?-{3,}:?\s*\|?\s*)+$/.test(ln)) continue;

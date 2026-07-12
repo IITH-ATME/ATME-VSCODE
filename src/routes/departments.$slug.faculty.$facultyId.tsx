@@ -614,9 +614,30 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
                       };
                       const isStray = (raw: string) => {
                         const t = (raw || "").replace(/\*\*/g, "").trim();
-                        return t === "" || /^[-–—]+$/.test(t);
+                        if (t === "" || /^[-–—]+$/.test(t)) return true;
+                        // Drop a bare "N years/months" restating the total
+                        // experience (e.g. leaked from a "Professional
+                        // Experience: 13 years" heading) — the breakdown
+                        // table above already shows Teaching/Research/Industry.
+                        if (/^\d+(\.\d+)?\s*(years?|yrs?\.?|months?|mos?\.?)\.?$/i.test(t)) return true;
+                        return false;
                       };
-                      const narrative = items.filter((it) => !it.columns && !isYearsLabel(it.text) && !isStray(it.text));
+                      // When the scraped data has no actual Teaching/Research/
+                      // Industry numbers, ExperienceTable itself falls back to
+                      // rendering the raw career-history bullets as a Role |
+                      // Duration table. In that case these same bullets must
+                      // NOT also be re-rendered here, or every entry appears
+                      // twice (once inside the fallback table, once as a
+                      // duplicate list below it).
+                      const numericBreakdownRe = /(teaching|research|industry|industrial)(?:\s+experience)?\s*[:\-–—|]\s*(\d|nil)/i;
+                      const hasNumericBreakdown = items.some((it) =>
+                        it.columns
+                          ? it.columns.some((c) => numericBreakdownRe.test(c.replace(/\*\*/g, "")))
+                          : numericBreakdownRe.test((it.text || "").replace(/\*\*/g, "")),
+                      );
+                      const narrative = hasNumericBreakdown
+                        ? items.filter((it) => !it.columns && !isYearsLabel(it.text) && !isStray(it.text))
+                        : [];
                       if (narrative.length === 0) return null;
                       return (
                         <div className="mt-5">
@@ -667,6 +688,10 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
     // years (e.g. "Teaching: 8 months" for a recent joinee) — and default to
     // "years" only when no unit is present, instead of always assuming years.
     const pickNumber = (s: string) => {
+      // A explicit "Nil/None/NA" value is real data (zero experience for a
+      // newly-joined faculty member) — surface it plainly instead of falling
+      // through to the narrative-table fallback below.
+      if (/^\s*(nil|none|n\/?a)\.?\s*$/i.test(s)) return "Nil";
       const m = s.match(/(\d+(?:\.\d+)?)\s*(years?|yrs?\.?|months?|mos?\.?|days?)?/i);
       if (!m) return "";
       const num = m[1];
@@ -1000,8 +1025,10 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
           flat.push({ ...run[0], __table: run });
         } else {
           const merged = run[0].columns!
-            .map((c) => c.replace(/^\*\*\s*|\s*\*\*$/g, "").trim())
-            .filter((c) => c.length > 0)
+            .map((c) => c.replace(/\*\*/g, "").trim())
+            // Drop bare "Label:" placeholders with no value after the colon
+            // (e.g. an empty "Patent No.:" column for a not-yet-filed patent).
+            .filter((c) => c.length > 0 && !/^[A-Za-z][A-Za-z .]*:$/.test(c))
             .join(" — ");
           flat.push({ ...run[0], text: merged, columns: undefined });
         }

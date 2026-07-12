@@ -372,6 +372,20 @@ export function sanitizeMarkdown(md: string): string {
 
   for (const re of STRIP_LINE_PATTERNS) out = out.replace(re, "");
 
+  // Some scraped pages emit a full sentence as a heading (the WordPress theme
+  // styled the opening paragraph like a title), e.g.
+  //   "## Youth4work and AICTE have entered into discussions for a
+  //    collaboration to facilitate iob and Internship Opportunities ... ;"
+  // Real headings are short labels and never end in sentence punctuation —
+  // demote anything long AND sentence-punctuated back to a plain paragraph so
+  // it renders at body size instead of as an oversized, title-cased heading.
+  out = out.replace(/^(#{2,6})\s+(.+)$/gm, (m, _hashes: string, rest: string) => {
+    const t = rest.trim();
+    const words = t.split(/\s+/).length;
+    if (words > 12 && /[.,;:!]$/.test(t)) return t;
+    return m;
+  });
+
   // Newsletter / archive paragraphs sometimes come through as a flat run of
   // "Academic Year 2025-26**  Academic Year 2024-25**  Academic Year 2023-24**"
   // (each year was a bolded link/heading on the source page, but the scraper
@@ -449,8 +463,12 @@ export function sanitizeMarkdown(md: string): string {
     .replace(/PhD\s*\(\s*pursuing\s*\)/gi, "Pursuing PhD")
     .replace(/\(\s*PhD\s+pursuing\s*\)/gi, "(Pursuing PhD)")
     .replace(/\bPursuing\s+Ph\.?D\b/gi, "Pursuing PhD")
-    // Scrub accidental duplicated words ("detailed detailed", "the the")
-    .replace(/\b(\w{4,})\s+\1\b/gi, "$1");
+    // Scrub accidental duplicated words ("detailed detailed", "the the").
+    // Restricted to single-line whitespace only — `\s+` would also match
+    // blank lines and incorrectly merge an unrelated heading/paragraph pair
+    // that happen to start/end with the same word (e.g. a "## Youth4work"
+    // heading immediately followed by a paragraph starting "Youth4work ...").
+    .replace(/\b(\w{4,})[ \t]+\1\b/gi, "$1");
   // Collapse 3+ blank lines
   out = out.replace(/\n{3,}/g, "\n\n");
   // Fix scraped GFM tables whose header row is empty (| | | |) followed by
@@ -643,7 +661,6 @@ export function sanitizeMarkdown(md: string): string {
     }
     out = lines.filter((_, i) => keep[i]).join("\n").replace(/\n{3,}/g, "\n\n");
   }
-
 
   // Promote short, label-like paragraph lines that immediately precede a
   // bullet/ordered list to a level-4 heading, so visual headings like
