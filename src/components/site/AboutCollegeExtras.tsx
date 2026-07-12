@@ -35,15 +35,15 @@ const achievements = [
 
 const institutionalMous = [
   ...Array.from({ length: 7 }, (_, i) =>
-    `https://old.atme.edu.in/wp-content/uploads/2024/08/Institutional-MOUs-0${i + 1}.jpg`
+    `/images/uploads/2024/08/Institutional-MOUs-0${i + 1}.jpg`
   ),
-  "https://old.atme.edu.in/wp-content/uploads/2024/12/EDspire-Research.jpg",
-  "https://old.atme.edu.in/wp-content/uploads/2025/07/KARNATAKA-PROFESSIONAL-CIVIL.jpg",
+  "/images/uploads/2024/12/EDspire-Research.jpg",
+  "/images/uploads/2025/07/KARNATAKA-PROFESSIONAL-CIVIL.jpg",
 ];
 
 const departmentMous = Array.from({ length: 18 }, (_, i) => {
   const n = String(i + 1).padStart(2, "0");
-  return `https://old.atme.edu.in/wp-content/uploads/2024/08/Department-MoUs-${n}.jpg`;
+  return `/images/uploads/2024/08/Department-MoUs-${n}.jpg`;
 });
 
 export function AboutCollegeExtras() {

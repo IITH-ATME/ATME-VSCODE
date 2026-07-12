@@ -35,41 +35,40 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-// Source: old.atme.edu.in homepage (new.atme.edu.in now redirects and no
-// longer serves its own uploaded media, so those URLs 404).
+// Source: new.atme.edu.in homepage. Images downloaded locally to
+// public/images/home/ since new.atme.edu.in does not allow hotlinking.
 const accreditations = [
-  { src: "https://old.atme.edu.in/wp-content/uploads/2022/11/naac-banner.jpg", t: "NAAC A+ Accredited" },
-  { src: "https://old.atme.edu.in/wp-content/uploads/2025/10/NBA-Web-01.png",  t: "NBA Accredited" },
-  // TODO: no working AICTE logo image found on old.atme.edu.in or atme.edu.in at time of fix.
-  { src: "https://new.atme.edu.in/wp-content/uploads/2026/04/aicte.png",t: "AICTE Approved" },
-  { src: "https://old.atme.edu.in/wp-content/uploads/2025/09/Qs-Igauge-Web.png",  t: "QS I-GAUGE Rated" },
-  { src: "https://old.atme.edu.in/wp-content/uploads/2025/09/nabl-logo.jpg", t: "NABL Accredited" },
+  { src: "/images/home/naac.png", t: "NAAC A+ Accredited" },
+  { src: "/images/home/nba.png",  t: "NBA Accredited" },
+  { src: "/images/home/aicte.png",t: "AICTE Approved" },
+  { src: "/images/home/qsi.png",  t: "QS I-GAUGE Rated" },
+  { src: "/images/home/nabl.png", t: "NABL Accredited" },
 ];
 
 const ugCourses = [
-  { t: "Civil Engineering", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/civil.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "ce" },
-  { t: "Computer Science & Design", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CS-D.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Achievements...", slug: "csd" },
-  { t: "Computer Science and Engineering", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-1.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "cse" },
-  { t: "CSE — Artificial Intelligence & Machine Learning", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/cs-ai-ml.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Calendar...", slug: "aiml" },
-  { t: "CSE — Cyber Security", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-cyber-security.png", d: "ATME College of Engineering About the Department Learning Resourcses Staff Details Calendar...", slug: "cy" },
-  { t: "CSE — Data Science", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-data-science.png", d: "ATME College of Engineering About the Department Learning Resourcses Innovative Teaching Learning...", slug: "ds" },
-  { t: "Electrical & Electronics Engineering", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/EC.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resources...", slug: "eee" },
-  { t: "Electronics and Communication Engineering", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/EC-1.png", d: "ATME College of Engineering About the Department Infrastructure Learning Resourcses Staff Details...", slug: "ece" },
-  { t: "Mechanical Engineering", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/mechanical.png", d: "ATME College of Engineering About the Department Infrastructure Faculty Details Learning Resourcses...", slug: "me" },
-  { t: "Bachelor of Computer Applications (BCA)", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
+  { t: "Civil Engineering", img: "/images/home/civil.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "ce" },
+  { t: "Computer Science & Design", img: "/images/home/CS-D.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Achievements...", slug: "csd" },
+  { t: "Computer Science and Engineering", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "cse" },
+  { t: "CSE — Artificial Intelligence & Machine Learning", img: "/images/home/cs-ai-ml.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Calendar...", slug: "aiml" },
+  { t: "CSE — Cyber Security", img: "/images/home/CSE-cyber-security.png", d: "ATME College of Engineering About the Department Learning Resourcses Staff Details Calendar...", slug: "cy" },
+  { t: "CSE — Data Science", img: "/images/home/CSE-data-science.png", d: "ATME College of Engineering About the Department Learning Resourcses Innovative Teaching Learning...", slug: "ds" },
+  { t: "Electrical & Electronics Engineering", img: "/images/home/EC.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resources...", slug: "eee" },
+  { t: "Electronics and Communication Engineering", img: "/images/home/EC-1.png", d: "ATME College of Engineering About the Department Infrastructure Learning Resourcses Staff Details...", slug: "ece" },
+  { t: "Mechanical Engineering", img: "/images/home/mechanical.png", d: "ATME College of Engineering About the Department Infrastructure Faculty Details Learning Resourcses...", slug: "me" },
+  { t: "Bachelor of Computer Applications (BCA)", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
 ];
 const pgCourses = [
-  { t: "Master of Business Administration (MBA)", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/mechanical.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mba" },
-  { t: "Master of Computer Applications (MCA)", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
+  { t: "Master of Business Administration (MBA)", img: "/images/home/mechanical.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mba" },
+  { t: "Master of Computer Applications (MCA)", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
 ];
 
 type Level = "all" | "ug" | "pg";
 
 const events: { img: string; t: string; d: string; href: string; level: Exclude<Level, "all"> }[] = [
-  { level: "ug", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/atmeya-2026.png", t: "ATMEYA 2K26", d: "April 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/atmeya-2k26/" },
-  { level: "ug", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/grammer.png", t: "Importance of Grammar in Languages, Maths and Basic Rights..", d: "April 25, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/state-level-technical-fest-urja-2k26/" },
-  { level: "pg", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/world-environment-month-celebration.jpg", t: "World Environment Month Celebration", d: "March 12, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/pranotsava/" },
-  { level: "pg", img: "https://new.atme.edu.in/wp-content/uploads/2025/12/traffic-rules-1.jpg", t: "Report on Traffic Rules Awareness Program", d: "January 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/importance-of-grammar-in-languages-maths-and-basic-rights-of-the-citizens/" },
+  { level: "ug", img: "/images/home/atmeya-2026.png", t: "ATMEYA 2K26", d: "April 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/atmeya-2k26/" },
+  { level: "ug", img: "/images/home/grammer.png", t: "Importance of Grammar in Languages, Maths and Basic Rights..", d: "April 25, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/state-level-technical-fest-urja-2k26/" },
+  { level: "pg", img: "/images/home/world-environment-month-celebration.jpg", t: "World Environment Month Celebration", d: "March 12, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/pranotsava/" },
+  { level: "pg", img: "/images/home/traffic-rules-1.jpg", t: "Report on Traffic Rules Awareness Program", d: "January 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/importance-of-grammar-in-languages-maths-and-basic-rights-of-the-citizens/" },
 ];
 
 const notices: { t: string; d: string; level: Exclude<Level, "all"> }[] = [
@@ -84,37 +83,37 @@ const testimonials = [
   {
     n: "Suhas S",
     r: "CSE — Data Science · Associate Software Engineer, Light & Wonder",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/06/suhas-120x120.png",
+    img: "/images/uploads/2026/06/suhas-120x120.png",
     q: "I sincerely thank the Career Guidance and Placement Department at ATME for their continuous support and guidance throughout my placement journey. The training on aptitude, technical skills, mock interviews, communication, resume building and interview preparation greatly enhanced my confidence and helped me secure my placement at Light & Wonder.",
   },
   {
     n: "Spoorthi S H",
     r: "ECE",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/06/Spoorthi-S-H-120x120.jpg",
+    img: "/images/uploads/2026/06/Spoorthi-S-H-120x120.jpg",
     q: "The aptitude training, technical workshops, mock interviews and career guidance programs at ATME greatly improved my confidence, communication and technical skills. I truly appreciate the dedicated efforts of the placement team and faculty in helping me prepare and secure a placement opportunity.",
   },
   {
     n: "Abhilash Hebbar M. U.",
     r: "CSE",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/06/abhilash-120x120.jpg",
+    img: "/images/uploads/2026/06/abhilash-120x120.jpg",
     q: "The CGP Department has been a great support throughout my placement journey — encouraging students to participate in technical programs and career development activities. Their continuous support and motivation played an important role in my growth and success.",
   },
   {
     n: "Vedaswi PV",
     r: "ECE",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/01/VEDASWI-PV-.jpg",
+    img: "/images/uploads/2026/01/VEDASWI-PV-.jpg",
     q: "The relationship between faculty and students is cordial. Here, faculties make the college what it is today with a positive attitude — knowledgeable, approachable and readily available to students in their needs.",
   },
   {
     n: "Sara Simran",
     r: "ECE",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/01/Sara-Simran.jpg",
+    img: "/images/uploads/2026/01/Sara-Simran.jpg",
     q: "Quality of teaching is great and the faculty are reputed and understanding. The curriculum is in par with the latest trends in education and the faculty constantly improve with evolving practices. They are the spark that makes me study and stay ready for placements.",
   },
   {
     n: "Chingakham Romita Chanu",
     r: "ECE",
-    img: "https://old.atme.edu.in/wp-content/uploads/2026/01/Chingakham-Romita-Chanu.jpg",
+    img: "/images/uploads/2026/01/Chingakham-Romita-Chanu.jpg",
     q: "The teachers are great, enthusiastic and caring. They make sure students understand topics with real-world examples — the classes are interactive. They are concerned about students' careers and always go out of the way for those who need them.",
   },
 ];

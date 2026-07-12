@@ -478,7 +478,7 @@ Attender
   "rani-t": {
     name: "Mrs. Rani T",
     url: "https://old.atme.edu.in/mrs-rani-t/",
-    md: "![](https://old.atme.edu.in/wp-content/uploads/Mrs.-Rani-T.jpg)\n\n**FACULTY DETAILS** **Faculty Name : Mrs. Rani T** **Education Details**\n\n-   B.Sc\n-   M.Sc\n\n**Professional Experience** •12 years, Asst Professor, Dept of Physics , ATME College of Engineering. Current",
+    md: "![](/images/uploads/Mrs.-Rani-T.jpg)\n\n**FACULTY DETAILS** **Faculty Name : Mrs. Rani T** **Education Details**\n\n-   B.Sc\n-   M.Sc\n\n**Professional Experience** •12 years, Asst Professor, Dept of Physics , ATME College of Engineering. Current",
   },
   "dr-madhusudhana-r": {
     name: "Dr. Madhusudhana R",
@@ -573,7 +573,7 @@ Attender
   "nandeesha-k-n": {
     name: "Mr. Nandeesha K N",
     url: "https://old.atme.edu.in/mr-nandeesha-k-n/",
-    md: "<table><tbody><tr><td width=\"158\"><strong>Name of Teaching Staff</strong></td><td colspan=\"2\" width=\"368\">Mr. Nandeesha K N</td><td rowspan=\"5\" width=\"176\"><img decoding=\"async\" class=\"aligncenter size-full wp-image-24390\" src=\"https://old.atme.edu.in/wp-content/uploads/2022/12/Mr.-Nandeesha-K-N-2.jpg\" alt=\"\" width=\"150\" height=\"200\"></td></tr><tr><td width=\"158\"><strong>Designation</strong></td><td colspan=\"2\" width=\"368\">Attender</td></tr><tr><td width=\"158\"><strong>Department</strong></td><td colspan=\"2\" width=\"368\">Department of Mathematics&nbsp;</td></tr><tr><td width=\"158\"><strong>Date of Joining Institution</strong></td><td colspan=\"2\" width=\"368\">13/08/2012</td></tr><tr><td width=\"158\"><strong>E-mail / Mobile Number</strong></td><td width=\"237\">&nbsp;</td><td width=\"131\">9972847801</td></tr><tr><td width=\"158\"><strong>Qualification</strong></td><td colspan=\"3\" width=\"544\">SSLC</td></tr><tr><td width=\"158\"><strong>Total Experience in Years</strong></td><td colspan=\"3\" width=\"544\">23 Years</td></tr><tr><td width=\"158\"><strong>Present Address</strong></td><td colspan=\"3\" width=\"544\">#K N Nandeesha S/O Nataraju , Kothahatthi, Hale post office street, Mandya Taluk, Mandya District</td></tr></tbody></table>",
+    md: "<table><tbody><tr><td width=\"158\"><strong>Name of Teaching Staff</strong></td><td colspan=\"2\" width=\"368\">Mr. Nandeesha K N</td><td rowspan=\"5\" width=\"176\"><img decoding=\"async\" class=\"aligncenter size-full wp-image-24390\" src=\"/images/uploads/2022/12/Mr.-Nandeesha-K-N-2.jpg\" alt=\"\" width=\"150\" height=\"200\"></td></tr><tr><td width=\"158\"><strong>Designation</strong></td><td colspan=\"2\" width=\"368\">Attender</td></tr><tr><td width=\"158\"><strong>Department</strong></td><td colspan=\"2\" width=\"368\">Department of Mathematics&nbsp;</td></tr><tr><td width=\"158\"><strong>Date of Joining Institution</strong></td><td colspan=\"2\" width=\"368\">13/08/2012</td></tr><tr><td width=\"158\"><strong>E-mail / Mobile Number</strong></td><td width=\"237\">&nbsp;</td><td width=\"131\">9972847801</td></tr><tr><td width=\"158\"><strong>Qualification</strong></td><td colspan=\"3\" width=\"544\">SSLC</td></tr><tr><td width=\"158\"><strong>Total Experience in Years</strong></td><td colspan=\"3\" width=\"544\">23 Years</td></tr><tr><td width=\"158\"><strong>Present Address</strong></td><td colspan=\"3\" width=\"544\">#K N Nandeesha S/O Nataraju , Kothahatthi, Hale post office street, Mandya Taluk, Mandya District</td></tr></tbody></table>",
   },
   "chandrashekhar-c": {
     name: "Mr. Chandrashekhar C",

@@ -806,7 +806,7 @@ function RehostedPage() {
                           "pg5-1024x1024.jpeg","pg6-1024x1024.jpeg","pg7-1024x1024.jpeg","pg8-1024x1024.jpeg",
                           "pg9-1024x1024.jpeg","pg10-1024x1024.jpeg","pg11-1024x1024.jpeg",
                         ].map((f, i) => {
-                          const url = `https://new.atme.edu.in/wp-content/uploads/2026/04/${f}`;
+                          const url = `/images/uploads/2026/04/${f}`;
                           return (
                             <a
                               key={f}
@@ -852,11 +852,50 @@ function RehostedPage() {
                   </div>
                 )}
                 {(() => {
-                  // Dean Student Affairs: dedicated two-column card + message
-                  // layout so the profile card stays on the left and the welcome
-                  // message flows on the right.
-                  if (key === "atme-research/dean-student-affairs") {
+                  // Deans (Student Affairs / Research / Academics): dedicated
+                  // two-column card + message layout so the profile card
+                  // stays on the left (linking to the dean's full profile)
+                  // and the welcome message flows on the right.
+                  const DEAN_CARDS: Record<string, { image: string; name: string; designation: string; profileHref: string }> = {
+                    "atme-research/dean-student-affairs": {
+                      image: "/images/uploads/2023/12/Srinivasa-1.jpg",
+                      name: "Dr. Srinivasa K",
+                      designation: "Professor & Dean Student Affairs",
+                      profileHref: "/p/dr-srinivasa-k",
+                    },
+                    "atme-research/dean-research-message": {
+                      image: "/__l5e/assets-v1/112ca0fe-7fe2-49bb-9dd0-66a47e6bb9a4/Dr-Bhagyashree-SR-Dean-Research.jpg",
+                      name: "Dr. Bhagyashree S R",
+                      designation: "Dean, Research",
+                      profileHref: "/p/dr-s-r-bhagyashree",
+                    },
+                    "dean-academics": {
+                      image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
+                      name: "Dr. Nalini Elizabeth Rebello",
+                      designation: "Dean, Academics",
+                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                    },
+                    "about-us/dean-academics": {
+                      image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
+                      name: "Dr. Nalini Elizabeth Rebello",
+                      designation: "Dean, Academics",
+                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                    },
+                    "atme-research/dean-academics": {
+                      image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
+                      name: "Dr. Nalini Elizabeth Rebello",
+                      designation: "Dean, Academics",
+                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                    },
+                  };
+                  const deanCard = DEAN_CARDS[key];
+                  if (deanCard) {
                     const deanComponents = {
+                      h1: ({ children }: any) => (
+                        <h2 className="text-2xl font-bold mt-2 mb-4 pb-2 border-b-2 border-[#129199]/30 text-[#129199] font-display">
+                          {children}
+                        </h2>
+                      ),
                       h2: ({ children }: any) => (
                         <h2 className="text-2xl font-bold mt-2 mb-4 pb-2 border-b-2 border-[#129199]/30 text-[#129199] font-display">
                           {children}
@@ -865,6 +904,10 @@ function RehostedPage() {
                       p: ({ children }: any) => (
                         <p className="mb-5 leading-relaxed">{children}</p>
                       ),
+                      // The dean's photo is already rendered in the card on
+                      // the left — drop any inline image the markdown body
+                      // carries so it doesn't render a second time.
+                      img: () => null,
                     };
                     return (
                       <div className="grid gap-8 md:grid-cols-[300px_1fr] md:items-start">
@@ -872,17 +915,17 @@ function RehostedPage() {
                           <div className="rounded-2xl border-2 border-amber-400/70 bg-card p-3 shadow-lg">
                             <div className="overflow-hidden rounded-xl bg-white">
                               <img
-                                src="https://old.atme.edu.in/wp-content/uploads/2023/12/Srinivasa-1.jpg"
-                                alt="Dr. Srinivasa K"
+                                src={resolveAssetUrl(deanCard.image)}
+                                alt={deanCard.name}
                                 className="block w-full h-auto"
                                 loading="lazy"
                               />
                             </div>
                             <div className="px-2 pt-4 pb-2">
-                              <div className="font-bold text-lg leading-tight">Dr. Srinivasa K</div>
-                              <div className="text-muted-foreground leading-snug mt-1">Professor &amp; Dean Student Affairs</div>
+                              <div className="font-bold text-lg leading-tight">{deanCard.name}</div>
+                              <div className="text-muted-foreground leading-snug mt-1">{deanCard.designation}</div>
                               <div className="mt-6">
-                                <a href="/p/dr-srinivasa-k" className="text-primary font-medium hover:underline">View Profile →</a>
+                                <a href={deanCard.profileHref} className="text-primary font-medium hover:underline">View Profile →</a>
                               </div>
                             </div>
                           </div>
@@ -1391,7 +1434,7 @@ function RehostedPage() {
                               const imageBlock = (
                                 <figure className="m-0 mx-auto md:mx-0 w-full max-w-[320px] lg:max-w-[380px]">
                                   <img
-                                    src={profile.imageSrc}
+                                    src={resolveAssetUrl(profile.imageSrc)}
                                     alt={profile.imageAlt}
                                     loading="lazy"
                                     className="block w-full h-auto rounded-lg border border-[#f5c518] bg-white object-contain shadow-md"
@@ -1724,7 +1767,7 @@ function RehostedPage() {
                       <div className="grid gap-6 sm:gap-8 sm:grid-cols-[200px_1fr] md:grid-cols-[240px_1fr] lg:grid-cols-[280px_1fr] items-start">
                         <figure className="m-0 mx-auto sm:mx-0 max-w-[240px] sm:max-w-none w-full sm:sticky sm:top-24 self-start">
                           <img
-                            src={portrait[2]}
+                            src={resolveAssetUrl(portrait[2])}
                             alt={portrait[1] || page.title}
                             loading="eager"
                             className="w-full h-auto max-h-[360px] rounded-xl border border-[#f5c518] shadow-md bg-white object-contain"

@@ -19,14 +19,14 @@ export const Route = createFileRoute("/placements")({
 });
 
 const placed = [
-  { n: "Vishwas",                d: "CSE - Design", c: "TE Connectivity",        p: "9.1 LPA",  img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.47.19-PM-228x300.png" },
-  { n: "Suhas S",                d: "CSE - DS",     c: "Light & Wonder",         p: "8.5 LPA",  img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.47.37-PM-256x300.png" },
-  { n: "Mohammed Shoaib",        d: "CSE - AIML",   c: "EPAM Systems",           p: "8.48 LPA", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.48.33-PM-270x300.png" },
-  { n: "Varsha S",               d: "EEE",          c: "Skit.ai",                p: "8 LPA",    img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.47.50-PM-300x243.png" },
-  { n: "Rahul Prakash H P",      d: "CSE - Design", c: "TCS",                    p: "7.09 LPA", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.49.05-PM-272x300.png" },
-  { n: "Nikhil Kumar Purohit",   d: "CSE",          c: "TCS",                    p: "7.09 LPA", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.48.46-PM-298x300.png" },
-  { n: "Charitha Deepak",        d: "CSE - DS",     c: "Capillary Technologies", p: "6 LPA",    img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.48.21-PM-300x270.png" },
-  { n: "Shivashankara Murthy M", d: "CSE",          c: "TCS",                    p: "7.09 LPA", img: "https://new.atme.edu.in/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-4.48.57-PM-264x300.png" },
+  { n: "Vishwas",                d: "CSE - Design", c: "TE Connectivity",        p: "9.1 LPA",  img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.47.19-PM-228x300.png" },
+  { n: "Suhas S",                d: "CSE - DS",     c: "Light & Wonder",         p: "8.5 LPA",  img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.47.37-PM-256x300.png" },
+  { n: "Mohammed Shoaib",        d: "CSE - AIML",   c: "EPAM Systems",           p: "8.48 LPA", img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.48.33-PM-270x300.png" },
+  { n: "Varsha S",               d: "EEE",          c: "Skit.ai",                p: "8 LPA",    img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.47.50-PM-300x243.png" },
+  { n: "Rahul Prakash H P",      d: "CSE - Design", c: "TCS",                    p: "7.09 LPA", img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.49.05-PM-272x300.png" },
+  { n: "Nikhil Kumar Purohit",   d: "CSE",          c: "TCS",                    p: "7.09 LPA", img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.48.46-PM-298x300.png" },
+  { n: "Charitha Deepak",        d: "CSE - DS",     c: "Capillary Technologies", p: "6 LPA",    img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.48.21-PM-300x270.png" },
+  { n: "Shivashankara Murthy M", d: "CSE",          c: "TCS",                    p: "7.09 LPA", img: "/images/uploads/2026/04/Screenshot-2026-04-23-at-4.48.57-PM-264x300.png" },
 ];
 
 const stats = [

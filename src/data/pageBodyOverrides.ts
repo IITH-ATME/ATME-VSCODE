@@ -1528,7 +1528,7 @@ The official Government of Karnataka approval letter for ATME College of Enginee
 const chairmansMessageBody = `
 # Chairman's Message
 
-![Sri. L Arun Kumar — Hon'ble Chairman, ATME College of Engineering](https://new.atme.edu.in/wp-content/uploads/2026/04/chairman-sir-400x600-01.jpg)
+![Sri. L Arun Kumar — Hon'ble Chairman, ATME College of Engineering](/images/uploads/2026/04/chairman-sir-400x600-01.jpg)
 
 Dear Students & Parents,
 
@@ -1548,7 +1548,7 @@ On behalf of the staff and management, I invite you to visit our magnificent cam
 const aboutPrincipalBody = `
 # About the Principal
 
-<div class="flex justify-center my-6"><img src="https://new.atme.edu.in/wp-content/uploads/2026/04/principal-sir-400x600-1.jpg" alt="Dr. L. Basavaraj — Principal, ATME College of Engineering" class="rounded-lg shadow-md" style="max-width:360px;width:100%;height:auto;" /></div>
+<div class="flex justify-center my-6"><img src="/images/uploads/2026/04/principal-sir-400x600-1.jpg" alt="Dr. L. Basavaraj — Principal, ATME College of Engineering" class="rounded-lg shadow-md" style="max-width:360px;width:100%;height:auto;" /></div>
 
 <div class="max-w-3xl mx-auto space-y-4 text-left">
 
@@ -1576,7 +1576,7 @@ He served as an **academic senate member of VTU from 2019 to 2022** and is a lif
 const principalMessageBody = `
 # Principal's Message
 
-![Dr. L. Basavaraj — Principal, ATME College of Engineering](https://new.atme.edu.in/wp-content/uploads/2026/04/principal-sir-400x600-1.jpg)
+![Dr. L. Basavaraj — Principal, ATME College of Engineering](/images/uploads/2026/04/principal-sir-400x600-1.jpg)
 
 It is my great pleasure to welcome you all to ATME College of Engineering. It is not enough if we produce engineers year after year, like a machine — the challenge lies in moulding students with an engineering degree who are capable of building the future nation. ATME gives more emphasis to the overall moulding of every student through quality education and in-plant training, right from the initial stages.
 
@@ -1907,15 +1907,15 @@ const placementStatisticsBody = `
 
 ## Placement Highlights
 
-![Placed Students](https://new.atme.edu.in/wp-content/uploads/2026/04/p1.png)
+![Placed Students](/images/uploads/2026/04/p1.png)
 
-![CTC Range](https://new.atme.edu.in/wp-content/uploads/2026/04/p2-1024x212.png)
+![CTC Range](/images/uploads/2026/04/p2-1024x212.png)
 
 ## CTCs Offered
 
-![](https://new.atme.edu.in/wp-content/uploads/2026/04/p3.png)
+![](/images/uploads/2026/04/p3.png)
 
-![](https://new.atme.edu.in/wp-content/uploads/2026/04/p4-1024x235.png)
+![](/images/uploads/2026/04/p4-1024x235.png)
 
 `;
 
@@ -2546,7 +2546,7 @@ mini-projects and elective schedules.
 const aimsBody = `
 # A-IMS
 
-![A-IMS](https://new.atme.edu.in/wp-content/uploads/2026/04/admin-ajax.png)
+![A-IMS](/images/uploads/2026/04/admin-ajax.png)
 
 ATME College of Engineering uses the **A-IMS** platform — a fully integrated, web-and-mobile end-to-end solution for the complete management of the college. The platform integrates every activity so that data is shared in real time between all stakeholders.
 

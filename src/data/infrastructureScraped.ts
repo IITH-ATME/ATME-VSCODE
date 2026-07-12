@@ -257,27 +257,27 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ],
     "images": [
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/CS-01-1200x600.jpg",
+        "url": "/images/uploads/2022/12/CS-01-1200x600.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2026/01/lab_image_1.jpg",
+        "url": "/images/uploads/2026/01/lab_image_1.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2026/01/lab_image_2.jpg",
+        "url": "/images/uploads/2026/01/lab_image_2.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2026/01/lab_image_3.jpg",
+        "url": "/images/uploads/2026/01/lab_image_3.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2026/01/lab_image_4.jpg",
+        "url": "/images/uploads/2026/01/lab_image_4.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2026/01/lab_image_5.jpg",
+        "url": "/images/uploads/2026/01/lab_image_5.jpg",
         "alt": ""
       }
     ]
@@ -383,47 +383,47 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ],
     "images": [
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/EC-03-1200x600.jpg",
+        "url": "/images/uploads/2022/12/EC-03-1200x600.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Analog-and-Digital-Systems-Design-Laboratory_-300x225.jpg",
+        "url": "/images/uploads/2025/08/Analog-and-Digital-Systems-Design-Laboratory_-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Communication-Laboratory-300x169.jpg",
+        "url": "/images/uploads/2025/08/Communication-Laboratory-300x169.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Control-Systems-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Control-Systems-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Digital-System-Design-using-Verilog-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Digital-System-Design-using-Verilog-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Electronic-Principles-and-Circuits-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Electronic-Principles-and-Circuits-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Principles-of-Communication-Systems-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Principles-of-Communication-Systems-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Digital-Signal-Processing-%E2%80%93-Lab-Component-IPCC-300x169.jpg",
+        "url": "/images/uploads/2025/08/Digital-Signal-Processing-–-Lab-Component-IPCC-300x169.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Digital-Communication-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Digital-Communication-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/Embedded-System-Design-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/Embedded-System-Design-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/08/VLSI-Design-and-Testing-%E2%80%93-Lab-Component-IPCC-300x225.jpg",
+        "url": "/images/uploads/2025/08/VLSI-Design-and-Testing-–-Lab-Component-IPCC-300x225.jpg",
         "alt": ""
       }
     ]
@@ -567,63 +567,63 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ],
     "images": [
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/1-scaled-1000x500.jpg",
+        "url": "/images/uploads/2025/07/1-scaled-1000x500.jpg",
         "alt": "1"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/2-scaled-1000x500.jpg",
+        "url": "/images/uploads/2025/07/2-scaled-1000x500.jpg",
         "alt": "2"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/3-scaled-1000x500.jpeg",
+        "url": "/images/uploads/2025/07/3-scaled-1000x500.jpeg",
         "alt": "3"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/4-scaled-1000x500.jpg",
+        "url": "/images/uploads/2025/07/4-scaled-1000x500.jpg",
         "alt": "4"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/eeelib-1024x593.jpg",
+        "url": "/images/uploads/2025/07/eeelib-1024x593.jpg",
         "alt": ""
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/trans-450x350.jpg",
+        "url": "/images/uploads/2025/07/trans-450x350.jpg",
         "alt": "trans"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/electric-circuit-450x350.jpg",
+        "url": "/images/uploads/2025/07/electric-circuit-450x350.jpg",
         "alt": "electric circuit"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/analog-electric-circuit-450x350.jpg",
+        "url": "/images/uploads/2025/07/analog-electric-circuit-450x350.jpg",
         "alt": "analog electric circuit"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/electrical-hardware-450x350.jpg",
+        "url": "/images/uploads/2025/07/electrical-hardware-450x350.jpg",
         "alt": "electrical hardware"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/power-450x350.jpg",
+        "url": "/images/uploads/2025/07/power-450x350.jpg",
         "alt": "power"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/mcs-450x350.jpg",
+        "url": "/images/uploads/2025/07/mcs-450x350.jpg",
         "alt": "mcs"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/sci-matlab-450x350.jpg",
+        "url": "/images/uploads/2025/07/sci-matlab-450x350.jpg",
         "alt": "sci-matlab"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/motors-450x350.jpg",
+        "url": "/images/uploads/2025/07/motors-450x350.jpg",
         "alt": "motors"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/control-system-450x350.jpg",
+        "url": "/images/uploads/2025/07/control-system-450x350.jpg",
         "alt": "control system"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/07/relay-450x350.jpg",
+        "url": "/images/uploads/2025/07/relay-450x350.jpg",
         "alt": "relay"
       }
     ]
@@ -732,7 +732,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
     "images": [
       { "url": "https://old.atme.edu.in/wp-content/uploads/2021/09/19.jpg", "alt": "Mechanical Engineering Workshop" },
       { "url": "https://old.atme.edu.in/wp-content/uploads/2021/09/20.jpg", "alt": "Mechanical Engineering Laboratory" },
-      { "url": "https://old.atme.edu.in/wp-content/uploads/2022/12/ME-05.jpg", "alt": "Mechanical Engineering Facility" }
+      { "url": "/images/uploads/2022/12/ME-05.jpg", "alt": "Mechanical Engineering Facility" }
     ]
   },
   "ce": {
@@ -857,11 +857,11 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ],
     "images": [
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/12/1.png",
+        "url": "/images/uploads/2025/12/1.png",
         "alt": "MCA Laboratory"
       },
       {
-        "url": "https://old.atme.edu.in/wp-content/uploads/2025/12/2.png",
+        "url": "/images/uploads/2025/12/2.png",
         "alt": "MCA Seminar Hall"
       }
     ]

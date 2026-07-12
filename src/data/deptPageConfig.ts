@@ -110,6 +110,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "cseds-resources", label: "Resources" },
   ],
   cy: [
+    { key: "about-the-department", label: "About" },
     { key: "cyber-security-profiles", label: "Faculty" },
     { key: "cyber-security-resources", label: "Resources" },
   ],
@@ -123,12 +124,14 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "bca-resources", label: "Resources" },
   ],
   mca: [
+    { key: "about-the-department", label: "About" },
     { key: "mca-facultyprofiles", label: "Faculty" },
     { key: "mca-infrastructure", label: "Infrastructure" },
     { key: "mca-resources", label: "Resources" },
 
   ],
   mba: [
+    { key: "about-the-department", label: "About" },
     { key: "mba-faculty-profile", label: "Faculty" },
     { key: "co-curricular-extracurricular-activities-mba", label: "Activities" },
     { key: "resources-mba", label: "Resources" },

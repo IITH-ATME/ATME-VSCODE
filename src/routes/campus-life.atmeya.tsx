@@ -29,7 +29,7 @@ export const Route = createFileRoute("/campus-life/atmeya")({
       {
         property: "og:image",
         content:
-          "https://old.atme.edu.in/wp-content/uploads/2026/02/rsz_1untitled_design.jpg",
+          "/images/uploads/2026/02/rsz_1untitled_design.jpg",
       },
     ],
   }),
@@ -40,8 +40,8 @@ import atmeyaCollageResized from "@/assets/rsz_atmeya_2k26_16x9_collage.jpg.asse
 
 const SLIDES = [
   resolveAssetUrl(atmeyaCollageResized.url),
-  "https://old.atme.edu.in/wp-content/uploads/2026/02/rsz_1untitled_design.jpg",
-  "https://old.atme.edu.in/wp-content/uploads/2024/06/Home-page-banner-012.jpg",
+  "/images/uploads/2026/02/rsz_1untitled_design.jpg",
+  "/images/uploads/2024/06/Home-page-banner-012.jpg",
 ];
 
 function BannerSlider() {
