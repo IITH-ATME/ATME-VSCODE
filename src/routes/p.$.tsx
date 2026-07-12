@@ -861,31 +861,31 @@ function RehostedPage() {
                       image: "/images/uploads/2023/12/Srinivasa-1.jpg",
                       name: "Dr. Srinivasa K",
                       designation: "Professor & Dean Student Affairs",
-                      profileHref: "/p/dr-srinivasa-k",
+                      profileHref: "/departments/me/faculty/dr-srinivasa-k",
                     },
                     "atme-research/dean-research-message": {
                       image: "/__l5e/assets-v1/112ca0fe-7fe2-49bb-9dd0-66a47e6bb9a4/Dr-Bhagyashree-SR-Dean-Research.jpg",
                       name: "Dr. Bhagyashree S R",
                       designation: "Dean, Research",
-                      profileHref: "/p/dr-s-r-bhagyashree",
+                      profileHref: "/departments/ece/faculty/dr-s-r-bhagyashree",
                     },
                     "dean-academics": {
                       image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
                       name: "Dr. Nalini Elizabeth Rebello",
                       designation: "Dean, Academics",
-                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                      profileHref: "/departments/ce/faculty/dr-nalini-elizabeth-rebello",
                     },
                     "about-us/dean-academics": {
                       image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
                       name: "Dr. Nalini Elizabeth Rebello",
                       designation: "Dean, Academics",
-                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                      profileHref: "/departments/ce/faculty/dr-nalini-elizabeth-rebello",
                     },
                     "atme-research/dean-academics": {
                       image: "/__l5e/assets-v1/4f231910-afcb-45e2-a121-4ae866bf320b/Dr-Nalini-Elizabeth-Rebello.jpg",
                       name: "Dr. Nalini Elizabeth Rebello",
                       designation: "Dean, Academics",
-                      profileHref: "/p/dr-nalini-elizabeth-rebello",
+                      profileHref: "/departments/ce/faculty/dr-nalini-elizabeth-rebello",
                     },
                   };
                   const deanCard = DEAN_CARDS[key];
