@@ -69,6 +69,7 @@ export const FULL_MENU_DEPTS = new Set<string>([
  */
 export const DEPT_EXCLUDED_SECTIONS: Record<string, Set<string>> = {
   ce: new Set(["magazine", "innovative-teaching"]),
+  mba: new Set(["infrastructure", "innovative-teaching"]),
 };
 
 export type ResolvedSection = {

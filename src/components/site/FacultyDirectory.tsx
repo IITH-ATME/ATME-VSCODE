@@ -287,22 +287,24 @@ export function FacultyDirectory({
                             const stripPursuing = (s: string) => s.replace(/\bpursuing\b[^,|]*/gi, "");
                             const items = parseQualificationList(f.qualification).filter((it) => !/^pursuing\b/i.test(it));
                             const blob = stripPursuing(items.join(" , ") + " " + (f.qualification || ""));
+                            // Ordered lowest-degree-first (e.g. BE, MTech, PhD) regardless of
+                            // the order tokens appear in the source qualification string.
                             const DEGREES: { re: RegExp; label: string }[] = [
-                              { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
-                              { re: /\bM[\.\-\s]*Tech\b/i, label: "MTech" },
+                              { re: /\bDiploma\b/i, label: "Diploma" },
                               { re: /\bB[\.\-\s]*Tech\b/i, label: "BTech" },
-                              { re: /\bM\.?\s*E\b/, label: "ME" },
                               { re: /\bB\.?\s*E\b/, label: "BE" },
-                              { re: /\bM\.?\s*Sc\b/i, label: "MSc" },
                               { re: /\bB\.?\s*Sc\b/i, label: "BSc" },
-                              { re: /\bMCA\b/i, label: "MCA" },
                               { re: /\bBCA\b/i, label: "BCA" },
-                              { re: /\bMBA\b/i, label: "MBA" },
                               { re: /\bBBA\b/i, label: "BBA" },
+                              { re: /\bB\.?\s*A\b/, label: "BA" },
+                              { re: /\bM[\.\-\s]*Tech\b/i, label: "MTech" },
+                              { re: /\bM\.?\s*E\b/, label: "ME" },
+                              { re: /\bM\.?\s*Sc\b/i, label: "MSc" },
+                              { re: /\bMCA\b/i, label: "MCA" },
+                              { re: /\bMBA\b/i, label: "MBA" },
                               { re: /\bM\.?\s*Phil\b/i, label: "MPhil" },
                               { re: /\bM\.?\s*A\b/, label: "MA" },
-                              { re: /\bB\.?\s*A\b/, label: "BA" },
-                              { re: /\bDiploma\b/i, label: "Diploma" },
+                              { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
                             ];
                             const found: string[] = [];
                             for (const d of DEGREES) {

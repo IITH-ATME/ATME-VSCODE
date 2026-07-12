@@ -498,7 +498,7 @@ Attender
   "dr-avinash-k": {
     name: "Dr. Avinash K",
     url: "https://old.atme.edu.in/dr-avinash-k/",
-    md: "## Contact Details\n\n- **Official Email**: [dr.avinashk\\_che@old.atme.edu.in](mailto:dr.avinashk_che@old.atme.edu.in)\n- **Personal Email**: [avinashkchemistry@yahoo.in](mailto:avinashkchemistry@yahoo.in)\n- **Vidwan ID**: <https://vidwan.inflibnet.ac.in/profile/201626>\n- **Google Scholar**: <https://scholar.google.co.in/citations?user=pe8yEdkAAAAJ>\n- **Scopus ID**: <http://www.scopus.com/authid/detail.url?authorId=37033342500>\n- **ORCID**: <http://www.orcid.org/0000-0001-8361-7660>\n- **LinkedIn**: <https://www.linkedin.com/in/dr-avinash-k-474920a8/>\n\n## Academic Details\n\n- Ph.D in Analytical Chemistry\n- M.Sc in Chemistry\n- B.Sc in Physics, Chemistry, and Mathematics\n\n## Areas of Interest\n\n- Material Science, Nanomaterials\n- Synthesis & Characterisation, Bacteria culture, Energy storage devices.\n\n## Publication Details\n\n1. **Evaluation of peroxidase mimicking behaviour of V2O5 nanozymes with various morphologies and its application as glucose sensor via cascade mechanism in human serum samples.** NY Gangadhara, B Manju, PK Kumar, H Krishna, A Shivakumar, Biochemical and Biophysical Research Communications 762, 151758\n2. **Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies**. RH Sadashivanna, H Krishna, A Shivakumar, NY Gangadhara, Nano-Structures & Nano-Objects 40, 101340. (2023)\n3. **A simple uric acid assay by using 3‐hydroxytyramine as a chromogenic colorimetric sensor in human serum samples: Density functional theory supported mechanistic approach.** H Krishna, A Krishnegowda, S Anantharaman, KS Ashwinee, . Journal of the Chinese Chemical Society 70 (4), 894-908 (2023)\n4. **Experimental Study on Strength and Durability Characteristics of Mortars with TiO2 Nanoparticles.** Srivathsa, H.U., Prakash, T.M., Puneeth, K., . Lecture Notes in Civil Engineering, 2024, 459, pp. 85–95.\n5. **An Account of the Influence of TMDC Anodic Materials on Li/Na-ion Battery Capacity**. R Ravikumar, ML KS, A Krishnegowda . Grenze International Journal of Engineering & Technology (GIJET) 9 (1) (2023).\n6. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as Antibacterial Agents**. KKP Kumar, A Krishnegowda.Grenze International Journal of Engineering & Technology (GIJET) 9 (1)\n7. **Evaluation of Strong Microwave Absorption Property of PVB-PEDOT:PSS-Ti3C2Tx MXene Nanocomposite With Materials Data-Driven Discovery**. Praveen Kumar, M., Raga, S., Chetana, S., ... Dey, A., Rangappa, D. Transactions on Electrical and Electronic Materials, 2023, 24(3), pp. 235–241.\n8. **Spectrophotometric determination of glucose in human serum samples using para‐phenylenediamine and alpha‐naphthol as a chromogenic reagent** S Besagarhally Shivappa, A Krishnegowda. International Journal of Chemical Kinetics 2022, 54 (12), 681-691.\n9. **EVALUATION OF THE ANTI-FUNGAL EFFICACY OF SILVER-DOPED NANOPARTICLES WITH METAL OXIDE NANOPARTICLES** P Malathi, K Avinash\n10. Ann. For. Res 65 (1), 5263-5271\n11. **A quantitative method for the detection and validation of catalase activity at physiological concentration in human serum, plasma and erythrocytes**. Krishna, H., Avinash, K., Shivakumar, A., Al-tayar, N.G.S., Shrestha, A.K. Spectrochimica Acta\n- Part A: Molecular and Biomolecular Spectroscopy, 2021, 251, 119358\n12. Synthesis and Characterization **of AgO and Co doped AgO nanocomposites by Green Facilitated Route for Antibacterial activity against E. Fecalis.** Malathi P, Dr Kirankumar P, Dr Avinash K article International Journal of All Research Education & Scientific Methods, Volume 10, Year 2022.\n13. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as 61-66 Antibacterial Agents,** Malathi Pujar, Kiran Kumar Prem kumar and Avinash Krishnegowda, conference proceedings ICRTST-2022, Year 2022, Pages 61-66\n14. **Analytical Determination of Hemoglobin by Spectrophotometric Method,** Ravishankar H Sadashivanna B S, Avinash Krishnegowda, Kiran Kumar.\n15. **\"Recent trends in green synthesis of ZnO nanomaterials using plant extracts\"**. Malathi Pujar, **Kiran Kumar Prem Kumar**\\* Dr. Avinash K\\* Department of Chemistry, ATME College of Engineering, Mysuru, Karnataka India: Corresponding authors; kiran.pbs@gmail.com, avinashkchemistry@gmail.com. INTERNATIONAL CONFERENCE ON RECENT TRENDS IN SCIENCE & TECHNOLOGY (ICRTST\n- 2021) ISBN: 978-93-5473-932-3.\n16. K. Ashwini, C. Pandurangappa and K. Avinash, Morphological change based Optical studies of Zinc sulphide Nanophosphor. Materials today chemistry, Volume 4, Issue 11, Part 3, 2017, Pages 12157-12167\n17. Avinash K, Nagaraja P, Shivakumar A, Krishna Honnur, Spectrophotometric assay of creatinine in human serum sample,  Arabian J Chem., 2013.(IF 2.684)\n18. P. Nagaraja, K. Avinash, A. Shivakumar, R. Dinesh, A. K. Shrestha, “Simple and Sensitive Method for the Quantification of Total Bilirubin in Human Serum using 3-methyl-2-benzothiazolinone hydrazone hydrochloride as a Chromogenic Probe”, SpectrochimicaActa Part A: Molecular and BiomolecularSpectroscopy, 77, 2010, 782-786. (IF 2.129)\n19. P. Nagaraj, N. Aradhana, A. Shivakumar, A. K. Shrestha, Avinash K Gowda “Spectrophotometric method for the determination of chromium (VI) in water  samples”, Environmental Monitoring and Assessment, 157, (1-4)2008, 575-582.(IF 1.679)\n20. P. Nagaraja\\*, N. GhallabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta and A. K. Gowda, “Spectrophotometric Determination of the Trace Amount of Thallium in Water and Urine Samples by Novel Oxidative Coupling Reaction”, E. J. Chem, 6, 2009, 1153 – 1163\n21. P. Nagaraja, NaefGhllabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta, K. Avinash, “Rapid and Sensitive Spectrophotometric Method for the Determination of the Trace Amount of Thallium (III) in Water and Urine Samples by New Oxidative Coupling Reaction”, J. Mex. Chem. Soc. 53, (4),2009,201-208.(IF 0.28)\n22. P. Nagaraja, N. G. S. Al-Tayar, A. Shivakumar, A. K. Shrestha, A. K. Gowda, A simple and sensitive spectrophotometric method for the determination of trace amounts of nitrite in environmental and biological samples using 4-amino-5-hydroxynaphthalene-2,7-disulphonic acid monosodium salt, Spectrochim. Acta A: Mol. Biomol. Spectrosc. 75,2010, 1411-1416\n23. 8.P. Nagaraja, A. Shivakumar, N. Aradhana, and A. K. Gowda, “Kinetic Study of    Peroxidase-Catalyzed Coupling of Benzene-1,4-diamine and N-(2-Aminoethyl)naphthalene-1-amine: Development of MicromolarHydrogenperoxide Reaction System”, Helv. Chim. Acta,  93, (6),2010, 1227 – 1237.(IF 1.383)\n24. P. Nagaraja, A. K. Shrestha, A. Shivakumar, K. Avinash, “Spectrophotometric determination of chloroquine, pyrimethamine, and trimethoprim by ion pair extraction in pharmaceutical formulation and urine”, Journal of Food and Drug Analysis, 18,2010, 239-248.(IF 0.249)\n25. P. Nagaraja, A. K. Shrestha A. Shivakumar, K. Avinash, Use of N,N-diethyl-p-phenylenediaminesulphate for the spectrophotometric determination of some phenolic and amine drugs, Acta Pharm. 60,2010, 217–227.(IF 1.025)\n26. A. Shivakumara, P. Nagaraja, N. A. Chamaraja, Honnur Krishna, K. Avinash, Determination of catalase activity using chromogenic probe involving iso-nicotinicacidhydrazide and pyrocatechol, J Bio. Tech., 155, 2011, 406–\n411. (IF 2.884)\n27. P. Nagaraja, A. Suma, N. Aradhana, A. Shivakumar, K. Avinash, Honnur Krishna, Quantification of Antioxidants in Medicinal Plants and Foodstuffs Using Ce(IV) with Indigo Carmine as Chromogenic Probe, Food anal. Methods, 5, 2102, 909 – 919.(IF 1.802)\n28. P. Nagaraja, K. Avinash, A. Shivakumar, Honnur Krishna, Quantification of creatinine in biological samples based on the pseudoenzyme activity of copper–creatinine complex, Spectrochimicaacta Part A, 92, 2012, 318 – 324.(IF 2.129)\n29. Honnur Krishna, P. Nagaraja, A. Shivakumar, K. Avinash, Vasanthkumar L, Hydroxylation of 4-Amino-5-hydroxynaphthalene-2,7-disulfonic Acid Monosodium Salt Catalysed by Horseradish Peroxidase and Hydrogen Peroxide: Computation of kinetic parameters including its application to crude plant extracts, J Chinese Chem. Soc., 60, 2013, 452 – 459.(IF 0.856)\n\n## Membership in Professional Bodies\n\n- KSCST\n- EEE\n- ISC\n\n## Honours/Awards/Achievements\n\n- Guiding five students for their Doctoral degree under VTU.\n- Organized one day national level workshop on IPR for Diffusion of technology in collaboration with NRDC.\n- Organized special talk on Nanotechnology by Dr. Dinesh Rangappa, Chairman, VTU Nanotechnology Dept, Bangalore.\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Presented Research article “Synthesis and Characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial activity against E.Coli”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n2. Presented Research article “Fe3O4 Nanoparticles as Nanozymefor the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n3. 3 Days face-to-face FDP on the theme “ Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023\n4. Presented Research article “An accont of influenceof TMDCs for anodic materialsof Li/Na-ion battery capacity”\n- ICRTST\n- 2022 , 9(1):777-786\n5. One Week Online Teachers Training Program on “An Overview of Teaching in Scientific Foundations of Health”\n- AICTE-VTU Joint Training Programme for Teachers– 20th – 24th December 2021\n6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian For Experimental Physicists and Chemists – Alva’s Institute of Engineering & Technology – 25th – 29th Oct 2021\n7. Presented Research article **“*Analytical Determination of Hemoglobin By Spectrophotometric Method”*** Authors: Ravishankar H Sadashivanna, Dr. Avinash Krishnegowda, **Dr. Kiran Kumar P**, Held at ICRTST-2022 Held at ATMECE, Mysore\n8. Presented Research article ***“Nanostructured ZnO & CoO doped transition metal oxide nanoparticles as antibacterial agents”*** Authors: Malathi Pujar, **Dr. Kiran Kumar P**, Dr. Avinash Krishnegowda. Held at ICRTST-2022 Held at ATMECE, Mysore\n9. Presented Research article “Current Review on Nanozymes” Authors: Nikhil Y Gangadhara, Dr. Avinash Krishnegowda, Ravishankar H Sadashivanna Held at ICRTST-2022 Held at ATMECE, Mysore\n10. Spectrophotometric Assay Based on Horseradish peroxidase- Catalysed Hydrogen Peroxide Using Amino antipyrine And Resorcinol as Chromogenic Reagents for Sensitive Detection of Peroxidase in Plant Extracts. Authors: Supriya B S, Dr. Avinash Krishnegowda, Dr. Mahesh lohith K S\n11. Online Course on “*Nanotechnology, Science and Applications”* online mode at NPTEL-AICTE on July-Aug 2020.\n12. Online Workshop *“*A*dvanced Techniques for Materials Characterization”* organized by MNIT Jaipur on July 6th to 10th 2020\n13. Workshop on “*Materials Characterization by SEM and XRD”* organized by Centre for Incubation, Innovation, Research & Consultancy. Bangalore. On 12th July 2019.\n14. One day national seminar on Nanotechnology for Energy, Environment and Health at NIE institute of technology, Mysore on 28thFeb 2017.\n15. One day workshop on radiation natural and manmade at VidyaVikas institute of technology, Mysore on 29th March 2014.\n16. One day workshop on Faculty development programmeat VidyaVikas institute of technology, Mysore on 24thAug 2014.\n17. One day workshop on Recent advances in chemistry at GMIT, Mandya on 10thJan 2015.\n\n## Proposal/Funding/Project Financial Assistance\n\n- Yes\n\n## Patent\n\nNational Patents\nNIL\n\nInternational Patents\nNIL\n\n## Roles and Responsibilities\n\n## Institute Level Roles\n\n- ISO Coordinator\n- NIRF Coordinator\n- NAAC Coordinator\n- Research Supervisor\n- Anti-Ragging Squad\n- Research Guide for 3 Research Scholars.\n- Guided 2 Students for Ph.D.\n\n## Department Level Roles\n\n- HOD of Chemistry\n- Coordinator for Chemistry Cycle\n- Member of various committees\n- Class Teacher",
+    md: "## Contact Details\n\n- **Official Email**: [dr.avinashk\\_che@old.atme.edu.in](mailto:dr.avinashk_che@old.atme.edu.in)\n- **Personal Email**: [avinashkchemistry@yahoo.in](mailto:avinashkchemistry@yahoo.in)\n- **Vidwan ID**: <https://vidwan.inflibnet.ac.in/profile/201626>\n- **Google Scholar**: <https://scholar.google.co.in/citations?user=pe8yEdkAAAAJ>\n- **Scopus ID**: <http://www.scopus.com/authid/detail.url?authorId=37033342500>\n- **ORCID**: <http://www.orcid.org/0000-0001-8361-7660>\n- **LinkedIn**: <https://www.linkedin.com/in/dr-avinash-k-474920a8/>\n\n## Academic Details\n\n- Ph.D in Analytical Chemistry\n- M.Sc in Chemistry\n- B.Sc in Physics, Chemistry, and Mathematics\n\n## Areas of Interest\n\n- Material Science, Nanomaterials\n- Synthesis & Characterisation, Bacteria culture, Energy storage devices.\n\n## Professional Experience\n\n- Teaching: 19 Years, Research: 21 Years, Industry: 1.5 Years\n\n## Publication Details\n\n1. **Evaluation of peroxidase mimicking behaviour of V2O5 nanozymes with various morphologies and its application as glucose sensor via cascade mechanism in human serum samples.** NY Gangadhara, B Manju, PK Kumar, H Krishna, A Shivakumar, Biochemical and Biophysical Research Communications 762, 151758\n2. **Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies**. RH Sadashivanna, H Krishna, A Shivakumar, NY Gangadhara, Nano-Structures & Nano-Objects 40, 101340. (2023)\n3. **A simple uric acid assay by using 3‐hydroxytyramine as a chromogenic colorimetric sensor in human serum samples: Density functional theory supported mechanistic approach.** H Krishna, A Krishnegowda, S Anantharaman, KS Ashwinee, . Journal of the Chinese Chemical Society 70 (4), 894-908 (2023)\n4. **Experimental Study on Strength and Durability Characteristics of Mortars with TiO2 Nanoparticles.** Srivathsa, H.U., Prakash, T.M., Puneeth, K., . Lecture Notes in Civil Engineering, 2024, 459, pp. 85–95.\n5. **An Account of the Influence of TMDC Anodic Materials on Li/Na-ion Battery Capacity**. R Ravikumar, ML KS, A Krishnegowda . Grenze International Journal of Engineering & Technology (GIJET) 9 (1) (2023).\n6. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as Antibacterial Agents**. KKP Kumar, A Krishnegowda.Grenze International Journal of Engineering & Technology (GIJET) 9 (1)\n7. **Evaluation of Strong Microwave Absorption Property of PVB-PEDOT:PSS-Ti3C2Tx MXene Nanocomposite With Materials Data-Driven Discovery**. Praveen Kumar, M., Raga, S., Chetana, S., ... Dey, A., Rangappa, D. Transactions on Electrical and Electronic Materials, 2023, 24(3), pp. 235–241.\n8. **Spectrophotometric determination of glucose in human serum samples using para‐phenylenediamine and alpha‐naphthol as a chromogenic reagent** S Besagarhally Shivappa, A Krishnegowda. International Journal of Chemical Kinetics 2022, 54 (12), 681-691.\n9. **EVALUATION OF THE ANTI-FUNGAL EFFICACY OF SILVER-DOPED NANOPARTICLES WITH METAL OXIDE NANOPARTICLES** P Malathi, K Avinash\n10. Ann. For. Res 65 (1), 5263-5271\n11. **A quantitative method for the detection and validation of catalase activity at physiological concentration in human serum, plasma and erythrocytes**. Krishna, H., Avinash, K., Shivakumar, A., Al-tayar, N.G.S., Shrestha, A.K. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 2021, 251, 119358\n12. Synthesis and Characterization **of AgO and Co doped AgO nanocomposites by Green Facilitated Route for Antibacterial activity against E. Fecalis.** Malathi P, Dr Kirankumar P, Dr Avinash K article International Journal of All Research Education & Scientific Methods, Volume 10, Year 2022.\n13. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as 61-66 Antibacterial Agents,** Malathi Pujar, Kiran Kumar Prem kumar and Avinash Krishnegowda, conference proceedings ICRTST-2022, Year 2022, Pages 61-66\n14. **Analytical Determination of Hemoglobin by Spectrophotometric Method,** Ravishankar H Sadashivanna B S, Avinash Krishnegowda, Kiran Kumar.\n15. **\"Recent trends in green synthesis of ZnO nanomaterials using plant extracts\"**. Malathi Pujar, **Kiran Kumar Prem Kumar**\\* Dr. Avinash K\\* Department of Chemistry, ATME College of Engineering, Mysuru, Karnataka India: Corresponding authors; kiran.pbs@gmail.com, avinashkchemistry@gmail.com. INTERNATIONAL CONFERENCE ON RECENT TRENDS IN SCIENCE & TECHNOLOGY (ICRTST 2021) ISBN: 978-93-5473-932-3.\n16. K. Ashwini, C. Pandurangappa and K. Avinash, Morphological change based Optical studies of Zinc sulphide Nanophosphor. Materials today chemistry, Volume 4, Issue 11, Part 3, 2017, Pages 12157-12167\n17. Avinash K, Nagaraja P, Shivakumar A, Krishna Honnur, Spectrophotometric assay of creatinine in human serum sample,  Arabian J Chem., 2013.(IF 2.684)\n18. P. Nagaraja, K. Avinash, A. Shivakumar, R. Dinesh, A. K. Shrestha, “Simple and Sensitive Method for the Quantification of Total Bilirubin in Human Serum using 3-methyl-2-benzothiazolinone hydrazone hydrochloride as a Chromogenic Probe”, SpectrochimicaActa Part A: Molecular and BiomolecularSpectroscopy, 77, 2010, 782-786. (IF 2.129)\n19. P. Nagaraj, N. Aradhana, A. Shivakumar, A. K. Shrestha, Avinash K Gowda “Spectrophotometric method for the determination of chromium (VI) in water  samples”, Environmental Monitoring and Assessment, 157, (1-4)2008, 575-582.(IF 1.679)\n20. P. Nagaraja\\*, N. GhallabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta and A. K. Gowda, “Spectrophotometric Determination of the Trace Amount of Thallium in Water and Urine Samples by Novel Oxidative Coupling Reaction”, E. J. Chem, 6, 2009, 1153 – 1163\n21. P. Nagaraja, NaefGhllabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta, K. Avinash, “Rapid and Sensitive Spectrophotometric Method for the Determination of the Trace Amount of Thallium (III) in Water and Urine Samples by New Oxidative Coupling Reaction”, J. Mex. Chem. Soc. 53, (4),2009,201-208.(IF 0.28)\n22. P. Nagaraja, N. G. S. Al-Tayar, A. Shivakumar, A. K. Shrestha, A. K. Gowda, A simple and sensitive spectrophotometric method for the determination of trace amounts of nitrite in environmental and biological samples using 4-amino-5-hydroxynaphthalene-2,7-disulphonic acid monosodium salt, Spectrochim. Acta A: Mol. Biomol. Spectrosc. 75,2010, 1411-1416\n23. 8.P. Nagaraja, A. Shivakumar, N. Aradhana, and A. K. Gowda, “Kinetic Study of    Peroxidase-Catalyzed Coupling of Benzene-1,4-diamine and N-(2-Aminoethyl)naphthalene-1-amine: Development of MicromolarHydrogenperoxide Reaction System”, Helv. Chim. Acta,  93, (6),2010, 1227 – 1237.(IF 1.383)\n24. P. Nagaraja, A. K. Shrestha, A. Shivakumar, K. Avinash, “Spectrophotometric determination of chloroquine, pyrimethamine, and trimethoprim by ion pair extraction in pharmaceutical formulation and urine”, Journal of Food and Drug Analysis, 18,2010, 239-248.(IF 0.249)\n25. P. Nagaraja, A. K. Shrestha A. Shivakumar, K. Avinash, Use of N,N-diethyl-p-phenylenediaminesulphate for the spectrophotometric determination of some phenolic and amine drugs, Acta Pharm. 60,2010, 217–227.(IF 1.025)\n26. A. Shivakumara, P. Nagaraja, N. A. Chamaraja, Honnur Krishna, K. Avinash, Determination of catalase activity using chromogenic probe involving iso-nicotinicacidhydrazide and pyrocatechol, J Bio. Tech., 155, 2011, 406–\n411. (IF 2.884)\n27. P. Nagaraja, A. Suma, N. Aradhana, A. Shivakumar, K. Avinash, Honnur Krishna, Quantification of Antioxidants in Medicinal Plants and Foodstuffs Using Ce(IV) with Indigo Carmine as Chromogenic Probe, Food anal. Methods, 5, 2102, 909 – 919.(IF 1.802)\n28. P. Nagaraja, K. Avinash, A. Shivakumar, Honnur Krishna, Quantification of creatinine in biological samples based on the pseudoenzyme activity of copper–creatinine complex, Spectrochimicaacta Part A, 92, 2012, 318 – 324.(IF 2.129)\n29. Honnur Krishna, P. Nagaraja, A. Shivakumar, K. Avinash, Vasanthkumar L, Hydroxylation of 4-Amino-5-hydroxynaphthalene-2,7-disulfonic Acid Monosodium Salt Catalysed by Horseradish Peroxidase and Hydrogen Peroxide: Computation of kinetic parameters including its application to crude plant extracts, J Chinese Chem. Soc., 60, 2013, 452 – 459.(IF 0.856)\n\n## Membership in Professional Bodies\n\n- KSCST\n- EEE\n- ISC\n\n## Honours/Awards/Achievements\n\n- Guiding five students for their Doctoral degree under VTU.\n- Organized one day national level workshop on IPR for Diffusion of technology in collaboration with NRDC.\n- Organized special talk on Nanotechnology by Dr. Dinesh Rangappa, Chairman, VTU Nanotechnology Dept, Bangalore.\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Presented Research article “Synthesis and Characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial activity against E.Coli”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n2. Presented Research article “Fe3O4 Nanoparticles as Nanozymefor the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n3. 3 Days face-to-face FDP on the theme “ Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023\n4. Presented Research article “An accont of influenceof TMDCs for anodic materialsof Li/Na-ion battery capacity”\n- ICRTST\n- 2022 , 9(1):777-786\n5. One Week Online Teachers Training Program on “An Overview of Teaching in Scientific Foundations of Health”\n- AICTE-VTU Joint Training Programme for Teachers– 20th – 24th December 2021\n6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian For Experimental Physicists and Chemists – Alva’s Institute of Engineering & Technology – 25th – 29th Oct 2021\n7. Presented Research article **“*Analytical Determination of Hemoglobin By Spectrophotometric Method”*** Authors: Ravishankar H Sadashivanna, Dr. Avinash Krishnegowda, **Dr. Kiran Kumar P**, Held at ICRTST-2022 Held at ATMECE, Mysore\n8. Presented Research article ***“Nanostructured ZnO & CoO doped transition metal oxide nanoparticles as antibacterial agents”*** Authors: Malathi Pujar, **Dr. Kiran Kumar P**, Dr. Avinash Krishnegowda. Held at ICRTST-2022 Held at ATMECE, Mysore\n9. Presented Research article “Current Review on Nanozymes” Authors: Nikhil Y Gangadhara, Dr. Avinash Krishnegowda, Ravishankar H Sadashivanna Held at ICRTST-2022 Held at ATMECE, Mysore\n10. Spectrophotometric Assay Based on Horseradish peroxidase- Catalysed Hydrogen Peroxide Using Amino antipyrine And Resorcinol as Chromogenic Reagents for Sensitive Detection of Peroxidase in Plant Extracts. Authors: Supriya B S, Dr. Avinash Krishnegowda, Dr. Mahesh lohith K S\n11. Online Course on “*Nanotechnology, Science and Applications”* online mode at NPTEL-AICTE on July-Aug 2020.\n12. Online Workshop *“*A*dvanced Techniques for Materials Characterization”* organized by MNIT Jaipur on July 6th to 10th 2020\n13. Workshop on “*Materials Characterization by SEM and XRD”* organized by Centre for Incubation, Innovation, Research & Consultancy. Bangalore. On 12th July 2019.\n14. One day national seminar on Nanotechnology for Energy, Environment and Health at NIE institute of technology, Mysore on 28thFeb 2017.\n15. One day workshop on radiation natural and manmade at VidyaVikas institute of technology, Mysore on 29th March 2014.\n16. One day workshop on Faculty development programmeat VidyaVikas institute of technology, Mysore on 24thAug 2014.\n17. One day workshop on Recent advances in chemistry at GMIT, Mandya on 10thJan 2015.\n\n## Proposal/Funding/Project Financial Assistance\n\n- Yes\n\n## Patent\n\nNational Patents\nNIL\n\nInternational Patents\nNIL\n\n## Roles and Responsibilities\n\n## Institute Level Roles\n\n- ISO Coordinator\n- NIRF Coordinator\n- NAAC Coordinator\n- Research Supervisor\n- Anti-Ragging Squad\n- Research Guide for 3 Research Scholars.\n- Guided 2 Students for Ph.D.\n\n## Department Level Roles\n\n- HOD of Chemistry\n- Coordinator for Chemistry Cycle\n- Member of various committees\n- Class Teacher",
   },
   "dr-chaitra-t-k": {
     name: "Dr. Chaitra T K",
@@ -626,8 +626,8 @@ Attender
 
 **Qualification**
 
-- **M. Tech** in Computer Networking and Engineering from National Institute of Engineering, Mysuru.
 - **B.E** in Computer Science & Engineering from Vidya Vikas Institute of Engineering and Technology, Mysuru.
+- **M. Tech** in Computer Networking and Engineering from National Institute of Engineering, Mysuru.
 
 ## Areas of Interest
 
@@ -1494,6 +1494,73 @@ _Nil_
 
 - "Distributed Systems"-MOOC Certification (NPTEL)-with 64% from July to September 2024 (8weeks)
 - "Python for Data Science"-MOOC Certification (NPTEL)-with 70% from January to February (4 weeks)
+
+### Proposal / Funding / Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles & Responsibilities — Institute Level
+
+_Nil_
+
+### Roles & Responsibilities — Department Level
+
+_Nil_
+`,
+  },
+  "ravikala-k-g": {
+    name: "Ravikala K G",
+    url: "https://atme.edu.in/ravikala-k-g/",
+    md: `## Ravikala K G
+
+### Contact Details
+
+- **Email ID:** Official: ravikalakg.mca@atme.edu.in · Personal: ravikalakg@gmail.com
+- **Vidwan ID:** 718282
+- **Google Scholar ID:** Google Scholar
+- **Scopus ID:** 59483648600
+- **Orcid ID:** orcid
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** LinkedIn
+
+### Academic Details
+
+- Qualification
+- M. C. A (Master of Computer Applications) in Cybersecurity
+- B. C. A (Bachelor of Computer Application)
+
+### Areas of Interest
+
+- Machine learning and Data Analytics
+- Cybersecurity
+- IOT
+- Wireless Communication
+
+### Publication Details
+
+- "A Machine Learning-Driven Framework for Modeling and Classifying Generative AI Readiness in Indian Higher Education," at the 6th International Conference on Intelligent Technologies (CONIT 2026), organized by KLE Institute of Technology, Hubballi, Karnataka, India, in association with IEEE Bangalore Section on 19th June to 21st June 2026.
+- XXII Control Instrumentation Systems Conference (CISCON 2025), "Financial Stress Prediction and Student Retention Analysis Using Machine Learning", organized by the Department of Instrumentation and Control Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education (MAHE), Manipal, technically co-sponsored by the IEEE Bangalore Section, held on 1st–2nd August 2025.
+- 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), "Data Driven Prediction Model for Campus Placements" (Paper ID: 9969), virtually hosted by Indian Institute of Technology (IIT) Indore, from 6th to 11th July 2025.
+- 15th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2024), "Exploring the Impact of Financial Stress on Students' Academic Performance: A Machine Learning Approach", hosted by Indian Institute of Technology (IIT) Mandi, Himachal Pradesh, from 24th to 28th June 2024.
+- International Conference on Sustainable & Resilient Futures: Bridging Science, Policy, and Practice (ICSRF 2025), "Data-Driven Pathways to Resilient Education: Unveiling Lifestyle Impacts on Student Health and Academic Sustainability through Machine Learning", organized by Amrita Vishwa Vidyapeetham, Amritapuri, India.
+
+### Membership in Professional Bodies
+
+_Nil_
+
+### Honours / Awards / Achievements
+
+_Nil_
+
+### FDPs / Conferences / Workshops / STTP / MOOC Certification
+
+- One-Day Faculty Development Programme (FDP) titled "Professional Networking and Personal Growth for Educators on LinkedIn".
+- Five-Day Faculty Development Programme (FDP) on "Mobile Application Development", organized by the Department of BCA, Amrita Vishwa Vidyapeetham, Mysuru Campus, from 9th to 13th June 2025.
+- "Inculcating Universal Human Values in Technical Education", organized by the All India Council for Technical Education (AICTE), 23rd–27th December 2024 (Five-Day Online FDP).
 
 ### Proposal / Funding / Project Financial Assistance
 
@@ -4219,9 +4286,9 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
     url: "https://atme.edu.in/nasreen-fathima/",
     md: `**Faculty Name:** Dr. Nasreen Fathima
 
-**Designation:** Associate Professor
+**Designation:** Associate Professor & Head
 
-**Program:** Computer Science and Design
+**Program:** Computer Science and Engineering – Cyber Security
 
 ### Professional Experience
 
@@ -4342,6 +4409,625 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 3. Organizing Committee Member for International conference ICRTST 2023, 2022 & 2021.
 4. QS I-GAUGE Institute coordinator from 2020-2023.
 5. CICC member from 2017 to 2022.
+`,
+  },
+
+  "dr-pavithra-m-s": {
+    name: "Dr Pavithra M S",
+    url: "https://atme.edu.in/dr-pavithra-m-s/",
+    md: `**Faculty Name:** Dr Pavithra M S
+
+**Designation:** Associate Professor
+
+**Program:** BE (CSE-Cyber Security)
+
+### Professional Experience
+
+- Teaching: 17
+- Research: 3
+- Industry: Nil
+
+### Contact Details
+
+- **Email ID:** Official: dr.pavithrams_mca@atme.edu.in | Personal: ngspavithra@gmail.com
+- **Vidwan ID:** 3434391
+- **Google Scholar ID:** 52EjjhgAAAAJ
+- **Scopus ID:** 57204231482
+- **Orcid ID:** 0009-0007-7968-9099
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** linkedin.com/in/dr-pavithra-m-s-87b555216
+
+### Academic Details
+
+**Qualification**
+
+- Ph.D in Computer Science
+- Master of Computer Applications (MCA)
+- BSc (Computer Science)
+
+### Areas of Interest
+
+- Digital Image Processing and Computer Vision
+- Artificial Intelligence
+- Cybersecurity
+
+### Publication Details
+
+**Publications in Proceedings**
+
+1. "A Study on Development of A Finance Service of EGovernment In Karnataka Muncipalities", In the Proceedings of International Conference ICSE-2010, 2010.
+2. "A robust multilingual text detection approach based on transforms and wavelet entropy", In the Proceedings of 2nd International Conference on Computer, Communication, Control and Information Technology, vol. 4, pages. 232-237, 2012.
+3. "An exploration of Wavelet Transform and Level Set Method for Text Detection in Images and Video Frames". In the Proceedings of Second International Symposium on Intelligent Informatics (ISI'13) co-located with International Conference on Advances in Computing, Communications and Informatics (ICACCI'13), vol. 235, pages. 419-426, 2014.
+4. "An application of LBF energy in image/video frame Text Detection", In the Proceedings of IAPR IEEE 14th International Conference on Frontiers in Handwriting Recognition (ICFHR), Crete Island, Greece, pages. 760-765, 2014.
+
+**Publications in International Journals**
+
+1. "Machine Learning for Art Critique Generation", Shodhkosh: Journal of Visual and Performing Arts, Vol. 6, Issue 5, pages. 373-383, 2025.
+2. "Managing Contemporary Art Institutions with Predictive Insights", Shodhkosh: Journal of Visual and Performing Arts, Vol. 6, Issue 5, pages. 384-393.
+3. "A Comprehensive of transforms, Gabor filter and k means clustering for text detection in images and video", Applied Computing and Informatics (ELSEVIER), Vol. 12, Issue 2, pages. 109-116, 2016.
+4. "Arbitrary Oriented multilingual text detection and segmentation using level set and Gaussian mixture model", Evolutionary Intelligence (Springer-Verlag), 1-14, 2020.
+
+### Membership in Professional Bodies
+
+_Nil_
+
+### Honours/Awards/Achievements
+
+_Nil_
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. A Five-day FDP on "Cloud Computing & Cloud Security: Architectures, Technologies & Best Practices", dated 16th Feb 2026 to 20th Feb 2026 at ATME College of Engineering, Mysuru.
+2. One Day ToT Workshop On "Innovation & Design Thinking", dated 10th October 2025 at Vidya Vardhaka Engineering College, Mysuru.
+3. Faculty Development Programme on "Artificial Intelligence, Machine Learning & Deep Learning in the Data Revolution ERA: PROGRESS & APPLICATIONS" dated 3rd February to 5th February 2025 at ATME College of Engineering, Mysuru.
+4. Faculty Development Programme on "Inculcating Universal Human Values in Technical Education" dated 2nd to 4th November 2023 at ATME College of Engineering Mysuru.
+5. Workshop on "Research Methodologies & Latex" dated 25th June to 27st June 2013 at SJB Institute of Technology, Bangalore-60.
+6. Workshop on "Applications of Wavelets for Signal & Image Processing in Research" dated 8th & 9th April 2013 at JSS Academy of Technical Education, Bengaluru.
+7. Workshop on "Digital Video Analytics and Processing (DVAP-2012)" dated 21st & 22nd December 2012 at Indian Institute of Technology, Madras.
+8. Workshop on "Reasearch Methodologies and Latex" dated 21st and 22nd November 2011 at Vidyavardaka College of Engineering, Mysore.
+9. One Week Short Term Training Program on "Linear Algebra and Its Applications" dated 24th to 28th January 2011 at J.N.N. College of Engineering, Shimoga.
+10. Faculty Development Programme on "Cloud Computing and Virtualization" dated 10th, 11th & 12th January 2011 at Dayananda Sagar College of Engineering, Bangalore.
+11. National Workshop on "Image Processing & Computer Vision-2010" dated 2nd to 4th June 2010 at Dayananda Sagar College of Engineering, Bangalore.
+12. Conference Workshop – ICSE – 2010 on "Convergence of Science & Engineering in Education and Research A Global Perspective in the New Millenium" dated 24th April 2010 at Dayananda Sagar College of Engineering, Bangalore.
+13. National Workshop on "Image Processing and Computer Vision" dated 16th and 17th October 2008 at Dayananda Sagar College of Engineering, Bangalore.
+14. Completed Empowered Leadership Program by Centre for Innovation & Leadership, 2007-2008 at DSI, Bangalore.
+15. NAAC sponsored National Seminar on "Quality Sustenance and Enhancement of Higher Education through IQAC" dated 23rd and 24th April 2007 at BMS College for Women, Bangalore.
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+- **Title:** AI Based Heart Rate Monitoring Device
+- **Published/Granted:** Published
+- **Patent No.:** 495119-001
+
+### Roles and Responsibilities: Institute Level
+
+_Nil_
+
+### Roles and Responsibilities: Department Level
+
+1. NIRF Coordinator - CSD/CY
+2. NAAC Coordinator
+3. MOOC/NPTEL Coordinator
+`,
+  },
+
+  "suhasini": {
+    name: "Suhasini",
+    url: "https://atme.edu.in/suhasini/",
+    md: `**Faculty Name:** Suhasini
+
+**Designation:** Assistant Professor
+
+**Program:** CSE-CY
+
+### Professional Experience
+
+- Teaching: 11
+- Research: Nil
+- Industry: Nil
+
+### Contact Details
+
+- **Email ID:** Official: suhasini.cg@atme.edu.in | Personal: suha.suchi16@gmail.com
+- **Vidwan ID:** 632692
+- **Google Scholar ID:** https://scholar.google.co.in/citations?view_op=new_articles&hl=en&imq=Suhasini#
+- **Scopus ID:** -
+- **Orcid ID:** 0009-0001-9051-726X
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** linkedin.com/in/suhasini-c-4a55082b6
+
+### Academic Details
+
+**Qualification**
+
+- Pursuing Ph.D
+- M.Tech (2012) – CSE
+- B.E (2010) – CSE
+
+### Areas of Interest
+
+1. Machine Learning
+2. Artificial Intelligence
+3. Digital Forensics
+4. Cryptography
+
+### Publication Details
+
+1. "Voice Based Smart Wheelchair for Physically Impaired Persons", IARJSET, Volume 12, Issue 5, May 2025.
+2. "AI Powered Drug Discovery", IARJSET, Volume 12, Issue 5, May 2025.
+3. "IoT Based Street Light Short Circuit Detection", IRJET, Volume 11, Issue 4, April 2024.
+4. "Autism Spectrum Disorder using Machine Learning", IRJET, Volume 10, Issue 5, May 2023.
+5. "Squid Game and Music Synchronization", IRJET, Volume 10, Issue 4, April 2023.
+6. "Age and Gender Classification using Convolutional Neural Network", IRJET, Volume 9 Issue 06, June 2022.
+
+### Membership in Professional Bodies
+
+- Member, The Institution of Engineers (India) [IEI]
+
+### Honours/Awards/Achievements
+
+- Qualified the Karnataka State Eligibility Test (KSET) for Assistant Professorship, conducted by the University of Mysore.
+- Received project funding from the Karnataka State Council for Science and Technology (KSCST), Indian Institute of Science, Bengaluru, for the project titled "Smart Reader for Visually Impaired using Raspberry Pi" (2024).
+- Secured Topper position in NPTEL online course on "Theory of Computation", offered by IIT, under the Ministry of Education, Government of India.
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDP/Workshop/STTP:**
+
+1. ATAL FDP on "Digital Forensics in Cybersecurity" held at Alva's Institute of Engineering and Technology from 05/1/2026 to 10/1/2026.
+2. Attended FDP on "Effective Strategies for publishing Research Papers" at MITT on 9th and 10th May, 2025.
+3. Two Day online National Level workshop on Data Analytics and Deep Learning organized by T. Thomas Elizabeth College for Women, Chennai on 2nd and 3rd March 2025.
+4. ATAL FDP on "Cyber Security and Intrusion Detection Forensics" held at Don Bosco Institute of Technology from 20/1/2025 to 25/1/2025.
+5. Participated in 10 Hours International Faculty Development Program on Machine Learning and Artificial Intelligence in Collaboration with ExcelR from 12th to 19th August 2024.
+6. Attended Online FDP on "Recent Industry Trends and Technology in Cloud Computing" held at Manipal University, Jaipur from 15th to 19th May 2023.
+
+**MOOC Certificates:**
+
+1. NPTEL Course on Introduction to Machine Learning – Jan to Mar – 2026 (8 weeks)
+2. NPTEL Course on Theory of Computation – Jul to Sep - 2024 (8 weeks)
+3. Cloud Computing – Aug to Oct – 2019 (8 weeks)
+4. Compiler Design – Jan to Apr – 2019 (12 weeks)
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+_Nil_
+
+### Roles and Responsibilities: Department Level
+
+1. Academic Co-ordinator
+2. NBA Co-ordinator
+3. AICTE activity points Co-ordinator
+4. Class Teacher
+`,
+  },
+
+  "mrs-razikha-amreen-m-i": {
+    name: "Razikha Amreen M I",
+    url: "https://atme.edu.in/mrs-razikha-amreen-m-i/",
+    md: `**Faculty Name:** Razikha Amreen M I
+
+**Designation:** Assistant Professor
+
+**Program:** Computer Science and Engineering – Cyber Security
+
+### Professional Experience
+
+- Teaching: 06 Years
+- Research: Nil
+- Industry: 1
+
+### Contact Details
+
+- **Email ID:** Official: razikhaamreen.cc@atme.edu.in | Personal: razikhareen@gmail.com
+- **Vidwan ID:** 653938
+- **Google Scholar ID:** https://scholar.google.co.in/citations?view_op=new_articles&hl=en&imq=Razikha+Amreen+M+I#
+- **Scopus ID:** 60601435400
+- **Orcid ID:** 0009-0002-9671-8609
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** https://www.linkedin.com/in/razikhaamreen
+
+### Academic Details
+
+**Qualification**
+
+- Pursuing Ph.D in Machine Learning and Artificial Intelligence
+- M. Tech in Computer Networks
+- B.E in Information Science and Engineering
+
+### Areas of Interest
+
+1. AIML
+2. Cyber Security
+
+### Publication Details
+
+1. Dynamic braking energy management for electric vehicle under battery ageing: A sliding-mode approach with environmental impact assessment.
+2. Machine Learning for Bearing Health Monitoring: A Controlled Experimental Benchmark Using Vibration-Based Statistical Features.
+3. A route aware predictive energy management framework for solar integrated electric bus transportation systems.
+
+### Membership in Professional Bodies
+
+1. Internet Society, Member Id: 2367057
+2. The International Association of Engineers (IAENG), Member Id: 567479
+
+### Honours/Awards/Achievements
+
+- Secured the Best Participant award in intensive workshop on "Effective Communication Standards in Global Teaching" held on January 2013
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Workshop on "effective communication standards in global teaching."
+2. Image and Statistical Analysis using open source tools – July 2022
+3. Recent trends in Cyber Security and block chain technology – July 2022
+4. AICTE Training And Learning (ATAL) Academy Faculty Development Program on Exploring the Synergy between eAcoustics and Machine Learning for Tomorrow's Technologies – December 2025
+5. NITTTR FDP on Cyber Physical Systems – October 2025
+6. CYSECK 6 days Residential program on cyber security – January 2026
+
+**MOOC Certificates:**
+
+- Udemy - Patent Filing in India
+- NPTEL – Introduction to Machine Learning
+- NPTEL – ICT
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+- Industry Institute Interaction Committee - Member
+
+### Roles and Responsibilities: Department Level
+
+1. DST Coordinator - CY
+2. Mini Project – CY
+3. Editorial Coordinator - CY
+`,
+  },
+
+  "ms-sandhya-g": {
+    name: "Ms. Sandhya G",
+    url: "https://atme.edu.in/ms-sandhya-g/",
+    md: `**Faculty Name:** Ms. Sandhya G
+
+**Designation:** Assistant Professor
+
+**Program:** CSE-Cyber Security
+
+### Professional Experience
+
+- Teaching: 10 months
+- Research: Nil
+- Industry: Nil
+
+### Contact Details
+
+- **Email ID:** Official: sandhyag.cc@atme.edu.in | Personal: sandhyag7422@gmail.com
+- **Vidwan ID:** 653933
+- **Google Scholar ID:** -
+- **Scopus ID:** -
+- **Orcid ID:** 0009 0006 4085 2664
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** https://www.linkedin.com/in/sandhyag604592280
+
+### Academic Details
+
+**Qualification**
+
+- M. Tech – Master of Technology, 2025
+- BE – Bachelor of Engineering, 2023
+
+### Areas of Interest
+
+1. Computer Networks
+2. Artificial Intelligence
+3. Deep Learning
+
+### Publication Details
+
+_Nil_
+
+### Membership in Professional Bodies
+
+_Nil_
+
+### Honours/Awards/Achievements
+
+_Nil_
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**MOOC Certification:**
+
+1. NPTEL Course on Computer Networks and Internet Protocol Jan – Apr 2026, 12 weeks
+
+**FDPs:**
+
+1. Participated in 6-days residential Faculty Development Programme on Cyber Security at IIIT Dharwad, held from 24th November to 29th November 2025.
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+- AVR and Techoir Program Coordinator
+
+### Roles and Responsibilities: Department Level
+
+1. AIMS Co-ordinator (Department of CSE-Cyber Security)
+2. EMS Co-ordinator (Department of CSE-Cyber Security)
+`,
+  },
+
+  "mr-chetan-godinal": {
+    name: "Mr. Chethan Godinal",
+    url: "https://atme.edu.in/mr-chetan-godinal/",
+    md: `**Faculty Name:** Mr. Chethan Godinal
+
+**Designation:** Assistant Professor
+
+**Program:** Computer Science Engineering – Cyber Security
+
+### Professional Experience
+
+- Teaching: 7 Months
+- Research: NIL
+- Industry: NIL
+
+### Contact Details
+
+- **Email ID:** Official: chetangodinal.cc@atme.edu.in | Personal: chetangodinal07@gmail.com
+- **Vidwan ID:** 688283
+- **Google Scholar ID:** https://scholar.google.co.in/citations?view_op=new_articles&hl=en&imq=CHETAN+GODINAL#
+- **Scopus ID:** -
+- **Orcid ID:** 0009-0004-1118-3591
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** http://www.linkedin.com/in/chetan-godinal-88672b269
+
+### Academic Details
+
+**Qualification**
+
+- M. Tech in CSE
+- B E in CSE
+
+### Areas of Interest
+
+1. Machine Learning
+2. Deep Learning
+3. DBMS
+4. Big Data
+
+### Publication Details
+
+**Conference**
+
+1. Chetan Godinal, Dr. M R Prasad, ICAIES "An Advanced AI-Powered Tomato Leaf Disease Detection System Using Ensemble Deep Learning" in RIT, Hassan.
+
+### Membership in Professional Bodies
+
+_Nil_
+
+### Honours/Awards/Achievements
+
+_Nil_
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs/Workshops:**
+
+_Nil_
+
+**MOOC Certificate:**
+
+1. NPTEL course on Distributed Systems
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+_Nil_
+
+### Roles and Responsibilities: Department Level
+
+1. Department Sports Coordinator - CY
+2. Department Cultural Coordinator - CY
+3. Stock Coordinator - CY
+`,
+  },
+
+  "mrs-pallavi-r": {
+    name: "Pallavi R",
+    url: "https://atme.edu.in/mrs-pallavi-r/",
+    md: `**Faculty Name:** Pallavi R
+
+**Designation:** Assistant Professor
+
+**Program:** CSE-Cyber Security
+
+### Professional Experience
+
+- Teaching: 2.9 yrs
+- Research: Pursuing
+- Industry: NIL
+
+### Contact Details
+
+- **Email ID:** Official: pallavir.cc@atme.edu.in | Personal: pallaviraj830@gmail.com
+- **Vidwan ID:** 448955
+- **Google Scholar ID:** pallaviraj830@gmail.com
+- **Scopus ID:** pallaviraj830@gmail.com
+- **Orcid ID:** pallaviraj830@gmail.com
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** Pallaviraj830@gmail.com
+
+### Academic Details
+
+**Qualification**
+
+- BE, M. TECH, (Ph.D.)
+
+### Areas of Interest
+
+- Machine learning
+
+### Publication Details
+
+1. "Air Quality Index Monitoring Using AI & ML" in International Research journal of modernization in Engineering Technology and Science (IRJMETS), Volume 07, Issue 12, December 2025.
+2. Pallavi R\\*1, Kushmita S\\*2, Minchu M\\*3, Sahana KM\\*4, Vishwas A\\*5 "AUTISMNETX Screening Of Autism Through ML TECHNIQUE." in International Research journal of modernization in Engineering Technology and Science (IRJMETS), Volume 07, Issue 12, December 2025.
+3. Shwetha L, Pallavi R (2025). Identification of Plant Diseases Through Artificial Neural Networks. International Journal of Innovative Research in Technology (IJIRT), 11(11), 1586-1590.
+4. Pallavi R, Shwetha L (2025). AI Based Human Health Remote Supervision with Wireless Sensors. International Journal of Innovative Research in Technology (IJIRT), 11(11), 1537-1540.
+5. Pallavi R1, Srinivasa H N2, Mithun Gowda H3, Surya S B4, "Skin Cancer (Melanoma) Detection Using Deep Learning", International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering, Vol. 13, Issue 12, December 2025.
+6. Pallavi R, Steve Fredrick P, Yashwanth Gowda KB, Rakshith Gowda NS, "Brain Age Prediction Using MRI Data an Ensemble ANN Model," International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering (IJIREEICE), DOI 10.17148/IJIREEICE.2025.131215
+
+### Membership in Professional Bodies
+
+- IAENG (International Association of Engineers)
+
+### Honours/Awards/Achievements
+
+_Nil_
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs/Workshops:**
+
+1. FDP on "MongoDB" A project based on hands on training
+2. FDP on machine learning lab
+3. FDP on research methodology
+4. FDP on artificial intelligence in global trends.
+5. FDP on artificial intelligence: concepts and techniques.
+
+**MOOC Certificate:**
+
+1. Artificial intelligence: concepts and techniques. (NPTEL)
+2. Python for data science. (NPTEL)
+3. R ultimate 2024: r data science and machine learning. (UDEMY)
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+_Nil_
+
+### Roles and Responsibilities: Department Level
+
+1. Department Website coordinator - CY
+2. AICTE & LIC coordinator - CSD/CY
+`,
+  },
+
+  "ms-shambhavi-k-a": {
+    name: "Shambhavi K A",
+    url: "https://atme.edu.in/ms-shambhavi-k-a/",
+    md: `**Faculty Name:** Shambhavi K A
+
+**Designation:** Assistant Professor
+
+**Program:** CSE-Cyber Security
+
+### Professional Experience
+
+- Teaching: 1 Year
+- Research: NIL
+- Industry: NIL
+
+### Contact Details
+
+- **Email ID:** Official: shambhavika.cc@atme.edu.in | Personal: shambhavika22@gmail.com
+- **Vidwan ID:** 653934
+- **Google Scholar ID:** https://share.google/P56CAFxAJJqIDy27E
+- **Scopus ID:** https://share.google/RukC5bRMBfti9miNp
+- **Orcid ID:** -
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** https://www.linkedin.com/in/shambhavika969644262
+
+### Academic Details
+
+**Qualification**
+
+- MCA – Master of Computer Application in Cyber Security, 2025
+- BCA – Bachelor of Computer Application, 2023
+
+### Areas of Interest
+
+1. Cyber Security
+2. UI/UX Design
+3. Machine Learning
+
+### Publication Details
+
+1. "Intelligent Intrusion Detection System for SDN (Software Defined Networking)" is published in IRJMETS – Volume 7: Authors: Ms. Shambhavi K A, Mahanth S, Pranav Muthappa, Yaswanth, Deemanth C. 2025
+
+### Membership in Professional Bodies
+
+_Nil_
+
+### Honours/Awards/Achievements
+
+_Nil_
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs/Workshops:**
+
+1. Three Day Comprehensive Workshop On "PATENT DRAFTING, FILING, & INTERPRETAION" organized by IPR-Cell in Association with IIC ATMECE, Mysuru.
+2. 6-days residential Faculty Development Program (FDP) on "Cybersecurity", Organized by Indian Institute of Science (IISc), Center of Excellence for Cybersecurity – Karnataka (CySecK), British Asian Trust group in association with NITK Surathkal, Karnataka from 19th to 24rd Jan 2026.
+3. 2-days FDP on "Globally Competitive Currency in Higher Education" organized by ATMECE, Mysuru.
+
+**MOOC Certificate:**
+
+1. Certificate of Completion "Patent Filing in India" by Udemy. 2025
+
+### Proposal/Funding/Project Financial Assistance
+
+_Nil_
+
+### Patent
+
+_Nil_
+
+### Roles and Responsibilities: Institute Level
+
+_Nil_
+
+### Roles and Responsibilities: Department Level
+
+1. Placement Co-ordinator (Dept of CSE-Cyber Security)
+2. IA Coordinator – Dept of CSE-Cyber Security
 `,
   },
 

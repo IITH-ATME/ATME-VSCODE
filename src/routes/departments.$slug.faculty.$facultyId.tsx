@@ -148,22 +148,24 @@ function FacultyDetail() {
           // Degree-only qualification (e.g. BE, M.Tech, PhD). Strip descriptions.
           const extractDegrees = (raw: string): string[] => {
             if (!raw) return [];
+            // Ordered lowest-degree-first (e.g. B.E, M.Tech, PhD) regardless of
+            // the order tokens appear in the source qualification string.
             const DEGREES: { re: RegExp; label: string }[] = [
-              { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
-              { re: /\bM[\.\-\s]*Tech\b/i, label: "M.Tech" },
+              { re: /\bDiploma\b/i, label: "Diploma" },
               { re: /\bB[\.\-\s]*Tech\b/i, label: "B.Tech" },
-              { re: /\bM\.?\s*E\b/, label: "M.E" },
               { re: /\bB\.?\s*E\b/, label: "B.E" },
-              { re: /\bM\.?\s*Sc\b/i, label: "M.Sc" },
               { re: /\bB\.?\s*Sc\b/i, label: "B.Sc" },
-              { re: /\bMCA\b/i, label: "MCA" },
               { re: /\bBCA\b/i, label: "BCA" },
-              { re: /\bMBA\b/i, label: "MBA" },
               { re: /\bBBA\b/i, label: "BBA" },
+              { re: /\bB\.?\s*A\b/, label: "B.A" },
+              { re: /\bM[\.\-\s]*Tech\b/i, label: "M.Tech" },
+              { re: /\bM\.?\s*E\b/, label: "M.E" },
+              { re: /\bM\.?\s*Sc\b/i, label: "M.Sc" },
+              { re: /\bMCA\b/i, label: "MCA" },
+              { re: /\bMBA\b/i, label: "MBA" },
               { re: /\bM\.?\s*Phil\b/i, label: "M.Phil" },
               { re: /\bM\.?\s*A\b/, label: "M.A" },
-              { re: /\bB\.?\s*A\b/, label: "B.A" },
-              { re: /\bDiploma\b/i, label: "Diploma" },
+              { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
             ];
             const found: string[] = [];
             for (const d of DEGREES) if (d.re.test(raw) && !found.includes(d.label)) found.push(d.label);

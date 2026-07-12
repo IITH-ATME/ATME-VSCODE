@@ -284,6 +284,61 @@ export const INFRA_DATA: Record<string, InfraData> = {
       }
     ]
   },
+  "cy": {
+    "sections": [
+      {
+        "heading": "Machine Learning Lab",
+        "paras": [
+          "The Machine Learning Laboratory provides students with practical exposure to developing intelligent systems using data-driven techniques. The lab enables students to implement and evaluate machine learning algorithms for solving real-world problems such as classification, prediction, clustering, and pattern recognition.",
+          "Students gain hands-on experience using programming languages and tools such as Python, Jupyter Notebook, Scikit-learn, TensorFlow, Pandas, NumPy, and Matplotlib."
+        ],
+        "items": [],
+        "image": { "url": "/images/cy-infra/machine-learning-lab.png", "alt": "Machine Learning Lab" }
+      },
+      {
+        "heading": "DevOps Lab",
+        "paras": [
+          "The DevOps Laboratory provides students with hands-on experience in modern software development, deployment, and operations practices. The lab helps students understand the DevOps lifecycle by integrating software development, testing, continuous integration, continuous delivery (CI/CD), deployment, and monitoring.",
+          "Students work with industry-standard tools and technologies such as Git, GitHub, Docker, Jenkins, Kubernetes, Ansible, Maven, and cloud platforms to automate software development and deployment processes."
+        ],
+        "items": [],
+        "image": { "url": "/images/cy-infra/devops-lab.png", "alt": "DevOps Lab" }
+      },
+      {
+        "heading": "Ethical Hacking Laboratory",
+        "paras": [
+          "The Ethical Hacking Laboratory provides students with practical knowledge of cybersecurity by simulating real-world security scenarios in a controlled and authorized environment. The lab helps students understand how to identify, assess, and mitigate security vulnerabilities in computer systems and networks.",
+          "Students gain hands-on experience with concepts such as network security, vulnerability assessment, penetration testing, web application security, password security, wireless security, and system hardening."
+        ],
+        "items": [],
+        "image": { "url": "/images/cy-infra/ethical-hacking-lab.png", "alt": "Ethical Hacking Laboratory" }
+      },
+      {
+        "heading": "Elements of Cyber Security Lab",
+        "paras": [
+          "The Elements of Cyber Security Laboratory designed to provide students with a comprehensive learning environment for developing practical skills in information and network security. The laboratory is equipped with modern computing systems, high-speed network infrastructure, virtualization platforms, and secure internet connectivity to facilitate real-time cybersecurity experiments. Students gain hands-on experience using industry-standard tools for ethical hacking, vulnerability assessment and penetration testing (VAPT), digital forensics, malware analysis, cryptography, web application security, and network traffic monitoring. The lab also includes multiple operating systems, cloud security platforms, scripting and programming environments, SIEM, IDS/IPS, and endpoint protection solutions, enabling learners to simulate, analyze, and mitigate cyber threats in a controlled environment."
+        ],
+        "items": [],
+        "image": { "url": "/images/cy-infra/elements-of-cyber-security-lab.png", "alt": "Elements of Cyber Security Lab" }
+      },
+      {
+        "heading": "Vulnerability Assessment and Penetration Testing Laboratory",
+        "paras": [
+          "The Vulnerability Assessment and Penetration Testing (VAPT) Laboratory provides students with practical training in identifying, analysing, and mitigating security vulnerabilities in computer systems, networks, and web applications. The laboratory helps students understand security assessment methodologies and ethical penetration testing techniques in a controlled environment.",
+          "Students gain hands-on experience in vulnerability scanning, penetration testing, network security analysis, web application security testing, risk assessment, and security reporting using industry-standard tools and frameworks. The lab emphasizes ethical practices, responsible disclosure, and compliance with cybersecurity standards."
+        ],
+        "items": [],
+        "image": { "url": "/images/cy-infra/vapt-lab.png", "alt": "Vulnerability Assessment and Penetration Testing Laboratory" }
+      }
+    ],
+    "images": [
+      { "url": "/images/cy-infra/machine-learning-lab.png", "alt": "Machine Learning Lab" },
+      { "url": "/images/cy-infra/devops-lab.png", "alt": "DevOps Lab" },
+      { "url": "/images/cy-infra/ethical-hacking-lab.png", "alt": "Ethical Hacking Laboratory" },
+      { "url": "/images/cy-infra/elements-of-cyber-security-lab.png", "alt": "Elements of Cyber Security Lab" },
+      { "url": "/images/cy-infra/vapt-lab.png", "alt": "Vulnerability Assessment and Penetration Testing Laboratory" }
+    ]
+  },
   "ece": {
     "sections": [
       {
@@ -716,9 +771,17 @@ export const INFRA_DATA: Record<string, InfraData> = {
   "me": {
     "sections": [
       {
-        "heading": "Infrastructure & Facilities",
+        "heading": "Staff Facilities",
         "paras": [
-          "The Department of Mechanical Engineering is supported by state-of-the-art laboratories, modern classrooms with smart boards and multimedia projectors, well-furnished staff cubicles with LAN/Wi-Fi/intercom, a dedicated project hall and a department library with 800+ technical volumes. Clean RO-UV drinking water is available on every floor. The facilities span the full breadth of the Mechanical curriculum — from materials testing and manufacturing to thermal, design, CAD/CAM and project work."
+          "The Department of Mechanical Engineering has well-furnished Staff Rooms. Each Staff member is provided with a cubical with LAN connection. The staff room is enabled with Wi-Fi and Intercom facility. Also, the Staff room is equipped with the Computing Systems with internet Connections. A separate lounge is provided for Departmental meetings and Discussions."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Student Facilities",
+        "paras": [
+          "The Department has State of the art infrastructure in order to foster the needs of Students. All the laboratories are well equipped with latest and modern tools and equipment's. The department also houses the departmental Library with more than 600 volumes of technical Books.",
+          "The classrooms contain modern teaching Aids like Smart boards, Overhead Projectors along with conventional Chalk and talk for Teaching and Learning. Clean Drinking water (RO-UV treated) facility is provided in each floor. A Separate Project lab is provided in order to carry out the project work by the students with the basic facilities."
         ],
         "items": []
       },
@@ -726,7 +789,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Engineering Graphics Laboratory",
         "noImage": true,
         "paras": [
-          "Shared first-year facility for all engineering branches, used to teach the fundamentals of engineering drawing through Solid Edge. The lab is equipped with Dell desktops on LAN, an Epson multimedia projector and a smart board, with individual workstations for every student."
+          "Engineering Graphics lab is common for first year students of all branches of engineering. Here they learn Basic Engineering Drawing using Solid Edge software.",
+          "Lab is facilitated with Dell Desktops with LAN connectivity, Epson multimedia projector and Smart Board Facility. Computer systems with LAN connection are provided to individual students."
         ],
         "items": []
       },
@@ -734,7 +798,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Material Testing Laboratory",
         "noImage": true,
         "paras": [
-          "Supports experimental study of mechanical properties of engineering materials. Major equipment includes Vickers / Brinell / Rockwell hardness testers, Impact, Torsion, Fatigue and Wear testing machines, a 60-ton Universal Testing Machine, magnetic crack detector, ultrasonic flaw detector, single-disc polishing machine, dye-penetrant tester and a metallographic inverted microscope."
+          "Mechanical Engineering students are going to learn this lab in Second Year. In this lab students learn about material testing using various Modern testing Machines.",
+          "Major equipments include Vickers Hardness, Brinell Hardness and Rockwell testing machines, Impact Testing Machine, Torsion Testing Machine, Fatigue Testing Machine, Wear Testing Machine, Magnetic Crack detector, Ultra Sonic flaw detector, Single disc Polishing Machine, Die penetrate tester, Metallographic inverted microscope, Universal Testing Machine – 60T capacity."
         ],
         "items": []
       },
@@ -742,7 +807,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Machine Shop / Manufacturing Laboratory",
         "noImage": true,
         "paras": [
-          "Hands-on training in conventional machining operations on lathes, milling, drilling, grinding and shaping machines. Equipment includes all-geared lathe machines, shaping machine, drilling machine, milling machine, bench grinding machine and hand cutting machine, used to fabricate metal work-pieces from given drawings."
+          "Mechanical Engineering students are going to learn this lab in Second Year. Here the students learn various machining operations performed on Machine Tools such as Lathe, Milling, Drilling, Grinding, Shaping etc. Here they prepare models using a Metal work piece.",
+          "Major equipments include all geared lathe Machine, Shaping Machine, Drilling Machine, Milling Machine, Bench Grinding Machine, Hand Cutting machine."
         ],
         "items": []
       },
@@ -750,7 +816,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Foundry & Forging Laboratory",
         "noImage": true,
         "paras": [
-          "Exposes students to sand-moulding processes, properties of moulding sands and hot-working of metals. Major equipment includes Universal Sand Testing Machine with attachments, sieve shaker, rapid moisture tester, permeability meter, hardness tester, clay-content tester, specimen drier with digital temperature indicator, electronic balance, muffle furnace, centrifugal blower with motor and a smithy furnace."
+          "Mechanical Engineering students are going to learn this lab in Second Year. This lab exposes the students to Sand Molding process, various types of molding sands and conduct experiments to find their properties. In forging section students learn about hot working of metals using various forging tools.",
+          "Major equipment's include Universal Sand Testing Machine with Attachments, Sieve Shaker Machine, Rapid moisture tester Machine, Permeability meter, Hardness tester, Clay content tester, Moisture content tester, Specimen Drier with digital temperature indicator, Electronic Balance, Muffle Furnace, Centrifugal Blower with motor, Smithy Furnace."
         ],
         "items": []
       },
@@ -758,7 +825,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Mechanical Measurements & Metrology Laboratory",
         "noImage": true,
         "paras": [
-          "Covers measurement techniques, calibration and quality-control standards. Equipment includes calibration setups for pressure gauge, thermocouple, LVDT and load cell, autocollimator, sine bar & sine centre, bevel protractor, gear-tooth micrometer, lathe & drill tool dynamometers, slip-gauge box, mechanical comparator, floating-carriage micrometer and magnetic stand with dial gauge."
+          "In this lab students learn about the various techniques of measurement, use of various measuring instruments, identification of errors with-in the instruments and the means of Calibration. They are also exposed to the various standards that incorporated in Industries to aid the process of Quality control.",
+          "Major equipments include Calibration of Pressure gauge, Calibration of Thermocouple, Calibration of L.V.D.T, Calibration of Load Cell, Strain & young's modules, Autocollimator, Sine bar and Sine center, Bevel protractor, Gear tooth micrometer, Lathe tool Dyanamometer, Drill tool Dyanamometer, Slip gauge box, Mechanical Comparator std, Floating carriage micrometer and Magnetic stand with Dial gauge."
         ],
         "items": []
       },
@@ -766,7 +834,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Fluid Mechanics & Machinery Laboratory",
         "noImage": true,
         "paras": [
-          "Used for experiments on fluid properties and performance testing of hydraulic machines. Major equipment includes Pelton & Francis turbine test rigs, centrifugal pump test rig, centrifugal air blower, two-stage reciprocating air compressor test rig, impact-of-jet apparatus, Venturimeter & orifice apparatus, pipe-friction setup, nozzle apparatus, minor-losses setup, V-notch apparatus and a reciprocating pump test rig."
+          "Mechanical Engineering students are going to learn this lab in third year. Students conduct experiments to find Fluid Mechanics properties like coefficient of discharges, Major and Minor losses in flow through pipes etc. They also conduct experiments to find performance characteristics of Fluid machines like Water Turbines and Air compressor.",
+          "Major equipments include Pelton wheel turbine apparatus, Francis turbine apparatus, Centrifugal pump test rig, Centrifugal air blower, Two stage reciprocating air compressor test rig, Impact of jet apparatus, Orifice and Venturimeter apparatus, Friction through pipes apparatus, Nozzle apparatus, Minor loses in pipes apparatus, V-notch apparatus and Reciprocating pump test rig."
         ],
         "items": []
       },
@@ -774,7 +843,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Energy Conversion (IC Engines) Laboratory",
         "noImage": true,
         "paras": [
-          "Supports testing of fuels, lubricants and internal-combustion engines. Equipment includes flash & fire point apparatus, viscometers, planimeter, digital bomb calorimeter, Boy's gas calorimeter, 2-stroke and 4-stroke single-cylinder petrol and diesel engine test rigs, a variable-compression-ratio (VCR) petrol engine test rig, multi-cylinder petrol engine test rig and valve / port timing diagram setups."
+          "Here the students conduct experiments to find properties of Fuels and Lubricating oils, experiments on various I C engine Test rigs to evaluate performance characteristics.",
+          "Major equipments include flash and fire point apparatus, Viscometers, Planimeter, Digital Bomb calorimeter, Boy's Gas calorimeter, 4 stroke Single cylinder Diesel Engine, 2 stroke single cylinder petrol engine test Rig, 4- stroke single cylinder petrol engine test rig, 4- stroke single Cylinder Variable Compression Ratio petrol engine test rig, Valve Timing Diagram Port Timing Diagram, 4- stroke single cylinder Diesel engine test rig, 4 Stroke Multi Cylinder Petrol Engine Test Rig – 3 Cylinder, Cut section of 2 Stroke single cylinder petrol engine and Cut section of 4 Stroke single cylinder diesel engine."
         ],
         "items": []
       },
@@ -782,7 +852,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Heat Transfer & Refrigeration Laboratory",
         "noImage": true,
         "paras": [
-          "Used for experiments on conduction, convection and radiation along with performance testing of refrigeration and air-conditioning systems. Equipment includes thermal-conductivity apparatus, composite-wall heat-transfer setup, natural & forced convection rigs, pin-fin apparatus, emissivity setup, Stefan-Boltzmann apparatus, parallel & counter-flow heat exchanger, drop/film condensation apparatus, transient-conduction setup, vapour-compression refrigeration test rig and a vapour-compression air-conditioning test rig."
+          "In this lab experiments are conducted to understand three modes of heat transfer viz., Conduction, Convection and Radiation. They also conduct performance tests on Refrigeration and Air-conditioning systems.",
+          "Major equipments include Thermal Conductivity of Metal rod apparatus, Heat Transfer coefficient composite wall apparatus, Heat Transfer through Natural convection, Forced convection, through Pin Fin apparatus, Emissivity Measurement apparatus, Steafan Boltzman Apparatus, Parallel Flow And Counter Flow Heat Exchange Apparatus, Drop and Film Condensation Apparatus, Transient Conduction Heat Transfer Apparatus, Vapour Compression refrigeration Test rig and Vapour Compression Air Conditioning Test Rig."
         ],
         "items": []
       },
@@ -790,7 +861,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Modelling & Analysis (CAD/CAE) Laboratory",
         "noImage": true,
         "paras": [
-          "Networked computer lab for solid modelling and finite-element analysis using industry-standard tools. Workstations are loaded with FEA workbenches (Static Structural, Thermal, Modal, Harmonic) running on Dell Optiplex desktops, supported by an Epson LCD projector for live demonstrations."
+          "Mechanical Engineering students are going to learn this lab in final year. Students learn about numerical software tool in this lab and also, they use workbenches like Static Structural, Thermal, Modal and Hormonic to solve the problems of the respective area.",
+          "Lab is facilitated with Dell Desktop optiplex systems, Generic required Softwares and Epson LCD Projector."
         ],
         "items": []
       },
@@ -798,7 +870,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "CNC, Robotics & Automation Laboratory",
         "noImage": true,
         "paras": [
-          "Final-year facility for CNC part-programming and simulation, with exposure to Flexible Manufacturing Systems, Robotics and Hydraulic & Pneumatic systems. Equipped with Dell Optiplex desktops, simulation software and an Epson LCD projector."
+          "Pre - Final year students learn CNC part programing using simulation Software. Students are going to develop the part program for a given model and simulate the same. Knowledge about Flexible Manufacturing System, Robotics and Hydraulic and Pneumatic systems are given to students which are a part of Advanced Manufacturing System.",
+          "Lab is facilitated with Dell Desktop optiplex systems, Generic required Softwares and Epson LCD Projector."
         ],
         "items": []
       },
@@ -806,7 +879,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Design & Dynamics Laboratory",
         "noImage": true,
         "paras": [
-          "Used by final-year students for experiments on machine dynamics, stress analysis and vibrating systems. Major equipment includes journal bearing apparatus, principal stress & strain setup, balancing of rotating masses apparatus, vibration studies setup, whirling-of-shaft apparatus, motorised gyroscope, curved-beam apparatus, polariscope and universal governor apparatus."
+          "Pre - Final year students are exposed to this lab, where they learn about Machine dynamics, Stress analysis, and Vibrating systems. Here students get hand-on experience about acquired theoretical knowledge.",
+          "Major equipment's include Journal Bearing apparatus, Principal Stress and Strain Apparatus, Balancing of Rotating Masses, Vibration Studies apparatus, Whirling of Shaft apparatus, Motorized Gyroscope, Curved Beam Apparatus, Polariscope and Universal Governor Apparatus."
         ],
         "items": []
       },
@@ -814,7 +888,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Project Laboratory",
         "noImage": true,
         "paras": [
-          "Dedicated space for final-year project fabrication covering fitting, welding and sheet-metal work. Equipment includes bench vices, leg vice, fitting tools, arc-welding machine and sheet-metal tools, along with general-purpose engineering tools."
+          "Project lab is used by the final year students to fabricate their projects. The facilities Fitting, Welding and Sheet metal work. Various equipment and Engineering tools are provided in this lab.",
+          "Major equipment's include Bench vices, Leg vice, Fitting tools, Arc welding Machine and Sheet metal work tools."
         ],
         "items": []
       },
@@ -822,7 +897,8 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "heading": "Department Library",
         "noImage": true,
         "paras": [
-          "The department library houses 800+ volumes across thermal, design, manufacturing, materials and industrial engineering, along with reference books, lab manuals, project reports and selected journals available for student and faculty reference."
+          "The departmental library is started with an idea to cater the needs of the students to enhance their knowledge by providing more additional books for their reference.",
+          "At present the Department library comprises more than 800 volumes of various disciplines in the Mechanical Engineering."
         ],
         "items": []
       }

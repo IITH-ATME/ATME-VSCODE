@@ -58,7 +58,6 @@ const MAP: Record<string, Record<string, string[]>> = {
     ds: ["cseds-news-letter-and-magazines"],
     aiml: ["computer-science-and-engineering/cse-news-letter-2"],
     cy: ["computer-science-and-engineering/cse-news-letter-2"],
-    mba: ["computer-science-and-engineering/cse-news-letter-2"],
   },
 };
 
