@@ -862,14 +862,18 @@ function AccordionedContent({ md, openFirst = false, flat = false }: { md: strin
     // If after cleaning the section contains no links, no tables, and no
     // real prose (only short bold labels like "**Virtual Lab 2021-22**"
     // orphaned by missing PDF embeds / missing tables), treat as empty.
+    // A genuine bullet list (even a short one, e.g. a 2-event activities
+    // year) counts as real content and must not be discarded by the length
+    // heuristic below.
     const hasLink = /\[[^\]]+\]\([^)]+\)/.test(out);
     const hasTable = /\|/.test(out);
+    const hasList = /^\s*[-*]\s+\S/m.test(out);
     const stripped = out
       .replace(/^#+\s.*$/gm, "")
       .replace(/[*_`#>]/g, "")
       .replace(/\s+/g, " ")
       .trim();
-    if (!hasLink && !hasTable && stripped.length < 80) return "";
+    if (!hasLink && !hasTable && !hasList && stripped.length < 80) return "";
     return out;
   }
   let sections = rawSections.map((s) => ({ ...s, body: cleanBody(s.body) }));
