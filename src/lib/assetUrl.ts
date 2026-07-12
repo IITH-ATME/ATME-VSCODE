@@ -8,8 +8,14 @@
 //
 // We prefix such paths with the project's published Lovable URL so the
 // CDN keeps working regardless of where the app itself is hosted.
+//
+// IMPORTANT: this must be the project's own Lovable-hosted origin, not the
+// custom domain — atme.edu.in does not currently proxy the /__l5e/ asset
+// path (every request under it 404s, verified against many unrelated
+// assets), while <project-id>.lovableproject.com serves them correctly.
+// That mismatch was breaking every /__l5e/ image site-wide.
 
-const LOVABLE_CDN_ORIGIN = "https://atme.edu.in";
+const LOVABLE_CDN_ORIGIN = "https://ecc2b641-817e-4f14-aeea-8907ad2d13ff.lovableproject.com";
 
 export function resolveAssetUrl(url: string | undefined | null): string {
   const value = url?.trim() ?? "";
