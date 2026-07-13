@@ -612,7 +612,10 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
                         const t = (raw || "").replace(/\*\*/g, "").trim();
                         // Drop "Teaching/Research/Industry: <number|nil|dash|empty>" placeholder bullets.
                         if (/^(teaching|research|industry|industrial)(\s+experience)?\s*[:\-–—|]\s*([-–—]|nil|n\/?a|none|0)?\s*(year|yr)?s?\.?\s*$/i.test(t)) return true;
-                        return /^(teaching|research|industry|industrial)(\s+experience)?\s*[:\-–—|]\s*(\d|nil)/i.test(t);
+                        if (/^(teaching|research|industry|industrial)(\s+experience)?\s*[:\-–—|]\s*(\d|nil)/i.test(t)) return true;
+                        // Drop the redundant "Total"/"Total Experience: N years" bullet —
+                        // the breakdown table above already sums to the same total.
+                        return /^total(\s+experience)?\s*[:\-–—|]/i.test(t);
                       };
                       const isStray = (raw: string) => {
                         const t = (raw || "").replace(/\*\*/g, "").trim();
@@ -696,13 +699,20 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
       if (/^\s*(nil|none|n\/?a)\.?\s*$/i.test(s)) return "Nil";
       const m = s.match(/(\d+(?:\.\d+)?)\s*(years?|yrs?\.?|months?|mos?\.?|days?)?/i);
       if (!m) return "";
-      const num = m[1];
+      const num = parseFloat(m[1]);
       const unitRaw = (m[2] || "").toLowerCase();
-      const single = parseFloat(num) === 1;
-      const unit = /^mo/.test(unitRaw) ? (single ? "month" : "months")
-        : /^d/.test(unitRaw) ? (single ? "day" : "days")
-        : (single ? "year" : "years");
-      return `${num} ${unit}`;
+      // Source data mixes whole years, decimal years ("6.5 Years"), and plain
+      // months ("8 months") — normalize everything to "X Years Y Months" so
+      // every row reads at the same granularity.
+      if (/^d/.test(unitRaw)) {
+        // Days are rare in the source data; too fine-grained to fold into a
+        // years/months figure, so surface as-is rather than guessing.
+        return `${m[1]} ${num === 1 ? "day" : "days"}`;
+      }
+      const totalMonths = Math.round(/^mo/.test(unitRaw) ? num : num * 12);
+      const years = Math.floor(totalMonths / 12);
+      const months = totalMonths % 12;
+      return `${years} ${years === 1 ? "Year" : "Years"} ${months} ${months === 1 ? "Month" : "Months"}`;
     };
     for (const it of items) {
       if (it.columns && it.columns.length >= 1) {

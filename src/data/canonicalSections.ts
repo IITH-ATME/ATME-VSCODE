@@ -21,8 +21,6 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
     aliases: ["research-initiative", "research-initiatives", "civil-research-initiatives", "cseds-research-initiative"] },
   { key: "student-learning-centric", label: "Student Learning Centric", short: "Student Learning",
     aliases: ["civil-resources", "cyber-security-resources", "mca-resources", "resources-mba", "resources", "resourses", "rd-for-students", "teachers-teaching-analysis", "cseds-resources", "bca-resources"] },
-  { key: "innovative-teaching", label: "Innovative Teaching Learning Methods", short: "Teaching Methods",
-    aliases: ["innovative-teaching-learning-methods", "cseds-innovative-teaching-learning-methods"] },
   { key: "industry-interface", label: "Industry Interface", short: "Industry Interface",
     aliases: ["industry-interface", "industry-interface-3", "ee-industry-interface", "civil-industry-interface", "data-science-industry-interface"] },
   { key: "placement", label: "Placement and Higher Studies", short: "Placements",
@@ -31,8 +29,7 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
     aliases: ["co-curricular-extracurricular-activities", "co-curricular-extra-curricular-activities", "extra-curricular-activities", "co-curricular-extracurricular-activities-mba", "professional-society-activities"] },
   { key: "news-letter", label: "News Letter", short: "Newsletter",
     aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter"] },
-  { key: "coe", label: "Calendar of Events (COE)", short: "COE", aliases: ["coe-cse-ds", "coe-cse-aiml"] },
-  { key: "magazine", label: "Magazine", short: "Magazine", aliases: ["cse-magzine"] },
+  { key: "coe", label: "Calendar of Events (COE)", short: "COE", aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml"] },
 ];
 
 export const PLACEHOLDER_PREFIX = "_section_";
@@ -64,12 +61,10 @@ export const FULL_MENU_DEPTS = new Set<string>([
 /**
  * Per-department overrides that drop a canonical section even though the
  * department is in FULL_MENU_DEPTS. Use when old.atme.edu.in genuinely has
- * no such page for that specific department (e.g. Civil Engineering has no
- * Magazine or Innovative Teaching Learning Methods page).
+ * no such page for that specific department.
  */
 export const DEPT_EXCLUDED_SECTIONS: Record<string, Set<string>> = {
-  ce: new Set(["magazine", "innovative-teaching"]),
-  mba: new Set(["infrastructure", "innovative-teaching"]),
+  mba: new Set(["infrastructure"]),
 };
 
 export type ResolvedSection = {

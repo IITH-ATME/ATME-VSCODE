@@ -94,72 +94,21 @@ function splitCombinedNewsletterMagazine(
 }
 
 /**
- * Normalize a newsletter markdown blob so issues render latest-first.
- * - Reorders bullet/standalone `[label](url.pdf)` lines by a year/sem score
- *   parsed from the link label (later year → top, EVEN > ODD within a year).
- * - Dedupes by URL and by (label + score) so stale broken atme.edu.in mirrors
- *   don't render as empty cards.
- * - Optionally prepends the dept's latest 2026 issue (from NEW_NEWSLETTERS).
+ * Normalize a newsletter markdown blob so the latest issue renders first.
+ * Prepends the dept's latest 2026 issue (from NEW_NEWSLETTERS), skipping the
+ * prepend when that URL is already present in the body. The rest of the
+ * document — headings, ordering, per-year/per-section grouping — is left
+ * untouched so PdfGridSections can group PDFs under their real "Academic
+ * Year ..." headings instead of a single flattened, re-sorted list.
  */
 function normalizeNewsletterMd(md: string, deptSlug: string): string {
   if (!md) return md;
   const latest = NEW_NEWSLETTERS[deptSlug];
-  const prefix = latest
-    ? `## Latest Issue\n\n### ${latest.heading}\n\n[${latest.heading}](${latest.url})\n\n`
-    : "";
-  const lines = md.split("\n");
-  type Item = { line: string; url: string; score: number; key: string };
-  const items: Item[] = [];
-  const linkRe = /^\s*(?:[-*]\s+)?\[([^\]]+)\]\(([^)\s]+\.pdf[^)]*)\)\s*$/i;
-  const scoreFor = (label: string): number => {
-    const m = label.match(/(20\d{2})\s*[-–—]\s*(\d{2,4})/);
-    let year = 0;
-    if (m) {
-      year = parseInt(m[1], 10);
-    } else {
-      const y = label.match(/(20\d{2})/);
-      if (y) year = parseInt(y[1], 10);
-    }
-    const isEven = /even/i.test(label);
-    const isOdd = /odd/i.test(label);
-    return year * 10 + (isEven ? 2 : isOdd ? 1 : 0);
-  };
-  for (const ln of lines) {
-    const m = ln.match(linkRe);
-    if (m) {
-      const label = m[1].trim();
-      const url = m[2].trim();
-      const score = scoreFor(label);
-      const key = label.toLowerCase().replace(/\s+/g, " ");
-      items.push({ line: ln, url, score, key });
-    }
-  }
-  // Skip prepend if the latest URL is already present in the body to avoid
-  // a duplicate "Latest Issue" card.
-  const latestUrl = latest?.url;
-  const alreadyHasLatest = latestUrl ? items.some((it) => it.url === latestUrl) : false;
-  const safePrefix = alreadyHasLatest ? "" : prefix;
-  if (items.length === 0) {
-    return safePrefix + md;
-  }
-  const seenUrl = new Set<string>();
-  const seenKey = new Set<string>();
-  const filtered: Item[] = [];
-  for (const it of items) {
-    if (seenUrl.has(it.url)) continue;
-    if (seenKey.has(it.key)) continue;
-    seenUrl.add(it.url);
-    seenKey.add(it.key);
-    filtered.push(it);
-  }
-  filtered.sort((a, b) => b.score - a.score);
-  const firstLinkIdx = lines.findIndex((l) => linkRe.test(l));
-  const lastLinkIdx = lines.reduce((last, l, i) => (linkRe.test(l) ? i : last), -1);
-  const head = firstLinkIdx > 0 ? lines.slice(0, firstLinkIdx) : [];
-  const tail = lastLinkIdx >= 0 && lastLinkIdx + 1 < lines.length ? lines.slice(lastLinkIdx + 1) : [];
-  const sorted = filtered.map((f) => f.line);
-  const out = [...head, ...sorted, ...tail].join("\n");
-  return safePrefix + out;
+  if (!latest) return md;
+  const alreadyHasLatest = md.includes(latest.url);
+  if (alreadyHasLatest) return md;
+  const prefix = `## Latest Issue\n\n### ${latest.heading}\n\n[${latest.heading}](${latest.url})\n\n`;
+  return prefix + md;
 }
 
 export const Route = createFileRoute("/departments/$slug/$page")({
@@ -738,8 +687,7 @@ function DeptSubPage() {
             <PdfGridSections
               md={bodyMd}
               fallbackTitle={niceTitle}
-              flat={canonKey === "achievements" || canonKey === "co-curricular" || canonKey === "news-letter" || /news-?letter/.test(k)}
-              mergeAll={canonKey === "news-letter" || /news-?letter/.test(k)}
+              flat={canonKey === "achievements" || canonKey === "co-curricular"}
             />
 
           ) : isAccordionPage ? (
@@ -1332,28 +1280,24 @@ function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: 
           <MD>{s.intro}</MD>
         </div>
       )}
-      {s.pdfs.length === 1 ? (
-        <div className="rounded-xl border-2 border-[#f5c518]/70 bg-white overflow-hidden">
-          <div className="flex items-center justify-between gap-3 px-4 py-2.5" style={{ backgroundColor: "#129199" }}>
-            <span className="text-sm font-semibold text-white truncate">{s.pdfs[0].label}</span>
-            <a
-              href={pdfFromAtmeUrl(s.pdfs[0].url)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-md bg-[#f5c518] px-2.5 py-1 text-xs font-semibold text-[#0d3438] hover:brightness-95"
-            >
-              Open
-            </a>
+      <div className="space-y-6">
+        {s.pdfs.map((p) => (
+          <div key={p.url} className="rounded-xl border-2 border-[#f5c518]/70 bg-white overflow-hidden">
+            <div className="flex items-center justify-between gap-3 px-4 py-2.5" style={{ backgroundColor: "#129199" }}>
+              <span className="text-sm font-semibold text-white truncate">{p.label}</span>
+              <a
+                href={pdfFromAtmeUrl(p.url)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-[#f5c518] px-2.5 py-1 text-xs font-semibold text-[#0d3438] hover:brightness-95"
+              >
+                Open
+              </a>
+            </div>
+            <PdfEmbed url={p.url} title={p.label} height={560} />
           </div>
-          <PdfEmbed url={s.pdfs[0].url} title={s.pdfs[0].label} height={560} />
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {s.pdfs.map((p) => (
-            <PdfThumbCard key={p.url} url={p.url} title={p.label} />
-          ))}
-        </div>
-      )}
+        ))}
+      </div>
     </>
   );
 
