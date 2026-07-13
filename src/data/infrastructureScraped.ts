@@ -341,151 +341,235 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ]
   },
   "ece": {
-    "sections": [
-      {
-        "heading": "Infrastructure / Facilities",
-        "paras": [
-          "Department has sufficient class rooms and most of them are equipped with multimedia projectors. Department has shared seminar hall and tutorial class rooms.",
-          "The department features well-equipped laboratories, each furnished with computers, essential software, necessary hardware, instruments, and appropriate furniture. These labs house modern and up-to-date equipment, ensuring students gain valuable hands-on experience across various domains of their curriculum, including VLSI, DSP, Digital Electronics, Microprocessors, Embedded Controllers, Computer Networks, Analog Electronics, and Communication."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Laboratories with UPS support",
-        "paras": [
-          "Analog and Digital Systems Design Laboratory",
-          "This laboratory equips students with hands-on experience in designing and testing analog and digital circuits using discrete components and ICs. It covers amplifiers, oscillators, op-amp applications, DACs, arithmetic and code conversion circuits, flip-flops, shift registers, and counters. Demonstration experiments include filters, 555 timer-based waveform generation, power supply design, and audio amplification. The course strengthens students’ skills in circuit analysis, implementation, and evaluation, laying a foundation for advanced electronics and embedded systems.",
-          "Communication Laboratory",
-          "This lab introduces students to analog and digital communication techniques through hands-on circuit design and testing. Key experiments include AM and FM modulation/demodulation using diode detectors, VCOs, and PLLs; pulse sampling and reconstruction; and pulse modulation methods such as PAM, PPM, and PWM. Students also explore frequency synthesizers, line coding, and PCM multiplexing. These exercises build foundational skills in signal processing, RF circuit design, and communication system implementation, preparing students for advanced roles in electronics and embedded communication technologies.",
-          "Control Systems – (IPCC)",
-          "This lab enables students to model, analyze, and simulate control systems using Scilab tool. Core experiments include block diagram reduction, signal flow graph analysis, time and frequency response evaluation, and stability testing using Routh, Root Locus, Bode, and Nyquist methods. Students also implement PI, PD, and PID controllers and study their impact on system performance. Through simulation-based learning, the lab strengthens understanding of system dynamics, controller design, and state-space modelling, preparing students for advanced applications in automation, robotics, and embedded control.",
-          "Digital System Design using Verilog – (IPCC)",
-          "This course introduces students to the principles of digital logic design and hardware modelling using Verilog HDL. It covers Boolean simplification techniques, combinational and sequential circuit design using flip-flops, counters, and MSI components. Students learn to model digital systems using data flow, behavioural, and structural Verilog descriptions. Lab sessions reinforce these concepts through the implementation of ALUs, code converters, multiplexers, encoders, decoders, and counters. Demonstration experiments using FPGA kits provide exposure to hardware interfacing. The course equips students with essential skills in digital system design, simulation, and HDL-based hardware implementation.",
-          "Electronic Principles and Circuits – (IPCC)",
-          "The laboratory component of this course reinforces theoretical concepts through hands-on circuit design, simulation (Multisim), and testing. Students engage with discrete components and simulation tools to explore rectifiers, voltage regulators, amplifiers, and waveform generators. Experiments include characterization of BJTs, JFETs, and MOSFETs, implementation of op-amp-based comparators and precision rectifiers, and design of oscillators and controlled rectifiers. Emphasis is placed on analysing device parameters, frequency response, and feedback behaviour. The lab cultivates practical skills in circuit construction, testing, and documentation, preparing students for real-world electronic system design.",
-          "Principles of Communication Systems – (IPCC)",
-          "The laboratory component of this course integrates theoretical concepts with practical experimentation using SCILAB tool. Students explore signal generation, modulation techniques, and digital transmission schemes through simulation and analysis. Key experiments include amplitude and frequency modulation/demodulation, signal sampling and reconstruction, time-division multiplexing, PCM encoding, and eye diagram plotting. The lab also introduces students to random signal modelling and spectral analysis of audio signals. Emphasis is placed on understanding signal behaviour in both time and frequency domains, evaluating system performance, and visualizing noise effects. This hands-on experience strengthens foundational knowledge in analog and digital communication systems and prepares students for advanced study and industry applications.",
-          "Digital Signal Processing – (IPCC)",
-          "The laboratory component of this course equips students with practical skills in signal generation, manipulation, and analysis using Scilab tool. Students implement discrete-time signals, perform convolution, analyse system responses, and compute DFTs and FFTs without built-in functions. They verify key properties of DFT and design FIR and IIR filters using windowing method. Through simulation and programming-based exercises, the lab reinforces theoretical concepts and develops proficiency in digital filter design, spectral analysis, and algorithmic implementation, preparing students for advanced applications in signal processing and embedded systems.",
-          "Digital Communication – (IPCC)",
-          "This laboratory course provides hands-on experience in digital modulation, coding, and simulation techniques essential for modern communication systems. Students design and implement ASK, PSK, FSK, and DPSK modulation schemes using electronic hardware. Through simulation platform Scilab, they explore vector space representations via Gram-Schmidt orthogonalization, model digital transmission over AWGN channels, and visualize signal constellations for QPSK and QAM. The lab also covers source and channel coding techniques including Huffman, Hamming, CRC, and convolutional codes. By integrating hardware and software-based experiments, the course strengthens students’ understanding of digital communication principles and prepares them for advanced applications in signal processing and wireless systems.",
-          "Embedded System Design – (IPCC)",
-          "This lab component introduces students to embedded programming and hardware interfacing using ARM Cortex-M3 microcontrollers. Through hands-on experiments, students develop embedded C and assembly programs for arithmetic operations, array processing, and control logic. They interface peripherals such as stepper motors, DACs, switches, relays, buzzers, and 7-segment displays, gaining practical exposure to embedded system integration. The lab reinforces concepts of memory access, instruction sets, and real-time control, using tools like Keil uVision for simulation and debugging. By bridging theory with hardware implementation, students build foundational skills for IoT, automation, and real-time embedded applications.",
-          "VLSI Design and Testing – (IPCC)",
-          "This laboratory course provides hands-on experience in digital circuit design, simulation, and ASIC implementation using Verilog HDL and industry-standard EDA tools like Cadence. Students model and verify combinational and sequential circuits, perform synthesis with timing and area constraints, and analyze gate-level netlists for power, delay, and critical paths. The lab emphasizes RTL-to-GDSII flow, including layout design, DRC/LVS checks, parasitic extraction, and post-layout simulation. Experiments span CMOS logic gates, arithmetic units, counters, amplifiers, and memory cells, integrating both digital and analog VLSI design principles. By bridging HDL-based design with physical implementation, students gain practical skills essential for ASIC development and semiconductor industry readiness."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Department Library",
-        "paras": [
-          "The library is equipped with 1500+ books which includes Prescribed text books, Reference textbooks, journals,General studies materials, Novels and student project reports samples, for quick reference for both students and staffs."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Licensed Software Tools",
-        "paras": [
-          "Description: BUNDLE-3 University Bundle includes Analog and Digital Front-End (FE) and Back-End (BE) tools.",
-          "Description: Cadence software tools for Analog and Digital front-end and back-end design, intended for academic and research use under the Cadence University Program at VLSI Incubation Centre.",
-          "Description: A professional-grade software package for system design and visual programming, enabling the creation of complex test, measurement, and control applications. Includes advanced development tools, debugging features, and integration capabilities for engineering and research projects."
-        ],
-        "items": [
-          "Product Name: BUNDLE-3 University Bundle Company: M/s Cadence Design Systems (Ireland) Ltd. License Type: Lifetime License Number of Users: 30 Users",
-          "Product Name: University Research Bundle Company: M/s Cadence Design Systems (Ireland) Ltd. License Type: 3 years Number of Users: 30 Users",
-          "Product: LabVIEW Professional Development Package Version: 2018 Company: NI Instruments License Type: Perpetual Number of Users: 10"
-        ]
-      },
-      {
-        "heading": "Hardware facilities available at the department",
-        "paras": [],
-        "items": [
-          "ARM Cortex 32 Bit Controller Board, MSP Kits, DSP Kits, FPGA Boards",
-          "myDAQ and myRIO Hardware NI Instruments – 10 Sets with Add-on Kits",
-          "Embedded Development Kits – IOT Evaluation Boards with Fundamental Sensors"
-        ]
-      },
-      {
-        "heading": "For the Students",
-        "paras": [],
-        "items": [
-          "IETE & IEEE Student Chapters for Technical activities.",
-          "Project Laboratory with both licensed and open-source tools support innovation, project work, and research activities.",
-          "Departmental Library with 1500+ Books.",
-          "Scholarships for meritorious students",
-          "Sponsorship from Various Organizations for projects like KSCST, VTU, etc.,",
-          "Student accident policy"
-        ]
-      },
-      {
-        "heading": "For Staffs",
-        "paras": [],
-        "items": [
-          "Research Incentives to promote the research activities like Participation in conference, FDP/STTP/Workshop/Industrial trainings & Publications",
-          "Staff Welfare Measure- Accidental policy",
-          "Internet Facility, Wi-Fi connectivity",
-          "Study / Sabbatical leave for higher studies / industrial training.",
-          "Maternity leave.",
-          "Transportation facility",
-          "Work load flexibly for faculty pursuing PhD.",
-          "Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities."
-        ]
-      },
-      {
-        "heading": "Research Laboratory",
-        "paras": [
-          "Research Center at Department of Electronics and Communication Engineering is recognized by Visvesvaraya Technological University, Belagavi. The research center emphasis on research under areas of specialization that include Wireless Sensor Networks, Image Processing, Biomedical Image Processing etc.,"
-        ],
-        "items": []
+  "sections": [
+    {
+      "heading": "Infrastructure / Facilities",
+      "paras": [
+        "Department has sufficient class rooms and most of them are equipped with multimedia projectors. Department has shared seminar hall and tutorial class rooms.",
+        "The department features well-equipped laboratories, each furnished with computers, essential software, necessary hardware, instruments, and appropriate furniture. These labs house modern and up-to-date equipment, ensuring students gain valuable hands-on experience across various domains of their curriculum, including VLSI, DSP, Digital Electronics, Microprocessors, Embedded Controllers, Computer Networks, Analog Electronics, and Communication."
+      ],
+      "items": []
+    },
+    {
+      "heading": "Analog and Digital Systems Design Laboratory",
+      "paras": [
+        "This laboratory equips students with hands-on experience in designing and testing analog and digital circuits using discrete components and ICs. It covers amplifiers, oscillators, op-amp applications, DACs, arithmetic and code conversion circuits, flip-flops, shift registers, and counters. Demonstration experiments include filters, 555 timer-based waveform generation, power supply design, and audio amplification. The course strengthens students’ skills in circuit analysis, implementation, and evaluation, laying a foundation for advanced electronics and embedded systems."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-analog-digital-systems-design.jpg",
+        "alt": "Analog and Digital Systems Design Laboratory"
       }
-    ],
-    "images": [
-      {
-        "url": "/images/uploads/2022/12/EC-03-1200x600.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Analog-and-Digital-Systems-Design-Laboratory_-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Communication-Laboratory-300x169.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Control-Systems-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Digital-System-Design-using-Verilog-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Electronic-Principles-and-Circuits-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Principles-of-Communication-Systems-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Digital-Signal-Processing-–-Lab-Component-IPCC-300x169.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Digital-Communication-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/Embedded-System-Design-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
-      },
-      {
-        "url": "/images/uploads/2025/08/VLSI-Design-and-Testing-–-Lab-Component-IPCC-300x225.jpg",
-        "alt": ""
+    },
+    {
+      "heading": "Communication Laboratory",
+      "paras": [
+        "This lab introduces students to analog and digital communication techniques through hands-on circuit design and testing. Key experiments include AM and FM modulation/demodulation using diode detectors, VCOs, and PLLs; pulse sampling and reconstruction; and pulse modulation methods such as PAM, PPM, and PWM. Students also explore frequency synthesizers, line coding, and PCM multiplexing. These exercises build foundational skills in signal processing, RF circuit design, and communication system implementation, preparing students for advanced roles in electronics and embedded communication technologies."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-communication.jpg",
+        "alt": "Communication Laboratory"
       }
-    ]
-  },
+    },
+    {
+      "heading": "Control Systems – (IPCC)",
+      "paras": [
+        "This lab enables students to model, analyze, and simulate control systems using Scilab tool. Core experiments include block diagram reduction, signal flow graph analysis, time and frequency response evaluation, and stability testing using Routh, Root Locus, Bode, and Nyquist methods. Students also implement PI, PD, and PID controllers and study their impact on system performance. Through simulation-based learning, the lab strengthens understanding of system dynamics, controller design, and state-space modelling, preparing students for advanced applications in automation, robotics, and embedded control."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-control-systems.jpg",
+        "alt": "Control Systems – (IPCC)"
+      }
+    },
+    {
+      "heading": "Digital System Design using Verilog – (IPCC)",
+      "paras": [
+        "This course introduces students to the principles of digital logic design and hardware modelling using Verilog HDL. It covers Boolean simplification techniques, combinational and sequential circuit design using flip-flops, counters, and MSI components. Students learn to model digital systems using data flow, behavioural, and structural Verilog descriptions. Lab sessions reinforce these concepts through the implementation of ALUs, code converters, multiplexers, encoders, decoders, and counters. Demonstration experiments using FPGA kits provide exposure to hardware interfacing. The course equips students with essential skills in digital system design, simulation, and HDL-based hardware implementation."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-digital-system-design-verilog.jpg",
+        "alt": "Digital System Design using Verilog – (IPCC)"
+      }
+    },
+    {
+      "heading": "Electronic Principles and Circuits – (IPCC)",
+      "paras": [
+        "The laboratory component of this course reinforces theoretical concepts through hands-on circuit design, simulation (Multisim), and testing. Students engage with discrete components and simulation tools to explore rectifiers, voltage regulators, amplifiers, and waveform generators. Experiments include characterization of BJTs, JFETs, and MOSFETs, implementation of op-amp-based comparators and precision rectifiers, and design of oscillators and controlled rectifiers. Emphasis is placed on analysing device parameters, frequency response, and feedback behaviour. The lab cultivates practical skills in circuit construction, testing, and documentation, preparing students for real-world electronic system design."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-electronic-principles-circuits.jpg",
+        "alt": "Electronic Principles and Circuits – (IPCC)"
+      }
+    },
+    {
+      "heading": "Principles of Communication Systems – (IPCC)",
+      "paras": [
+        "The laboratory component of this course integrates theoretical concepts with practical experimentation using SCILAB tool. Students explore signal generation, modulation techniques, and digital transmission schemes through simulation and analysis. Key experiments include amplitude and frequency modulation/demodulation, signal sampling and reconstruction, time-division multiplexing, PCM encoding, and eye diagram plotting. The lab also introduces students to random signal modelling and spectral analysis of audio signals. Emphasis is placed on understanding signal behaviour in both time and frequency domains, evaluating system performance, and visualizing noise effects. This hands-on experience strengthens foundational knowledge in analog and digital communication systems and prepares students for advanced study and industry applications."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-principles-communication-systems.jpg",
+        "alt": "Principles of Communication Systems – (IPCC)"
+      }
+    },
+    {
+      "heading": "Digital Signal Processing – (IPCC)",
+      "paras": [
+        "The laboratory component of this course equips students with practical skills in signal generation, manipulation, and analysis using Scilab tool. Students implement discrete-time signals, perform convolution, analyse system responses, and compute DFTs and FFTs without built-in functions. They verify key properties of DFT and design FIR and IIR filters using windowing method. Through simulation and programming-based exercises, the lab reinforces theoretical concepts and develops proficiency in digital filter design, spectral analysis, and algorithmic implementation, preparing students for advanced applications in signal processing and embedded systems."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-digital-signal-processing.jpg",
+        "alt": "Digital Signal Processing – (IPCC)"
+      }
+    },
+    {
+      "heading": "Digital Communication – (IPCC)",
+      "paras": [
+        "This laboratory course provides hands-on experience in digital modulation, coding, and simulation techniques essential for modern communication systems. Students design and implement ASK, PSK, FSK, and DPSK modulation schemes using electronic hardware. Through simulation platform Scilab, they explore vector space representations via Gram-Schmidt orthogonalization, model digital transmission over AWGN channels, and visualize signal constellations for QPSK and QAM. The lab also covers source and channel coding techniques including Huffman, Hamming, CRC, and convolutional codes. By integrating hardware and software-based experiments, the course strengthens students’ understanding of digital communication principles and prepares them for advanced applications in signal processing and wireless systems."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-digital-communication.jpg",
+        "alt": "Digital Communication – (IPCC)"
+      }
+    },
+    {
+      "heading": "Embedded System Design – (IPCC)",
+      "paras": [
+        "This lab component introduces students to embedded programming and hardware interfacing using ARM Cortex-M3 microcontrollers. Through hands-on experiments, students develop embedded C and assembly programs for arithmetic operations, array processing, and control logic. They interface peripherals such as stepper motors, DACs, switches, relays, buzzers, and 7-segment displays, gaining practical exposure to embedded system integration. The lab reinforces concepts of memory access, instruction sets, and real-time control, using tools like Keil uVision for simulation and debugging. By bridging theory with hardware implementation, students build foundational skills for IoT, automation, and real-time embedded applications."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-embedded-system-design.jpg",
+        "alt": "Embedded System Design – (IPCC)"
+      }
+    },
+    {
+      "heading": "VLSI Design and Testing – (IPCC)",
+      "paras": [
+        "This laboratory course provides hands-on experience in digital circuit design, simulation, and ASIC implementation using Verilog HDL and industry-standard EDA tools like Cadence. Students model and verify combinational and sequential circuits, perform synthesis with timing and area constraints, and analyze gate-level netlists for power, delay, and critical paths. The lab emphasizes RTL-to-GDSII flow, including layout design, DRC/LVS checks, parasitic extraction, and post-layout simulation. Experiments span CMOS logic gates, arithmetic units, counters, amplifiers, and memory cells, integrating both digital and analog VLSI design principles. By bridging HDL-based design with physical implementation, students gain practical skills essential for ASIC development and semiconductor industry readiness."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/ece-infra/lab-vlsi-design-testing.jpg",
+        "alt": "VLSI Design and Testing – (IPCC)"
+      }
+    },
+    {
+      "heading": "Department Library",
+      "paras": [
+        "The library is equipped with 1500+ books which includes Prescribed text books, Reference textbooks, journals,General studies materials, Novels and student project reports samples, for quick reference for both students and staffs."
+      ],
+      "items": []
+    },
+    {
+      "heading": "Licensed Software Tools",
+      "paras": [
+        "Description: BUNDLE-3 University Bundle includes Analog and Digital Front-End (FE) and Back-End (BE) tools.",
+        "Description: Cadence software tools for Analog and Digital front-end and back-end design, intended for academic and research use under the Cadence University Program at VLSI Incubation Centre.",
+        "Description: A professional-grade software package for system design and visual programming, enabling the creation of complex test, measurement, and control applications. Includes advanced development tools, debugging features, and integration capabilities for engineering and research projects."
+      ],
+      "items": [
+        "Product Name: BUNDLE-3 University Bundle Company: M/s Cadence Design Systems (Ireland) Ltd. License Type: Lifetime License Number of Users: 30 Users",
+        "Product Name: University Research Bundle Company: M/s Cadence Design Systems (Ireland) Ltd. License Type: 3 years Number of Users: 30 Users",
+        "Product: LabVIEW Professional Development Package Version: 2018 Company: NI Instruments License Type: Perpetual Number of Users: 10"
+      ]
+    },
+    {
+      "heading": "Hardware facilities available at the department",
+      "paras": [],
+      "items": [
+        "ARM Cortex 32 Bit Controller Board, MSP Kits, DSP Kits, FPGA Boards",
+        "myDAQ and myRIO Hardware NI Instruments – 10 Sets with Add-on Kits",
+        "Embedded Development Kits – IOT Evaluation Boards with Fundamental Sensors"
+      ]
+    },
+    {
+      "heading": "For the Students",
+      "paras": [],
+      "items": [
+        "IETE & IEEE Student Chapters for Technical activities.",
+        "Project Laboratory with both licensed and open-source tools support innovation, project work, and research activities.",
+        "Departmental Library with 1500+ Books.",
+        "Scholarships for meritorious students",
+        "Sponsorship from Various Organizations for projects like KSCST, VTU, etc.,",
+        "Student accident policy"
+      ]
+    },
+    {
+      "heading": "For Staffs",
+      "paras": [],
+      "items": [
+        "Research Incentives to promote the research activities like Participation in conference, FDP/STTP/Workshop/Industrial trainings & Publications",
+        "Staff Welfare Measure- Accidental policy",
+        "Internet Facility, Wi-Fi connectivity",
+        "Study / Sabbatical leave for higher studies / industrial training.",
+        "Maternity leave.",
+        "Transportation facility",
+        "Work load flexibly for faculty pursuing PhD.",
+        "Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities."
+      ]
+    },
+    {
+      "heading": "Research Laboratory",
+      "paras": [
+        "Research Center at Department of Electronics and Communication Engineering is recognized by Visvesvaraya Technological University, Belagavi. The research center emphasis on research under areas of specialization that include Wireless Sensor Networks, Image Processing, Biomedical Image Processing etc.,"
+      ],
+      "items": []
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/uploads/2022/12/EC-03-1200x600.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Analog-and-Digital-Systems-Design-Laboratory_-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Communication-Laboratory-300x169.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Control-Systems-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Digital-System-Design-using-Verilog-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Electronic-Principles-and-Circuits-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Principles-of-Communication-Systems-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Digital-Signal-Processing-–-Lab-Component-IPCC-300x169.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Digital-Communication-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/Embedded-System-Design-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    },
+    {
+      "url": "/images/uploads/2025/08/VLSI-Design-and-Testing-–-Lab-Component-IPCC-300x225.jpg",
+      "alt": ""
+    }
+  ]
+},
   "eee": {
   "sections": [
     {

@@ -1088,13 +1088,21 @@ function AccordionBody({ md }: { md: string }) {
     .replace(/^\s*[-*]\s*$/gm, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
-  // Dedupe cards by direct .pdf URL (drop viewer wrappers).
+  // Dedupe cards by direct .pdf URL (drop viewer wrappers). Compare by the
+  // *resolved* CDN url rather than the raw one — the same PDF can appear in
+  // the source markdown once already rewritten to its CDN copy (a direct
+  // link) and once still pointing at raw atme.edu.in (inside a URL-encoded
+  // pdf-poster viewer wrapper, which rewritePdfUrls' regex can't see through
+  // since the path there is percent-encoded) — those two raw strings differ
+  // even though they're the same file, so a raw-string Set silently let
+  // duplicates through.
   const seen = new Set<string>();
   const pdfs: { url: string; label: string }[] = [];
   for (const p of rawPdfs) {
     if (!/\.pdf(?:$|[?#])/i.test(p.url)) continue;
-    if (seen.has(p.url)) continue;
-    seen.add(p.url);
+    const resolvedKey = pdfFromAtmeUrl(p.url);
+    if (seen.has(resolvedKey)) continue;
+    seen.add(resolvedKey);
     // Replace generic labels with a filename-derived title so each card is
     // labelled meaningfully instead of "Download File" / "View Fullscreen".
     const label = !p.label || GENERIC_PDF_LABELS.test(p.label) || URL_LIKE_LABEL.test(p.label) || /^\s*\d+\s*$/.test(p.label)
@@ -1239,7 +1247,13 @@ function parsePdfSections(md: string): {
   // WordPress site after rewrite. The live atme.edu.in URLs are reachable
   // and the user wants every linked PDF preserved, so keep them all.
   const addPdf = (rawUrl: string, rawLabel: string) => {
-    const canonical = extractCanonicalPdf(rawUrl);
+    // Dedupe by the *resolved* CDN url, not the raw extracted one — the same
+    // PDF can appear once as a direct link (already CDN-rewritten upstream by
+    // rewritePdfUrls) and once inside a pdf-poster viewer wrapper (whose
+    // percent-encoded path rewritePdfUrls' regex can't match, so it stays as
+    // the raw atme.edu.in url) — those two raw strings differ even though
+    // they're the same file, letting duplicates slip past a raw-string Set.
+    const canonical = pdfFromAtmeUrl(extractCanonicalPdf(rawUrl));
     if (seenFiles.has(canonical)) return;
     seenFiles.add(canonical);
 
