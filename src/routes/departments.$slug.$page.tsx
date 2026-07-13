@@ -692,18 +692,7 @@ function DeptSubPage() {
 
           ) : isAccordionPage ? (
             <>
-              <AccordionedContentWithFallback
-                md={bodyMd}
-                canonKey={canonKey || inferCanonKey(pageKey)}
-                deptName={dept.name}
-                openFirst={/research/.test(k)}
-                flat={
-                  (canonKey || inferCanonKey(pageKey)) === "achievements" ||
-                  (canonKey || inferCanonKey(pageKey)) === "co-curricular" ||
-                  (canonKey || inferCanonKey(pageKey)) === "industry-interface" ||
-                  /achievement|achivement|activit|co-curricular|extra-curricular|extracurricular|professional-society|industry/.test(k)
-                }
-              />
+              <SimpleTwoLevelAccordion md={bodyMd} openFirst={/research/.test(k)} />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
           ) : (
@@ -933,6 +922,90 @@ function AccordionedContent({ md, openFirst = false, flat = false }: { md: strin
         <div className={PROSE_CLS}><MD>{promoteBoldHeadings(fullPreamble)}</MD></div>
       )}
       <NestedAccordion nodes={pruned} level={0} keyPrefix="s" openFirst={openFirst} />
+    </div>
+  );
+}
+
+/** Split markdown into a flat list of top-level "#"-heading sections, each
+ *  optionally holding nested standalone-`**Bold**`-line sub-sections. Used by
+ *  achievements pages, which need a reliable two-level accordion (top-level
+ *  headings like "Faculty Achievements" / "Student Achievements", nested
+ *  bold sub-groups like "Sports Achievements") without the extra generality
+ *  (wrapper-stripping, contact-line detection, depth-flattening) that the
+ *  shared splitSections/AccordionedContent "flat" pipeline applies. */
+function parseTwoLevelAccordion(md: string): { title: string; body: string; children: { title: string; body: string }[] }[] {
+  const lines = md.split("\n");
+  const headingRe = /^(#{1,4})\s+(.+?)\s*$/;
+  const boldRe = /^\s*\*\*([^*\n]+?)\*\*\s*:?\s*$/;
+  const top: { title: string; body: string; children: { title: string; body: string }[] }[] = [];
+  let curTop: (typeof top)[number] | null = null;
+  let curChild: { title: string; body: string } | null = null;
+  for (const line of lines) {
+    const hm = headingRe.exec(line);
+    const bm = !hm ? boldRe.exec(line) : null;
+    if (hm) {
+      curChild = null;
+      curTop = { title: cleanHeading(hm[2]), body: "", children: [] };
+      top.push(curTop);
+    } else if (bm && curTop) {
+      curChild = { title: cleanHeading(bm[1]), body: "" };
+      curTop.children.push(curChild);
+    } else if (curChild) {
+      curChild.body += line + "\n";
+    } else if (curTop) {
+      curTop.body += line + "\n";
+    }
+  }
+  return top.filter((t) => t.title);
+}
+
+function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFirst?: boolean }) {
+  const sections = parseTwoLevelAccordion(md);
+  if (sections.length === 0) return null;
+  return (
+    <div className="w-full space-y-3">
+      {sections.map((s, i) =>
+        !s.body.trim() && s.children.length === 0 ? (
+          <div
+            key={i}
+            className="rounded-xl border-2 border-[#f5c518]/60 px-5 py-3 font-display text-base md:text-lg font-semibold text-[#0d3438]"
+            style={{ backgroundColor: "#f5f9f9" }}
+          >
+            {s.title}
+          </div>
+        ) : (
+        <details key={i} open={openFirst && i === 0} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
+          <summary
+            className="flex items-center justify-between gap-3 px-5 py-3.5 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
+            style={{ backgroundColor: "#129199" }}
+          >
+            <span className="font-display text-base md:text-lg font-semibold text-white">{s.title}</span>
+            <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+          </summary>
+          <div className="px-4 md:px-5 pb-5 pt-4 bg-white space-y-5">
+            {s.body.trim() && <AccordionBody md={s.body.trim()} />}
+            {s.children.length > 0 && (
+              <div className="w-full space-y-2">
+                {s.children.map((c, j) => (
+                  <details key={j} className="group rounded-lg border border-[#129199]/30 overflow-hidden">
+                    <summary
+                      className="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
+                      style={{ backgroundColor: "#0e7a80" }}
+                    >
+                      <span className="font-display text-sm md:text-base font-semibold text-white">{c.title}</span>
+                      <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+                    </summary>
+                    <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
+                      {c.body.trim() && <AccordionBody md={c.body.trim()} />}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            )}
+          </div>
+        </details>
+        )
+      )}
     </div>
   );
 }
@@ -1363,15 +1436,11 @@ function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: 
 
           if (!hasYears) {
             return (
-              <Accordion type="multiple" className="space-y-3">
+              <div className="space-y-3">
                 {sections.map((s, i) => (
-                  <AccordionItem
-                    key={i}
-                    value={`pdf-sec-${i}`}
-                    className="rounded-xl border-2 border-[#f5c518] overflow-hidden"
-                  >
-                    <AccordionTrigger
-                      className="px-4 md:px-5 py-3 hover:no-underline text-left text-white [&>svg]:text-white hover:brightness-95"
+                  <details key={i} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
+                    <summary
+                      className="flex items-center justify-between gap-3 px-4 md:px-5 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
                       style={{ backgroundColor: "#129199" }}
                     >
                       <div className="flex flex-1 items-center justify-between gap-3 pr-2">
@@ -1382,28 +1451,25 @@ function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: 
                           {s.pdfs.length} PDF{s.pdfs.length === 1 ? "" : "s"}
                         </span>
                       </div>
-                    </AccordionTrigger>
-                    <AccordionContent className="px-4 md:px-5 pb-5 pt-4 bg-white">
+                      <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+                    </summary>
+                    <div className="px-4 md:px-5 pb-5 pt-4 bg-white">
                       {renderSectionBody(s)}
-                    </AccordionContent>
-                  </AccordionItem>
+                    </div>
+                  </details>
                 ))}
-              </Accordion>
+              </div>
             );
           }
           return (
-            <Accordion type="multiple" className="space-y-3">
+            <div className="space-y-3">
               {groups.map((g, gi) => {
                 const total = g.sections.reduce((n, s) => n + s.pdfs.length, 0);
                 const label = g.year || g.sections[0]?.title || fallbackTitle;
                 return (
-                  <AccordionItem
-                    key={gi}
-                    value={`yr-${gi}`}
-                    className="rounded-xl border-2 border-[#f5c518] overflow-hidden"
-                  >
-                    <AccordionTrigger
-                      className="px-4 md:px-5 py-3 hover:no-underline text-left text-white [&>svg]:text-white hover:brightness-95"
+                  <details key={gi} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
+                    <summary
+                      className="flex items-center justify-between gap-3 px-4 md:px-5 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
                       style={{ backgroundColor: "#129199" }}
                     >
                       <div className="flex flex-1 items-center justify-between gap-3 pr-2">
@@ -1414,20 +1480,17 @@ function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: 
                           {total} PDF{total === 1 ? "" : "s"}
                         </span>
                       </div>
-                    </AccordionTrigger>
-                    <AccordionContent className="px-4 md:px-5 pb-5 pt-4 bg-white">
+                      <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+                    </summary>
+                    <div className="px-4 md:px-5 pb-5 pt-4 bg-white">
                       {g.sections.length === 1 && (!g.year || g.sections[0].title === g.year) ? (
                         renderSectionBody(g.sections[0])
                       ) : (
-                        <Accordion type="multiple" className="space-y-2">
+                        <div className="space-y-2">
                           {g.sections.map((s, i) => (
-                            <AccordionItem
-                              key={i}
-                              value={`yr-${gi}-${i}`}
-                              className="rounded-lg border border-[#f5c518]/70 overflow-hidden"
-                            >
-                              <AccordionTrigger
-                                className="px-3 md:px-4 py-2.5 hover:no-underline text-left text-white [&>svg]:text-white hover:brightness-95"
+                            <details key={i} className="group rounded-lg border border-[#f5c518]/70 overflow-hidden">
+                              <summary
+                                className="flex items-center justify-between gap-3 px-3 md:px-4 py-2.5 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
                                 style={{ backgroundColor: "#0e7a80" }}
                               >
                                 <div className="flex flex-1 items-center justify-between gap-3 pr-2">
@@ -1438,19 +1501,20 @@ function PdfGridSections({ md, fallbackTitle, flat = false, mergeAll = false }: 
                                     {s.pdfs.length} PDF{s.pdfs.length === 1 ? "" : "s"}
                                   </span>
                                 </div>
-                              </AccordionTrigger>
-                              <AccordionContent className="px-3 md:px-4 pb-4 pt-3 bg-white">
+                                <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+                              </summary>
+                              <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
                                 {renderSectionBody(s)}
-                              </AccordionContent>
-                            </AccordionItem>
+                              </div>
+                            </details>
                           ))}
-                        </Accordion>
+                        </div>
                       )}
-                    </AccordionContent>
-                  </AccordionItem>
+                    </div>
+                  </details>
                 );
               })}
-            </Accordion>
+            </div>
           );
         })()
 
@@ -2259,7 +2323,8 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
     groupHeader: boolean;
     noImage?: boolean;
     image?: { url: string; alt: string };
-    subsections?: { heading: string; paras: string[]; items: string[] }[];
+    subsections?: { heading: string; paras: string[]; items: string[]; table?: { headers: string[]; rows: string[][] } }[];
+    table?: { headers: string[]; rows: string[][] };
   };
   const isIntro = (s: { heading?: string }, i: number) =>
     i === 0 && /infrastructure(\s*&?\s*facilities)?/i.test((s.heading || "").trim());
@@ -2268,18 +2333,18 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
   sections.forEach((s, i) => {
     const intro = isIntro(s, i);
     if (intro) {
-      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: true, groupHeader: false });
+      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: true, groupHeader: false, table: s.table });
       return;
     }
     // If section already declares subsections, render as a single nested row.
     if (s.subsections && s.subsections.length > 0) {
-      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: false, groupHeader: false, noImage: s.noImage, image: s.image, subsections: s.subsections });
+      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: false, groupHeader: false, noImage: s.noImage, image: s.image, subsections: s.subsections, table: s.table });
       return;
     }
     const chunks = splitParasIntoLabs(s.paras);
     const hasMultiLabs = chunks.length > 1 && chunks.some((c) => c.heading);
     if (!hasMultiLabs) {
-      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: false, groupHeader: false, noImage: s.noImage, image: s.image });
+      rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: false, groupHeader: false, noImage: s.noImage, image: s.image, table: s.table });
       return;
     }
     if (s.heading) {
@@ -2333,6 +2398,7 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
                 paras={r.paras}
                 items={r.items}
                 subsections={r.subsections}
+                table={r.table}
                 reverse={wantsImg && reverse}
                 deptName={deptName}
               />
@@ -2344,12 +2410,40 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
   );
 }
 
+function InfraDataTable({ table }: { table: { headers: string[]; rows: string[][] } }) {
+  return (
+    <div className="my-3 overflow-x-auto rounded-lg border border-[#f5c518]/70">
+      <table className="w-full border-collapse text-sm">
+        <thead>
+          <tr>
+            {table.headers.map((h, i) => (
+              <th key={i} className="px-3 py-2 text-left font-semibold text-white" style={{ backgroundColor: "#129199" }}>
+                {h}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {table.rows.map((row, ri) => (
+            <tr key={ri} className={ri > 0 ? "border-t" : ""} style={{ borderColor: "#f5c518" }}>
+              {row.map((cell, ci) => (
+                <td key={ci} className="px-3 py-2 align-top text-foreground/85">{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 function InfraRow({
   img,
   heading,
   paras,
   items,
   subsections,
+  table,
   reverse,
   deptName,
 }: {
@@ -2357,7 +2451,8 @@ function InfraRow({
   heading?: string;
   paras: string[];
   items: string[];
-  subsections?: { heading: string; paras: string[]; items: string[] }[];
+  subsections?: { heading: string; paras: string[]; items: string[]; table?: { headers: string[]; rows: string[][] } }[];
+  table?: { headers: string[]; rows: string[][] };
   reverse: boolean;
   deptName: string;
 }) {
@@ -2382,6 +2477,7 @@ function InfraRow({
         {heading && (
           <h3 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-3">{heading}</h3>
         )}
+        {table && <InfraDataTable table={table} />}
         {paras.map((p, j) => {
           const labelMatch = p.match(/^([A-Z][A-Za-z\s]+):\s*/);
           if (labelMatch) {
@@ -2409,6 +2505,7 @@ function InfraRow({
             {subsections.map((sub, k) => (
               <div key={k} className="rounded-lg border border-[#129199]/15 bg-[#129199]/5 p-4">
                 <h4 className="font-display text-base md:text-lg font-semibold text-[#129199] mb-2">{sub.heading}</h4>
+                {sub.table && <InfraDataTable table={sub.table} />}
                 {sub.paras.map((p, j) => (
                   <p key={j} className="text-sm md:text-[15px] text-foreground/85 leading-relaxed mb-2 text-left sm:text-justify hyphens-auto">{p}</p>
                 ))}

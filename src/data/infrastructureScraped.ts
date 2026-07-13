@@ -1,6 +1,7 @@
 // Auto-generated from atme.edu.in infrastructure pages.
-export type InfraSubSection = { heading: string; paras: string[]; items: string[] };
-export type InfraSection = { heading: string; paras: string[]; items: string[]; subsections?: InfraSubSection[]; noImage?: boolean; image?: { url: string; alt: string } };
+export type InfraTable = { headers: string[]; rows: string[][] };
+export type InfraSubSection = { heading: string; paras: string[]; items: string[]; table?: InfraTable };
+export type InfraSection = { heading: string; paras: string[]; items: string[]; subsections?: InfraSubSection[]; noImage?: boolean; image?: { url: string; alt: string }; table?: InfraTable };
 export type InfraData = { sections: InfraSection[]; images: { url: string; alt: string }[] };
 export const INFRA_DATA: Record<string, InfraData> = {
 
@@ -486,288 +487,591 @@ export const INFRA_DATA: Record<string, InfraData> = {
     ]
   },
   "eee": {
-    "sections": [
-      {
-        "heading": "Infrastructure & Facilities",
-        "paras": [
-          "Department has sufficient class rooms and laboratories, all the classrooms are equipped with projectors. All laboratories are well equipped as prescribed by VTU. The existing facilities offered by the program to render the curriculum are shown in the table:"
+  "sections": [
+    {
+      "heading": "Infrastructure & Facilities",
+      "paras": [
+        "Department has sufficient class rooms and laboratories, all the classrooms are equipped with projectors. All laboratories are well equipped as prescribed by VTU. The existing facilities offered by the program to render the curriculum are shown in the table:"
+      ],
+      "items": [],
+      "table": {
+        "headers": [
+          "Sl. No.",
+          "Room Number",
+          "Room Type",
+          "Carpet Area in Sq-m",
+          "AICET Norms in Sq-m"
         ],
-        "items": []
-      },
-      {
-        "heading": "Department Library",
-        "paras": [
-          "The library is having a collection of titles with a total of 638 Technical & aptitude books. The student project reports are also available for quick reference for students."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/eeelib-1024x593.jpg", "alt": "" }
-      },
-      {
-        "heading": "Transformers and Generators Laboratory",
-        "paras": [
-          "This laboratory is utilized by the students to conduct experiments related to Transformers and Generators machines and gain practical experience on them. This laboratory supports teaching, research and consultancy work on Transformers & Genearots machines. The laboratory can also be used for project work related to electrical machines and energy conversion."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/trans-450x350.jpg", "alt": "trans" }
-      },
-      {
-        "heading": "Electric Circuit Analysis Laboratory",
-        "paras": [
-          "The Electric Circuit Analysis Laboratory aims to provide students with hands-on experience in analyzing both DC and AC electrical circuits. Students explore the behavior of simple circuits under open and short circuit conditions and measure key parameters such as resonant frequency, bandwidth, and quality factor in resonance circuits. The lab includes verification of fundamental network theorems such as Thevenin’s, Norton’s, Superposition, and Maximum Power Transfer theorems. Experiments on power factor correction and measurement of time constants in RC circuits enhance students’ understanding of circuit dynamics. The lab also enables students to measure power in three-phase circuits using the two-wattmeter method, bridging the gap between theory and practical application."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/electric-circuit-450x350.jpg", "alt": "electric circuit" }
-      },
-      {
-        "heading": "Analog Electronic Circuits Laboratory",
-        "paras": [
-          "The laboratory facilitates design and study of the performance of various analog electronic circuits. Lab mainly concentrates on designing and analyzing of rectifiers, amplifiers, oscillators. Lab is equipped with the basic electronic instruments such as Digital meters, Power supplies, function generators, etc."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/analog-electric-circuit-450x350.jpg", "alt": "analog electric circuit" }
-      },
-      {
-        "heading": "Electrical Hardware Laboratory",
-        "paras": [
-          "The Electrical Hardware Laboratory is aimed at imparting practical knowledge of basic electrical circuit analysis, wiring techniques, and measurement methods. Students verify Kirchhoff’s laws for both DC and AC circuits and learn to measure current, power, and power factor for various types of lamps. The lab also includes evaluation of voltmeter loading effect, resistance measurement using different methods, and determination of inductance using the three-voltmeter method. Experiments on star and delta connections, lamp control circuits, earth resistance measurement, and fuse characteristics help students gain hands-on experience with real-world electrical systems."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/electrical-hardware-450x350.jpg", "alt": "electrical hardware" }
-      },
-      {
-        "heading": "Power Electronics Laboratory",
-        "paras": [
-          "This laboratory deals with studying the performance characteristics of power electronic switching devices like SCR, MOSFET, IGBT etc. Power Electronic control modules for speed control of separately excited dc motor, universal motor etc., are available."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/power-450x350.jpg", "alt": "power" }
-      },
-      {
-        "heading": "Signals & DSP Laboratory",
-        "paras": [
-          "In this laboratory the digital signals are simulated using octave software. The student will be simulating linear and circular convolution and also study the design and simulation of IIR an FIR filters using various methods."
-        ],
-        "items": [],
-        "noImage": true
-      },
-      {
-        "heading": "Power System Analysis Laboratory",
-        "paras": [
-          "Laboratory is equipped with 24 computers with Mi-Power Simulation Package and LAN facility. Student can carry out load flow studies, short circuit analysis, Economic Dispatch and many power system related studies using MiPower."
-        ],
-        "items": [],
-        "noImage": true
-      },
-      {
-        "heading": "Electric Motors Laboratory",
-        "paras": [
-          "This laboratory focuses on performing experiments on DC machines to determine their characteristics and evaluate different control methods. Students also carry out tests for the pre-determination of performance characteristics of DC machines. Additionally, the lab includes load tests on both single-phase and three-phase induction motors to assess their performance. Tests on induction motors are conducted to analyze their operational characteristics, and experiments on synchronous motors are performed to plot their performance curves."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/motors-450x350.jpg", "alt": "motors" }
-      },
-      {
-        "heading": "Microcontrollers Laboratory",
-        "paras": [
-          "This laboratory enables students to understand basic concepts and applications of Microcontrollers. It is designed to understand the internal organization of Intel 8051 Microcontrollers, and for all the control oriented applications extensively used."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/mcs-450x350.jpg", "alt": "mcs" }
-      },
-      {
-        "heading": "Sci Lab / MATLAB for Electrical and Electronic Measurements Laboratory",
-        "paras": [
-          "This laboratory enables students to design and simulate the measurement of resistance using Wheatstone and Kelvin’s double bridge, and inductance using Schering, De-Sauty’s, Maxwell, and Anderson bridges. The lab also covers the simulation-based analysis of frequency, real/reactive power, power factor, and energy in single-phase and three-phase circuits."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/sci-matlab-450x350.jpg", "alt": "sci-matlab" }
-      },
-      {
-        "heading": "Control System Laboratory",
-        "paras": [
-          "A control system plays a vital role in studying the stability studies of all electrical systems, which is highlighted in this laboratory. The analysis of Lag Lead compensator network, frequency response, effect of PID controllers, Speed torque Characteristics of AC & DC Servo motors, MATLAB programming for second order, third order & DC Position control system are taught to students."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/control-system-450x350.jpg", "alt": "control system" }
-      },
-      {
-        "heading": "Relay and High Voltage Laboratory",
-        "paras": [
-          "The laboratory is equipped with state of the art high voltage equipments to study the breakdown characteristics of air insulation for both uniform and non-uniform configurations. In relay part, the laboratory has different types of electromechanical, microprocessor based relays and negative sequence relay, these characteristics are analyzed and protection scheme for generator and motor are studied."
-        ],
-        "items": [],
-        "image": { "url": "/images/uploads/2025/07/relay-450x350.jpg", "alt": "relay" }
-      },
-      {
-        "heading": "Project Laboratory",
-        "paras": [
-          "The Project Lab consists of Personal Computers, DC Power Supply, 2 CH Digital Storage Oscilloscope, and other equipment. Students can work on 3-phase machines for performance study and also on DC motors provided in machines laboratory. Students and Faculty members utilize the laboratories for their mini projects, projects and research activities. The table given below indicates facilities and utilization of the project laboratory"
-        ],
-        "items": [
-          "Mi-power: The students and faculty members utilize for their projects activities. The tool is useful for analyzing the power system network.",
-          "Keil micro vision 5 free version software tool: Project works carried by students using microcontroller and its simulation tool.",
-          "P-Spice version 9.1 free ware software for design of power circuits: This software is used for simulation and verification of analog and mixed-signal circuits before the implementation of project work.",
-          "AutoCAD: For Electrical wiring diagram.",
-          "OCTAVE 7.0: For simulation Purpose.",
-          "Arduino IDE: For development of the project."
-        ],
-        "noImage": true
-      },
-      {
-        "heading": "VTU Recognized R & D Centre",
-        "paras": [
-          "Research Laboratories",
-          "Research Center at Department of Electrical and Electronics Engineering is recognized by Visvesvaraya Technological University, Belagavi. The research center emphasis on research under areas of specialization that include Power Systems Engineering."
-        ],
-        "items": [],
-        "noImage": true
-      },
-      {
-        "heading": "Major Equipment and Software Tools Available in Various Laboratories",
-        "noImage": true,
-        "paras": [],
-        "items": [
-          "Single Phase transformer 2KVA/230V 1:1, 1KVA/230V 1:1",
-          "Movable 3 Phase, 440V, 10A Autotransformer and Portable Single Phase auto-transformer, 270V, 10A.",
-          "5HP, 220V, 1500RPM DC shunt motor coupled to 3 phase, 415V, 3.5KVA, salient pole alternator including Field excitation for alternator -0-220V, 2A.",
-          "DC Regulated Power Supply 0-30V, 2A.",
-          "Dual trace Oscilloscope 30MHz.",
-          "Open , short and Closed Circuit Kit",
-          "DC Regulated Power supply 0-30V, 2A.",
-          "Dual trace oscilloscope 30MHz.",
-          "Signal generator 30 MHz",
-          "KCL KVL Kit.",
-          "Three phase Star connected and Delta Connected Resistive load.",
-          "Three phase Star connected Inductive load.",
-          "Two way and Three Way Kit.",
-          "Earth Resistance measuring Kit.",
-          "Static characteristics of SCR, MOSFET & IGBT Modules.",
-          "Speed control of stepper motor module.",
-          "SCR digital firing circuit.",
-          "IGBT based inverter module.",
-          "Lead Network Kit, Lag – Lead Network Kit.",
-          "PID Controller Kit.",
-          "DC Servo Motor Kit.",
-          "Frequency Response of Second Order System.",
-          "AC Servo Motor.",
-          "Synchro pair characteristics Study Unit.",
-          "Personal Computer (Intel Core i3 processor, 3.30GHz, 500 GB Hard Disc, 4GB RAM, CentOS 6 (GPL))",
-          "MiPower Software (8.0)",
-          "Numerical Relay Under Voltage and Over Voltage",
-          "Numerical Over Current Relay Test Kit",
-          "Over Current Electro Mechanical Relay Kit",
-          "Over Voltage Electro Mechanical Relay Kit",
-          "Motor Protection Scheme fault Study",
-          "Over Current Relay – Directional and IDMT Features",
-          "62.5mm Sphere gap with water resistor",
-          "Field mapping using electrolytic tank",
-          "DC rectifier unit 220V, 100A, with line and load regulations and protection circuit",
-          "DC Shunt Motor coupled to 3HP, 220V, 1500RPM DC shunt generator",
-          "DC Compound Motor (5HP) coupled to 3HP, 220V, 1500RPM DC compound generator",
-          "DC shunt motor 3HP, 1500RPM, 220V mechanical loading arrangement",
-          "DC series motor 3HP-220V, 1500RPM coupled to 3HP, 220V, 1500RPM DC series generator.",
-          "3HP, 220V, 1500RPM DC shunt motor mechanical loading arrangement",
-          "Personal Computer (Intel Core i3 processor, 3.30GHz, 500 GB Hard Disc, 4Gb RAM, CentOS 6 (GPL))",
-          "Flash pro evaluation kit",
-          "LCD & Keyboard interfacing kit",
-          "Dual DAC interfacing kit",
-          "Seven segment display & HEX Keyboard interfacing kit",
-          "Arduino boards.",
-          "ES8266",
-          "Sensors: DHT11, IR, etc.",
-          "DC Motors, Relay, OLED.",
-          "Digital Trainer Kit",
-          "Probes",
-          "Ic’s as per the requirement",
-          "Digital IC Tester",
-          "Personal Computer (Intel Core i3 processor, 3.30GHz, 500 GB Hard Disc, 4GB RAM, CentOS 6 (GPL))",
-          "Dual trace Oscilloscope 30MHz",
-          "DC Power Supply 0-30V, 10A"
-        ]
-      },
-      {
-        "heading": "Instructional Materials",
-        "noImage": true,
-        "paras": [
-          "Facilities for Students:",
-          "Facilities for Faculty:",
-          "Integrated Learning Resources:"
-        ],
-        "items": [
-          "The department offers a well-equipped Department Library to support academic and research needs with relevant textbooks and reference materials.",
-          "Faculty have access to Wi-Fi connectivity with firewall protection, ensuring safe and secure internet usage.",
-          "The department is also connected to the Centralized Digital Library, providing access to a wide range of e-resources and academic content. In addition, users benefit from IEEE resource access, enabling exposure to global research publications and technical papers.",
-          "A dedicated Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities.",
-          "ATME Library is a resource center for teaching, learning & research.",
-          "Library has e-Learning Centre, Reference Section and Journals/Magazines.",
-          "Library holds a hybrid collection of printed as well as electronic resources which include books, journals, databases, audio-visuals, CDs/DVDs, e-books, e-journals, reports, course materials; previous years’ question papers, Bound Volumes, Project Reports, case studies, conference proceedings, training manuals, etc.",
-          "As the e-journals access is IP based, the stakeholders can take benefit of this facility from anywhere in the campus at any time. Some of them are listed in the table below"
+        "rows": [
+          [
+            "1",
+            "E001",
+            "HV & Relay Laboratory",
+            "103",
+            "66"
+          ],
+          [
+            "2",
+            "E001A",
+            "Project Laboratory",
+            "55",
+            "33"
+          ],
+          [
+            "3",
+            "E003",
+            "Class Room",
+            "103",
+            "66"
+          ],
+          [
+            "4",
+            "E004",
+            "Seminar Hall/Class Room",
+            "103",
+            "33"
+          ],
+          [
+            "5",
+            "E006",
+            "DSP/PSS Lab",
+            "103",
+            "66"
+          ],
+          [
+            "6",
+            "E007",
+            "EM-1/EM-2 Lab",
+            "200",
+            "66"
+          ],
+          [
+            "7",
+            "E101A",
+            "BEE Lab",
+            "86",
+            "66"
+          ],
+          [
+            "8",
+            "E101B",
+            "Electronics/OLIC Lab",
+            "86",
+            "66"
+          ],
+          [
+            "9",
+            "E103",
+            "Class Room",
+            "69",
+            "66"
+          ],
+          [
+            "10",
+            "E104",
+            "MC/CS Lab",
+            "103",
+            "66"
+          ],
+          [
+            "11",
+            "E105",
+            "Research Lab",
+            "39",
+            "33"
+          ]
         ]
       }
-    ],
-    "images": [
-      {
-        "url": "/images/uploads/2025/07/1-scaled-1000x500.jpg",
-        "alt": "1"
-      },
-      {
-        "url": "/images/uploads/2025/07/2-scaled-1000x500.jpg",
-        "alt": "2"
-      },
-      {
-        "url": "/images/uploads/2025/07/3-scaled-1000x500.jpeg",
-        "alt": "3"
-      },
-      {
-        "url": "/images/uploads/2025/07/4-scaled-1000x500.jpg",
-        "alt": "4"
-      },
-      {
-        "url": "/images/uploads/2025/07/eeelib-1024x593.jpg",
-        "alt": ""
-      },
-      {
+    },
+    {
+      "heading": "Department Library",
+      "paras": [
+        "The library is having a collection of titles with a total of 646 Technical & aptitude books. The student project reports are also available for quick reference for students."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/eee-infra/library-department-library.png",
+        "alt": "Department Library"
+      }
+    },
+    {
+      "heading": "Transformers and Generators Laboratory",
+      "paras": [
+        "This laboratory is utilized by the students to conduct experiments related to Transformers and Generators machines and gain practical experience on them. This laboratory supports teaching, research and consultancy work on Transformers & Genearots machines. The laboratory can also be used for project work related to electrical machines and energy conversion."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/trans-450x350.jpg",
         "alt": "trans"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Electric Circuit Analysis Laboratory",
+      "paras": [
+        "The Electric Circuit Analysis Laboratory aims to provide students with hands-on experience in analyzing both DC and AC electrical circuits. Students explore the behavior of simple circuits under open and short circuit conditions and measure key parameters such as resonant frequency, bandwidth, and quality factor in resonance circuits. The lab includes verification of fundamental network theorems such as Thevenin’s, Norton’s, Superposition, and Maximum Power Transfer theorems. Experiments on power factor correction and measurement of time constants in RC circuits enhance students’ understanding of circuit dynamics. The lab also enables students to measure power in three-phase circuits using the two-wattmeter method, bridging the gap between theory and practical application."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/electric-circuit-450x350.jpg",
         "alt": "electric circuit"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Analog Electronic Circuits Laboratory",
+      "paras": [
+        "The laboratory facilitates design and study of the performance of various analog electronic circuits. Lab mainly concentrates on designing and analyzing of rectifiers, amplifiers, oscillators. Lab is equipped with the basic electronic instruments such as Digital meters, Power supplies, function generators, etc."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/analog-electric-circuit-450x350.jpg",
         "alt": "analog electric circuit"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Electrical Hardware Laboratory",
+      "paras": [
+        "The Electrical Hardware Laboratory is aimed at imparting practical knowledge of basic electrical circuit analysis, wiring techniques, and measurement methods. Students verify Kirchhoff’s laws for both DC and AC circuits and learn to measure current, power, and power factor for various types of lamps. The lab also includes evaluation of voltmeter loading effect, resistance measurement using different methods, and determination of inductance using the three-voltmeter method. Experiments on star and delta connections, lamp control circuits, earth resistance measurement, and fuse characteristics help students gain hands-on experience with real-world electrical systems."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/electrical-hardware-450x350.jpg",
         "alt": "electrical hardware"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Power Electronics Laboratory",
+      "paras": [
+        "This laboratory deals with studying the performance characteristics of power electronic switching devices like SCR, MOSFET, IGBT etc. Power Electronic control modules for speed control of separately excited dc motor, universal motor etc., are available."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/power-450x350.jpg",
         "alt": "power"
-      },
-      {
-        "url": "/images/uploads/2025/07/mcs-450x350.jpg",
-        "alt": "mcs"
-      },
-      {
-        "url": "/images/uploads/2025/07/sci-matlab-450x350.jpg",
-        "alt": "sci-matlab"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Signals & DSP Laboratory",
+      "paras": [
+        "In this laboratory the digital signals are simulated using octave software. The student will be simulating linear and circular convolution and also study the design and simulation of IIR an FIR filters using various methods."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/eee-infra/lab-microcontrollers-dsp-laboratory.png",
+        "alt": "Microcontrollers / Digital Signal Processing Laboratory"
+      }
+    },
+    {
+      "heading": "Power System Analysis Laboratory",
+      "paras": [
+        "Laboratory is equipped with 24 computers with Mi-Power Simulation Package and LAN facility. Student can carry out load flow studies, short circuit analysis, Economic Dispatch and many power system related studies using MiPower."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/eee-infra/lab-power-system-simulation-sci-lab-matlab-laboratory.png",
+        "alt": "Power System Simulation Laboratory / Sci Lab or MATLAB for Electrical and Electronic Measurements Laboratory"
+      }
+    },
+    {
+      "heading": "Electric Motors Laboratory",
+      "paras": [
+        "This laboratory focuses on performing experiments on DC machines to determine their characteristics and evaluate different control methods. Students also carry out tests for the pre-determination of performance characteristics of DC machines. Additionally, the lab includes load tests on both single-phase and three-phase induction motors to assess their performance. Tests on induction motors are conducted to analyze their operational characteristics, and experiments on synchronous motors are performed to plot their performance curves."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/motors-450x350.jpg",
         "alt": "motors"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Microcontrollers Laboratory",
+      "paras": [
+        "This laboratory enables students to understand basic concepts and applications of Microcontrollers. It is designed to understand the internal organization of Intel 8051 Microcontrollers, and for all the control oriented applications extensively used."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/uploads/2025/07/mcs-450x350.jpg",
+        "alt": "mcs"
+      }
+    },
+    {
+      "heading": "Sci Lab / MATLAB for Electrical and Electronic Measurements Laboratory",
+      "paras": [
+        "This laboratory enables students to design and simulate the measurement of resistance using Wheatstone and Kelvin’s double bridge, and inductance using Schering, De-Sauty’s, Maxwell, and Anderson bridges. The lab also covers the simulation-based analysis of frequency, real/reactive power, power factor, and energy in single-phase and three-phase circuits."
+      ],
+      "items": [],
+      "image": {
+        "url": "/images/uploads/2025/07/sci-matlab-450x350.jpg",
+        "alt": "sci-matlab"
+      }
+    },
+    {
+      "heading": "Control System Laboratory",
+      "paras": [
+        "A control system plays a vital role in studying the stability studies of all electrical systems, which is highlighted in this laboratory. The analysis of Lag Lead compensator network, frequency response, effect of PID controllers, Speed torque Characteristics of AC & DC Servo motors, MATLAB programming for second order, third order & DC Position control system are taught to students."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/control-system-450x350.jpg",
         "alt": "control system"
-      },
-      {
+      }
+    },
+    {
+      "heading": "Relay and High Voltage Laboratory",
+      "paras": [
+        "The laboratory is equipped with state of the art high voltage equipments to study the breakdown characteristics of air insulation for both uniform and non-uniform configurations. In relay part, the laboratory has different types of electromechanical, microprocessor based relays and negative sequence relay, these characteristics are analyzed and protection scheme for generator and motor are studied."
+      ],
+      "items": [],
+      "image": {
         "url": "/images/uploads/2025/07/relay-450x350.jpg",
         "alt": "relay"
       }
-    ]
-  },
+    },
+    {
+      "heading": "Project Laboratory",
+      "paras": [
+        "The Project Lab consists of Personal Computers, DC Power Supply, 2 CH Digital Storage Oscilloscope, and other equipment. Students can work on 3-phase machines for performance study and also on DC motors provided in machines laboratory. Students and Faculty members utilize the laboratories for their mini projects, projects and research activities. The table given below indicates facilities and utilization of the project laboratory"
+      ],
+      "items": [],
+      "table": {
+        "headers": [
+          "SL. No.",
+          "Facilities",
+          "Resource/Utilization"
+        ],
+        "rows": [
+          [
+            "1",
+            "Computer workstation\nIntel Core i3\n2 GB RAM,\n250GB Hard disc",
+            "Mi-power: The students and faculty members utilize for their projects activities. The tool is useful for analyzing the power system network.\nKeil micro vision software tool: Project works carried by students using microcontroller and its simulation tool.\nP-Spice software tool for design of power circuits: This software is used for simulation and verification of analog and mixed-signal circuits before the implementation of project work.\nAutoCAD: For Electrical wiring diagram.\nOCTAVE: For simulation Purpose.\nArduino IDE: For development of the project."
+          ],
+          [
+            "2",
+            "Solar monitoring software",
+            "SEMS: Integrated with CESC for net metering provides online data of power flow, voltage profile, energy flow etc."
+          ],
+          [
+            "3",
+            "Campus Power monitoring software",
+            "Emporia: Online power data monitoring of college campus."
+          ],
+          [
+            "4",
+            "Internet facility",
+            "Internet/Intranet with data transfer of 1 Gbps bandwidth for uninterrupted browsing"
+          ],
+          [
+            "5",
+            "Soldering Workstation",
+            "To create major project/ mini project models."
+          ],
+          [
+            "6",
+            "Three Phase Distribution Transformer testing variac 60A rated",
+            "For estimation of transformer efficiency."
+          ],
+          [
+            "7",
+            "Energy meters",
+            "For energy auditing purpose"
+          ],
+          [
+            "8",
+            "Wattmeter's and Ammeters Analog type",
+            "For the development of projects."
+          ],
+          [
+            "9",
+            "Phase shifting transformer three Phase 500VA",
+            "For the development of power quality projects."
+          ],
+          [
+            "10",
+            "Regulated Power supply 32V, 10A rated",
+            "For the development of projects."
+          ],
+          [
+            "11",
+            "Auto compute LCR Q meter",
+            "To find the resistance, inductance, capacitance and Q factor of different Components."
+          ],
+          [
+            "12",
+            "Sensors",
+            "All sensors modules are available for the development of major project/mini project. Eg: Arduino uno, ESP 8266, IR Module, Gas Sensor, Moisture sensor, SPO2 Sensor, Heart Sensor."
+          ],
+          [
+            "13",
+            "Flashing Kits",
+            "Flashing kits are available for PIC microcontroller, ARM microcontroller, 8051 microcontroller."
+          ],
+          [
+            "14",
+            "UPS 600VA",
+            "Used in case of Power failure in all Personal Computers System"
+          ]
+        ]
+      },
+      "noImage": true
+    },
+    {
+      "heading": "VTU Recognized R & D Centre",
+      "paras": [
+        "Research Laboratories",
+        "Research Center at Department of Electrical and Electronics Engineering is recognized by Visvesvaraya Technological University, Belagavi. The research center emphasis on research under areas of specialization that include Power Systems Engineering."
+      ],
+      "items": [],
+      "table": {
+        "headers": [
+          "University",
+          "Year of Recognition",
+          "Reference No."
+        ],
+        "rows": [
+          [
+            "Visvesvaraya Technological University, Belagavi",
+            "2016",
+            "VTU/ACA-RES-CEN/2016-17/7973"
+          ]
+        ]
+      },
+      "noImage": true
+    },
+    {
+      "heading": "Major Equipment and Software Tools Available in Various Laboratories",
+      "noImage": true,
+      "paras": [],
+      "items": [],
+      "table": {
+        "headers": [
+          "SL. No.",
+          "Laboratory Description in the Curriculum",
+          "Name of the major Equipment"
+        ],
+        "rows": [
+          [
+            "1",
+            "Transformers and Generators laboratory",
+            "1. Single Phase transformer 2KVA/230V 1:1, 1KVA/230V 1:1.\n2. Movable 3 Phase, 440V, 10A Autotransformer and Portable Single Phase auto-transformer, 270V, 10A.\n3. 5HP, 220V, 1500RPM DC shunt motor coupled to 3 phase, 415V, 3.5KVA, salient pole alternator including Field excitation for alternator 0-220V, 2A."
+          ],
+          [
+            "2",
+            "Electric Circuit Analysis Laboratory",
+            "1. DC Regulated Power Supply 0-30V, 2A.\n2. Dual trace Oscilloscope 30MHz.\n3. Open , short and Closed Circuit Kit"
+          ],
+          [
+            "3",
+            "Analog Electronic circuits Laboratory",
+            "1. DC Regulated Power supply 0-30V, 2A.\n2. Dual trace oscilloscope 30MHz.\n3. Signal generator 30 MHz"
+          ],
+          [
+            "4",
+            "Electrical Hardware Laboratory",
+            "1. KCL KVL Kit.\n2. Three phase Star connected and Delta Connected Resistive load.\n3. Three phase Star connected Inductive load.\n4. Two way and Three Way Kit.\n5. Earth Resistance measuring Kit."
+          ],
+          [
+            "5",
+            "Power Electronics Laboratory",
+            "1. Static characteristics of SCR, MOSFET & IGBT Modules.\n2. Speed control of stepper motor module.\n3. SCR digital firing circuit.\n4. IGBT based inverter module."
+          ],
+          [
+            "6",
+            "Control System Laboratory",
+            "1. Lead Network Kit, Lag - Lead Network Kit.\n2. PID Controller Kit.\n3. DC Servo Motor Kit.\n4. Frequency Response of Second Order System.\n5. AC Servo Motor.\n6. Synchro pair characteristics Study Unit."
+          ],
+          [
+            "7",
+            "Power System Simulation Laboratory",
+            "1. Personal Computer (Intel Core i3 processor, 3.30GHz, 250 GB SSD, 12GB RAM, Windows 11 OS)\n2. MiPower Software (8.0)"
+          ],
+          [
+            "8",
+            "Relay and High Voltage Laboratory",
+            "1. Numerical Relay Under Voltage and Over Voltage\n2. Numerical Over Current Relay Test Kit\n3. Over Current Electro Mechanical Relay Kit\n4. Over Voltage Electro Mechanical Relay Kit\n5. Motor Protection Scheme fault Study\n6. Over Current Relay – Directional and IDMT Features\n7. 62.5mm Sphere gap with water resistor\n8. Field mapping using electrolytic tank"
+          ],
+          [
+            "9",
+            "Electric Motors Laboratory",
+            "1. DC rectifier unit 220V, 100A, with line and load regulations and protection circuit\n2. DC Shunt Motor coupled to 3HP, 220V, 1500RPM DC shunt generator\n3. DC Compound Motor (5HP) coupled to 3HP, 220V, 1500RPM DC compound generator\n4. DC shunt motor 3HP, 1500RPM, 220V mechanical loading arrangement\n5. DC series motor 3HP-220V, 1500RPM coupled to 3HP, 220V, 1500RPM DC series generator.\n6. 3HP, 220V, 1500RPM DC shunt motor mechanical loading arrangement"
+          ],
+          [
+            "10",
+            "Microcontrollers Laboratory",
+            "1. Personal Computer (Intel Core i3 processor, 3.30GHz, 250 GB SSD, 12GB RAM, Windows 11 OS)\n2. Flash pro evaluation kit\n3. LCD & Keyboard interfacing kit\n4. Dual DAC interfacing kit\n5. Seven segment display & HEX Keyboard interfacing kit"
+          ],
+          [
+            "11",
+            "Arduino & Raspberry Pi Based Projects (Introduced in 2023-24)",
+            "1. Arduino boards.\n2. ES8266\n3. Sensors: DHT11, IR, etc.\n4. DC Motors, Relay, OLED."
+          ],
+          [
+            "12",
+            "Sci Lab/MAT Laboratory for Electrical and Electronic Measurements (Introduced in 2023-24)",
+            "Personal Computer (Intel Core i3 processor, 3.30GHz, 250 GB SSD, 12GB RAM, Windows 11 OS)"
+          ],
+          [
+            "13",
+            "Digital Signal Processing Laboratory",
+            "Personal Computer (Intel Core i3 processor, 3.30GHz, 250 GB SSD, 12GB RAM, Windows 11 OS)"
+          ],
+          [
+            "14",
+            "Digital System Design Laboratory",
+            "1. Digital Trainer Kit\n2. Probes\n3. Ic's as per the requirement\n4. Digital IC Tester"
+          ],
+          [
+            "15",
+            "Project Laboratory",
+            "1. Personal Computer (Intel Core i3 processor, 3.30GHz, 250 GB SSD, 12GB RAM, Windows 11 OS)\n2. Dual trace Oscilloscope 30MHz\n3. DC Power Supply 0-30V, 10A"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Additional Facilities",
+      "noImage": true,
+      "paras": [],
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Facilities for Students",
+          "paras": [],
+          "items": [],
+          "table": {
+            "headers": [
+              "SL. No.",
+              "Facility Name",
+              "Details",
+              "Reason for Creating facility"
+            ],
+            "rows": [
+              [
+                "1",
+                "Virtual Lab is connected through the facilities of premier institutions.",
+                "Remote access to simulation-based experiments in key electrical labs. LMS integration with videos, animations & self evaluation tools.",
+                "Provides hands-on learning, safe & cost-effective alternative, enhances practical understanding. Simulation-based experiments, self-paced learning, conceptual clarity."
+              ],
+              [
+                "2",
+                "Industrial Automation Training",
+                "Facilities provided at Industry (KGTTI) List of software's: Eco structure control expert (PLC) and vijio design(HMI) and AVEVA plant SCADA (licenced software) Hardware kits: 1.PLC and HMI Stations and Static panels for training purpose 2.SCADA Stations: UNIT 1 and Unit 2",
+                "Enhance student understanding of industrial automation. Hands-on PLC programming and sensor applications"
+              ],
+              [
+                "3",
+                "Embedded Systems Training",
+                "Facilities provided by the Industry at campus Software's: 1. Keil uVision5 2. MPLAB IDE 3. Arduino IDE 4. STM32CubeIDE 5. Raspberry Pi OS Hardware Support offered: 8051, PIC16F877A, ARM LPC2148, Arduino Mega 2560 / ATmega2560, ESP32 Controller, STMicroelectronics,NUCLEO F446RE, Microcontroller development board, Raspberry Pi 5 Model 4GB",
+                "Encourage innovation in embedded and control systems. Power system analysis, simulations"
+              ],
+              [
+                "4",
+                "Department Library",
+                "Collection of textbooks, references, project reports & open source software (Keil, AutoCAD, MS Office, etc.)",
+                "Supports self-study, research, and academic excellence."
+              ],
+              [
+                "5",
+                "Wi-Fi & Internet Facilities",
+                "100 Mbps internet for seamless connectivity. Access to domain specific platforms (IEEE, Science Direct).",
+                "Enables access to global academic resources & promotes research and self learning."
+              ],
+              [
+                "6",
+                "TECHOIR-LEARNMAGICA",
+                "Aptitude Test Engine for verbal, reasoning & analytical assessment.",
+                "Improves problem-solving, analytical, and logical reasoning for competitive exams & careers."
+              ],
+              [
+                "7",
+                "NPTEL Video Resources",
+                "Access to NPTEL videos",
+                "Enhances virtual learning & subject understanding."
+              ],
+              [
+                "8",
+                "Class Room with ICT facility",
+                "Live streaming, session recording, web navigation. Interactive teaching modules with videos/presentations.",
+                "Enhances learning through interactive teaching tools. Enables real-time feedback. ICT-based content delivery, technical seminars, project evaluations."
+              ],
+              [
+                "9",
+                "Access to Central Library facility",
+                "D Space, OPAC-KOHA, E-Resources VTU Consortium etc",
+                "These facilities collectively enable long-term digital preservation, improve accessibility to academic content, and support research and self-learning. They enhance user experience in searching, locating, and managing library resources. By providing access to high-quality, peer-reviewed digital content across disciplines, they effectively support the academic curriculum, and student projects, thereby enriching the overall teaching and learning environment."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Facilities for Faculty",
+          "paras": [],
+          "items": [
+            "The department offers a well-equipped Department Library to support academic and research needs with relevant textbooks and reference materials.",
+            "Faculty have access to Wi-Fi connectivity with firewall protection, ensuring safe and secure internet usage.",
+            "The department is also connected to the Centralized Digital Library, providing access to a wide range of e-resources and academic content. In addition, users benefit from IEEE resource access, enabling exposure to global research publications and technical papers.",
+            "A dedicated Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities."
+          ]
+        },
+        {
+          "heading": "Integrated Learning Resources",
+          "paras": [],
+          "items": [
+            "ATME Library is a resource center for teaching, learning & research.",
+            "Library has e-Learning Centre, Reference Section and Journals/Magazines.",
+            "Library holds a hybrid collection of printed as well as electronic resources which include books, journals, databases, audio-visuals, CDs/DVDs, e-books, e-journals, reports, course materials; previous years’ question papers, Bound Volumes, Project Reports, case studies, conference proceedings, training manuals, etc.",
+            "As the e-journals access is IP based, the stakeholders can take benefit of this facility from anywhere in the campus at any time. Some of them are listed in the table below:"
+          ],
+          "table": {
+            "headers": [
+              "Sl. No.",
+              "Database Name",
+              "Website"
+            ],
+            "rows": [
+              [
+                "1",
+                "IEEE Xplore Digital Library",
+                "https://ieeexplore.ieee.org/"
+              ],
+              [
+                "2",
+                "Science Direct",
+                "https://www.sciencedirect.com/"
+              ],
+              [
+                "3",
+                "Springer (E-Journals & E-Books)",
+                "https://link.springer.com/"
+              ],
+              [
+                "4",
+                "NPTEL online videos",
+                "https://onlinecourses.nptel.ac.in/"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/uploads/2025/07/1-scaled-1000x500.jpg",
+      "alt": "1"
+    },
+    {
+      "url": "/images/uploads/2025/07/2-scaled-1000x500.jpg",
+      "alt": "2"
+    },
+    {
+      "url": "/images/uploads/2025/07/3-scaled-1000x500.jpeg",
+      "alt": "3"
+    },
+    {
+      "url": "/images/uploads/2025/07/4-scaled-1000x500.jpg",
+      "alt": "4"
+    }
+  ]
+},
   "me": {
     "sections": [
       {

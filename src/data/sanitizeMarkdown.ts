@@ -701,6 +701,7 @@ export function sanitizeMarkdown(md: string): string {
   {
     const lines = out.split("\n");
     const isHeading = (l: string) => /^#{1,6}\s+/.test(l);
+    const headingDepth = (l: string): number => /^(#{1,6})\s+/.exec(l)?.[1].length ?? 99;
     // Year-like headings (e.g. "#### [AY 2025-26](...)", "## 2024-2025",
     // "### Dynamics-2025") are structural group labels — keep them even when
     // they sit directly above another heading with no body between.
@@ -709,9 +710,22 @@ export function sanitizeMarkdown(md: string): string {
     for (let i = 0; i < lines.length; i++) {
       if (!isHeading(lines[i])) continue;
       if (isYearHeading(lines[i])) continue;
+      const depth = headingDepth(lines[i]);
       let j = i + 1;
       let hasContent = false;
-      while (j < lines.length && !isHeading(lines[j])) {
+      while (j < lines.length) {
+        if (isHeading(lines[j])) {
+          // A deeper heading immediately below is a nested child section
+          // (e.g. a category heading like "#### MOU Details" directly
+          // above "### 2024-25") — that's real structure, not an empty
+          // wrapper. Some scraped pages assign heading levels inconsistently
+          // (a "####" category followed by a "###" year), so also treat an
+          // immediately-following year heading as content regardless of its
+          // relative depth. Only a heading that's neither deeper nor a year
+          // label closes this one out with nothing in between.
+          if (headingDepth(lines[j]) > depth || isYearHeading(lines[j])) hasContent = true;
+          break;
+        }
         if (lines[j].trim() !== "") { hasContent = true; break; }
         j++;
       }

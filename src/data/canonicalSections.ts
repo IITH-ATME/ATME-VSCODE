@@ -30,7 +30,7 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
   { key: "news-letter", label: "News Letter", short: "Newsletter",
     aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter", "csd-newsletter", "cseds-news-letter-and-magazines"] },
   { key: "coe", label: "Calendar of Events (COE)", short: "COE",
-    aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml", "coe-cse-csd", "cyber-security-coe", "coe-mca", "coe-mba", "coe-cv"] },
+    aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml", "coe-cse-csd", "cyber-security-coe", "coe-mca", "coe-mba", "coe-cv", "ee-coe"] },
 ];
 
 export const PLACEHOLDER_PREFIX = "_section_";
