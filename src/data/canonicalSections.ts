@@ -26,10 +26,11 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
   { key: "placement", label: "Placement and Higher Studies", short: "Placements",
     aliases: ["placement", "placement-details", "placement-higher-studies", "cseds-placements"] },
   { key: "co-curricular", label: "Co-curricular & Extracurricular Activities", short: "Activities",
-    aliases: ["co-curricular-extracurricular-activities", "co-curricular-extra-curricular-activities", "extra-curricular-activities", "co-curricular-extracurricular-activities-mba", "professional-society-activities"] },
+    aliases: ["co-curricular-extracurricular-activities", "co-curricular-extra-curricular-activities", "extra-curricular-activities", "co-curricular-extracurricular-activities-mba", "professional-society-activities", "csd-cocurricular"] },
   { key: "news-letter", label: "News Letter", short: "Newsletter",
-    aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter"] },
-  { key: "coe", label: "Calendar of Events (COE)", short: "COE", aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml"] },
+    aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter", "csd-newsletter", "cseds-news-letter-and-magazines"] },
+  { key: "coe", label: "Calendar of Events (COE)", short: "COE",
+    aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml", "coe-cse-csd", "cyber-security-coe", "coe-mca", "coe-mba", "coe-cv"] },
 ];
 
 export const PLACEHOLDER_PREFIX = "_section_";
