@@ -1174,6 +1174,20 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "items": []
       },
       {
+        "heading": "Department Library",
+        "noImage": true,
+        "paras": [
+          "The departmental library is started with an idea to cater the needs of the students to enhance their knowledge by providing more additional books for their reference.",
+          "At present the Department library comprises more than 800 volumes of various disciplines in the Mechanical Engineering."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Lab Infrastructure",
+        "paras": [],
+        "items": []
+      },
+      {
         "heading": "Engineering Graphics Laboratory",
         "noImage": true,
         "paras": [
@@ -1278,15 +1292,6 @@ export const INFRA_DATA: Record<string, InfraData> = {
         "paras": [
           "Project lab is used by the final year students to fabricate their projects. The facilities Fitting, Welding and Sheet metal work. Various equipment and Engineering tools are provided in this lab.",
           "Major equipment's include Bench vices, Leg vice, Fitting tools, Arc welding Machine and Sheet metal work tools."
-        ],
-        "items": []
-      },
-      {
-        "heading": "Department Library",
-        "noImage": true,
-        "paras": [
-          "The departmental library is started with an idea to cater the needs of the students to enhance their knowledge by providing more additional books for their reference.",
-          "At present the Department library comprises more than 800 volumes of various disciplines in the Mechanical Engineering."
         ],
         "items": []
       }

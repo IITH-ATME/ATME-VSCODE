@@ -239,6 +239,7 @@ function cleanHeading(s: string): string {
     .replace(/https?:\/\/\S+/g, "")
     .replace(/[\[\]()]/g, "")
     .replace(/\\#\S*/g, "")
+    .replace(/!+/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -458,7 +459,7 @@ function parseInfraBlocks(md: string): { image: string | null; alt: string; text
 
 const PROSE_CLS = "prose prose-slate max-w-none prose-headings:font-display prose-headings:text-[#129199] prose-a:text-[#129199] prose-img:rounded-lg prose-img:w-auto prose-img:h-auto prose-img:max-w-full prose-img:max-h-[420px] prose-img:object-contain prose-img:mx-auto prose-img:block prose-img:bg-white prose-img:border prose-img:border-border prose-p:text-justify hyphens-auto";
 
-const TABLE_CLS = "w-full table-auto border-collapse text-sm md:text-base border border-[#f5c518] [&_th]:border [&_th]:border-[#f5c518] [&_td]:border [&_td]:border-[#f5c518] [&_th]:bg-[#129199] [&_th]:text-white [&_th]:text-center [&_th]:p-3 [&_th]:align-middle [&_th]:whitespace-normal [&_th]:break-words [&_td]:p-3 [&_td]:text-center [&_td]:align-middle [&_td]:whitespace-normal [&_td]:break-words";
+const TABLE_CLS = "w-full table-auto border-collapse text-sm md:text-base border border-[#f5c518] [&_th]:border [&_th]:border-[#f5c518] [&_td]:border [&_td]:border-[#f5c518] [&_th]:bg-[#129199] [&_th]:text-white [&_th]:text-center [&_th]:p-3 [&_th]:align-middle [&_th]:whitespace-normal [&_th]:break-words [&_td]:p-3 [&_td]:text-left [&_td]:align-middle [&_td]:whitespace-normal [&_td]:break-words";
 
 function MD({ children }: { children: string }) {
   return (
@@ -956,7 +957,9 @@ function parseTwoLevelAccordion(md: string): { title: string; body: string; chil
       curTop.body += line + "\n";
     }
   }
-  return top.filter((t) => t.title);
+  return top
+    .filter((t) => t.title)
+    .map((t) => ({ ...t, children: t.children.filter((c) => c.title) }));
 }
 
 function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFirst?: boolean }) {
@@ -966,12 +969,9 @@ function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFi
     <div className="w-full space-y-3">
       {sections.map((s, i) =>
         !s.body.trim() && s.children.length === 0 ? (
-          <div
-            key={i}
-            className="rounded-xl border-2 border-[#f5c518]/60 px-5 py-3 font-display text-base md:text-lg font-semibold text-[#0d3438]"
-            style={{ backgroundColor: "#f5f9f9" }}
-          >
-            {s.title}
+          <div key={i} className="pt-2 text-center">
+            <h3 className="font-display text-lg md:text-xl font-bold text-[#0d3438]">{s.title}</h3>
+            <div className="mx-auto mt-2 h-1 w-1/2 rounded-full" style={{ backgroundColor: "#f5c518" }} />
           </div>
         ) : (
         <details key={i} open={openFirst && i === 0} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
@@ -986,20 +986,27 @@ function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFi
             {s.body.trim() && <AccordionBody md={s.body.trim()} />}
             {s.children.length > 0 && (
               <div className="w-full space-y-2">
-                {s.children.map((c, j) => (
-                  <details key={j} className="group rounded-lg border border-[#129199]/30 overflow-hidden">
-                    <summary
-                      className="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
-                      style={{ backgroundColor: "#0e7a80" }}
-                    >
-                      <span className="font-display text-sm md:text-base font-semibold text-white">{c.title}</span>
-                      <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
-                    </summary>
-                    <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
-                      {c.body.trim() && <AccordionBody md={c.body.trim()} />}
+                {s.children.map((c, j) =>
+                  !c.body.trim() ? (
+                    <div key={j} className="pt-1 text-center">
+                      <h4 className="font-display text-sm md:text-base font-semibold text-[#0d3438]">{c.title}</h4>
+                      <div className="mx-auto mt-1.5 h-0.5 w-1/3 rounded-full" style={{ backgroundColor: "#f5c518" }} />
                     </div>
-                  </details>
-                ))}
+                  ) : (
+                    <details key={j} className="group rounded-lg border border-[#129199]/30 overflow-hidden">
+                      <summary
+                        className="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
+                        style={{ backgroundColor: "#0e7a80" }}
+                      >
+                        <span className="font-display text-sm md:text-base font-semibold text-white">{c.title}</span>
+                        <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+                      </summary>
+                      <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
+                        <AccordionBody md={c.body.trim()} />
+                      </div>
+                    </details>
+                  )
+                )}
               </div>
             )}
           </div>
@@ -1110,11 +1117,41 @@ function AccordionBody({ md }: { md: string }) {
       : p.label;
     pdfs.push({ url: p.url, label });
   }
+  // When a section body carries exactly two images, show them side by side
+  // (larger) instead of the default stacked/inline markdown rendering.
+  const imgRe = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  const bodyImages: { alt: string; src: string }[] = [];
+  let im: RegExpExecArray | null;
+  while ((im = imgRe.exec(stripped))) {
+    bodyImages.push({ alt: im[1], src: im[2] });
+  }
+  let pairedImages: { alt: string; src: string }[] = [];
+  if (bodyImages.length === 2) {
+    pairedImages = bodyImages;
+    stripped = stripped.replace(imgRe, "").replace(/\n{3,}/g, "\n\n").trim();
+  }
   return (
     <div className="space-y-5">
       {stripped && (
         <div className={PROSE_CLS}>
           <MD>{promoteBoldHeadings(stripped)}</MD>
+        </div>
+      )}
+      {pairedImages.length === 2 && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {pairedImages.map((p, i) => {
+            const resolved = rewriteImageSrc(p.src);
+            if (!resolved) return null;
+            return (
+              <img
+                key={i}
+                src={resolved}
+                alt={p.alt || ""}
+                loading="lazy"
+                className="w-full h-64 md:h-80 object-contain rounded-lg border border-border bg-white"
+              />
+            );
+          })}
         </div>
       )}
       {pdfs.length >= 2 ? (
@@ -2308,7 +2345,7 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
       if (t.length > 160) return false;
       if (/^[-•▸]/.test(t)) return false;
       if (/\((?:IPCC|PCC|AEC|HSMC|ESC|UHV|BSC)\)/i.test(t)) return true;
-      if (/\bLab(oratory)?\b/i.test(t) && t.length < 120) return true;
+      if (/\bLab(oratory)?\b/i.test(t) && t.length < 120 && !/[.!?]\s*$/.test(t)) return true;
       if (/\s[–-]\s/.test(t) && t.length < 120 && !/[.!?]\s*$/.test(t)) return true;
       if (t.length < 90 && !/[.!?]\s*$/.test(t)) return true;
       return false;
@@ -2353,6 +2390,14 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
     // If section already declares subsections, render as a single nested row.
     if (s.subsections && s.subsections.length > 0) {
       rows.push({ heading: s.heading, paras: s.paras, items: s.items, intro: false, groupHeader: false, noImage: s.noImage, image: s.image, subsections: s.subsections, table: s.table });
+      return;
+    }
+    // A section that's just a heading with no paragraphs/items/table of its
+    // own is a section-group divider (e.g. "Lab Infrastructure" introducing
+    // the block of lab cards that follow) — render as the same borderless
+    // h2 divider used for multi-lab group headers, not an empty white card.
+    if (s.heading && s.paras.length === 0 && s.items.length === 0 && !s.table) {
+      rows.push({ heading: s.heading, paras: [], items: [], intro: false, groupHeader: true });
       return;
     }
     const chunks = splitParasIntoLabs(s.paras);
