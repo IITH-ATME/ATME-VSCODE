@@ -1213,7 +1213,7 @@ function AccordionBody({ md }: { md: string }) {
                 src={resolved}
                 alt={seg.images[0].alt || ""}
                 loading="lazy"
-                className="mx-auto h-40 sm:h-48 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
+                className="mx-auto h-28 sm:h-36 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
               />
             );
           })()
@@ -1231,7 +1231,7 @@ function AccordionBody({ md }: { md: string }) {
                   src={resolved}
                   alt={p.alt || ""}
                   loading="lazy"
-                  className="w-full h-40 sm:h-48 object-contain rounded-lg border border-border bg-white"
+                  className="w-full h-28 sm:h-36 object-contain rounded-lg border border-border bg-white"
                 />
               );
             })}
