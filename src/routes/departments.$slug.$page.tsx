@@ -717,7 +717,11 @@ function DeptSubPage() {
             })()
           ) : isAccordionPage ? (
             <>
-              <SimpleTwoLevelAccordion md={bodyMd} openFirst={/research/.test(k)} />
+              <SimpleTwoLevelAccordion
+                md={bodyMd}
+                openFirst={/research/.test(k)}
+                inlineTablePdfs={canonKey === "co-curricular" || /co-curricular|extra-curricular|extracurricular|activit/.test(k)}
+              />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
           ) : (
@@ -986,11 +990,11 @@ function PosterCarousel({ images }: { images: { alt: string; src: string }[] }) 
   const cur = images[active];
   return (
     <div className="mb-8">
-      <div className="relative rounded-2xl border border-[#129199]/15 bg-white shadow-sm overflow-hidden">
+      <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md rounded-2xl border border-[#129199]/15 bg-white shadow-sm overflow-hidden">
         <img
           src={resolveAssetUrl(rewriteImageSrc(cur.src))}
           alt={cur.alt || `Poster ${active + 1}`}
-          className="w-full h-64 sm:h-80 md:h-96 object-contain bg-white"
+          className="w-full h-40 sm:h-52 md:h-60 object-contain bg-white"
         />
         {images.length > 1 && (
           <>
@@ -1089,7 +1093,7 @@ function parseTwoLevelAccordion(md: string): { title: string; body: string; chil
     .map((t) => ({ ...t, children: t.children.filter((c) => c.title) }));
 }
 
-function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFirst?: boolean }) {
+function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean }) {
   const sections = parseTwoLevelAccordion(md);
   if (sections.length === 0) return null;
   return (
@@ -1110,7 +1114,7 @@ function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFi
             <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
           </summary>
           <div className="px-4 md:px-5 pb-5 pt-4 bg-white space-y-5">
-            {s.body.trim() && <AccordionBody md={s.body.trim()} />}
+            {s.body.trim() && <AccordionBody md={s.body.trim()} inlineTablePdfs={inlineTablePdfs} />}
             {s.children.length > 0 && (
               <div className="w-full space-y-2">
                 {s.children.map((c, j) =>
@@ -1129,7 +1133,7 @@ function SimpleTwoLevelAccordion({ md, openFirst = false }: { md: string; openFi
                         <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
                       </summary>
                       <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
-                        <AccordionBody md={c.body.trim()} />
+                        <AccordionBody md={c.body.trim()} inlineTablePdfs={inlineTablePdfs} />
                       </div>
                     </details>
                   )
@@ -1260,12 +1264,33 @@ function segmentBodyImageGroups(md: string): BodySegment[] {
   return segments;
 }
 
-function AccordionBody({ md }: { md: string }) {
+/** URLs of .pdf links that appear inside a markdown table row (a line whose
+ *  trimmed content starts with "|"), e.g. a "Report" column cell. Used so
+ *  callers can leave those links in place — rendered as an inline button by
+ *  the normal table-cell link styling — instead of stripping them into a
+ *  separate card/grid below the table. */
+function pdfUrlsInTableRows(md: string): Set<string> {
+  const urls = new Set<string>();
+  const linkRe = /\[[^\]]+\]\((https?:[^)\s]+\.pdf|\/[^)\s]+\.pdf)(?:\s+"[^"]*")?\)/gi;
+  for (const line of md.split("\n")) {
+    if (!line.trim().startsWith("|")) continue;
+    linkRe.lastIndex = 0;
+    let m: RegExpExecArray | null;
+    while ((m = linkRe.exec(line))) urls.add(m[1]);
+  }
+  return urls;
+}
+
+function AccordionBody({ md, inlineTablePdfs = false }: { md: string; inlineTablePdfs?: boolean }) {
   const rawPdfs = extractPdfs(md);
+  const tablePdfUrls = inlineTablePdfs ? pdfUrlsInTableRows(md) : new Set<string>();
   // Remove ALL PDF/viewer markdown links from the body so they don't render
   // as plain "View Fullscreen" / "Download File" text alongside the cards.
+  // (Links already sitting inside a table row are left alone when
+  // inlineTablePdfs is set, so they render in place as a normal button.)
   let stripped = md;
   for (const p of rawPdfs) {
+    if (tablePdfUrls.has(p.url)) continue;
     const esc = p.url.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const re = new RegExp(`\\[[^\\]]+\\]\\(${esc}(?:\\s+\"[^\"]*\")?\\)`, "g");
     stripped = stripped.replace(re, "");
@@ -1288,6 +1313,7 @@ function AccordionBody({ md }: { md: string }) {
   const pdfs: { url: string; label: string }[] = [];
   for (const p of rawPdfs) {
     if (!/\.pdf(?:$|[?#])/i.test(p.url)) continue;
+    if (tablePdfUrls.has(p.url)) continue;
     const resolvedKey = pdfFromAtmeUrl(p.url);
     if (seen.has(resolvedKey)) continue;
     seen.add(resolvedKey);

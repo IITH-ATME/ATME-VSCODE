@@ -10,6 +10,7 @@ import {
 } from "@/data/allFaculty";
 import { FACULTY_DESIGNATIONS } from "@/data/facultyDesignations";
 import { FacultyDirectory, categorize } from "@/components/site/FacultyDirectory";
+import { PdfEmbed } from "@/components/site/PdfEmbed";
 import type { Faculty } from "@/data/departments";
 import { ArrowLeft } from "lucide-react";
 import atmeLogo from "@/assets/atme-logo.png.asset.json";
@@ -75,14 +76,7 @@ function PreviousFacultyLists({ items }: { items: { year: string; href: string }
               </span>
             </summary>
             <div className="px-4 md:px-5 pb-5 pt-4 bg-white">
-              <a
-                href={it.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-md bg-[#f5c518] px-3 py-1.5 text-sm font-semibold text-[#0d3438] hover:brightness-95"
-              >
-                Download PDF
-              </a>
+              <PdfEmbed url={it.href} title={`Faculty List — ${it.year}`} />
             </div>
           </details>
         ))}
