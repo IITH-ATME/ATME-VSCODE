@@ -542,8 +542,18 @@ function DeptSubPage() {
   const rewritten = rewritePdfUrls(page.markdown || "");
   const cleaned = sanitizeMarkdown(rewritten);
   // Remove any in-page banner image so it doesn't render twice; we always
-  // show the department's consistent banner instead.
-  const inlineBanner = !isPlaceholder ? pickBannerImage(cleaned) : null;
+  // show the department's consistent banner instead. Scoped to the About
+  // page only — DepartmentAboutView never renders bodyMd at all, so this is
+  // a no-op there. On every other page type (Achievements, Placements,
+  // Research, Activities…) the "first image" is real content (e.g. a
+  // recruiters logo grid or an event photo), not a redundant hero banner,
+  // so it must not be stripped.
+  const isAboutForBanner =
+    canonKey === "about" ||
+    /^about[-_]|about-the-department|about-mechanical-department|ee-about-the-department|chem-about-the-department/.test(
+      (canonKey || pageKey).toLowerCase()
+    );
+  const inlineBanner = !isPlaceholder && isAboutForBanner ? pickBannerImage(cleaned) : null;
   let bodyMd = titleCaseMarkdownHeadings(cleaned);
   if (inlineBanner) bodyMd = bodyMd.replace(inlineBanner.raw, "").replace(/^\s*\n+/, "");
 
@@ -949,8 +959,17 @@ function parseTwoLevelAccordion(md: string): { title: string; body: string; chil
       curTop = { title: cleanHeading(hm[2]), body: "", children: [] };
       top.push(curTop);
     } else if (bm && curTop) {
-      curChild = { title: cleanHeading(bm[1]), body: "" };
-      curTop.children.push(curChild);
+      const childTitle = cleanHeading(bm[1]);
+      // A bold "sub-heading" that repeats the parent's own title (e.g. the
+      // source repeating "University Representation" once per table block)
+      // isn't a real nested section — fold it straight into the parent body
+      // instead of creating a redundant, identically-labelled accordion.
+      if (childTitle.toLowerCase() === curTop.title.toLowerCase()) {
+        curChild = null;
+      } else {
+        curChild = { title: childTitle, body: "" };
+        curTop.children.push(curChild);
+      }
     } else if (curChild) {
       curChild.body += line + "\n";
     } else if (curTop) {
@@ -1079,6 +1098,60 @@ function NestedAccordion({
 }
 
 
+type BodySegment =
+  | { type: "text"; content: string }
+  | { type: "images"; images: { alt: string; src: string }[] };
+
+/** Split markdown into an ordered run of text chunks and image-only-line
+ *  clusters, so consecutive photos (common on event/activity pages) can be
+ *  laid out as a compact grid instead of one full-width block each. */
+function segmentBodyImageGroups(md: string): BodySegment[] {
+  const imgOnlyLineRe = /^\s*(?:!\[[^\]]*\]\([^)\s]+(?:\s+"[^"]*")?\)\s*)+$/;
+  const imgTokenRe = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  // Merge blank-line gaps that sit directly between two image-only lines so
+  // they form one run instead of two separate one-image groups.
+  const pairGapRe = new RegExp(
+    `(${imgOnlyLineRe.source.replace(/^\^|\$$/g, "")})\\n{2,}(?=${imgOnlyLineRe.source.replace(/^\^|\$$/g, "")})`,
+    "gm"
+  );
+  let collapsed = md;
+  for (let i = 0; i < 5; i++) {
+    const next = collapsed.replace(pairGapRe, "$1\n");
+    if (next === collapsed) break;
+    collapsed = next;
+  }
+
+  const lines = collapsed.split("\n");
+  const segments: BodySegment[] = [];
+  let textBuf: string[] = [];
+  let imgBuf: { alt: string; src: string }[] = [];
+
+  const flushText = () => {
+    const joined = textBuf.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+    if (joined) segments.push({ type: "text", content: joined });
+    textBuf = [];
+  };
+  const flushImages = () => {
+    if (imgBuf.length) segments.push({ type: "images", images: imgBuf });
+    imgBuf = [];
+  };
+
+  for (const line of lines) {
+    if (line.trim() && imgOnlyLineRe.test(line)) {
+      flushText();
+      imgTokenRe.lastIndex = 0;
+      let m: RegExpExecArray | null;
+      while ((m = imgTokenRe.exec(line))) imgBuf.push({ alt: m[1], src: m[2] });
+    } else {
+      flushImages();
+      textBuf.push(line);
+    }
+  }
+  flushText();
+  flushImages();
+  return segments;
+}
+
 function AccordionBody({ md }: { md: string }) {
   const rawPdfs = extractPdfs(md);
   // Remove ALL PDF/viewer markdown links from the body so they don't render
@@ -1117,42 +1190,53 @@ function AccordionBody({ md }: { md: string }) {
       : p.label;
     pdfs.push({ url: p.url, label });
   }
-  // When a section body carries exactly two images, show them side by side
-  // (larger) instead of the default stacked/inline markdown rendering.
-  const imgRe = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-  const bodyImages: { alt: string; src: string }[] = [];
-  let im: RegExpExecArray | null;
-  while ((im = imgRe.exec(stripped))) {
-    bodyImages.push({ alt: im[1], src: im[2] });
-  }
-  let pairedImages: { alt: string; src: string }[] = [];
-  if (bodyImages.length === 2) {
-    pairedImages = bodyImages;
-    stripped = stripped.replace(imgRe, "").replace(/\n{3,}/g, "\n\n").trim();
-  }
+  // Break the body into an ordered run of text / image-group chunks so
+  // clusters of adjacent photos (a common pattern on event/activity pages)
+  // render as a compact side-by-side grid instead of each image being its
+  // own full-width block — which, for the small (~300px) source thumbnails
+  // typically used here, stretches them and makes them look blurry.
+  const segments = segmentBodyImageGroups(stripped);
   return (
     <div className="space-y-5">
-      {stripped && (
-        <div className={PROSE_CLS}>
-          <MD>{promoteBoldHeadings(stripped)}</MD>
-        </div>
-      )}
-      {pairedImages.length === 2 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {pairedImages.map((p, i) => {
-            const resolved = rewriteImageSrc(p.src);
+      {segments.map((seg, i) =>
+        seg.type === "text" ? (
+          <div key={i} className={PROSE_CLS}>
+            <MD>{promoteBoldHeadings(seg.content)}</MD>
+          </div>
+        ) : seg.images.length === 1 ? (
+          (() => {
+            const resolved = rewriteImageSrc(seg.images[0].src);
             if (!resolved) return null;
             return (
               <img
                 key={i}
                 src={resolved}
-                alt={p.alt || ""}
+                alt={seg.images[0].alt || ""}
                 loading="lazy"
-                className="w-full h-64 md:h-80 object-contain rounded-lg border border-border bg-white"
+                className="mx-auto h-40 sm:h-48 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
               />
             );
-          })}
-        </div>
+          })()
+        ) : (
+          <div
+            key={i}
+            className={`grid grid-cols-2 gap-3 ${seg.images.length >= 3 ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
+          >
+            {seg.images.map((p, j) => {
+              const resolved = rewriteImageSrc(p.src);
+              if (!resolved) return null;
+              return (
+                <img
+                  key={j}
+                  src={resolved}
+                  alt={p.alt || ""}
+                  loading="lazy"
+                  className="w-full h-40 sm:h-48 object-contain rounded-lg border border-border bg-white"
+                />
+              );
+            })}
+          </div>
+        )
       )}
       {pdfs.length >= 2 ? (
         // Multiple PDFs → render as a compact thumbnail card grid (used by
