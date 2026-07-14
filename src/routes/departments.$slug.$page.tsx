@@ -244,16 +244,19 @@ function cleanHeading(s: string): string {
     .trim();
 }
 
-/** Promote standalone bold lines (e.g. `**Department MoU's**`) to H3 so they
- *  render with the same teal highlight as real headings inside prose. Skips
- *  label-style bolds (ending with `:`) and contact-like lines (email/phone). */
+/** Promote standalone bold or italic lines (e.g. `**Department MoU's**`,
+ *  `_NSS Camp at Dinka Village_`) to H3 so they render with the same teal
+ *  highlight as real headings inside prose — event captions on activity
+ *  pages use the italic form so they don't spawn their own nested accordion,
+ *  but should still stand out visually as sub-headings. Skips label-style
+ *  lines (ending with `:`) and contact-like lines (email/phone). */
 function promoteBoldHeadings(md: string): string {
   if (!md) return md;
   const contactLikeRe = /(@|\bemail\b|\bmob\b|\bph\b|\bphone\b|\btel\b|\bfax\b|\bweb\b|\bpin\b|\d{5,})/i;
   return md.split("\n").map((line) => {
-    const m = line.match(/^\s*\*\*([^*][^\n]*?)\*\*\s*:?\s*$/);
+    const m = line.match(/^\s*(?:\*\*([^*][^\n]*?)\*\*|_([^_][^\n]*?)_)\s*:?\s*$/);
     if (!m) return line;
-    const inner = m[1].trim();
+    const inner = (m[1] ?? m[2]).trim();
     if (!inner || inner.length > 120) return line;
     if (/[:：]\s*\S/.test(inner)) return line; // "Email: foo" style
     if (contactLikeRe.test(inner)) return line;
