@@ -45,6 +45,52 @@ function isJunkName(name: string): boolean {
   return /^(designation|name|qualification|email|phone|department|ass)\s*[:.]?$/i.test(n);
 }
 
+/** Year-wise "Faculty List" PDFs from old.atme.edu.in's ECE Staff Details
+ *  page, shown as a per-year accordion below the roster. */
+const FACULTY_LIST_PDFS_BY_DEPT: Record<string, { year: string; href: string }[]> = {
+  ece: [
+    { year: "2025-26", href: "/pdfs/ece/faculty-list/ECE-Faculty-List-2025-26.pdf" },
+    { year: "2024-25", href: "/pdfs/ece/faculty-list/ECE-Faculty-List-2024-25.pdf" },
+    { year: "2023-24", href: "/pdfs/ece/faculty-list/ECE-Faculty-List-2023-24.pdf" },
+    { year: "2022-23", href: "/pdfs/ece/faculty-list/ECE-Faculty-List-2022-23.pdf" },
+  ],
+};
+
+function PreviousFacultyLists({ items }: { items: { year: string; href: string }[] }) {
+  if (items.length === 0) return null;
+  return (
+    <div className="mt-10">
+      <h2 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-4">
+        Faculty List — Previous Years
+      </h2>
+      <div className="space-y-3">
+        {items.map((it) => (
+          <details key={it.year} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
+            <summary
+              className="flex items-center justify-between gap-3 px-5 py-3.5 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
+              style={{ backgroundColor: "#129199" }}
+            >
+              <span className="font-display text-base font-semibold text-white">
+                Faculty List for the Academic Year {it.year}
+              </span>
+            </summary>
+            <div className="px-4 md:px-5 pb-5 pt-4 bg-white">
+              <a
+                href={it.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-[#f5c518] px-3 py-1.5 text-sm font-semibold text-[#0d3438] hover:brightness-95"
+              >
+                Download PDF
+              </a>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export const Route = createFileRoute("/departments/$slug/faculty/")({
   loader: ({ params }) => {
     const dept = getDept(params.slug);
@@ -140,6 +186,7 @@ function FacultyPage() {
 
       <section className="container-page pb-16">
         <FacultyDirectory slug={dept.slug} groups={{ teaching, technical, supporting }} />
+        <PreviousFacultyLists items={FACULTY_LIST_PDFS_BY_DEPT[dept.slug] ?? []} />
       </section>
     </Layout>
   );

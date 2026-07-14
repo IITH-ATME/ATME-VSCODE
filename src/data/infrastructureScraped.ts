@@ -490,29 +490,37 @@ export const INFRA_DATA: Record<string, InfraData> = {
       ]
     },
     {
-      "heading": "For the Students",
+      "heading": "Facilities Provided for the Students & Staffs",
       "paras": [],
-      "items": [
-        "IETE & IEEE Student Chapters for Technical activities.",
-        "Project Laboratory with both licensed and open-source tools support innovation, project work, and research activities.",
-        "Departmental Library with 1500+ Books.",
-        "Scholarships for meritorious students",
-        "Sponsorship from Various Organizations for projects like KSCST, VTU, etc.,",
-        "Student accident policy"
-      ]
-    },
-    {
-      "heading": "For Staffs",
-      "paras": [],
-      "items": [
-        "Research Incentives to promote the research activities like Participation in conference, FDP/STTP/Workshop/Industrial trainings & Publications",
-        "Staff Welfare Measure- Accidental policy",
-        "Internet Facility, Wi-Fi connectivity",
-        "Study / Sabbatical leave for higher studies / industrial training.",
-        "Maternity leave.",
-        "Transportation facility",
-        "Work load flexibly for faculty pursuing PhD.",
-        "Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities."
+      "items": [],
+      "noImage": true,
+      "subsections": [
+        {
+          "heading": "For the Students",
+          "paras": [],
+          "items": [
+            "IETE & IEEE Student Chapters for Technical activities.",
+            "Project Laboratory with both licensed and open-source tools support innovation, project work, and research activities.",
+            "Departmental Library with 1500+ Books.",
+            "Scholarships for meritorious students",
+            "Sponsorship from Various Organizations for projects like KSCST, VTU, etc.,",
+            "Student accident policy"
+          ]
+        },
+        {
+          "heading": "For Staffs",
+          "paras": [],
+          "items": [
+            "Research Incentives to promote the research activities like Participation in conference, FDP/STTP/Workshop/Industrial trainings & Publications",
+            "Staff Welfare Measure- Accidental policy",
+            "Internet Facility, Wi-Fi connectivity",
+            "Study / Sabbatical leave for higher studies / industrial training.",
+            "Maternity leave.",
+            "Transportation facility",
+            "Work load flexibly for faculty pursuing PhD.",
+            "Research Laboratory with both licensed and open-source tools supports innovation, project work, and research activities."
+          ]
+        }
       ]
     },
     {
@@ -523,52 +531,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       "items": []
     }
   ],
-  "images": [
-    {
-      "url": "/images/uploads/2022/12/EC-03-1200x600.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Analog-and-Digital-Systems-Design-Laboratory_-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Communication-Laboratory-300x169.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Control-Systems-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Digital-System-Design-using-Verilog-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Electronic-Principles-and-Circuits-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Principles-of-Communication-Systems-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Digital-Signal-Processing-–-Lab-Component-IPCC-300x169.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Digital-Communication-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/Embedded-System-Design-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    },
-    {
-      "url": "/images/uploads/2025/08/VLSI-Design-and-Testing-–-Lab-Component-IPCC-300x225.jpg",
-      "alt": ""
-    }
-  ]
+  "images": []
 },
   "eee": {
   "sections": [

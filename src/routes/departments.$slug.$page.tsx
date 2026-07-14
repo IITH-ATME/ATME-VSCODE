@@ -617,7 +617,8 @@ function DeptSubPage() {
   // it), so match against `k` — the already-lowercased canonKey/pageKey
   // fallback used by every other branch below.
   const isCseTeachingMethods = dept.slug === "cse" && k === "innovative-teaching-learning-methods";
-  const studentLearningLabVideosMd = dept.slug === "cse" ? "" : labVideosMd;
+  // ECE's Student Learning page shouldn't show the Course Videos panel at all.
+  const studentLearningLabVideosMd = dept.slug === "cse" || dept.slug === "ece" ? "" : labVideosMd;
 
   return (
     <DeptContext.Provider value={dept.slug}>
@@ -704,6 +705,16 @@ function DeptSubPage() {
               flat={canonKey === "achievements" || canonKey === "co-curricular"}
             />
 
+          ) : canonKey === "achievements" || /achievement|achivement/.test(k) ? (
+            (() => {
+              const { images: posterImages, remaining } = extractLeadingPosterImages(bodyMd);
+              return (
+                <>
+                  <PosterCarousel images={posterImages} />
+                  <SimpleTwoLevelAccordion md={remaining} />
+                </>
+              );
+            })()
           ) : isAccordionPage ? (
             <>
               <SimpleTwoLevelAccordion md={bodyMd} openFirst={/research/.test(k)} />
@@ -940,6 +951,89 @@ function AccordionedContent({ md, openFirst = false, flat = false }: { md: strin
   );
 }
 
+/** Pull a leading run of poster/banner images (e.g. event posters dropped
+ *  right under the page's own "## Achievements" wrapper heading, before any
+ *  real section) out of the markdown so they can render as a standalone
+ *  carousel instead of getting swallowed into the first accordion. Only
+ *  fires when the wrapper heading's body is images and nothing else — real
+ *  content there is left untouched. */
+function extractLeadingPosterImages(md: string): { images: { alt: string; src: string }[]; remaining: string } {
+  const imgOnlyLineRe = /^\s*(?:!\[[^\]]*\]\([^)\s]+(?:\s+"[^"]*")?\)\s*)+$/;
+  const imgTokenRe = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  const headingRe = /^#{1,4}\s+.+$/;
+  const lines = md.split("\n");
+  const firstHeadingIdx = lines.findIndex((l) => headingRe.test(l));
+  if (firstHeadingIdx === -1) return { images: [], remaining: md };
+  let j = firstHeadingIdx + 1;
+  const images: { alt: string; src: string }[] = [];
+  while (j < lines.length && !headingRe.test(lines[j])) {
+    const line = lines[j];
+    if (line.trim() === "") { j++; continue; }
+    if (!imgOnlyLineRe.test(line)) return { images: [], remaining: md };
+    imgTokenRe.lastIndex = 0;
+    let m: RegExpExecArray | null;
+    while ((m = imgTokenRe.exec(line))) images.push({ alt: m[1], src: m[2] });
+    j++;
+  }
+  if (images.length < 2) return { images: [], remaining: md };
+  const remainingLines = [...lines.slice(0, firstHeadingIdx), ...lines.slice(j)];
+  return { images, remaining: remainingLines.join("\n") };
+}
+
+function PosterCarousel({ images }: { images: { alt: string; src: string }[] }) {
+  const [active, setActive] = useState(0);
+  if (images.length === 0) return null;
+  const cur = images[active];
+  return (
+    <div className="mb-8">
+      <div className="relative rounded-2xl border border-[#129199]/15 bg-white shadow-sm overflow-hidden">
+        <img
+          src={resolveAssetUrl(rewriteImageSrc(cur.src))}
+          alt={cur.alt || `Poster ${active + 1}`}
+          className="w-full h-64 sm:h-80 md:h-96 object-contain bg-white"
+        />
+        {images.length > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="Previous poster"
+              onClick={() => setActive((i) => (i - 1 + images.length) % images.length)}
+              className="absolute left-2 top-1/2 -translate-y-1/2 grid h-9 w-9 place-items-center rounded-full bg-white/90 text-[#129199] shadow hover:bg-white"
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </button>
+            <button
+              type="button"
+              aria-label="Next poster"
+              onClick={() => setActive((i) => (i + 1) % images.length)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 grid h-9 w-9 place-items-center rounded-full bg-white/90 text-[#129199] shadow hover:bg-white"
+            >
+              <ChevronRight className="h-5 w-5" />
+            </button>
+          </>
+        )}
+      </div>
+      {images.length > 1 && (
+        <div className="mt-3 flex flex-wrap justify-center gap-2">
+          {images.map((im, i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setActive(i)}
+              aria-label={`Show poster ${i + 1}`}
+              className={`h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-lg border-2 transition ${
+                i === active ? "border-[#f5c518]" : "border-transparent opacity-70 hover:opacity-100"
+              }`}
+            >
+              <img src={resolveAssetUrl(rewriteImageSrc(im.src))} alt="" className="h-full w-full object-cover" />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /** Split markdown into a flat list of top-level "#"-heading sections, each
  *  optionally holding nested standalone-`**Bold**`-line sub-sections. Used by
  *  achievements pages, which need a reliable two-level accordion (top-level
@@ -958,9 +1052,20 @@ function parseTwoLevelAccordion(md: string): { title: string; body: string; chil
     const hm = headingRe.exec(line);
     const bm = !hm ? boldRe.exec(line) : null;
     if (hm) {
-      curChild = null;
-      curTop = { title: cleanHeading(hm[2]), body: "", children: [] };
-      top.push(curTop);
+      const newTitle = cleanHeading(hm[2]);
+      // A heading that immediately repeats the still-empty previous top's
+      // own title (e.g. an anchor-only "### Events ... 2024-25" right above
+      // the real "#### **Events ... 2024-25**" heading with the content) is
+      // the same section restated at a different depth, not a new one —
+      // keep accumulating into the same top instead of spawning a duplicate,
+      // empty-looking accordion right next to the real one.
+      if (curTop && !curTop.body.trim() && curTop.children.length === 0 && newTitle.toLowerCase() === curTop.title.toLowerCase()) {
+        curChild = null;
+      } else {
+        curChild = null;
+        curTop = { title: newTitle, body: "", children: [] };
+        top.push(curTop);
+      }
     } else if (bm && curTop) {
       const childTitle = cleanHeading(bm[1]);
       // A bold "sub-heading" that repeats the parent's own title (e.g. the
