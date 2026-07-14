@@ -259,6 +259,8 @@ const physicsFaculty: Faculty[] = [
   { id: "dr-madhusudhana-r", name: "Dr. Madhusudhana R", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, M.Phil, M.Tech in Nanotechnology, Ph.D", doj: "30/08/2023", image: "/__l5e/assets-v1/a4fc710f-7685-428f-8e16-c5d2b286e4b4/dr.-madhusudhana-r.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "raghavendra-r", name: "Mr. Raghavendra R", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "25/08/2021", image: "/__l5e/assets-v1/7a50ee25-a496-4c02-b0cf-f89c55f85b27/mr.-raghavendra-r.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "anjan-kumar-j", name: "Mr. Anjan Kumar J", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, B.Ed", doj: "27/08/2021", image: "/__l5e/assets-v1/56ec31bf-88ba-47e8-9205-6d52b1e14ac7/anjan-kumar-j.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
+  { id: "mr-sannappa-d", name: "Mr. Sannappa D", designation: "Lab Instructor", qualification: "B.Sc, M.Sc", doj: "08-01-2018", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Mr.-Sannappa-D-2.jpg", cvUrl: "https://old.atme.edu.in/mr-sannappa-d-2/" },
+  { id: "mr-puneeth-kumar-y-m", name: "Mr. Puneeth Kumar Y M", designation: "Lab Assistant", qualification: "PUC", doj: "02/09/2010", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Mr.-Puneeth-Kumar-Y-M-2.jpg", cvUrl: "https://old.atme.edu.in/mr-puneeth-kumar-y-m-2/" },
 ];
 
 const chemistryFaculty: Faculty[] = [
@@ -269,8 +271,8 @@ const chemistryFaculty: Faculty[] = [
   { id: "mahendra-kumar-h-s", name: "Mr. Mahendra Kumar H S", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, B.Ed", doj: "13/05/2024", image: "/__l5e/assets-v1/f3171e17-f7b2-42f2-9d99-13179a26abb7/mr.-mahendra-kumar-h-s.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "thejas-gowda-b", name: "Mr. Thejas Gowda B", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "15/01/2025", image: "/__l5e/assets-v1/d244fc0f-b0f6-463e-a991-c9f6ba0431f7/thejas-gowda-b.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "tejaswini-b-m", name: "Ms. Tejaswini B M", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "20/02/2025", image: "/__l5e/assets-v1/07dad2e8-8626-4276-86de-fea090bb6c79/tejaswini-b-m.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
-  { id: "magesh-m", name: "Mr. Magesh M", designation: "Assistant Lab Instructor", qualification: "", image: "", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
-  { id: "mr-lakshmana-g-n", name: "Mr. Lakshmana G N", designation: "Lab Assistant", qualification: "", image: "", cvUrl: "https://old.atme.edu.in/mr-lakshmana-g-n/" },
+  { id: "magesh-m", name: "Mr. Magesh M", designation: "Assistant Lab Instructor", qualification: "B.Sc, B.Ed", doj: "21-07-2025", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Mr.-Magesh-M-2.jpg", cvUrl: "https://old.atme.edu.in/mr-magesh-m/" },
+  { id: "mr-lakshmana-g-n", name: "Mr. Lakshmana G N", designation: "Lab Assistant", qualification: "PUC, ITI", doj: "14-08-2015", image: "https://old.atme.edu.in/wp-content/uploads/2025/08/Mr.-Lakshmana-G-N-2.jpg", cvUrl: "https://old.atme.edu.in/mr-lakshmana-g-n-2/" },
 ];
 
 const mathematicsFaculty: Faculty[] = [
@@ -290,6 +292,7 @@ const humanitiesFaculty: Faculty[] = [
   { id: "bharathi-r", name: "Ms. Bharathi R", designation: "Lecturer", qualification: "MSc, MA, PGDE", doj: "15/10/2018", image: "/__l5e/assets-v1/fdde1262-e74b-4f98-bb5d-0e40d29d7928/bharathi-r.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
   { id: "leelavathi-c-r", name: "Mrs. Leelavathi C R", designation: "Lecturer", qualification: "MA, B.Ed", doj: "14/12/2022", image: "/images/uploads/2026/03/Mrs.-Leelavathi-C-R.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
   { id: "rakshitha-v", name: "Ms. Rakshitha V", designation: "Assistant Professor", qualification: "MA, B.Ed", doj: "16/04/2025", image: "/images/uploads/2026/03/Ms.-RAKSHITHA-V.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "dr-muralidhar-m-p", name: "Dr. Muralidhar M P", designation: "Director of Physical Education", qualification: "Ph.D, B.A", doj: "01/08/2011", image: "", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
 ];
 
 const bsCommon = {
@@ -707,6 +710,16 @@ export const departments: Department[] = [
     },
   }),
   make("ds", "DS", "CSE — Data Science", "Statistics, machine learning, data engineering and visualisation.", dsFaculty, {
+    vision: "To impart technical education in the field of data science of excellent quality with a high level of professional competence, social responsibility and global awareness among the students",
+    mission: [
+      "To impact technical education that is upto date, relevant and makes students competitive and employable at global level",
+      "To provide technical education with a high sense of discipline, social relevance in an intellectually ethically and socially challenging environment for better tomorrow",
+      "Educate to the global standards with a benchmark of excellence and kindle the spirit of innovation.",
+    ],
+    pso: [
+      "PSO1: Develop relevant programming skills to become a successful data scientist",
+      "PSO2: Apply data science concepts and algorithms to solve real world problems of the society",
+    ],
     hod: { name: "Dr. Anitha D B", designation: "Associate Professor, CSE-DS", image: "/__l5e/assets-v1/6e0859dd-fc91-478a-b5e9-c348e9187b39/Dr-Anitha-D-B.jpg.jpeg", message: "Data Science is a multidisciplinary field that combines computer science, statistics and domain knowledge to extract meaningful insights from data. At ATMECE, the CSE — Data Science programme is designed to equip students with strong fundamentals in programming, mathematics, machine learning, big data, data visualization and analytics, alongside hands-on exposure to modern tools and real-world datasets. Our dedicated faculty mentor students through capstone projects, internships, hackathons and research collaborations, encouraging them to build data-driven products, publish technical work and pursue higher studies. We are committed to preparing graduates who can responsibly use data to solve societal and industrial problems and excel in the rapidly evolving data-driven economy." },
   }),
   make("bca", "BCA", "Bachelor of Computer Applications", "Undergraduate programme focused on computer applications, software development, databases and IT fundamentals.", noFaculty, {
@@ -719,6 +732,21 @@ export const departments: Department[] = [
     mission: [],
     peo: [],
     pso: [],
+    // Program Outcomes — verbatim from old.atme.edu.in's BCA "Program Outcomes" page.
+    po: [
+      "Engineering knowledge — Apply the knowledge of mathematics, science, and computing fundamentals to the solution of complex computing problems.",
+      "Problem analysis — Identify, formulate, review research literature, and analyze complex computing problems reaching substantiated conclusions.",
+      "Design / development of solutions — Design solutions for complex computing problems and design system components or processes that meet specified needs.",
+      "Conduct investigations of complex problems — Use research-based knowledge and research methods to provide valid conclusions.",
+      "Modern tool usage — Create, select, and apply appropriate techniques, resources, and modern computing and IT tools.",
+      "The engineer and society — Apply contextual knowledge to assess societal, health, safety, legal and cultural issues relevant to professional practice.",
+      "Environment and sustainability — Understand the impact of professional computing solutions in societal and environmental contexts.",
+      "Ethics — Apply ethical principles and commit to professional ethics, responsibilities and norms of computing practice.",
+      "Individual and team work — Function effectively as an individual, and as a member or leader in diverse teams and in multidisciplinary settings.",
+      "Communication — Communicate effectively on complex computing activities with the computing community and with society at large.",
+      "Project management and finance — Demonstrate knowledge and understanding of computing and management principles and apply them to manage projects.",
+      "Life-long learning — Recognize the need for, and have the preparation and ability to engage in independent and life-long learning.",
+    ],
     hod: { name: "Dr. Shakunthala C", designation: "Associate Professor & Head, BCA", image: "/__l5e/assets-v1/0b67a2fa-efff-46b2-896c-f268b9356396/Dr-Shakunthala-C.jpg", message: "Welcome to the Department of Computer Applications (BCA Programme) at ATME College of Engineering. Our mission is to nurture undergraduate students into competent, ethical and innovative computing professionals through a balanced blend of rigorous academics, hands-on lab work, interactive lectures, case studies and problem-solving sessions. We integrate the latest technologies — AI, data analytics, cloud, web and mobile application development — with strong fundamentals in software engineering and databases. Our dedicated faculty mentor students through projects, internships, industry interactions and research initiatives, while expert talks from diversified resource persons inspire them to take up entrepreneurship. We strive to develop graduates who are intellectually strong, technically competent and ready to contribute meaningfully to the dynamic and ever-evolving world of computer applications." },
     documents: {
       facultyList: [{ title: "BCA Faculty List 2025-26 (PDF)", href: "https://atme.edu.in/wp-content/uploads/2025/09/BCA-Faculty-List-for-the-Academic-Year-2025-26.pdf" }],
@@ -827,11 +855,25 @@ export const departments: Department[] = [
     ],
   }),
   make("physics", "PHY", "Physics", "Engineering Physics — fundamentals, laboratory work and application-oriented activities for first-year engineering students.", physicsFaculty, {
-    about: "The department of physics was all set to work in the year 2010 with optimum infrastructure. The department consists of a spacious and well-equipped laboratory, darkroom, HOD's cabin, staff room, and storeroom. The department of physics is determined to train the engineering aspirants in the fundamentals of physics so that they could apply the basic laws and theories of physics in engineering and technology. The department owns an ergonomically designed and well-equipped Engineering Physics Laboratory with modern equipment and a spacious darkroom for optics experiments. A set of well qualified dedicated faculty members and very enthusiastic and skilled supporting staff together work towards the academic and technical excellence of the students. As an initiative, the Department of Physics has introduced a research set up with simple equipment to carry out studies in the field of tribology and allied topics.",
+    about: "The department of physics was all set to work in the year 2010 with optimum infrastructure. The department consists of a spacious and well-equipped laboratory, darkroom, HOD's cabin, staff room, and storeroom. The department of physics is determined to train the engineering aspirants in the fundamentals of physics so that they could apply the basic laws and theories of physics in engineering and technology. The department of physics is all set to develop and nurture the learning skills in students to excel professionally as engineers and to serve the broader campus community. The strategy to achieve this is by offering courses in physics that conforms to the university curriculum and some beyond the syllabus application-oriented activities.\n\nThe department owns an ergonomically designed and well-equipped Engineering Physics Laboratory with modern types of equipment and a spacious darkroom for optics experiments. A set of well qualified dedicated faculty members and very enthusiastic and skilled supporting staff together work towards the academic and technical excellence of the students. The department ensures the good academic progress of the students by adopting the best practices of the teaching and learning process. The department also thrives in good student throughput for further years of engineering. The department is disposed to carry on research and development activities. An initiative, a research laboratory is constituted. As an initiative Department of Physics has introduced a research set up with simple types of equipment to carry out studies in the field of tribology and allied topics.",
     hod: { name: "Dr. Mahesh Lohith K S", designation: "Associate Professor & Head, Physics", image: "https://atme.edu.in/wp-content/uploads/2022/05/phy_hod-180x180-1.jpg", message: "\"What one man calls God, another calls the Laws of Physics.\" — Nikola Tesla. Physics is the fundamental science. Physics means \"nature\". Thus physics is the most important basis for engineering and technology. To understand nature one has to do careful observations — observations play a decisive role in the study of nature. To become a good engineer one must clutch the basic principles and laws of nature. The study of nature is possible through assumptions, theories, mathematical formulations, experiments, results, analysis and logical reasoning. Understanding the principles of physics is worth enjoying. I am proud and elated to be a physicist." },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
     peo: [],
+    po: [
+      "PO1. Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+      "PO2. Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+      "PO3. Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.",
+      "PO4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+      "PO5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.",
+      "PO6. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+      "PO7. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+      "PO8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+      "PO9. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+      "PO10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+      "PO11. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+      "PO12. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.",
+    ],
     pso: [],
     shortTermGoals: [
       "To impart quality education in basic sciences, engineering sciences and humanities.",
@@ -844,7 +886,7 @@ export const departments: Department[] = [
   }),
   make("chemistry", "CHEM", "Chemistry", "Engineering Chemistry — interdisciplinary teaching, research and well-equipped laboratory supporting first-year engineering programmes.", chemistryFaculty, {
     about: "The main focus of teaching and research in the department is centred on interdisciplinary themes and pledges itself in the broadest and most liberal manner to encourage the advancement of all branches of engineering through its practically skilled education and service missions. The department has a well equipped laboratory with modern infrastructure. The faculty members of the department are well qualified, experienced and have expertise in most frontier areas of research. They have contributed towards publication of a good number of research papers in national and international journals and conferences. The department is recognized as a research centre by VTU and has a separate R & D centre. Many students have registered to pursue Ph.D from various institutes. The department also organizes workshops, seminars, induction programmes and other curricular and co-curricular activities.",
-    hod: { name: "Dr. Avinash K", designation: "Associate Professor & Head, Chemistry", image: "/__l5e/assets-v1/2a528e75-11da-463f-9cfd-e91c76e79d69/Dr-Avinash-K.jpg", message: "Chemistry is a colourful fundamental subject of science which has a lot of importance in engineering and technology. The subject places more emphasis on applications of chemistry in today's world and provides solutions to many problems we are facing today. Nowadays, the world is focused on interdisciplinary studies, hence students should give importance to the subject for their future studies, career and to excel academically. The faculty members of our department are highly qualified, experienced and involved in research activities in core areas of the subject and engineering applications. Best utilization of faculty, infrastructure and a keen interest in studies gives a strong foundation to budding engineers.\n\n\"Chemistry must become the astronomy of the molecular world.\" — Alfred Werner." },
+    hod: { name: "Dr. Avinash K", designation: "Associate Professor & Head, Chemistry", image: "/__l5e/assets-v1/2a528e75-11da-463f-9cfd-e91c76e79d69/Dr-Avinash-K.jpg", message: "Chemistry is a colourful fundamental subject of science which has a lot of importance in engineering and technology. The subject places more emphasis on applications of chemistry in today's world and provides solutions to many problems we are facing today. Nowadays, the world is focused on interdisciplinary studies, hence students should give importance to the subject for their future studies, career and to excel academically. The faculty members of our department are highly qualified, experienced and involved in research activities in core areas of the subject and engineering applications. Best utilization of faculty, infrastructure and a keen interest in studies gives a strong foundation to budding engineers.", quote: "Chemistry must become the astronomy of the molecular world. — Alfred Werner" },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
     peo: [],
@@ -857,11 +899,25 @@ export const departments: Department[] = [
     ],
   }),
   make("mathematics", "MATH", "Mathematics", "Engineering Mathematics — strong basic foundation, bridge courses and remedial classes for first-year engineering students.", mathematicsFaculty, {
-    about: "The Department of Mathematics was started in the year 2010. The number of students grew in leaps and bounds year after year. The department has grown in strength and now has 6 faculty members and 2 of them are actively involved in research. The department interacts with other departments and provides solutions to their mathematical problems. The department is committed to continuous improvement in quality education by enhancing the knowledge of students and faculty members. Bridge courses are conducted for Diploma Students. Needy students are identified and special classes are engaged to enhance their performance. The dedicated efforts of the faculty of the department are yielding good results.",
+    about: "\"Mathematics, rightly viewed, possesses not only truth, but supreme Beauty\" —Bertrand Russel\n\nThe Department of Mathematics was started in the year 2010. The number of students grew in leaps and bounds year after year. The department has grown in strength and now has 6 faculty members and 2 of them are actively involved in Research. The department interacts with other department and provides solutions to their mathematical problems. Department is committed to continuous improvement in quality education by enhancing the knowledge of student and faculty members.\n\nBridge courses are conducted for Diploma Students. Needy students are identified and special classes are engaged to enhance their performance. The dedicated efforts of the faculty of the department are yielding good results.",
     hod: { name: "Mr. Sudhakar N", designation: "Assistant Professor & Head, Mathematics", image: "https://atme.edu.in/wp-content/uploads/2022/09/Sudhakar-N.jpg", message: "The Department of Mathematics provides a strong basic foundation to enable students to meet the fast-changing needs of industry, supported by dedicated faculty and excellent coaching. We encourage students to participate in mathematics talent competitions conducted across various colleges, and we conduct bridge courses for diploma entrants along with special remedial classes for students who need additional support. The department actively interacts with other engineering departments to provide solutions to their mathematical problems and is committed to continuous improvement in quality education by enhancing the knowledge of both students and faculty." },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
     peo: [],
+    po: [
+      "PO1. Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+      "PO2. Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+      "PO3. Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.",
+      "PO4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+      "PO5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.",
+      "PO6. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+      "PO7. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+      "PO8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+      "PO9. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+      "PO10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+      "PO11. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+      "PO12. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.",
+    ],
     pso: [],
     shortTermGoals: [
       "Using innovative and creative methods to improve academic performance of students.",

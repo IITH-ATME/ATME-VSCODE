@@ -617,8 +617,10 @@ function DeptSubPage() {
   // it), so match against `k` — the already-lowercased canonKey/pageKey
   // fallback used by every other branch below.
   const isCseTeachingMethods = dept.slug === "cse" && k === "innovative-teaching-learning-methods";
-  // ECE's Student Learning page shouldn't show the Course Videos panel at all.
-  const studentLearningLabVideosMd = dept.slug === "cse" || dept.slug === "ece" ? "" : labVideosMd;
+  // ECE/EEE's Student Learning page shouldn't show the bottom Course Videos
+  // panel — it duplicated the department YouTube channel link already
+  // shown in the top resource card.
+  const studentLearningLabVideosMd = dept.slug === "cse" || dept.slug === "ece" || dept.slug === "eee" ? "" : labVideosMd;
 
   return (
     <DeptContext.Provider value={dept.slug}>
@@ -689,7 +691,7 @@ function DeptSubPage() {
             (() => {
               const scraped = INFRA_DATA[dept.slug];
               if (scraped && scraped.sections.length > 0) {
-                return <InfraScrapedView data={scraped} deptName={dept.name} />;
+                return <InfraScrapedView data={scraped} deptName={dept.name} deptSlug={dept.slug} />;
               }
               return <ContentComingSoon title="Infrastructure" deptName={dept.name} />;
             })()
@@ -761,7 +763,7 @@ function InfrastructureZigzag({ md, slug, deptName }: { md: string; slug?: strin
   // older scraped markdown (which often references broken image URLs).
   const scraped = slug ? INFRA_DATA[slug] : undefined;
   if (scraped && scraped.sections.length > 0) {
-    return <InfraScrapedView data={scraped} deptName={deptName || ""} />;
+    return <InfraScrapedView data={scraped} deptName={deptName || ""} deptSlug={slug} />;
   }
   const blocks = parseInfraBlocks(md);
   if (blocks.length === 0) {
@@ -2503,7 +2505,7 @@ function ResourceTable({
 function InfrastructurePlaceholder({ deptName, slug }: { deptName: string; slug: string }) {
   const scraped = INFRA_DATA[slug];
   if (scraped && scraped.sections.length > 0) {
-    return <InfraScrapedView data={scraped} deptName={deptName} />;
+    return <InfraScrapedView data={scraped} deptName={deptName} deptSlug={slug} />;
   }
   // No scraped infrastructure available — render nothing (per user request).
   return null;
@@ -2513,7 +2515,7 @@ function InfrastructurePlaceholder({ deptName, slug }: { deptName: string; slug:
 /** Render scraped per-dept infrastructure as a zigzag of {image, content} blocks.
  *  Pairs each meaningful section with the next available image; sections beyond
  *  the image pool render without an image column. */
-function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string]; deptName: string }) {
+function InfraScrapedView({ data, deptName, deptSlug }: { data: typeof INFRA_DATA[string]; deptName: string; deptSlug?: string }) {
   const images = data.images;
   // Some scraped sections end with a trailing "Lab Name – X" paragraph that
   // actually labels the NEXT lab. Pull those labels off and apply them as the
@@ -2678,6 +2680,8 @@ function InfraScrapedView({ data, deptName }: { data: typeof INFRA_DATA[string];
                 table={r.table}
                 reverse={wantsImg && reverse}
                 deptName={deptName}
+                squareImage={deptSlug === "cy"}
+                highlightHeading={deptSlug === "eee"}
               />
             );
           });
@@ -2723,6 +2727,8 @@ function InfraRow({
   table,
   reverse,
   deptName,
+  squareImage = false,
+  highlightHeading = false,
 }: {
   img: { url: string; alt: string } | null;
   heading?: string;
@@ -2732,6 +2738,8 @@ function InfraRow({
   table?: { headers: string[]; rows: string[][] };
   reverse: boolean;
   deptName: string;
+  squareImage?: boolean;
+  highlightHeading?: boolean;
 }) {
   const [imgFailed, setImgFailed] = useState(false);
   const showImg = !!img && !imgFailed;
@@ -2740,19 +2748,27 @@ function InfraRow({
       className={`grid gap-6 md:gap-10 ${showImg ? "md:grid-cols-2" : "md:grid-cols-1"} items-start rounded-2xl border border-[#129199]/15 bg-white p-5 md:p-8 shadow-sm ${showImg && reverse ? "md:[&>div:first-child]:order-2" : ""}`}
     >
       {showImg && img && (
-        <div>
+        <div className={squareImage ? "flex justify-center" : undefined}>
           <img
             src={resolveAssetUrl(img.url)}
             alt={img.alt || heading || `${deptName} lab`}
             loading="lazy"
-            className="w-full h-56 md:h-72 object-cover rounded-xl border border-[#129199]/15"
+            className={
+              squareImage
+                ? "w-[500px] h-[500px] max-w-full object-cover rounded-xl border border-[#129199]/15"
+                : "w-full h-56 md:h-72 object-cover rounded-xl border border-[#129199]/15"
+            }
             onError={() => setImgFailed(true)}
           />
         </div>
       )}
       <div className="min-w-0">
         {heading && (
-          <h3 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-3">{heading}</h3>
+          highlightHeading ? (
+            <h3 className="inline-block font-display text-lg md:text-xl font-bold text-[#0d3438] bg-[#f5c518]/25 border border-[#f5c518] rounded-lg px-3 py-1 mb-3">{heading}</h3>
+          ) : (
+            <h3 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-3">{heading}</h3>
+          )
         )}
         {table && <InfraDataTable table={table} />}
         {paras.map((p, j) => {
@@ -3106,17 +3122,21 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   if (!real || real.length === 0) return null;
   const rows: InchargeRow[] = real;
   const showContact = true;
+  // EEE-specific: the college now labels this "Academic Year 2026–27" and
+  // uses "Year" instead of "Semester" as the column header there.
+  const academicYear = deptCode === "EEE" ? "2026–27" : "2025–26";
+  const semesterColLabel = deptCode === "EEE" ? "Year" : "Semester";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">
       <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
-        Class Incharge — {deptCode} (Academic Year 2025–26)
+        Class Incharge — {deptCode} (Academic Year {academicYear})
       </h3>
       <div className="table-scroll rounded-lg border border-[#129199]/20">
         <table className="text-sm">
           <thead className="bg-[#129199]/10">
             <tr>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Sl. No.</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Semester</th>
+              <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">{semesterColLabel}</th>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Section</th>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Class Incharge</th>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Mail ID</th>

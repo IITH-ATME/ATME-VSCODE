@@ -24,7 +24,6 @@ const MAP: Record<string, Record<string, string[]>> = {
     csd: ["coe-cse-csd", "coe-all"],
     ds: ["coe-cse-ds", "coe-all"],
     cy: ["cyber-security-coe", "coe-all"],
-    bca: ["coe-cs"],
     mca: ["coe-mca"],
     mba: ["coe-mba", "coe-all"],
     bs: ["coe-bs", "coe-all"],
@@ -57,7 +56,6 @@ const MAP: Record<string, Record<string, string[]>> = {
     csd: ["csd-newsletter"],
     ds: ["cseds-news-letter-and-magazines"],
     aiml: ["computer-science-and-engineering/cse-news-letter-2"],
-    cy: ["computer-science-and-engineering/cse-news-letter-2"],
   },
 };
 
@@ -87,16 +85,15 @@ const deptCoe = (label: string, url: string) => `
 ${COMMON_UG_COE}`;
 
 // Inline markdown fallbacks for canonical sections when the scraped entries
-// contain no usable PDF references (e.g. CSE / BCA / MCA Calendar of Events,
+// contain no usable PDF references (e.g. CSE / MCA Calendar of Events,
 // which were captured only as PDF.js viewer chrome with no source URLs).
+// BCA intentionally has no COE fallback — old.atme.edu.in has no BCA-specific
+// Calendar of Events, and the page previously showed CSE's PDF mislabeled
+// as BCA's, which is not real BCA content.
 const INLINE: Record<string, Record<string, string>> = {
   coe: {
     cse: deptCoe(
       "CSE",
-      "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-dept.-6th-Semester-COE-2025-26.pdf"
-    ),
-    bca: deptCoe(
-      "BCA",
       "https://new.atme.edu.in/wp-content/uploads/2026/04/CSE-dept.-6th-Semester-COE-2025-26.pdf"
     ),
     mca: `

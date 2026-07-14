@@ -5,6 +5,39 @@ export type InfraSection = { heading: string; paras: string[]; items: string[]; 
 export type InfraData = { sections: InfraSection[]; images: { url: string; alt: string }[] };
 export const INFRA_DATA: Record<string, InfraData> = {
 
+  "ds": {
+    "sections": [
+      {
+        "heading": "Data Science Laboratory",
+        "paras": [
+          "The Data Science Laboratory provides students with comprehensive hands-on experience in data analysis, machine learning, artificial intelligence, big data technologies, and data visualization. Equipped with modern computing resources, high-performance systems, and industry-relevant software tools, the laboratory offers an interactive environment where students can explore, experiment, and apply theoretical concepts to practical problems.",
+          "Students gain exposure to the complete data science lifecycle, including data collection, preprocessing, exploratory data analysis, feature engineering, model development, evaluation, and deployment. The laboratory enables them to work with real-world datasets, build predictive and prescriptive models, implement deep learning techniques, and derive meaningful insights to support data-driven decision-making."
+        ],
+        "items": [],
+        "image": { "url": "/images/ds-infra/data-science-lab-1.jpg", "alt": "Data Science Laboratory" }
+      },
+      {
+        "heading": "Data Science Laboratory",
+        "paras": [
+          "The facility supports laboratory courses, mini-projects, capstone projects, research activities, hackathons, and innovation initiatives in emerging domains such as artificial intelligence, business analytics, natural language processing, computer vision, and cloud-based data processing. It also encourages collaborative learning, critical thinking, and problem-solving through practical assignments and industry-oriented case studies.",
+          "By providing exposure to contemporary tools, programming frameworks, and analytical methodologies, the Data Science Laboratory bridges the gap between academic learning and industry requirements. It plays a vital role in nurturing technical expertise, research aptitude, and innovation, thereby preparing students for successful careers in data science, analytics, artificial intelligence, and other technology-driven fields while fostering lifelong learning and professional excellence."
+        ],
+        "items": [],
+        "image": { "url": "/images/ds-infra/data-science-lab-2.jpg", "alt": "Data Science Laboratory" }
+      },
+      {
+        "heading": "Department Library",
+        "paras": [
+          "The Department Library serves as a valuable learning resource for students and faculty by providing access to a comprehensive collection of textbooks, reference books, journals, magazines, research publications, and digital resources in the fields of Computer Science, Data Science, Artificial Intelligence, Machine Learning, and other emerging technologies. The library is designed to support academic learning, research, and skill development by offering up-to-date study materials that complement the curriculum and encourage independent exploration.",
+          "The library provides a quiet, comfortable, and conducive environment for reading, study, research, and self-learning. It supports students in preparing for examinations, project work, internships, competitive exams, and higher education, while also enabling faculty members to stay updated with the latest advancements in technology and research. By promoting a culture of reading, critical thinking, knowledge sharing, and lifelong learning, the Department Library plays a significant role in fostering academic excellence, innovation, and continuous professional development among students and faculty members."
+        ],
+        "items": [],
+        "image": { "url": "/images/ds-infra/department-library.jpg", "alt": "Department Library" }
+      }
+    ],
+    "images": []
+  },
+
   "cse": {
     "sections": [
       {
@@ -628,6 +661,10 @@ export const INFRA_DATA: Record<string, InfraData> = {
             "33"
           ]
         ]
+      },
+      "image": {
+        "url": "/images/eee-infra/library-department-library.png",
+        "alt": "Department Library"
       }
     },
     {
@@ -1100,24 +1137,7 @@ export const INFRA_DATA: Record<string, InfraData> = {
       ]
     }
   ],
-  "images": [
-    {
-      "url": "/images/uploads/2025/07/1-scaled-1000x500.jpg",
-      "alt": "1"
-    },
-    {
-      "url": "/images/uploads/2025/07/2-scaled-1000x500.jpg",
-      "alt": "2"
-    },
-    {
-      "url": "/images/uploads/2025/07/3-scaled-1000x500.jpeg",
-      "alt": "3"
-    },
-    {
-      "url": "/images/uploads/2025/07/4-scaled-1000x500.jpg",
-      "alt": "4"
-    }
-  ]
+  "images": []
 },
   "me": {
     "sections": [
