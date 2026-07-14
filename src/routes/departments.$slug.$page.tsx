@@ -720,7 +720,7 @@ function DeptSubPage() {
               <SimpleTwoLevelAccordion
                 md={bodyMd}
                 openFirst={/research/.test(k)}
-                inlineTablePdfs={canonKey === "co-curricular" || /co-curricular|extra-curricular|extracurricular|activit/.test(k)}
+                inlineTablePdfs={canonKey === "co-curricular" || canonKey === "industry-interface" || /co-curricular|extra-curricular|extracurricular|activit|industry/.test(k)}
               />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
