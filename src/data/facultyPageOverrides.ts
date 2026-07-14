@@ -5521,6 +5521,7 @@ _Nil_
 ### Membership in Professional Bodies
 
 - Life Member Engineers Without Borders (EWB) – PFL 200
+- International Association of Engineers (IAENG) Member
 
 ### IPR/Patents
 
@@ -5627,6 +5628,7 @@ _Nil_
 11. Advanced Computer Architecture (Elite with Silver certificate)
 12. Computer Vision and Image Processing – Fundamentals and Applications
 13. NITTT Module 5: Technology Enabled Learning and Life Long Self Learning
+14. Certified Vulnerability Accessor (CVA)
 
 ### Roles and Responsibilities: Institute Level
 
@@ -5892,7 +5894,7 @@ _Nil_
   },
 
   "harshitha-m-k": {
-    name: "Ms. Harshitha M K",
+    name: "Mrs. Harshitha M K",
     url: "https://atme.edu.in/harshitha-m-k/",
     md: `**Faculty Name:** Harshitha M K
 
