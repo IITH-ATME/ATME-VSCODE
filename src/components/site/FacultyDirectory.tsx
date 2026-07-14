@@ -296,14 +296,17 @@ export function FacultyDirectory({
                               { re: /\bB\.?\s*Sc\b/i, label: "BSc" },
                               { re: /\bBCA\b/i, label: "BCA" },
                               { re: /\bBBA\b/i, label: "BBA" },
+                              { re: /\bB\.?\s*Com\b/i, label: "B.Com" },
                               { re: /\bB\.?\s*A\b/, label: "BA" },
                               { re: /\bM[\.\-\s]*Tech\b/i, label: "MTech" },
                               { re: /\bM\.?\s*E\b/, label: "ME" },
                               { re: /\bM\.?\s*Sc\b/i, label: "MSc" },
                               { re: /\bMCA\b/i, label: "MCA" },
                               { re: /\bMBA\b/i, label: "MBA" },
+                              { re: /\bM\.?\s*Com\b/i, label: "M.Com" },
                               { re: /\bM\.?\s*Phil\b/i, label: "MPhil" },
                               { re: /\bM\.?\s*A\b/, label: "MA" },
+                              { re: /\bK[\-\s]?SET\b/i, label: "K-SET" },
                               { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
                             ];
                             const found: string[] = [];
