@@ -157,14 +157,17 @@ function FacultyDetail() {
               { re: /\bB\.?\s*Sc\b/i, label: "B.Sc" },
               { re: /\bBCA\b/i, label: "BCA" },
               { re: /\bBBA\b/i, label: "BBA" },
+              { re: /\bB\.?\s*Com\b/i, label: "B.Com" },
               { re: /\bB\.?\s*A\b/, label: "B.A" },
               { re: /\bM[\.\-\s]*Tech\b/i, label: "M.Tech" },
               { re: /\bM\.?\s*E\b/, label: "M.E" },
               { re: /\bM\.?\s*Sc\b/i, label: "M.Sc" },
               { re: /\bMCA\b/i, label: "MCA" },
               { re: /\bMBA\b/i, label: "MBA" },
+              { re: /\bM\.?\s*Com\b/i, label: "M.Com" },
               { re: /\bM\.?\s*Phil\b/i, label: "M.Phil" },
               { re: /\bM\.?\s*A\b/, label: "M.A" },
+              { re: /\bK[\-\s]?SET\b/i, label: "K-SET" },
               { re: /\bPh[\.\s]*D\b/i, label: "PhD" },
             ];
             const found: string[] = [];
