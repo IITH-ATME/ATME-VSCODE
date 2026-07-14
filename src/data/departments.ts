@@ -149,7 +149,8 @@ const dsFaculty: Faculty[] = [
   { id: "ms-ambika-v", name: "Ms. Ambika V", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "03-06-2024", image: "https://atme.edu.in/wp-content/uploads/2026/03/Mrs-AMBIKA-V-1.jpg.jpeg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "mr-j-n-karthik", name: "Mr. J N Karthik", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "01-08-2025", image: "https://atme.edu.in/wp-content/uploads/2026/03/Mr.-J-N-Karthik-1.jpg.jpeg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "ms-sushmitha-n", name: "Ms. Sushmitha N", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "17-11-2025", image: "https://atme.edu.in/wp-content/uploads/2026/03/Ms.-Sushmitha-N-1.jpg.jpeg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
-  { id: "ms-pallavi-a-r", name: "Ms. Pallavi A R", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "", image: "/__l5e/assets-v1/465712f4-c199-445b-bc11-42a72bdfa8e9/pallavi-ar.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
+  { id: "ms-pallavi-a-r", name: "Ms. Pallavi A R", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "07-08-2025", image: "/__l5e/assets-v1/465712f4-c199-445b-bc11-42a72bdfa8e9/pallavi-ar.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
+  { id: "ms-arpitha-m-s", name: "Arpitha M S", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "01-07-2026", image: "", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
 ];
 
 const ceFaculty: Faculty[] = [
@@ -254,38 +255,40 @@ const noFaculty: Faculty[] = [];
 const physicsFaculty: Faculty[] = [
   { id: "dr-mahesh-lohith-k-s", name: "Dr. Mahesh Lohith K S", designation: "Associate Professor & Head", qualification: "M.Sc, Ph.D", doj: "08/08/2016", image: "/__l5e/assets-v1/b719f9de-1149-4209-b1eb-60860b9b163d/dr.-mahesh-lohith-k-s.jpg-1.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "ramachandra-m-n", name: "Mr. Ramachandra M N", designation: "Assistant Professor", qualification: "M.Phil., M.Sc", doj: "02/09/2010", image: "/__l5e/assets-v1/95663b69-6825-49f8-a23c-a478632b4c7a/ramachandra-m-n.png", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
-  { id: "rani-t", name: "Mrs. Rani T", designation: "Assistant Professor", qualification: "M.Sc", image: "/__l5e/assets-v1/405791ee-e2cb-40e5-b60d-04d5fdd0ed54/rani-t.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
+  { id: "rani-t", name: "Mrs. Rani T", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", image: "/__l5e/assets-v1/405791ee-e2cb-40e5-b60d-04d5fdd0ed54/rani-t.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "dr-madhusudhana-r", name: "Dr. Madhusudhana R", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, M.Phil, M.Tech in Nanotechnology, Ph.D", doj: "30/08/2023", image: "/__l5e/assets-v1/a4fc710f-7685-428f-8e16-c5d2b286e4b4/dr.-madhusudhana-r.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "raghavendra-r", name: "Mr. Raghavendra R", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "25/08/2021", image: "/__l5e/assets-v1/7a50ee25-a496-4c02-b0cf-f89c55f85b27/mr.-raghavendra-r.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
   { id: "anjan-kumar-j", name: "Mr. Anjan Kumar J", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, B.Ed", doj: "27/08/2021", image: "/__l5e/assets-v1/56ec31bf-88ba-47e8-9205-6d52b1e14ac7/anjan-kumar-j.jpg", cvUrl: "https://atme.edu.in/physics/about-the-department/" },
 ];
 
 const chemistryFaculty: Faculty[] = [
-  { id: "dr-avinash-k", name: "Dr. Avinash K", designation: "Professor & Head", qualification: "M.Sc, Ph.D", doj: "15/07/2012", image: "/__l5e/assets-v1/a9cb945a-b2ba-4ad2-b84b-dff66c1831ec/dr.-avinash-k.jpg-1.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
+  { id: "dr-avinash-k", name: "Dr. Avinash K", designation: "Associate Professor & Head", qualification: "B.Sc, M.Sc, Ph.D", doj: "15/07/2012", image: "/__l5e/assets-v1/a9cb945a-b2ba-4ad2-b84b-dff66c1831ec/dr.-avinash-k.jpg-1.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "dr-chaitra-t-k", name: "Dr. Chaitra T K", designation: "Assistant Professor", qualification: "M.Sc, Ph.D", doj: "01/08/2024", image: "/__l5e/assets-v1/c6ae85b9-b06f-4d59-a80f-c07f960a22de/dr.-chaitra-t-k.jpg-1.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "dr-halligudra-guddappa", name: "Dr. Halligudra Guddappa", designation: "Assistant Professor", qualification: "M.Sc, Ph.D", doj: "22/08/2023", image: "/__l5e/assets-v1/3f5f6fc1-271c-444b-bc70-3b96e6e9f71c/dr.-halligudra-guddappa.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "anusha-h-s", name: "Mrs. Anusha H S", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "28/08/2023", image: "/__l5e/assets-v1/d06e3320-4eca-4852-82d1-63eba0629c90/anusha-h-s.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "mahendra-kumar-h-s", name: "Mr. Mahendra Kumar H S", designation: "Assistant Professor", qualification: "B.Sc, M.Sc, B.Ed", doj: "13/05/2024", image: "/__l5e/assets-v1/f3171e17-f7b2-42f2-9d99-13179a26abb7/mr.-mahendra-kumar-h-s.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
   { id: "thejas-gowda-b", name: "Mr. Thejas Gowda B", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "15/01/2025", image: "/__l5e/assets-v1/d244fc0f-b0f6-463e-a991-c9f6ba0431f7/thejas-gowda-b.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
-  { id: "tejaswini-b-m", name: "Mrs. Tejaswini B M", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "20/02/2025", image: "/__l5e/assets-v1/07dad2e8-8626-4276-86de-fea090bb6c79/tejaswini-b-m.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
+  { id: "tejaswini-b-m", name: "Ms. Tejaswini B M", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "20/02/2025", image: "/__l5e/assets-v1/07dad2e8-8626-4276-86de-fea090bb6c79/tejaswini-b-m.jpg", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
+  { id: "magesh-m", name: "Mr. Magesh M", designation: "Assistant Lab Instructor", qualification: "", image: "", cvUrl: "https://atme.edu.in/chemistry/chem-about-the-department/" },
+  { id: "mr-lakshmana-g-n", name: "Mr. Lakshmana G N", designation: "Lab Assistant", qualification: "", image: "", cvUrl: "https://old.atme.edu.in/mr-lakshmana-g-n/" },
 ];
 
 const mathematicsFaculty: Faculty[] = [
-  { id: "dr-sudhakar-n", name: "Dr. Sudhakar N", designation: "Associate Professor & Head", qualification: "M.Sc, M.Phil, Ph.D", doj: "03/08/2015", image: "/__l5e/assets-v1/4bbe02a0-7454-4879-8284-232dddba3f81/sudhakar-n.jpg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
+  { id: "dr-sudhakar-n", name: "Mr. Sudhakar N", designation: "Assistant Professor & Head", qualification: "M.Phil, M.Sc", doj: "03/08/2015", image: "/__l5e/assets-v1/4bbe02a0-7454-4879-8284-232dddba3f81/sudhakar-n.jpg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "dr-madhusudhan-k-v", name: "Dr. Madhusudhan K V", designation: "Associate Professor", qualification: "M.Sc, Ph.D", doj: "02/09/2010", image: "/__l5e/assets-v1/9730fa9c-1caa-4b6a-9d7b-7e2bf01002a0/dr-madhusudhan-k-v.jpeg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "priyanka-n-b", name: "Mrs. Priyanka N B", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "02/09/2013", image: "/__l5e/assets-v1/70742bb7-4ceb-49a5-ae33-216c3ab08066/priyanka-n-b.jpeg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "divya-k", name: "Mrs. Divya K", designation: "Assistant Professor", qualification: "M.Sc, M.Phil", doj: "01/08/2012", image: "/__l5e/assets-v1/b10a88c0-43eb-4100-b7a8-7dd0a143a3f1/divya-k.jpeg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "sarada-pratapa", name: "Mrs. Sarada Pratapa", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "13/12/2021", image: "/__l5e/assets-v1/acad436a-c0e9-4eb1-a7bf-d3c374b0fde8/mrs.-sarada-pratapa.jpg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "rangaswamy-s", name: "Mr. Rangaswamy S", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "05/08/2022", image: "/__l5e/assets-v1/ca34487e-8118-44e1-873a-c3bab879e97a/mr.-rangaswamy-s.jpg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
-  { id: "bhanupriya-j", name: "Mrs. Bhanupriya J", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "05/06/2023", image: "/__l5e/assets-v1/c08ddd9a-0d43-4e3e-ae17-eea3b1c2866c/bhanupriya-j.jpeg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
+  { id: "bhanupriya-j", name: "Mrs. Bhanu Priya J", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "05/06/2023", image: "/__l5e/assets-v1/c08ddd9a-0d43-4e3e-ae17-eea3b1c2866c/bhanupriya-j.jpeg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "krupa-n", name: "Mrs. Krupa N", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "03/10/2025", image: "/__l5e/assets-v1/098ee120-3c06-42f7-9a4e-5de63f97d7ae/krupa-n.jpg", cvUrl: "https://atme.edu.in/mathematics/about-the-department/" },
   { id: "nandeesha-k-n", name: "Mr. Nandeesha K N", designation: "Attender", qualification: "SSLC", image: "/__l5e/assets-v1/59632dcd-5913-4afd-8fe2-a1f23a90a619/mr.-nandeesha-k-n-1.jpg", cvUrl: "https://old.atme.edu.in/mr-nandeesha-k-n/" },
 ];
 
 const humanitiesFaculty: Faculty[] = [
-  { id: "chandrashekhar-c", name: "Mr. Chandrashekhar C", designation: "Assistant Professor", qualification: "MA, LLB", image: "/__l5e/assets-v1/03e8315f-8947-4e54-905b-6ffc06638f10/chandrashekhar-c.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
-  { id: "bharathi-r", name: "Ms. Bharathi R", designation: "Assistant Professor", qualification: "MSc, MA, PGDE", doj: "15/10/2018", image: "/__l5e/assets-v1/fdde1262-e74b-4f98-bb5d-0e40d29d7928/bharathi-r.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
-  { id: "leelavathi-c-r", name: "Mrs. Leelavathi C R", designation: "Assistant Professor", qualification: "MA, B.Ed", doj: "14/12/2022", image: "/images/uploads/2026/03/Mrs.-Leelavathi-C-R.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "chandrashekhar-c", name: "Mr. Chandrashekhar C", designation: "Lecturer", qualification: "MA, LLB", doj: "05/09/2014", image: "/__l5e/assets-v1/03e8315f-8947-4e54-905b-6ffc06638f10/chandrashekhar-c.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "bharathi-r", name: "Ms. Bharathi R", designation: "Lecturer", qualification: "MSc, MA, PGDE", doj: "15/10/2018", image: "/__l5e/assets-v1/fdde1262-e74b-4f98-bb5d-0e40d29d7928/bharathi-r.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "leelavathi-c-r", name: "Mrs. Leelavathi C R", designation: "Lecturer", qualification: "MA, B.Ed", doj: "14/12/2022", image: "/images/uploads/2026/03/Mrs.-Leelavathi-C-R.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
   { id: "rakshitha-v", name: "Ms. Rakshitha V", designation: "Assistant Professor", qualification: "MA, B.Ed", doj: "16/04/2025", image: "/images/uploads/2026/03/Ms.-RAKSHITHA-V.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
 ];
 
@@ -694,6 +697,14 @@ export const departments: Department[] = [
   }),
   make("bca", "BCA", "Bachelor of Computer Applications", "Undergraduate programme focused on computer applications, software development, databases and IT fundamentals.", noFaculty, {
     about: "In today's technology-driven world, computer applications play a central and increasingly important role from communication, accessing information to harnessing the power of AI to drive innovation, automation, and intelligent decision-making across various domains. Concerning the Department of Computer Applications (BCA Programme), we intend to assure a standard of excellence in imparting higher education by practicing Hands-on Labs and Projects, Interactive Lectures, Case studies, Problem-solving sessions, Technology Integration, providing Networking opportunities and involving students in Research opportunities — leading bachelor students to benefit from a well-rounded education for the dynamic and evolving field of computer applications. The Department facilitates students to flourish their talent, enrich their expertise and competency. Students are also made spirited to become Entrepreneurs through expert talks by diversified resource persons. The duration of the BCA program is three years (Six Semesters). The curriculum, designed by VTU, is aimed at broadcasting a wide spectrum of practice and knowledge in the computing domain in the latest and emerging technologies. The Department of BCA inculcates innovative teaching-learning methods and Outcome Based Education (OBE) to enable students to become intellectual as well as competent professionals.",
+    // No dept-specific Vision/Mission/PEOs/PSOs exist on old.atme.edu.in for
+    // BCA — the make() defaults ("four-year BE programme…") are factually
+    // wrong for a 3-year BCA programme, so they're suppressed rather than
+    // shown. Populate with the department's approved text when available.
+    vision: "",
+    mission: [],
+    peo: [],
+    pso: [],
     hod: { name: "Dr. Shakunthala C", designation: "Associate Professor & Head, BCA", image: "/__l5e/assets-v1/0b67a2fa-efff-46b2-896c-f268b9356396/Dr-Shakunthala-C.jpg", message: "Welcome to the Department of Computer Applications (BCA Programme) at ATME College of Engineering. Our mission is to nurture undergraduate students into competent, ethical and innovative computing professionals through a balanced blend of rigorous academics, hands-on lab work, interactive lectures, case studies and problem-solving sessions. We integrate the latest technologies — AI, data analytics, cloud, web and mobile application development — with strong fundamentals in software engineering and databases. Our dedicated faculty mentor students through projects, internships, industry interactions and research initiatives, while expert talks from diversified resource persons inspire them to take up entrepreneurship. We strive to develop graduates who are intellectually strong, technically competent and ready to contribute meaningfully to the dynamic and ever-evolving world of computer applications." },
     documents: {
       facultyList: [{ title: "BCA Faculty List 2025-26 (PDF)", href: "https://atme.edu.in/wp-content/uploads/2025/09/BCA-Faculty-List-for-the-Academic-Year-2025-26.pdf" }],
@@ -709,6 +720,14 @@ export const departments: Department[] = [
   make("mca", "MCA", "Master of Computer Applications", "Postgraduate programme focused on application development, software engineering, databases and emerging computing technologies.", mcaAllFaculty, {
     about: "In today's technology-driven world, computer applications play a central and increasingly important role from communication, accessing information to harnessing the power of AI to drive innovation, automation, and intelligent decision-making across various domains. Concerning the Department of Master of Computer Applications, we intend to assure a standard of excellence in imparting higher education by practicing Hands-on Labs and Projects, Interactive Lectures, Case studies, Problem-solving sessions, Technology Integration, providing Networking opportunities and involving students in Research opportunities — leading master students to benefit from a well-rounded education for the dynamic and evolving field of computer applications. The Department facilitates students to flourish their talent, enrich their expertise and competency. Students are also made spirited to become Entrepreneurs through expert talks by diversified resource persons. The current intake of the MCA program is 120 and the duration is two years (Four Semesters). The curriculum, designed by VTU, is aimed at broadcasting a wide spectrum of practice and knowledge in the computing domain in the latest and emerging technologies. The Department of MCA inculcates innovative teaching-learning methods and Outcome Based Education (OBE) to enable students to become intellectual as well as competent professionals.",
     hod: { name: "Dr. Shakunthala C", designation: "Associate Professor & Head, MCA", image: "/__l5e/assets-v1/0b67a2fa-efff-46b2-896c-f268b9356396/Dr-Shakunthala-C.jpg", message: "Welcome to the Department of Master of Computer Applications at ATME College of Engineering. Our mission is to nurture postgraduate students into competent, ethical and innovative computing professionals through a balanced blend of rigorous academics, hands-on lab work, interactive lectures, case studies and problem-solving sessions. We integrate the latest technologies — AI, data analytics, cloud, web and mobile application development — with strong fundamentals in software engineering and databases. Our dedicated faculty mentor students through projects, internships, industry interactions and research initiatives, while expert talks from diversified resource persons inspire them to take up entrepreneurship. We strive to develop graduates who are intellectually strong, technically competent and ready to contribute meaningfully to the dynamic and ever-evolving world of computer applications." },
+    // No dept-specific Vision/Mission/PEOs/PSOs exist on old.atme.edu.in for
+    // MCA — the make() defaults ("four-year BE programme…") are factually
+    // wrong for a 2-year PG programme, so they're suppressed rather than
+    // shown. Populate with the department's approved text when available.
+    vision: "",
+    mission: [],
+    peo: [],
+    pso: [],
     po: [
       "Foundation Knowledge: Apply knowledge of mathematics, programming logic and coding fundamentals for solution architecture and problem solving.",
       "Problem Analysis: Identify, review, formulate and analyse problems for primarily focussing on customer requirements using critical thinking frameworks.",
@@ -798,21 +817,48 @@ export const departments: Department[] = [
     hod: { name: "Dr. Mahesh Lohith K S", designation: "Associate Professor & Head, Physics", image: "https://atme.edu.in/wp-content/uploads/2022/05/phy_hod-180x180-1.jpg", message: "\"What one man calls God, another calls the Laws of Physics.\" — Nikola Tesla. Physics is the fundamental science. Physics means \"nature\". Thus physics is the most important basis for engineering and technology. To understand nature one has to do careful observations — observations play a decisive role in the study of nature. To become a good engineer one must clutch the basic principles and laws of nature. The study of nature is possible through assumptions, theories, mathematical formulations, experiments, results, analysis and logical reasoning. Understanding the principles of physics is worth enjoying. I am proud and elated to be a physicist." },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
-    peo: bsCommon.peo,
+    peo: [],
+    pso: [],
+    shortTermGoals: [
+      "To impart quality education in basic sciences, engineering sciences and humanities.",
+      "To achieve the optimum outcome by incorporating best practices in teaching.",
+      "To organize development programs in Physics, Engineering and Technology.",
+    ],
+    longTermGoals: [
+      "Establishment of Fabrication, Research and Development Centre.",
+    ],
   }),
   make("chemistry", "CHEM", "Chemistry", "Engineering Chemistry — interdisciplinary teaching, research and well-equipped laboratory supporting first-year engineering programmes.", chemistryFaculty, {
     about: "The main focus of teaching and research in the department is centred on interdisciplinary themes and pledges itself in the broadest and most liberal manner to encourage the advancement of all branches of engineering through its practically skilled education and service missions. The department has a well equipped laboratory with modern infrastructure. The faculty members of the department are well qualified, experienced and have expertise in most frontier areas of research. They have contributed towards publication of a good number of research papers in national and international journals and conferences. The department is recognized as a research centre by VTU and has a separate R & D centre. Many students have registered to pursue Ph.D from various institutes. The department also organizes workshops, seminars, induction programmes and other curricular and co-curricular activities.",
-    hod: { name: "Dr. Avinash K", designation: "Professor & Head, Chemistry", image: "/__l5e/assets-v1/2a528e75-11da-463f-9cfd-e91c76e79d69/Dr-Avinash-K.jpg", message: "Chemistry is a colourful fundamental subject of science which has a lot of importance in engineering and technology. The subject places more emphasis on applications of chemistry in today's world and provides solutions to many problems we are facing today. Nowadays, the world is focused on interdisciplinary studies, hence students should give importance to the subject for their future studies, career and to excel academically. The faculty members of our department are highly qualified, experienced and involved in research activities in core areas of the subject and engineering applications. Best utilization of faculty, infrastructure and a keen interest in studies gives a strong foundation to budding engineers. \"Chemistry must become the astronomy of the molecular world.\" — Alfred Werner." },
+    hod: { name: "Dr. Avinash K", designation: "Associate Professor & Head, Chemistry", image: "/__l5e/assets-v1/2a528e75-11da-463f-9cfd-e91c76e79d69/Dr-Avinash-K.jpg", message: "Chemistry is a colourful fundamental subject of science which has a lot of importance in engineering and technology. The subject places more emphasis on applications of chemistry in today's world and provides solutions to many problems we are facing today. Nowadays, the world is focused on interdisciplinary studies, hence students should give importance to the subject for their future studies, career and to excel academically. The faculty members of our department are highly qualified, experienced and involved in research activities in core areas of the subject and engineering applications. Best utilization of faculty, infrastructure and a keen interest in studies gives a strong foundation to budding engineers.\n\n\"Chemistry must become the astronomy of the molecular world.\" — Alfred Werner." },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
-    peo: bsCommon.peo,
+    peo: [],
+    pso: [],
+    shortTermGoals: [
+      "The department is aimed to improve academic performance of students using innovative and creative methods of teaching. Conducting programmes to acquire knowledge, skills, innovative and creative thinking etc.",
+    ],
+    longTermGoals: [
+      "The basic objective of the Department of Chemistry is to educate the next generation of graduates with the capacity to solve real problems and provide leadership that can lead to the economic and social transformation of students.",
+    ],
   }),
   make("mathematics", "MATH", "Mathematics", "Engineering Mathematics — strong basic foundation, bridge courses and remedial classes for first-year engineering students.", mathematicsFaculty, {
     about: "The Department of Mathematics was started in the year 2010. The number of students grew in leaps and bounds year after year. The department has grown in strength and now has 6 faculty members and 2 of them are actively involved in research. The department interacts with other departments and provides solutions to their mathematical problems. The department is committed to continuous improvement in quality education by enhancing the knowledge of students and faculty members. Bridge courses are conducted for Diploma Students. Needy students are identified and special classes are engaged to enhance their performance. The dedicated efforts of the faculty of the department are yielding good results.",
-    hod: { name: "Dr. Sudhakar N", designation: "Associate Professor & Head, Mathematics", image: "https://atme.edu.in/wp-content/uploads/2022/09/Sudhakar-N.jpg", message: "The Department of Mathematics provides a strong basic foundation to enable students to meet the fast-changing needs of industry, supported by dedicated faculty and excellent coaching. We encourage students to participate in mathematics talent competitions conducted across various colleges, and we conduct bridge courses for diploma entrants along with special remedial classes for students who need additional support. The department actively interacts with other engineering departments to provide solutions to their mathematical problems and is committed to continuous improvement in quality education by enhancing the knowledge of both students and faculty." },
+    hod: { name: "Mr. Sudhakar N", designation: "Assistant Professor & Head, Mathematics", image: "https://atme.edu.in/wp-content/uploads/2022/09/Sudhakar-N.jpg", message: "The Department of Mathematics provides a strong basic foundation to enable students to meet the fast-changing needs of industry, supported by dedicated faculty and excellent coaching. We encourage students to participate in mathematics talent competitions conducted across various colleges, and we conduct bridge courses for diploma entrants along with special remedial classes for students who need additional support. The department actively interacts with other engineering departments to provide solutions to their mathematical problems and is committed to continuous improvement in quality education by enhancing the knowledge of both students and faculty." },
     vision: bsCommon.vision,
     mission: bsCommon.mission,
-    peo: bsCommon.peo,
+    peo: [],
+    pso: [],
+    shortTermGoals: [
+      "Using innovative and creative methods to improve academic performance of students.",
+      "To encourage research activities.",
+      "To strengthen the department infrastructure and human resources.",
+      "To conduct workshops/conferences/seminars for knowledge sharing.",
+    ],
+    longTermGoals: [
+      "To establish a research center for facilitating research activities in various domains of Mathematics.",
+      "To have more number of publications in the areas of Mathematics.",
+    ],
   }),
   make("humanities", "HUM", "Humanities", "Communication skills, language and soft-skills training for engineering students.", humanitiesFaculty, {
     about: "The Department of Humanities at ATMECE focuses on developing strong communication, language and soft-skills among engineering students. Through structured courses, value-added programmes and personality development activities, the department helps students become confident communicators and socially responsible professionals ready for the global workplace.",

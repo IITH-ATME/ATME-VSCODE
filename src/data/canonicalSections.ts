@@ -66,6 +66,9 @@ export const FULL_MENU_DEPTS = new Set<string>([
  */
 export const DEPT_EXCLUDED_SECTIONS: Record<string, Set<string>> = {
   mba: new Set(["infrastructure"]),
+  // Per department correction notes: these tabs are not applicable to MCA/BCA.
+  mca: new Set(["research-initiative", "industry-interface"]),
+  bca: new Set(["placement", "industry-interface"]),
 };
 
 export type ResolvedSection = {

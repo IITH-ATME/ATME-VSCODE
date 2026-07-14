@@ -1599,6 +1599,20 @@ export const INFRA_DATA: Record<string, InfraData> = {
           "The faculty members of the Department are well qualified and have expertise in frontier areas of research such as Organic synthesis, catalysis, composite materials, fuel cells, solar energy, pharmaceutical chemistry, analytical chemistry and nanomaterial’s. They have contributed towards publication of a good number of research papers in national and international Journals and Conferences. The faculties with doctoral degree in the department are supervising as VTU research guide for other students for their Ph.D Degree."
         ],
         "items": []
+      },
+      {
+        "heading": "Research Facilities",
+        "paras": [],
+        "items": [
+          "UV–Visible light-assisted dye degradation facility",
+          "Nanoparticle synthesis laboratory equipped with a muffle furnace, hydrothermal autoclave, and hot air ovens",
+          "Organic compound synthesis laboratory",
+          "Coin cell battery assembly laboratory with a Battery Management System (BMS)",
+          "Antimicrobial and cytotoxicity assay laboratory equipped with laminar airflow cabinets and incubators",
+          "Well-equipped laboratory with sufficient chemicals, glassware, and other essential equipment for conducting interdisciplinary research",
+          "Electrochemical analysis facility for sensor development and drug analysis",
+          "UV–Visible and visible spectrophotometric assay facilities"
+        ]
       }
     ],
     "images": []
