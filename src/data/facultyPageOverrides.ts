@@ -1956,17 +1956,17 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 ### Roles and Responsibilities: Institute Level
 
 1. Worked as the Head of the Civil Department (from Aug 2015 to Sep 2025).
-2. Presently NABL – Chief Executive Officer.
+2. NABL – Chief Executive Officer.
 
 ### Roles and Responsibilities: Department Level
 
-1. Worked as Test Coordinator during the years 2012-2013 and 2014-2015.
-2. Worked as Placement Coordinator from 2013 to 2015.
-3. Worked as EMS Coordinator from 2014 to 2015.
-4. Worked as Camp Officer / Treasurer during 2014-2015.
-5. Working as Sports Coordinator from 2012 to 2018.
-6. Working as Indian Green Building Council (IGBC) Co-coordinator (2016 to date).
-7. Committee member for PAC & DAB.
+1. NBA Coordinator
+2. Consultancy
+3. ACCE / BAI / IGBC – Extension Activities
+4. LIC / AICTE / AIISHE / MOU Coordinator
+5. Department Library Coordinator
+6. II Year - Class Teacher
+7. Concrete Lab – Incharge (Main)
 `,
   },
   "dr-nalini-elizabeth-rebello": {
@@ -6145,5 +6145,583 @@ S/o Purushothama, Bevinahalli Village, Sosale Hobli, T N Pura Tq, Mysore Dist.
 ## Roles and Responsibilities: Department Level
 
 - NIL`,
+  },
+  "mrs-shruthi-h-g": {
+    name: "Dr. Shruthi H G",
+    url: "https://atme.edu.in/mrs-shruthi-h-g/",
+    md: `## Contact Details
+
+- **Email ID:** Official: [shruthihg_cv@atme.edu.in](mailto:shruthihg_cv@atme.edu.in) | Personal: [shruthi.hg17@gmail.com](mailto:shruthi.hg17@gmail.com)
+- **Vidwan ID:** 201404, <https://vidwan.inflibnet.ac.in/profile/201404>
+- **Google Scholar ID:** u7bnHzMAAAAJ
+- **Scopus ID:** 57679266600
+- **Orcid ID:** 0000-0002-1678-356X
+- **LinkedIn ID:** <https://www.linkedin.com/in/shruthi-hg-548922263/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.**
+- **M.Tech** in CAD Structures
+- **B.E** in Civil Engineering
+
+## Professional Experience
+
+- Teaching: 11 Years
+- Research: Nil
+- Industry: 1 Year
+
+## Areas of Interest
+
+1. Concrete Technology
+2. Construction Technology
+3. Geotechnical Engineering
+
+## Publication Details
+
+- Shruthi H G et al.,”Effect of Polyethylene Glycol (PEG) as Curing Agents in Concrete”14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, pp. 1067–1072,2023-June. ( **Scopus paper**).
+- Shruthi H G, et.al., “A Review of Various Masonry Blocks Employed in Wall Construction”, International Conference on Recent Tends in Science & Technology, Oct 2023.
+- Shruthi H G, et.,al, “Soil stability an Experimental Investigation Utilizing Bagasse Ash in Combination with Guar Gum and Xanthan Gum Biopolymers”, International Conference on Recent Tends in Science & Technology, Oct 2023.
+- Shruthi H G, Gowtham Prasad M E, “Experimental Investigations on Influence of natural fibers on strength properties of concrete”, International conference on Interdisciplinary approaches in Civil Engineering for Sustainable Development, July 2023. ( **Scopus Paper**).
+- Shruthi H G, Raghavendra K S, Jhenkar G, Harshavardhan H S, Syed Imad I, “Experimental Investigation on Mechanical Properties of Concrete by Partial Replacement of WPP and SD in Concrete”, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 12, Issue 5, ISSN:6502-6507, 2023.
+- Shruthi H G, Saniya H M, Chirag N, Nishchitha J, Nandish H D, “Experimental investigation on strength properties of concrete by partial replacement of natural and synthetic fibres”, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 12, Issue 5, ISSN:6502-6507, 2023.
+- Shruthi H G, Jyothi D N and Dr. Kavitha S, “Effect of Polyethylene glycol (PEG) as curing agents in concrete”, International Conference on Recent Trends in Science and Technology, ICRTST, 14th July 2022. ( **Scopous paper**)
+- Shruthi H G, M K Nayana, Tanzil Ahmed, Darshan N S, Pavan Kumar R “An experimental work on strength properties of M30 grade concrete by partial replacement of cement and fine aggregates with non-conventional construction materials” published in International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 11, Issue 7, July 2022, PP: 10054-10059, ISSN: 2319-8753 ( [http://www.ijirset.com/upload/2022/july/149\_An.pdf](http://www.ijirset.com/upload/2022/july/149_An.pdf)).
+- Shruthi H G et al.,”Drought Risk Assessment Using NDVI—A Case Study “Advances in Science, Technology and Innovation,pp.243–251,2022 **.(ScopusPaper).** Shruthi H G et al.,”Enviro-Safe Stabilization of Black Cotton Soil—Experimental Study with Optimal Proportion of Stabilizer”, Advances in Science, Technology and Innovation, pp. 719–725, 2022. **.(Scopus Paper).**
+- Shruthi H G, Alen Joe Fletcher, Deekshith V V, Mohammed Saqibulla, Pavithra H C “Effect of Super Absorbent Polymer (SAP) As Curing Agent in Concrete” published in International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 9, Issue 8, Aug 2020, PP: 7230-7234, ISSN: 2319-8753. ( [http://www.ijirset.com/upload/2020/august/59\_EFFECT\_NC.PDF](http://www.ijirset.com/upload/2020/august/59_EFFECT_NC.PDF)).
+- Shruthi H G, Gowtham Prasad M E, “Study of split tensile strength of concrete by partial replacement of granite dust powder in cement” published in International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 9, Issue 6, June 2020, PP: 4550-4553, ISSN: 2319-8753.
+- Shruthi H G, Ramitha H E, Harish K R, Prajwal M R, Shilpashree K S, “Influence of Recycled Waste Water as Mixing and Curing Agents on the Properties of Concrete” published in International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 9, Issue 8, Aug 2020, PP: 7532-7536, ISSN: 2319-8753.  ( [http://www.ijirset.com/upload/2020/august/112\_Influence\_NC.PDF](http://www.ijirset.com/upload/2020/august/112_Influence_NC.PDF)).
+- Shruthi H G, Pavithra B S, Sunil S, Thejasgowda L N, Rajinikanth, “Study of Properties of Concrete with Influence of Over Burnt Bricks as Partial Replacement in Aggregate and It’s Performance in Elevated Temperature” International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), ISSN: 2319-8753, 2020-21. ( [http://www.ijirset.com/upload/2021/september/11\_Study\_NC.pdf](http://www.ijirset.com/upload/2021/september/11_Study_NC.pdf)).
+- Shruthi H G, Madhushree M, Prashanth S V, Pooja S, Jayavijaya B N “Effect of Rice Husk Ash and Corn Cob Ash in Concrete with Partial Replacement in Cement” published in International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 8, Issue 6, June2019, PP: 7010-7015, ISSN: 2319-8753. ( [http://www.ijirset.com/upload/2019/june/9\_2\_Effect\_NEW.pdf](http://www.ijirset.com/upload/2019/june/9_2_Effect_NEW.pdf)).
+- Shruthi H G, Harshith M K et al., “Performance Evaluation of waste coconut shells and coir fiber as a substitute for coarse and fine aggregate in structural concrete member” published in International Research Journal of Engineering and Technology (IRJET), Volume 5, Issue 6, June 2018, PP: 1349-1353, ISSN: 2395-0056. ( https://www.irjet.net/archives/V5/i6/IRJET-V5I6252.pdf).
+- Shruthi H G, Pujitha Ganapathi C et al., “Utilization of waste Foundry sand and waste ceramic tiles as partial replacement for fine and coarse aggregate in concrete” published in International journal of Innovative research in science, Engineering and Technology (IJIRSET), Volume 7, Issue 5, May-2018, PP: 5066-5073, ISSN: 2319-8753. (http://www.ijirset.com/upload/2018/may/72\_9\_UTILIZATION.pdf).
+- Shruthi H G, Gowtham Prasad M.E, Harsha Urs,“A Survey on Partial Replacement of Sand with Crushed Brick Powder in Concrete” published in International Journal Of Advanced Research in Engineering & Management International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), PP. 7026-7030, June 2018,ISSN: 2319-8753.
+- Shruthi H G, Gowtham Prasad M.E et al., “Evaluation Of Roof Diaphragm Effects On Seismic Behaviour Of RC Buildings” published in International Journal Of Advanced Research in Engineering & Management (IJAREM), Volume: 03, Issue: 04, PP. 32-60, April 2017, ISSN: 2456-2033.
+- Shruthi H G, Gowtham Prasad M.E et al., “Piezohump – A Radical Shift towards Renewable Energy Source” published in International Journal of Latest Technology in Engineering, Management & Applied Science (IJLTEMAS), Volume: 04, Issue: 04thApril 2017, ISSN: 2278-2540.
+- Shruthi H G, Gowtham Prasad M.E et al., “Applicability Of HEC-HMS Tool To Western Ghats – Nethravathi River Basin” published in International Journal Of Advanced Research in Engineering & Management (IJAREM), Volume: 03, Issue: 04, PP. 70-79, April 2017, ISSN: 2456-2033.
+- Shruthi H G, Gowtham Prasad, Samreen taj, Syed ruman pasha “Reuse of ceramic waste as aggregate in concrete” International Research Journal of Engineering and Technology (IRJET), Volume: 03, Issue: 07, p. 2395-0072, July-2016.
+- Shruthi H G and Mr. B.S. Jayashankar Babu “Analysis of Isotropic Perforated Stiffened Plate using FEM” Published in International Journal of Engineering Research and Applications (IJERA) Vol.4, Issue 8, ISSN: 2248-9622, August 2014.
+
+## Membership in Professional Bodies
+
+- International Association of Engineers (IAENG)
+- American society of Civil Engineers (ASCE)
+- Association of Consulting Civil Engineers (ACCE)
+
+## Honours/Awards/ Achievements
+
+- Received best teacher award for the academic year 2021-22.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- FDP’s – 37
+- Workshops/Symposium/Seminars – 9
+- Training Programs – 6
+- Certifications – 8
+- Conferences – 13
+
+## Proposal/Funding/Project Financial Assistance
+
+- Received ATAL AICTE grant of Rs. 1,00,000/- for conduction of online FDP on “Innovative approaches to Disaster management & Resilient Infrastructure” for faculties. Event organized & completed in the month of Dec 9th to 14th , 2024.
+- Received grant of Rs. 7000/- for the BE project which was guided in the academic year 2014-15 from KSCST under 39st Series Student Project Programme.
+
+## Patent
+
+- **National** — Title: M30 grade concrete using partially submitted eggshell powder and steel slag and method of preparing thereof. Published/Granted: Published in the month of October 2023. Patent No.: 202341058563
+
+## Roles and Responsibilities: Institute Level
+
+- NABL – DQM
+
+## Roles and Responsibilities: Department Level
+
+- Academic Coordinator
+- Patent Coordinator
+- Course File Coordinator
+- Mentoring Coordinator
+- SMR Report Coordinator
+- IQAC Coordinator
+- NAAC Criteria-4
+- Concrete Lab - Incharge`,
+  },
+  "bharathi-b": {
+    name: "Mrs. Bharathi B",
+    url: "https://atme.edu.in/bharathi-b/",
+    md: `## Academic Details
+
+- **M.Tech** in Transportation Engineering (2nd Rank), REVA Institute of Technology and Management, Bangalore
+- **B.E.** in Civil Engineering, PES College of Engineering, Mandya
+- Pursuing PhD
+
+## Contact Details
+
+- **Email ID:** [bharathib_cv@atme.edu.in](mailto:bharathib_cv@atme.edu.in)
+- **LinkedIn ID:** <https://www.linkedin.com/in/bharathi-raj-b7952438/>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=hC0BSFcAAAAJ&hl=en>
+- **Orcid ID:** <https://orcid.org/0000-0002-1858-920X>
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201087>
+
+## Professional Experience
+
+- Transport Planner at Consortia of Infrastructure Engineers – 1 year
+- Infrastructure Manager at Consortia of Infrastructure Engineers – 10 months
+- Assistant Professor at ATMECE – 10th August 2015 to till date
+
+## Publication Details
+
+- "Development of noise variation and mitigative measures for SH-17, (Mandya Stretch)" in International conference on Sustainable Civil Infrastructure by ICSCI 2014 © ASCE India Section, Oct 17 – 18, 2015, Hitex, Hyderabad, Telangana, India.
+- "Development of Pedestrian safety index and mathematical modelling" in International conference on Sustainable Civil Infrastructure by ICSCI 2014 © ASCE India Section, Oct 17 – 18, 2015, Hitex, Hyderabad, Telangana, India
+- "Vehicular Noise modelling and mitigative measures for SH 17- (Mandya stretch)" in first National conference ACIDIC organized and held at NITK, Suratkal.
+- "Experimental Study on Determination and Extraction of Heat from the Surface of Flexible Pavement by Addition of Graphene" in IJSRD International Journal for Scientific Research & Development, Vol 8, Issue 6, 2020
+- "Performance Evaluation and Measurement of Heat from Bituminous Surface by Addition of Graphene" International journal for scientific research and Development, 6/4/991-994, Jul-18, ISSN 2321-0613
+- "Determination of Accident Point Weightage for a Mixed Traffic Flow in Teir-2 City Mysuru: A Case Study" published in International journal for scientific research and Development, Vol 6/4/865-868, Sep-18, ISSN 2321-0613
+
+## Conference Details
+
+- "Determination of accident point weightage for a mixed traffic flow condition- A case study" in National Conference on Recent trends in GIS, material science and Civil Engineering organised and held at Department of Civil Engg, ATMECE, Mysuru
+- Experimental Study on Strength & Durability Characteristic of Light-weight Concrete with Coal Cinder as a Replacement for Coarse Aggregate presented in the "International Conference on Recent Trends in Science and Technology (ICRTST- 2021)" organised by ATME College of Engineering at Oct-21
+
+## Honours/Awards/ Achievements
+
+- Secured 2nd rank in M.Tech (VTU)
+- Won Best Paper award for "Development of Noise variation and mathematical modelling for SH 17- (Mandya stretch)" in Revamp held at REVA University
+- Organised 4 days Webinar on "Recent Trends in Transportation Engineering"
+
+## Membership in Professional Bodies
+
+- ISTE
+- Traffic Engineers Safety Trainers
+- Resource person for INSTRUCT (A unit for training Highway Engineers)
+
+## Areas of Interest
+
+- Transportation Engineering
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- Result Analysis
+- CEA Coordinator
+- QSI Gauge Coordinator
+- Event Planning Coordinator
+- NABL – QM (Files)
+- NAAC Criteria-2
+- IV Year - Class Teacher
+- Concrete Lab - Incharge`,
+  },
+  "mr-rudresh-a-n": {
+    name: "Mr. Rudresh A N",
+    url: "https://atme.edu.in/mr-rudresh-a-n/",
+    md: `## Academic Details
+
+- **M.Tech** in Highway Technology at Dayananda Sagar College of Engineering, Bengaluru
+- **B.E.** in Civil Engineering at Global Academy of Technology, Bengaluru
+
+## Contact Details
+
+- **Email ID:** [rudreshan.cv@atme.edu.in](mailto:rudreshan.cv@atme.edu.in)
+- **LinkedIn ID:** <https://www.linkedin.com/in/rudresh-gowda-6614729a/>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=jBeM8sEAAAAJ>
+- **Orcid ID:** <https://orcid.org/0000-0002-9389-0019>
+
+## Professional Experience
+
+- Worked as Assistant Professor in R K University, Rajkot, Gujarat
+- Working as Assistant Professor in Civil Engineering Department at ATME College of Engineering, Mysuru (August 2015-till date)
+
+## Publication Details
+
+- Rudresh A N "Effect of Random Inclusion of Sisal Fiber on strength Behaviour of Black Cotton soil" in IJERT, ISSN: 2278-0181, Vol.2 Issue 7.
+- P Shashank, Rudresh A N and Manu Vijay "Load Moment Interaction Behaviour of Equally Legged T Column", Published in International Research Journal of Engineering & Technology (IRJET), Volume 5, Issue 5, ISSN: 2395-0056, May 2018, Page 1809 – 1812.
+- Rudresh A N and P Shashank "Experimental study on Strength of Fibre Reinforced Concrete for Rigid Pavements", Published in International Research Journal of Engineering & Technology (IRJET), Volume 5, Issue 6, ISSN: 2395-0072, June 2018, Page 2704 – 2710.
+- Rudresh A N and Puneeth K "Analysis of Reinforced Concrete (Rc) Frames Under Lateral Loads Using Steel Bracings", Published in International Journal of Innovative Science and Research Technology (IJISRT), Volume 3, Issue 11, ISSN: 2456-2165, November 2018, Page 364 – 369.
+- Rudresh A N "Experimental Study on Marshall Stability of BC Mix by Adding PET as an Additive", Published in International Research Journal of Engineering & Technology (IRJET), Volume 7, Issue 5, ISSN: 2395-0072, May 2020, Page 5219 – 5223.
+- Rudresh A N and Mandeep G "Experimental Study on Strength Characteristics of Concrete with Gold Ore Tailings as Fine Aggregates", Published in International Journal of Engineering Development and Research (IJEDR), Volume 8, Issue 3, ISSN: 2321-9939, August 2020, Page 72 – 75.
+- Rudresh A N and Girish P "Stabilized Rammed Earth Construction Using Natural Fibres", Published in International Journal of Engineering Development and Research (IJEDR), Volume 8, Issue 3, ISSN: 2321-9939, August 2020, Page 35 – 41.
+- Rudresh A N "Use of Waste Plastic With Bitumen for Surface Course quarry dust" in Recent trends in Geosciences, Material Science, and Civil Engineering, ISBN978-93-86256-67-6 Mar 2017, Pg 139-143.
+
+## Membership in Professional Bodies
+
+- Association of Consulting Civil Engineers (ACCE – 4461 L)
+- Indian Society for Technical Education (ISTE – LM 116880)
+- International Association of Engineers (IAENG – 221868)
+
+## Proposal/Funding/Project Financial Assistance
+
+- Received grant of Rs. 3500 for the UG Project titled "Assessment of pedestrian crossing at sub-urban junction, Mysuru" guided in the academic year 2018-19 from KSCST under 42nd series student project programme.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Presented Poster on "Effect of RBI Grade81 on Engineering properties of Black Cotton soil" in Symposium-2018, held at ATMECE, Mysuru on 10th October.
+- Attended a 6-Day FDP organized by Department of Mechanical Engineering at ATMECE from 2nd to 9th July 2019 on "Art of Counselling"
+- Attended 5-Day FDP on "Geospatial Technologies" organized by JSS Science and Technology, Mysuru from 15th to 19th July 2019
+- Attended a 4-Day Online Workshop on Exam Reforms organized by AICTE from 29th April to 2nd May 2020
+- Attended a 6-Day Online Workshop on "Facets of Sustainable Growth in Infrastructure Development (FSGID)" organized by JSS Science and Technology University from 1st March to 6th March 2021
+
+## Areas of Interest
+
+- Transportation Engineering
+
+## Roles and Responsibilities: Institute Level
+
+- Sports Coordinator
+
+## Roles and Responsibilities: Department Level
+
+- IA Coordinator / EMS Coordinator
+- Budget / Department Accounts
+- Industry Interaction Coordinator
+- DST Coordinator
+- NAAC Criteria-5
+- III Year - Class Teacher
+- Survey Lab - Incharge`,
+  },
+  "puneeth-k": {
+    name: "Mr. Puneeth K",
+    url: "https://atme.edu.in/puneeth-k/",
+    md: `## Contact Details
+
+- **Email ID:** Official: [puneethk_cv@atme.edu.in](mailto:puneethk_cv@atme.edu.in) | Personal: [puneeth.aug@gmail.com](mailto:puneeth.aug@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/200821>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=HwWduwYAAAAJ&hl=en>
+- **Scopus ID:** 58653500900
+- **Orcid ID:** <https://orcid.org/0000-0002-9294-680X>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** – Pursuing
+- **M.Tech** in Structural Engineering
+- **B.E** in Civil Engineering
+
+## Professional Experience
+
+- Teaching: 9 Years
+- Research: NIL
+- Industry: 3 Months
+
+## Areas of Interest
+
+1. Structural Engineering
+2. Building Science
+
+## Publication Details
+
+- A review of various Masonry Blocks Employed in wall Construction, Tuijin Jishu/Journal of Propulsion Technology, ISSN: 1001-4055, Vol. 44 No. 5 (2023), Pg No. 1019 – ( [https://www.propulsiontechjournal.com/index.php/journal/article/view/2728](https://www.propulsiontechjournal.com/index.php/journal/article/view/2728))
+- Soil Stability: An Experimental Investigation Utilizing Bagasse Ash in Combination with Guar Gum and Xanthan Gum Biopolymers, Tuijin Jishu/Journal of Propulsion Technology, ISSN: 1001-4055, Vol. 44 No. 5 (2023), Pg No. 1162 – ( [https://www.propulsiontechjournal.com/index.php/journal/article/view/2744](https://www.propulsiontechjournal.com/index.php/journal/article/view/2744))
+- An Empirical & Analytical Study on Composite RC Beams with Mineral Admixtures, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), ISSN: 2319-8753, Volume 13, Issue 5, May 2024, Pg No. 9652 – ( [https://www.ijirset.com/upload/2024/may/518\_An.pdf](https://www.ijirset.com/upload/2024/may/518_An.pdf))
+- Behavioral Study on the Usage of Biopolymers with Bagasse Ash on Red Soil, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), ISSN: 2319-8753, Volume 12, Issue 5, May 2023, PP. 5921 – ( [https://www.ijirset.com/upload/2023/may/212\_Experimental%20\_NC.pdf](https://www.ijirset.com/upload/2023/may/212_Experimental%20_NC.pdf))
+- Experimental Study on Usage of Guar Gum with Rice Husk Ash in Strengthening of Red Soil, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), ISSN: 2319-8753, Volume 12, Issue 5, May 2023, PP. 5828 – 5831 ( [https://www.ijirset.com/upload/2023/may/212\_Experimental%20\_NC.pdf](https://www.ijirset.com/upload/2023/may/212_Experimental%20_NC.pdf))
+- “Analytical study on Tall Building with Bundle Tube Steel Structure”, International Journal of Creative Research Thoughts (IJCRT), ISSN:2320-2882, Volume.11, Issue 4, pp.353-357, April 2023. ( [https://ijcrt.org/papers/IJCRT2304279.pdf](https://ijcrt.org/papers/IJCRT2304279.pdf))
+- **Comparative Study on Properties of Soil replaced with Agro waste Stabilized using Metakaolin and Cement as Additives,** GRENZE International Journal of Engineering and Technology, Volume 9, Issue 1, Pg No: 1077- 1081, ISSN: 2395-5295(Online), Jan 2023
+- Experimental Investigation on Compressed Earthen Blocks manufactured with Agro waste stabilized using additives, International Journal of Creative Research Thoughts (IJCRT), ISSN:2320-2882, Volume.10, Issue 7, July 2022, pp.784-788. ( [https://ijcrt.org/papers/IJCRT2207626.pdf](https://ijcrt.org/papers/IJCRT2207626.pdf))
+- “Behaviour of Regular and Non-Regular RC Buildings with & without Floating columns using ETABS”, International Research Journal of Engineering and Technology (IRJET), ISSN: 2395-0056, Volume 8, Oct 2021. ( [https://www.irjet.net/archives/V8/i10/ICRTST-2021/IRJET-V8I1016.pdf](https://www.irjet.net/archives/V8/i10/ICRTST-2021/IRJET-V8I1016.pdf)
+- “Experimental Investigation on Effect of RBI Grade81 on Properties of Black Cotton Soil”, International Research Journal of Engineering and Technology (IRJET), ISSN: 2395-0072, Volume.9, Issue 07, July 2022. ( [https://www.irjet.net/archives/V4/i9/IRJET-V4I9278.pdf](https://www.irjet.net/archives/V4/i9/IRJET-V4I9278.pdf))
+- Experimental Investigation on Strengthening of Cohesive Soil using Bagasse Ash & Montmorillonite Clay, International Journal for scientific Research & Development, Vol. 8, Issue 6, Sep 2020. ( [https://www.ijsrd.com/articles/IJSRDV8I60202.pdf](https://www.ijsrd.com/articles/IJSRDV8I60202.pdf))
+- Behavior of RC Buildings with Floating Columns at Various Floors Using ETABS, International Journal for scientific Research & Development, Vol. 8, Issue 8, Sep 2020. ( [https://ijsrd.com/Article.php?manuscript=IJSRDV8I60179](https://ijsrd.com/Article.php?manuscript=IJSRDV8I60179))
+- “Comparative Study on Behaviour of RC Framed Buildings with Infills modelled using FEMA 356 & IS: 1893”, International Research Journal of Engineering and Technology (IRJET), ISSN: 2395-0072, Volume.7, June 2020. ( [https://www.irjet.net/archives/V7/i6/ICRTST-2020/IRJET-V7I631.pdf](https://www.irjet.net/archives/V7/i6/ICRTST-2020/IRJET-V7I631.pdf))
+- “Experimental Investigation on Strengthening of Cohesive Soil Using Risk Husk Ash & Metakaolin”, International Journal of Creative Research Thoughts (IJCRT), ISSN:2320-2882, Volume.8, Issue 5, pp.1967-1971, May 2020. ( [https://ijcrt.org/viewfull.php?&p\_id=IJCRT2005257](https://ijcrt.org/viewfull.php?&p_id=IJCRT2005257))
+- Experimental study on Effect of crumb rubber in concrete mix, IJSRD vol no. 6, issue 05, ISSN: 2321-0613, 2018.
+- “Analysis of Reinforced Concrete (RC) frames under lateral loads using steel bracings” published in IJISRT vol no. 3, issue 11, ISSN: 2456-2165, 2018 ( [https://ijisrt.com/wp-content/uploads/2018/12/IJISRT18NV328.pdf](https://ijisrt.com/wp-content/uploads/2018/12/IJISRT18NV328.pdf))
+- “Effect of location of infills on performance of Reinforced concrete (RC) framed structure” published in IJSRD vol no. 6, issue 02, ISSN: 2321-0613, 2018. ( [https://mail.ijsrd.com/Article.php?manuscript=IJSRDV6I21291](https://mail.ijsrd.com/Article.php?manuscript=IJSRDV6I21291))
+
+## Membership in Professional Bodies
+
+- - Life member ACCE (5256 – L)
+- - Professional membership in IAENG (206095)
+- - Structural Engineering Forum of India (SEFI)
+
+## Honours/Awards/ Achievements
+
+- - **Co – coordinator** for the Six Day Faculty Development program on “Emerging trends and its applications in civil Engineering”, from 18th to 23rd December 2023, ATMECE in association with ATAL.
+- - **Convener** for Three Day National Level Symposium on “Application of Image Processing Techniques in the field of Electronics Communication & Civil Engineering held in ATMECE from 6th November to 8th November 2023 sponsored by SERB, DST.
+- - **Convener** for webinar series on “Design of RC Structure, Construction Practice & its Management” organised by Department of Civil Engineering, ATMECE from 14th – 18th July 2020.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+FDP’s:
+- Five days Online Faculty Development Programme on “Smart Cities: Emerging Solutions and Sustainability”, organised by Swami Keshvanand Institute of Technology, Management & Gramothan, Jaipur from 27th to 31st January 2025.
+- Six Day Online Faculty Development program on **“INNOVATIVE APPROACHES TO DISASTER MANAGEMENT AND RESILIENT INFRASTRUCTURE”**, from 9th to 14th December 2024, ATMECE in association with ATAL.
+- Six Day Faculty Development program on **“Emerging trends and its applications in civil Engineering”**, from 18th to 23rd December 2023, ATMECE in association with ATAL.
+- Three day Face to Face FDP on “ **Inculcating Universal Human Values in Technical Education”**, from 2nd November to 4th November 2023, ATMECE, Mysore.
+- Five Day Faculty Development Program on **“Geotechnical Engineering Practices”** from 10th to 14th Oct, 2022, Sponsored by APJ Abdul Kalam Technological University, organized by the Department of Civil Engineering, LBS Institute of Technology for Women, in association with Indian Geotechnical Society, Thiruvananthapuram Chapter in Virtual mode.
+- One week Teachers Training program on **“Earthquake Resistant Design of Structures”** from 16th to 20th May 2022, VTU In association with AICTE in virtual mode.
+- One-week Faculty Development program on **“Infrastructure Works: Site Survey to Execution – Through Modern Project Management Techniques”** from 10th to 15th August 2020, was organized by DSATM in association with Indian Concrete Institute, Bengaluru Center in virtual mode.
+- One Week Faculty Development Program on **“NBA & NAAC Accreditation process”** from 4th June 2020 to 8th June 2020, M.S. Ramaiah Institute of Technology under AICTE Margadarshan Scheme in virtual mode.
+- Six Day Faculty Development Program on **“Art of Counselling”** from 2nd to 9th July 2019, ATMECE, Mysore.
+- Three Day Faculty Development Program on **“Total station surveying and Drone Survey technology”** from 26th March to 28th March 2019, ATMECE, Mysore.
+- Four Days Faculty Development Program on **“Software Application Laboratory”** from Jan 8th to Jan 11th 2018, DSATM, Bangalore.
+
+Workshops:
+- Attended 5 – Day Online workshop on “Interdisciplinary Approaches in Geotechnical and Geo-environmental Engineering, held from 17th – 21st February, 2025, organized by Department of Civil Engineering, Harcourt Butler Technical University, Kanpur.National Workshop on “Recent Advances in Geotechnics for Infrastructure” on 5th March 2024 at Maharaja Institute of Technology Mysore
+
+MOOC Certification:
+- NPTEL Course on “Modern Construction Materials”
+- NPTEL Course on “Research Methodology”
+- NPTEL Course on “Geotechnical Earthquake Engineering”
+- NITTT Module 3 – “Communication Skills, Modes & Knowledge Dissemination”
+- NITTT Module 2 – “Professional Ethics & Sustainability”
+- NITTT Module 1 – “Orientation towards technical education and curriculum aspects”
+- ARPIT Course on “Pedagogical Innovations in teaching & Learning”
+- NPTEL Course on “Foundation Engineering”
+
+## Proposal/Funding/Project Financial Assistance
+
+- Received Grant of **3,13,000/-** from AICTE, ATAL for Conducting a 6 Days Faculty Development Programme on “Emerging Trends and its Applications in Civil Engineering” in the academic year 2023-24.
+- Received Grant of **50,000/-** from SERB, DST for conducting Three National Level Symposium on “Application of Image Processing Techniques in the field of Electronics Communication and Civil Engineering” in the academic year 2023-24.
+- **5,000/-** was awarded by VTU for students B.E project titled “A Case Study on Supply Chain Management in Residential building construction around Mysuru” during the academic year 2020-21.
+- **Rs. 5,000/-** was awarded by KSCST Students B.E project titled “Comparative study on stabilization of cohesive soil using Rice Husk ash with lime powder and Metakaolin as additives” during the academic year 2018-19.
+
+## Roles and Responsibilities: Institute Level
+
+- NABL – Technical Manager
+
+## Roles and Responsibilities: Department Level
+
+- NBA Coordinator
+- Dept - Website Coordinator
+- Internship Coordinator
+- Research Publication Coordinator
+- NAAC Criteria-7
+- BMT Lab - Incharge`,
+  },
+  "namitha-a-p": {
+    name: "Mrs. Namitha A P",
+    url: "https://atme.edu.in/namitha-a-p/",
+    md: `## Contact Details
+
+- **Email ID:** Official: [NamithaAP_CV@atme.edu.in](mailto:NamithaAP_CV@atme.edu.in) | Personal: [nammygowda@gmail.com](mailto:nammygowda@gmail.com)
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=s64HiXkAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=58653938600>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0001-6109-1856>
+- **LinkedIn ID:** <https://www.linkedin.com/in/namitha-gowda-0b8b23215/>
+
+## Academic Details
+
+- **M.Sc** in Applied Geology
+- **B.Sc** in Earth Science (Geology)
+
+## Professional Experience
+
+- Teaching: 5 Years
+- Research: NIL
+- Industry: NIL
+
+## Areas of Interest
+
+1. Geology
+2. Hydrogeology
+3. Remote sensing
+
+## Publication Details
+
+- Namitha, A.P., Vijay, M., Ahmed, S.K., …Kumar, N.S.M., Choubey, S.B. 15th International Conference on Advances in Computing Control and Telecommunication Technologies Act 2024 2, pp. 6700-6710
+- Namitha, A.P., Puneeth, K., Rudresh, A.N. 14th International Conference on Advances in Computing Control and Telecommunication Technologies Act 2023 2023-June, pp. 1077-1081
+- Namitha A P, Shashank C, Vishwas I G, Pallavi M & Karthik K, "Analysis of Rainfall and Groundwater Table Fluctuation in Mysore City Using ERDAS and ARCGIS", DOI: [10.15680/IJIRSET.2024.1305541](https://doi.org/10.15680/IJIRSET.2024.1305541)
+
+## Membership in Professional Bodies
+
+- Karnataka Geo Forum (KGF)
+
+## Honours/Awards/ Achievements
+
+- "Analysis of Rainfall and Groundwater Table Fluctuation in Mysore City Using ERDAS and ARCGIS" – Project selected for KSCST and also for poster presentation
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- New Horizons In Remote Sensing-Basic And Beyond – 5 Days
+- Rural Water Resource Management – 12 Weeks
+- Earth Science For Civil Engineering – 8 Weeks
+- Emerging Trends And Its Applications In Civil Engineering – 6 Days
+- Innovative Approaches To Disaster Management And Resilient Infrastructure at ATME College Of Engineering – 6 Days
+- Innovation Ambassador Training (Foundation Level) conducted by MoE's Innovation Cell & AICTE – 5 Weeks
+- Innovation Ambassador Training (Advance Level) conducted by MoE's Innovation Cell & AICTE – 5 Weeks
+- AICTE – VTU Joint Training Programme for Teachers on "An Overview Of Teaching Techniques In Innovation & Design Thinking" – 1 Week
+- Comprehensive Landslide Risk Management – 3 Days
+- Recent Avenues In Civil Engineering – 5 Days
+
+## Proposal/Funding/Project Financial Assistance
+
+- 47th Series of Student Project Programme – Analysis of Rainfall and Groundwater Table Fluctuation in Mysore City Using ERDAS and ARCGIS
+- Project proposal on Empowering Women Through Tailoring Technology – A Path to Entrepreneurship and Economic Empowerment
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- Placement and Carrier Guidance Coordinator
+- AIMS / MS Team Coordinator
+- Student / Outreach (Competition Presentation)
+- Workshop / TT / FDP Coordinator
+- NAAC Criteria-6
+- Geology Lab - Incharge`,
+  },
+  "akhila-c-g": {
+    name: "Mrs. Akhila C G",
+    url: "https://atme.edu.in/akhila-c-g/",
+    md: `## Contact Details
+
+- **Email ID:** Official: [akhilacg_cv@atme.edu.in](mailto:akhilacg_cv@atme.edu.in) | Personal: [cgakhila1@gmail.com](mailto:cgakhila1@gmail.com)
+- **Vidwan ID:** 294494
+- **Google Scholar ID:** muX3wtoAAAAJ
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=59313264500>
+- **Orcid ID:** 0000-0002-7375-6509
+- **LinkedIn ID:** <https://www.linkedin.com/in/akhila-c-g-9b770115b/>
+
+## Academic Details
+
+- **M.Tech** in Hydraulics from NIE Institute of Engineering, Mysuru, with 85.55%
+- **B.E** in Civil Engineering at ATME College of Engineering, Mysuru, with 76.24%
+- Pursuing PhD
+
+## Professional Experience
+
+- Teaching: 3.5 Years
+
+## Areas of Interest
+
+- Hydraulics, Fluid mechanics, Hydrology, Irrigation, Surface water engineering, Groundwater Engineering, Environmental engineering
+
+## Publication Details
+
+- Published a Scopus indexed paper on topic "Testing the Appropriateness of Lumped Hydrological Model in Groundwater Recharge Estimation for a Small Catchment in Karnataka, India" in the year 2025.
+- Published a Scopus indexed paper on topic "ANN prediction of mechanical properties of GGBFs and alccofine based high strength self-compacting concrete" in the year 2024.
+- Published a paper on topic "Estimation of Drought Period in Karnataka: Its Impacts and Mitigation Strategies" in the year 2024.
+
+## Membership in Professional Bodies
+
+- IAENG
+
+## Honours/Awards/ Achievements
+
+- Earned "Endowment Gold Medal" in Bachelor of Engineering (B.E.) for securing highest marks in the subject Concrete Technology from Visvesvaraya Technological University (VTU), Belagavi.
+- Also earned "Gold Medal" for securing second rank in M.Tech, Hydraulics from The National Institute of Engineering (NIE), Mysuru.
+- Felicitated by Builder's Association of India (BAI), Mysuru for securing highest marks in Bachelor of Engineering (Civil Engineering Department).
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Completed 4 weeks NPTEL course on Advance topics in science and technology of concrete with Elite certification from Feb 2025 to Mar 2025.
+- Completed 8 weeks NPTEL course on Research methodology with certification from July 2024 to Sep 2024.
+- Completed 12 weeks NPTEL course on Rural Water Resources Management with Elite certification from Jan 2022 to April 2023.
+- Completed 12 weeks NPTEL course on Integrated Waste management for a smart city from July to October 2023.
+- Presented Paper in International Conference on Emerging technologies in science and engineering (ICETSE-2023) held on 19th & 20th June, 2025.
+- Presented Paper in International Conference on Interdisciplinary Approaches in Civil Engineering for Sustainable Development (IACESD-2023) held on 7 & 8 July, 2023.
+- Attended FDP on Research methodology in the year 2024.
+- Attended FDP on Rural Water Resources Management in the year 2023.
+- Attended FDP on Integrated Waste management for a smart city in the year 2023.
+- Attended face to face FDP on the theme "Inculcating Universal Human Values in Technical Education" from 2nd to 4th November 2023.
+
+## Roles and Responsibilities: Institute Level
+
+- NABL – DTM
+- Alumni Coordinator
+
+## Roles and Responsibilities: Department Level
+
+- NSS Reports / AICTE Activity Points
+- NPTEL / MOOC – Faculty & Students Coordinator
+- NAAC Criteria-1
+- FM Lab - Incharge`,
+  },
+  "likhit-m-l": {
+    name: "Mr. Likhit M L",
+    url: "https://atme.edu.in/likhit-m-l/",
+    md: `## Contact Details
+
+- **Email ID:** Official: [likhitml.cv@atme.edu.in](mailto:likhitml.cv@atme.edu.in) | Personal: [likhit.ml@gmail.com](mailto:likhit.ml@gmail.com)
+- **Vidwan ID:** 466919
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=HZan6CwAAAAJ>
+- **Orcid ID:** <https://orcid.org/0000-0002-3452-9952/>
+- **LinkedIn ID:** <https://www.linkedin.com/in/likhitml/>
+
+## Academic Details
+
+- **M.Tech** in Structural Engineering
+- **B.E** in Civil Engineering
+
+## Professional Experience
+
+- Teaching: 11 Years
+- Research: 5 Years
+- Industry: 4 Years
+
+## Areas of Interest
+
+1. Ultra-high-performance concrete, Bacterial Concrete
+2. Structural Analysis
+3. Rheological Characteristics of Concrete
+
+## Publication Details
+
+- Likhit M L, Pavan Kumar, Redeppa (2025). Performance Evaluation of Mortar Incorporating Olivine Sand as a Partial Cement Replacement: Mechanical, Microstructural, and Durability Aspects. International Journal of Innovative Research In Technology (IJIRT), 12(1), 3868-3886.
+- Likhit, M.L., Alex, J. (2023). A Potential Review on Self-healing Material – Bacterial Concrete Methods and Its Benefits. In: Marano, G.C., Rahul, A.V., Antony, J., Unni Kartha, G., Kavitha, P.E., Preethi, M. (eds) Proceedings of SECON 2022. Lecture Notes in Civil Engineering, vol 284. Springer, Cham. https://doi.org/10.1007/978-3-031-12011-4\_92.
+- Likhit M. L., Kishan N., Pooja M., Sanath B. and Ujwal Pinto R., “Bacillus Concrete,” International Journal of Engineering Research in Mechanical and Civil Engineering (IJERMCE), vol. 3, no. 6, pp. 22–25, Jun. 2018, ISSN 2456-1290.
+- Likhit M.L., Safdar Hussain, Mahammad Asgar Ali, Mahammad Thohir, and Mohammed Tayseer (2016) “Bacteria as a biological admixture in concrete”, International Journal of Research in Engineering and Technology \[IJRET\], Volume 5 (4), Page 373.
+- Likhit, M.L., Ravindranath, and Kannan, N. (2014) “Self-healing material bacterial concrete”, International Journal of Research in Engineering and Technology \[IJRET\], Volume 3(15), Page 656.
+- Likhit, M.L., Ravindranath, and Kannan, N. (2014) “Effect of bacteria on partial replacement of concrete with fly-ash & ggbs”, International Journal of Research in Engineering and Technology \[IJRET\], Volume 3(15), Page 660.
+- Likhit, M.L., Ravindranath, and Kannan, N. (2014) “Effect of Bacteria on Strength of Concrete”, 3 rd World Conference on Applied Sciences, Engineering & Technology 27-29 September 2014, Kathmandu, Nepal WCSET2014041 © BASHA.
+
+## Membership in Professional Bodies
+
+- Life Member of ISTE
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+FDP:
+- Futuristic research in disaster resilience, held at VVCE Mysuru in association with NIDM, India, between 11/06/2021 to 13/06/2021.
+- The Tech Driven Construction Revolution, held at AEC earth HUB in association with Swifterz, on 12/09/2023.
+- “Research Methodology and IPR” As Per VTU Syllabus, Bengaluru Region VTU PG Centre, Muddenahalli, Bengaluru, on 01/04/2024.
+- “BIM – Building Information Modelling”, held at ATRIA INSTITUTE OF TECHNOLOGY, between 04/01/2024 to 04/05/2024.
+- ATAL FDP on “Sustainable and Smart Road Infrastructure”, by RV College of Engineering from 16/12/2024 to 21/12/2024.
+- Advanced BIM using Autodesk Revit, held at RNSIT, between 17/02/2025 to 21/02/2025.
+- Advanced Topics in Science and Technology of Concrete, AICTE, from 15/02/2025 to 15/03/2025.
+- BIM using Autodesk REVIT at Vemana Institute of Technology from 04/08/2025 to 09/08/2025.
+
+Conferences**:
+- National Conference on Emerging Trends in Environment and Energy Management (NCEEM 2013), on “Self- Healing Material Bacterial Concrete”.
+- National Conference on Recent Innovations in Engineering and Technology — 2014 (NCRIET 2014), on “Effect of bacteria on partial replacement of concrete with fly-ash and ggbs”.
+- International Conference on Structural Engineering and Construction Management (Secon – 22), on “A potential review on bacterial concrete methods and its benefits”.
+- 1st international Conference on ICITEICS, in association with IEEE, held at Vemana institute of technology on 28th and 29th
+- 2nd international Conference on ICITEICS, in association with IEEE, held at Vemana institute of technology on 30th and 31st
+
+Workshop**:
+- Concrete Mix Design, by Civil Engineering Department of KDK College of Engineering, Nagpur (India) in association with Indian Concrete Institute, Nagpur Centre on 06/04/2021.
+- “Innovations and Intellectual properties”, by Vemana IT from 30/01/2022 to 02/01/2022.
+- Two Day Workshop on “Quality in Teaching Learning and Assessment Process” by Dr. H S Guruprasad, Professor BMS College of Engineering, Bengaluru, from 21/03/2022 to 22/03/2022.
+- 2 days National workshop on ‘ Design & incubation for innovating MSME, IISC Blore, from 02/07/2023 to 03/07/2023.
+- Basic Life Support by Dr. Muniraju and Team, Emergency Team, Apollo Hospitals, Bannerghatta Road, Bengaluru, on 15/09/2023.
+- Three Day Workshop on Outcome Based Education and Accreditation Process under AICTE Marg darshan Scheme by Team from Dr. AIT, Bengaluru, from 07/09/2023 to 09/09/2023.
+- Hands on Technical Session on MATLAB, held at Vemana Institute of technology on 13/09/2024.
+
+Completed Mooc courses on:
+- Intellectual property rights
+- Research Methodology
+- Advanced Topics in Science and Technology of concrete
+
+## Proposal/Funding/Project Financial Assistance
+
+- 1\. KSCST sponsored project entitled “Use of microorganism to repair cracks in concrete”.
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- MOM Coordinator
+- Project Coordinator
+- NAAC Criteria-3
+- Magazine and News letter
+- Institutional File (IR)
+- CADD Lab - Incharge`,
   },
 };

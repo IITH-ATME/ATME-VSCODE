@@ -2871,7 +2871,7 @@ function DepartmentAboutView({
       {dept.hod && (dept.hod.message || dept.hod.messageBullets || dept.hod.quote) && (
         <section className="rounded-2xl border-2 border-[#f5c518] bg-[#129199]/5 p-4 sm:p-6 md:p-8 min-w-0">
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-6 items-center sm:items-start">
-            <div className="relative w-32 h-32 md:w-44 md:h-44 rounded-xl overflow-hidden border-2 border-[#129199]/30 bg-white shrink-0 shadow-md">
+            <div className="relative w-32 md:w-44 aspect-[4/5] rounded-xl overflow-hidden border-2 border-[#129199]/30 bg-white shrink-0 shadow-md">
               {(() => {
                 const resolved = dept.hod.image ? rewriteImageSrc(dept.hod.image) : null;
                 return resolved ? (
