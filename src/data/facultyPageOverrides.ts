@@ -2215,28 +2215,26 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-**Paper Publications :**
-
-1. Title : Trichain: Kangaroo-Based Intrusion Detection For Secure Multipath Route Discovery and Route Maintenance In Manet Using Advanced Routing Protocol. Authors : Jayantkumar A Rathod, Manjunath Kotari Journal :   International Journal of Computer Networks and Applications (IJCNA), Vol. 11, No. 1, February 2024, pp. 61-81. https://doi.org/10.22247/ijcna/2024/224436 SCOPUS Q3
-2. Title :  Secure And Efficient Message Transmission In Manet Using Hybrid Cryptography And Multipath Routing Technique. Authors : Jayantkumar A Rathod, Manjunath Kotari. Journal : Multimedia Tools and Applications, June 2024, https://doi.org/10.1007/s11042-024-  19542-9. Quartile Q1
-3. Title : Blockchain-Based Vaccination Record Tracking System, Authors : Shwetha G K, Jayantkumar A Rathod, Naveen G, Mounesh Arkachari, Pushparani M K Journal : International Journal of Advanced Computer Science and Applications(IJACSA), Volume 15 Issue 8, 2024.   DOI: https://dx.doi.org/10.14569/IJACSA.2024.0150874 Q3 Scopus
-4. Title : Efficient Message Transmission Using Hybrid Cryptography Authors : Jayanthkumar A Rathod , Chandana P T,  Keerthana G ,  Shwetha R Sharma Conference: 2024 Second International Conference on Advances in Information Technology (ICAIT) ,      DOI:[10.1109/ICAIT61638.2024.10690379](https://doi.org/10.1109/ICAIT61638.2024.10690379)   Scopus Indexed
-5. Title : Diabetic Retinopathy Prediction using Modified Inception V3 Model Structure Author : Shwetha, G.K.; Udaya Kumar Reddy, K.R.; Rathod, J.A.; Sathyaprakash, B.P.; Lolakshi, P.K. Journal :    International Journal of Intelligent Systems and Applications in Engineering ( ISSN: 2147-6799)  Scopus Q3 , Vol. 11 No. 1 (2023)
-6. Title – Controlling The Micro Air Vehicle Through Voice Instructions Authors :  Mallesh Babu S, Mr. Lokesha H, Mrs.Veena S, Mr. Jayantkumar.A.Rathod, International Journal of Computer Engineering and Technology (IJCET), India, April 2015, Volume 6, Issue 4, pp. 21-27, ISSN 0976-6367(Print),  ISSN 0976 – 6375(Online).
-7. Title : A Novel Framework For Network Based Secure Message Transmission  Based On Fragmentation And Cryptography Authors :  Rathod, J.A.; Kotari, M. Conference : 4th International Conference on Circuits, Control, Communication and Computing, I4C 2022  (DOI: [10.1109/I4C57141.2022.10057754](https://doi.org/10.1109/I4C57141.2022.10057754) ) (ISBN: 9798350397475 ) Scopus Indexed
-8. Title – Design Of Speech Based Ground Control Station For Controlling The Micro Air Vehicles Authors :  Babu S Mallesh, H.Lokesh , S.Veena ,  Jayantkumar A Rathod, 978-1-4673-6994-7/15  2015 IEEE DOI [10.1109/ICACC.2015.10](https://doi.org/10.1109/ICACC.2015.10), Scopus Indexed 2015 Fifth International Conference on Advances in Computing and Communications.
-9. Title – Driver Drowsiness Detection System Based On Visual Features Authors : Fouzia, Roopalakshmi R, Jayantkumar A Rathod, Ashwitha S Shetty, Supriya k 978-1-5386-1974-2/18/$31.00 ©2018 IEEE , Proceedings of the 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018) IEEE Xplore Compliant – Part Number: CFP18BAC-ART;       ISBN:978-1-5386-1974-2.  Scopus Indexed
-10. Title : Sentiment Analysis Of Smartphone Product Reviews Using Weightage  Calculation Authors : Jayantkumar A. Rathod, Shetty Vignesh, Aishwary J. Shetty, Pooja and Nikshitha © Springer Nature Singapore Pte Ltd. 2020 H. Sharma et al. (eds.), Advances in Computing and Intelligent Systems, Algorithms for Intelligent Systems, https://doi.org/10.1007/978-981-15-0222-4_40
-11. Title : Detection Of Diabetic Retinopathy Using Support Vector  Machine Authors :  Sahana Shetty , Kaveri B Kari , Jayantkumar A Rathod International Journal of Emerging Technologies in Computer Science & Electronics (IJETCSE) ISSN : 0976-1353 , Volume 23 , Issue 6-October 2016 (Special Issue) . P.No – 207-211
-12. Title : Histopathological Image Classification Of Breast Cancer Using Kervolutional Neural Networks Authors – Jayantkumar A Rathod , Darshan P B , Rakesh M R , Akshaya Shenoy , Acharya Sainath International Journal of Advanced Science & Technology(IJAST) Vol.29,No.3,(2020)   ISSN:2005-4238 IJAST
-13. Title : Retrieval Of The Reliable Data In Disruption Tolerant Networks Authors : Jayantkumar A Rathod , Gagana N International Journal of Engineering Research , Volume No.4, Special Issue 3 ISSN : 2319-6890 (online),2347-5013(print)
-14. TITLE : Active Prediction Of Heart Disease Using Techniques Of  Hybrid Machine learning Authors : Jayantkumar A Rathod , Apoorva R , M.Ramakrishna , Gowthami H R , Rachana T International Journal of Engineering an Advance Technology (IJERT) ISSN : 2249-8958 , Volume-9 , Issue-5 , June 2020
-15. Title : Review On Reconstruction Of Face Images Authors – Darshan P B,  Jayantkumar Arjun Rathod, Rakesh M R, Acharya Sainath Balakrishna, Akshaya Shenoy IJRAR- UGC Approved (International Journal of Research and Analytical Reviews (IJRAR) June 2018, Volume 5, Issue 3  www.ijrar.org (E-ISSN 2348-1269,   P- ISSN 2349-5138
-16. Published paper in IGI Global Scientific Publishing (Book Chapter Series) – Title : Monitoring Vehicle Emissions Through Intelligent Transportation Systems for Smart City Development.      DOI:[10.4018/979-8-3373-8133-6.ch003](https://doi.org/10.4018/979-8-3373-8133-6.ch003)
-17. Title : Multi-Pose Virtual Try-on with Identity and Clothing Detail Preservation Using ResNet, VGG19 and  MobileNet Authors : Jayantkumar A Rathod; Anusha N T; Jahnavi V; Jayaprakash P; Vimalkumar U R; Shwetha G K Published in: 2025 International Conference on Electronics, Computing, Communication and Control Technology (ICECCC).   Publisher: IEEE ,   DOI: [10.1109/ICECCC65144.2025.11064269](https://doi.org/10.1109/ICECCC65144.2025.11064269). SCOPUS
-18. Title : Transforming Education with Innovative Virtual Learning Environments. Authors : G K Shwetha; Pratham S Shetty; Samarth N Baliga; Jayant Kumar A Rathod; C Divya Published in: 2024 International Conference on Recent Advances in Science and Engineering Technology (ICRASET)   Publisher : IEEE  .  DOI: [10.1109/ICRASET63057.2024.10894905](https://doi.org/10.1109/ICRASET63057.2024.10894905) SCOPUS
-19. Title : Plant Leaf Disease Detection using Machine Learning. Authors : Jayant Kumar Rathod, MR Nandan 15th International Conference on Advances in Computing Control and Telecommunication Technologies Act 2024. ( Journal : Grenze International Journal of Engineering & Technology (GIJET) ) SCOPUS
-20. Title : Efficient Message Transmission Using Hybrid Cryptography Authors : Jayanthkumar A Rathod; Chandana PT; Keerthana G; Shwetha R Sharma; Swetha S 2024 Second International Conference on Advances in Information Technology (ICAIT) 24-27 July 2024    DOI: [10.1109/ICAIT61638.2024](https://doi.org/10.1109/ICAIT61638.2024)  Publisher : IEEE    SCOPUS
+- 1\] Title : Trichain: Kangaroo-Based Intrusion Detection For Secure Multipath Route Discovery and Route Maintenance In Manet Using Advanced Routing Protocol. Authors : Jayantkumar A Rathod, Manjunath Kotari Journal :   International Journal of Computer Networks and Applications (IJCNA), Vol. 11, No. 1, February 2024, pp. 61-81. https://doi.org/10.22247/ijcna/2024/224436 SCOPUS Q3
+- 2\] Title :  Secure And Efficient Message Transmission In Manet Using Hybrid Cryptography And Multipath Routing Technique. Authors : Jayantkumar A Rathod, Manjunath Kotari. Journal : Multimedia Tools and Applications, June 2024, https://doi.org/10.1007/s11042-024-  19542-9. Quartile Q1
+- 3\] Title : Blockchain-Based Vaccination Record Tracking System, Authors : Shwetha G K, Jayantkumar A Rathod, Naveen G, Mounesh Arkachari, Pushparani M K Journal : International Journal of Advanced Computer Science and Applications(IJACSA), Volume 15 Issue 8, 2024.   DOI: https://dx.doi.org/10.14569/IJACSA.2024.0150874 Q3 Scopus
+- 4\] Title : Efficient Message Transmission Using Hybrid Cryptography Authors : Jayanthkumar A Rathod , Chandana P T,  Keerthana G ,  Shwetha R Sharma Conference: 2024 Second International Conference on Advances in Information Technology (ICAIT) ,      DOI:[10.1109/ICAIT61638.2024.10690379](https://doi.org/10.1109/ICAIT61638.2024.10690379)   Scopus Indexed
+- 5\] Title : Diabetic Retinopathy Prediction using Modified Inception V3 Model Structure Author : Shwetha, G.K.; Udaya Kumar Reddy, K.R.; Rathod, J.A.; Sathyaprakash, B.P.; Lolakshi, P.K. Journal :    International Journal of Intelligent Systems and Applications in Engineering ( ISSN: 2147-6799)  Scopus Q3 , Vol. 11 No. 1 (2023)
+- 6\] Title – Controlling The Micro Air Vehicle Through Voice Instructions Authors :  Mallesh Babu S, Mr. Lokesha H, Mrs.Veena S, Mr. Jayantkumar.A.Rathod, International Journal of Computer Engineering and Technology (IJCET), India, April 2015, Volume 6, Issue 4, pp. 21-27, ISSN 0976-6367(Print),  ISSN 0976 – 6375(Online).
+- 7\] Title : A Novel Framework For Network Based Secure Message Transmission  Based On Fragmentation And Cryptography Authors :  Rathod, J.A.; Kotari, M. Conference : 4th International Conference on Circuits, Control, Communication and Computing, I4C 2022  (DOI: [10.1109/I4C57141.2022.10057754](https://doi.org/10.1109/I4C57141.2022.10057754) ) (ISBN: 9798350397475 ) Scopus Indexed
+- 8\]  Title – Design Of Speech Based Ground Control Station For Controlling The Micro Air Vehicles Authors :  Babu S Mallesh, H.Lokesh , S.Veena ,  Jayantkumar A Rathod, 978-1-4673-6994-7/15  2015 IEEE DOI [10.1109/ICACC.2015.10](https://doi.org/10.1109/ICACC.2015.10), Scopus Indexed 2015 Fifth International Conference on Advances in Computing and Communications.
+- 9\] Title – Driver Drowsiness Detection System Based On Visual Features Authors : Fouzia, Roopalakshmi R, Jayantkumar A Rathod, Ashwitha S Shetty, Supriya k 978-1-5386-1974-2/18/$31.00 ©2018 IEEE , Proceedings of the 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018) IEEE Xplore Compliant – Part Number: CFP18BAC-ART;       ISBN:978-1-5386-1974-2.  Scopus Indexed
+- 10\] Title : Sentiment Analysis Of Smartphone Product Reviews Using Weightage  Calculation Authors : Jayantkumar A. Rathod, Shetty Vignesh, Aishwary J. Shetty, Pooja and Nikshitha © Springer Nature Singapore Pte Ltd. 2020 H. Sharma et al. (eds.), Advances in Computing and Intelligent Systems, Algorithms for Intelligent Systems, [https://doi.org/10.1007/978-981-15-0222-4\_40](https://doi.org/10.1007/978-981-15-0222-4_40)
+- 11\] Title : Detection Of Diabetic Retinopathy Using Support Vector  Machine Authors :  Sahana Shetty , Kaveri B Kari , Jayantkumar A Rathod International Journal of Emerging Technologies in Computer Science & Electronics (IJETCSE) ISSN : 0976-1353 , Volume 23 , Issue 6-October 2016 (Special Issue) . P.No – 207-211
+- 12\] Title : Histopathological Image Classification Of Breast Cancer Using Kervolutional Neural Networks Authors – Jayantkumar A Rathod , Darshan P B , Rakesh M R , Akshaya Shenoy , Acharya Sainath International Journal of Advanced Science & Technology(IJAST) Vol.29,No.3,(2020)   ISSN:2005-4238 IJAST
+- 13\] Title : Retrieval Of The Reliable Data In Disruption Tolerant Networks Authors : Jayantkumar A Rathod , Gagana N International Journal of Engineering Research , Volume No.4, Special Issue 3 ISSN : 2319-6890 (online),2347-5013(print)
+- 14\] TITLE : Active Prediction Of Heart Disease Using Techniques Of  Hybrid Machine learning Authors : Jayantkumar A Rathod , Apoorva R , M.Ramakrishna , Gowthami H R , Rachana T International Journal of Engineering an Advance Technology (IJERT) ISSN : 2249-8958 , Volume-9 , Issue-5 , June 2020
+- 15\] Title : Review On Reconstruction Of Face Images Authors – Darshan P B,  Jayantkumar Arjun Rathod, Rakesh M R, Acharya Sainath Balakrishna, Akshaya Shenoy IJRAR- UGC Approved (International Journal of Research and Analytical Reviews (IJRAR) June 2018, Volume 5, Issue 3  www.ijrar.org (E-ISSN 2348-1269,   P- ISSN 2349-5138
+- 16\] Published paper in IGI Global Scientific Publishing (Book Chapter Series) – Title : Monitoring Vehicle Emissions Through Intelligent Transportation Systems for Smart City Development.      DOI:[10.4018/979-8-3373-8133-6.ch003](https://doi.org/10.4018/979-8-3373-8133-6.ch003)
+- 17\] Title : Multi-Pose Virtual Try-on with Identity and Clothing Detail Preservation Using ResNet, VGG19 and  MobileNet Authors : Jayantkumar A Rathod; Anusha N T; Jahnavi V; Jayaprakash P; Vimalkumar U R; Shwetha G K Published in: 2025 International Conference on Electronics, Computing, Communication and Control Technology (ICECCC).   Publisher: IEEE ,   DOI: [10.1109/ICECCC65144.2025.11064269](https://doi.org/10.1109/ICECCC65144.2025.11064269). SCOPUS
+- 18\]  Title : Transforming Education with Innovative Virtual Learning Environments. Authors : G K Shwetha; Pratham S Shetty; Samarth N Baliga; Jayant Kumar A Rathod; C Divya Published in: 2024 International Conference on Recent Advances in Science and Engineering Technology (ICRASET)   Publisher : IEEE  .  DOI: [10.1109/ICRASET63057.2024.10894905](https://doi.org/10.1109/ICRASET63057.2024.10894905) SCOPUS
+- 19\] Title : Plant Leaf Disease Detection using Machine Learning. Authors : Jayant Kumar Rathod, MR Nandan 15th International Conference on Advances in Computing Control and Telecommunication Technologies Act 2024. ( Journal : Grenze International Journal of Engineering & Technology (GIJET) ) SCOPUS
+- 20\] Title : Efficient Message Transmission Using Hybrid Cryptography Authors : Jayanthkumar A Rathod; Chandana PT; Keerthana G; Shwetha R Sharma; Swetha S 2024 Second International Conference on Advances in Information Technology (ICAIT) 24-27 July 2024    DOI: [10.1109/ICAIT61638.2024](https://doi.org/10.1109/ICAIT61638.2024)  Publisher : IEEE    SCOPUS
 
 ### Membership in Professional Bodies
 
@@ -2410,10 +2408,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Bhavya Dechamma K S, Ayesha Taranum “Enhancing stroke diagnosis: A deep learning approach to analyze neuroimages” was presented at 2nd
-- International Conference on Recent Trends in Electrical, Electronics and Computing Technologies on 30th
-- Oct 2025.
-- NIL
+- Bhavya Dechamma K S, Ayesha Taranum “Enhancing stroke diagnosis: A deep learning approach to analyze neuroimages” was presented at 2nd International Conference on Recent Trends in Electrical, Electronics and Computing Technologies on 30th Oct 2025.
 
 ### Honours/Awards/ Achievements
 
@@ -2481,7 +2476,8 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 - Investigation of Convolution neural network with motor imagery brain computer interface decoding at the Fourteenth International Conference on “Advances in Computing, Control, and Telecommunication Technologies – ACT 2023” organized by Rajeev Institute of Technology, Hassan-573201
 - Pedestrain Walk Exposure System through Multiple Classifies” Published in IRJET Volume 6 Issue 9 Sep- 2019.
 - “Consciousness about Mobile App Permissions” published in (IJRTE)’, ISSN: 2277-3878 (Online), Volume-8 Issue-4, November Page No.: 11384-11386.
-- “Analysis of Text recognition with data mining techniques” International Journal of Scientific Research in Image Processing Vol.5, Issue.3, pp.1-5 Nov-2019, E-ISSN: 2320- “Securing MWSNs using Game Theory and Multiple Evidence Approach” published in ISROSET Vol.7, Issue.6, Dec-2019.
+- “Analysis of Text recognition with data mining techniques” International Journal of Scientific Research in Image Processing Vol.5, Issue.3, pp.1-5 Nov-2019, E-ISSN: 2320-
+- “Securing MWSNs using Game Theory and Multiple Evidence Approach” published in ISROSET Vol.7, Issue.6, Dec-2019.
 
 ### Membership in Professional Bodies
 
@@ -2628,14 +2624,12 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 - B. Drakshayini, M. A. Anusuya, and H. Y. Vani, Chayadevi M L,” Detection of Stuttered Speech with Repetition Using Wavelet Packet Transformation and Neuro Fuzzy Classifier”, SN computer Science, Springer Nature journal ,2025 Available at: https://doi.org/10.1007/s42979-025-03958-7
 - B. Drakshayini, M. A. Anusuya, and H. Y. Vani,” WSOLA for Reconstruction of Prolonged Speech Signal “, International Journal of Fuzzy Logic and Intelligent Systems”, vol. 23, No. 4, December 2023 Available at: https://doi.org/10.5391/IJFIS.2023.23.4.399
-- K B Drakshayini, Anusuya M A, “Repetition Detection using Spectral Parameters and Multi tapering features” Indian Journal of Computer Science and Engineering (IJCSE), ISSN:0976-5166, August 2023 Available at: https:/
-- /www.ijcse.com/docs/INDJCSE23-14-04-068.pdf (http://www.ijcse.com/docs/INDJCSE23-14-04-068.pdf)
+- K B Drakshayini, Anusuya M A, “Repetition Detection using Spectral Parameters and Multi tapering features” Indian Journal of Computer Science and Engineering (IJCSE), ISSN:0976-5166, August 2023 Available at: https:/ [/www.ijcse.com/docs/INDJCSE23-14-04-068.pdf](http://www.ijcse.com/docs/INDJCSE23-14-04-068.pdf)
 - K B Drakshayini, Anusuya M A, “Hybrid Approach to Detect Prolonged Speech Segments”, International Journal of Engineering and Advanced Technology (IJEAT), ISSN: 2249-8958 (Online), Volume-12 Issue-4, April 2023 Available at: https://doi.org/10.35940/ijeat.d4106.0412423
 - K Drakshayini, M A Anusuya,” Speech Disorders: A Compendious Review “, Zeichen Journal, DOI:15. 10089.ZJ. 2023.V09I04.285311.3101, Volume 09, Issue 04, March 2023 Available at: https://drive.google.com/file/d/1xk6sCgTnZGYqmvDpSujAFZaNtoN7k8fk/view
-- B.Drakshyini , Anusuya M A, “Stop gap removal using spectral parameters for stuttered speech signal” in WARSE The World Academy of Research in Science and Engineering, IJATSCE, May 2021 Available at: http://www.warse.org/IJATCSE/static/pdf/file/ijatcse521032021.pdf
-- B.Drakshyaini , Anusuya M A, “Vector Quantization for stuttered speech Recognition” Journal of Data Mining and Management [ISSN: 2456-9437] NCAIT 2018 [Awarded with best Paper of the conference] May 2018 Available at: https://matjournals.co.in/index.php/JOIPAI/article/view/4977
-- K B Drakshayini,“A survey on Women Entrepreneurship in India “Paper Published in International Journal of Science and Research Volume – 3, Issue 10, October 2014 Available at: https:/
-- /www.ijsr.net/archive/v3i12/U1VCMTQ1ODM=.pdf (http://www.ijsr.net/archive/v3i12/U1VCMTQ1ODM%3D.pdf)
+- B.Drakshyini , Anusuya M A, “Stop gap removal using spectral parameters for stuttered speech signal” in WARSE The World Academy of Research in Science and Engineering, IJATSCE, May 2021 Available at: [http://www.warse.org/IJATCSE/static/pdf/file/ijatcse521032021.pdf](http://www.warse.org/IJATCSE/static/pdf/file/ijatcse521032021.pdf)
+- B.Drakshyaini , Anusuya M A, “Vector Quantization for stuttered speech Recognition” Journal of Data Mining and Management \[ISSN: 2456-9437\] NCAIT 2018 \[Awarded with best Paper of the conference\] May 2018 Available at: https://matjournals.co.in/index.php/JOIPAI/article/view/4977
+- K B Drakshayini,“A survey on Women Entrepreneurship in India “Paper Published in International Journal of Science and Research Volume – 3, Issue 10, October 2014 Available at: https:/ [/www.ijsr.net/archive/v3i12/U1VCMTQ1ODM=.pdf](http://www.ijsr.net/archive/v3i12/U1VCMTQ1ODM%3D.pdf)
 
 ### Membership In Professional Bodies
 
@@ -2731,29 +2725,26 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 - Puttegowda, D., Dayananda, K.J., “Color K-means, Gaussian Filter and Aperture Concept for Text Localization in Images” th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT –June 2023, pp. 844-848
 - Puttegowda, D., Harsha, A.B., Bhaskar, H.N., …Deepika, D., Monika, B.V. “Deep Learning based Container for Text Recognition” th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT –June 2023, pp.920-926
-- Rajeshwari D, D, “Modeling a Functional Engine for the Opinion Mining as a Service using Compounded Score Computation and Machine Learning”, International Journal of Advanced Computer Science and Applications (IJACSA), Vol. 12, No. 3, 2021
+- Rajeshwari D , D , “ Modeling a Functional Engine for the Opinion Mining as a Service using Compounded Score Computation and Machine Learning”  _International Journal of Advanced Computer Science and Applications_ _(IJACSA),_ _Vol. 12, No. 3, 2021_
 - Sayeda Umera Almas, Puttegowda D Ocean Coefficient: A Feature Extraction Technique for Five Factor Model based Classifications, International Journal of Engineering and Advanced Technology (IJEAT) ISSN: 2249 – 8958, Volume-9 Issue-4, April 2020
 - Sayeda Umera Almas, Puttegowda D Five Factor Model of Personality Trait Analysis on Twitter Data using Benchmark Classifier International Journal of Innovative Technology and Exploring Engineering (IJITEE) ISSN: 2278-3075, Volume-9 Issue-6, April 2020
 - Dayananda K J, Puttegowda D “Performance Analysis of Color K-Means and Range Filter for Text Detection in Images or Video”, International Conference on Recent Trends in Science and Technology 2020 (ICRTST 2020), June 16,17, 2020.
 - Puttegowda D, Sandya G B, Supreeth H,Thejas D, Vivechan B “Object Detection Through Symbiotic Deep Learning: Detection And Recognition On Resource Constrained Device”, International Conference on Recent Trends in Science and Technology 2020 (ICRTST 2020), June 16,17, 2020.
-- Dr Puttegowda D and Dr. Padma M C, A Video Mining Framework for Event Classification using Semantic Vocabulary Learning, IEEE International Conference on New Trends in Engineering and Technology (ICNTET-2018), 7thand 8th September
-- Dr Puttegowda D, Mohanesh Bevoor Mahalingappa and Shrinivasa G, Mathematical Principle Of Index of Co-Incidence And Rook Polynomial To Identify Frequent Item-set Distribution In Super Market, 2018 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018), 18thand 19th
-- MAY 19th 2018.
+- Dr Puttegowda D and Dr. Padma M C, A Video Mining Framework for Event Classification using Semantic Vocabulary Learning, IEEE International Conference on New Trends in Engineering and Technology (ICNTET-2018), 7th and 8th September
+- Dr Puttegowda D, Mohanesh Bevoor Mahalingappa and Shrinivasa G, Mathematical Principle Of Index of Co-Incidence And Rook Polynomial To Identify Frequent Item-set Distribution In Super Market, 2018 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018), 18th and 19th MAY 19th 2018.
 - Puttegowda D and Suma A P, Detection and Classification of Human Action Events from Captured Video Streams, International Journal of Scientific Research in Computer Science, Engineering and Information Technology, Volume-3, Issue -1, PP:1870-1875, ISSN : 2456-3307, Feburary-2018
-- Puttegowda D, Mohaneesh B M and Anil Kumar C J, “Mathematical Logic and Logical Equivalence Implementation to find the Intermediate Key Management for DES Encryption Algorithm” 6th
-- World Conference on Applied Science and Engineering(WCASET), Goa, January-2018
+- Puttegowda D, Mohaneesh B M and Anil Kumar C J, “Mathematical Logic and Logical Equivalence Implementation to find the Intermediate Key Management for DES Encryption Algorithm” 6thWorld Conference on Applied Science and Engineering(WCASET), Goa, January-2018
 - Puttegowda D and Dr. M C Padma, “Human Motion Detection and Recognising their Actions from the Video Streams”International Conference on Informatics and  Analytics (ICIA’16), Pondicherry, DOI: http://dx.doi.org/10.1145/2980258.2980290,  August-2016
 - Puttegowda D and Dr. M C Padma, “A Framework for Event Classification from Video Sequences using Bayesian Neural Network”, Communications on Applied Electronics (CAE), Volume: 05, Issue: 02, Pages:1-5, DOI: [10.5120/cae2016652229](https://doi.org/10.5120/cae2016652229), ISSN : 2394 – 4714, May,2016
 - Puttegowda D and Dr. U N Sinha, “A Framework for Anomaly Event Detection by Analysing the Video Sequences” , International Journal of Advanced Networking And  Applications(IJANA), pp 339-344, ISSN: 0975-0282, May special Issue-2016
-- Puttegowda D and Dr. U N Sinha, “A Framework for Anomaly Event Detection by Analysing the Video Sequences” 1st
-- International Conference Innovations in  Computing & Networking  (ICICN 2016), Bangalore, May-2016
+- **Puttegowda D and Dr. U N Sinha, “** **A Framework for Anomaly Event Detection by Analysing the Video Sequences” 1st International Conference Innovations in  Computing & Networking  (ICICN 2016), Bangalore, May-2016**
 - Puttegowda D and Dr. U N Sinha, “Video Anomaly detection using Block based Approaches”  National conference on Advances in Computing Technology, KSSEM, Bangalore, 2015
 - Puttegowda D and Dr. U N Sinha, “Analysis of video sequences for anomaly detection using block based approaches ”, International Journal  of Advance Engineering and Research Development, Volume02, Issue 11, pp 411-418, ISSN (Online): 2348-4470  ISSN (P):2348-6406, November 2015
 - Puttegowda D and Deepak N.A “Performance Evaluation of Parallel Mining for Association Rules using Aprior Algorithm”, NCETIT-2012, at DBIT, Bangalore on May-2012
 - Puttegowda D, “Performance Evaluation of Sequential and Parallel Mining for Association Rules using Aprior Algorithm” IEEE International Conference on Recent Trends in Soft Computing and Information Technology ( RTSCIT-09) at Corporate Institute of Science & Technology, Bhopal, 2010
 - Puttegowda D, “Sequential and fast parallel algorithm for mining association rules”, Journal of Intelligence System Research, Volume: 4, Issue No:1, Article No: 6, 2010
 - Puttegowda D, Deepak N.A and Rajesh Shukla, “Robust Image Transmission over Nose Channel using Independent Component Analysis”, International Journal of Advanced Networking & Application, Volume: 01, Issue: 06, Pages:347-352 (2010)
-- Puttegowda D, Rajesh Shukla and Deepak N.A “Performance Evaluation of Sequential and Parallel Mining for Association Rules using Aprior Algorithm”, International Journal of Advanced Networking & Application, 2010.
+- Puttegowda D, Rajesh Shukla and Deepak N.A “Performance Evaluation of Sequential and Parallel Mining for Association Rules using Aprior Algorithm”, International Journal of Advanced Networking & Application, 2010 **.**
 
 ### Membership in Professional Bodies
 
@@ -2858,39 +2849,34 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publications Details
 
-**International Journals:**
-
-1. B. L. Shilpa, M. R. Lamani, K. Padmaja and V. Asha, "Enhanced Lumpy Cattle Skin Disease Prognosis via Deep Learning Methods," *2024 Second International Conference on Networks, Multimedia and Information Technology (NMITCON)*, Bengaluru, India, 2024, pp. 1-6, doi: [10.1109/NMITCON62075.2024.10699233](https://doi.org/10.1109/NMITCON62075.2024.10699233).
-2. Published a Q3 Web of Science Journal "Combined Deep Learning Classifiers for Stock Market Prediction: Integrating Stock Price and News Sentiments", Kybernetes, 9th November 2021, DOI: https://doi.org/10.1108/K-06-2021-0457.
-3. Shilpa B L, Shambhavi B R. (2022) "Structuring of Unstructured Data from Heterogeneous Sources", Indian Journal of Science and Technology, 15(41):2188-2193. (Web of Science) DOI: https://doi.org/10.17485/IJST/v15i41.1566.
-4. Harshitha B, Maria Rufina P, Shilpa B L, 2021, "Systematic Pricing in Toll Roads using Unmanned Toll Collection Methods", International Journal of Engineering Research & Technology (IJERT), Volume 10, Issue 08 (August 2021).
-5. Prashantha S, Shravan C Y, Bharath B, Bharghavachar B N, Shilpa B L, "Agricultural Crop Commodities Price Prediction using Machine Learning Techniques", International Research Journal of Innovations in Engineering and Technology (IRJIET), Volume 4, Issue 6, pp 69-74, June 2020.
-6. Nireeshma R, Rashmi R, Sangeetha M, Spoorthi M E, Shilpa B L, "Plant Leaf Disease Detection and Automated Medicine using IoT", International Research Journal of Engineering and Technology (IRJET), Volume 7, Issue 4, April 2020.
-7. Prashantha S, Shravan C Y, Bharath B, Bharghavachar B N, Shilpa B L, "A Survey on Crop Analysis and Agricultural Commodities Price Prediction using Machine Learning Techniques", International Journal for Technological Research in Engineering (IJTRE), Volume 7, Issue 7, March 2020.
-8. Aishwarya B K, Nirmala S, Shruthi T, Srinidhi R, Shilpa B L, "Sentiment Analysis and Authentication of User Ratings in E-Commerce Application", International Journal of Research in Electronics and Computer Engineering (IJRECE), Volume 7, Issue 2, April to June 2019.
-9. Dhanush V Uttarkar, Sahana G S, Samrudh S Shetty, Spoorthi V, Shilpa B L, "Stock Market Prediction using Deep Learning", International Journal of Research in Electronics and Computer Engineering (IJRECE), Volume 7, Issue 2, April to June 2019.
-10. Shilpa B L, Shambhavi B R, "Predictive Analytics: Trends, Applications and Recommendations", International Journal of Data Mining & Emerging Technologies (IJDMET), Volume 8, No. 1, May 2018.
-11. Megha K S, Meghashree, Shilpa B L, "A Survey on Early Fire Alarming Using Smoke Detection", International Journal of Science Research in Computer Science Engineering and Information Technology (IJSRCSEIT), Volume 4, Issue 6, May–June 2018, pp 123-126.
-12. Shilpa B L, "A study on Performance Enhancement of Cloud-based Bigdata Analytics", International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), Vol 4, Issue 5, May.
-13. Shilpa B.L, "Exploration and Analysis of Unstructured Business Data using Text Analytics – A Study", International Journal of Emerging Technology and Advanced Engineering (IJETAE), Vol 5, Issue 7, July 2015, pp 106-108.
-
-**International / National Conferences:**
-
-1. Shilpa B L, Mayank M, Md Fakruddin S, "Adaptive Urban Traffic Control Using Camera Vision and Emergency Vehicle Mobile Interface", Second IEEE International Conference on Computing, Semiconductor, Mechatronics, Intelligent Systems, and Communications (COSMIC-2025), scheduled on November 21-22, 2025, at Sahyadri College of Engineering and Management, Adyar, Mangaluru.
-2. Shilpa B L, Padmaja K, Manjunath Ramanna Lamani, Keerthana M M, "IoT-Based Traditional Organic Implementation of Jeevamrutha Using Image Processing", Second IEEE International Conference on Computing, Semiconductor, Mechatronics, Intelligent Systems, and Communications (COSMIC-2025), scheduled on November 21-22, 2025, at Sahyadri College of Engineering and Management, Adyar, Mangaluru.
-3. Bhoomika M K, Hrushitha S, Inchara C, Sunaina K, Shilpa B L, "Deep Learning Based Aquatic Plant Species Detection", National Conference on Emerging Trends in Science & Technology (NCETST-24) organized by Government Engineering College West Champaran, Patna, 26-27th April 2024.
-4. Shilpa B L, Shambhavi B R, "Deep Learning Models for Stock Market Prediction using Optimization Approach", IEEE International Conference on Network, Multimedia and Information Technology (NMITCON-2023) in association with IEEE Bangalore section and VTU Belagavi, NMIT, Bengaluru, September 2023. (Scopus Indexed) **Received Best Paper Award for the same.**
-5. Shilpa B L, Dr. Shambahvi B R, "Stock Market Price Prediction by analysing the sentiments of public using Deep Learning", International Conference Data Science Machine Learning and Blockchain Technology – 2020 (AICDMB), VVCE, Mysuru, Feb 12-13 2020.
-6. Shilpa B L, Tejas R, Swathi N S, "Sentiment Analysis for Twitter Data", National Conference on Recent Trends in Computer Science & Engineering, SJBIT, Bangalore, 09th May 2018.
-7. Keerthana S, Lalitha M P, Latha S, Nagapushpa R, Shilpa B L, "Summarization & Sentiment Analysis from User Health Post", National Conference on Recent Trends in Computer Science & Engineering, SJBIT, Bangalore, 09th May 2018.
-8. Megha K S, Meghashree, Shilpa B L, "A Survey on Early Fire Alarming Using Smoke Detection", National Conference on Engineering Innovations & Solutions (NCEIS-2018), GSSSIETW, Mysuru, 7th May 2018.
-9. Shilpa B L, Tejas R, Swathi N S, "Twitter Sentiment Analysis Techniques: A Survey", National Conference on Recent Trends in Computer Science & Engineering and Technical Symposium-17, SJBIT, Bangalore, 10th May 2017.
-10. Shilpa B.L, Sumukha V, Sphurthi C S, "A Survey on Twitter Sentiment Analysis", National Conference on Emerging Trends and Advances in Information Technology (NCET 2016), AIT, Chikkamagaluru, Jan 29-30.
-11. Chaitra D B, Shilpa B L, "Big Data: Issues, Challenges and Tools", National Conference on Multimedia Technology and Communications System (NCMTCS 2015), MCE, Hassan, May 8-9 2015.
-12. Sangetha, Shilpa B L, "A Survey on Hadoop Distributed File System and its Applications", National Conference on Advances in Computer Applications (NCACA 2013), SSIT, Tumkur, May 16-17, 2013.
-13. Dilip Kumar N S, Shanmuga Sundari, Shilpa B L, "Web Based Control and Status Monitoring of X-Band Doppler Weather Radar", National Conference on Recent Trends in Engineering, East West College of Engineering, 2013.
-14. Shilpa B L, "A Mechanism to Manage on Unstructured Data", International Conference on On Demand Computing (ICODC 2012), Oxford College of Engineering, Bangalore, Nov 15-16, 2012, Proceedings published by IEEE and CSI chapter, ISBN 978-93-5087-502-5, pp.9-12.
-15. Shilpa B L, Harish G, "Structuring of Unstructured Data for Text Analytics", National Conference on Recent Trends in Computational Sciences and Engineering (NCRTCSE 2011), KVG College of Engineering, Sullia, 12th Feb 2011.
+- B. L. Shilpa, M. R. Lamani, K. Padmaja and V. Asha, “ **Enhanced Lumpy Cattle Skin Disease Prognosis via Deep Learning Methods**,” _2024 Second International Conference on Networks, Multimedia and Information Technology (NMITCON)_, Bengaluru, India, 2024, pp. 1-6, doi: [10.1109/NMITCON62075.2024.10699233](https://doi.org/10.1109/NMITCON62075.2024.10699233)
+- Have published an Q3 Web of Science Journal “Combined Deep Learning Classifiers for Stock Market Prediction: Integrating Stock Price and News Sentiments”, Kybernetes, 9th November 2021, DOI: [https://doi.org/10.1108/K-06-2021-0457](https://doi.org/10.1108/K-06-2021-0457)
+- Shilpa B L, Shambhavi B R. (2022) “Structuring of Unstructured Data from Heterogeneous Sources”, Indian Journal of Science and Technology.15(41):2188 2193. (Web of Science) DOI: [https://doi.org/10.17485/IJST/v15i41.1566](https://doi.org/10.17485/IJST/v15i41.1566)
+- Harshitha B , Maria Rufina P , Shilpa B L, 2021, Systematic Pricing in Toll Roads using Unmanned Toll Collection Methods, INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & TECHNOLOGY (IJERT) Volume 10, Issue 08 (August 2021)
+- Prashantha S, Shravan C Y, Bharath B, Bharghavachar B N, Shilpa B L, “Agricultural Crop Commodities Price Prediction using Machine Learning Techniques”, International Research Journal of Innovations in Engineering and Technology (IRJIET), Volume 4, Issue 6, pp 69-74, June 2020.
+- Nireeshma R, Rashmi R, Sangeetha M, Spoorthi M E, Shilpa B L, “Plant Leaf Disease Detection and Automated Medicine using IoT”, International Research Journal of Engineering and Technology (IRJET), Volume 7, Issue 4, April 2020.
+- Prashantha S, Shravan C Y, Bharath B, Bharghavachar B N, Shilpa B L, “A Survey on Crop Analysis and Agricultural Commodities Price Prediction using Machine Learning Techniques”, International Journal for Technological Research in Engineering (IJTRE), Volume 7, Issue 7, March 2020.
+- Aishwarya B K, Nirmala S, Shruthi T, Srinidhi R, Shilpa B L, “ Sentiment Analysis and Authentication of User Ratings in E-Commerce Application”, International Journal of Research in Electronics and Computer Engineering (IJRECE), Volume 7, Issue 2, April to June 2019
+- Dhanush V Uttarkar, Sahana G S, Samrudh S Shetty, Spoorthi V, Shilpa B L, “ Stock Market Prediction using Deep Learning”, International Journal of Research in Electronics and Computer Engineering (IJRECE), Volume 7, Issue 2, April to June 2019
+- Shilpa B L, Shambhavi B R, “Predictive Analytics: Trends, Applications and Recommendations”, International Journal of Data Mining & Emerging Technologies (IJDMET) , Volume 8, No. 1, May 2018
+- Megha K S, Meghashree, Shilpa B L, “A Survey on Early Fire Alarming Using Smoke Detection”, International Journal of Science Research in Computer Science Engineering and Information Technology (IJSRCSEIT) Volume 4, Issue 6, May- June 2018, pp 123-126.
+- Shilpa B L,” A study on Performance Enhancement of Cloud-based Bigdata Analytics”, International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE) Vol 4, Issue 5, May
+- Shilpa B.L, “Exploration and Analysis of Unstructured Business Data using Text Analytics-A Study”, International Journal of Emerging Technology and Advanced Engineering (IJETAE) Vol 5, Issue 7, July 2015, pp 106-108. **International/ National Conferences:**
+- Shilpa B L, Mayank M, Md Fakruddin S, “Adaptive Urban Traffic Control Using Camera Vision and Emergency Vehicle Mobile Interface”, Second IEEE International Conference on Computing, Semiconductor, Mechatronics, Intelligent Systems, and Communications (COSMIC-2025), scheduled on November 21-22, 2025, at Sahyadri College of Engineering and Management, Adyar, Mangaluru.
+- Shilpa B L, Padmaja K, Manjunath Ramanna Lamani, Keerthana M M, “IoT-Based Traditional Organic Implementation of Jeevamrutha Using Image Processing”, Second IEEE International Conference on Computing, Semiconductor, Mechatronics, Intelligent Systems, and Communications (COSMIC- 2025), scheduled on November 21-22, 2025, at Sahyadri College of Engineering and Management, Adyar, Mangaluru.
+- Bhoomika M K, Hrushitha S, Inchara C, Sunaina K, Shilpa B L, **_“Deep Learning Based Aquatic Plant Species Detection_**”, National Conference on Emerging Trends in Science & Technology (NCETST-24) organized by Government Engineering College West Champaran, Patna, 26-27th April 2024.
+- Shilpa B L, Shambhavi B R, **_“Deep Learning Models for Stock Market Prediction using Optimization Approach”_**, IEEE International Conference on Network, Multimedia and Information Technology (NMITCON-2023) in association with IEEE Bangalore section and VTU Belagavi, NMIT, Bengaluru, September 2023. (Scopus Indexed) **Received Best Paper Award for the same.**
+- Shilpa B L, Dr. Shambahvi B R **_, “Stock Market Price Prediction by analysing the sentiments of public using Deep Learning”,_** International Conference Data Science Machine Learning and Blockchain Technology- 2020 (AICDMB), VVCE, Mysuru, Feb 12-13 2020.
+- Shilpa B L, Tejas R, Swathi N S,” **_Sentiment Analysis for Twitter Data”,_** National Conference on Recent Trends in Computer Science & Engineering ”, SJBIT, Bangalore, 09th May 2018.
+- Keerthana S, Lalitha M P, Latha S, Nagapushpa R, Shilpa B L, **_“Summarization & Sentiment Analysis from User Health Post”_**, National Conference on Recent Trends in Computer Science & Engineering”, SJBIT, Bangalore, 09th May 2018.
+- Megha K S, Meghashree, Shilpa B L, **_“A Survey on Early Fire Alarming Using Smoke Detection”_**, National Conference on Engineering Innovations & Solutions (NCEIS-2018), GSSSIETW, Mysuru, 7th May 2018
+- Shilpa B L, Tejas R, Swathi N S, “ **_Twitter Sentiment Analysis Techniques: A Survey_**”, National Conference on Recent Trends in Computer Science & Engineering and Technical Symposium-17”, SJBIT, Bangalore, 10th May 2017.
+- Shilpa B.L, Sumukha V, Sphurthi C S, “ **_A Survey on Twitter Sentiment Analysis_**”, National conference on Emerging Trends and Advances in Information Technology (NCET 2016) , AIT, Chikkamagaluru, Jan29-30,
+- Chaitra D B, Shilpa B L, **_“Big Data: Issues, Challenges and Tools”,_** National Conference on Multimedia Technology and Communications System (NCMTCS 2015), MCE, Hassan, May 8-9 2015.
+- Sangetha, Shilpa B L, **_“A Survey on Hadoop Distributed File System and its Applications”,_** National Conference on Advances in Computer Applications (NCACA 2013), SSIT, Tumkur, May 16-17, 2013.
+- Dilip Kumar N S, Shanmuga Sundari, Shilpa B L, “ **_Web Based Control and Status Monitoring of X-Band Doppler Weather Radar”_**, National Conference on Recent Trends in Engineering, East West College of Engineering, 2013
+- Shilpa B L, **_“A Mechanism to Manage on Unstructured Data”,_** International Conference on On Demand Computing (ICODC 2012), Oxford College of Engineering, Bangalore, Nov 15-16, 2012, Proceedings published by IEEE and CSI chapter, ISBN 978-93-5087-502-5, pp.9-12.
+- Shilpa B L, Harish G, **_“Structuring of Unstructured Data for Text Analytics”_**, National Conference on Recent Trends in Computational Sciences and Engineering (NCRTCSE 2011), KVG College of Engineering, Sullia, 12th Feb 2011.
 
 ### Book / Book Chapter Published
 
@@ -3111,8 +3097,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Kaushik Triyambaka Mysur, “Implementation of core coalition on FPGAs”, IEEE Xplore: 25 November 2013.
-- https://ieeexplore.ieee.org/document/6673275
+- Kaushik Triyambaka Mysur, “Implementation of core coalition on FPGAs”, IEEE Xplore: 25 November 2013. [https://ieeexplore.ieee.org/document/6673275](https://ieeexplore.ieee.org/document/6673275)
 
 ### Membership in Professional Bodies
 
@@ -3122,12 +3107,9 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Patent
 
-- “Method and system to identify and use event pattern of application workflow for data management”.
-- US9892121B2. Issued Feb 13, 2018
-- “A Privacy Protected Public Transit Data Mining Method & System for Effective Passenger Detouring”.
-- US9672740B2 · Issued Jun 6, 2017
-- “Directory-level referral method for parallel nfs with multiple metadata servers”.
-- US9342529B2 · Issued May 17, 2016
+- “Method and system to identify and use event pattern of application workflow for data management”. US9892121B2. Issued Feb 13, 2018
+- “A Privacy Protected Public Transit Data Mining Method & System for Effective Passenger Detouring”. US9672740B2 · Issued Jun 6, 2017
+- “Directory-level referral method for parallel nfs with multiple metadata servers”. US9342529B2 · Issued May 17, 2016
 - “System and method to maximize server resource utilization and performance of metadata operations” US9197703B2 · Issued Nov 24, 2015
 
 ### Roles and Responsibilities: Institute Level
@@ -3298,15 +3280,14 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Published paper entitled “An Effective Home Security system based on Multimodal Interaction” in Volume – 4, Issue – 8 of International Journal of Science and Technology(The IJST) on August 2016.
-- Published paper entitled “Pneumonia and Covid Detection using Ct scan through Auto Encoders” in Volume – 22, Issue – 1 of TELEMATIQUE on February 2023.
-- Published paper entitled “IoT-Enabled Military Operations: Progress in Real Time Decision Making” in Volume – 14, Issue – 5 of International Journal of Innovative Research ( IJIRSET ) on August 2016.
-- Published paper entitled “Real Time Smart Energy meter with Automatic bill generation using IoT” in Volume – 12, Issue – 5 of International Journal of Creative Research Thoughts( IJCRT ) on May 2024.
-- Published paper entitled “Home Automation and Security System” in Volume – 12, Issue – 5 of International Journal of Creative Research Thoughts( IJCRT ) on May 2024.
-- Published paper entitled “AI Based License Plate Detection” in Volume – 13, Issue – 2 of International Journal of Creative Research Thoughts( IJCRT ) on Feb 2025.
-- Published paper entitled “AI-Based Automatic Text Recognition And Text-To-Sound Conversion” in Volume – 13, Issue – 1 of International Journal of Creative Research Thoughts( IJCRT ) on Jan 2025.
-- Published paper entitled “ORGANIC FOOD TRACEBILITY SYSTEM INTEGRATING
-- BLOCKCHAIN SIMULATION AND GENERATIVE AI FOR DOCUMENT VERIFICATION” in Volume – 13, Issue – 1 of International Journal of Creative Research Thoughts( IJCRT) on Jan 2026.
+- Published paper entitled “ **An Effective Home Security system based on Multimodal Interaction**” in Volume – 4, Issue – 8 of International Journal of Science and Technology(The IJST) on August 2016.
+- Published paper entitled “ **Pneumonia and Covid Detection using Ct scan through Auto Encoders**” in Volume – 22, Issue – 1 of TELEMATIQUE on February 2023.
+- Published paper entitled “ **IoT-Enabled Military Operations: Progress in Real Time Decision Making**” in Volume – 14, Issue – 5 of International Journal of Innovative Research ( **IJIRSET**) on August 2016.
+- Published paper entitled “ **Real Time Smart Energy meter with Automatic bill generation using IoT**” in Volume – 12, Issue – 5 of International Journal of Creative Research Thoughts( **IJCRT**) on May 2024.
+- Published paper entitled “ **Home Automation and Security System**” in Volume – 12, Issue – 5 of International Journal of Creative Research Thoughts( **IJCRT**) on May 2024.
+- Published paper entitled “ **AI Based License Plate Detection**” in Volume – 13, Issue – 2 of International Journal of Creative Research Thoughts( **IJCRT**) on Feb 2025.
+- Published paper entitled “ **AI-Based Automatic Text Recognition And Text-To-Sound Conversion**” in Volume – 13, Issue – 1 of International Journal of Creative Research Thoughts( **IJCRT**) on Jan 2025.
+- Published paper entitled “ORGANIC FOOD TRACEBILITY SYSTEM INTEGRATING BLOCKCHAIN SIMULATION AND GENERATIVE AI FOR DOCUMENT VERIFICATION” in Volume – 13, Issue – 1 of International Journal of Creative Research Thoughts( IJCRT) on Jan 2026.
 
 ### MEMBERSHIP IN PROFESSIONAL BODIES
 
@@ -3394,25 +3375,17 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Malware Websites Detection Using Machine Learning (https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:XiVPGOgt02cC)
-- International Journal of Advance Research and Innovative Ideas in Education Vol:10, Issue: 3 Year 2024
-- A SURVEY ON PLANT LEAF DISEASE DETECTION USING MACHINE LEARNING (https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:bnK-pcrLprsC)
-- International Journal of Advance Research and Innovative Ideas in Education Vol:10, Issue: 3 Year 2024
-- A Review on Detection of Offensive Language in Social Media Raghuram A.S.;Bhoomika B.R.;Gokul D.;Kuppanda M.;Khaleeq M. Conference Paper 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Volume 2023-June, Year 2023, Pages 899-903
-- A Review on Food Waste Management and Donation App Raghuram A.S. Aishwarya R.K.;Kulkarni A.G.;Calvyn A.A.;Jathin C.S. Conference Paper 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Volume 2023-June, Year 2023
-- Detection of Video and Multimedia Copy-Move Forgery using Optical Algorithm and GLSM Clustering (https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:J-pR_7NvFogC)
-- K,Manjunath S S, Raghuram A S, Sneha N PIJITEE 9 (2S)
-- Catching Packet Droppers and Modifiers in Wireless Sensor Network
-- IJIRSET, Volume 8, Year 2019, Pages 1322-1327
-- A Survey on Packet Droppers and Modifiers in Wireless Sensor Network
-- IJIRCCE, Volume 7, Year 2019, Pages 3143-3147
-- Security enabled de-duplication in cloud storage IJCRT, Volume 6, Year 2018, Pages 221-223
-- Study of SDN Framework and Performance Evaluation of Software Defined Networking
-- IJCRT, Volume 6, Year 2018, Pages 147-149
-- QA System prediction using data mining approach
-- IJCRT, Volume 6, Year 2018, Pages 1068-1073
-- Python Based Machine Learning for Profile Matching
-- IRJET, Volume 5, Year 2018, Pages 292-295
+- [Malware Websites Detection Using Machine Learning](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:XiVPGOgt02cC) **International Journal of Advance Research and Innovative Ideas in Education Vol:10, Issue: 3 Year 2024**
+- [A SURVEY ON PLANT LEAF DISEASE DETECTION USING MACHINE LEARNING](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:bnK-pcrLprsC) **International Journal of Advance Research and Innovative Ideas in Education Vol:10, Issue: 3 Year 2024**
+- **A Review on Detection of Offensive Language in Social Media Raghuram A.S.;Bhoomika B.R.;Gokul D.;Kuppanda M.;Khaleeq M. Conference Paper 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Volume 2023-June, Year 2023, Pages 899-903**
+- **A Review on Food Waste Management and Donation App Raghuram A.S. Aishwarya R.K.;Kulkarni A.G.;Calvyn A.A.;Jathin C.S. Conference Paper 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Volume 2023-June, Year 2023**
+- [Detection of Video and Multimedia Copy-Move Forgery using Optical Algorithm and GLSM Clustering](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=fDVzSvEAAAAJ&citation_for_view=fDVzSvEAAAAJ:J-pR_7NvFogC) **K,Manjunath S S, Raghuram A S, Sneha N PIJITEE 9 (2S)**
+- **Catching Packet Droppers and Modifiers in Wireless Sensor Network** **IJIRSET, Volume 8, Year 2019, Pages 1322-1327**
+- **A Survey on Packet Droppers and Modifiers in Wireless Sensor Network** **IJIRCCE, Volume 7, Year 2019, Pages 3143-3147**
+- **Security enabled de-duplication in cloud storage IJCRT, Volume 6, Year 2018, Pages 221-223**
+- **Study of SDN Framework and Performance Evaluation of Software Defined Networking** **IJCRT, Volume 6, Year 2018, Pages 147-149**
+- **QA System prediction using data mining approach** **IJCRT, Volume 6, Year 2018, Pages 1068-1073**
+- **Python Based Machine Learning for Profile Matching** **IRJET, Volume 5, Year 2018, Pages 292-295**
 
 ### MEMBERSHIP IN PROFESSIONAL BODIES
 
@@ -3491,11 +3464,11 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 - Sandesh R, “Detection of Malicious Bots in Twitter Network”, INTERNATIONAL JOURNAL OF ADVANCED RESEARCH AND INNOVATIVE IDEAS IN EDUCATION, 2024.
 - Sandesh R, “FACE HALLUCINATION WITH FINISHING TOUCHES”, INTERNATIONAL JOURNAL OF RESEARCH AND ANALYTICAL REVIEWS (IJRAR.ORG), 2023.
 - Sandesh R. “Encryption and Decryption Technique in Optically Transformed Color Images”, International Conference on Automation and Computation  (AUTOCOM 2022), Computer Science and Engineering, Graphic Era Hill University, Uttarkhand, India, December 2022.
-- SANDESH R, “A Survey on Sketch to face recognition by using machine learning”, International Journal of Advanced Research in Science, Communication and Technology (IJARSCT), ISSN: 2581-9429, Volume 2, Issue 2, July 2022.
-- SANDESH R, “Augmented Reality Implementation for Virtual Furniture”, INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT (IJSREM), ISSN: 2582-3930, Volume 5, Issue 5, May 2021.
-- SANDESH R, “Smart Door Lock/Unlock using Raspberry PI”, International Journal of Scientific Research in Computer Science Engineering and Information Technology, ISSN: 2456-3307, June 2020.
-- SANDESH R, “A Well Structured Remote Data Possession Verification Protocol in Cloud Storage”, International Journal of Creative Research Thoughts, ISSN: 2320-2882, Volume 6, Issue 2, April 2018.
-- SANDESH R, “A survey on Remote Data Possession Verification Protocol in Cloud Storage”, International Research Journal of Engineering and Technology, ISSN: 2395-0056, Volume 5, Issue 4, April 2018.
+- SANDESH R, “A Survey on Sketch to face recognition by using machine learning”, International Journal of Advanced Research in Science, Communication and Technology (IJARSCT) \|\| (ISSN: 2581-9429), Volume 2, Issue 2, July 2022.
+- SANDESH R, “Augmented Reality Implementation for Virtual Furniture”, INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT (IJSREM) \|\| (ISSN: 2582-3930), Volume 5, Issue 5, May 2021.
+- SANDESH R, “Smart Door Lock/Unlock using Raspberry PI” International Journal of Scientific Research in computer science engineering and Information technology \| (ISSN: 2456- 3307), June 2020.
+- SANDESH R, “A Well Structured Remote Data Possession Verification Protocol in Cloud Storage”, International Journal of Creative Research Thoughts \| (ISSN: 2320-2882), Volume 6 Issue 2 April 2018.
+- SANDESH R, “A survey on Remote Data Possession Verification Protocol in Cloud Storage”, International Research Journal of Engineering and Technology \| (ISSN: 2395-0056), Volume 5 Issue 4 April 2018
 
 ### MEMBERSHIP IN PROFESSIONAL BODIES
 
@@ -3519,17 +3492,9 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### PATENT
 
-- National / International
-- Sandesh R
-- Title: INTERNET OF THINGS (IOT), IMAGE PROCESSING AND MACHINE LEARNING TECHNIQUES IN SMART HOME SECURITY
-- Published/Granted: Published
-- Patent No.: 202241049887 2. Title: DESIGNING A BLOCKCHAIN BASED FRAMEWORK FOR ANALYSING THE SECURITY AND PRIVACY OF IOT FOR FUTURE ENHANCEMENT OF SOURCE LOCATION
-- Published/Granted: Published
-- Patent No.: 202211054385 3. Title: Title: DESIGNING A BLOCKCHAIN BASED FRAMEWORK FOR ANALYSING THE SECURITY AND PRIVACY OF IOT FOR FUTURE ENHANCEMENT OF SOURCE LOCATION
-- Published/Granted: Published
-- Patent No.: 202211054385
-- Published/Granted: Published
-- Patent No.: 202441044559
+- National / International — Sandesh R, Title: INTERNET OF THINGS (IOT), IMAGE PROCESSING AND MACHINE LEARNING TECHNIQUES IN SMART HOME SECURITY, Published/Granted: Published, Patent No.: 202241049887
+- Title: DESIGNING A BLOCKCHAIN BASED FRAMEWORK FOR ANALYSING THE SECURITY AND PRIVACY OF IOT FOR FUTURE ENHANCEMENT OF SOURCE LOCATION, Published/Granted: Published, Patent No.: 202211054385
+- Title: DESIGNING A BLOCKCHAIN BASED FRAMEWORK FOR ANALYSING THE SECURITY AND PRIVACY OF IOT FOR FUTURE ENHANCEMENT OF SOURCE LOCATION, Published/Granted: Published, Patent No.: 202211054385, Published/Granted: Published, Patent No.: 202441044559
 
 ### Roles and Responsibilities: Institute Level
 
@@ -3580,28 +3545,27 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Lane Detection For Autonomous Cars using Machine Learning, IJSERM , Volume 5, Issue 7, July 2021
-- Joint Eye Tracking and Head Pose Estimation for Gaze Estimation, IJIRCCE , Volume 9, Issue 6, June 2021
-- Smart Aquarium using IoT and DIP, IJSREM , Volume 4, Issue 6, June 2020
-- IoT based Cattle Monitoring and Management, IJSRD , Volume 3, Issue 1, March 2020
+- Lane Detection For Autonomous Cars using Machine Learning, _IJSERM_, Volume 5, Issue 7, July 2021
+- Joint Eye Tracking and Head Pose Estimation for Gaze Estimation, _IJIRCCE_, Volume 9, Issue 6, June 2021
+- Smart Aquarium using IoT and DIP, _IJSREM_, Volume 4, Issue 6, June 2020
+- IoT based Cattle Monitoring and Management, _IJSRD_, Volume 3, Issue 1, March 2020
 - Detection of Cervical Cancer using Gaussian Filter and Canny Edge Detection Algorithm, 6, Issue 3, March 2019
-- Survey on Detection of Cervical Cancer, International Research Journal of Engineering and Technology (IRJET) , Vol. 6, Issue 4, April 2019
-- ERP for College Management, International Journal of Advanced Research in Basic Engineering Science & Technology (IJARBEST) , Vol. 4, No. 8, August 2018
-- Real-Time Transportation Tracking and Management Suite, International Journal of Advanced Research in Basic Engineering Science & Technology (IJARBEST) , Vol. 4, No. 8, August 2018
-- Convex Hull Click Based Graphical Password Scheme, International Journal of Research in Information Technology , Volume 4, Issue 11, November 2016, Pg. 31–36
-- Aggregation of Recoverable Concealed Data in Homogeneous Wireless Sensor Networks, International Journal of Multidisciplinary and Scientific Emerging Research
-- (ISSN: 2349-6037), 4, No. 2, 2015, Pg. 1111–1115
-- Mobile Security in Android Mobile Technology, International Journal of Research in Information Technology (IJRIT) , Vol. 1, Issue 2, ISSN 2001-5569, February 2013, Pg. 30–36
-- Lock Keeper: Federated Authentication Gateway, International Journal of Advanced Technology and Engineering Research (IJATER) , Vol. 2, Issue 4, July 2012, Pg. 32–39
-- Face Recognition by Using Eigen Face Technique, GJCER , 2(1), ISSN 2265-2765, 2013, Pg. 216–220
-- Efficient Location Protocol for Wireless Sensor Networks, International Journal of Computer Application , Issue 2, Volume 6, ISSN 22501797, December 2012, Pg. 16–26
-- General Approach for Bluetooth Network Security System, International Journal of Research in Computer Applications and Robotics , Vol. 2, Issue 3, Pg. 8–16, June 2013
-- An Auto Arrangement of Tree Nodes for Routing Based on Content in Mobile Adhoc Networks, International Journal of Emerging Trends in Engineering and Development , Issue 2, 7, ISSN 2249- 6149, November 2012, Pg. 256–265
-- Finding the Leakage of Sensitive Information and Its Preventions, International Journal of Emerging Trends in Engineering and Development , Issue 3, 1, ISSN 2249-6149, January 2013, Pg. 181–188
-- A Spatial Clustering Technique for Data Mining Neuroscience Informatics, International Journal of Emerging Trends in Engineering and Development , Issue 2, Vol. 8, November 2012, Pg. 443–447
-- LickLider Transmission Protocol (LTP): A Protocol for Interplanetary Communication, International Journal of Research in Information Technology , Volume 1, Issue 9, September 2013, Pg. 306–311
-- Ensuring Privacy for Users Files in Cloud With Geometry Partition Method, IJRIT International Journal of Research in Information Technology , Volume 1, Issue 10, October 2013, Pg. 316–322
-- A Secure Distributed Nymble for Blocking Misbehaving Users in Anonymizing Networks, CiiT International Journal of Networking and Communication Engineering , Vol. 4, No. 8, July 2012, Pg. 485– 492
+- Survey on Detection of Cervical Cancer, _International Research Journal of Engineering and Technology (IRJET)_, Vol. 6, Issue 4, April 2019
+- ERP for College Management, _International Journal of Advanced Research in Basic Engineering Science & Technology (IJARBEST)_, Vol. 4, No. 8, August 2018
+- Real-Time Transportation Tracking and Management Suite, _International Journal of Advanced Research in Basic Engineering Science & Technology (IJARBEST)_, Vol. 4, No. 8, August 2018
+- Convex Hull Click Based Graphical Password Scheme, _International Journal of Research in Information Technology_, Volume 4, Issue 11, November 2016, Pg. 31–36
+- Aggregation of Recoverable Concealed Data in Homogeneous Wireless Sensor Networks, _International Journal of Multidisciplinary and Scientific Emerging Research_(ISSN: 2349-6037), 4, No. 2, 2015, Pg. 1111–1115
+- Mobile Security in Android Mobile Technology, _International Journal of Research in Information Technology (IJRIT)_, Vol. 1, Issue 2, ISSN 2001-5569, February 2013, Pg. 30–36
+- Lock Keeper: Federated Authentication Gateway, _International Journal of Advanced Technology and Engineering Research (IJATER)_, Vol. 2, Issue 4, July 2012, Pg. 32–39
+- Face Recognition by Using Eigen Face Technique, _GJCER_, 2(1), ISSN 2265-2765, 2013, Pg. 216–220
+- Efficient Location Protocol for Wireless Sensor Networks, _International Journal of Computer Application_, Issue 2, Volume 6, ISSN 22501797, December 2012, Pg. 16–26
+- General Approach for Bluetooth Network Security System, _International Journal of Research in Computer Applications and Robotics_, Vol. 2, Issue 3, Pg. 8–16, June 2013
+- An Auto Arrangement of Tree Nodes for Routing Based on Content in Mobile Adhoc Networks, _International Journal of Emerging Trends in Engineering and Development_, Issue 2, 7, ISSN 2249- 6149, November 2012, Pg. 256–265
+- Finding the Leakage of Sensitive Information and Its Preventions, _International Journal of Emerging Trends in Engineering and Development_, Issue 3, 1, ISSN 2249-6149, January 2013, Pg. 181–188
+- A Spatial Clustering Technique for Data Mining Neuroscience Informatics, _International Journal of Emerging Trends in Engineering and Development_, Issue 2, Vol. 8, November 2012, Pg. 443–447
+- LickLider Transmission Protocol (LTP): A Protocol for Interplanetary Communication, _International Journal of Research in Information Technology_, Volume 1, Issue 9, September 2013, Pg. 306–311
+- Ensuring Privacy for Users Files in Cloud With Geometry Partition Method, _IJRIT International Journal of Research in Information Technology_, Volume 1, Issue 10, October 2013, Pg. 316–322
+- A Secure Distributed Nymble for Blocking Misbehaving Users in Anonymizing Networks, _CiiT International Journal of Networking and Communication Engineering_, Vol. 4, No. 8, July 2012, Pg. 485– 492
 
 ### Membership In Professional Bodies
 
@@ -3671,16 +3635,13 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-- Published “Iot Based Prediction Of Land Degradation” in IJCRT Volume 13 Issue 3 March 2025, ISSN:2320-2882.
-- Published
-- “Smart Voting System Using Machine Learning” in IJCRT Volume 13 Issue 3 March 2025, ISSN:2320-2882.
-- Published
-- “Prediction and analysis of Stock Market using LSTM and Machine learning” in International Research Journal of engineering and technology (IRJET), Volume 11 issue 04, April 2024.
-- Published “IoT based Milk Adulteration detection and Identification of A and A2 milk” in International Research Journal of engineering and technology (IRJET), Volume 11 issue 04, April 2024.
+- Published “ **Iot Based Prediction Of Land Degradation**” in IJCRT Volume 13 Issue 3 March 2025, ISSN:2320-2882.
+- Published **“Smart Voting System Using Machine Learning”** in IJCRT Volume 13 Issue 3 March 2025, ISSN:2320-2882.
+- Published **“Prediction and analysis of Stock Market using LSTM and Machine learning**” in International Research Journal of engineering and technology (IRJET), Volume 11 issue 04, April 2024.
+- Published “ **IoT based Milk Adulteration detection and Identification of A and A2 milk**” in International Research Journal of engineering and technology (IRJET), Volume 11 issue 04, April 2024.
 - Presented the paper “Content Based Image Retrieval System for Multi Object Images using Combined Features” in National Conference on Recent Trends in Computers, Communication & Information Technology in Dr.T.Thimmaiah institute of technology, K.G.F.
 - Presented the paper “Framework for testing Database application & testing transactions with agenda“in ADVAYA-09 a National Level Technical Symposium in Shiridi sai Engineering College, Anekal, Bangalore.
-- Published and Presented” Driver Drowsiness Detection System in Automotive Vehicles” in International Journal of Engineering Research & Technology (IJERT) ISSN: 2278-0181 Published by, ijert.org (http://www.ijert.org/)
-- NCETEIT – 2017 Conference Proceedings.
+- Published and Presented” Driver Drowsiness Detection System in Automotive Vehicles” in International Journal of Engineering Research & Technology (IJERT) ISSN: 2278-0181 Published by, [ijert.org](http://www.ijert.org/) NCETEIT – 2017 Conference Proceedings.
 - Published “Image Retrieval Using Shot Boundary Detection and Key Frame Extraction Based Technique for Video Summarization” at IJRCM in the year 2015.
 `,
   },
@@ -3724,43 +3685,33 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### PUBLICATION DETAILS
 
-- Prof. Kavyashree E D, Amith H M, Jhenkar B, Rohit K Kale, “Automation of Academic Result Processing Using a Database Management System”, in IJIRCCE | Volume 14, Issue 1, pg 524 to 530, January 2026.
-- https://www.ijircce.com/admin/main/storage/app/pdf/77_Automation%20of%20Academic%20Result%20Proces sing%20Using%20a%20Database%20Management%20System.pdf
-- Prof. Kavyashree E D, Kiran Kumar V, Dhanush P L, Amruthesh Chandrashekhar Annigeri, Sindhu H S, “AI-Powered Trip Planner: Personalized Travel Optimization and Recommendation Framework”, in IJIRCCE | Volume 14, Issue 1, pg 516 to 523, January 2026.
-- https://www.ijircce.com/admin/main/storage/app/pdf/76_AI- Powered%20Trip%20Planner%20Personalized%20Travel%20Optimization%20and%20Recommendation% 20Framework.pdf
-- Kavyashree E D, M K Dechamma, Manjushree A, A Kavya Manjunath Patagar, Dhanush J, “Skin Disease Detection using CNN” , in IJIRCCE Volume 13, Issue 5, pf 11033 to 11038, May 2025.
-- https://ijircce.com/admin/main/storage/app/pdf/tRfYAgpvsR3geVQglEHOsXgn7LcohysXxLgrvvkz.pdf
-- Kavyashree E D, Inchara K S, Joshitha A, Nandita, Khwaja Adnan Hussain, “Classify Song Genres from Audio Data” , in IJIRCCE, Volume 13, Issue 3, pg 2710 to 2715, Mar 2025.
-- https://ijircce.com/admin/main/storage/app/pdf/nRnBBwca0bw0qRRxpnU8EbdfumtXuP8y0VChfx6U.pdf
-- Kavyashree E D, Sathwik K, Syed Tayeeb, Syeda Afra, Tejas B V, “Detection and Analysis of Autism Spectrum Disorder using Machine Learning” , IJIRCCE, Volume 12, Issue 5, pg 6117 to 6121, May 2024.
-- Kavyashree E D, Chirag A, Jathin Y, Kevin Moses, Dhanush B K, “Nifty 50 Stock Prediction Using Deep Learning” , IJIRRCE, Volume 11, Issue 4, pg 2533-2537, April 2023
-- Kavyashree E D, Sowmyashree P, Anil Kumar C J, Kiran B, “An Epigrammatic study on NLP –Tools, challenges and It’s Applications”, in IJIRRCE, Vol 7, Issue 1, pg 148-152, January 2019.
-- Sowmya Shree P,Vidyashree H D,Kavyashree E D, “Sentiment Analysis: A Brief Overview, Classifications, Applications” , 2018 IJSRST, Volume 4, Issue 5, ISSN: 2395-6011 | Online ISSN: 2395-602X.
-- Vidyashree H D, Kavyashree E D, Sowmya Shree P, “A Review on Big Data- Storage Techniques and Its Challenges” , 2018 IJSRST, Volume 4 Issue 5 ISSN: 2395-6011 | Online ISSN: 2395-602X.
-- Kavyashree E D, Vidyashree H D,Anil Kumar B H, “A survey of Internet of Things (IoT)-Applications, Merits, Demerits & Challenges” in IJIRCCE, Volume 6, Issue 2, pg 903-907, February 2018, ISSN(Online):2320-9801.
-- Dr.G.Manoj Someswar1, Chaitrashree.V2, Gagana M.S3, Kavyashree E.D4, Deepthi Wilson5, Manju Prasad B6, “A Review on Epigramatic Study in Network Security” , Journal of Applied Engineering (JOAE), 5 (3), March-2017 (Volume-V, Issue-III), pg 349-351
-- Dr.G.Manoj Someswar1, Kavyashree E.D2, Deepthi Wilson R3, Gagana M.S4, Chaitrashree5, Manju Prasad B6, “Emospark: Human Emotions Through “Artificial Intelligence Console”, An international journal of advanced computer technology, 6 (3), March-2017 (Volume-VI, Issue-III),2313-2315.
-- Kavyashree E.D1, Kavya P2 , “Survey on Cloud Computing” , Journal of Computer Science and Engineering Volume 2 Issue 1, pg 1-6. February 2017 (Mantech Publications, Free Journal).
-- Kavyashree E.D, “Current Trends and Security Issues in Wireless Sensor Networks” , Journal of Computer, Internet and Network Security Volume2 Issue 1, pg 1-8. February 2017 (Mantech Publications, Free Journal).
-- National/International Conferences
-- Kavyashree E D, Dr Puttegowda D
-- “Artificial Intelligence with IoT powerful combination in real time”,
-- Presented in ICRTST 2023, ATMECE, Mysuru.
-- Anees Fathima, Bhavana M, Geetha S, Kavyashree E D, “Hand Gesture Techniques For Sign Language Recognition” , Presented in ICRTST 2021, ATMECE, Mysuru.
-- Kavyashree E D, Anil Kumar B H, “An Epigrammatic Study on Android Architecture, Framework and Its Challenges”, submitted to ICRTST 2021, ATMECE, Mysuru
-- Hameeda Banu1, Thamitha2, Pooja3, Kavyashree E D, “Survey on Blockchain Technology – Merits, Demerits and Its Applications”, submitted to ICRTST 2020, ATMECE, Mysuru.
-- Anil Kumar B H, Kavyashree E D, “Study on Network Simulation Using Cisco Packet Tracer” submitted to ICRTST 2020, ATMECE, Mysuru.
-- Kavyashree E D, “Big Data Analytics – Tools, Challenges, Applications, Future Scope” , Submitted to ICRTST 2020, ATMECE, Mysuru.
-- Kavyashree E D, “6Lowpan Network using Contiki Operating System”, AIJR, DOI: https //doi.org/10.21467/proceedings.148 ,pp300-310, 2018, 3rd National Conference NCICCNDA 2018 in GSSSIETW on April 28th , 2018. Awarded Best Paper.
-- Kavyashree E.D, Manjuprasad B, “Energy Efficient Clustering in Wireless Sensor Networks”, National Conference on Image Processing, computing, communication, Networking, and Data Analytics,29 th July 2017, ISSN :2278-0181, pg 81-84.
-- Kavyashree E.D, Manjuprasad B, “Energy Efficient Clustering and Secure Protocol in Wireless Sensor Networks”, National Conference in GSSSIETW May 27th , 2017. IJERT Publications.
-- Kavyashree E.D, ManjuPrasad B, “Enhanced Energy Efficiency Clustering for Wireless Sensor Networks”.
-- National Conference in BGSIT May 19th , 2017. Awarded best paper presentation in conference.
-- Kavyashree E.D, Gagana M.S, Manjuprasad B , “A Review on Clustering Approach: LEACH and its protocols”.
-- National Conference in GMIT May 05th 2017.IJERT Publications.
-- Kavyashree E.D, Vartika Sharma.V, “Multi Store Database Synchronization and Reports in POS”,
-- Presented in NIE International Symposium proceedings, March 17th , 2017.
-- Kavyashree E.D1, Gagana M.S2, Vartika Sharma3, “Survey on Security Issues and Challenges on Mapreduce in Big Data Analytics”, 3 rd National Conference on Emerging Trends in Electronics and Communication (NCETEC-16),2016,pg 1-4,April-2016, ISRASE Digital Library.
+- Prof. Kavyashree E D, Amith H M, Jhenkar B, Rohit K Kale, “Automation of Academic Result Processing Using a Database Management System”, in IJIRCCE \| Volume 14, Issue 1, pg 524 to 530, January 2026. [https://www.ijircce.com/admin/main/storage/app/pdf/77\_Automation%20of%20Academic%20Result%20Proces](https://www.ijircce.com/admin/main/storage/app/pdf/77_Automation%20of%20Academic%20Result%20Proces) sing%20Using%20a%20Database%20Management%20System.pdf
+- Prof. Kavyashree E D, Kiran Kumar V, Dhanush P L, Amruthesh Chandrashekhar Annigeri, Sindhu H S, “AI-Powered Trip Planner: Personalized Travel Optimization and Recommendation Framework”, in IJIRCCE \| Volume 14, Issue 1, pg 516 to 523, January 2026. [https://www.ijircce.com/admin/main/storage/app/pdf/76\_AI-](https://www.ijircce.com/admin/main/storage/app/pdf/76_AI-) Powered%20Trip%20Planner%20Personalized%20Travel%20Optimization%20and%20Recommendation% 20Framework.pdf
+- Kavyashree E D, M K Dechamma, Manjushree A, A Kavya Manjunath Patagar, Dhanush J, **“Skin Disease Detection using CNN”**, in IJIRCCE Volume 13, Issue 5, pf 11033 to 11038, May 2025. [https://ijircce.com/admin/main/storage/app/pdf/tRfYAgpvsR3geVQglEHOsXgn7LcohysXxLgrvvkz.pdf](https://ijircce.com/admin/main/storage/app/pdf/tRfYAgpvsR3geVQglEHOsXgn7LcohysXxLgrvvkz.pdf)
+- Kavyashree E D, Inchara K S, Joshitha A, Nandita, Khwaja Adnan Hussain, **“Classify Song Genres from Audio Data”**, in IJIRCCE, Volume 13, Issue 3, pg 2710 to 2715, Mar 2025. [https://ijircce.com/admin/main/storage/app/pdf/nRnBBwca0bw0qRRxpnU8EbdfumtXuP8y0VChfx6U.pdf](https://ijircce.com/admin/main/storage/app/pdf/nRnBBwca0bw0qRRxpnU8EbdfumtXuP8y0VChfx6U.pdf)
+- Kavyashree E D, Sathwik K, Syed Tayeeb, Syeda Afra, Tejas B V, **“Detection and Analysis of Autism Spectrum Disorder using Machine Learning”**, IJIRCCE, Volume 12, Issue 5, pg 6117 to 6121, May 2024.
+- Kavyashree E D, Chirag A, Jathin Y, Kevin Moses, Dhanush B K, **“Nifty 50 Stock Prediction Using Deep Learning”**, IJIRRCE, Volume 11, Issue 4, pg 2533-2537, April 2023
+- Kavyashree E D, Sowmyashree P, Anil Kumar C J, Kiran B, **“An Epigrammatic study on NLP –Tools, challenges and It’s Applications”,** in IJIRRCE, Vol 7, Issue 1, pg 148-152, January 2019.
+- Sowmya Shree P,Vidyashree H D,Kavyashree E D, **“Sentiment Analysis: A Brief Overview, Classifications, Applications”**, 2018 IJSRST, Volume 4, Issue 5, ISSN: 2395-6011 \| Online ISSN: 2395-602X.
+- Vidyashree H D, Kavyashree E D, Sowmya Shree P, **“A Review on Big Data- Storage Techniques and Its Challenges”**, 2018 IJSRST, Volume 4 Issue 5 ISSN: 2395-6011 \| Online ISSN: 2395-602X.
+- Kavyashree E D, Vidyashree H D,Anil Kumar B H, **“A survey of Internet of Things (IoT)-Applications, Merits, Demerits & Challenges”** in IJIRCCE, Volume 6, Issue 2, pg 903-907, February 2018, ISSN(Online):2320-9801.
+- Dr.G.Manoj Someswar1, Chaitrashree.V2, Gagana M.S3, Kavyashree E.D4, Deepthi Wilson5, Manju Prasad B6, **“A Review on Epigramatic Study in Network Security”**, Journal of Applied Engineering (JOAE), 5 (3), March-2017 (Volume-V, Issue-III), pg 349-351
+- Dr.G.Manoj Someswar1, Kavyashree E.D2, Deepthi Wilson R3, Gagana M.S4, Chaitrashree5, Manju Prasad B6, **“Emospark: Human Emotions Through “Artificial Intelligence Console”,** An international journal of advanced computer technology, 6 (3), March-2017 (Volume-VI, Issue-III),2313-2315.
+- Kavyashree E.D1, Kavya P2 **, “Survey on Cloud Computing”**, Journal of Computer Science and Engineering Volume 2 Issue 1, pg 1-6. February 2017 (Mantech Publications, Free Journal).
+- Kavyashree E.D, **“Current Trends and Security Issues in Wireless Sensor Networks”**, Journal of Computer, Internet and Network Security Volume2 Issue 1, pg 1-8. February 2017 (Mantech Publications, Free Journal). **National/International Conferences**
+- Kavyashree E D, Dr Puttegowda D **“Artificial Intelligence with IoT powerful combination in real time”,** Presented in ICRTST 2023, ATMECE, Mysuru.
+- Anees Fathima, Bhavana M, Geetha S, Kavyashree E D, **“Hand Gesture Techniques For Sign Language Recognition”**, Presented in ICRTST 2021, ATMECE, Mysuru.
+- Kavyashree E D, Anil Kumar B H, **“An Epigrammatic Study on Android Architecture, Framework and Its Challenges”,** submitted to ICRTST 2021, ATMECE, Mysuru
+- Hameeda Banu1, Thamitha2, Pooja3, Kavyashree E D, **“Survey on Blockchain Technology – Merits, Demerits and Its Applications”,** submitted to ICRTST 2020, ATMECE, Mysuru.
+- Anil Kumar B H, Kavyashree E D, **“Study on Network Simulation Using Cisco Packet Tracer”** submitted to ICRTST 2020, ATMECE, Mysuru.
+- Kavyashree E D, **“Big Data Analytics – Tools, Challenges, Applications, Future Scope”**, Submitted to ICRTST 2020, ATMECE, Mysuru.
+- Kavyashree E D, **“6Lowpan Network using Contiki Operating System”,** AIJR, DOI: https //doi.org/10.21467/proceedings.148 ,pp300-310, 2018, 3rd National Conference NCICCNDA 2018 in GSSSIETW on April 28th, 2018\. Awarded Best Paper.
+- Kavyashree E.D, Manjuprasad B, **“Energy Efficient Clustering in Wireless Sensor Networks”,** National Conference on Image Processing, computing, communication, Networking, and Data Analytics,29 th July 2017, ISSN :2278-0181, pg 81-84.
+- Kavyashree E.D, Manjuprasad B, **“Energy Efficient Clustering and Secure Protocol in Wireless Sensor Networks”,** National Conference in GSSSIETW May 27th, 2017\. IJERT Publications.
+- Kavyashree E.D, ManjuPrasad B, “ **Enhanced Energy Efficiency Clustering for Wireless Sensor Networks”.** National Conference in BGSIT May 19th, 2017\. Awarded best paper presentation in conference.
+- Kavyashree E.D, Gagana M.S, Manjuprasad B **, “A Review on Clustering Approach: LEACH and its protocols”.** National Conference in GMIT May 05th 2017.IJERT Publications.
+- Kavyashree E.D, Vartika Sharma.V, **“Multi Store Database Synchronization and Reports in POS”,** Presented in NIE International Symposium proceedings, March 17th, 2017.
+- Kavyashree E.D1, Gagana M.S2, Vartika Sharma3, **“Survey on Security Issues and Challenges on Mapreduce in Big Data Analytics”,** 3 rd National Conference on Emerging Trends in Electronics and Communication (NCETEC-16),2016,pg 1-4,April-2016, ISRASE Digital Library.
 
 ### MEMBERSHIP IN PROFESSIONAL BODIES
 
@@ -3870,25 +3821,15 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 - Mrs Keerthana M, Bhuvan s, Dheeksha S, Ananya M K and Dheeraj Thotappa has published a paper on “Implementation Of College Online Voting System” inn IJCRT Volume 13 Issue 1 January 2025 , Date of Publication: 30-January-2025.
 - Mrs Keerthana M M, Raghavendra K, Subhash K V and Surya M has published a paper on “College Placement System Using Python” in IJCRT Volume 13 Issue 2 February 2025 .
 - Keerthana M M, Mohammed Arshad, Mohammed Umar, Yasmeen Taj and Zayed Kifaiyatullah Mohammed has published a paper on “Attendance management system using mobile biometric technology” in IJCRT , volume 12 Issue 5 , 7-May 2024.
-- KEERTHANA M M, 2Mr. MADHUSUDHAN S, 3 Mr. MAHADEV PRASAD P S, 4 Mr. MANU M, 5 Mr. VINEETH SHANDILYA M J has published a paper on “IOT ENABLED SMART BLIND STICK “ in IJCRT , volume 12 Issue 5 May 2024.
-- KEERTHANA M M, HAMSA A S, Assistant professors has presented a paper on“IMPLEMENTATION OF PLANT DISEASE DETECTION USING CNN ALGORITHM” in International Conference on Recent Trends in Science & Technology, on 18th
-- & 19th
-- Oct-2023, organized by ATMECE, Mysore.
-- HAMSA A S, KEERTHANA M M, Assistant professors has presented a paper on“Prognosis of Cardiovascular Disease using Machine Learning Approach” in International Conference on Recent Trends in Science & Technology , on 18th
-- & 19th
-- Oct-2023, organized by ATMECE, Mysore.
+- KEERTHANA M M, 2Mr. MADHUSUDHAN S, 3 Mr. MAHADEV PRASAD P S, 4 Mr. MANU M, 5 Mr. VINEETH SHANDILYA M J has published a paper on “IOT ENABLED SMART BLIND STICK “ in IJCRT , volume 12 Issue 5 May 2024 **.**
+- KEERTHANA M M, HAMSA A S **,** Assistant professors has presented a paper on **“** IMPLEMENTATION OF PLANT DISEASE DETECTION USING CNN ALGORITHM” in International Conference on Recent Trends in Science & Technology, on 18th & 19th Oct-2023, organized by ATMECE, Mysore.
+- HAMSA A S **,** KEERTHANA M M, Assistant professors has presented a paper on **“** Prognosis of Cardiovascular Disease using Machine Learning Approach” in International Conference on Recent Trends in Science & Technology , on 18th & 19th Oct-2023, organized by ATMECE, Mysore.
 - KEERTHANA M M & SNEHA N P , Asst professors has published a paper on “ Survey on Big data Analytics “ in IJCRT , Volume 9 , Issue 8 , August 2021.
 - KEERTHANA M M , Asst Professor has published a paper on “ Implementation of Protein Function Detection and Classification using CNN Algorithm” in IJIRCCE , Volume 9, Issue 6 , June 2021
-- KEERTHANA M M , ANIL KUMAR B H Asst Professors has published a paper on “Study On Rip And Eigrp Routing Protocols “in International conference on Recent Trends in science and Technology ( ICRTST) organized by ATMECE, Mysore , 17thand 18th June 2020.
-- Mrs Archana M R and Ms keerthana M M, Asst professors, has published a research paper on “Multimodel image classification through K-means clustering” in International research journal of Engineering and technology
-- (IRJET) volume 5, Issue 6 June 2018.
-- ISSN: 2395-0056.
-- Keerthana M M, Asst Prof, has published a research paper on “Implementation of Graphical Authentication System for Shoulder surfing Attacks” in “International Journal Of Innovative Research In Computer And Communication Engineering”.
-- IJIRCCE, Volume 6,Issue 2 , February 2018.
-- ISSN:2320-9801
-- Keerthana M M, Asst Prof, has published a research paper on “Implementation of Block Level File Operations with the Improvement of File Security on Cloud” in “International Journal Of Innovative Research In Computer and Communication Engineering”.
-- IJIRCCE, Volume 5, Issue 1, January 2017.
-- ISSN: 2320-9798.
+- KEERTHANA M M , ANIL KUMAR B H  Asst Professors has published a paper on “Study On Rip And Eigrp Routing Protocols “ in International conference on Recent Trends in science and Technology ( ICRTST) organized by ATMECE, Mysore , 17th and 18th June 2020.
+- Mrs Archana M R and Ms keerthana M M, Asst professors, has published a research paper on **“Multimodel image classification through K-means clustering”** in International research journal of Engineering and technology **(IRJET) volume 5, Issue 6 June 2018.** ISSN: 2395-0056.
+- Keerthana M M, Asst Prof, has published a research paper on **“Implementation of Graphical Authentication System for Shoulder surfing Attacks**” in “International Journal Of Innovative Research In Computer And Communication Engineering”. **IJIRCCE, Volume 6,Issue 2 , February 2018.** ISSN:2320-9801
+- Keerthana M M, Asst Prof, has published a research paper on **“Implementation of Block Level File Operations with the Improvement of File Security on Cloud**” in “International Journal Of Innovative Research In Computer and Communication Engineering”. **IJIRCCE, Volume 5, Issue 1, January 2017.** ISSN: 2320-9798.
 
 ### Membership in Professional Bodies
 
@@ -4094,9 +4035,8 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 - Ayurhealth Drug Recommendation System in IJCRT journal Volume 13 Issue 2 February 2025.
 - Recommendation System based on Sentiment analysis of Drug Reviews using Machine Learning in IJCRT journal volume 12 Issue 5 May 2024.
-- Shrilakshmi Prasad, Arpitha D, “Student Attendance Tracking system using Biometrics
-- “ in IRJET journal Volume 5 Issue 3 March 2018
-- Arpitha D, Shrilakshmi Prasad, Prakruthi S, “Python Based Machine learning for profile Matching” in IRJET journal Volume 5 Issue 3 March 2018
+- Shrilakshmi Prasad, Arpitha D, _“Student Attendance Tracking system using Biometrics_ “ in IRJET journal Volume 5 Issue 3 March 2018
+- Arpitha D, Shrilakshmi Prasad, Prakruthi S, “ _Python Based Machine learning for profile Matching”_ in IRJET journal Volume 5 Issue 3 March 2018
 - Journal paper on cloud computing is published in the International Journal Of Advance Research in Computer Science and Management Studies.
 
 ### FDPs/Conferences/Workshops/STTP/MOOC Certification
@@ -4405,9 +4345,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Patent
 
-- Application Number: 202541016144
-- Title of Invention:
-- A Graphical User Interface for a Video Editing Software Tool
+- Application Number: 202541016144, Title of Invention: A Graphical User Interface for a Video Editing Software Tool
 
 ### Roles and Responsibilities: Institute Level
 
@@ -4461,29 +4399,27 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 ### Publication Details
 
-1. Dr. Nasreen Fathima, Rahul Prakash H P, Prashanth S, Vikas B, Chandrashekar G, presented a paper titled "Conversational Image Recognition System to Comprehend an Image" at International Conference on Visual Analytics and Data Visualization (ICVADV-2026) held on 24 to 26 February 2026 at Francis Xavier Engineering college, TamilNadu, India.
-2. Dr. Nasreen Fathima, Hemashree B S, Snehal Ann Alvares, Hemanth R, Mohamed Adnan, presented a paper titled "Real-Time Data Visualization Platform for Smart Cities to Monitor sustainability Metrics" at 10th International Conference on Information and Communication Technology for Competitive Strategies" held on 15-17 December 2025 at Jaipur, India.
-3. Kumar, H.S.R., Preethi, S., Fathima, N. et al. Deep Learning Models for Early Identification of Learning Disorders in Children with Autism Spectrum Disorder. SN COMPUT. SCI. 6, 761 (2025). https://doi.org/10.1007/s42979-025-04308-3
-4. Prashanth, M.V., Bharath, K.N., Fathima, N. et al. Machine Learning Approaches for Solar PV Fault Identification. SN COMPUT. SCI. 6, 839 (2025). https://doi.org/10.1007/s42979-025-04364-9.
-5. Dr. Nasreen Fathima, Dr. M S Sunitha Patel, Kiran B published a paper titled "Novel Intelligent Trust Computation for Securing Internet-of-Things using Probability based Artificial Intelligence" to Indonesian Journal of Electrical Engineering and Computer Science (IJEECS), May 2025.
-6. Dr. Nasreen Fathima, Mohammed Shezan, Niha Rehman, Preksha Jain M, Shishira N, published a paper titled "Conversion of 2D Blueprints into 3D Models", in UGC care journal IJIRT ISSN: 2349-6002.
-7. Dr. Nasreen Fathima, Ankush Manjunath Naik, Chandan Kumar M S, Gulab Singh, Manoj Gowda K B, published paper titled "A Survey on Available Methods for Human Computer Interaction" in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN: 2347-7180. Vol-13, Issue-5, No. 5, May 2023.
-8. Dr. Nasreen Fathima, Lakshmi C, Parineeth Sai S Kotian, Pavan Kumar D, Suhas M S, published a paper titled "Design And Implementation Of Sign-Language In A Chatbot" in UGC care journal- International journal of Cultural Studies and Social Sciences, Vol 20, Issue-01 ISSN: 2347-4777, June 2024.
-9. Dr. Nasreen Fathima, Ayesha Siddiqua, Bi Bi Sara, Jeevan P, Mohammad Meraj, published a paper titled "AI Powered Legal Documentation Assistant" in UGC care journal- International journal of Cultural Studies and Social Sciences, Vol 20, Issue 01 ISSN: 2347-4777, June 2024.
-10. Dr. Nasreen Fathima, Navya Urs. S, Anarghya Manonidhi Rashi S.D, M.S Spoorthi, and Amshu.V.Jain "A Survey On Available Aids For Guiding Blinds" in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN: 2347-7180. Vol-13, Issue-4, No. 6, April 2023.
-11. Dr. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled "Integrated Signing Procedure Based Data Transfer Security and Authentication Framework for Internet of Things Applications" in Wireless Personal Communications (WPC) March 2023. https://doi.org/10.1007/s11277-023-10291-w
-12. Dr. Nasreen Fathima, Sunitha Patel published paper titled "Secure Transmission Of Data Between Nodes And Gateway in Internet of Things" in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN: 2347-7180. Volume-12 Issue-09, September 2022.
-13. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled "A Signature Based Data Security and Authentication Framework for Internet of Things Applications" in International Journal of Electrical and Computer Engineering (IJECE), 12, No. 3, (June 2022). http://doi.org/10.11591/ijece.v12i3.pp3298-3308
-14. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled "Framework for Secure Transmission between Communicating Nodes with the Internet Host in IoT" in International Journal of Disaster Recovery and Business Continuity (IJDRBC), 11, No. 1, (2020), pp. 1370-1380. http://sersc.org/journals/index.php/IJDRBC/article/view/16042
-15. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled "An Insight of Existing Research Approaches towards Securing IoT Communication System" in International Journal of Innovative Technology and Exploring Engineering (IJITEE), Vol-9 Issue-4 February 2020. DOI: 35940/ijitee.D1621.029420 http://www.ijitee.org/wp-content/uploads/papers/v9i4/D1621029420.pdf
-16. Nasreen Fathima, published paper on "Hand Gesture Recognition using IOT" in IJRECE Volume 7, Issue 2, April-June 2019, ISSN- 2348-2281.
-17. Nasreen Fathima, published paper on "Data Mining Techniques Used To Predict Chronic Kidney Disease" in IJSRCSEIT Volume 4, Issue 6, May-June 2018, ISSN- 2456-3307.
-18. Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, published a paper on "A Comparitive study of Routing Approaches for Energy Constrained Devices in IoT" in IJCESR DOI: [10.21276/ijcesr](https://doi.org/10.21276/ijcesr), Volume IV Issue I, Jan – 2017.
-19. Nasreen Fathima, published a paper on "Review on the Research Evolution on Secure Routing in Wireless Sensor Network" in IJCA, ISBN 973-93-80887-31-0, Volume 119 No.17, June – 2015.
-20. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, presented a paper titled "Modeling of Secure Communication in Internet-of-Things for Resisting Potential Intrusion" to International Conference 3rd Computational Methods in Systems and Software 2019 (CoMeSySo 2019) on Oct 3 to Oct 5 2019. Further the paper is published in the Springer Series: Advances in Intelligent Systems and Computing – ISSN 2194-5357. This series (proceedings) is indexed by SCOPUS and Web of Science. https://link.springer.com/chapter/[10.1007/978-3-030-31362-3_38](https://doi.org/10.1007/978-3-030-31362-3_38)
-21. Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, presented a paper on "An Approach for Security in IOT" at ICEECCOT Dec 2018 at GSSSIETW, Mysuru, published in IEEE Digital Library Indexed by Scopus, Dec 15 2018.
-22. Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, presented a paper on "Optimized Neighbor Discovery in IoT" at ICEECCOT-2017 at GSSSIETW, Mysuru DOI: [10.1109/ICEECCOT.2017.8284573](https://doi.org/10.1109/ICEECCOT.2017.8284573)
-23. Reshma Banu, Dr. Ali Ahammed, Nasreen Fathima, presented a paper on "A Review on Biologically Inspired Approaches to Security for Internet of Things (IoT)" at ICEEOT 2016, published in IEEE Digital Library. DOI: [10.1109/ICEEOT.2016.7754848](https://doi.org/10.1109/ICEEOT.2016.7754848).
+- Kumar, H.S.R., Preethi, S., Fathima, N. et al. Deep Learning Models for Early Identification of Learning Disorders in Children with Autism Spectrum Disorder. SN COMPUT. SCI. 6, 761 (2025). https://doi.org/10.1007/s42979-025-04308-3
+- Prashanth, M.V., Bharath, K.N., Fathima, N. et al. Machine Learning Approaches for Solar PV Fault Identification. SN COMPUT. SCI. 6, 839 (2025). https://doi.org/10.1007/s42979-025-04364-9.
+- Dr. Nasreen Fathima, Dr. M S Sunitha Patel, Kiran B submitted a paper titled “Novel Intelligent Trust Computation for Securing Internet-of-Things using Probability based Artificial Intelligence” to Indonesian Journal of Electrical Engineering and Computer Science (IJEECS), May 2025.
+- Dr. Nasreen Fathima, Mohammed Shezan, Niha Rehman, Preksha Jain M, Shishira N, published a paper titled “Conversion of 2D Blueprints into 3D Models”, in UGC care journal IJIRT ISSN: 2349-6002.
+- Dr. Nasreen Fathima, Ankush Manjunath Naik, Chandan Kumar M S, Gulab Singh, Manoj Gowda K B, published paper titled “A Surveyon Available Methods for Human Computer Interaction” in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN : 2347-7180. Vol-13, Issue-5, No. 5,May2023.
+- Dr. Nasreen Fathima, Lakshmi C, Parineeth Sai S Kotian , Pavan Kumar D, Suhas M S, published a paper titled “Design And Implementation Of Sign-Language In A Chatbot” in UGC care journal- International journal of Cultural Studies and Social Sciences, Vol 20, Issue-01 ISSN: 2347-4777, June 2024.
+- Dr. Nasreen Fathima, Ayesha Siddiqua, Bi Bi Sara, Jeevan P, Mohammad Meraj, published a paper titled “AI Powered Legal Documentation Assistant” in UGC care journal- International journal of Cultural Studies and Social Sciences, Vol 20, Issue 01 ISSN: 2347-4777, June 2024.
+- Dr. Nasreen Fathima, Navya Urs. S, Anarghya Manonidhi Rashi S.D , M .S Spoorthi , and Amshu.V.Jain “A Survey On Available Aids For Guiding Blinds” in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN : 2347-7180. Vol-13, Issue-4, No. 6, April 2023
+- Dr. Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled “Integrated Signing Procedure Based Data Transfer Security and Authentication Framework for Internet of Things Applications” in Wireless Personal Communications(WPC) March 2023. https://doi.org/10.1007/s11277-023- 10291-w
+- Dr. Nasreen Fathima, Sunitha Patel published paper titled “Secure Transmission Of Data Between Nodes And Gateway in Internet of Things” in DogoRangsang Research Journal, UGC Care Group I Journal, ISSN : 2347- 7180. Volume-12 Issue-09, September 2022.
+- Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled “A Signature Based Data Security and Authentication Framework for Internet of Things Applications” in International Journal of Electrical and Computer Engineering (IJECE), 12, No. 3, (June 2022). http://doi.org/10.11591/ijece.v12i3.pp3298-3308
+- Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled “Framework for Secure Transmission between Communicating Nodes with the Internet Host in IoT” in International Journal of Disaster Recovery and Business Continuity (IJDRBC), 11, No. 1, (2020), pp. 1370-1380. http://sersc.org/journals/index.php/IJDRBC/article/view/16042
+- Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, published paper titled “An Insight of Existing Research Approaches towards Securing IoT Communication System” in International Journal of Innovative Technology and Exploring Engineering (IJITEE), Vol-9 Issue-4 February 2020. DOI:35940/ijitee.D1621.029420 http://www.ijitee.org/wp-content/uploads/papers/v9i4/D1621029420.pdf
+- Nasreen Fathima, published paper on “Hand Gesture Recognition using IOT” in IJRECE Volume 7, Issue 2, April- June 2019, ISSN- 2348-2281.
+- Nasreen Fathima, published paper on “Data Mining Techniques Used To Predict Chronic Kidney Disease” in IJSRCSEIT Volume 4, Issue 6, May-June 2018, ISSN- 2456-3307.
+- Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, published a paper on “A Comparitive study of Routing Approaches for Energy Constrained Devices in IoT” in IJCESR DOI: [10.21276/ijcesr](https://doi.org/10.21276/ijcesr), Volume IV Issue I, Jan – 2017.
+- Nasreen Fathima, published a paper on “Review on the Research Evolution on Secure Routing in Wireless Sensor Network” in IJCA, ISBN 973-93-80887-31-0, Volume 119 No.17, June – 2015.
+- Nasreen Fathima, Dr. Reshma Banu, Dr. G F Ali Ahammed, presented a paper titled “Modeling of Secure Communication in Internet-of-Things for Resisting Potential Intrusion” to International Conference 3rd Computational Methods in Systems and Software 2019 (CoMeSySo 2019) on Oct 3 to Oct 5 2019. Further the paper is published in the Springer Series: Advances in Intelligent Systems and Computing – ISSN 2194-5357. This series (proceedings) is indexed by SCOPUS and Web of Science. https://link.springer.com/chapter/[10.1007/978-3-](https://doi.org/10.1007/978-3-) 030-31362-3\_38
+- Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, presented a paper on “An Approach for Security in IOT” at ICEECCOT Dec2018 at GSSSIETW, Mysuru, published in IEEE Digital Library Indexed by Scopus, Dec 15 2018.
+- Nasreen Fathima, Dr. Reshma Banu, Dr. Ali Ahammed, presented a paper on “Optimized Neighbor Discovery in IoT” at ICEECCOT-2017 at GSSSIETW, Mysuru DOI: 1109/ICEECCOT.2017.8284573
+- Reshma Banu, Dr. Ali Ahammed, Nasreen Fathima, presented a paper on “A Review on Biologically Inspired Approaches to Security for Internet of Things (IoT)” at ICEEOT 2016, published in IEEE Digital Library. DOI: [10.1109/ICEEOT.2016.7754848](https://doi.org/10.1109/ICEEOT.2016.7754848).
 
 ### Membership in Professional Bodies
 
@@ -5205,9 +5141,9 @@ _Nil_
 
 ### Publication Details
 
-- Journal Publications:“Railway Track Crack Detection and Animal Entry Prevention System using IOT” , has been Published in Compliance Engineering Journal , volume14, issue 4, April – 2023
-- “PID – 283:AI- POWERED SURVEILLANCE SYSTEM USING COMPUTER VISION FOR PUBLIC SAFETY” as PRESENTER for International Conference on Digital Technology and Engineering (ICDTE -2025) organized by RV Institute of Technology and Management, Bengaluru, 16-17 October, 2025.
-- AI- POWERED DECISION SUPPORT SYSTEM FOR COFFEE CULTIVATION, at ThinkAI 2025-Third International Conference on Recent Trends in Al Enabled Technologies.
+- “ **Railway Track Crack Detection and Animal Entry Prevention System using IOT”** , has been Published in Compliance Engineering Journal , volume14, issue 4, April – 2023
+- **“PID – 283:AI- POWERED SURVEILLANCE SYSTEM USING COMPUTER VISION FOR PUBLIC SAFETY”** as PRESENTER for International Conference on Digital Technology and Engineering (ICDTE -2025) organized by RV Institute of Technology and Management, Bengaluru, 16-17 October, 2025.
+- **AI- POWERED DECISION SUPPORT SYSTEM FOR COFFEE CULTIVATION,** at ThinkAI 2025-Third International Conference on Recent Trends in Al Enabled Technologies.
 
 ### Membership in Professional Bodies
 
@@ -5279,8 +5215,7 @@ _Nil_
 
 ### Publication Details
 
-- Improving Fake Product Detection through a Priority-Based Feature Vector Approach in Machine Learning,”
-- International Advanced Research Journal in Science, Engineering and Technology (IARJSET) , vol. 11, no. 3, March 2024. doi: [10.17148/IARJSET.2024.11302](https://doi.org/10.17148/IARJSET.2024.11302).
+- Improving Fake Product Detection through a Priority-Based Feature Vector Approach in Machine Learning,” _International Advanced Research Journal in Science, Engineering and Technology (IARJSET)_, vol. 11, no. 3, March 2024. doi: [10.17148/IARJSET.2024.11302](https://doi.org/10.17148/IARJSET.2024.11302).
 
 ### Membership in Professional Bodies
 
@@ -5311,9 +5246,7 @@ _Nil_
 
 ### Patent
 
-- Application Number: 202441008759
-- Title of Invention:
-- Digitizing Handwritten Prescriptions through Optical Character Recognition (OCR)
+- Application Number: 202441008759, Title of Invention: Digitizing Handwritten Prescriptions through Optical Character Recognition (OCR)
 
 ### Roles and Responsibilities: Institute Level
 
@@ -6170,7 +6103,47 @@ _Nil_
 S/o Purushothama, Bevinahalli Village, Sosale Hobli, T N Pura Tq, Mysore Dist.
 `,
   },
+  "likitha-d": {
+    name: "Likitha D",
+    url: "https://atme.edu.in/likitha-d/",
+    md: `## Professional Experience
+
+- Teaching: Nil
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Personal: [likithad17@gmail.com](mailto:likithad17@gmail.com)
+- **Scopus ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/likitha>
+
+## Academic Details
+
+- **Qualification**
+- **MTech** in Computer Science and Engineering, at VTU CPGS Mysuru
+- **B.E** in Information Science and Engineering, at VVCE Mysuru
+
+## Areas of Interest
+
+1. Programming – C, Java, JS, Python
+2. Testing
+3. Research
+
+## Membership in Professional Bodies
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- NIL`,
+  },
 };
-
-
-

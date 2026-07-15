@@ -3112,6 +3112,11 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "6th", section: "A", incharge: "Mr. Raghu", email: "raghu_mech@atme.edu.in", phone: "8970425914" },
     { sem: "8th", section: "A", incharge: "Mr. Ravi Kumar S", email: "ravikumars_mech@atme.edu.in", phone: "9880543740" },
   ],
+  "AI&ML": [
+    { sem: "3rd", section: "A", incharge: "Prof. Apoorva S M", email: "apoorvasm.ci@atme.edu.in" },
+    { sem: "5th", section: "A", incharge: "Prof. Likitha D", email: "likithad.ci@atme.edu.in" },
+    { sem: "7th", section: "A", incharge: "Prof. Vanitha G Naik", email: "vanithagnaik_cs@atme.edu.in" },
+  ],
 };
 
 function ClassInchargeTable({ deptCode }: { deptCode: string }) {

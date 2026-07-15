@@ -406,6 +406,7 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
   const ACADEMIC_INJECTIONS: Record<string, string[]> = {
     "mr-rudresh-a-n": ["Pursuing PhD"],
     "akhila-c-g": ["Pursuing PhD"],
+    "mrs-vanitha-g-naik": ["Pursuing PhD"],
   };
   const extraAcademic = ACADEMIC_INJECTIONS[facultyId];
   if (extraAcademic && sections.length > 0) {
@@ -864,6 +865,13 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
 
 function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[]; proseClass: string; sectionTitle?: string }) {
   const sectionCoversCert = !!sectionTitle && /(certificat|FDP|workshop|MOOC|SWAYAM|NPTEL|conference)/i.test(sectionTitle);
+  // Publications Details (and the Patent/Book Chapter sections folded into it)
+  // get a yellow underline on every hyperlink so citation links stand out.
+  const isPublicationsSection = !!sectionTitle && /publications?\s*details/i.test(sectionTitle);
+  const linkHighlightClass = isPublicationsSection
+    ? "[&_a]:underline [&_a]:decoration-2 [&_a]:decoration-[#f5c518] [&_a]:underline-offset-2 [&_a]:hover:decoration-[#e0b400]"
+    : "";
+  const publicationsProseClass = `${proseClass} ${linkHighlightClass}`.trim();
 
   // A line is a sub-heading if it's short, unnumbered, and consists of an
   // emphasised label such as `**Foo**`, `**Foo`, `Foo**`, or `Foo:` — the
@@ -954,7 +962,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
         style={{ gridTemplateColumns: `repeat(${cleaned.length}, minmax(0, 1fr))` }}
       >
         {cleaned.map((c, ci) => (
-          <div key={ci} className={`min-w-0 break-words ${proseClass}`}>
+          <div key={ci} className={`min-w-0 break-words ${publicationsProseClass}`}>
             {c ? (
               <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{c}</ReactMarkdown>
             ) : (
@@ -1007,7 +1015,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
                     return (
                       <td key={ci} className="px-3 py-2 align-top break-words border-r last:border-r-0 text-sm md:text-[15px] leading-relaxed text-foreground/90" style={{ display: "table-cell", borderColor: "#f5c518", width: `${100 / colCount}%` }}>
                         {normalized ? (
-                          <div className={`${proseClass} [&_p]:my-0`}>
+                          <div className={`${publicationsProseClass} [&_p]:my-0`}>
                             <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{normalized}</ReactMarkdown>
                           </div>
                         ) : null}
@@ -1094,7 +1102,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
       <ul className="list-disc pl-5 space-y-2 text-sm md:text-[15px] leading-relaxed text-foreground/90 marker:text-[#129199]">
         {bullets.map((item, i) => (
           <li key={i} className="break-words text-left">
-            <div className={proseClass}>
+            <div className={publicationsProseClass}>
               <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{item.text}</ReactMarkdown>
             </div>
           </li>

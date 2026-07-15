@@ -55,7 +55,9 @@ const MAP: Record<string, Record<string, string[]>> = {
     ce: ["civil-engineering/ce-news-letter"],
     csd: ["csd-newsletter"],
     ds: ["cseds-news-letter-and-magazines"],
-    aiml: ["computer-science-and-engineering/cse-news-letter-2"],
+    // aiml intentionally has no fallback: the scraped page here is CSE's own
+    // newsletter, and showing it under the AIML tab mislabels borrowed CSE
+    // content as AIML's. AIML will get real data once the department supplies it.
   },
 };
 
