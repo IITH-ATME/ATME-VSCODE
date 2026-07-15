@@ -24,10 +24,12 @@ export function PdfEmbed({
   url: rawUrl,
   title,
   height = 780,
+  hideDownload = false,
 }: {
   url?: string | null;
   title?: string;
   height?: number;
+  hideDownload?: boolean;
 }) {
   const url = rawUrl ? pdfFromAtmeUrl(rawUrl) : rawUrl;
   const ref = useRef<HTMLDivElement>(null);
@@ -157,13 +159,15 @@ export function PdfEmbed({
         >
           <ExternalLink className="h-3.5 w-3.5" /> Open
         </a>
-        <a
-          href={absoluteUrl}
-          download
-          className="inline-flex items-center gap-1.5 text-primary font-semibold hover:underline"
-        >
-          <Download className="h-3.5 w-3.5" /> Download
-        </a>
+        {!hideDownload && (
+          <a
+            href={absoluteUrl}
+            download
+            className="inline-flex items-center gap-1.5 text-primary font-semibold hover:underline"
+          >
+            <Download className="h-3.5 w-3.5" /> Download
+          </a>
+        )}
       </div>
     </div>
   );

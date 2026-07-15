@@ -26,7 +26,7 @@ import { findSectionForSlug } from "@/lib/navStructure";
 import { SectionTabNav } from "@/components/site/SectionTabNav";
 import { getHubForSplat } from "@/lib/hubTabs";
 import { getPdfSectionsForPage } from "@/data/pagePdfSections";
-import { getBodyOverride } from "@/data/pageBodyOverrides";
+import { getBodyOverride, UG_FEES_URL } from "@/data/pageBodyOverrides";
 import "@/data/validatePagePdfSections";
 import { DocSectionTabs } from "@/components/site/DocSectionTabs";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -1356,7 +1356,7 @@ function RehostedPage() {
                           const emb = pdfEmbeds[gi];
                           if (emb) {
                             nodes.push(
-                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} />,
+                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} hideDownload={emb.url === UG_FEES_URL} />,
                             );
                           }
                         }

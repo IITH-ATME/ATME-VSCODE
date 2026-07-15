@@ -1397,7 +1397,7 @@ ATME provides financial support to students from economically weaker backgrounds
 </div>
 `;
 
-const UG_FEES_URL = "/pdfs/admissions/Fees-Structure-2026-27.pdf";
+export const UG_FEES_URL = "/pdfs/admissions/Fees-Structure-2026-27.pdf";
 const PG_FEES_URL = "/__l5e/assets-v1/a29bd4c7-d469-4764-b1b2-9415d2ef9fb5/Fees-Structure-MBA-and-MCA-AY-2024-25.pdf";
 
 const feeStructureBody = `
@@ -1405,7 +1405,7 @@ const feeStructureBody = `
 
 ### UG Fee Structure for 2026-27
 
-The complete UG fee structure for the academic year 2026-27 is embedded below. You may also [download](${UG_FEES_URL}) the PDF.
+The complete UG fee structure for the academic year 2026-27 is embedded below.
 
 ### PG Fee Structure (MBA & MCA) for 2024-25
 
@@ -1858,7 +1858,7 @@ The ATME College of Engineering Alumni Association was started in **2015** with 
   "admission-process": admissionProcessBody.trim(),
   "scholarships": scholarshipsBody.trim(),
   "admissions/fee-structure": feeStructureBody.trim(),
-  "ug-fees-structure": `# UG Fee Structure for 2026-27\n\n[pdfviewer]${UG_FEES_URL}[/pdfviewer]\n\n[Download PDF](${UG_FEES_URL})`,
+  "ug-fees-structure": `# UG Fee Structure for 2026-27\n\n[pdfviewer]${UG_FEES_URL}[/pdfviewer]`,
   "pg-fees-structure": `# PG Fee Structure for MBA & MCA (AY 2024-25)\n\n[pdfviewer]${PG_FEES_URL}[/pdfviewer]\n\n[Download PDF](${PG_FEES_URL})`,
   "admissions/enrollment": enrollmentBody.trim(),
   "admissions/atme-cut-off-ranks-for-the-academic-year-2025-26": cutoffRanksBody.trim(),
