@@ -176,7 +176,6 @@ const journeySteps = [
 
 const programsOffered = [
   { tag: "UG",       t: "B.E. / B.Tech", d: "4 Years", intake: "Intake: 60–180", accent: "from-[#1eb59b] to-[#0e7d6a]" },
-  { tag: "PG",       t: "M.Tech",        d: "2 Years", intake: "Intake: 18–24",  accent: "from-[#f59e0b] to-[#d97706]" },
   { tag: "PG",       t: "MBA",           d: "2 Years", intake: "Intake: 60",     accent: "from-[#3b82f6] to-[#1d4ed8]" },
   { tag: "Research", t: "Ph.D.",         d: "3–5 Years", intake: "Intake: Limited", accent: "from-[#a855f7] to-[#7e22ce]" },
 ];

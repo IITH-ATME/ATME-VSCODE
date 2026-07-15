@@ -14,7 +14,7 @@ export const Route = createFileRoute("/employee-handbook")({
 });
 
 function Page() {
-  const url = pdf("Handbook-3-3.pdf");
+  const url = pdf("Employee-Handbook-Version-3.pdf");
   return (
     <InfoPage eyebrow="For Faculty & Staff" title="Employee Handbook" subtitle="HR policies, service rules and code of conduct">
       <div className="mt-6">

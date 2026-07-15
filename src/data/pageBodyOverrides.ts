@@ -1397,7 +1397,7 @@ ATME provides financial support to students from economically weaker backgrounds
 </div>
 `;
 
-const UG_FEES_URL = "/__l5e/assets-v1/1b85ccb0-125d-48f5-9de5-3c4d461ea23c/Fees-Structure-2026-27.pdf";
+const UG_FEES_URL = "/pdfs/admissions/Fees-Structure-2026-27.pdf";
 const PG_FEES_URL = "/__l5e/assets-v1/a29bd4c7-d469-4764-b1b2-9415d2ef9fb5/Fees-Structure-MBA-and-MCA-AY-2024-25.pdf";
 
 const feeStructureBody = `
