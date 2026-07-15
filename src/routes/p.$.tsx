@@ -1,4 +1,14 @@
 import React, { useRef } from "react";
+// react-markdown's default urlTransform allows http(s)/mailto but strips
+// tel: (and a few other legitimate schemes), silently blanking any
+// `<a href="tel:...">` in our curated page bodies. Mirror its XSS-relevant
+// blocklist (javascript:/data:/vbscript:) but otherwise pass URLs through
+// unchanged — safe here since this content comes from our own curated data,
+// not arbitrary user input.
+const UNSAFE_URL_SCHEME_RE = /^\s*(javascript|data|vbscript):/i;
+function safeUrlTransform(url: string): string {
+  return UNSAFE_URL_SCHEME_RE.test(url) ? "" : url;
+}
 import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -1189,7 +1199,7 @@ function RehostedPage() {
                         );
                       },
 
-                      a: ({ href, children, className: incomingClass, ...rest }: any) => {
+                      a: ({ href, children, className: incomingClass, node, ...rest }: any) => {
                         const url = String(href || "");
                         const isPdf = /\.pdf(\?|$)/i.test(url);
                         const isExternal = /^https?:\/\//i.test(url);
@@ -1298,6 +1308,7 @@ function RehostedPage() {
                                   key={`${keyPrefix}-md-${p}-${i}`}
                                   remarkPlugins={[remarkGfm]}
                                   rehypePlugins={[rehypeRaw]}
+                                  urlTransform={safeUrlTransform}
                                   components={mdComponents as any}
                                 >
                                   {s.text}
@@ -1363,6 +1374,7 @@ function RehostedPage() {
                               key={`${keyPrefix}-md-${p}-${i}`}
                               remarkPlugins={[remarkGfm]}
                               rehypePlugins={[rehypeRaw]}
+                              urlTransform={safeUrlTransform}
                               components={mdComponents as any}
                             >
                               {s.text}

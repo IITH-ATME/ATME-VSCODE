@@ -468,7 +468,12 @@ export function sanitizeMarkdown(md: string): string {
     // blank lines and incorrectly merge an unrelated heading/paragraph pair
     // that happen to start/end with the same word (e.g. a "## Youth4work"
     // heading immediately followed by a paragraph starting "Youth4work ...").
-    .replace(/\b(\w{4,})[ \t]+\1\b/gi, "$1");
+    // The trailing `(?!-)` keeps this from eating into an unrelated hyphenated
+    // token that merely starts with the same word — e.g. raw HTML overrides
+    // with Tailwind class="... flex flex-col ..." were being corrupted to
+    // "flex-col" (losing the base `flex` display utility) because "flex-col"
+    // itself begins with "flex" followed by a word boundary.
+    .replace(/\b(\w{4,})[ \t]+\1\b(?!-)/gi, "$1");
   // Collapse 3+ blank lines
   out = out.replace(/\n{3,}/g, "\n\n");
   // Fix scraped GFM tables whose header row is empty (| | | |) followed by
