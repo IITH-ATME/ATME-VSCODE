@@ -1407,6 +1407,8 @@ const feeStructureBody = `
 
 The complete UG fee structure for the academic year 2026-27 is embedded below.
 
+[pdfviewer]${UG_FEES_URL}[/pdfviewer]
+
 ### PG Fee Structure (MBA & MCA) for 2024-25
 
 The PG fee structure for MBA and MCA programmes is embedded below. You may also [download](${PG_FEES_URL}) the PDF.
