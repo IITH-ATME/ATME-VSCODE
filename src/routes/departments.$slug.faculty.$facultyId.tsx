@@ -406,7 +406,6 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
   const ACADEMIC_INJECTIONS: Record<string, string[]> = {
     "mr-rudresh-a-n": ["Pursuing PhD"],
     "akhila-c-g": ["Pursuing PhD"],
-    "mrs-vanitha-g-naik": ["Pursuing PhD"],
   };
   const extraAcademic = ACADEMIC_INJECTIONS[facultyId];
   if (extraAcademic && sections.length > 0) {

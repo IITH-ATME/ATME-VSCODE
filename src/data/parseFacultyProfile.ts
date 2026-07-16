@@ -160,8 +160,12 @@ function cleanCell(raw: string): string {
 function extractItem(raw: string): FacultyProfileItem {
   let s = cleanCell(raw);
   // Strip stray leading bullet/asterisk/dash artifacts that survived from the
-  // scraped markdown ("* * Foo", "• Foo", "- - Foo").
-  s = s.replace(/^(?:[\*\-•]\s*){1,3}/, "").trim();
+  // scraped markdown ("* * Foo", "• Foo", "- - Foo") — each artifact char
+  // must be followed by whitespace to count, so a real "- **Bold Text**"
+  // bullet doesn't have its opening ** mistaken for two stray bullet stars
+  // and eaten (leaving a dangling, unmatched trailing ** that later breaks
+  // heading detection downstream).
+  s = s.replace(/^(?:[\-•]\s+|\*\s+){1,3}/, "").trim();
   const boldNum = s.match(/^\*\*\s*(\d{1,3})\s*[.\])]\s*\*\*\s*(.*)$/);
   if (boldNum) return { num: parseInt(boldNum[1], 10), text: boldNum[2].trim() };
   const plainNum = s.match(/^(\d{1,3})\s*[.\])]\s+(.*)$/);
