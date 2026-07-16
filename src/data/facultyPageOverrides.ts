@@ -6737,10 +6737,10 @@ Completed Mooc courses on:
 - **Web of Science Researcher ID:** NIL
 - **LinkedIn ID:** <https://www.linkedin.com/in/arpitha-m-s-10137b76/>
 
-## Academic Details
+## Qualification
 
-- **M. Tech** in Computer Science and Engineering from PES College of Engineering, Mandya.
-- **B.E** in Computer Science & Engineering from ATME College of Engineering, Mysuru.
+1. M. Tech in Computer Science and Engineering from PES College of Engineering, Mandya.
+2. B.E in Computer Science & Engineering from ATME College of Engineering, Mysuru.
 
 ## Professional Experience
 

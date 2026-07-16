@@ -1,4 +1,4 @@
-import { useEffect, useState, createContext, useContext } from "react";
+import { useEffect, useState, createContext, useContext, isValidElement, type ReactNode } from "react";
 import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-router";
 import { ChevronLeft, ChevronRight, ClipboardList } from "lucide-react";
 
@@ -464,6 +464,19 @@ const PROSE_CLS = "prose prose-slate max-w-none prose-headings:font-display pros
 
 const TABLE_CLS = "w-full table-auto border-collapse text-sm md:text-base border border-[#f5c518] [&_th]:border [&_th]:border-[#f5c518] [&_td]:border [&_td]:border-[#f5c518] [&_th]:bg-[#129199] [&_th]:text-white [&_th]:text-center [&_th]:p-3 [&_th]:align-middle [&_th]:whitespace-normal [&_th]:break-words [&_td]:p-3 [&_td]:text-left [&_td]:align-middle [&_td]:whitespace-normal [&_td]:break-words";
 
+function reactNodeToText(node: ReactNode): string {
+  if (node == null || typeof node === "boolean") return "";
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(reactNodeToText).join("");
+  if (isValidElement(node)) return reactNodeToText((node.props as { children?: ReactNode }).children);
+  return "";
+}
+
+// Visit-report meta labels (Date of Visit, Venue, Convenor, Accompanying
+// Faculty) get a distinct teal/yellow-underline centered treatment on DS —
+// makes the report header fields easy to scan against the surrounding prose.
+const DS_VISIT_META_RE = /^(Date of Visit|Venue|Industry Visit Convenor|Accompanying Faculty Members)\s*[:\-]/i;
+
 function MD({ children }: { children: string }) {
   return (
     <ReactMarkdown
@@ -504,6 +517,18 @@ function MD({ children }: { children: string }) {
               {children}
             </a>
           );
+        },
+
+        p: ({ children }) => {
+          const deptSlug = useContext(DeptContext);
+          if (deptSlug === "ds" && DS_VISIT_META_RE.test(reactNodeToText(children).trim())) {
+            return (
+              <p className="text-center font-semibold text-[#129199] underline decoration-[#f5c518] decoration-2 underline-offset-4">
+                {children}
+              </p>
+            );
+          }
+          return <p>{children}</p>;
         },
 
         table: ({ children }) => (
@@ -723,7 +748,6 @@ function DeptSubPage() {
                 md={bodyMd}
                 openFirst={/research/.test(k)}
                 inlineTablePdfs={canonKey === "co-curricular" || canonKey === "industry-interface" || /co-curricular|extra-curricular|extracurricular|activit|industry/.test(k)}
-                cropImages={dept.slug === "ds" && pageKey === "data-science-industry-interface"}
               />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
@@ -1048,105 +1072,125 @@ function PosterCarousel({ images }: { images: { alt: string; src: string }[] }) 
  *  bold sub-groups like "Sports Achievements") without the extra generality
  *  (wrapper-stripping, contact-line detection, depth-flattening) that the
  *  shared splitSections/AccordionedContent "flat" pipeline applies. */
-function parseTwoLevelAccordion(md: string): { title: string; body: string; children: { title: string; body: string }[] }[] {
-  const lines = md.split("\n");
-  const headingRe = /^(#{1,4})\s+(.+?)\s*$/;
-  const boldRe = /^\s*\*\*([^*\n]+?)\*\*\s*:?\s*$/;
-  const top: { title: string; body: string; children: { title: string; body: string }[] }[] = [];
-  let curTop: (typeof top)[number] | null = null;
-  let curChild: { title: string; body: string } | null = null;
-  for (const line of lines) {
-    const hm = headingRe.exec(line);
-    const bm = !hm ? boldRe.exec(line) : null;
-    if (hm) {
-      const newTitle = cleanHeading(hm[2]);
-      // A heading that immediately repeats the still-empty previous top's
-      // own title (e.g. an anchor-only "### Events ... 2024-25" right above
-      // the real "#### **Events ... 2024-25**" heading with the content) is
-      // the same section restated at a different depth, not a new one —
-      // keep accumulating into the same top instead of spawning a duplicate,
-      // empty-looking accordion right next to the real one.
-      if (curTop && !curTop.body.trim() && curTop.children.length === 0 && newTitle.toLowerCase() === curTop.title.toLowerCase()) {
-        curChild = null;
-      } else {
-        curChild = null;
-        curTop = { title: newTitle, body: "", children: [] };
-        top.push(curTop);
-      }
-    } else if (bm && curTop) {
-      const childTitle = cleanHeading(bm[1]);
-      // A bold "sub-heading" that repeats the parent's own title (e.g. the
-      // source repeating "University Representation" once per table block)
-      // isn't a real nested section — fold it straight into the parent body
-      // instead of creating a redundant, identically-labelled accordion.
-      if (childTitle.toLowerCase() === curTop.title.toLowerCase()) {
-        curChild = null;
-      } else {
-        curChild = { title: childTitle, body: "" };
-        curTop.children.push(curChild);
-      }
-    } else if (curChild) {
-      curChild.body += line + "\n";
-    } else if (curTop) {
-      curTop.body += line + "\n";
-    }
-  }
-  return top
-    .filter((t) => t.title)
-    .map((t) => ({ ...t, children: t.children.filter((c) => c.title) }));
+// Strip known WordPress-scraper noise (missing-table shortcode remnants,
+// stray blank-line runs) without touching real content — deliberately
+// conservative so no genuine section body is ever silently dropped.
+function cleanAccordionBody(b: string): string {
+  return b
+    .replace(/\\?\[\s*table\s+["'`]?\d+["'`]?\s+not\s+found[^\]]*\\?\]/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
-function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = false }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean }) {
-  const sections = parseTwoLevelAccordion(md);
-  if (sections.length === 0) return null;
+function pruneAccordionTree(nodes: SectionNode[]): SectionNode[] {
+  const out: SectionNode[] = [];
+  for (const n of nodes) {
+    const children = pruneAccordionTree(n.children);
+    const body = cleanAccordionBody(n.body);
+    if (!body && children.length === 0) continue;
+    out.push({ ...n, body, children });
+  }
+  return out;
+}
+
+// Merge sibling nodes that share the same title (the scraper sometimes
+// restates a heading at a different depth right above the real content).
+function dedupeAccordionTree(nodes: SectionNode[]): SectionNode[] {
+  const seen = new Map<string, SectionNode>();
+  const out: SectionNode[] = [];
+  for (const n of nodes) {
+    const key = n.title.toLowerCase().replace(/\s+/g, " ").trim();
+    const existing = key ? seen.get(key) : undefined;
+    if (existing) {
+      if (n.body.trim()) existing.body = (existing.body + "\n\n" + n.body).trim();
+      existing.children = dedupeAccordionTree([...existing.children, ...n.children]);
+    } else {
+      const node = { ...n, children: dedupeAccordionTree(n.children) };
+      if (key) seen.set(key, node);
+      out.push(node);
+    }
+  }
+  return out;
+}
+
+const ACCORDION_TRIGGER_COLORS = ["#129199", "#0e7a80", "#0b6066", "#094d52"];
+
+// Recursively render a real heading-depth tree: a node with no body of its
+// own (a pure grouping heading like "Student Achievements" or an academic
+// year label) renders as a plain centered divider — never a clickable
+// accordion — with its children rendered directly beneath it at the same
+// visual level. A node with real content becomes an accordion box, and its
+// own children nest one shade darker inside it, however many levels deep.
+function renderAccordionTree(
+  nodes: SectionNode[],
+  level: number,
+  keyPrefix: string,
+  inlineTablePdfs: boolean,
+  cropImages: boolean,
+  openFirst: boolean
+) {
+  return nodes.map((n, i) => {
+    const key = `${keyPrefix}-${i}`;
+    if (!n.body.trim() && n.children.length > 0) {
+      return (
+        <div key={key} className="w-full space-y-3">
+          <div className={level === 0 ? "pt-2 text-center" : "pt-1 text-center"}>
+            <h3
+              className={
+                level === 0
+                  ? "font-display text-lg md:text-xl font-bold text-[#0d3438]"
+                  : "font-display text-sm md:text-base font-semibold text-[#0d3438]"
+              }
+            >
+              {n.title}
+            </h3>
+            <div
+              className={level === 0 ? "mx-auto mt-2 h-1 w-1/2 rounded-full" : "mx-auto mt-1.5 h-0.5 w-1/3 rounded-full"}
+              style={{ backgroundColor: "#f5c518" }}
+            />
+          </div>
+          <div className="w-full space-y-3">
+            {renderAccordionTree(n.children, level, key, inlineTablePdfs, cropImages, openFirst)}
+          </div>
+        </div>
+      );
+    }
+    const bg = ACCORDION_TRIGGER_COLORS[Math.min(level, ACCORDION_TRIGGER_COLORS.length - 1)];
+    return (
+      <details
+        key={key}
+        open={openFirst && level === 0 && i === 0}
+        className={`group rounded-xl overflow-hidden ${level === 0 ? "border-2 border-[#f5c518]" : "border border-[#129199]/30"}`}
+      >
+        <summary
+          className="flex items-center justify-between gap-3 px-5 py-3.5 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
+          style={{ backgroundColor: bg }}
+        >
+          <span className="font-display text-base md:text-lg font-semibold text-white">{n.title}</span>
+          <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
+        </summary>
+        <div className="px-4 md:px-5 pb-5 pt-4 bg-white space-y-5">
+          {n.body.trim() && <AccordionBody md={n.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
+          {n.children.length > 0 && (
+            <div className="w-full space-y-3">
+              {renderAccordionTree(n.children, level + 1, key, inlineTablePdfs, cropImages, false)}
+            </div>
+          )}
+        </div>
+      </details>
+    );
+  });
+}
+
+function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = true }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean }) {
+  const { preamble, sections: rawSections } = splitSections(md);
+  const tree = dedupeAccordionTree(pruneAccordionTree(buildSectionTree(rawSections)));
+  const cleanedPreamble = cleanAccordionBody(preamble);
+  if (tree.length === 0 && !cleanedPreamble) return null;
   return (
     <div className="w-full space-y-3">
-      {sections.map((s, i) =>
-        !s.body.trim() && s.children.length === 0 ? (
-          <div key={i} className="pt-2 text-center">
-            <h3 className="font-display text-lg md:text-xl font-bold text-[#0d3438]">{s.title}</h3>
-            <div className="mx-auto mt-2 h-1 w-1/2 rounded-full" style={{ backgroundColor: "#f5c518" }} />
-          </div>
-        ) : (
-        <details key={i} open={openFirst && i === 0} className="group rounded-xl border-2 border-[#f5c518] overflow-hidden">
-          <summary
-            className="flex items-center justify-between gap-3 px-5 py-3.5 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
-            style={{ backgroundColor: "#129199" }}
-          >
-            <span className="font-display text-base md:text-lg font-semibold text-white">{s.title}</span>
-            <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
-          </summary>
-          <div className="px-4 md:px-5 pb-5 pt-4 bg-white space-y-5">
-            {s.body.trim() && <AccordionBody md={s.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
-            {s.children.length > 0 && (
-              <div className="w-full space-y-2">
-                {s.children.map((c, j) =>
-                  !c.body.trim() ? (
-                    <div key={j} className="pt-1 text-center">
-                      <h4 className="font-display text-sm md:text-base font-semibold text-[#0d3438]">{c.title}</h4>
-                      <div className="mx-auto mt-1.5 h-0.5 w-1/3 rounded-full" style={{ backgroundColor: "#f5c518" }} />
-                    </div>
-                  ) : (
-                    <details key={j} className="group rounded-lg border border-[#129199]/30 overflow-hidden">
-                      <summary
-                        className="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer text-left text-white list-none [&::-webkit-details-marker]:hidden"
-                        style={{ backgroundColor: "#0e7a80" }}
-                      >
-                        <span className="font-display text-sm md:text-base font-semibold text-white">{c.title}</span>
-                        <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
-                      </summary>
-                      <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
-                        <AccordionBody md={c.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />
-                      </div>
-                    </details>
-                  )
-                )}
-              </div>
-            )}
-          </div>
-        </details>
-        )
-      )}
+      {cleanedPreamble && <AccordionBody md={cleanedPreamble} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
+      {renderAccordionTree(tree, 0, "s", inlineTablePdfs, cropImages, openFirst)}
     </div>
   );
 }
@@ -1284,7 +1328,7 @@ function pdfUrlsInTableRows(md: string): Set<string> {
   return urls;
 }
 
-function AccordionBody({ md, inlineTablePdfs = false, cropImages = false }: { md: string; inlineTablePdfs?: boolean; cropImages?: boolean }) {
+function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md: string; inlineTablePdfs?: boolean; cropImages?: boolean }) {
   const rawPdfs = extractPdfs(md);
   const tablePdfUrls = inlineTablePdfs ? pdfUrlsInTableRows(md) : new Set<string>();
   // Remove ALL PDF/viewer markdown links from the body so they don't render

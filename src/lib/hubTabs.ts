@@ -14,6 +14,7 @@ export const sportsTabs: SectionTabItem[] = [
 
 export const libraryTabs: SectionTabItem[] = [
   { key: "about", label: "About", splat: "library-3/library", icon: Library },
+  { key: "staff", label: "Staff Details", splat: "library-3/staff-details-2", icon: Users },
   { key: "services", label: "Services", splat: "library-3/library-services", icon: BookOpen },
   { key: "collection", label: "Collection", splat: "library-3/library-collection-2", icon: Archive },
   { key: "rules", label: "Rules", splat: "library-3/library-rules-regulation", icon: FileText },
@@ -22,8 +23,6 @@ export const libraryTabs: SectionTabItem[] = [
   { key: "digital", label: "Digital Learning", splat: "library-3/atme-digital-learning", icon: GraduationCap },
   { key: "openaccess", label: "Open Access", splat: "library-3/open-access", icon: Globe },
   { key: "repository", label: "Repository", splat: "library-3/institutional-repository", icon: Archive },
-  
-  { key: "staff", label: "Staff", splat: "library-3/staff-details-2", icon: Users },
   { key: "contact", label: "Contact", splat: "library-3/library-contact", icon: Phone },
 ];
 

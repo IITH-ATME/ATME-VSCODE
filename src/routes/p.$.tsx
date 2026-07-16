@@ -332,7 +332,17 @@ function RehostedPage() {
     }
   }
 
-
+  // E-Resources: the 3 "Subscribed Tools" logos render as a dedicated card
+  // grid below (SUBSCRIBED_TOOLS) instead of the generic single-image
+  // "gallery" layout, which stretches small square logos full-width and
+  // crops them with object-cover. Strip the raw logo/caption lines here so
+  // they aren't also rendered inline by the normal markdown flow.
+  if (key === "library-3/e-resources-vtu-consortium-2") {
+    bodyMd = bodyMd
+      .replace(/\[!\[\]\(\/images\/library\/(?:vtu-consortium-logo\.png|drillbit-logo\.jpg|quiklrn-logo\.png)\)\]\([^)]+\)\n\n/g, "")
+      .replace(/#### \*\*(?:MAP MY ACCESS|Remote Access tool|DRILLBIT|Plagiarism Check tool|QUICKLRN|Language learning tool)\*\*\n\n/g, "")
+      .replace(/\n{3,}/g, "\n\n");
+  }
 
   // Convert WordPress `[pdfviewer ...]URL[/pdfviewer]` shortcodes and
   // pdf-poster "Download File / View Fullscreen" blocks into inline PDF
@@ -758,6 +768,34 @@ function RehostedPage() {
                     ))}
                   </div>
                 )}
+                {key === "library-3/e-resources-vtu-consortium-2" && (
+                  <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-5">
+                    {[
+                      { logo: "/images/library/vtu-consortium-logo.png", name: "MAP MY ACCESS", caption: "Remote Access tool", href: "https://access.vtuconsortium.com/" },
+                      { logo: "/images/library/drillbit-logo.jpg", name: "DRILLBIT", caption: "Plagiarism Check tool", href: "https://www.drillbitplagiarism.com/" },
+                      { logo: "/images/library/quiklrn-logo.png", name: "QUICKLRN", caption: "Language learning tool", href: "https://home.quiklrn.com/" },
+                    ].map((tool) => (
+                      <a
+                        key={tool.href}
+                        href={tool.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-col items-center gap-3 rounded-xl border border-[#f5c518]/60 bg-white p-5 text-center shadow-sm transition-shadow hover:shadow-md"
+                      >
+                        <img
+                          src={tool.logo}
+                          alt={tool.name}
+                          loading="lazy"
+                          className="h-20 w-auto max-w-[160px] object-contain"
+                        />
+                        <div>
+                          <div className="font-display font-bold text-[#129199]">{tool.name}</div>
+                          <div className="text-sm text-muted-foreground">{tool.caption}</div>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                )}
                 {key === "transportation" && (
                   <div className="not-prose my-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {[
@@ -1059,7 +1097,14 @@ function RehostedPage() {
                           return tds;
                         });
                         const nCols = Math.max(...rows.map((r) => r.length));
-                        if (nCols < 3) return <tbody>{children}</tbody>;
+                        // Rowspan-merging only makes sense for the narrow
+                        // "spanned label" tables it was built for (e.g. a
+                        // repeated "Research Centre" name across a handful of
+                        // columns). Wide data tables (10+ columns of mostly
+                        // sparse/blank per-row figures, e.g. E-Resources)
+                        // have coincidental repeats — merging those collapses
+                        // genuinely distinct rows into one misleading cell.
+                        if (nCols < 3 || nCols > 6) return <tbody>{children}</tbody>;
                         const spans: number[][] = rows.map((r) => r.map(() => 1));
                         const visible: boolean[][] = rows.map((r) => r.map(() => true));
                         for (let c = 1; c < nCols - 1; c++) {
@@ -1072,8 +1117,11 @@ function RehostedPage() {
                             while (k < rows.length) {
                               const next = rows[k][c];
                               const nextTxt = next ? toText(next).trim() : "";
-                              if (nextTxt !== "" && nextTxt !== txt) break;
-                              if (nextTxt === txt || nextTxt === "") {
+                              // Only fold a genuine repeat of the same non-empty
+                              // value into the span above it — a blank cell is a
+                              // real "not applicable" value for that row, not a
+                              // continuation, and must never be swallowed.
+                              if (nextTxt === txt) {
                                 spans[r][c]++;
                                 visible[k][c] = false;
                                 k++;
@@ -1356,7 +1404,7 @@ function RehostedPage() {
                           const emb = pdfEmbeds[gi];
                           if (emb) {
                             nodes.push(
-                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} hideDownload={emb.url === UG_FEES_URL} />,
+                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} height={620} hideDownload={emb.url === UG_FEES_URL} />,
                             );
                           }
                         }
