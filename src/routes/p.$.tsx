@@ -1231,7 +1231,7 @@ function RehostedPage() {
                         // width up to a comfortable reading size. Mobile-first
                         // spacing keeps images snug on small screens and
                         // breathes out on larger viewports.
-                        const isPortrait = /chairman|principal|director|dean|hod|h\.o\.d|sir|madam|message|prof\.|dr\.|secretary|trustee|president|vice|portrait/.test(altText);
+                        const isPortrait = /chairman|principal|director|dean|hod|h\.o\.d|sir|madam|message|prof\.|dr\.|mr\.|mrs\.|ms\.|secretary|trustee|president|vice|portrait|librarian/.test(altText);
                         portraitIdx.current++;
                         const sizeCls = isPortrait
                           ? "w-[78%] max-w-[220px] sm:max-w-[260px] md:max-w-xs"
@@ -1293,12 +1293,19 @@ function RehostedPage() {
                     const lines = md.split("\n");
                     const segs: Seg[] = [];
                     let buf: string[] = [];
-                    let gal: { alt: string; src: string }[] = [];
+                    let gal: { alt: string; src: string; raw: string }[] = [];
                     const flushBuf = () => {
                       if (buf.length) { segs.push({ type: "md", text: buf.join("\n") }); buf = []; }
                     };
                     const flushGal = () => {
-                      if (gal.length >= 1) { flushBuf(); segs.push({ type: "gallery", images: gal }); }
+                      // A solitary image isn't a "gallery" — forcing it into the
+                      // fixed-height object-cover thumbnail box crops tall
+                      // portraits (e.g. a staff photo) badly. Only 2+ consecutive
+                      // images get the equal-height thumbnail-grid treatment;
+                      // a lone image falls back to the normal object-contain
+                      // single-image renderer, which preserves its full aspect.
+                      if (gal.length >= 2) { flushBuf(); segs.push({ type: "gallery", images: gal }); }
+                      else if (gal.length === 1) { flushBuf(); segs.push({ type: "md", text: gal[0].raw }); }
                       gal = [];
                     };
 
@@ -1306,7 +1313,7 @@ function RehostedPage() {
                       const l = lines[i];
                       const m = l.match(imgLineRe) || l.match(linkedImgLineRe);
                       if (m) {
-                        gal.push({ alt: m[1] || "", src: m[2] });
+                        gal.push({ alt: m[1] || "", src: m[2], raw: l });
                         continue;
                       }
                       if (l.trim() === "" && gal.length > 0) {

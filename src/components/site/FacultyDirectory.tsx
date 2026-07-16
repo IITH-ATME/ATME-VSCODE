@@ -239,7 +239,11 @@ export function FacultyDirectory({
           </div>
 
           {active === "teaching" && (
-            <div className="rounded-2xl border-2 border-[#f5c518] bg-card overflow-hidden">
+            <div>
+              <h2 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-4">
+                Faculty list for the Academic year 2026-27
+              </h2>
+              <div className="rounded-2xl border-2 border-[#f5c518] bg-card overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead className="bg-[#129199] text-white">
@@ -323,6 +327,7 @@ export function FacultyDirectory({
                     })}
                   </tbody>
                 </table>
+              </div>
               </div>
             </div>
           )}

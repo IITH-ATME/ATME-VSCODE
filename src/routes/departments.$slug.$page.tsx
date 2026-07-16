@@ -477,6 +477,20 @@ function reactNodeToText(node: ReactNode): string {
 // makes the report header fields easy to scan against the surrounding prose.
 const DS_VISIT_META_RE = /^(Date of Visit|Venue|Industry Visit Convenor|Accompanying Faculty Members)\s*[:\-]/i;
 
+// PEO/PO/PSO list items lead with a code like "PEO1", "PO1", "PSO1" — bold
+// and teal-color just that code (not the whole line) instead of numbering the list.
+const OUTCOME_LABEL_RE = /^((?:PEO|PSO|PO)\s*\d+)/;
+function OutcomeItem({ text }: { text: string }) {
+  const m = text.match(OUTCOME_LABEL_RE);
+  if (!m) return <p className="leading-relaxed">{text}</p>;
+  return (
+    <p className="leading-relaxed">
+      <span className="font-bold text-[#129199]">{m[1]}</span>
+      {text.slice(m[1].length)}
+    </p>
+  );
+}
+
 function MD({ children }: { children: string }) {
   return (
     <ReactMarkdown
@@ -1093,6 +1107,45 @@ function pruneAccordionTree(nodes: SectionNode[]): SectionNode[] {
   return out;
 }
 
+function normalizeAccordionTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[“”"'’‘]/g, "")
+    .replace(/^_+|_+$/g, "")
+    .replace(/[:.\s]+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// A WordPress report body routinely restates its own heading as the very
+// first line, in bold, on its own line — that line splits out as a
+// standalone-bold "pseudo-heading" child (see boldHeadingRe below), sitting
+// alongside whatever other bold sub-headings (e.g. "Objectives:",
+// "Outcomes:") follow it at the same depth. Left alone, the real heading
+// (now with an empty body) renders as a divider immediately followed by an
+// accordion with the identical title — a visible duplicate — while the
+// "Objectives"/"Outcomes" siblings float outside it instead of nesting
+// inside. Fix: find the same-titled child, absorb its body as the parent's
+// own body, and splice its children into the parent's children in its place
+// so they end up nested under the real heading like everything else.
+function mergeSelfTitledChild(nodes: SectionNode[]): SectionNode[] {
+  return nodes.map((n) => {
+    let body = n.body;
+    let children = n.children;
+    if (!body.trim()) {
+      const idx = children.findIndex(
+        (c) => normalizeAccordionTitle(c.title) === normalizeAccordionTitle(n.title)
+      );
+      if (idx !== -1) {
+        const self = children[idx];
+        body = self.body;
+        children = [...children.slice(0, idx), ...self.children, ...children.slice(idx + 1)];
+      }
+    }
+    return { ...n, body, children: mergeSelfTitledChild(children) };
+  });
+}
+
 // Merge sibling nodes that share the same title (the scraper sometimes
 // restates a heading at a different depth right above the real content).
 function dedupeAccordionTree(nodes: SectionNode[]): SectionNode[] {
@@ -1115,12 +1168,19 @@ function dedupeAccordionTree(nodes: SectionNode[]): SectionNode[] {
 
 const ACCORDION_TRIGGER_COLORS = ["#129199", "#0e7a80", "#0b6066", "#094d52"];
 
+// A bare academic-year label ("2024-25", "2021-22") is always worth
+// collapsing on its own — unlike other empty pure-grouping headings (e.g.
+// "Events Conducted by the Department"), a year heading routinely wraps a
+// large amount of nested content, so it becomes a real accordion (see
+// YEAR_TITLE_RE branch below) instead of the plain-divider default.
+const YEAR_TITLE_RE = /^\d{4}\s*[-–—]\s*\d{2,4}$/;
+
 // Recursively render a real heading-depth tree: a node with no body of its
-// own (a pure grouping heading like "Student Achievements" or an academic
-// year label) renders as a plain centered divider — never a clickable
-// accordion — with its children rendered directly beneath it at the same
-// visual level. A node with real content becomes an accordion box, and its
-// own children nest one shade darker inside it, however many levels deep.
+// own (a pure grouping heading like "Student Achievements") renders as a
+// plain centered divider — never a clickable accordion — with its children
+// rendered directly beneath it at the same visual level. A node with real
+// content becomes an accordion box, and its own children nest one shade
+// darker inside it, however many levels deep.
 function renderAccordionTree(
   nodes: SectionNode[],
   level: number,
@@ -1131,7 +1191,8 @@ function renderAccordionTree(
 ) {
   return nodes.map((n, i) => {
     const key = `${keyPrefix}-${i}`;
-    if (!n.body.trim() && n.children.length > 0) {
+    const isYearGroup = !n.body.trim() && n.children.length > 0 && YEAR_TITLE_RE.test(n.title.trim());
+    if (!n.body.trim() && n.children.length > 0 && !isYearGroup) {
       return (
         <div key={key} className="w-full space-y-3">
           <div className={level === 0 ? "pt-2 text-center" : "pt-1 text-center"}>
@@ -1184,7 +1245,7 @@ function renderAccordionTree(
 
 function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = true }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean }) {
   const { preamble, sections: rawSections } = splitSections(md);
-  const tree = dedupeAccordionTree(pruneAccordionTree(buildSectionTree(rawSections)));
+  const tree = mergeSelfTitledChild(dedupeAccordionTree(pruneAccordionTree(buildSectionTree(rawSections))));
   const cleanedPreamble = cleanAccordionBody(preamble);
   if (tree.length === 0 && !cleanedPreamble) return null;
   return (
@@ -2701,6 +2762,7 @@ function InfraScrapedView({ data, deptName, deptSlug }: { data: typeof INFRA_DAT
         {(() => {
           const labImages = rows.some((r) => r.intro) ? images.slice(1) : images;
           let labIdx = 0;
+          let imgRowCount = 0;
           return rows.map((r, i) => {
             const wantsImg = !r.intro && !r.groupHeader && !r.noImage;
             let img: { url: string; alt: string } | null = null;
@@ -2712,7 +2774,14 @@ function InfraScrapedView({ data, deptName, deptSlug }: { data: typeof INFRA_DAT
                 labIdx += 1;
               }
             }
-            const reverse = labIdx % 2 === 0;
+            // Alternate photo-left/photo-right per row that actually shows an
+            // image (a stable zigzag), not per image-pool cursor — a row with
+            // no image (or a custom r.image) shouldn't skip/repeat the pattern.
+            let reverse = false;
+            if (img) {
+              reverse = imgRowCount % 2 === 1;
+              imgRowCount += 1;
+            }
 
             if (r.groupHeader) {
               return (
@@ -2799,7 +2868,7 @@ function InfraRow({
   const showImg = !!img && !imgFailed;
   return (
     <div
-      className={`grid gap-6 md:gap-10 ${showImg ? "md:grid-cols-2" : "md:grid-cols-1"} items-start rounded-2xl border border-[#129199]/15 bg-white p-5 md:p-8 shadow-sm ${showImg && reverse ? "md:[&>div:first-child]:order-2" : ""}`}
+      className={`grid gap-6 md:gap-10 ${showImg ? "md:grid-cols-2" : "md:grid-cols-1"} items-stretch rounded-2xl border border-[#129199]/15 bg-white p-5 md:p-8 shadow-sm ${showImg && reverse ? "md:[&>div:first-child]:order-2" : ""}`}
     >
       {showImg && img && (
         <div className={squareImage ? "flex justify-center" : undefined}>
@@ -2810,7 +2879,7 @@ function InfraRow({
             className={
               squareImage
                 ? "w-[500px] h-[500px] max-w-full object-cover rounded-xl border border-[#129199]/15"
-                : "w-full h-56 md:h-72 object-cover rounded-xl border border-[#129199]/15"
+                : "w-full h-56 md:h-full min-h-[224px] object-cover rounded-xl border border-[#129199]/15"
             }
             onError={() => setImgFailed(true)}
           />
@@ -3037,11 +3106,11 @@ function DepartmentAboutView({
           <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
             Programme Educational Objectives (PEOs)
           </h3>
-          <ol className="list-decimal pl-5 space-y-2 text-sm text-foreground/85">
+          <div className="space-y-2 text-sm text-foreground/85">
             {dept.peo.map((p: string, i: number) => (
-              <li key={i} className="leading-relaxed">{p}</li>
+              <OutcomeItem key={i} text={p} />
             ))}
-          </ol>
+          </div>
         </section>
       )}
       {dept.po && dept.po.length > 0 && (
@@ -3049,11 +3118,11 @@ function DepartmentAboutView({
           <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
             Programme Outcomes (POs)
           </h3>
-          <ol className="list-decimal pl-5 space-y-2 text-sm text-foreground/85">
+          <div className="space-y-2 text-sm text-foreground/85">
             {dept.po.map((p: string, i: number) => (
-              <li key={i} className="leading-relaxed">{p}</li>
+              <OutcomeItem key={i} text={p} />
             ))}
-          </ol>
+          </div>
         </section>
       )}
       {dept.pso && dept.pso.length > 0 && (
@@ -3061,11 +3130,11 @@ function DepartmentAboutView({
           <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
             Programme Specific Outcomes (PSOs)
           </h3>
-          <ol className="list-decimal pl-5 space-y-2 text-sm text-foreground/85">
+          <div className="space-y-2 text-sm text-foreground/85">
             {dept.pso.map((p: string, i: number) => (
-              <li key={i} className="leading-relaxed">{p}</li>
+              <OutcomeItem key={i} text={p} />
             ))}
-          </ol>
+          </div>
         </section>
       )}
       {dept.programmes && dept.programmes.length > 0 && (
@@ -3157,9 +3226,12 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "IV", section: "A", incharge: "Prof. Shreeshayana R", email: "shreeshayanar_ee@atme.edu.in", phone: "9739002631" },
   ],
   ECE: [
-    { sem: "4th", section: "A", incharge: "Mrs. Spoorthi P N", email: "spoorthipn.ec@atme.edu.in", phone: "8618449205" },
-    { sem: "6th", section: "A", incharge: "Mr. Manjunath K", email: "manjunathk_ec@atme.edu.in", phone: "9738403734" },
-    { sem: "8th", section: "A", incharge: "Mrs. Juslin F", email: "juslinfranklin_ec@atme.edu.in", phone: "9036065420" },
+    { sem: "3rd", section: "A", incharge: "Dr. Shalini Hanok", email: "dr.shalinihanok_ec@atme.edu.in", phone: "8095078557" },
+    { sem: "3rd", section: "B", incharge: "Mrs. Madhurya Eshwar", email: "madhuryabeshwar.ec@atme.edu.in", phone: "8861414341" },
+    { sem: "5th", section: "A", incharge: "Dr. Manjula A V", email: "Dr.Manjulaav.ec@atme.edu.in", phone: "8277417079" },
+    { sem: "5th", section: "B", incharge: "Mr. Manjunath K", email: "manjunathk_EC@atme.edu.in", phone: "9738403734" },
+    { sem: "7th", section: "A", incharge: "Mrs. Swetha K T", email: "swethakt.ec@atme.edu.in", phone: "8428249852" },
+    { sem: "7th", section: "B", incharge: "Mr. Chandra Shekar P", email: "CHANDRASHEKARP_EC@atme.edu.in", phone: "9538584312" },
   ],
   ME: [
     { sem: "4th", section: "A", incharge: "Mr. Niranjan Kumar V S", email: "niranjankumarvs_mech@atme.edu.in", phone: "9945614138" },
@@ -3183,7 +3255,7 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   const showContact = true;
   // EEE-specific: the college now labels this "Academic Year 2026–27" and
   // uses "Year" instead of "Semester" as the column header there.
-  const academicYear = deptCode === "EEE" ? "2026–27" : "2025–26";
+  const academicYear = deptCode === "EEE" || deptCode === "ECE" ? "2026–27" : "2025–26";
   const semesterColLabel = deptCode === "EEE" ? "Year" : "Semester";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">

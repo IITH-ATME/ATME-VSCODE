@@ -46,8 +46,8 @@ const TOPBAR_LINKS: Array<{ label: string; to?: string; href?: string; params?: 
 const CET_CODES: Array<{ k: string; v: string }> = [
   { k: "CET",     v: "E205" },
   { k: "COMED-K", v: "E152" },
-  { k: "MBA",     v: "B315" },
-  { k: "MCA",     v: "C613" },
+  { k: "MBA",     v: "B372" },
+  { k: "MCA",     v: "C553" },
 ];
 
 function NavItem({ g, align = "center" }: { g: Group; align?: "left" | "center" | "right" }) {

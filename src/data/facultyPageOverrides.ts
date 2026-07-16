@@ -6795,4 +6795,77 @@ Completed Mooc courses on:
 
 - NIL`,
   },
+  "mrs-pushpalatha-h-p": {
+    name: "Pushpalatha H P",
+    url: "",
+    md: `## Contact Details
+
+- **Email ID:** Official: [pushpalathahp.ec@atme.edu.in](mailto:pushpalathahp.ec@atme.edu.in) | Personal: [pushpalatha944@gmail.com](mailto:pushpalatha944@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/721065>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=ODY5pJ8AAAAJ>
+- **LinkedIn ID:** <https://www.linkedin.com/in/pushpalatha-h-p-2aa39a46/>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0009-0008-2526-2708>
+
+## Qualification
+
+- M. Tech in VLSI DESIGN AND EMBEDDED SYSTEMS from PESCE, Mandya
+- B.E in ELECTRONICS AND COMMUNICATION from PESCE, Mandya
+
+## Professional Experience
+
+- Teaching: 11 Years
+- Research: 4 Years
+- Industry: Nil
+
+## Areas of Interest
+
+1. Image Processing
+2. VLSI Design
+3. Embedded Systems
+
+## Publication Details
+
+1. Presented Conference paper "An Efficient Implementation of Double Precision Floating Point Multiplier", in Proceedings of the 6th National Conference on Recent trends in Electronics and Communication Engineering (NCRTEC-2014), Organized by SJBIT, Bangalore, May 2014.
+2. Presented conference paper on "Lidar-Radar based terrain mapping", in National conference on "Electronics, Signals and Communication organized by GSSS in association with IETE Mysuru and International Journal of computer applications on 2017.
+3. Presented conference paper on "Internet of things based weather monitoring system", in 3rd National conference on Electronics, Signals and Communication organized by GSSS in association with IEEE Bangalore section and IJERT on 2018.
+4. Published paper on "Intellisense Toll Management System: Automatic Vehicle number plate recognition for identity based transactions" in International Journal, IJAREEIE 2024.
+5. Published paper on "Floor cleaning Robot with separating wet and dry waste using Microcontroller" in International Journal, IJAREEIE 2024.
+
+## Membership in Professional Bodies
+
+- Nil
+
+## Honours/Awards/Achievements
+
+1. Class Topper in first year M.Tech
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Completed NPTEL course on "Digital Image Processing", in July- October 2019.
+2. One week FDP on "Advances in Multicore Computer Architecture Design" and "IoT in Medical Imaging", at NIE, Mysuru.
+3. One week FDP on "Recent Advances in Wireless Communication System" at SJCE, Mysuru.
+4. One week FDP on "VLSI Design using Cadence" and "Labview" at ATMECE, Mysuru
+5. One week FDP on "CMOS, Mixed Signal and Radio Frequency VLSI Design" at MIT, Mysuru
+6. Participated in National Seminar on "Recent trends in PCB Technology" at NIEIT
+7. Participated in workshop on "Digital system design and Modelling using Verilog" at VVCE
+8. Participated in FDP on LP201 practicum for Innovative Engineering held at NIE
+9. Participated in Online ATAL FDPs
+10. Obtained Coursera certifications on ML courses.
+
+## Proposal/Funding/Project Financial Assistance
+
+1. Project Proposal approved for sponsorship of Rs. 5,500/- under the "Student Project Programme" (KSCST) for the project titled "Tree Climbing Robot with pesticide spraying and video streaming in real time using Microcontroller" in 2023-24.
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- Department Library committee member`,
+  },
 };
