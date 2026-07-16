@@ -5,6 +5,48 @@ export type InfraSection = { heading: string; paras: string[]; items: string[]; 
 export type InfraData = { sections: InfraSection[]; images: { url: string; alt: string }[] };
 export const INFRA_DATA: Record<string, InfraData> = {
 
+  "csd": {
+    "sections": [
+      {
+        "heading": "AR/VR Lab (Augmented Reality & Virtual Reality)",
+        "paras": [
+          "The AR/VR Lab provides students with hands-on experience in developing immersive and interactive applications using Augmented Reality (AR) and Virtual Reality (VR) technologies. Students learn 3D modelling, simulation, visualization, and virtual environment design using industry-standard tools such as Unity and Unreal Engine.",
+          "The lab supports project-based learning in gaming, education, healthcare, architecture, and industrial training. It encourages innovation through real-world applications and research in immersive technologies. The facility helps students gain practical skills aligned with emerging industry trends."
+        ],
+        "items": [],
+        "image": { "url": "/images/csd-infra/arvr-lab.jpg", "alt": "AR/VR Lab" }
+      },
+      {
+        "heading": "Computer Graphics Lab",
+        "paras": [
+          "The Computer Graphics Lab enables students to understand the fundamentals of 2D and 3D graphics, image processing, animation, and visualization techniques. Students implement graphics algorithms, rendering methods, geometric transformations, and lighting models using OpenGL and other graphics libraries.",
+          "The lab provides practical exposure to creating graphical applications, simulations, and animations. It strengthens programming skills while fostering creativity in visual computing and multimedia application development."
+        ],
+        "items": [],
+        "image": { "url": "/images/csd-infra/computer-graphics-lab.jpg", "alt": "Computer Graphics Lab" }
+      },
+      {
+        "heading": "Machine Learning Lab",
+        "paras": [
+          "The Machine Learning Lab equips students with practical knowledge of data analysis, predictive modelling, and intelligent system development. Students work with datasets to implement supervised and unsupervised learning algorithms using Python libraries such as Scikit-learn, TensorFlow, and Pandas.",
+          "The lab covers data preprocessing, model training, evaluation, and deployment techniques. It enables students to solve real-world problems in healthcare, finance, cybersecurity, and business analytics while building a strong foundation in Artificial Intelligence and Data Science."
+        ],
+        "items": [],
+        "image": { "url": "/images/csd-infra/machine-learning-lab.jpg", "alt": "Machine Learning Lab" }
+      },
+      {
+        "heading": "Project Laboratory",
+        "paras": [
+          "The Project Laboratory provides students with a collaborative environment to design, develop, and implement innovative solutions for real-world problems. The lab enables students to apply theoretical knowledge to industry-oriented, research-based, and interdisciplinary projects under the guidance of experienced faculty members.",
+          "Equipped with modern computing facilities, high-speed internet, and the latest software tools, the laboratory supports project development in Artificial Intelligence (AI), Machine Learning (ML), Data Science and Technology (DST), Cyber Security, Internet of Things (IoT), Cloud Computing, Web and Mobile Application Development, Computer Vision, and Embedded Systems. Students gain hands-on experience by following the complete Software Development Life Cycle (SDLC), including problem identification, system design, implementation, testing, deployment, and documentation. The laboratory fosters innovation, research, teamwork, critical thinking, and entrepreneurial skills, preparing students for successful careers in industry, higher education, and technology-driven startups."
+        ],
+        "items": [],
+        "image": { "url": "/images/csd-infra/project-laboratory.jpg", "alt": "Project Laboratory" }
+      }
+    ],
+    "images": []
+  },
+
   "ds": {
     "sections": [
       {

@@ -2124,6 +2124,7 @@ const DEPT_YOUTUBE: Record<string, string> = {
   mca: "https://www.youtube.com/@atmemca",
   aiml: "https://www.youtube.com/c/ATMECEOfficial",
   ds: "https://www.youtube.com/@atmecomputersciencedatascience",
+  csd: "https://www.youtube.com/@CSDATMECE",
 };
 
 function SyllabusLinks({ slug }: { slug: string }) {

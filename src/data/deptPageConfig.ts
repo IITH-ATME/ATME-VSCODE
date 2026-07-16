@@ -93,9 +93,16 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "resources", label: "Resources" },
   ],
   csd: [
-    { key: "cs-infrastructure", label: "Infrastructure" },
+    { key: "about-the-department", label: "About" },
+    { key: "csd-infrastructure", label: "Infrastructure" },
     { key: "cse-faculty-profile-csdesign", label: "Faculty" },
+    { key: "csd-research", label: "Research" },
     { key: "csd-achievements", label: "Achievements" },
+    { key: "csd-industry-interface", label: "Industry Interface" },
+    { key: "csd-cocurricular-activities", label: "Activities" },
+    { key: "csd-placement", label: "Placements" },
+    { key: "csd-newsletter", label: "Newsletter" },
+    { key: "coe-cse-csd", label: "Calendar of Events" },
     { key: "resourses", label: "Resources" },
   ],
   ds: [
