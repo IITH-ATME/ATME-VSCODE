@@ -162,6 +162,7 @@ export const dsAllFaculty: Faculty[] = [
   { id: "bhoomika-a-l", name: "Bhoomika A L", designation: "Instructor", qualification: "MCA", doj: "", image: "/images/uploads/2024/12/Bhoomika-A-L.jpg", cvUrl: "https://atme.edu.in/bhoomika-a-l/" },
   { id: "hemanth-kumar-k", name: "Hemanth Kumar K", designation: "Assistant Instructor", qualification: "BE in ECE", doj: "", image: "/images/uploads/2026/02/Hemanth-Kumar-K-1.jpg.jpeg", cvUrl: "https://atme.edu.in/hemanth-kumar-k/" },
   { id: "yashwanth-m-s", name: "Yashwanth M S", designation: "Attender", qualification: "SSLC", doj: "", image: "/images/uploads/2024/12/Yashwanth-M-S.jpg", cvUrl: "https://atme.edu.in/yashwanth-m-s/" },
+  { id: "arpitha-m-s", name: "Arpitha M S", designation: "Assistant Professor", qualification: "M. Tech in Computer Science and Engineering, B.E in Computer Science & Engineering", doj: "01-07-2026", image: "/images/uploads/2026/07/Arpitha-M-S.png", cvUrl: "" },
 
 ];
 

@@ -6724,4 +6724,75 @@ Completed Mooc courses on:
 - Institutional File (IR)
 - CADD Lab - Incharge`,
   },
+  "arpitha-m-s": {
+    name: "Arpitha M S",
+    url: "",
+    md: `## Contact Details
+
+- **Email ID:** Official: [arpithams.cd@atme.edu.in](mailto:arpithams.cd@atme.edu.in) | Personal: [arpithabharadhwaj@gmail.com](mailto:arpithabharadhwaj@gmail.com)
+- **Vidwan ID:** NIL
+- **Google Scholar ID:** <https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=arpitha+m+s&btnG=>
+- **Scopus ID:** 57222998769
+- **Orcid ID:** <https://orcid.org/0000-0002-3535-2028>
+- **Web of Science Researcher ID:** NIL
+- **LinkedIn ID:** <https://www.linkedin.com/in/arpitha-m-s-10137b76/>
+
+## Academic Details
+
+- **M. Tech** in Computer Science and Engineering from PES College of Engineering, Mandya.
+- **B.E** in Computer Science & Engineering from ATME College of Engineering, Mysuru.
+
+## Professional Experience
+
+- Teaching: 4.5 Years
+- Research: NIL
+- Industry: 01
+
+## Areas of Interest
+
+1. Machine Learning
+2. Deep Learning
+
+## Publication Details
+
+- Presented paper entitled "A Multi-Model Deep Learning Framework for the Prediction of Heart Valve Disorders" at ICAIES-2025
+- "BERT based approach for suicide and Depression Identification" at ICACECS-2022
+- "BERT Transformer based Fake News Detection in Twitter Social Media" at 3rd International Conference on ICDICI 2022
+- "Traceability of Counterfeit Medicine Supply Chain through Blockchain" in 2022 IEEE World conference on applied intelligence and computing
+- "CNN based framework for Classification of Mosquitoes based on its Wing beats" in ICICV, 2021
+- "Voice Pathology Classification System using Machine Learning" in International Journal of Computer science and Mobile Computing, Volume-9, Issue-5, May 2020
+- "A Frame Work for Classification of Vocal Disorders without clinical Intervention" in International Journal of Computer Sciences and Engineering, Volume-8, Issue-1, Jan 2020
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- Successfully co-ordinated 'Smart India Hackathon' 2025.
+- Coordinated "AI and Data Science Masterclass: Tools, Trends and Transformation" a three day Bi-lingual workshop sponsored under VAANI Scheme.
+- Participated in FDP on Quantum Computing in Aug 2025
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Attended Three days FDP on "Cryptography Network Security and Cyber law" at VVCE, Mysore.
+- Attended 12weeks Internship on "Advance Telecom Technology" at BSNL, Mysore.
+- Attended "Enhancing Academic Excellence – Faculty Dialogue on Best Practices" at NIE-TLC, Mysore.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- NIL`,
+  },
 };

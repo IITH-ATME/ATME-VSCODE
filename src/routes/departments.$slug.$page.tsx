@@ -723,6 +723,7 @@ function DeptSubPage() {
                 md={bodyMd}
                 openFirst={/research/.test(k)}
                 inlineTablePdfs={canonKey === "co-curricular" || canonKey === "industry-interface" || /co-curricular|extra-curricular|extracurricular|activit|industry/.test(k)}
+                cropImages={dept.slug === "ds" && pageKey === "data-science-industry-interface"}
               />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
@@ -1095,7 +1096,7 @@ function parseTwoLevelAccordion(md: string): { title: string; body: string; chil
     .map((t) => ({ ...t, children: t.children.filter((c) => c.title) }));
 }
 
-function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean }) {
+function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = false }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean }) {
   const sections = parseTwoLevelAccordion(md);
   if (sections.length === 0) return null;
   return (
@@ -1116,7 +1117,7 @@ function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = fals
             <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
           </summary>
           <div className="px-4 md:px-5 pb-5 pt-4 bg-white space-y-5">
-            {s.body.trim() && <AccordionBody md={s.body.trim()} inlineTablePdfs={inlineTablePdfs} />}
+            {s.body.trim() && <AccordionBody md={s.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
             {s.children.length > 0 && (
               <div className="w-full space-y-2">
                 {s.children.map((c, j) =>
@@ -1135,7 +1136,7 @@ function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = fals
                         <ChevronRight className="h-4 w-4 shrink-0 text-white transition-transform group-open:rotate-90" />
                       </summary>
                       <div className="px-3 md:px-4 pb-4 pt-3 bg-white">
-                        <AccordionBody md={c.body.trim()} inlineTablePdfs={inlineTablePdfs} />
+                        <AccordionBody md={c.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />
                       </div>
                     </details>
                   )
@@ -1283,7 +1284,7 @@ function pdfUrlsInTableRows(md: string): Set<string> {
   return urls;
 }
 
-function AccordionBody({ md, inlineTablePdfs = false }: { md: string; inlineTablePdfs?: boolean }) {
+function AccordionBody({ md, inlineTablePdfs = false, cropImages = false }: { md: string; inlineTablePdfs?: boolean; cropImages?: boolean }) {
   const rawPdfs = extractPdfs(md);
   const tablePdfUrls = inlineTablePdfs ? pdfUrlsInTableRows(md) : new Set<string>();
   // Remove ALL PDF/viewer markdown links from the body so they don't render
@@ -1349,7 +1350,11 @@ function AccordionBody({ md, inlineTablePdfs = false }: { md: string; inlineTabl
                 src={resolved}
                 alt={seg.images[0].alt || ""}
                 loading="lazy"
-                className="mx-auto h-28 sm:h-36 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
+                className={
+                  cropImages
+                    ? "mx-auto h-56 sm:h-64 w-full max-w-md object-cover rounded-lg border border-border bg-white"
+                    : "mx-auto h-28 sm:h-36 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
+                }
               />
             );
           })()
@@ -1367,7 +1372,11 @@ function AccordionBody({ md, inlineTablePdfs = false }: { md: string; inlineTabl
                   src={resolved}
                   alt={p.alt || ""}
                   loading="lazy"
-                  className="w-full h-28 sm:h-36 object-contain rounded-lg border border-border bg-white"
+                  className={
+                    cropImages
+                      ? "w-full h-56 sm:h-64 object-cover rounded-lg border border-border bg-white"
+                      : "w-full h-28 sm:h-36 object-contain rounded-lg border border-border bg-white"
+                  }
                 />
               );
             })}
