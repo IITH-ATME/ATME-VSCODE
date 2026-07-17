@@ -226,7 +226,7 @@ function AdmissionsPage() {
             <h3 className="font-display text-xl font-bold">Admissions Contact</h3>
             <p className="mt-2 text-sm text-primary-foreground/85">Speak with our team — we're happy to help you choose the right programme.</p>
             <div className="mt-5 space-y-3 text-sm">
-              <div className="flex gap-2"><Phone className="h-4 w-4 mt-0.5" /> <div><div className="font-semibold">Secretary</div>+91 94482-85651</div></div>
+              <div className="flex gap-2 items-center"><Phone className="h-5 w-5 shrink-0 text-[#f5b945]" /> <div className="text-lg font-bold text-[#f5b945]">+91 90369 26363</div></div>
               <div className="flex gap-2"><Phone className="h-4 w-4 mt-0.5" /> <div><div className="font-semibold">Principal</div>+91 94482-85641</div></div>
               <div className="flex gap-2"><Phone className="h-4 w-4 mt-0.5" /> <div><div className="font-semibold">AO</div>+91 94486-78271</div></div>
               <div className="flex gap-2"><Mail className="h-4 w-4 mt-0.5" /> admissions@atme.edu.in</div>

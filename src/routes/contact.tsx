@@ -54,7 +54,8 @@ function ContactPage() {
       icon: Phone,
       t: "Admissions",
       lines: ["For programme enquiries, eligibility and counselling support, contact our admissions team."],
-      contacts: [["Secretary", "+91 94482-85651"], ["Principal", "+91 94482-85641"], ["AO", "+91 94486-78271"], ["AAO", "+91 94482-85644"], ["Email", "admissions@atme.edu.in"]],
+      highlight: "+91 90369 26363",
+      contacts: [["Principal", "+91 94482-85641"], ["AO", "+91 94486-78271"], ["AAO", "+91 94482-85644"], ["Email", "admissions@atme.edu.in"]],
     },
   ];
   return (
@@ -66,13 +67,18 @@ function ContactPage() {
       />
       <PageHero eyebrow="Contact" title="We'd love to hear from you" subtitle="Reach our campus, corporate office or admissions team — we'll get back to you promptly."  bgImage={SECTION_BANNER.contact} /> 
       <section className="container-page py-20 grid lg:grid-cols-3 gap-6">
-        {blocks.map(({ icon: Icon, t, lines, contacts }) => (
+        {blocks.map(({ icon: Icon, t, lines, contacts, highlight }) => (
           <div key={t} className="rounded-2xl border border-border bg-card p-7 shadow-card">
             <div className="grid h-12 w-12 place-items-center rounded-xl gradient-hero text-primary-foreground"><Icon className="h-5 w-5" /></div>
             <h4 className="mt-5 font-display text-xl font-semibold">{t}</h4>
             <div className="mt-3 space-y-1 text-sm text-foreground/80">
               {lines.map(l => <div key={l}>{l}</div>)}
             </div>
+            {highlight && (
+              <a href={`tel:${highlight.replace(/\s|-/g,"")}`} className="mt-4 inline-block rounded-lg bg-[#fff4c2] px-3 py-1.5 text-lg font-bold text-foreground hover:text-primary transition-colors">
+                {highlight}
+              </a>
+            )}
             <dl className="mt-5 space-y-2 border-t border-border pt-4 text-sm">
               {contacts.map(([k,v]) => (
                 <div key={k} className="flex justify-between gap-3">
@@ -80,7 +86,7 @@ function ContactPage() {
                   <dd className="font-medium text-foreground text-right">
                     {k === "Email"
                       ? <a href={`mailto:${v}`} className="text-primary hover:underline">{v}</a>
-                      : k.includes("Phone") || k === "Secretary" || k === "Principal" || k === "AO" || k === "AAO"
+                      : k.includes("Phone") || k === "Principal" || k === "AO" || k === "AAO"
                         ? <a href={`tel:${v.replace(/\s|-/g,"")}`} className="hover:text-primary">{v}</a>
                         : v}
                   </dd>
