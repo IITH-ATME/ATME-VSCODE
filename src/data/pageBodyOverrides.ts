@@ -800,9 +800,8 @@ Our admissions team is happy to guide you. Reach out by phone, email, fill the e
 <div class="rounded-2xl border-2 border-[#f5c518] bg-gradient-to-br from-[#129199] to-[#0d6f76] p-5 shadow-lg text-center relative overflow-hidden group hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
 <div class="absolute top-0 right-0 w-16 h-16 bg-white/10 rounded-bl-full -mr-2 -mt-2"></div>
 <div class="relative">
-<div class="mx-auto mb-3 h-12 w-12 rounded-full bg-white/15 flex items-center justify-center border border-white/20"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#f5c518]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
-<div class="text-white/90 text-xs uppercase tracking-wide font-semibold mb-1">Secretary</div>
-<a href="tel:+919036926363" class="block font-bold text-lg text-white hover:text-[#f5c518] transition">+91 90369 26363</a>
+<div class="mx-auto mb-3 h-12 w-12 rounded-full bg-white/15 flex items-center justify-center border border-white/20"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#f5c518]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+<a href="tel:+919036926363" class="block font-bold text-xl text-[#f5c518] hover:text-white transition">+91 90369 26363</a>
 </div>
 </div>
 <div class="rounded-2xl border-2 border-[#f5c518] bg-gradient-to-br from-[#129199] to-[#0d6f76] p-5 shadow-lg text-center relative overflow-hidden group hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
@@ -1186,7 +1185,7 @@ The concession is extended to 50 students on a first-come-first-serve basis; onl
 
 ### Free Engineering Education for Meritorious Students
 
-Under this initiative, the institution sponsors the full tuition fee for a select number of meritorious CET-rank holders each academic year. Eligibility, the number of seats covered and the exact concession amount are notified by the Office of the Principal at the start of each admission cycle. For the current year's policy, please contact the Admissions Office at enquiry@atme.edu.in or call the Secretary on +91 90369 26363.
+Under this initiative, the institution sponsors the full tuition fee for a select number of meritorious CET-rank holders each academic year. Eligibility, the number of seats covered and the exact concession amount are notified by the Office of the Principal at the start of each admission cycle. For the current year's policy, please contact the Admissions Office at enquiry@atme.edu.in or call +91 90369 26363.
 
 [pdfviewer]/__l5e/assets-v1/2eec4c24-8b8d-4e76-a301-933150cda00c/Free-Engineering-Education-Policy.pdf[/pdfviewer]
 
@@ -1476,7 +1475,7 @@ Office: 0821-2954081 · Principal: 0821-2954011 · Telefax: +91-821-2593328
 
 **For admissions contact**
 
-- Secretary: +91 90369 26363
+- +91 90369 26363
 - Principal: +91-94482-85641
 - AAO: +91-94482-85644
 - PRO: +91-98869-75772
