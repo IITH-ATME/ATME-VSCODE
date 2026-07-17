@@ -1175,6 +1175,41 @@ const ACCORDION_TRIGGER_COLORS = ["#129199", "#0e7a80", "#0b6066", "#094d52"];
 // YEAR_TITLE_RE branch below) instead of the plain-divider default.
 const YEAR_TITLE_RE = /^\d{4}\s*[-–—]\s*\d{2,4}$/;
 
+// A run of siblings that are all "YYYY-YY Batch" style groups (e.g. a
+// Toppers List broken out per graduating batch) is really one topic split
+// into repeated same-shape entries — unlike a divider like "Events
+// Conducted by the Department" whose children are genuinely different
+// topics. When every child matches this shape, the parent becomes a real
+// accordion (see isYearGroup below) instead of a plain divider, so the
+// batches nest inside one "Toppers List" box rather than sprawling as
+// separate top-level accordions.
+const BATCH_TITLE_RE = /^\d{4}\s*[-–—]\s*\d{2,4}\s*batch$/i;
+
+// A divider whose children ALL mention a year range somewhere in their
+// title (e.g. "Placement Report 2024-25" / "2023-24" / "2022-23", or
+// "Industry Internship" broken into "2024-25" / "2023-24" tabs) is the same
+// same-topic-split-by-year pattern as the Batch case above, just without
+// the literal "Batch" suffix or an exact bare-year title. Requiring at
+// least 3 such children (and that every child — not just some — carries a
+// year) keeps this from firing on a divider whose children are genuinely
+// different topics that merely happen to mention a year once or twice.
+const CONTAINS_YEAR_RANGE_RE = /\d{4}\s*[-–—]\s*\d{2,4}/;
+
+// A single report/event (e.g. "ATME College of Engineering signs MOU with
+// CADDESK, Mysuru", or "Industrial Visit Report — Infosys, Mysuru") is
+// often scraped with all of its own prose living in bold-pseudo sub-lines
+// ("Outcome", "Objectives:", "1. Introduction", "2. Objectives" …) rather
+// than in the heading's own body. That leaves the heading with an empty
+// body, which — same as the year/batch cases above — makes it collapse
+// into a plain divider, so its own subsections visually "escape" and look
+// like flat siblings of whatever other real report titles surround it.
+// When every child is shaped like a report subsection (a numbered item, or
+// a known subsection label), the parent becomes a real accordion instead,
+// so the subsections nest inside the one report they actually belong to.
+const NUMBERED_ITEM_RE = /^\d+[.)]\s+\S/;
+const REPORT_SUBSECTION_RE =
+  /^(introduction|objective|participant|outcome|key\s*highlight|highlight|conclusion|summary|background|overview|methodology|learning\s*outcome|photo|gallery|purpose|agenda|proceeding|resource\s*person|glimpse|impact\s*analysis|interactive|q\s*&\s*a|fun\s*activit|about\s*the|acknowledg|feedback|list\s*of\s*(students?|participants?|attendees?)|attendee)/i;
+
 // Recursively render a real heading-depth tree: a node with no body of its
 // own (a pure grouping heading like "Student Achievements") renders as a
 // plain centered divider — never a clickable accordion — with its children
@@ -1191,7 +1226,23 @@ function renderAccordionTree(
 ) {
   return nodes.map((n, i) => {
     const key = `${keyPrefix}-${i}`;
-    const isYearGroup = !n.body.trim() && n.children.length > 0 && YEAR_TITLE_RE.test(n.title.trim());
+    const allChildrenAreBatches =
+      n.children.length > 0 && n.children.every((c) => BATCH_TITLE_RE.test(c.title.trim()));
+    const allChildrenHaveYearRange =
+      n.children.length >= 3 && n.children.every((c) => CONTAINS_YEAR_RANGE_RE.test(c.title));
+    const allChildrenAreReportSubsections =
+      n.children.length > 0 &&
+      n.children.every((c) => {
+        const t = c.title.trim();
+        return NUMBERED_ITEM_RE.test(t) || REPORT_SUBSECTION_RE.test(t);
+      });
+    const isYearGroup =
+      !n.body.trim() &&
+      n.children.length > 0 &&
+      (YEAR_TITLE_RE.test(n.title.trim()) ||
+        allChildrenAreBatches ||
+        allChildrenHaveYearRange ||
+        allChildrenAreReportSubsections);
     if (!n.body.trim() && n.children.length > 0 && !isYearGroup) {
       return (
         <div key={key} className="w-full space-y-3">
