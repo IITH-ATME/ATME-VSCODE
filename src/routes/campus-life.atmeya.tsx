@@ -28,8 +28,7 @@ export const Route = createFileRoute("/campus-life/atmeya")({
       },
       {
         property: "og:image",
-        content:
-          "/images/uploads/2026/02/rsz_1untitled_design.jpg",
+        content: resolveAssetUrl("/images/uploads/2026/02/rsz_1untitled_design.jpg"),
       },
     ],
   }),
@@ -40,8 +39,8 @@ import atmeyaCollageResized from "@/assets/rsz_atmeya_2k26_16x9_collage.jpg.asse
 
 const SLIDES = [
   resolveAssetUrl(atmeyaCollageResized.url),
-  "/images/uploads/2026/02/rsz_1untitled_design.jpg",
-  "/images/uploads/2024/06/Home-page-banner-012.jpg",
+  resolveAssetUrl("/images/uploads/2026/02/rsz_1untitled_design.jpg"),
+  resolveAssetUrl("/images/uploads/2024/06/Home-page-banner-012.jpg"),
 ];
 
 function BannerSlider() {

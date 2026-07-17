@@ -5,6 +5,7 @@ import { TrendingUp, Briefcase, Users2, Award, Trophy, Building2 } from "lucide-
 import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { recruiterCount } from "@/data/recruiters";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { resolveAssetUrl } from "@/lib/assetUrl";
 
 export const Route = createFileRoute("/placements")({
   head: () => ({
@@ -89,7 +90,7 @@ function PlacementsPage() {
               <Reveal key={s.n} delay={i * 60}>
                 <div className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
                   <div className="relative h-56 overflow-hidden bg-secondary">
-                    <img src={s.img} alt={s.n} loading="lazy" className="absolute inset-0 h-full w-full object-contain object-top p-2 group-hover:scale-[1.03] transition-transform duration-500" />
+                    <img src={resolveAssetUrl(s.img)} alt={s.n} loading="lazy" className="absolute inset-0 h-full w-full object-contain object-top p-2 group-hover:scale-[1.03] transition-transform duration-500" />
                     <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-primary/85 via-primary/40 to-transparent" />
                     <span className="absolute top-3 right-3 inline-flex items-center rounded-full bg-primary text-primary-foreground text-[11px] font-bold px-2.5 py-1 shadow-lg">{s.p}</span>
                     <div className="absolute inset-x-0 bottom-0 p-3 text-white">

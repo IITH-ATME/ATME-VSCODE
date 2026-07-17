@@ -675,7 +675,7 @@ function Home() {
                         <span aria-hidden>{t.n.split(" ").map((w) => w[0]).slice(0, 2).join("")}</span>
                         {t.img && (
                           <img
-                            src={t.img}
+                            src={resolveAssetUrl(t.img)}
                             alt={t.n}
                             loading="lazy"
                             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}

@@ -1,4 +1,5 @@
 import { Sparkles, Trophy, Handshake, CheckCircle2, Award } from "lucide-react";
+import { resolveAssetUrl } from "@/lib/assetUrl";
 
 const whyAtme = [
   "Futuristic infrastructure with modern facilities.",
@@ -119,13 +120,13 @@ export function AboutCollegeExtras() {
             {institutionalMous.map((src, i) => (
               <a
                 key={src}
-                href={src}
+                href={resolveAssetUrl(src)}
                 target="_blank"
                 rel="noreferrer"
                 className="group rounded-2xl border-2 border-[#129199]/15 bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-[#129199]/40 transition-all"
               >
                 <img
-                  src={src}
+                  src={resolveAssetUrl(src)}
                   alt={`Institutional MoU ${i + 1}`}
                   loading="lazy"
                   className="w-full aspect-[4/3] object-contain bg-white p-3 group-hover:scale-[1.02] transition-transform"
@@ -140,13 +141,13 @@ export function AboutCollegeExtras() {
             {departmentMous.map((src, i) => (
               <a
                 key={src}
-                href={src}
+                href={resolveAssetUrl(src)}
                 target="_blank"
                 rel="noreferrer"
                 className="group rounded-xl border-2 border-[#129199]/15 bg-white overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-0.5 hover:border-[#129199]/40 transition-all"
               >
                 <img
-                  src={src}
+                  src={resolveAssetUrl(src)}
                   alt={`Department MoU ${i + 1}`}
                   loading="lazy"
                   className="w-full aspect-square object-contain bg-white p-2 group-hover:scale-[1.03] transition-transform"

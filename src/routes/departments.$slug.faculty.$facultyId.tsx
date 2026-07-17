@@ -25,6 +25,14 @@ import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { rewritePdfUrls } from "@/data/pdfRewrite";
 import { parseFacultyProfile } from "@/data/parseFacultyProfile";
 import { expandDesignation } from "@/lib/deptNames";
+import { resolveAssetUrl } from "@/lib/assetUrl";
+
+const scrapedMdComponents = {
+  img: ({ src, alt, ...rest }: any) => (
+    // eslint-disable-next-line jsx-a11y/alt-text
+    <img src={resolveAssetUrl(src as string)} alt={alt || ""} loading="lazy" {...rest} />
+  ),
+};
 
 
 const ALL_BY_DEPT: Record<string, any[]> = {
@@ -587,7 +595,7 @@ function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isSt
             Faculty Profile
           </div>
           <div className={`p-4 md:p-6 ${itemProse} [&_table]:w-full [&_table]:border-collapse [&_th]:bg-[#129199] [&_th]:text-white [&_th]:p-2 [&_th]:text-left [&_td]:p-2 [&_td]:align-top [&_td]:border [&_td]:border-[#f5c518]/60 [&_th]:border [&_th]:border-[#f5c518]/60`}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>
               {md}
             </ReactMarkdown>
           </div>
@@ -852,7 +860,7 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
         Profile
       </div>
       <div className={`p-4 md:p-6 ${itemProse}`}>
-        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>
           {stripped}
         </ReactMarkdown>
       </div>
@@ -961,7 +969,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
         {cleaned.map((c, ci) => (
           <div key={ci} className={`min-w-0 break-words ${publicationsProseClass}`}>
             {c ? (
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{c}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>{c}</ReactMarkdown>
             ) : (
               <span className="text-muted-foreground">—</span>
             )}
@@ -1013,7 +1021,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
                       <td key={ci} className="px-3 py-2 align-top break-words border-r last:border-r-0 text-sm md:text-[15px] leading-relaxed text-foreground/90" style={{ display: "table-cell", borderColor: "#f5c518", width: `${100 / colCount}%` }}>
                         {normalized ? (
                           <div className={`${publicationsProseClass} [&_p]:my-0`}>
-                            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{normalized}</ReactMarkdown>
+                            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>{normalized}</ReactMarkdown>
                           </div>
                         ) : null}
                       </td>
@@ -1088,7 +1096,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
               style={{ borderColor: "#f5c518", color: "#0e7a80" }}
             >
               <div className={`${proseClass} [&_p]:!text-[#0e7a80] [&_li]:!text-[#0e7a80] [&_strong]:!text-foreground`}>
-                <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{item.text}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>{item.text}</ReactMarkdown>
               </div>
             </li>
           ))}
@@ -1100,7 +1108,7 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
         {bullets.map((item, i) => (
           <li key={i} className="break-words text-left">
             <div className={publicationsProseClass}>
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{item.text}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={scrapedMdComponents}>{item.text}</ReactMarkdown>
             </div>
           </li>
         ))}
