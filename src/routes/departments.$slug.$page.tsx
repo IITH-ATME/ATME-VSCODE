@@ -3263,7 +3263,6 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "3rd", section: "C", incharge: "Prof. Sandesh R", email: "shandesh_cs@atme.edu.in" },
     { sem: "5th", section: "A", incharge: "Prof. Ashwini P", email: "ashwinip.cs@atme.edu.in" },
     { sem: "5th", section: "B", incharge: "Prof. Kavyashree E D", email: "kavyashreeed_cs@atme.edu.in" },
-    { sem: "7th", section: "A", incharge: "Prof. Kalathma M K", email: "kalathmamk_cs@atme.edu.in" },
     { sem: "7th", section: "B", incharge: "Prof. Keerthana M M", email: "keerthanamm_cs@atme.edu.in" },
   ],
   CE: [

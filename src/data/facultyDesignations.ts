@@ -40,7 +40,6 @@ export const FACULTY_DESIGNATIONS: Record<string, string> = {
   "janhavi-nandish": "Assistant Professor",
   "jeevitha-p": "Assistant Professor",
   "jyothi-d-n": "Associate Professor & Head",
-  "kaushik-triyambaka-mysur": "Assistant Professor",
   "kavya-p": "Attender",
   "mahesha-b-p": "Attender",
 
@@ -59,7 +58,6 @@ export const FACULTY_DESIGNATIONS: Record<string, string> = {
   "mr-girish-m": "Assistant Professor",
   "mr-guruprasad-k-n": "Assistant Professor",
   "mr-h-c-chidambara": "Assistant Instructor",
-  "mr-kalathma-m-k": "ASSISTANT PROFESSOR",
   "mr-likith-n": "Assistant Professor",
   "mr-lohit-kumar-m-c": "Attender",
   "mr-lohit-kumar-m-c-2": "Attender",

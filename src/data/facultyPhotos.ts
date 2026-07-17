@@ -65,9 +65,7 @@ export const FACULTY_PHOTOS: Record<string, string> = {
   "jyothi-d-n": "https://atme.edu.in/wp-content/uploads/2022/09/JYOTHI-D-N-1.jpg.jpeg",
   
   "k-s-yogesh": "https://atme.edu.in/wp-content/uploads/2022/12/K-S-YOGESH-1.jpg.jpeg",
-  // "kalathma-m-k": removed — scraper picked up another faculty/HOD photo by mistake.
   "karunakara-babu": "https://atme.edu.in/wp-content/uploads/2022/12/Mr.-Karunakara-Babu-2.jpg",
-  "kaushik-triyambaka-mysur": "https://atme.edu.in/wp-content/uploads/2026/05/Kaushik-Triyambaka-Mysur-1.jpg",
   "kavya-p": "https://atme.edu.in/wp-content/uploads/2025/11/Kavya-P-1.jpg",
   // "kavyashree-e-d": removed — scraper picked up another faculty/HOD photo by mistake.
   // "keerthana-m-m": removed — scraper picked up another faculty/HOD photo by mistake.
@@ -99,8 +97,6 @@ export const FACULTY_PHOTOS: Record<string, string> = {
   "mr-hemanth-b-r": "https://atme.edu.in/wp-content/uploads/ME-FAC-16.jpg",
   // "mr-j-n-karthik": removed — scraper picked up another faculty/HOD photo by mistake.
   "mr-jayaram-b-s": "https://atme.edu.in/wp-content/uploads/2023/07/JAYARAM-B-S-1.jpg",
-  "mr-kalathma-m-k": "https://atme.edu.in/wp-content/uploads/2026/02/KALATHMA-M-K-1.jpg.jpeg",
-  // "mr-kaushik-triyambaka-mysur": removed — scraper picked up another faculty/HOD photo by mistake.
   "mr-likhit-m-l": "https://atme.edu.in/wp-content/uploads/2026/04/Likhit-M-L-1.jpg",
   "mr-likith-n": "https://atme.edu.in/wp-content/uploads/2026/04/Mr.-Likith-N-1.jpg",
   "mr-lohit-kumar-m-c": "https://atme.edu.in/wp-content/uploads/2025/11/Mr.-Lohit-Kumar-M-C-1.jpg",
