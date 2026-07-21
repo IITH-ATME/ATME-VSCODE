@@ -660,7 +660,7 @@ function DeptSubPage() {
   // ECE/EEE's Student Learning page shouldn't show the bottom Course Videos
   // panel — it duplicated the department YouTube channel link already
   // shown in the top resource card.
-  const studentLearningLabVideosMd = dept.slug === "cse" || dept.slug === "ece" || dept.slug === "eee" ? "" : labVideosMd;
+  const studentLearningLabVideosMd = STUDENT_LEARNING_2026_27[dept.slug] ? "" : labVideosMd;
 
   return (
     <DeptContext.Provider value={dept.slug}>
