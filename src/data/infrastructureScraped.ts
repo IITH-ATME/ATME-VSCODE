@@ -1676,5 +1676,58 @@ export const INFRA_DATA: Record<string, InfraData> = {
       }
     ],
     "images": []
+  },
+
+  "aiml": {
+    "sections": [
+      {
+        "heading": "Infrastructure",
+        "paras": [
+          "Our department offers state-of-the-art infrastructure designed to support advanced learning and innovation. We have well-equipped laboratories including the AI Laboratory, Machine Learning Lab and Data Analytics Lab featuring high-performance computing systems and modern software tools. These facilities enable students to gain hands-on experience work on real-time project and solve industry-level problems. We also provide excellent facilities such as smart classroom, high-speed internet connectivity, seminar halls and access to digital libraries. Students are encouraged to participate in workshops, certification programs, hackathons and technical events ensuring continuous learning beyond the classroom."
+        ],
+        "items": []
+      },
+      {
+        "heading": "AI Lab (Artificial Intelligence)",
+        "paras": [
+          "The Artificial Intelligence Lab provides students with hands-on experience in building intelligent applications and solving complex algorithmic problems. Students learn search strategies, knowledge representation, and logical reasoning using Python. The lab supports project-based learning in automation, gaming, and real-world problem-solving to align skills with current industry trends."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/aiml-infra/ai-lab.jpg", "alt": "AI Lab (Artificial Intelligence)" }
+      },
+      {
+        "heading": "ML Lab (Machine Learning)",
+        "paras": [
+          "The Machine Learning Lab provides students with hands-on experience in building, training, and deploying data-driven predictive models. Students gain critical skills in data pre-processing, feature engineering, and evaluating supervised and unsupervised learning algorithms. Utilizing industry-standard tools like Python, Scikit-Learn, TensorFlow, and Pandas, the lab supports project-based learning in areas such as predictive analytics, computer vision, and natural language processing. By working with real-world datasets, students learn to optimize model performance and solve complex engineering problems, ensuring they are fully equipped for emerging careers in data science and technology."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/aiml-infra/ml-lab.jpg", "alt": "ML Lab (Machine Learning)" }
+      },
+      {
+        "heading": "Data Structures Lab",
+        "paras": [
+          "The Data Structures Lab provides students with hands-on experience in designing, implementing, and optimizing foundational data structures. Students gain practical proficiency in organizing and managing data efficiently using linear structures like arrays, stacks, queues, and linked lists, as well as non-linear structures like trees and graphs. Utilizing programming languages such as C or C++, the lab supports project-based learning focused on algorithm design, sorting and searching techniques, and memory management. By solving complex computational problems, students develop strong logical reasoning and debugging skills, establishing the core programming foundations required for software development and technical industry roles."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/aiml-infra/data-structures-lab.jpg", "alt": "Data Structures Lab" }
+      },
+      {
+        "heading": "Data Visualization Lab",
+        "paras": [
+          "The Data Visualization Lab provides students with hands-on experience in transforming raw data into meaningful graphical representations and interactive dashboards. Students learn data cleaning, exploratory data analysis, and visual storytelling using industry-standard tools and libraries such as Python, Matplotlib, Seaborn, Tableau, or Power BI. The lab supports project-based learning focused on designing intuitive charts, graphs, heatmaps, and geospatial plots to uncover hidden patterns and insights. By working with diverse real-world datasets, students develop the skills necessary to effectively communicate complex analytical findings to stakeholders, aligning their capabilities with modern data analytics and business intelligence roles."
+        ],
+        "items": [],
+        "image": { "url": "/images/uploads/aiml-infra/data-visualization-lab.jpg", "alt": "Data Visualization Lab" }
+      },
+      {
+        "heading": "Project Lab",
+        "paras": [
+          "The Final Year Project Laboratory is an essential part of the engineering program, designed to provide students with hands-on exposure to real-world problem-solving. This lab allows students to utilize the theoretical knowledge gained throughout their studies to conceptualize, design, and build innovative engineering solutions. The primary goal of the Project Lab is to strengthen students' technical proficiency, analytical mindset, and research capabilities. Under this framework, students identify modern technical challenges, review existing methodologies, and implement robust solutions using the latest industry technologies. The lab environment also fosters critical career skills such as teamwork, project planning, formal documentation, and technical presentations, preparing graduates for professional engineering practice, higher education, or research and development roles."
+        ],
+        "items": [],
+        "noImage": true
+      }
+    ],
+    "images": []
   }
 };
