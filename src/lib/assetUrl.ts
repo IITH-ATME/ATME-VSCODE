@@ -50,7 +50,12 @@ export function resolveAssetUrl(url: string | undefined | null): string {
   } catch {
     // Relative paths fall through to the existing checks below.
   }
-  if (value.startsWith("/images/uploads/") || value.startsWith("/pdfs/uploads/") || value.startsWith("/files/uploads/")) {
+  if (
+    value.startsWith("/images/uploads/") ||
+    value.startsWith("/pdfs/uploads/") ||
+    value.startsWith("/files/uploads/") ||
+    value.startsWith("/pdfs/student-learning-2026-27/")
+  ) {
     return toRehostedUrl(value);
   }
   if (value.startsWith("https://atme.edu.in/wp-content/")) {

@@ -40,6 +40,7 @@ import { formatFacultyName } from "@/lib/facultyName";
 import { rewriteHref } from "@/data/linkRewrite";
 import { rewriteImageSrc, rewritePdfHref } from "@/data/imageRewrite";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { STUDENT_LEARNING_2026_27 } from "@/data/studentLearningCourses2026";
 
 // Context lets the MD <a> renderer know which department it's rendering for,
 // so it can route faculty-profile links to the internal /departments/<dept>/
@@ -2011,10 +2012,10 @@ function semesterOf(label: string, url: string): number | null {
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
 
-type DocKind = "module" | "lesson" | "notes" | "ppt";
-type DocLink = { label: string; url: string };
-type CourseRow = { sl: string; code: string; title: string; docs: Partial<Record<DocKind, DocLink[]>> };
-type ParsedSection = { heading: string; rows: CourseRow[] };
+export type DocKind = "module" | "lesson" | "notes" | "ppt";
+export type DocLink = { label: string; url: string };
+export type CourseRow = { sl: string; code: string; title: string; docs: Partial<Record<DocKind, DocLink[]>> };
+export type ParsedSection = { heading: string; rows: CourseRow[] };
 
 const DOC_KIND_HEADERS: { key: DocKind; label: string }[] = [
   { key: "module", label: "Course Module" },
@@ -2448,7 +2449,7 @@ const MCA_COURSE_SECTIONS: ParsedSection[] = [
 
 function StudentLearningCentric({ md, deptName, slug, labVideosMd = "" }: { md: string; deptName: string; slug: string; labVideosMd?: string }) {
 
-  const tableSections = slug === "mca" ? MCA_COURSE_SECTIONS : parseCourseTables(md);
+  const tableSections = STUDENT_LEARNING_2026_27[slug] ?? (slug === "mca" ? MCA_COURSE_SECTIONS : parseCourseTables(md));
   if (tableSections.length > 0) {
     return (
       <div className="space-y-8">
