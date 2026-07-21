@@ -1211,6 +1211,15 @@ const NUMBERED_ITEM_RE = /^\d+[.)]\s+\S/;
 const REPORT_SUBSECTION_RE =
   /^(introduction|objective|participant|outcome|key\s*highlight|highlight|conclusion|summary|background|overview|methodology|learning\s*outcome|photo|gallery|purpose|agenda|proceeding|resource\s*person|glimpse|impact\s*analysis|interactive|q\s*&\s*a|fun\s*activit|about\s*the|acknowledg|feedback|list\s*of\s*(students?|participants?|attendees?)|attendee)/i;
 
+// An "Events Conducted During <year>" / "Events Organised For AY: <year>"
+// divider groups events by category (Industrial Visit, Tech Talk,
+// Workshops …) with no intro prose of its own, same shape as the report
+// divider above. Unlike a topical divider (e.g. "Student Achievements"),
+// this one is purely a year label, so it reads better as its own collapsed
+// accordion — with the category groups nested one level inside it — rather
+// than spilling every category flush onto the page for every year at once.
+const EVENTS_YEAR_GROUP_TITLE_RE = /^events?\s+(conducted|organi[sz]ed)\b.*\d{4}/i;
+
 // Recursively render a real heading-depth tree: a node with no body of its
 // own (a pure grouping heading like "Student Achievements") renders as a
 // plain centered divider — never a clickable accordion — with its children
@@ -1241,6 +1250,7 @@ function renderAccordionTree(
       !n.body.trim() &&
       n.children.length > 0 &&
       (YEAR_TITLE_RE.test(n.title.trim()) ||
+        EVENTS_YEAR_GROUP_TITLE_RE.test(n.title.trim()) ||
         allChildrenAreBatches ||
         allChildrenHaveYearRange ||
         allChildrenAreReportSubsections);
