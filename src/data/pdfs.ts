@@ -14,15 +14,15 @@ export function pdf(filename: string): string {
 
 // Structured circulars list (mirrors order on atme.edu.in/circulars/)
 export const circulars = [
-  { title: "Fee circular 3rd Sem and 5th Sem - AY 26-27", date: "06/07/2026", file: "higher-sem-fees-circular-3rd-5th-sem-ay-2026-27.pdf", year: "2026-27" },
-  { title: "Fee circular 7th sem - AY 26-27", date: "06/07/2026", file: "7th-sem-fee-circular-ay-2026-27.pdf", year: "2026-27" },
-  { title: "Registration to B.E./B.Tech. Honours Degree Programme", date: "11/09/2025", file: "2637-Registration-to-B.E.-B.Tech_.-Honours-Degree-Programme.pdf", year: "2025-26" },
-  { title: "2nd Year Fee Payment Circular", date: "28/08/2025", file: "2nd-year-fee-payment-circular.pdf", year: "2025-26" },
-  { title: "Higher Semester Fees Circular", date: "28/08/2025", file: "higher-semester-fees-circular.pdf", year: "2025-26" },
-  { title: "Higher Semester Fees Circular", date: "14/07/2025", file: "higher-semister-fees-circular-1.pdf", year: "2025-26" },
-  { title: "Circular — Parents Teachers Meeting", date: "27/05/2025", file: "Circular-_-Parents-Teachers-meeting.pdf", year: "2024-25" },
-  { title: "Honours Degree — Programme Details", date: "—", file: "ATME-VTU-Honours-Degree-Details.pdf", year: "2024-25" },
-  { title: "Minor Degree — Programme Details", date: "—", file: "ATME-VTU-Minor-degree-Details.pdf", year: "2024-25" },
+  { title: "Fee circular 3rd Sem and 5th Sem - AY 26-27", date: "06/07/2026", file: "higher-sem-fees-circular-3rd-5th-sem-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
+  { title: "Fee circular 7th sem - AY 26-27", date: "06/07/2026", file: "7th-sem-fee-circular-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
+  { title: "Registration to B.E./B.Tech. Honours Degree Programme", date: "11/09/2025", file: "2637-Registration-to-B.E.-B.Tech_.-Honours-Degree-Programme.pdf", year: "2025-26", category: "Academic Circulars" },
+  { title: "2nd Year Fee Payment Circular", date: "28/08/2025", file: "2nd-year-fee-payment-circular.pdf", year: "2025-26", category: "Fee Circulars" },
+  { title: "Higher Semester Fees Circular", date: "28/08/2025", file: "higher-semester-fees-circular.pdf", year: "2025-26", category: "Fee Circulars" },
+  { title: "Higher Semester Fees Circular", date: "14/07/2025", file: "higher-semister-fees-circular-1.pdf", year: "2025-26", category: "Fee Circulars" },
+  { title: "Circular — Parents Teachers Meeting", date: "27/05/2025", file: "Circular-_-Parents-Teachers-meeting.pdf", year: "2024-25", category: "General Circulars" },
+  { title: "Honours Degree — Programme Details", date: "—", file: "ATME-VTU-Honours-Degree-Details.pdf", year: "2024-25", category: "Academic Circulars" },
+  { title: "Minor Degree — Programme Details", date: "—", file: "ATME-VTU-Minor-degree-Details.pdf", year: "2024-25", category: "Academic Circulars" },
 ];
 
 export const approvals = [
