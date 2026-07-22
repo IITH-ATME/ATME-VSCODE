@@ -47,8 +47,7 @@ function CircularsPage() {
     <InfoPage eyebrow="Office of the Principal" title="Circulars & Notifications" subtitle="Latest notices, schedules and announcements">
       {years.map((y) => (
         <section key={y} className="mt-10">
-          <h2 className="text-xl font-bold text-foreground">Student Circulars · AY {y}</h2>
-          <p className="text-xs text-muted-foreground mb-3">(latest first)</p>
+          <h2 className="text-xl font-bold text-foreground mb-3">Student Circulars · AY {y}</h2>
           <ul className="divide-y divide-border rounded-2xl border border-border bg-card overflow-hidden">
             {byYear[y].map((c) => <Row key={c.file} title={c.title} date={c.date} file={c.file} />)}
           </ul>
