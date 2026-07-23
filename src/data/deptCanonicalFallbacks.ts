@@ -131,7 +131,7 @@ export const NEW_NEWSLETTERS: Record<string, { heading: string; url: string }> =
     url: "/__l5e/assets-v1/ca8cc925-f698-4945-9434-e2488d2ff7c2/ECE-ECHELON-Newsletter-Vol-13-Issue-1-Feb-2026.pdf",
   },
   eee: {
-    heading: "INSPIRE — Volume 11 : Issue 1, January 2026",
+    heading: "AY:2025-26",
     url: "/__l5e/assets-v1/11f3d0c2-f089-4ff1-af1e-dfc3d6f29a6a/EEE-INSPIRE-Newsletter-Vol-11-Issue-1-Jan-2026.pdf",
   },
   me: {
