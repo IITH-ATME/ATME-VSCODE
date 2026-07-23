@@ -210,9 +210,9 @@ export const csdAllFaculty: Faculty[] = [
   
   { id: "dr-mrs-divya-n", name: "Mrs. Divya N", designation: "Assistant Professor", qualification: "BE in Computer Science and Engineering, MTech in Computer Science and Engineering", doj: "01/08/2025", image: "/images/uploads/2026/05/DIVYA-N-1.jpg", cvUrl: "https://atme.edu.in/dr-mrs-divya-n/" },
   { id: "shashank-patil", name: "Mr. Shashank Patil", designation: "Assistant Professor", qualification: "BE, MTech", doj: "28/08/2025", image: "/images/uploads/2026/03/Shashank-Patil-1.jpg.jpeg", cvUrl: "https://atme.edu.in/shashank-patil/" },
-  { id: "pushpa-p", name: "Mrs. Pushpa.P", designation: "Assistant Professor", qualification: "B.E, MTech", doj: "", image: "/images/uploads/2024/03/Pushpa-P.jpg", cvUrl: "https://atme.edu.in/pushpa-p/" },
+  { id: "pushpa-p", name: "Mrs. Pushpa.P", designation: "Assistant Professor", qualification: "B.E, MTech", doj: "04/01/2023", image: "/images/uploads/2024/03/Pushpa-P.jpg", cvUrl: "https://atme.edu.in/pushpa-p/" },
   { id: "janhavi-nandish", name: "Mrs. Janhavi Nandish", designation: "Assistant Professor", qualification: "BE in Computer Science & Engineering (2016), MTech in Computer Science & Engineering (2018)", doj: "03/02/2025", image: "/images/uploads/2025/05/Janhavi-Nandish-2.jpg", cvUrl: "https://atme.edu.in/janhavi-nandish/" },
-  { id: "harshitha-m-k", name: "Mrs. Harshitha M K", designation: "Assistant Professor", qualification: "M.Tech in Software Engineering; B.E in Computer Science & Engineering", doj: "", image: "/__l5e/assets-v1/e5404074-e29e-4978-9a35-1a33ed61b4cd/harshitha-m-k.jpg", cvUrl: "/departments/csd/faculty/harshitha-m-k" },
+  { id: "harshitha-m-k", name: "Mrs. Harshitha M K", designation: "Assistant Professor", qualification: "M.Tech in Software Engineering; B.E in Computer Science & Engineering", doj: "01/06/2026", image: "/__l5e/assets-v1/e5404074-e29e-4978-9a35-1a33ed61b4cd/harshitha-m-k.jpg", cvUrl: "/departments/csd/faculty/harshitha-m-k" },
   { id: "pardeepu-j", name: "Pardeepu J", designation: "", qualification: "DIPLOMA IN ELECTRONICS & COMMUNICATION", doj: "", image: "/images/uploads/2025/04/PARDEEPU-J-2.jpg", cvUrl: "https://atme.edu.in/pardeepu-j/" },
   { id: "mahadeva-swamy-dm", name: "Mahadeva Swamy Dm", designation: "Programmer", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "/images/uploads/2023/08/MAHADEVA-SWAMY-DM-1.jpg", cvUrl: "https://atme.edu.in/mahadeva-swamy-dm/" },
   { id: "mukesh-k", name: "Mukesh K", designation: "Instructor", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "/images/uploads/2025/04/MUKESH-K-2.jpg", cvUrl: "https://atme.edu.in/mukesh-k/" },
@@ -230,8 +230,8 @@ export const cyAllFaculty: Faculty[] = [
   { id: "mr-chetan-godinal", name: "Mr.Chethan Godinal", designation: "Assistant Professor", qualification: "BE in Computer Science and Engineering, MTech in Computer Science and Engineering-2025", doj: "17/11/2025", image: "/images/uploads/2026/03/Chetan-Godinal-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mr-chetan-godinal/" },
   { id: "pardeepu-j", name: "Pardeepu J", designation: "", qualification: "DIPLOMA IN ELECTRONICS & COMMUNICATION", doj: "", image: "/images/uploads/2025/04/PARDEEPU-J-2.jpg", cvUrl: "https://atme.edu.in/pardeepu-j/" },
   { id: "mukesh-k", name: "Mukesh K", designation: "Instructor", qualification: "BE COMPUTER SCIENCE AND ENGINEERING", doj: "", image: "/images/uploads/2025/04/MUKESH-K-2.jpg", cvUrl: "https://atme.edu.in/mukesh-k/" },
-  { id: "mr-kumar-g", name: "Mr. Kumar G", designation: "Attender", qualification: "", doj: "12/09/2025", image: "", cvUrl: "" },
-  { id: "mr-shashi-kumar-c", name: "Mr. Shashi Kumar C", designation: "Attender", qualification: "", doj: "01/04/2026", image: "", cvUrl: "" },
+  { id: "mr-kumar-g", name: "Mr. Kumar G", designation: "Attender", qualification: "", doj: "12/09/2025", image: "/images/uploads/cy-supporting-staff/mr-kumar-g.jpg", cvUrl: "" },
+  { id: "mr-shashi-kumar-c", name: "Mr. Shashi Kumar C", designation: "Attender", qualification: "", doj: "01/04/2026", image: "/images/uploads/cy-supporting-staff/mr-shashi-kumar-c.jpg", cvUrl: "" },
 
 ];
 export const cyStaff: Faculty[] = [];

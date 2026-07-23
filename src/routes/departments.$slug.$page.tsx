@@ -2285,7 +2285,7 @@ const DEPT_YOUTUBE: Record<string, string> = {
   chemistry: "https://www.youtube.com/channel/UChSac99JWA3-sOKFjAzWcTg",
   physics: "https://www.youtube.com/channel/UChSac99JWA3-sOKFjAzWcTg",
   mba: "https://www.youtube.com/c/ATMECEOfficial",
-  cy: "https://www.youtube.com/c/ATMECEOfficial",
+  cy: "https://www.youtube.com/@CSE-CYATMECE",
   ece: "https://www.youtube.com/c/ATMEYAElectrocrats",
   eee: "https://www.youtube.com/channel/UCM0Yw9M401B6P1W1dLyKWFw",
   mca: "https://www.youtube.com/@atmemca",
