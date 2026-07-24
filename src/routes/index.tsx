@@ -456,7 +456,7 @@ function Home() {
                 <h3 className="text-xl md:text-2xl font-bold tracking-tight">Apply Now for 2026–27</h3>
                 <p className="mt-2 text-white/90 text-sm">Seats filling fast. Don't miss out!</p>
                 <div className="mt-auto pt-6 flex flex-col gap-3">
-                  <a href="https://new.atme.edu.in/admissions/" className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-[#ea580c] px-5 py-3 text-sm font-semibold hover:scale-[1.02] transition">
+                  <a href="https://atme.edu.in/admissions" className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-[#ea580c] px-5 py-3 text-sm font-semibold hover:scale-[1.02] transition">
                     <GraduationCap className="h-4 w-4" /> Apply Online
                   </a>
                   <a href="tel:+918212954081" className="inline-flex items-center justify-center gap-2 rounded-full bg-white/15 border border-white/40 px-5 py-3 text-sm font-semibold hover:bg-white/25 transition">
