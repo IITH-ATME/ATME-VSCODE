@@ -57,6 +57,8 @@ export function AdmissionsPopup() {
             alt="ATME Admissions Open — No Donation, No Development Fee"
             className="block w-full h-auto"
             loading="eager"
+            width={1100}
+            height={1320}
           />
         </a>
       </div>

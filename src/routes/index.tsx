@@ -4,7 +4,7 @@ import { Layout } from "@/components/site/Layout";
 import { HomeHero } from "@/components/site/HomeHero";
 import { Reveal, Counter } from "@/components/site/Reveal";
 import heroImg from "@/assets/hero-campus.jpg";
-import slide1 from "@/assets/slide-1.jpg.asset.json";
+import slide2 from "@/assets/slide-2.jpg.asset.json";
 import brochure from "@/assets/college-brochure.pdf.asset.json";
 import {
   ArrowRight, Calendar, MapPin, Clock,
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       { rel: "canonical", href: "https://atme.edu.in/" },
-      { rel: "preload", as: "image", href: resolveAssetUrl(slide1.url), fetchpriority: "high" } as unknown as { rel: string; href: string },
+      { rel: "preload", as: "image", href: resolveAssetUrl(slide2.url), fetchpriority: "high" } as unknown as { rel: string; href: string },
     ],
   }),
 
@@ -46,20 +46,20 @@ const accreditations = [
 ];
 
 const ugCourses = [
-  { t: "Civil Engineering", img: "/images/home/civil.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "ce" },
-  { t: "Computer Science & Design", img: "/images/home/CS-D.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Achievements...", slug: "csd" },
-  { t: "Computer Science and Engineering", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "cse" },
-  { t: "CSE — Artificial Intelligence & Machine Learning", img: "/images/home/cs-ai-ml.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Calendar...", slug: "aiml" },
-  { t: "CSE — Cyber Security", img: "/images/home/CSE-cyber-security.png", d: "ATME College of Engineering About the Department Learning Resourcses Staff Details Calendar...", slug: "cy" },
-  { t: "CSE — Data Science", img: "/images/home/CSE-data-science.png", d: "ATME College of Engineering About the Department Learning Resourcses Innovative Teaching Learning...", slug: "ds" },
-  { t: "Electrical & Electronics Engineering", img: "/images/home/EC.png", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resources...", slug: "eee" },
-  { t: "Electronics and Communication Engineering", img: "/images/home/EC-1.png", d: "ATME College of Engineering About the Department Infrastructure Learning Resourcses Staff Details...", slug: "ece" },
-  { t: "Mechanical Engineering", img: "/images/home/mechanical.png", d: "ATME College of Engineering About the Department Infrastructure Faculty Details Learning Resourcses...", slug: "me" },
-  { t: "Bachelor of Computer Applications (BCA)", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
+  { t: "Civil Engineering", img: "/images/home/civil.webp", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "ce" },
+  { t: "Computer Science & Design", img: "/images/home/CS-D.webp", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Achievements...", slug: "csd" },
+  { t: "Computer Science and Engineering", img: "/images/home/CSE-1.webp", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resourcses...", slug: "cse" },
+  { t: "CSE — Artificial Intelligence & Machine Learning", img: "/images/home/cs-ai-ml.webp", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses Calendar...", slug: "aiml" },
+  { t: "CSE — Cyber Security", img: "/images/home/CSE-cyber-security.webp", d: "ATME College of Engineering About the Department Learning Resourcses Staff Details Calendar...", slug: "cy" },
+  { t: "CSE — Data Science", img: "/images/home/CSE-data-science.webp", d: "ATME College of Engineering About the Department Learning Resourcses Innovative Teaching Learning...", slug: "ds" },
+  { t: "Electrical & Electronics Engineering", img: "/images/home/EC.webp", d: "ATME College of Engineering About the Department Infrastructure Staff Details Learning Resources...", slug: "eee" },
+  { t: "Electronics and Communication Engineering", img: "/images/home/EC-1.webp", d: "ATME College of Engineering About the Department Infrastructure Learning Resourcses Staff Details...", slug: "ece" },
+  { t: "Mechanical Engineering", img: "/images/home/mechanical.webp", d: "ATME College of Engineering About the Department Infrastructure Faculty Details Learning Resourcses...", slug: "me" },
+  { t: "Bachelor of Computer Applications (BCA)", img: "/images/home/CSE-1.webp", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
 ];
 const pgCourses = [
-  { t: "Master of Business Administration (MBA)", img: "/images/home/mechanical.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mba" },
-  { t: "Master of Computer Applications (MCA)", img: "/images/home/CSE-1.png", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
+  { t: "Master of Business Administration (MBA)", img: "/images/home/mechanical.webp", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mba" },
+  { t: "Master of Computer Applications (MCA)", img: "/images/home/CSE-1.webp", d: "ATME College of Engineering About the Department Staff Details Learning Resourcses...", slug: "mca" },
 ];
 
 type Level = "all" | "ug" | "pg";
@@ -194,6 +194,7 @@ const keyDates = [
 function Home() {
   const [tab, setTab] = useState<"ug" | "pg">("ug");
   const [newsFilter, setNewsFilter] = useState<Level>("all");
+  const [playIntro, setPlayIntro] = useState(false);
   const courses = tab === "ug" ? ugCourses : pgCourses;
   const filteredEvents = events.filter((e) => newsFilter === "all" || e.level === newsFilter);
   const filteredNotices = notices.filter((n) => newsFilter === "all" || n.level === newsFilter);
@@ -231,14 +232,39 @@ function Home() {
 
             <Reveal delay={200}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video bg-muted ring-1 ring-border">
-                <iframe
-                  src="https://www.youtube.com/embed/miq_BqPfA_M?rel=0"
-                  title="ATME College of Engineering"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="absolute inset-0 w-full h-full"
-                />
+                {playIntro ? (
+                  <iframe
+                    src="https://www.youtube.com/embed/miq_BqPfA_M?rel=0&autoplay=1"
+                    title="ATME College of Engineering"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                  />
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setPlayIntro(true)}
+                    aria-label="Play video: ATME College of Engineering"
+                    className="group absolute inset-0 h-full w-full"
+                  >
+                    <img
+                      src="https://i.ytimg.com/vi/miq_BqPfA_M/hqdefault.jpg"
+                      alt="ATME College of Engineering"
+                      loading="lazy"
+                      width={480}
+                      height={360}
+                      className="absolute inset-0 h-full w-full object-cover"
+                    />
+                    <span className="absolute inset-0 bg-black/20 transition-colors group-hover:bg-black/30" />
+                    <span className="absolute inset-0 grid place-items-center">
+                      <span className="grid h-16 w-16 place-items-center rounded-full bg-white/90 shadow-xl transition-transform group-hover:scale-110 sm:h-20 sm:w-20">
+                        <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 translate-x-0.5 text-[#ea580c] sm:h-8 sm:w-8">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </span>
+                    </span>
+                  </button>
+                )}
               </div>
             </Reveal>
           </div>
@@ -327,7 +353,7 @@ function Home() {
               <Reveal key={c.slug} delay={i * 60} className="h-full">
                 <Link to="/departments/$slug" params={{ slug: c.slug }} className="h-full flex flex-col group rounded-2xl overflow-hidden border bg-card hover:shadow-xl transition-all hover:-translate-y-1 active:-translate-y-1">
                   <div className="aspect-[16/10] overflow-hidden bg-muted">
-                    <img src={c.img} alt={c.t} loading="lazy" className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
+                    <img src={c.img} alt={c.t} loading="lazy" width={400} height={250} className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
                   </div>
                   <div className="p-5 flex-1 flex flex-col">
                     <div className="flex-1 flex items-center justify-center text-center">
