@@ -24,6 +24,15 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
+    // Split each route's component AND loader into their own chunk instead of
+    // bundling all 53 routes (plus their data imports) into one file loaded
+    // on every page visit. Loader isn't split by the plugin's default grouping.
+    router: {
+      autoCodeSplitting: true,
+      codeSplittingOptions: {
+        groupings: [["loader"], ["component"], ["errorComponent"], ["notFoundComponent"]],
+      },
+    },
   },
   vite: {
     define: {

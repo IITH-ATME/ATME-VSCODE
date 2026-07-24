@@ -1,13 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
-import scrapedAll from "@/data/scrapedAll.json";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 
 type S = Record<string, { title?: string; markdown?: string }>;
-const SA = scrapedAll as S;
 
 export const Route = createFileRoute("/iirs-isro-nc")({
+  loader: async () => {
+    const { default: scrapedAll } = await import("@/data/scrapedAll.json");
+    const page = (scrapedAll as S)["iirs-isro-nc"];
+    return { markdown: page?.markdown || "" };
+  },
   component: IIRSPage,
   head: () => ({
     meta: [
@@ -53,8 +56,8 @@ function fixAchievementsTable(md: string): string {
 }
 
 function IIRSPage() {
-  const page = SA["iirs-isro-nc"];
-  const md = fixAchievementsTable(page?.markdown || "");
+  const { markdown } = Route.useLoaderData();
+  const md = fixAchievementsTable(markdown);
   return (
     <Layout>
       <PageHero bgImage={SECTION_BANNER.research} eyebrow="Research" title="IIRS-ISRO Network Centre" />

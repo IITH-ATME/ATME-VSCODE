@@ -1,4 +1,6 @@
 node_modules
+.output
+.wrangler
 
 # Rehosted Lovable CDN assets — served directly from Hostinger public_html via FTP,
 # not bundled into the git-deployed build (repo was too large for Hostinger's git checkout).

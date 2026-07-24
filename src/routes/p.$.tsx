@@ -16,7 +16,6 @@ import rehypeRaw from "rehype-raw";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { PdfThumbCard } from "@/components/site/PdfThumbCard";
-import scraped from "@/data/scrapedAll.json";
 import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { pdfFromAtmeUrl, rewritePdfUrls } from "@/data/pdfRewrite";
 import { rewriteImageSrc } from "@/data/imageRewrite";
@@ -26,8 +25,6 @@ import { findSectionForSlug } from "@/lib/navStructure";
 import { SectionTabNav } from "@/components/site/SectionTabNav";
 import { getHubForSplat } from "@/lib/hubTabs";
 import { getPdfSectionsForPage } from "@/data/pagePdfSections";
-import { getBodyOverride, UG_FEES_URL } from "@/data/pageBodyOverrides";
-import "@/data/validatePagePdfSections";
 import { DocSectionTabs } from "@/components/site/DocSectionTabs";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { TabbedAccordion } from "@/components/site/TabbedAccordion";
@@ -44,7 +41,14 @@ import { SECTION_BANNER, type SectionKey } from "@/lib/sectionBanners";
 import campusBanner from "@/assets/college-infra.jpg.asset.json";
 
 type Page = { title: string; description?: string; markdown: string; sourceURL: string };
-const DATA = scraped as unknown as Record<string, Page>;
+
+// Dev-only PDF-mapping validation (console warnings while editing
+// pagePdfSections.ts). Dynamically imported so scrapedAll.json — which this
+// check needs — is never pulled into the production client bundle; the
+// import.meta.env.DEV guard lets Vite tree-shake this whole block in prod.
+if (typeof window !== "undefined" && import.meta.env.DEV) {
+  import("@/data/validatePagePdfSections");
+}
 
 // Nav menu slugs that don't match the scraped slug 1:1 — alias them so links
 // land on the correct content instead of the "coming soon" stub.
@@ -64,7 +68,9 @@ const SLUG_ALIASES: Record<string, string> = {
 };
 
 export const Route = createFileRoute("/p/$")({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
+    const { default: scraped } = await import("@/data/scrapedAll.json");
+    const DATA = scraped as unknown as Record<string, Page>;
     const splat = (params as { _splat?: string })._splat || "";
     const key = splat.replace(/^\/+|\/+$/g, "");
     // Removed: consolidated "about-us/affiliations-approvals" landing page.
@@ -83,6 +89,9 @@ export const Route = createFileRoute("/p/$")({
       DATA[decodeURIComponent(key)] ||
       (aliased ? DATA[aliased] : undefined);
 
+    const { getBodyOverride, UG_FEES_URL: ugFeesUrl } = await import("@/data/pageBodyOverrides");
+    const overrideBody = getBodyOverride(key);
+
     if (!page) {
       // Stub fallback: render a generic "info coming soon" page so card links
       // never produce a hard 404 while content is being curated.
@@ -96,9 +105,9 @@ export const Route = createFileRoute("/p/$")({
         markdown: `## ${title}\n\nDetailed information for **${title}** at ATME College of Engineering will be published here shortly.`,
         sourceURL: "",
       };
-      return { page: stub, key };
+      return { page: stub, key, overrideBody, ugFeesUrl };
     }
-    return { page, key };
+    return { page, key, overrideBody, ugFeesUrl };
   },
   head: ({ loaderData }) => ({
     meta: loaderData ? [
@@ -176,8 +185,7 @@ function extractHeadings(md: string): { id: string; text: string; level: number 
 }
 
 function RehostedPage() {
-  const { page, key } = Route.useLoaderData();
-  const overrideBody = getBodyOverride(key);
+  const { page, key, overrideBody, ugFeesUrl } = Route.useLoaderData();
   const sourceMd = overrideBody ?? page.markdown;
   // Rewrite atme.edu.in / new.atme / old.atme image and PDF URLs to their
   // rehosted CDN copies (falls back to old.atme.edu.in for images we haven't
@@ -1411,7 +1419,7 @@ function RehostedPage() {
                           const emb = pdfEmbeds[gi];
                           if (emb) {
                             nodes.push(
-                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} height={620} hideDownload={emb.url === UG_FEES_URL} />,
+                              <PdfEmbed key={`${keyPrefix}-pe-${gi}`} url={emb.url} title={emb.title} height={620} hideDownload={emb.url === ugFeesUrl} />,
                             );
                           }
                         }

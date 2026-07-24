@@ -1,10 +1,11 @@
 // Maps a (department slug, canonical section key) to a scrapedAll.json key
 // so canonical-section placeholder routes (COE, Magazine, News Letter)
 // render the rich old.atme.edu.in content + PDFs for every department.
-import scrapedAll from "@/data/scrapedAll.json";
+// scrapedAll.json is ~7.6MB, so it's dynamically imported (see
+// getCanonicalFallback below) instead of statically here, keeping it out of
+// the eagerly-loaded route bundle for departments that never hit this path.
 
 type ScrapedEntry = { title?: string; markdown?: string; sourceURL?: string };
-const SA = scrapedAll as Record<string, ScrapedEntry>;
 
 // Per-department best matches discovered in scrapedAll.json. Order matters:
 // the first key that exists in scrapedAll wins; the final entry is a
@@ -148,16 +149,20 @@ function newsletterPrefix(deptSlug: string): string {
 
 
 /** Resolve the best scraped markdown + title for a given dept+canonical key. */
-export function getCanonicalFallback(
+export async function getCanonicalFallback(
   deptSlug: string,
   canonicalKey: string,
-): { markdown: string; title: string } | null {
+): Promise<{ markdown: string; title: string } | null> {
   // Latest-issue prefix is added by the route's normalizeNewsletterMd so that
   // both the placeholder route and the scraped route share the same prepend
   // logic. Keep this helper focused on resolving the best scraped/inline body.
   const prefix = "";
   void newsletterPrefix;
   const candidates = MAP[canonicalKey]?.[deptSlug];
+  const inline = INLINE[canonicalKey]?.[deptSlug];
+  if (!candidates && !inline) return null;
+  const { default: scrapedAll } = await import("@/data/scrapedAll.json");
+  const SA = scrapedAll as Record<string, ScrapedEntry>;
   if (candidates) {
     for (const k of candidates) {
       const entry = SA[k];
@@ -170,7 +175,6 @@ export function getCanonicalFallback(
       }
     }
   }
-  const inline = INLINE[canonicalKey]?.[deptSlug];
   if (inline) return { markdown: (prefix + inline).trim(), title: "" };
   // Last-resort: return the first non-empty scraped candidate even without
   // PDFs (so the page isn't blank), preserving prior behavior.

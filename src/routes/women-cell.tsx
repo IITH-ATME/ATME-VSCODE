@@ -9,13 +9,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { PdfThumbCard } from "@/components/site/PdfThumbCard";
-import scrapedAll from "@/data/scrapedAll.json";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 
 type S = Record<string, { title?: string; markdown?: string }>;
-const SA = scrapedAll as S;
 
 export const Route = createFileRoute("/women-cell")({
+  loader: async () => {
+    const { default: scrapedAll } = await import("@/data/scrapedAll.json");
+    const page = (scrapedAll as S)["women-cell-atme"];
+    return { markdown: page?.markdown || "" };
+  },
   component: WomenCellPage,
   head: () => ({
     meta: [
@@ -144,7 +147,7 @@ function SectionBody({ section }: { section: Section }) {
 }
 
 function WomenCellPage() {
-  const md = SA["women-cell-atme"]?.markdown || "";
+  const { markdown: md } = Route.useLoaderData();
   const sections = parseSections(md).filter(
     (s) => s.body.trim() || s.children.length > 0,
   );

@@ -8,7 +8,6 @@ import rehypeRaw from "rehype-raw";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { DeptSubNav } from "@/components/site/DeptSubNav";
 import { getDept, resolveDeptSlug } from "@/data/departments";
-import scraped from "@/data/deptScraped.json";
 import { pdfFromAtmeUrl, rewritePdfUrls } from "@/data/pdfRewrite";
 import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { DEPT_PAGES } from "@/data/deptPageConfig";
@@ -50,7 +49,6 @@ const DeptContext = createContext<string | undefined>(undefined);
 
 
 type ScrapedMap = Record<string, Record<string, { title: string; markdown: string; sourceURL: string }>>;
-const DATA = scraped as ScrapedMap;
 
 /**
  * Some scraped pages combine an "E - News Letter" section and an
@@ -113,7 +111,7 @@ function normalizeNewsletterMd(md: string, deptSlug: string): string {
 }
 
 export const Route = createFileRoute("/departments/$slug/$page")({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
     const dept = getDept(params.slug);
     if (!dept) throw notFound();
 
@@ -124,6 +122,8 @@ export const Route = createFileRoute("/departments/$slug/$page")({
       throw redirect({ to: "/departments/$slug/faculty", params: { slug: params.slug } });
     }
 
+    const { default: scraped } = await import("@/data/deptScraped.json");
+    const DATA = scraped as ScrapedMap;
     const pages = DATA[resolveDeptSlug(params.slug)] || {};
 
     // Placeholder route: canonical section without scraped content yet.
@@ -162,7 +162,7 @@ export const Route = createFileRoute("/departments/$slug/$page")({
       // COE / Magazine / News Letter: pull from a department-specific
       // scrapedAll entry so every dept shows year-wise PDFs/accordions.
       if (!placeholderMd && (canonKey === "coe" || canonKey === "magazine" || canonKey === "news-letter")) {
-        const fb = getCanonicalFallback(resolveDeptSlug(params.slug), canonKey);
+        const fb = await getCanonicalFallback(resolveDeptSlug(params.slug), canonKey);
         if (fb) {
           placeholderMd = fb.markdown;
           if (fb.title) placeholderTitle = fb.title;
@@ -181,7 +181,7 @@ export const Route = createFileRoute("/departments/$slug/$page")({
         markdown: placeholderMd,
         sourceURL: "",
       };
-      return { dept, page: placeholder, pageKey: params.page, isPlaceholder: placeholderMd.length === 0, canonKey };
+      return { dept, page: placeholder, pageKey: params.page, isPlaceholder: placeholderMd.length === 0, canonKey, allPages: pages };
 
     }
 
@@ -198,7 +198,7 @@ export const Route = createFileRoute("/departments/$slug/$page")({
       pageMd = normalizeNewsletterMd(pageMd, resolveDeptSlug(params.slug));
     }
     const adjustedPage = pageMd === page.markdown ? page : { ...page, markdown: pageMd };
-    return { dept, page: adjustedPage, pageKey: params.page, isPlaceholder: false, canonKey: null as string | null };
+    return { dept, page: adjustedPage, pageKey: params.page, isPlaceholder: false, canonKey: null as string | null, allPages: pages };
 
   },
   head: ({ loaderData }) => ({
@@ -564,7 +564,7 @@ function MD({ children }: { children: string }) {
 }
 
 function DeptSubPage() {
-  const { dept, page, pageKey, isPlaceholder, canonKey } = Route.useLoaderData();
+  const { dept, page, pageKey, isPlaceholder, canonKey, allPages } = Route.useLoaderData();
   // Prefer the sidebar menu label (e.g. "Industry Interface") over the raw
   // scraped page title (which often includes the dept prefix like
   // "Civil Industry Interface" or "CV Industry Interface").
@@ -604,7 +604,7 @@ function DeptSubPage() {
   // (typically `innovative-teaching-learning-methods` for CSE and the
   // `resources` page for other departments). Strip them out of any page
   // they originally appeared on so we don't render them twice.
-  const deptPagesAll = DATA[resolveDeptSlug(dept.slug)] || {};
+  const deptPagesAll = allPages;
   const normalize = (raw: string) =>
     raw ? titleCaseMarkdownHeadings(sanitizeMarkdown(rewritePdfUrls(raw))) : "";
   const labVideosParts: string[] = [];

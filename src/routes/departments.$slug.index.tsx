@@ -5,13 +5,13 @@ import {
   resolveCanonicalSections,
   isCanonicalSectionAvailable,
 } from "@/data/canonicalSections";
-import scrapedDept from "@/data/deptScraped.json";
 import { INFRA_DATA } from "@/data/infrastructureScraped";
 
 type Map = Record<string, Record<string, { title: string }>>;
 
 export const Route = createFileRoute("/departments/$slug/")({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
+    const { default: scrapedDept } = await import("@/data/deptScraped.json");
     const dept = getDept(params.slug);
     if (!dept) throw notFound();
     const resolvedSlug = resolveDeptSlug(params.slug);

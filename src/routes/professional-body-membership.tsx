@@ -1,13 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
-import scrapedAll from "@/data/scrapedAll.json";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 
 type S = Record<string, { title?: string; markdown?: string }>;
-const SA = scrapedAll as S;
 
 export const Route = createFileRoute("/professional-body-membership")({
+  loader: async () => {
+    const { default: scrapedAll } = await import("@/data/scrapedAll.json");
+    const SA = scrapedAll as S;
+    const page = SA["professional-body-membership"] || SA["ieee-home-2"];
+    return { markdown: page?.markdown || "" };
+  },
   component: PBMPage,
   head: () => ({
     meta: [
@@ -18,8 +22,7 @@ export const Route = createFileRoute("/professional-body-membership")({
 });
 
 function PBMPage() {
-  const page = SA["professional-body-membership"] || SA["ieee-home-2"];
-  const md = page?.markdown || "";
+  const { markdown: md } = Route.useLoaderData();
   return (
     <Layout>
       <PageHero bgImage={SECTION_BANNER.about} eyebrow="Quick Links" title="Professional Body Membership" />

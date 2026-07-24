@@ -18,9 +18,6 @@ import { formatFacultyName } from "@/lib/facultyName";
 
 import { ArrowLeft, Mail, GraduationCap, BookOpen, Award, Globe, Linkedin, ExternalLink } from "lucide-react";
 import { categorize } from "@/components/site/FacultyDirectory";
-import { facultyPages } from "@/data/facultyPages";
-import { facultyPageFallbacks } from "@/data/facultyPageFallbacks";
-import { facultyPageOverrides } from "@/data/facultyPageOverrides";
 import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { rewritePdfUrls } from "@/data/pdfRewrite";
 import { parseFacultyProfile } from "@/data/parseFacultyProfile";
@@ -79,7 +76,12 @@ const facultyIdAliases: Record<string, string> = {
   "dr-neethi-m-v": "mrs-neethi-m-v",
 };
 
-function getFacultyPage(facultyId: string) {
+async function getFacultyPage(facultyId: string) {
+  const [{ facultyPageOverrides }, { facultyPages }, { facultyPageFallbacks }] = await Promise.all([
+    import("@/data/facultyPageOverrides"),
+    import("@/data/facultyPages"),
+    import("@/data/facultyPageFallbacks"),
+  ]);
   const lookupIds = [facultyId, facultyIdAliases[facultyId]].filter(Boolean) as string[];
   for (const id of lookupIds) {
     const override = facultyPageOverrides[id];
@@ -94,7 +96,7 @@ function getFacultyPage(facultyId: string) {
 
 
 export const Route = createFileRoute("/departments/$slug/faculty/$facultyId")({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
     const dept = getDept(params.slug);
     if (!dept) throw notFound();
     const pool = [...dept.faculty, ...(ALL_BY_DEPT[dept.slug] ?? [])];
@@ -102,7 +104,8 @@ export const Route = createFileRoute("/departments/$slug/faculty/$facultyId")({
     if (!raw) throw notFound();
     const merged = mergeFaculty(raw);
     const faculty = { ...merged, name: formatFacultyName(merged.name) };
-    return { dept, faculty };
+    const scrapedPage = await getFacultyPage(faculty.id);
+    return { dept, faculty, scrapedMd: scrapedPage?.md ?? "" };
 
   },
 
@@ -117,15 +120,14 @@ export const Route = createFileRoute("/departments/$slug/faculty/$facultyId")({
 });
 
 function FacultyDetail() {
-  const { dept, faculty } = Route.useLoaderData();
+  const { dept, faculty, scrapedMd } = Route.useLoaderData();
   const isStaffCat = categorize(faculty.designation);
   const isStaff = isStaffCat === "technical" || isStaffCat === "supporting";
   const extras = facultyExtras[faculty.id];
   // Auto-extract Contact Details from the scraped markdown so every faculty
   // with an old-atme profile page gets a populated table, not just the ones
   // manually backfilled in facultyExtras.
-  const scrapedPage = getFacultyPage(faculty.id);
-  const autoContact = extractContactFromMarkdown(scrapedPage?.md);
+  const autoContact = extractContactFromMarkdown(scrapedMd);
   const explicitIds: Record<string, string> = (extras?.ids as Record<string, string>) ?? {};
   // Manual entries (facultyExtras) win; auto-extracted fills any gaps.
   const ids: Record<string, string> = { ...autoContact.ids, ...explicitIds };
@@ -286,7 +288,7 @@ function FacultyDetail() {
             </div>
           )}
 
-          {!isStaff && <ScrapedProfileContent facultyId={faculty.id} isStaff={isStaff} />}
+          {!isStaff && <ScrapedProfileContent facultyId={faculty.id} md={scrapedMd} isStaff={isStaff} />}
 
         </div>
       </section>
@@ -398,9 +400,7 @@ const CANONICAL_SECTIONS: { title: string; aliases: string[] }[] = [
 
 const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, " ").trim();
 
-function ScrapedProfileContent({ facultyId, isStaff }: { facultyId: string; isStaff: boolean }) {
-  const page = getFacultyPage(facultyId);
-  const raw = page?.md ?? "";
+function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: string; md: string; isStaff: boolean }) {
 
   const itemProse =
     "prose prose-sm md:prose-base prose-slate max-w-none prose-a:text-[#129199] prose-strong:text-foreground prose-p:my-0 prose-p:leading-relaxed text-left";

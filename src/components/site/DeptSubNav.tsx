@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 import { Link } from "@tanstack/react-router";
-import scrapedDept from "@/data/deptScraped.json";
+// Lightweight per-department page-KEY index (no markdown) — this component
+// only ever checks whether a page key exists, never its content, so it
+// doesn't need the full ~1.6MB deptScraped.json that departments.$slug.$page
+// loads for actual page bodies.
+import deptScrapedKeys from "@/data/deptScrapedKeys.json";
 import { getDeptPages } from "@/data/deptPageConfig";
 import { getDept, resolveDeptSlug } from "@/data/departments";
 import { resolveCanonicalSections, PLACEHOLDER_PREFIX, isCanonicalSectionAvailable, FULL_MENU_DEPTS, DEPT_EXCLUDED_SECTIONS } from "@/data/canonicalSections";
@@ -30,7 +34,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-type Map = Record<string, Record<string, { title: string }>>;
+type KeysMap = Record<string, string[]>;
 
 function pickIcon(key: string, label: string): LucideIcon {
   const s = (key + " " + label).toLowerCase();
@@ -76,7 +80,9 @@ function toTitleCase(s: string) {
 export function DeptSubNav({ slug, activeKey }: { slug: string; activeKey?: string }) {
   // (BCA previously hid the sub-nav; now uses canonical Coming-Soon tabs)
   const resolvedSlug = resolveDeptSlug(slug);
-  const pages = ((scrapedDept as Map)[resolvedSlug] ?? (scrapedDept as Map)[slug] ?? {}) as Record<string, { title: string }>;
+  const keysList = (deptScrapedKeys as KeysMap)[resolvedSlug] ?? (deptScrapedKeys as KeysMap)[slug] ?? [];
+  const pages: Record<string, true> = {};
+  for (const k of keysList) pages[k] = true;
   const dept = getDept(slug);
   const cfg = getDeptPages(resolvedSlug) ?? getDeptPages(slug) ?? [];
   const hasFacultyScraped = cfg.some((p) => p.label === "Faculty" && pages[p.key]);

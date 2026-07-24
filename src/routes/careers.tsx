@@ -1,13 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
-import scrapedAll from "@/data/scrapedAll.json";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 
 type S = Record<string, { title?: string; markdown?: string }>;
-const SA = scrapedAll as S;
 
 export const Route = createFileRoute("/careers")({
+  loader: async () => {
+    const { default: scrapedAll } = await import("@/data/scrapedAll.json");
+    const page = (scrapedAll as S)["careers"];
+    return { markdown: page?.markdown || "" };
+  },
   component: CareersPage,
   head: () => ({
     meta: [
@@ -18,8 +21,7 @@ export const Route = createFileRoute("/careers")({
 });
 
 function CareersPage() {
-  const page = SA["careers"];
-  const md = page?.markdown || "";
+  const { markdown: md } = Route.useLoaderData();
   return (
     <Layout>
       <PageHero bgImage={SECTION_BANNER.careers} eyebrow="Quick Links" title="Careers @ ATME" />
