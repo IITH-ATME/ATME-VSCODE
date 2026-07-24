@@ -478,7 +478,7 @@ function Home() {
               <p className="text-sm font-semibold tracking-widest text-[#f5c518] uppercase">Apply Today Now</p>
               <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-[#129199]">Admissions Open Now</h2>
               <p className="mt-4 text-muted-foreground text-lg">Enroll now to begin your transformative academic journey with us.</p>
-              <a href="https://new.atme.edu.in/admissions/" className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-medium hover:opacity-90 transition">
+              <a href="https://atme.edu.in/admissions" className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-medium hover:opacity-90 transition">
                 Apply Now <ArrowRight className="h-4 w-4" />
               </a>
             </div>
