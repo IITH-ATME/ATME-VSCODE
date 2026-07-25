@@ -89,6 +89,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "about-the-department", label: "About" },
     { key: "ai-ml-hods-message", label: "HOD Profile" },
     { key: "cse-faculty-profile-ai-ml", label: "Faculty" },
+    { key: "aiml-research", label: "Research" },
     { key: "coe-cse-aiml", label: "COE" },
     { key: "resources", label: "Resources" },
   ],
