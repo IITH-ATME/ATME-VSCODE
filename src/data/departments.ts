@@ -75,7 +75,6 @@ const eceFaculty: Faculty[] = [
   { id: "madhurya-b-eshwar", name: "Mrs. Madhurya B Eshwar", designation: "Assistant Professor", qualification: "M.Tech", image: "/images/uploads/2025/08/Madhurya-B-Eshwar-2.jpg", cvUrl: "https://atme.edu.in/madhurya-b-eshwar/" },
   { id: "mr-nagesh-m-s", name: "Mr. Nagesh M S", designation: "Assistant Professor", qualification: "M.Tech", doj: "05/06/2025", image: "/images/uploads/2025/09/Mr.-Nagesh-M-S-2.jpg", cvUrl: "https://atme.edu.in/mr-nagesh-m-s/" },
   { id: "mr-manjunath-k", name: "Mr. Manjunath K", designation: "Assistant Professor", qualification: "M.Tech in VLSI Design & Embedded Systems", doj: "16/07/2015", image: "/images/uploads/2022/09/manj-233x300.jpg", cvUrl: "https://old.atme.edu.in/mr-manjunath-k/" },
-  { id: "mrs-juslin-f", name: "Mrs. Juslin F", designation: "Assistant Professor", qualification: "MTech in Digital Electronics & Communication Systems", doj: "08/07/2016", image: "/images/uploads/2022/05/Juslin-F.jpg", cvUrl: "https://old.atme.edu.in/mrs-juslin-f/" },
 ];
 
 const eeeFaculty: Faculty[] = [

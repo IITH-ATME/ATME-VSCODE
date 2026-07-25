@@ -49,6 +49,7 @@ export const cseAllFaculty: Faculty[] = [
   { id: "dhananjaya-k-s", name: "Dhananjaya K S", designation: "Attender", qualification: "", doj: "", image: "/images/uploads/2022/12/Dhananjaya-K-S-1.jpg.jpeg", cvUrl: "https://atme.edu.in/dhananjaya-k-s/" },
   { id: "mrs-kavitha-g", name: "Mrs. Kavitha G", designation: "Attender", qualification: "", doj: "", image: "/images/uploads/2022/12/Mrs-Kavitha-G-1.jpg.jpeg", cvUrl: "https://atme.edu.in/mrs-kavitha-g/" },
   { id: "mahesha-b-p", name: "Mr. Mahesha B P", designation: "Attender", qualification: "", doj: "19/01/2026", image: "/__l5e/assets-v1/8f5e95ec-2ca8-4304-925e-a04759385bee/mahesha-b-p.png", cvUrl: "/departments/cse/faculty/mahesha-b-p" },
+  { id: "yogesha-k-c", name: "Yogesha K C", designation: "Attender", qualification: "", doj: "05/12/2018", image: "/images/cse/yogesha-k-c.jpg", cvUrl: "https://atme.edu.in/yogesha-k-c/" },
 
 
 ];
@@ -65,7 +66,6 @@ export const eceAllFaculty: Faculty[] = [
   { id: "chandra-shekar-p", name: "Mr. Chandra Shekar P", designation: "Assistant Professor", qualification: "M.Tech", doj: "15/07/2013", image: "/__l5e/assets-v1/1dc04eec-6641-4bd4-8e64-7cb598dd0e7f/chandra-shekar-p.png", cvUrl: "https://atme.edu.in/chandra-shekar-p/" },
   { id: "mr-manjunath-k", name: "Mr. Manjunath K", designation: "Assistant Professor", qualification: "M.Tech in VLSI Design & Embedded Systems", doj: "16/07/2015", image: "/__l5e/assets-v1/e7073e1c-06ea-491b-b90f-523adce25dd4/mr-manjunath-k.png", cvUrl: "https://atme.edu.in/mr-manjunath-k/" },
   { id: "mr-girish-m", name: "Mr. Girish M", designation: "Assistant Professor", qualification: "B.E in Electronics and Communication Engineering, M.Tech in Digital Electronics and Communication Systems", doj: "15/07/2015", image: "/__l5e/assets-v1/708ba8bc-f93f-4ed8-be01-412a56071b71/mr-girish-m.png", cvUrl: "https://atme.edu.in/mr-girish-m/" },
-  { id: "mrs-juslin-f", name: "Mrs. Juslin F", designation: "Assistant Professor", qualification: "B.E in Telecommunication, M.Tech in Digital Electronics & Communication System, Pursuing PhD in Health Care Engineering (JAIN Deemed-to-be University)", doj: "08/07/2016", image: "/__l5e/assets-v1/43b8921e-938b-4835-9f4a-ec8269062735/mrs-juslin-f.png", cvUrl: "https://atme.edu.in/mrs-juslin-f/" },
   { id: "ms-anupama-shetter", name: "Ms. Anupama Shetter", designation: "Assistant Professor", qualification: "M.Tech", doj: "01/08/2017", image: "/__l5e/assets-v1/9144a23c-fa47-4132-baec-1f105bd3efe6/ms-anupama-shetter.png", cvUrl: "https://atme.edu.in/ms-anupama-shetter/" },
   { id: "ms-mythri-r", name: "Ms. Mythri R", designation: "Assistant Professor", qualification: "B.E in Electronics and Communication Engineering, M.Tech in Industrial Electronics", doj: "30/06/2023", image: "/__l5e/assets-v1/a809e732-8970-4e43-b565-a255290a87c8/ms-mythri-r.png", cvUrl: "https://atme.edu.in/ms-mythri-r/" },
   { id: "rajeev-gowda-r", name: "Mr. Rajeev Gowda R", designation: "Assistant Professor", qualification: "B.E in Electronics and Communication, M.Tech in Digital Electronics and Communication System", doj: "23/01/2023", image: "/__l5e/assets-v1/277d8658-cafd-4ad8-91d6-4168ab862b0d/rajeev-gowda-r.png", cvUrl: "https://atme.edu.in/rajeev-gowda-r/" },
@@ -77,9 +77,10 @@ export const eceAllFaculty: Faculty[] = [
   { id: "soma-sundara", name: "Soma Sundara", designation: "Instructor", qualification: "BE in Electronics and Communication Engineering", doj: "", image: "/images/uploads/2022/12/Mr.-Soma-Sundara-2.jpg", cvUrl: "https://atme.edu.in/soma-sundara/" },
   { id: "srikanta-murthy-b", name: "Srikanta Murthy B", designation: "Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "/images/uploads/2022/12/Mr.-Srikanta-Murthy-B-2.jpg", cvUrl: "https://atme.edu.in/srikanta-murthy-b/" },
   { id: "karunakara-babu", name: "Karunakara Babu", designation: "Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "/images/uploads/2022/12/Mr.-Karunakara-Babu-2.jpg", cvUrl: "https://atme.edu.in/karunakara-babu/" },
-  { id: "sudhakar-m", name: "Sudhakar M", designation: "Attender", qualification: "", doj: "08/07/2013", image: "/images/uploads/2022/12/7.jpg", cvUrl: "https://atme.edu.in/sudhakar-m/" },
-  { id: "yogesha-k-c", name: "Yogesha K C", designation: "Attender", qualification: "", doj: "05/12/2018", image: "/images/uploads/2022/12/8.jpg", cvUrl: "https://atme.edu.in/yogesha-k-c/" },
-  { id: "chandrashekar-k", name: "Chandrashekar K", designation: "Attender", qualification: "", doj: "17/08/2015", image: "/images/uploads/2022/12/10.jpg", cvUrl: "https://atme.edu.in/chandrashekar-k/" },
+  { id: "abhinandan-v-a", name: "Abhinandan V A", designation: "Lab. Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "01/08/2013", image: "/images/ece/abhinandan-v-a.jpg", cvUrl: "https://atme.edu.in/abhinandan-v-a/" },
+  { id: "sudhakar-m", name: "Sudhakar M", designation: "Attender", qualification: "", doj: "08/07/2013", image: "/images/ece/sudhakar-m.jpg", cvUrl: "https://atme.edu.in/sudhakar-m/" },
+  { id: "chandrashekar-k", name: "Chandrashekar K", designation: "Attender", qualification: "", doj: "17/08/2015", image: "/images/ece/chandrashekar-k.jpg", cvUrl: "https://atme.edu.in/chandrashekar-k/" },
+  { id: "shivaprasanna-dm", name: "Shivaprasanna DM", designation: "Attender", qualification: "", doj: "02/02/2018", image: "/images/ece/shivaprasanna-dm.jpg", cvUrl: "https://atme.edu.in/shivaprasanna-dm/" },
   { id: "manuloka-h-g", name: "Manuloka H G", designation: "Instructor", qualification: "BE in Electronics and Communication Engineering", doj: "", image: "/images/uploads/2024/08/Mr.-Manuloka-H-G-2.jpg", cvUrl: "https://atme.edu.in/manuloka-h-g/" },
 ];
 
@@ -103,8 +104,8 @@ export const eeeAllFaculty: Faculty[] = [
   { id: "sindhu-n", name: "Sindhu N", designation: "Assistant Instructor", qualification: "Diploma in Electronics and Communication Engineering", doj: "", image: "/images/uploads/2026/04/Sindhu-N-1.jpg", cvUrl: "https://atme.edu.in/sindhu-n/" },
   { id: "mr-lohit-kumar-m-c-2", name: "Mr. Lohit Kumar M C", designation: "Attender", qualification: "", doj: "", image: "/images/uploads/2026/04/Mr.-Lohit-Kumar-M-C-1.jpg", cvUrl: "https://atme.edu.in/mr-lohit-kumar-m-c-2/" },
   { id: "mrs-anusha-b-s", name: "Mrs. Anusha B S", designation: "Attender", qualification: "", doj: "", image: "/images/uploads/2026/04/Mrs.-Anusha-B-S-1.jpg", cvUrl: "https://atme.edu.in/mrs-anusha-b-s/" },
-  { id: "jeevan-kumar-p", name: "Jeevan Kumar P", designation: "Assistant Instructor", qualification: "Diploma in Electrical & Electronics Engineering", doj: "09/02/2022", image: "/images/uploads/2022/12/EEE-4.jpg", cvUrl: "https://atme.edu.in/jeevan-kumar-p/" },
-  { id: "swamy-t", name: "Swamy T", designation: "Attender", qualification: "SSLC", doj: "23/08/2012", image: "/images/uploads/2022/12/EEE-5.jpg", cvUrl: "https://atme.edu.in/swamy-t/" },
+  { id: "jeevan-kumar-p", name: "Jeevan Kumar P", designation: "Assistant Instructor", qualification: "Diploma in Electrical & Electronics Engineering", doj: "09/02/2022", image: "/images/eee/jeevan-kumar-p.jpg", cvUrl: "https://atme.edu.in/jeevan-kumar-p/" },
+  { id: "swamy-t", name: "Swamy T", designation: "Attender", qualification: "SSLC", doj: "23/08/2012", image: "/images/eee/swamy-t.jpg", cvUrl: "https://atme.edu.in/swamy-t/" },
 
 ];
 
@@ -140,11 +141,11 @@ export const ceAllFaculty: Faculty[] = [
   { id: "namitha-a-p", name: "Mrs. Namitha A P", designation: "Assistant Professor", qualification: "B.Sc, M.Sc", doj: "24.08.2020", image: "/__l5e/assets-v1/bb705d52-0a5e-4097-b285-e621ca00138c/Namitha-A-P.jpg", cvUrl: "https://old.atme.edu.in/namitha-a-p/" },
   { id: "akhila-c-g", name: "Mrs. Akhila C G", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "29.08.2022", image: "/__l5e/assets-v1/cbd327af-f086-4713-bd4b-f36986febc01/Akhila-C-G-new.jpg", cvUrl: "https://old.atme.edu.in/akhila-c-g/" },
   { id: "likhit-m-l", name: "Mr. Likhit M L", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "09.10.2025", image: "/__l5e/assets-v1/17f43612-419f-44fb-96ef-b215c28da574/Likhit-M-L.jpg", cvUrl: "https://old.atme.edu.in/likhit-m-l/" },
-  { id: "mr-jayaram-b-s", name: "Mr. Jayaram B S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "/__l5e/assets-v1/d8aa23ca-935b-43a4-b408-84dcffd4bb3c/JAYARAM-B-S-2.jpg", cvUrl: "https://old.atme.edu.in/mr-jayaram-b-s/" },
-  { id: "ms-siddamma-s", name: "Ms. Siddamma S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "/images/uploads/2025/09/SIDDAMMA-S.jpg", cvUrl: "https://old.atme.edu.in/ms-siddamma-s/" },
-  { id: "mr-manu-kumar-k", name: "Mr. Manu Kumar K", designation: "Attender", qualification: "SSLC", doj: "", image: "/images/uploads/2025/09/MANU-KUMAR-K.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-kumar-k/" },
-  { id: "mr-h-dharaneesha", name: "H Dharaneesha", designation: "Instructor", qualification: "Diploma", doj: "01/08/2013", image: "/images/uploads/2022/12/ME-23.jpg", cvUrl: "https://atme.edu.in/mr-h-dharaneesha/" },
-  { id: "muthegowda-v-cv", name: "Muthegowda V", designation: "Attender", qualification: "ITI – Electrical", doj: "02/09/2010", image: "/images/uploads/2022/12/CV-4.jpg", cvUrl: "https://atme.edu.in/muthegowda-v-cv/" },
+  { id: "mr-jayaram-b-s", name: "Mr. Jayaram B S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "/images/ce/mr-jayaram-b-s.jpg", cvUrl: "https://old.atme.edu.in/mr-jayaram-b-s/" },
+  { id: "ms-siddamma-s", name: "Ms. Siddamma S", designation: "Assistant Instructor", qualification: "UG", doj: "", image: "/images/ce/ms-siddamma-s.jpg", cvUrl: "https://old.atme.edu.in/ms-siddamma-s/" },
+  { id: "mr-manu-kumar-k", name: "Mr. Manu Kumar K", designation: "Attender", qualification: "SSLC", doj: "", image: "/images/ce/mr-manu-kumar-k.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-kumar-k/" },
+  { id: "mr-h-dharaneesha", name: "H Dharaneesha", designation: "Instructor", qualification: "Diploma", doj: "01/08/2013", image: "/images/ce/mr-h-dharaneesha.jpg", cvUrl: "https://atme.edu.in/mr-h-dharaneesha/" },
+  { id: "muthegowda-v-cv", name: "Muthegowda V", designation: "Attender", qualification: "ITI – Electrical", doj: "02/09/2010", image: "/images/ce/muthegowda-v-cv.jpg", cvUrl: "https://atme.edu.in/muthegowda-v-cv/" },
 ];
 
 export const dsAllFaculty: Faculty[] = [
