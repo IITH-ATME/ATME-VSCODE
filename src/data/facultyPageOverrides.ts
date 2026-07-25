@@ -58,25 +58,6 @@ Attender
 **Present Address:** S/o K N Shivananjegowda, Kothathi Village, Mandya
 `,
   },
-  "jeevan-kumar-p": {
-    name: "JEEVAN KUMAR.P",
-    url: "https://atme.edu.in/jeevan-kumar-p/",
-    md: `**JEEVAN KUMAR.P**
-ASSISTANT INSTRUCTOR
-
-**Department:** ELECTRICAL AND ELECTRONICS ENGINEERING
-
-**Date of Joining Institution:** 09/02/2022
-
-**E-mail:** jeevankumarp\\_ee@atme.edu.in
-
-**Mobile Number:** 9740492704
-
-**Qualification:** Diploma in Electrical & Electronics Engineering
-
-**Present Address:** Basahallihundi Village, Varuna Hobli, Someshwarapura Post, Mysore TQ & Dist
-`,
-  },
   "madesha-s": {
     name: "MADESHA S",
     url: "https://atme.edu.in/madesha-s/",
@@ -424,24 +405,6 @@ Attender
 **Mobile Number:** 9008178146
 
 **Present Address:** #569,4th cross, swarnasandra, mandya,570401.
-`,
-  },
-  "swamy-t": {
-    name: "SWAMY T",
-    url: "https://atme.edu.in/swamy-t/",
-    md: `**SWAMY T**
-
-ATTENDER
-
-**Department:** ELECTRICAL AND ELECTRONICS ENGINEERING
-
-**Date of Joining Institution:** 23/08/2012
-
-**Mobile Number:** 9900927614
-
-**Qualification:** SSLC
-
-**Present Address:** TVS Road Behind Railway Station 2nd Block Kadakolla, Mysore
 `,
   },
   "yogesha-k-c": {

@@ -3757,32 +3757,6 @@ export const facultyProfiles: Record<string, FacultyProfile> = {
     ],
     "achievements": []
   },
-  "jeevan-kumar-p": {
-    "info": {},
-    "ids": {},
-    "education": [
-      "Diploma in Electrical & Electronics Engineering Present Address: Basahallihundi Village, Varuna Hobli, Someshwarapura Post, Mysore TQ & Dist"
-    ],
-    "experience": [],
-    "subjects": [],
-    "research": [],
-    "publications": [],
-    "workshops": [],
-    "achievements": []
-  },
-  "swamy-t": {
-    "info": {},
-    "ids": {},
-    "education": [
-      "SSLC Present Address: TVS Road Behind Railway Station 2nd Block Kadakolla, Mysore"
-    ],
-    "experience": [],
-    "subjects": [],
-    "research": [],
-    "publications": [],
-    "workshops": [],
-    "achievements": []
-  },
   "sunil-kumar-l": {
     "info": {},
     "ids": {},

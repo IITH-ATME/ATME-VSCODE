@@ -141,7 +141,11 @@ const SECTION_ALT = SECTION_HEADINGS.map(flexWs).join("|");
 const SKIP_ALT = SKIP_HEADINGS.map(escapeRe).join("|");
 
 const HEADING_RE = new RegExp(`^\\*{0,2}\\s*(${SECTION_ALT})\\s*:?\\s*\\*{0,2}\\s*$`, "i");
-const HEADING_INLINE_RE = new RegExp(`^\\*{0,2}\\s*(${SECTION_ALT})\\s*:?\\s*\\*{0,2}\\s*[:\\-]?\\s*(.*)$`, "i");
+// Requires an actual colon/dash separator between the keyword and the trailing
+// text — otherwise a heading like "Patents Published" (keyword "Patents"
+// immediately followed by another word, no punctuation) is misread as heading
+// "Patents" + inline content "Published", silently eating half the heading.
+const HEADING_INLINE_RE = new RegExp(`^\\*{0,2}\\s*(${SECTION_ALT})\\s*\\*{0,2}\\s*[:\\-–—]\\s*(.*)$`, "i");
 const SKIP_LABEL_RE = new RegExp(`^\\*{0,2}\\s*(${SKIP_ALT})\\s*[:\\-]?\\s*.*$`, "i");
 
 

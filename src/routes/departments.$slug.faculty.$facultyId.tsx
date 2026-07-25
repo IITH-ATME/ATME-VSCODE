@@ -441,15 +441,17 @@ function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: str
       // alias belonging to the (earlier, in array order) Institute Level
       // section, since its normalized text contains that shorter alias as a
       // substring.
-      const match =
-        CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm === a)) ??
-        CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm.includes(a)));
+      const exactMatch = CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm === a));
+      const match = exactMatch ?? CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm.includes(a)));
       const targetTitle = match?.title ?? lastMatchTitle;
       if (!targetTitle) continue;
       const bucket = byCanonical.get(targetTitle) ?? [];
-      // If this is an unmatched subheading folded into the previous card,
-      // emit the subheading itself as a bold label item first.
-      if (!match) {
+      // If this is an unmatched subheading folded into the previous card, OR
+      // a substring match whose title carries more than the bare keyword
+      // (e.g. "Patents Published" matching "Publications Details" via the
+      // "patent" alias substring), emit the subheading itself as a bold
+      // label item first instead of silently discarding it.
+      if (!exactMatch) {
         const sub = { num: null as number | null, text: `**${s.title.replace(/[:*]+$/, "").trim()}**` };
         if (!bucket.some((b) => normalize(b.text) === normalize(sub.text))) bucket.push(sub);
       }
