@@ -5899,6 +5899,108 @@ _Nil_
 3. Published Patent — Design No. 425781-001 | Title: Autism Detecting Device | Registered under the Indian Intellectual Property system on 04/08/2024. Contributed to the design and development of an assistive technology device aimed at early detection of autism in children.
 `,
   },
+  "dr-shivaprasad-b-j": {
+    name: "Dr. Shivaprasad B J",
+    url: "/departments/cse/faculty/dr-shivaprasad-b-j",
+    md: `**Faculty Name:** Dr. Shivaprasad B J
+
+**Designation:** Associate Professor
+
+**Program:** Computer Science and Engineering
+
+### Professional Experience
+
+- Total: 12 Years
+- Teaching: 6
+- Research: 4
+- Industry: 2
+
+### Contact Details
+
+- **Email ID:** Official: Dr.Shivaprasadbj.cs@atme.edu.in | Personal: shivaprasad1607@gmail.com
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/721711
+- **Google Scholar ID:** https://scholar.google.com/citations?hl=en&user=NL73p1sAAAAJ
+- **Scopus ID:** https://www.scopus.com/authid/detail.uri?authorId=57207203830
+- **Orcid ID:** https://orcid.org/0000-0001-9863-1094
+- **Web of Science Researcher ID:** https://www.webofscience.com/wos/author/record/JWO-7160-2024
+- **LinkedIn ID:** https://www.linkedin.com/in/shivaprasad-b-j-205754a8/
+
+### Academic Details
+
+**Qualification**
+
+- Ph.D in Computer Science, Kuvempu University, Shivammoga
+- M.Tech in Computer Science & Engineering, PES College of Engineering, Mandya. University: VTU, Belagavi
+- B.E in Information Science and Engineering, CIT, Ponnampet. University: VTU, Belagavi
+
+### Areas of Interest
+
+- Medical Image Analysis
+- Artificial intelligence & Machine Learning
+- Document Image Processing
+
+### Publication Details
+
+**International Journals**
+
+1. B. J. Shivaprasad and M. Ravikumar, "Analysis of Brain Tumor Using MR Images: A Brief Survey," International Journal of Image and Graphics, 2021. (Scopus Indexed)
+2. M. Ravikumar, B. J. Shivaprasad, and D. S. Guru, "Enhancement of MRI Brain Images Using Notch Filter Based on Discrete Wavelet Transform," International Journal of Image and Graphics, Vol. 21(2), 2021. (Scopus Indexed)
+3. M. Ravikumar and B. J. Shivaprasad, "Bidirectional ConvLSTMXNet for Brain Tumor Segmentation of MR Images," Tehnički Glasnik, Vol. 15(1), pp. 37–42, 2021. (Web of Science Indexed)
+4. M. Ravikumar, P. G. Rachana, and B. J. Shivaprasad, "Segmentation of Tumor from Mammogram Images Using U-SegNet: A Hybrid Approach," Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2022. (Scopus Indexed)
+5. B. J. Shivaprasad and M. Ravikumar, "Enhancement of Brain Magnetic Resonance Images Using Cascade of Notch Filter and Linear Transformation Methods," Pattern Recognition and Image Analysis, 2022. (Indexed Journal)
+
+**International/ National Conferences**
+
+1. G. Shivakumar, M. Ravikumar, B. J. Shivaprasad, and D. S. Guru, "Extraction of Logo from Real Time Document Images Using Masking and Median Filter Approaches," 3rd International Conference for Emerging Technology (INCET), 2022.
+2. G. Shivakumar, M. Ravikumar, B. J. Shivaprasad, and S. Sampathkumar, "Segmentation of Non-Text from Bilingual Real-Time Office Document Images Using U-Net Architecture," The Seybold Report, 2022.
+
+### Book / Book Chapter Published
+
+1. M. Ravikumar, B. J. Shivaprasad, and D. S. Guru, "Enhancement of MRI Brain Images Using Fuzzy Logic Approach," Communications in Computer and Information Science (CCIS), Springer Nature, 2020.
+2. M. Ravikumar and B. J. Shivaprasad, "Segmentation of Brain Tumor from MR Images Using SegXNet Hybrid Approach," in ICTCS 2020, Springer Nature, 2020.
+3. M. Ravikumar, P. G. Rachana, and B. J. Shivaprasad, "Segmentation of Tumor Region from Mammogram Images Using Deep Learning Approach," in Advanced Informatics for Computing Research, Springer Nature, 2021.
+4. G. Shivakumar, M. Ravikumar, B. J. Shivaprasad, and D. S. Guru, "Signature Extraction from Bilingual Document Images Using Blobs Method," in Modern Approaches in Machine Learning & Cognitive Science, Springer Nature, 2022.
+5. Mamatha, K. Abhimanyu Kumar Patro, Shweta Vincent and B. J. Shivaprasad, "CryptoSteganographic Systems for Secure Data Transmission: Concepts, Architectures, and Challenges," in Lecture Notes in Networks and Systems (LNNS), Vol. 1982, Springer Nature, 2026.
+
+### Membership in Professional Bodies
+
+1. Life Member, Indian Society for Technical Education (ISTE) – Membership No.: LM87797
+
+### Honours/Awards/Achievements
+
+1. Project Guide – Karnataka State Council for Science and Technology (KSCST) Student Project Programme (SPP) 2025–26 – Guided the KSCST-sponsored student project titled "Face Recognition Automatic Attendance Management System" under the KSCST Student Project Programme (SPP) 2025–26.
+2. Wipro Certified Faculty (WCF) – Successfully cleared the Wipro TalentNext Digital Skills Readiness Program (DSRP) certification assessment and was recognized by Wipro Ltd. as a Project-Based Learning (PBL) Mentor in Java Full Stack, 15 March 2024.
+
+**Courses Completed**
+
+1. Advanced Java Full Stack – Successfully completed the Wipro TalentNext training program from 09 February 2026 to 20 February 2026.
+2. Cloud Computing – Successfully completed the Advanced Technology Program conducted by Wipro TalentNext from 14 October 2024 to 18 October 2024.
+3. Artificial Intelligence & Machine Learning (AI & ML) – Successfully completed the Advanced Technology Program conducted by Wipro TalentNext from 22 July 2024 to 26 July 2024.
+4. Java Full Stack – Successfully completed the Wipro TalentNext training program from 22 January 2024 to 09 February 2024.
+5. Digital Skills Readiness Program (DSRP) – Recognized as a Project-Based Learning (PBL) Mentor in Java Full Stack after successfully clearing the Wipro TalentNext Certification Assessment, 15 March 2024.
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. AICTE Training and Learning (ATAL) Academy FDP – Successfully completed a one-week Faculty Development Program on "Artificial Intelligence: Insights and Applications" at Maharaja Institute of Technology, Mysuru, 05–10 January 2026.
+2. MeitY-Supported FDP – Participated in a two-week Faculty Development Program on "AI in Medical Imaging and Diagnostics: Current Trends and Challenges", jointly organized by E&ICT Academy, NIT Patna and partner institutions, 07–18 July 2025.
+3. SkillDzire–AICTE FDP – Successfully completed a one-month online Faculty Development Program on "Deep Learning", organized by SkillDzire in collaboration with AICTE, July 2024.
+4. Cyber Tech Associates FDP – Successfully completed a six-day Faculty Development Program on "Cyber Security" at Alva's Institute of Engineering and Technology (AIET), Moodbidri, 15–20 April 2024.
+5. Participated in the seminar on "Artificial Intelligence: Challenges and Opportunities" at Sri Jayachamarajendra College of Engineering (SJCE), Mysuru, 13 January 2020.
+6. Participated in the DST-Sponsored National Workshop on "Data Analytics and Learning" at the University of Mysore, 18–20 November 2019.
+7. Participated in the TEQIP-III Sponsored Second National Workshop on "Data Analytics and Learning (DAL): Advanced Topics", organized by Sri Jayachamarajendra College of Engineering (SJCE), Mysuru, 29–31 August 2019.
+8. Participated in the 3rd Workshop on "Brain Computing and Learning" at the Indian Institute of Science (IISc), Bengaluru, 24–28 June 2019.
+9. Attended the Winter Course on "Machine Intelligence and Brain Research" at the Indian Institute of Technology (IIT) Madras, 02–09 January 2019.
+10. Participated in a three-day Faculty Development Program on Advanced Topics in "Machine Learning & Applications in Engineering & Technology" at NMAM Institute of Technology (NMAMIT), Nitte, 26–28 October 2018.
+11. Participated in a six-day International Workshop on "Machine Learning: Insights and Applications" at Vidyavardhaka College of Engineering (VVCE), Mysuru, 25–30 July 2018.
+12. Participated in a five-day Faculty Development Program on "Machine Learning & its Applications in Engineering & Technology" at NMAM Institute of Technology (NMAMIT), Nitte, 02–06 January 2018.
+
+### Academic and Administrative Activities
+
+- Organizing technical events, and student club activities.
+- Coordinating industry interaction, internships, and placement activities.
+- Supporting admission, orientation, and outreach programmes.
+`,
+  },
   "mahesha-b-p": {
 
     name: "Mr. Mahesha B P",
