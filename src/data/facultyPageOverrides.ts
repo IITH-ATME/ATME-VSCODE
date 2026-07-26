@@ -721,18 +721,15 @@ _Nil_
 
 - **Email ID:** Official:siddegowdacj.mca@atme.edu.in · Personal:siddegowdacj@gmail.com
 - **Vidwan ID:** 224780
-- **Google Scholar ID:** siddegowdacj@gmail.com https://scholar.google.com/citations?user=OztMTpcAAAAJ&amp;hl=en
-Scopus ID
-- **Orcid ID:** 000-0001-8206-9367
-Web of Science Researcher ID
-LinkedIn ID
+- **Google Scholar ID:** [https://scholar.google.com/citations?user=OztMTpcAAAAJ&hl=en](https://scholar.google.com/citations?user=OztMTpcAAAAJ&hl=en)
+- **Orcid ID:** [000-0001-8206-9367](https://orcid.org/000-0001-8206-9367)
 
 ### Academic Details
 
 - Qualification
-- Ph.D. in   ____ computer science _______________________________________________________
-- MCA in  __computer science________________________________________________________
-- B.E in _____________________________________________________________
+- Ph.D. in Computer Science
+- MCA in Computer Science
+- B.E
 
 ### Areas of Interest
 
