@@ -1511,17 +1511,17 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
           (() => {
             const resolved = rewriteImageSrc(seg.images[0].src);
             if (!resolved) return null;
+            // Single accordion image: shown large (bigger than the grid rows
+            // below) at its full aspect ratio — object-contain never crops or
+            // upscale-blurs it, just letterboxes inside a generous frame.
+            void cropImages;
             return (
               <img
                 key={i}
                 src={resolved}
                 alt={seg.images[0].alt || ""}
                 loading="lazy"
-                className={
-                  cropImages
-                    ? "mx-auto h-56 sm:h-64 w-full max-w-md object-cover rounded-lg border border-border bg-white"
-                    : "mx-auto h-28 sm:h-36 w-auto max-w-full object-contain rounded-lg border border-border bg-white"
-                }
+                className="mx-auto h-72 sm:h-80 md:h-96 w-full max-w-2xl object-contain rounded-lg border border-border bg-white"
               />
             );
           })()
@@ -1533,17 +1533,17 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
             {seg.images.map((p, j) => {
               const resolved = rewriteImageSrc(p.src);
               if (!resolved) return null;
+              // Every image in the row shares the same fixed height and
+              // object-contain fit, so a row of differently-sized/aspect
+              // source photos still lines up edge-to-edge without any of
+              // them being cropped, stretched, or upscale-blurred.
               return (
                 <img
                   key={j}
                   src={resolved}
                   alt={p.alt || ""}
                   loading="lazy"
-                  className={
-                    cropImages
-                      ? "w-full h-56 sm:h-64 object-cover rounded-lg border border-border bg-white"
-                      : "w-full h-28 sm:h-36 object-contain rounded-lg border border-border bg-white"
-                  }
+                  className="w-full h-64 sm:h-72 md:h-80 object-contain rounded-lg border border-border bg-white"
                 />
               );
             })}
