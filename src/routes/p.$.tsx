@@ -278,6 +278,18 @@ function RehostedPage() {
     bodyMd = bodyMd.replace(bannerImg.raw, "").replace(/^\s*\n/, "");
   }
 
+  // Events: the scraped "EVENT INFO" block's trailing "Website:" bullet is a
+  // self-link back to this same page (scraped as a bare `/p/` href) rather
+  // than a real external link — drop it from every event page.
+  if (key.startsWith("event/")) {
+    bodyMd = bodyMd.replace(/^-\s*Website:.*$\n?/gim, "");
+    // The scraped source sometimes runs "Download Brochure"/"Download
+    // Poster" straight into whatever follows with no separator at all
+    // (e.g. "...Brochure**![](icon)**...Poster**"). Force each onto its
+    // own line so they never render as one glued run-on phrase.
+    bodyMd = bodyMd.replace(/(\*\*Download (?:Brochure|Poster)\*\*)(?=\S)/gi, "$1\n\n");
+  }
+
   // Clubs & Associations: clean redundant department-group bold labels that
   // sit right above their `#### [<NAME>](/p/clubs-associations)` heading, fix
   // broken tables where the separator has one fewer column than the body
@@ -1213,6 +1225,16 @@ function RehostedPage() {
                           /admin-ajax|placeholder|spacer|blank|1x1|pixel\.gif|loading\.gif/.test(srcText) ||
                           /admin-ajax|placeholder/.test(altText)
                         ) {
+                          return null;
+                        }
+                        // Decorative UI icons (e.g. a small "download" glyph
+                        // used as the clickable graphic inside a
+                        // `[![](icon.png)](file.pdf)` link) aren't content
+                        // photos — the surrounding `a` renderer already draws
+                        // its own small icon + pill button for PDF/external
+                        // links, so drop the raw icon graphic entirely rather
+                        // than blowing a 150x150 glyph up to content-image size.
+                        if (/download.icon|share.icon|social.icon|whatsapp.icon|facebook.icon|twitter.icon|linkedin.icon|instagram.icon|ultimate-social|icons_theme/.test(srcText)) {
                           return null;
                         }
                         const hideOnError = (e: any) => {

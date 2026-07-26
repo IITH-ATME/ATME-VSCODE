@@ -7,7 +7,7 @@ import heroImg from "@/assets/hero-campus.jpg";
 import slide2 from "@/assets/slide-2.jpg.asset.json";
 import brochure from "@/assets/college-brochure.pdf.asset.json";
 import {
-  ArrowRight, Calendar, MapPin, Clock,
+  ArrowRight, Calendar, Clock,
   Microscope, Trophy, GraduationCap, BookOpen,
   CheckCircle2, FileText, Award, Users, Building2, Phone, Download,
 } from "lucide-react";
@@ -65,13 +65,6 @@ const pgCourses = [
 ];
 
 type Level = "all" | "ug" | "pg";
-
-const events: { img: string; t: string; d: string; href: string; level: Exclude<Level, "all"> }[] = [
-  { level: "ug", img: "/images/home/atmeya-2026.png", t: "ATMEYA 2K26", d: "April 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/atmeya-2k26/" },
-  { level: "ug", img: "/images/home/grammer.png", t: "Importance of Grammar in Languages, Maths and Basic Rights..", d: "April 25, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/state-level-technical-fest-urja-2k26/" },
-  { level: "pg", img: "/images/home/world-environment-month-celebration.jpg", t: "World Environment Month Celebration", d: "March 12, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/pranotsava/" },
-  { level: "pg", img: "/images/home/traffic-rules-1.jpg", t: "Report on Traffic Rules Awareness Program", d: "January 10, 2026 · 09:00 AM – 03:40 PM · ATME College of Engineering, Mysuru", href: "https://new.atme.edu.in/events/importance-of-grammar-in-languages-maths-and-basic-rights-of-the-citizens/" },
-];
 
 const notices: { t: string; d: string; level: Exclude<Level, "all"> }[] = [
   { level: "ug", t: "Circular — Parents-Teachers Meeting – 27/05/2025", d: "April 21, 2026" },
@@ -198,13 +191,13 @@ function Home() {
   const [newsFilter, setNewsFilter] = useState<Level>("all");
   const [playIntro, setPlayIntro] = useState(false);
   const courses = tab === "ug" ? ugCourses : pgCourses;
-  const filteredEvents = events.filter((e) => newsFilter === "all" || e.level === newsFilter);
   const filteredNotices = notices.filter((n) => newsFilter === "all" || n.level === newsFilter);
   const today = new Date().toISOString().slice(0, 10);
-  const latestEvents = [...SITE_EVENTS].sort((a, b) => b.startDateISO.localeCompare(a.startDateISO)).slice(0, 10);
-  const upcomingEvents = SITE_EVENTS.filter((e) => e.startDateISO >= today)
-    .sort((a, b) => a.startDateISO.localeCompare(b.startDateISO))
-    .slice(0, 5);
+  // Only events with a real banner photo are shown here — no placeholder/blank thumbs.
+  const latestEvents = [...SITE_EVENTS]
+    .filter((e) => !!e.banner)
+    .sort((a, b) => b.startDateISO.localeCompare(a.startDateISO))
+    .slice(0, 6);
 
 
   return (
@@ -552,25 +545,24 @@ function Home() {
 
           <div className="mt-10 grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 grid sm:grid-cols-2 gap-6">
-              {filteredEvents.length === 0 && (
-                <p className="text-sm text-muted-foreground col-span-full text-center py-8">No events for this filter.</p>
+              {latestEvents.length === 0 && (
+                <p className="text-sm text-muted-foreground col-span-full text-center py-8">No events to show right now.</p>
               )}
-              {filteredEvents.map((e, i) => (
-                <Reveal key={e.t} delay={i * 80}>
-                  <a href={e.href} className="block group rounded-2xl overflow-hidden border bg-card hover:shadow-lg transition">
-                    <div className="aspect-[16/10] overflow-hidden bg-white relative flex items-center justify-center">
-                      <img src={e.img} alt={e.t} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
-                      <span className="absolute top-3 left-3 text-[10px] font-bold tracking-wider uppercase bg-primary text-primary-foreground px-2 py-1 rounded">{e.level}</span>
-                    </div>
-                    <div className="p-5">
-                      <h6 className="font-semibold leading-snug group-hover:text-primary transition-colors">{e.t}</h6>
-                      <p className="mt-2 text-xs text-muted-foreground flex items-start gap-1 !text-left" style={{ textAlign: "left" }}>
-                        <Calendar className="h-3.5 w-3.5 mt-0.5 shrink-0" />{e.d}
-                      </p>
-                    </div>
-                  </a>
+              {latestEvents.map((e, i) => (
+                <Reveal key={e.slug} delay={i * 80}>
+                  <EventCard event={e} isPast={e.startDateISO < today} />
                 </Reveal>
               ))}
+              {latestEvents.length > 0 && (
+                <div className="sm:col-span-2 text-center pt-2">
+                  <Link
+                    to="/campus-life/events"
+                    className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                  >
+                    View All Events
+                  </Link>
+                </div>
+              )}
             </div>
             <Reveal delay={150}>
               <div className="rounded-2xl border bg-card p-6">
@@ -593,55 +585,6 @@ function Home() {
             </Reveal>
           </div>
 
-        </div>
-      </section>
-
-      {/* LATEST & UPCOMING EVENTS */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <Reveal>
-            <p className="text-sm font-semibold tracking-widest text-[#f5c518] uppercase text-center">What's Happening</p>
-            <h2 className="mt-3 text-3xl md:text-5xl font-bold text-center tracking-tight text-[#129199]">Latest Events</h2>
-          </Reveal>
-          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
-            {latestEvents.map((e, i) => (
-              <Reveal key={e.slug} delay={i * 60}>
-                <EventCard event={e} isPast={e.startDateISO < today} />
-              </Reveal>
-            ))}
-          </div>
-          <div className="mt-10 text-center">
-            <Link
-              to="/campus-life/events"
-              className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-            >
-              View All Events
-            </Link>
-          </div>
-
-          {upcomingEvents.length > 0 && (
-            <div className="mt-20">
-              <Reveal>
-                <p className="text-sm font-semibold tracking-widest text-[#f5c518] uppercase text-center">Don't Miss Out</p>
-                <h2 className="mt-3 text-3xl md:text-5xl font-bold text-center tracking-tight text-[#129199]">Upcoming Events</h2>
-              </Reveal>
-              <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
-                {upcomingEvents.map((e, i) => (
-                  <Reveal key={e.slug} delay={i * 60}>
-                    <EventCard event={e} />
-                  </Reveal>
-                ))}
-              </div>
-              <div className="mt-10 text-center">
-                <Link
-                  to="/upcoming-events"
-                  className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                >
-                  View All Upcoming Events
-                </Link>
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
