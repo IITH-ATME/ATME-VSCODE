@@ -294,8 +294,8 @@ const mathematicsFaculty: Faculty[] = [
 const humanitiesFaculty: Faculty[] = [
   { id: "chandrashekhar-c", name: "Mr. Chandrashekhar C", designation: "Lecturer", qualification: "MA, LLB", doj: "05/09/2014", image: "/__l5e/assets-v1/03e8315f-8947-4e54-905b-6ffc06638f10/chandrashekhar-c.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
   { id: "bharathi-r", name: "Ms. Bharathi R", designation: "Lecturer", qualification: "MSc, MA, PGDE", doj: "15/10/2018", image: "/__l5e/assets-v1/fdde1262-e74b-4f98-bb5d-0e40d29d7928/bharathi-r.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
-  { id: "leelavathi-c-r", name: "Mrs. Leelavathi C R", designation: "Lecturer", qualification: "MA, B.Ed", doj: "14/12/2022", image: "/images/uploads/2026/03/Mrs.-Leelavathi-C-R.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
-  { id: "rakshitha-v", name: "Ms. Rakshitha V", designation: "Assistant Professor", qualification: "MA, B.Ed", doj: "16/04/2025", image: "/images/uploads/2026/03/Ms.-RAKSHITHA-V.jpg.jpeg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "leelavathi-c-r", name: "Mrs. Leelavathi C R", designation: "Lecturer", qualification: "MA, B.Ed", doj: "14/12/2022", image: "/images/humanities/leelavathi-c-r.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
+  { id: "rakshitha-v", name: "Ms. Rakshitha V", designation: "Assistant Professor", qualification: "MA, B.Ed", doj: "16/04/2025", image: "/images/humanities/rakshitha-v.jpg", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
   { id: "dr-muralidhar-m-p", name: "Dr. Muralidhar M P", designation: "Director of Physical Education", qualification: "Ph.D, B.A", doj: "01/08/2011", image: "", cvUrl: "https://old.atme.edu.in/humanities/humanities-faculty/" },
 ];
 
