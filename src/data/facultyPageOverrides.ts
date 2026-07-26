@@ -1435,7 +1435,7 @@ _Nil_
 - **Google Scholar ID:** Google Scholar
 - **Scopus ID:** Scopus
 - **Orcid ID:** [0009-0002-2447-9733](https://orcid.org/0009-0002-2447-9733)
-Web of Science Researcher ID
+- **Web of Science Researcher ID:** -
 - **LinkedIn ID:** [linkedin.com/in/sushmitha-huchappa-752a29253](https://www.linkedin.com/in/sushmitha-huchappa-752a29253/)
 
 ### Academic Details
@@ -1453,7 +1453,7 @@ Web of Science Researcher ID
 
 ### Publication Details
 
-- �2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON) IEEE Xplore: 14th-15th March 2026
+- 2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON) IEEE Xplore: 14th-15th March 2026
 - 2026 International Conference on Computing Theory and Wireless Communications (ICCTWC) 1st - 2nd Apr 2026
 
 ### Membership in Professional Bodies

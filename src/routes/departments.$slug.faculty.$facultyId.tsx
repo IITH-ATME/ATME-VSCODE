@@ -445,6 +445,17 @@ function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: str
       const match = exactMatch ?? CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm.includes(a)));
       const targetTitle = match?.title ?? lastMatchTitle;
       if (!targetTitle) continue;
+      // A differently-titled section (e.g. "Patent") whose entire body is
+      // just a placeholder ("Nil"/"None"/"-") carries no real information —
+      // folding it into a sibling canonical card via its alias (e.g. the
+      // "patent" alias under "Publications Details") would add a spurious
+      // extra bullet that reads as a real entry among genuine publications.
+      // Skip folding placeholder-only foreign sections in; a section only
+      // ever needs to show "Nil" once, under its own actual heading.
+      const isPlaceholderOnly = (t: string) => /^(nil|none|n\/?a)$/i.test(t.replace(/[*_]/g, "").trim());
+      if (normalize(targetTitle) !== norm && s.items.length > 0 && s.items.every((it) => isPlaceholderOnly(it.text))) {
+        continue;
+      }
       const bucket = byCanonical.get(targetTitle) ?? [];
       // If this is an unmatched subheading folded into the previous card, OR
       // a substring match whose title carries more than the bare keyword
