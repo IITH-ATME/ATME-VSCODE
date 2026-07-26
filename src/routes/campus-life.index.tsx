@@ -29,7 +29,7 @@ const cards: Card[] = [
   { title: "Student Council", img: "/images/uploads/2026/04/Student-Council.jpg", href: "/p/atme-student-council" },
   { title: "Sports", img: "/images/uploads/2026/04/Sports.jpg", href: "/sports" },
   { title: "Language Lab", img: "/images/uploads/2026/04/Language-Lab.jpg", href: "/p/language-lab" },
-  { title: "Events", img: "/images/uploads/2026/04/Events.jpg", href: "/upcoming-events" },
+  { title: "Events", img: "/images/uploads/2026/04/Events.jpg", href: "/campus-life/events" },
   { title: "Seminar Hall & Auditorium", img: "/images/uploads/2026/04/Sminar-Hall-Auditorium.jpg", href: "/p/seminar-auditorium-2" },
   { title: "Clubs & Associations", img: "/images/uploads/2026/04/Clubs-Associations.jpg", href: "/p/clubs-associations" },
   { title: "Scholarship", img: "/images/uploads/2026/04/Scholarship.jpg", href: "/admissions" },

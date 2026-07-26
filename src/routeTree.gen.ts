@@ -51,6 +51,7 @@ import { Route as ResourcesDiscreteMathematicalStructuresRouteImport } from './r
 import { Route as ResearchPageRouteImport } from './routes/research.$page'
 import { Route as PSplatRouteImport } from './routes/p.$'
 import { Route as DepartmentsSlugRouteImport } from './routes/departments.$slug'
+import { Route as CampusLifeEventsRouteImport } from './routes/campus-life.events'
 import { Route as CampusLifeAtmeyaRouteImport } from './routes/campus-life.atmeya'
 import { Route as CampusLifePageRouteImport } from './routes/campus-life.$page'
 import { Route as AdminRescrapeRouteImport } from './routes/admin.rescrape'
@@ -273,6 +274,11 @@ const DepartmentsSlugRoute = DepartmentsSlugRouteImport.update({
   path: '/departments/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CampusLifeEventsRoute = CampusLifeEventsRouteImport.update({
+  id: '/events',
+  path: '/events',
+  getParentRoute: () => CampusLifeRoute,
+} as any)
 const CampusLifeAtmeyaRoute = CampusLifeAtmeyaRouteImport.update({
   id: '/atmeya',
   path: '/atmeya',
@@ -356,6 +362,7 @@ export interface FileRoutesByFullPath {
   '/admin/rescrape': typeof AdminRescrapeRoute
   '/campus-life/$page': typeof CampusLifePageRoute
   '/campus-life/atmeya': typeof CampusLifeAtmeyaRoute
+  '/campus-life/events': typeof CampusLifeEventsRoute
   '/departments/$slug': typeof DepartmentsSlugRouteWithChildren
   '/p/$': typeof PSplatRoute
   '/research/$page': typeof ResearchPageRoute
@@ -408,6 +415,7 @@ export interface FileRoutesByTo {
   '/admin/rescrape': typeof AdminRescrapeRoute
   '/campus-life/$page': typeof CampusLifePageRoute
   '/campus-life/atmeya': typeof CampusLifeAtmeyaRoute
+  '/campus-life/events': typeof CampusLifeEventsRoute
   '/p/$': typeof PSplatRoute
   '/research/$page': typeof ResearchPageRoute
   '/resources/discrete-mathematical-structures': typeof ResourcesDiscreteMathematicalStructuresRoute
@@ -461,6 +469,7 @@ export interface FileRoutesById {
   '/admin/rescrape': typeof AdminRescrapeRoute
   '/campus-life/$page': typeof CampusLifePageRoute
   '/campus-life/atmeya': typeof CampusLifeAtmeyaRoute
+  '/campus-life/events': typeof CampusLifeEventsRoute
   '/departments/$slug': typeof DepartmentsSlugRouteWithChildren
   '/p/$': typeof PSplatRoute
   '/research/$page': typeof ResearchPageRoute
@@ -516,6 +525,7 @@ export interface FileRouteTypes {
     | '/admin/rescrape'
     | '/campus-life/$page'
     | '/campus-life/atmeya'
+    | '/campus-life/events'
     | '/departments/$slug'
     | '/p/$'
     | '/research/$page'
@@ -568,6 +578,7 @@ export interface FileRouteTypes {
     | '/admin/rescrape'
     | '/campus-life/$page'
     | '/campus-life/atmeya'
+    | '/campus-life/events'
     | '/p/$'
     | '/research/$page'
     | '/resources/discrete-mathematical-structures'
@@ -620,6 +631,7 @@ export interface FileRouteTypes {
     | '/admin/rescrape'
     | '/campus-life/$page'
     | '/campus-life/atmeya'
+    | '/campus-life/events'
     | '/departments/$slug'
     | '/p/$'
     | '/research/$page'
@@ -981,6 +993,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DepartmentsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/campus-life/events': {
+      id: '/campus-life/events'
+      path: '/events'
+      fullPath: '/campus-life/events'
+      preLoaderRoute: typeof CampusLifeEventsRouteImport
+      parentRoute: typeof CampusLifeRoute
+    }
     '/campus-life/atmeya': {
       id: '/campus-life/atmeya'
       path: '/atmeya'
@@ -1050,12 +1069,14 @@ declare module '@tanstack/react-router' {
 interface CampusLifeRouteChildren {
   CampusLifePageRoute: typeof CampusLifePageRoute
   CampusLifeAtmeyaRoute: typeof CampusLifeAtmeyaRoute
+  CampusLifeEventsRoute: typeof CampusLifeEventsRoute
   CampusLifeIndexRoute: typeof CampusLifeIndexRoute
 }
 
 const CampusLifeRouteChildren: CampusLifeRouteChildren = {
   CampusLifePageRoute: CampusLifePageRoute,
   CampusLifeAtmeyaRoute: CampusLifeAtmeyaRoute,
+  CampusLifeEventsRoute: CampusLifeEventsRoute,
   CampusLifeIndexRoute: CampusLifeIndexRoute,
 }
 

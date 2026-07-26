@@ -85,7 +85,6 @@ const PAGES: Record<string, { title: string; subtitle: string; intro: string; im
       { heading: "Why It Matters", body: "An on‑campus ATM means no detour to the city for cash, quick access during long lab hours or fest days, and a safer experience for students and hostellers within the secured campus perimeter." },
     ],
   },
-  events:                  { title: "Events", subtitle: "Workshops, fests and guest lectures", intro: "From technical symposia to literary contests, the calendar at ATME is packed with opportunities for students to participate, organise and lead." },
   "seminar-hall-auditorium": { title: "Seminar Hall & Auditorium", subtitle: "Spaces for ideas and performances", intro: "Air‑conditioned seminar halls and a fully‑equipped auditorium host conferences, guest lectures, cultural performances and convocations." },
   "clubs-associations":    { title: "Clubs & Associations", subtitle: "Find your tribe", intro: "20+ student clubs span coding, robotics, photography, debate, dance, music, social service and more — every interest finds a home at ATME." },
   "green-campus":          { title: "Green Campus", subtitle: "Sustainability woven into daily life", intro: "Tree cover, rainwater harvesting, solar generation, waste segregation and a plastic‑free policy define ATME's commitment to a greener tomorrow." },

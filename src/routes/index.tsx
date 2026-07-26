@@ -12,6 +12,8 @@ import {
   CheckCircle2, FileText, Award, Users, Building2, Phone, Download,
 } from "lucide-react";
 import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
+import { EventCard } from "@/components/site/EventCard";
+import { SITE_EVENTS } from "@/data/siteEvents";
 import { resolveAssetUrl } from "@/lib/assetUrl";
 
 
@@ -198,6 +200,11 @@ function Home() {
   const courses = tab === "ug" ? ugCourses : pgCourses;
   const filteredEvents = events.filter((e) => newsFilter === "all" || e.level === newsFilter);
   const filteredNotices = notices.filter((n) => newsFilter === "all" || n.level === newsFilter);
+  const today = new Date().toISOString().slice(0, 10);
+  const latestEvents = [...SITE_EVENTS].sort((a, b) => b.startDateISO.localeCompare(a.startDateISO)).slice(0, 10);
+  const upcomingEvents = SITE_EVENTS.filter((e) => e.startDateISO >= today)
+    .sort((a, b) => a.startDateISO.localeCompare(b.startDateISO))
+    .slice(0, 5);
 
 
   return (
@@ -586,6 +593,55 @@ function Home() {
             </Reveal>
           </div>
 
+        </div>
+      </section>
+
+      {/* LATEST & UPCOMING EVENTS */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <Reveal>
+            <p className="text-sm font-semibold tracking-widest text-[#f5c518] uppercase text-center">What's Happening</p>
+            <h2 className="mt-3 text-3xl md:text-5xl font-bold text-center tracking-tight text-[#129199]">Latest Events</h2>
+          </Reveal>
+          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+            {latestEvents.map((e, i) => (
+              <Reveal key={e.slug} delay={i * 60}>
+                <EventCard event={e} isPast={e.startDateISO < today} />
+              </Reveal>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              to="/campus-life/events"
+              className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+            >
+              View All Events
+            </Link>
+          </div>
+
+          {upcomingEvents.length > 0 && (
+            <div className="mt-20">
+              <Reveal>
+                <p className="text-sm font-semibold tracking-widest text-[#f5c518] uppercase text-center">Don't Miss Out</p>
+                <h2 className="mt-3 text-3xl md:text-5xl font-bold text-center tracking-tight text-[#129199]">Upcoming Events</h2>
+              </Reveal>
+              <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+                {upcomingEvents.map((e, i) => (
+                  <Reveal key={e.slug} delay={i * 60}>
+                    <EventCard event={e} />
+                  </Reveal>
+                ))}
+              </div>
+              <div className="mt-10 text-center">
+                <Link
+                  to="/upcoming-events"
+                  className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                >
+                  View All Upcoming Events
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
