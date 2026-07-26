@@ -1514,6 +1514,10 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
             // Single accordion image: shown large (bigger than the grid rows
             // below) at its full aspect ratio — object-contain never crops or
             // upscale-blurs it, just letterboxes inside a generous frame.
+            // `!h-*` forces the fixed height past the ambient `.content-prose
+            // img { height: auto }` rule (src/styles.css), which otherwise
+            // wins on specificity and lets every image fall back to its own
+            // natural aspect ratio.
             void cropImages;
             return (
               <img
@@ -1521,7 +1525,7 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
                 src={resolved}
                 alt={seg.images[0].alt || ""}
                 loading="lazy"
-                className="mx-auto h-72 sm:h-80 md:h-96 w-full max-w-2xl object-contain rounded-lg border border-border bg-white"
+                className="mx-auto !h-72 sm:!h-80 md:!h-96 w-full max-w-2xl object-contain rounded-lg border border-border bg-white"
               />
             );
           })()
@@ -1536,14 +1540,18 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
               // Every image in the row shares the same fixed height and
               // object-contain fit, so a row of differently-sized/aspect
               // source photos still lines up edge-to-edge without any of
-              // them being cropped, stretched, or upscale-blurred.
+              // them being cropped, stretched, or upscale-blurred. `!h-*`
+              // forces this past the ambient `.content-prose img { height:
+              // auto }` rule (src/styles.css), which otherwise wins on
+              // specificity and lets each image fall back to its own
+              // natural aspect ratio — the unequal-height bug.
               return (
                 <img
                   key={j}
                   src={resolved}
                   alt={p.alt || ""}
                   loading="lazy"
-                  className="w-full h-64 sm:h-72 md:h-80 object-contain rounded-lg border border-border bg-white"
+                  className="w-full !h-64 sm:!h-72 md:!h-80 object-contain rounded-lg border border-border bg-white"
                 />
               );
             })}
