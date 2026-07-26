@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/accordion";
 import { PdfThumbCard } from "@/components/site/PdfThumbCard";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -17,7 +18,7 @@ export const Route = createFileRoute("/women-cell")({
   loader: async () => {
     const { default: scrapedAll } = await import("@/data/scrapedAll.json");
     const page = (scrapedAll as S)["women-cell-atme"];
-    return { markdown: page?.markdown || "" };
+    return { markdown: sanitizeMarkdown(page?.markdown || "") };
   },
   component: WomenCellPage,
   head: () => ({
