@@ -631,11 +631,14 @@ function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: str
                       const isStray = (raw: string) => {
                         const t = (raw || "").replace(/\*\*/g, "").trim();
                         if (t === "" || /^[-–—]+$/.test(t)) return true;
-                        // Drop a bare "N years/months" restating the total
-                        // experience (e.g. leaked from a "Professional
-                        // Experience: 13 years" heading) — the breakdown
-                        // table above already shows Teaching/Research/Industry.
-                        if (/^\d+(\.\d+)?\s*(years?|yrs?\.?|months?|mos?\.?)\.?$/i.test(t)) return true;
+                        // Drop a bare "N years/months" (or just a bare number,
+                        // e.g. "14") restating the total experience — leaked
+                        // from a "Professional Experience: 14" / "13 years"
+                        // heading whose value got parsed as inline content.
+                        // The breakdown table above already shows
+                        // Teaching/Research/Industry, so this is always
+                        // redundant, never new information.
+                        if (/^\d+(\.\d+)?\s*(years?|yrs?\.?|months?|mos?\.?)?\.?$/i.test(t)) return true;
                         return false;
                       };
                       // When the scraped data has no actual Teaching/Research/
@@ -908,15 +911,23 @@ function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[
     return s.trim();
   };
 
+  // Academic Details entries are always flat qualification bullets ("Ph.D",
+  // "M.Phil", "B.Sc" …) — even a bare bold term with no trailing description
+  // is still a qualification line, not a sub-heading introducing further
+  // items. Treating it as one (as the generic subheadingMatch below would)
+  // promotes it to the small bold "group heading" style instead of the
+  // uniform yellow-bracket bullet its sibling qualifications use.
+  const isAcademicSection = !!sectionTitle && /^academic details$/i.test(sectionTitle);
+
   type Group = { heading?: string; bullets: ProfileItem[] };
   const groups: Group[] = [{ bullets: [] }];
   for (const it of items) {
-    const sub = subheadingMatch(it);
+    const sub = isAcademicSection ? null : subheadingMatch(it);
     if (sub) {
       groups.push({ heading: sub, bullets: [] });
       continue;
     }
-    const inlineMatch = it.columns ? null : it.text.match(/^\*\*\s*([^*]{2,80}?)\s*:\s*\*\*\s*(.+)$/);
+    const inlineMatch = isAcademicSection || it.columns ? null : it.text.match(/^\*\*\s*([^*]{2,80}?)\s*:\s*\*\*\s*(.+)$/);
     if (inlineMatch && inlineMatch[2].length > 0 && inlineMatch[1].length < 70 && it.num == null) {
       groups.push({ heading: inlineMatch[1].trim(), bullets: [{ num: null, text: cleanItemText(inlineMatch[2].trim()) }] });
     } else {

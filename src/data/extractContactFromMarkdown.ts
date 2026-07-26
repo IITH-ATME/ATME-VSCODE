@@ -114,7 +114,35 @@ export function extractContactFromMarkdown(md: string | undefined): ExtractedCon
   // 2) Walk bullet/list lines: "- **Label**: value" or "- Label: value".
   //    Used by newer scraped profiles where Contact Details is a list.
   const bullets = md.split(/\r?\n/).filter((l) => /^\s*[-*]\s+/.test(l));
-  for (const line of bullets) {
+  for (let bi = 0; bi < bullets.length; bi++) {
+    const line = bullets[bi];
+
+    // Some old-site profiles pack two ID columns onto one source row. Once
+    // scraped to bullets that becomes:
+    //   - **Web of Science Researcher ID:** **LinkedIn ID**
+    //   - <https://www.linkedin.com/in/...>
+    // i.e. the second id's own label lands where its value should be (so
+    // it would otherwise get assigned to the FIRST id, producing a broken
+    // link like .../record/LinkedIn%20ID), and the second id's real value
+    // is an orphaned, unlabelled bullet directly below. Detect that shape
+    // and re-pair the second label with the following line's value instead.
+    const collision = line.match(/^\s*[-*]\s+\*\*([^*]+?):?\*\*\s*\*\*([^*]+?)\*\*\s*$/);
+    if (collision) {
+      const label2 = stripFormatting(collision[2]);
+      const matched2 = orderedLabel(label2).find((p) => p.test.test(label2));
+      const nextLine = bullets[bi + 1];
+      const nextValueMatch = nextLine?.match(/^\s*[-*]\s+(.+)$/);
+      if (matched2 && nextValueMatch) {
+        const cleaned = nextValueMatch[1].trim().replace(/^<([^>]+)>\s*$/, "$1");
+        const value = extractFromCell(cleaned);
+        if (value) {
+          assign(result, matched2.label, value);
+          bi++; // consume the paired value line too
+        }
+      }
+      continue;
+    }
+
     const m = line.match(/^\s*[-*]\s+(?:\*\*([^*]+?)\*\*|([^:]+?))\s*[:\-]\s*(.+)$/);
     if (!m) continue;
     const label = stripFormatting(m[1] || m[2] || "");
