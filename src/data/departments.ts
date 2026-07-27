@@ -87,7 +87,7 @@ const eeeFaculty: Faculty[] = [
   { id: "ms-swapna-h", name: "Ms. Swapna H", designation: "Assistant Professor", qualification: "M.Tech", doj: "17.08.2016", image: "/images/uploads/2022/09/Ms.-Swapna-H-1.jpg", cvUrl: "https://old.atme.edu.in/ms-swapna-h/" },
   
   { id: "mrs-kavyashree-s", name: "Mrs. Kavyashree S", designation: "Assistant Professor", qualification: "M.Tech", doj: "12.06.2023", image: "/images/uploads/2022/09/Kavyashree-S.jpg", cvUrl: "https://old.atme.edu.in/mrs-kavyashree-s/" },
-  { id: "mrs-swathi-c-a", name: "Mrs. Swathi C A", designation: "Assistant Professor", qualification: "M.Tech", doj: "12.06.2023", image: "/images/uploads/eee-faculty/mrs-swathi-c-a.jpg", cvUrl: "https://old.atme.edu.in/mrs-swathi-c-a/" },
+  { id: "mrs-swathi-c-a", name: "Mrs. Swathi C A", designation: "Assistant Professor", qualification: "M.Tech", doj: "12.06.2023", image: "/images/uploads/2026/07/swathi-c-a.jpeg", cvUrl: "https://old.atme.edu.in/mrs-swathi-c-a/" },
   { id: "shilpashri-v-n", name: "Mrs. Shilpashri V N", designation: "Assistant Professor", qualification: "M.Tech", image: "/images/uploads/2022/09/Shilpashri-V-N.jpg", cvUrl: "https://old.atme.edu.in/shilpashri-v-n/" },
   { id: "sunil-kumar-l", name: "Mr. Sunil Kumar L", designation: "Instructor", qualification: "Diploma in Electrical and Electronics Engineering", doj: "01.03.2017", image: "/__l5e/assets-v1/8406a0ad-141e-4b5d-8c3a-99cec28eaf67/sunil-kumar-l.png", cvUrl: "https://atme.edu.in/sunil-kumar-l/" },
   { id: "rajesh-n", name: "Mr. Rajesh N", designation: "Mechanic", qualification: "ITI", doj: "05.08.2024", image: rajeshN.url, cvUrl: "" },
