@@ -763,6 +763,12 @@ function DeptSubPage() {
                 md={bodyMd}
                 openFirst={/research/.test(k)}
                 inlineTablePdfs={canonKey === "co-curricular" || canonKey === "industry-interface" || /co-curricular|extra-curricular|extracurricular|activit|industry/.test(k)}
+                // AIML's Research page source is a strict bullet-list outline
+                // (Research / Publications, each with several levels of pure
+                // grouping labels) — every grouping label should become its
+                // own nested accordion instead of flattening to the default
+                // plain-divider treatment used elsewhere.
+                alwaysAccordion={dept.slug === "aiml" && pageKey === "aiml-research"}
               />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
@@ -1232,7 +1238,13 @@ function renderAccordionTree(
   keyPrefix: string,
   inlineTablePdfs: boolean,
   cropImages: boolean,
-  openFirst: boolean
+  openFirst: boolean,
+  // When set, every pure-grouping heading becomes a real clickable accordion
+  // instead of the default plain-divider treatment — used for pages (e.g.
+  // AIML Research) whose source document is itself a strict bullet-list
+  // outline, where every grouping label should nest as its own accordion
+  // rather than flattening its descendants up to the surrounding level.
+  alwaysAccordion = false
 ) {
   return nodes.map((n, i) => {
     const key = `${keyPrefix}-${i}`;
@@ -1254,7 +1266,7 @@ function renderAccordionTree(
         allChildrenAreBatches ||
         allChildrenHaveYearRange ||
         allChildrenAreReportSubsections);
-    if (!n.body.trim() && n.children.length > 0 && !isYearGroup) {
+    if (!alwaysAccordion && !n.body.trim() && n.children.length > 0 && !isYearGroup) {
       return (
         <div key={key} className="w-full space-y-3">
           <div className={level === 0 ? "pt-2 text-center" : "pt-1 text-center"}>
@@ -1273,7 +1285,7 @@ function renderAccordionTree(
             />
           </div>
           <div className="w-full space-y-3">
-            {renderAccordionTree(n.children, level, key, inlineTablePdfs, cropImages, openFirst)}
+            {renderAccordionTree(n.children, level, key, inlineTablePdfs, cropImages, openFirst, alwaysAccordion)}
           </div>
         </div>
       );
@@ -1296,7 +1308,7 @@ function renderAccordionTree(
           {n.body.trim() && <AccordionBody md={n.body.trim()} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
           {n.children.length > 0 && (
             <div className="w-full space-y-3">
-              {renderAccordionTree(n.children, level + 1, key, inlineTablePdfs, cropImages, false)}
+              {renderAccordionTree(n.children, level + 1, key, inlineTablePdfs, cropImages, false, alwaysAccordion)}
             </div>
           )}
         </div>
@@ -1305,7 +1317,7 @@ function renderAccordionTree(
   });
 }
 
-function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = true }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean }) {
+function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = false, cropImages = true, alwaysAccordion = false }: { md: string; openFirst?: boolean; inlineTablePdfs?: boolean; cropImages?: boolean; alwaysAccordion?: boolean }) {
   const { preamble, sections: rawSections } = splitSections(md);
   const tree = mergeSelfTitledChild(dedupeAccordionTree(pruneAccordionTree(buildSectionTree(rawSections))));
   const cleanedPreamble = cleanAccordionBody(preamble);
@@ -1313,7 +1325,7 @@ function SimpleTwoLevelAccordion({ md, openFirst = false, inlineTablePdfs = fals
   return (
     <div className="w-full space-y-3">
       {cleanedPreamble && <AccordionBody md={cleanedPreamble} inlineTablePdfs={inlineTablePdfs} cropImages={cropImages} />}
-      {renderAccordionTree(tree, 0, "s", inlineTablePdfs, cropImages, openFirst)}
+      {renderAccordionTree(tree, 0, "s", inlineTablePdfs, cropImages, openFirst, alwaysAccordion)}
     </div>
   );
 }
@@ -3285,9 +3297,9 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "7th", section: "B", incharge: "Prof. Keerthana M M", email: "keerthanamm_cs@atme.edu.in" },
   ],
   CE: [
-    { sem: "4th", section: "A", incharge: "Prof. Rudresh A N", email: "rudreshan_cv@atme.edu.in", phone: "9743580290" },
-    { sem: "6th", section: "A", incharge: "Prof. Bharathi B", email: "bharathib_cv@atme.edu.in", phone: "8496009262" },
-    { sem: "8th", section: "A", incharge: "Prof. Akhila C G", email: "akhilacg_cv@atme.edu.in", phone: "9743726895" },
+    { sem: "3rd", section: "A", incharge: "Prof. Akhila C G", email: "akhilacg_cv@atme.edu.in", phone: "9743726895" },
+    { sem: "5th", section: "A", incharge: "Prof. Rudresh A N", email: "rudreshan_cv@atme.edu.in", phone: "9743580290" },
+    { sem: "7th", section: "A", incharge: "Prof. Bharathi B", email: "bharathib_cv@atme.edu.in", phone: "8496009262" },
   ],
   EEE: [
     { sem: "II", section: "A", incharge: "Prof. Swapna H", email: "swapnah_ee@atme.edu.in", phone: "9591562578" },
@@ -3324,7 +3336,7 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   const showContact = true;
   // EEE-specific: the college now labels this "Academic Year 2026–27" and
   // uses "Year" instead of "Semester" as the column header there.
-  const academicYear = deptCode === "EEE" || deptCode === "ECE" ? "2026–27" : "2025–26";
+  const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" ? "2026–27" : "2025–26";
   const semesterColLabel = deptCode === "EEE" ? "Year" : "Semester";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">
