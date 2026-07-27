@@ -159,6 +159,8 @@
     "coe-bs"
   ],
   "aiml": [
+    "aiml-newsletter",
+    "aiml-research",
     "resources",
     "about-the-department",
     "ai-ml-hods-message",

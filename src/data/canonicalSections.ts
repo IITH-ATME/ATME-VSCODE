@@ -18,7 +18,7 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
   { key: "achievements", label: "Achievements", short: "Achievements",
     aliases: ["achievements", "achievements-2", "achivements", "civil-achievements", "cseds-achievements", "csd-achievements"] },
   { key: "research-initiative", label: "Research Initiative", short: "Research",
-    aliases: ["research-initiative", "research-initiatives", "civil-research-initiatives", "cseds-research-initiative", "csd-research"] },
+    aliases: ["research-initiative", "research-initiatives", "civil-research-initiatives", "cseds-research-initiative", "csd-research", "aiml-research"] },
   { key: "student-learning-centric", label: "Student Learning Centric", short: "Student Learning",
     aliases: ["civil-resources", "cyber-security-resources", "mca-resources", "resources-mba", "resources", "resourses", "rd-for-students", "teachers-teaching-analysis", "cseds-resources", "bca-resources"] },
   { key: "industry-interface", label: "Industry Interface", short: "Industry Interface",
@@ -28,7 +28,7 @@ export const CANONICAL_SECTIONS: CanonicalSection[] = [
   { key: "co-curricular", label: "Co-curricular & Extracurricular Activities", short: "Activities",
     aliases: ["co-curricular-extracurricular-activities", "co-curricular-extra-curricular-activities", "extra-curricular-activities", "co-curricular-extracurricular-activities-mba", "professional-society-activities", "csd-cocurricular-activities"] },
   { key: "news-letter", label: "News Letter", short: "Newsletter",
-    aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter", "csd-newsletter", "cseds-news-letter-and-magazines"] },
+    aliases: ["e-news-letter", "ee-e-news-letter", "cse-news-letter-2", "cse-news-letter", "ce-news-letter", "csd-newsletter", "cseds-news-letter-and-magazines", "aiml-newsletter"] },
   { key: "coe", label: "Calendar of Events (COE)", short: "COE",
     aliases: ["coe-cs", "coe-cse-ds", "coe-cse-aiml", "coe-cse-csd", "cyber-security-coe", "coe-mca", "coe-mba", "coe-cv", "ee-coe"] },
 ];
