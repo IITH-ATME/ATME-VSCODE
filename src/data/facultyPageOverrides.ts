@@ -2486,6 +2486,74 @@ Attender
 
 - Mentor`,
   },
+  "dr-muralidhar-m-p": {
+    name: "Dr. Muralidhar M P",
+    url: "https://old.atme.edu.in/dr-muralidhar-m-p/",
+    md: `## Professional Experience
+
+- Teaching: 18 Years
+- Research: –
+- Industry: –
+
+## Contact Details
+
+- **Email ID:** Official: [dr.muralidharmp_sports@atme.edu.in](mailto:dr.muralidharmp_sports@atme.edu.in) | Personal: [mpmuralidhar7@gmail.com](mailto:mpmuralidhar7@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/297333>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=VEaKaW8AAAAJ>
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0003-2175-5026>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** –
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** in Physical Education – University of Mysore
+- **M.P.Ed.** in Physical Education – University of Mysore
+- **B.P.Ed.** in Physical Education – University of Mysore
+
+## Areas of Interest
+
+- Softball, Cricket, Baseball, Tennis, Table Tennis and Athletics
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- Regional Director – VTU, Mysuru Division
+- Selection Committee Member for University Teams
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- NIL
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- National – NIL
+- International – NIL
+
+## Roles and Responsibilities: Institute Level
+
+- Anti Ragging Committee
+- Sports Committee
+
+## Roles and Responsibilities: Department Level
+
+- Anti Ragging Committee
+- Sports Committee
+- Website Committee
+- Magazine Committee`,
+  },
   "ms-pallavi-a-r": {
     name: "Ms. Pallavi A R",
     url: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/",
