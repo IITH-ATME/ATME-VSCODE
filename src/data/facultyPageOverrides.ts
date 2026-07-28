@@ -861,12 +861,249 @@ Attender
   "dr-avinash-k": {
     name: "Dr. Avinash K",
     url: "https://old.atme.edu.in/dr-avinash-k/",
-    md: "## Contact Details\n\n- **Official Email**: [dr.avinashk\\_che@atme.edu.in](mailto:dr.avinashk_che@atme.edu.in)\n- **Personal Email**: [avinashkchemistry@yahoo.in](mailto:avinashkchemistry@yahoo.in)\n- **Vidwan ID**: <https://vidwan.inflibnet.ac.in/profile/201626>\n- **Google Scholar**: <https://scholar.google.co.in/citations?user=pe8yEdkAAAAJ>\n- **Scopus ID**: <http://www.scopus.com/authid/detail.url?authorId=37033342500>\n- **ORCID**: <http://www.orcid.org/0000-0001-8361-7660>\n- **LinkedIn**: <https://www.linkedin.com/in/dr-avinash-k-474920a8/>\n\n## Academic Details\n\n- Ph.D in Analytical Chemistry\n- M.Sc in Chemistry\n- B.Sc in Physics, Chemistry, and Mathematics\n\n## Areas of Interest\n\n- Material Science, Nanomaterials\n- Synthesis & Characterisation, Bacteria culture, Energy storage devices.\n\n## Professional Experience\n\n- Teaching: 19 Years, Research: 21 Years, Industry: 1.5 Years\n\n## Publication Details\n\n1. **Evaluation of peroxidase mimicking behaviour of V2O5 nanozymes with various morphologies and its application as glucose sensor via cascade mechanism in human serum samples.** NY Gangadhara, B Manju, PK Kumar, H Krishna, A Shivakumar, Biochemical and Biophysical Research Communications 762, 151758\n2. **Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies**. RH Sadashivanna, H Krishna, A Shivakumar, NY Gangadhara, Nano-Structures & Nano-Objects 40, 101340. (2023)\n3. **A simple uric acid assay by using 3‐hydroxytyramine as a chromogenic colorimetric sensor in human serum samples: Density functional theory supported mechanistic approach.** H Krishna, A Krishnegowda, S Anantharaman, KS Ashwinee, . Journal of the Chinese Chemical Society 70 (4), 894-908 (2023)\n4. **Experimental Study on Strength and Durability Characteristics of Mortars with TiO2 Nanoparticles.** Srivathsa, H.U., Prakash, T.M., Puneeth, K., . Lecture Notes in Civil Engineering, 2024, 459, pp. 85–95.\n5. **An Account of the Influence of TMDC Anodic Materials on Li/Na-ion Battery Capacity**. R Ravikumar, ML KS, A Krishnegowda . Grenze International Journal of Engineering & Technology (GIJET) 9 (1) (2023).\n6. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as Antibacterial Agents**. KKP Kumar, A Krishnegowda.Grenze International Journal of Engineering & Technology (GIJET) 9 (1)\n7. **Evaluation of Strong Microwave Absorption Property of PVB-PEDOT:PSS-Ti3C2Tx MXene Nanocomposite With Materials Data-Driven Discovery**. Praveen Kumar, M., Raga, S., Chetana, S., ... Dey, A., Rangappa, D. Transactions on Electrical and Electronic Materials, 2023, 24(3), pp. 235–241.\n8. **Spectrophotometric determination of glucose in human serum samples using para‐phenylenediamine and alpha‐naphthol as a chromogenic reagent** S Besagarhally Shivappa, A Krishnegowda. International Journal of Chemical Kinetics 2022, 54 (12), 681-691.\n9. **EVALUATION OF THE ANTI-FUNGAL EFFICACY OF SILVER-DOPED NANOPARTICLES WITH METAL OXIDE NANOPARTICLES** P Malathi, K Avinash\n10. Ann. For. Res 65 (1), 5263-5271\n11. **A quantitative method for the detection and validation of catalase activity at physiological concentration in human serum, plasma and erythrocytes**. Krishna, H., Avinash, K., Shivakumar, A., Al-tayar, N.G.S., Shrestha, A.K. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 2021, 251, 119358\n12. Synthesis and Characterization **of AgO and Co doped AgO nanocomposites by Green Facilitated Route for Antibacterial activity against E. Fecalis.** Malathi P, Dr Kirankumar P, Dr Avinash K article International Journal of All Research Education & Scientific Methods, Volume 10, Year 2022.\n13. **Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as 61-66 Antibacterial Agents,** Malathi Pujar, Kiran Kumar Prem kumar and Avinash Krishnegowda, conference proceedings ICRTST-2022, Year 2022, Pages 61-66\n14. **Analytical Determination of Hemoglobin by Spectrophotometric Method,** Ravishankar H Sadashivanna B S, Avinash Krishnegowda, Kiran Kumar.\n15. **\"Recent trends in green synthesis of ZnO nanomaterials using plant extracts\"**. Malathi Pujar, **Kiran Kumar Prem Kumar**\\* Dr. Avinash K\\* Department of Chemistry, ATME College of Engineering, Mysuru, Karnataka India: Corresponding authors; kiran.pbs@gmail.com, avinashkchemistry@gmail.com. INTERNATIONAL CONFERENCE ON RECENT TRENDS IN SCIENCE & TECHNOLOGY (ICRTST 2021) ISBN: 978-93-5473-932-3.\n16. K. Ashwini, C. Pandurangappa and K. Avinash, Morphological change based Optical studies of Zinc sulphide Nanophosphor. Materials today chemistry, Volume 4, Issue 11, Part 3, 2017, Pages 12157-12167\n17. Avinash K, Nagaraja P, Shivakumar A, Krishna Honnur, Spectrophotometric assay of creatinine in human serum sample,  Arabian J Chem., 2013.(IF 2.684)\n18. P. Nagaraja, K. Avinash, A. Shivakumar, R. Dinesh, A. K. Shrestha, “Simple and Sensitive Method for the Quantification of Total Bilirubin in Human Serum using 3-methyl-2-benzothiazolinone hydrazone hydrochloride as a Chromogenic Probe”, SpectrochimicaActa Part A: Molecular and BiomolecularSpectroscopy, 77, 2010, 782-786. (IF 2.129)\n19. P. Nagaraj, N. Aradhana, A. Shivakumar, A. K. Shrestha, Avinash K Gowda “Spectrophotometric method for the determination of chromium (VI) in water  samples”, Environmental Monitoring and Assessment, 157, (1-4)2008, 575-582.(IF 1.679)\n20. P. Nagaraja\\*, N. GhallabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta and A. K. Gowda, “Spectrophotometric Determination of the Trace Amount of Thallium in Water and Urine Samples by Novel Oxidative Coupling Reaction”, E. J. Chem, 6, 2009, 1153 – 1163\n21. P. Nagaraja, NaefGhllabSaeed Al-Tayar, A. Shivakumar, A. K. Shresta, K. Avinash, “Rapid and Sensitive Spectrophotometric Method for the Determination of the Trace Amount of Thallium (III) in Water and Urine Samples by New Oxidative Coupling Reaction”, J. Mex. Chem. Soc. 53, (4),2009,201-208.(IF 0.28)\n22. P. Nagaraja, N. G. S. Al-Tayar, A. Shivakumar, A. K. Shrestha, A. K. Gowda, A simple and sensitive spectrophotometric method for the determination of trace amounts of nitrite in environmental and biological samples using 4-amino-5-hydroxynaphthalene-2,7-disulphonic acid monosodium salt, Spectrochim. Acta A: Mol. Biomol. Spectrosc. 75,2010, 1411-1416\n23. 8.P. Nagaraja, A. Shivakumar, N. Aradhana, and A. K. Gowda, “Kinetic Study of    Peroxidase-Catalyzed Coupling of Benzene-1,4-diamine and N-(2-Aminoethyl)naphthalene-1-amine: Development of MicromolarHydrogenperoxide Reaction System”, Helv. Chim. Acta,  93, (6),2010, 1227 – 1237.(IF 1.383)\n24. P. Nagaraja, A. K. Shrestha, A. Shivakumar, K. Avinash, “Spectrophotometric determination of chloroquine, pyrimethamine, and trimethoprim by ion pair extraction in pharmaceutical formulation and urine”, Journal of Food and Drug Analysis, 18,2010, 239-248.(IF 0.249)\n25. P. Nagaraja, A. K. Shrestha A. Shivakumar, K. Avinash, Use of N,N-diethyl-p-phenylenediaminesulphate for the spectrophotometric determination of some phenolic and amine drugs, Acta Pharm. 60,2010, 217–227.(IF 1.025)\n26. A. Shivakumara, P. Nagaraja, N. A. Chamaraja, Honnur Krishna, K. Avinash, Determination of catalase activity using chromogenic probe involving iso-nicotinicacidhydrazide and pyrocatechol, J Bio. Tech., 155, 2011, 406–\n411. (IF 2.884)\n27. P. Nagaraja, A. Suma, N. Aradhana, A. Shivakumar, K. Avinash, Honnur Krishna, Quantification of Antioxidants in Medicinal Plants and Foodstuffs Using Ce(IV) with Indigo Carmine as Chromogenic Probe, Food anal. Methods, 5, 2102, 909 – 919.(IF 1.802)\n28. P. Nagaraja, K. Avinash, A. Shivakumar, Honnur Krishna, Quantification of creatinine in biological samples based on the pseudoenzyme activity of copper–creatinine complex, Spectrochimicaacta Part A, 92, 2012, 318 – 324.(IF 2.129)\n29. Honnur Krishna, P. Nagaraja, A. Shivakumar, K. Avinash, Vasanthkumar L, Hydroxylation of 4-Amino-5-hydroxynaphthalene-2,7-disulfonic Acid Monosodium Salt Catalysed by Horseradish Peroxidase and Hydrogen Peroxide: Computation of kinetic parameters including its application to crude plant extracts, J Chinese Chem. Soc., 60, 2013, 452 – 459.(IF 0.856)\n\n## Membership in Professional Bodies\n\n- KSCST\n- EEE\n- ISC\n\n## Honours/Awards/Achievements\n\n- Guiding five students for their Doctoral degree under VTU.\n- Organized one day national level workshop on IPR for Diffusion of technology in collaboration with NRDC.\n- Organized special talk on Nanotechnology by Dr. Dinesh Rangappa, Chairman, VTU Nanotechnology Dept, Bangalore.\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Presented Research article “Synthesis and Characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial activity against E.Coli”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n2. Presented Research article “Fe3O4 Nanoparticles as Nanozymefor the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n3. 3 Days face-to-face FDP on the theme “ Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023\n4. Presented Research article “An accont of influenceof TMDCs for anodic materialsof Li/Na-ion battery capacity”\n- ICRTST\n- 2022 , 9(1):777-786\n5. One Week Online Teachers Training Program on “An Overview of Teaching in Scientific Foundations of Health”\n- AICTE-VTU Joint Training Programme for Teachers– 20th – 24th December 2021\n6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian For Experimental Physicists and Chemists – Alva’s Institute of Engineering & Technology – 25th – 29th Oct 2021\n7. Presented Research article **“*Analytical Determination of Hemoglobin By Spectrophotometric Method”*** Authors: Ravishankar H Sadashivanna, Dr. Avinash Krishnegowda, **Dr. Kiran Kumar P**, Held at ICRTST-2022 Held at ATMECE, Mysore\n8. Presented Research article ***“Nanostructured ZnO & CoO doped transition metal oxide nanoparticles as antibacterial agents”*** Authors: Malathi Pujar, **Dr. Kiran Kumar P**, Dr. Avinash Krishnegowda. Held at ICRTST-2022 Held at ATMECE, Mysore\n9. Presented Research article “Current Review on Nanozymes” Authors: Nikhil Y Gangadhara, Dr. Avinash Krishnegowda, Ravishankar H Sadashivanna Held at ICRTST-2022 Held at ATMECE, Mysore\n10. Spectrophotometric Assay Based on Horseradish peroxidase- Catalysed Hydrogen Peroxide Using Amino antipyrine And Resorcinol as Chromogenic Reagents for Sensitive Detection of Peroxidase in Plant Extracts. Authors: Supriya B S, Dr. Avinash Krishnegowda, Dr. Mahesh lohith K S\n11. Online Course on “*Nanotechnology, Science and Applications”* online mode at NPTEL-AICTE on July-Aug 2020.\n12. Online Workshop *“*A*dvanced Techniques for Materials Characterization”* organized by MNIT Jaipur on July 6th to 10th 2020\n13. Workshop on “*Materials Characterization by SEM and XRD”* organized by Centre for Incubation, Innovation, Research & Consultancy. Bangalore. On 12th July 2019.\n14. One day national seminar on Nanotechnology for Energy, Environment and Health at NIE institute of technology, Mysore on 28thFeb 2017.\n15. One day workshop on radiation natural and manmade at VidyaVikas institute of technology, Mysore on 29th March 2014.\n16. One day workshop on Faculty development programmeat VidyaVikas institute of technology, Mysore on 24thAug 2014.\n17. One day workshop on Recent advances in chemistry at GMIT, Mandya on 10thJan 2015.\n\n## Proposal/Funding/Project Financial Assistance\n\n- Yes\n\n## Patent\n\nNational Patents\nNIL\n\nInternational Patents\nNIL\n\n## Roles and Responsibilities\n\n## Institute Level Roles\n\n- ISO Coordinator\n- NIRF Coordinator\n- NAAC Coordinator\n- Research Supervisor\n- Anti-Ragging Squad\n- Research Guide for 3 Research Scholars.\n- Guided 2 Students for Ph.D.\n\n## Department Level Roles\n\n- HOD of Chemistry\n- Coordinator for Chemistry Cycle\n- Member of various committees\n- Class Teacher",
+    md: `## Professional Experience
+
+- Teaching: 19 Years
+- Research: 21 Years
+- Industry: 1.5 Years
+
+## Contact Details
+
+- **Email ID:** Official: [dr.avinashk_che@atme.edu.in](mailto:dr.avinashk_che@atme.edu.in) | Personal: [avinashkchemistry@gmail.com](mailto:avinashkchemistry@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201626>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=pe8yEdkAAAAJ>
+- **Scopus ID:** <http://www.scopus.com/authid/detail.url?authorId=37033342500>
+- **Orcid ID:** <http://www.orcid.org/0000-0001-8361-7660>
+- **LinkedIn ID:** <https://www.linkedin.com/in/dr-avinash-k-474920a8/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D** in Analytical Chemistry
+- **M.Sc** in Chemistry (Inorganic Chemistry)
+- **B.Sc** in Physics, Chemistry & Mathematics
+
+## Areas of Interest
+
+- Spectrophotometric analysis of drugs, metal ions, pesticides, enzymes and biomolecules.
+- Nanotechnology, Electrochemical sensors, nanozymes, enzyme kinetics, antimicrobial activities, Battery technology.
+
+## Publication Details
+
+1. Electrochemical performance of BiOCl for battery applications: Structural, optical, and charge-storage properties. G Karthik, KS Mahesh Lohith, KC Sunil Kumar, G Nagaraju, K Avinash, HS Harshitha, KR Pooja, V Lakshmi Ranganatha, C Mallikarjuna swamy, Ceramics International
+2. Creatinine conjugated copper oxide nanomaterial as peroxidase mimicking nanozyme and study of its biological activity. Ravishankar H Sadashivanna, Honnur Krishna, Anantharaman Shivakumar, Nikhil Y Gangadhara, Raghavendra Ravikumar, Avinash Krishnegowda, Next Materials 10, 101453.
+3. Oxygen deficient MoO3 nanoparticles as peroxidase substitutes, their substrate-nanozyme interactions and real time validation in human serum sample. Nikhil Y Gangadhara, P Kiran Kumar, Avinash Krishnegowda, Honnur Krishna, KS Mahesh Lohith, Ravishankar H Sadashivanna, Raghavendra Ravikumar. Journal of Pharmaceutical and Biomedical Analysis, 117119
+4. Evaluation of peroxidase mimicking behaviour of V2O5 nanozymes with various morphologies and its application as glucose sensor via cascade mechanism in human serum samples. Nikhil Y Gangadhara, B Manju, P Kiran Kumar, Honnur Krishna, Anantharaman Shivakumar, Ravishankar H Sadashivanna, Avinash Krishnegowda, Biochemical and Biophysical Research Communications 762, 151758
+5. Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies. Ravishankar H Sadashivanna, Honnur Krishna, Anantharaman Shivakumar, Nikhil Y Gangadhara, KS Mahesh Lohith, Avinash Krishnegowda, Nano-Structures & Nano-Objects 40, 101340
+6. Peroxidase Mimicking V2O5 Nanozymes as the Spectrophotometric Sensor for the Determination of Glucose in Human Serum Sample Employing New Chromogenic Co-Substrates. Nikhil Y Gangadhara, P Kiran Kumar, Honnur Krishna, Anantharaman Shivakumar, Ravishankar H Sadashivanna, Avinash Krishnegowda.
+7. Evaluation of Strong Microwave Absorption Property of PVB-PEDOT:PSS-Ti3C2Tx MXene Nanocomposite with Materials Data-Driven Discovery. M Praveen Kumar, S Raga, S Chetana, K Avinash, A Dey, D Rangappa. Transactions on Electrical and Electronic Materials 24 (3), 235-241
+8. A simple uric acid assay by using 3‐hydroxytyramine as a chromogenic colorimetric sensor in human serum samples: Density functional theory supported mechanistic approach. Honnur Krishna, Avinash Krishnegowda, Shivakumar Anantharaman, Kumar Shrestha Ashwinee, A Edalli Vijayalakshmi. Journal of the Chinese Chemical Society, 70 (4), 894-908
+9. An Account of the Influence of TMDC Anodic Materials on Li/Na-ion Battery Capacity. R Ravikumar, ML KS, A Krishnegowda. Grenze International Journal of Engineering & Technology (GIJET) 9 (1)
+10. Nanostructured ZnO&CoO Doped Transition Metal Oxide Nanoparticles as Antibacterial Agents. KKP Kumar, A Krishnegowda. Grenze International Journal of Engineering & Technology (GIJET) 9 (1)
+11. Spectrophotometric determination of glucose in human serum samples using para‐phenylenediamine and alpha‐naphthol as a chromogenic reagent. S Besagarhally Shivappa, A Krishnegowda, International Journal of Chemical Kinetics 54 (12), 681-691
+12. Evaluation of the anti-fungal efficacy of silver-doped nanoparticles with metal oxide nanoparticles. P Malathi, K Avinash, Ann. For. Res 65 (1), 5263-5271
+13. Development and quantification of horseradish peroxidase using paraphenylenediamine and alpha naphthol: applications in medicinal plant sources. B S Supriya, Avinash Krishnegowda, 15 (4), 2993-2998
+14. A quantitative method for the detection and validation of catalase activity at physiological concentration in human serum, plasma and erythrocytes. H Krishna, K Avinash, A Shivakumar, NGS Al-Tayar, AK Shrestha, Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 251, 119358
+15. Recent trends in green synthesis of ZnO nanomaterials using plant extracts. M Pujar, KKP Kumar, A Krishnegowda, RH Sadashivanna, Int Res J Eng Technol 8 (05), 147-156
+16. Synthesis, characterization and photoluminescence studies of samarium doped zinc sulfide nanophosphors. K Ashwini, C Pandurangappa, K Avinash, S Srinivasan, E Stefanakos, Journal of Luminescence 221, 117097
+17. Design Of MEMS Sensor For The Detection Of Diabetes. Syed Shameem, D Vamsi Krishna, K Sarat Kumar, K Avinash. 2018 3rd International Conference on Inventive Computation Technologies (ICICT), 413-416
+18. Spectrophotometric assay of creatinine in human serum sample. A Krishnegowda, N Padmarajaiah, S Anantharaman, K Honnur. Arabian Journal of Chemistry 10, S2018-S2024
+19. Morphological change based Optical studies of Zinc sulphide Nanophosphor. K Ashwini, C Pandurangappa, K Avinash. Materials Today: Proceedings 4 (11), 12157-12167
+20. Hydroxylation of 4‐Amino‐5‐hydroxynaphthalene‐2, 7‐disulfonic Acid Monosodium Salt Catalysed by Horseradish Peroxidase and Hydrogen Peroxide: Computation of Kinetic Parameters. H Krishna, P Nagaraja, A Shivakumar, K Avinash, V Lingaiah, Journal of the Chinese Chemical Society 60 (4), 452-459
+21. Quantification of antioxidants in medicinal plants and foodstuffs using Ce (IV) with indigo carmine as chromogenic probe. P Nagaraja, A Suma, N Aradhana, A Shivakumar, K Avinash, H Krishna. Food Analytical Methods 5 (4), 909-919
+22. Quantification of creatinine in biological samples based on the pseudoenzyme activity of copper–creatinine complex. P Nagaraja, K Avinash, A Shivakumar, H Krishna. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 92, 318-324
+23. Determination of catalase activity using chromogenic probe involving iso-nicotinicacidhydrazide and pyrocatechol. A Shivakumar, P Nagaraja, NA Chamaraja, H Krishna, K Avinash. Journal of biotechnology 155 (4), 406-411
+24. Spectrophotometric determination of catecholamine using vanadium and eriochrome cyanine r. Padmarajaiah Nagaraja, Ashwinee Kumar Shrestha, Anantharaman Shivakumar, Naef Ghallab Saeed Al-Tayar, Avinask K Gowda. Química Nova, 34, 373-376
+25. Simple and sensitive method for the quantification of total bilirubin in human serum using 3-methyl-2-benzothiazolinone hydrazone hydrochloride as a chromogenic probe. Padmarajaiah Nagaraja, Krishnegowda Avinash, Anantharaman Shivakumar, Rangappa Dinesh, Ashwinee Kumar Shrestha. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 77(4), 782-786
+26. Kinetic Study of Peroxidase‐Catalyzed Coupling of Benzene‐1,4‐diamine and N‐(2‐Aminoethyl)naphthalen‐1‐amine: Development of Micromolar Hydrogen. A Shivakumar, P Nagaraja, N Aradhana, AK Gowda, Helvetica Chimica Acta 93 (6), 1227-1237
+27. Use of N, N-diethyl-p-phenylenediamine sulphate for the spectrophotometric determination of some phenolic and amine drugs. P Nagaraja, AK Shrestha, A Shivakumar, AK Gowda, Acta Pharmaceutica 60 (2), 217-227
+28. A simple and sensitive spectrophotometric method for the determination of trace amounts of nitrite in environmental and biological samples using 4-amino-5-hydroxynaphthalene-2. Padmarajaiah Nagaraja, Naef Ghllab S Al-Tayar, Anantharaman Shivakumar, Ashwine K Shrestha, Avinash K Gowda. Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 75(5), 1411-1416
+29. Spectrophotometric determination of chloroquine, pyrimethamine and trimethoprim by ion pair extraction in pharmaceutical formulation and urine. P Nagaraja, AK Shrestha, A Shivakumar, AK Gowda. Journal of Food and Drug Analysis 18 (4), 7
+30. Rapid and sensitive spectrophotometric method for the determination of the trace amount of thallium (III) in water and urine samples by new oxidative coupling reaction, P Nagaraja, NGS Al-Tayar, Shivakumar, AK Shresta, AK Gowda, Journal of the Mexican Chemical Society 53 (4), 201-208
+31. Spectrophotometric method for the determination of chromium (VI) in water samples. P Nagaraj, N Aradhana, A Shivakumar, AK Shrestha, A k Gowda. Environmental monitoring and assessment 157 (1), 575-582
+32. Spectrophotometric determination of the trace amount of thallium in water and urine samples by novel oxidative coupling reaction. P Nagaraja, NGS Al-Tayar, A Shivakumar, AK Shresta, AK Gowda. Journal of Chemistry 6 (4), 1153-1163.
+
+## Membership in Professional Bodies
+
+- Karnataka State Council for Science and Technology (KSCST)
+- Indian Science Congress (ISC)
+- Executive Council Member of KECCTA
+
+## Honours/Awards/ Achievements
+
+- BOE member of VTU 2025-26.
+- Doctoral Committee member for VTU PhD Students.
+- Guided three students towards their doctoral degree
+- Presently guiding two students for their PhD degree.
+- Guided 25 students towards the dissertation programme for MSc Students.
+- Organizer of one-day national-level workshop on IPR for Diffusion of Technology in collaboration with NRDC.
+- Organizer of Essentials of Sciences in Engineering and Technology workshop for the academic year 2022-23, 2023-24 and 2024-25
+- Organizer of a special talk on Nanotechnology by Dr. Dinesh Rangappa, Chairman, VTU Nanotechnology Dept, Bangalore.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Presented Research article "Synthesis and Characterization of Ag2O and MnO-doped Ag2O nanocomposites for Antibacterial activity against E. coli". Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+2. Presented Research article "Fe3O4 Nanoparticles as Nanozyme for the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe". Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+3. 3-day face-to-face FDP on the theme "Inculcating Universal Human Values in Technical Education" Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023
+4. Presented Research article "An account of influence of TMDCs for anodic materials of Li/Na-ion battery capacity" - ICRTST - 2022, 9(1):777-786.
+5. One-Week Online Teachers Training Program on "An Overview of Teaching in Scientific Foundations of Health" - AICTE-VTU Joint Training Programme for Teachers – 20th – 24th December 2021
+6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian for Experimental Physicists and Chemists – Alva's Institute of Engineering & Technology – 25th – 29th Oct 2021
+7. Presented Research article "Analytical Determination of Hemoglobin by Spectrophotometric Method" Authors: Ravishankar H Sadashivanna, Dr. Avinash Krishnegowda, Dr. Kiran Kumar P, Held at ICRTST-2022, ATMECE, Mysore
+8. Presented Research article "Nanostructured ZnO & CoO doped transition metal oxide nanoparticles as antibacterial agents." Authors: Malathi Pujar, Dr. Kiran Kumar P, Dr. Avinash Krishnegowda. Held at ICRTST-2022, ATMECE, Mysore
+9. Presented Research article "Current Review on Nanozymes." Authors: Nikhil Y Gangadhara, Dr. Avinash Krishnegowda, Ravishankar H Sadashivanna. Held at ICRTST-2022, ATMECE, Mysore
+10. Spectrophotometric Assay Based on Horseradish Peroxidase-Catalyzed Hydrogen Peroxide Using Aminoantipyrine and Resorcinol as Chromogenic Reagents for Sensitive Detection of Peroxidase in Plant Extracts. Authors: Supriya B S, Dr. Avinash Krishnegowda, Dr. Mahesh Lohith K S
+11. Online Course on "Nanotechnology, Science and Applications" online mode at NPTEL-AICTE on July-Aug 2020.
+12. Online Workshop "Advanced Techniques for Materials Characterization" organized by MNIT Jaipur on July 6th to 10th 2020
+13. Workshop on "Materials Characterization by SEM and XRD" organized by Centre for Incubation, Innovation, Research & Consultancy. Bangalore. On 12th July 2019.
+14. One-day national seminar on Nanotechnology for Energy, Environment and Health at NIE Institute of Technology, Mysore on 28th Feb 2017.
+15. One-day workshop on radiation, natural and manmade at Vidya Vikas Institute of Technology, Mysore on 29th March 2014.
+16. One-day workshop on Faculty development programme at Vidya Vikas Institute of Technology, Mysore on 24th Aug 2014.
+17. One-day workshop on Recent advances in chemistry at GMIT, Mandya on 10th Jan 2015.
+
+## Book Chapters
+
+- Phytochemicals in nutraceutical-development, regulation and market trends. PK Kumar, R Rajam, AS Raj, K Avinash, P Karthik, R Sanjana. Phytoceuticals in Food for Health and Wellness, 531-547
+- Experimental Study on Strength and Durability Characteristics of Mortars with TiO2 Nanoparticles. HU Srivathsa, TM Prakash, K Puneeth, K Avinash, 85-95
+
+## Proposal/Funding/Project Financial Assistance
+
+- Yes
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- ISO Coordinator
+- NIRF Coordinator
+- Research Supervisor
+- Anti-Ragging Squad
+- Admission Committee
+
+## Roles and Responsibilities: Department Level
+
+- HOD of Chemistry
+- Coordinator for Chemistry Cycle
+- Member of various committees`,
   },
   "dr-chaitra-t-k": {
     name: "Dr. Chaitra T K",
     url: "https://old.atme.edu.in/dr-chaitra-t-k/",
-    md: "## Professional Experience\n\n- Teaching: 7 Years\n- Research: 10 Years\n- Industry: Nil\n\n## Contact Details\n\n- **Vidwan ID**: <https://vidwan.inflibnet.ac.in/profile/554916>\n- **Google Scholar**: <https://scholar.google.com/citations?user=OVbVs7IAAAAJ&hl=en>\n- **Scopus ID**: <https://www.scopus.com/authid/detail.uri?authorId=56809505100>\n- **ORCID**: <https://orcid.org/my-orcid?orcid=0000-0002-8795-2594>\n- **Web of Science Researcher ID**: <https://www.webofscience.com/wos/author/record/LBI-4096-2024>\n- **LinkedIn**: <https://www.linkedin.com/in/chaitra-t-k-452b971a2/>\n\n## Academic Details\n\n- Ph.D. in Chemistry – Thesis: Synthesis and corrosion inhibition behavior of some new heterocyclic derivatives on mild steel in acid media\n- M.Sc. in Chemistry\n- B.Sc in PCM\n\n## Areas of Interest\n\n- Corrosion\n- Electrochemistry\n- Material science\n\n## Publication Details\n\n1. Turuvekere Krishnamurthy Chaitra, Kikkeri Narasimha Shetty Mohana, Harmesh Chander Tandon, Thermodynamic, electrochemical and quantum chemical evaluation of some triazole Schiff bases as mild steel corrosion inhibitors in acid media. Journal of Molecular Liquids, 211, 1026-1038, 2015 (Impact factor 5.3). [https://doi.org/10.1016/j.molliq.2015.08.031](https://doi.org/10.1016/j.molliq.2015.08.031 \"Persistent link using digital object identifier\")\n2. [Turuvekere K. Chaitra](https://www.infona.pl/contributor/0@bwmeta1.element.elsevier-0b778c95-5df7-3ee2-afa1-54ad1bf3b42e/tab/publications), [Kikkeri N. Mohana](https://www.infona.pl/contributor/1@bwmeta1.element.elsevier-0b778c95-5df7-3ee2-afa1-54ad1bf3b42e/tab/publications), [Doddahosuru M. Gurudatt](https://www.infona.pl/contributor/2@bwmeta1.element.elsevier-0b778c95-5df7-3ee2-afa1-54ad1bf3b42e/tab/publications), [Harmesh C. Tandon](https://www.infona.pl/contributor/3@bwmeta1.element.elsevier-0b778c95-5df7-3ee2-afa1-54ad1bf3b42e/tab/publications), Inhibition activity of new thiazole hydrazones towards mild steel corrosion in acid media by thermodynamic, electrochemical and quantum chemical methods, Taiwan Institute of Chemical Engineers, 67, 521- 531, 2016 (Impact factor 6.2). [https://doi.org/10.1016/j.jtice.2016.08.013](https://doi.org/10.1016/j.jtice.2016.08.013 \"Persistent link using digital object identifier\")\n3. T K Chaitra, K N Mohana, H C Tandon, Study of new thiazole based pyridine derivatives as potential corrosion inhibitors for mild steel: Theoretical and experimental approach. International Journal of Corrosion, Article ID 456901, 2016. <https://doi.org/10.1155/2016/9532809>.\n4. Turuvekere K. Chaitra, Kikkeri N. Mohana, Harmesh C. Tandon, Comparative study of Levofloxacin and its amide derivative as efficient water soluble inhibitors for mild steel corrosion in hydrochloric acid solution. International Journal of Industrial Chemistry, 8, 1-15, 2017. DOI [10.1007/s40090-016-0083-y](https://doi.org/10.1007/s40090-016-0083-y).\n5. Turuvekere K. Chaitra, Kikkeri N. Mohana, Harmesh C. Tandon, Evaluation of newly synthesized hydrazones as mild steel corrosion inhibitors by adsorption, electrochemical, quantum chemical and morphological studies, Arab Journal of Basic and Applied Sciences, 25, 45-55, 2017. .  <https://doi.org/10.1080/25765299.2018.1449347>.\n6. Turuvekere Krishnamurthy Chaitra, Kikkeri Narasimhashetty Mohana, Harmesh Chander Tandon, Experimental and Theoretical Studies on the Corrosion Inhibition Performance of Molecules Containing Tert-Butyl Benzyl Group on Mild Steel in Acid Media, Journal of Bio Tribo Corrosion, 4, 25, 2018. Doi:[[10.1007/s40735-018-0141-4](https://doi.org/10.1007/s40735-018-0141-4)](https://link.springer.com/article/[10.1007/s40735-018-0141-4](https://doi.org/10.1007/s40735-018-0141-4)).\n7. Narayana U. Kudva N, Sumana Y. Kotian, Vrushabendra Basavanna, Vicas C.S, Satish K. Byrappa, Shridevi D, Srikantamurthy Ningaiah, Turuvekere Krishnamurthy Chaitra, Srinivasa Murthy V, K. Byrappa , K. M. Lokanatha Rai, Synthesis, Characterization, and Evaluation of Biological Activities of Imidazolyl-Isoxazoline Analogue, Biointerface Research in Applied Chemistry, 10 (6), 7187 – 7197,2020. https://doi.org/10.33263/BRIAC106.71877197.\n8. [Bhondanthila Radhika Rao](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/Rao/Bhondanthila+Radhika), [Hemanth Kumar. C. M.](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/C.+M./Hemanth+Kumar.), [Hullukere R. Prakruthi](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/Prakruthi/Hullukere+R.), [Chandrashekara. B. M.](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/B.+M./Chandrashekara.),  [Doddahosuru Mahadevappa Gurudatt](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/Gurudatt/Doddahosuru+Mahadevappa), [Prakasha K. C.](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/K.+C./Prakasha),  [Ningaiah Srikantamurthy](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/Srikantamurthy/Ningaiah), [Turuvekere Krishnamurthy Chaitra](https://chemistry-europe.onlinelibrary.wiley.com/authored-by/Chaitra/Turuvekere+Krishnamurthy)[**,**](https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/[10.1002/slct.202304822](https://doi.org/10.1002/slct.202304822)) Microwave Assisted Facile Synthesis of Butyl Acetate Over Dealuminated Beta Zeolite, Chemistryselect (Impact factor 2), 10 (1), 1-10, 2025. [**https://doi.org/10.1002/slct.202304822**](https://doi.org/10.1002/slct.202304822)\n9. Room-temperature aerobic oxidation of alcohols into carbonyl compounds using VO@GO catalyst, Sahana Raju, Kothanahally S. Sharath Kumar , Yarabhally R Girish , Turuvekere Krishnamurthy Chaitra , Mohd Sajid Ali , Hamad A. Al-Lohedan, [Synthetic Communications](https://www.sciencedirect.com/org/journal/synthetic-communications \"Go to Synthetic Communications on ScienceDirect\") (Impact factor 2.1), [55(6](https://www.sciencedirect.com/org/journal/synthetic-communications/vol/55/issue/6 \"Go to table of contents for this volume/issue\")), 465-475, 2025. https://doi.org/10.1080/00397911.2025.2461114.\n\n## Membership in Professional Bodies\n\n- Life member of Indian Science Congress Association\n\n## Honours/Awards/Achievements\n\n1. Secured Second prize in University level lecture competition conducted by Karnataka Rajya Vignana Parishath on 14/02/2009 at Tumakuru.\n2. Secured First prize in University level science lecture competition conducted by Kalpataru Science College, Tiptur on 07/03/2009.\n3. Received meritorious (RFSMS) fellowship from UGC for research work from 04/08/2015.\n4. Secured highest marks in Chemistry and obtained highest number of prizes for extra-curricular activities in college during graduation at Kalpataru Science College, Tiptur.\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Completed 16 weeks course in Swayam on “Chemistry of Nanomaterials” and obtained 78 % in January 2025 semester.\n2. Organized and attended three day workshop on ‘Patent drafting, filing and interpretation” from 12th to 14th June 2025 organized by ATMECE, Mysuru.\n3. Organized and attended FDP on \"Essentials of Science for Engineering and Research 2025\" at ATMECE, Mysuru between 15/01/2025 and 17/01/2025.\n4. Attended workshop on \"Innovations in Chemistry and their applications\" conducted by DOS in Organic Chemistry, University of Mysore in collaboration with Rashtriya Uchchatar Shiksha Abhiyan between 24/01/01/2025 to 30/01/2025.\n5. Attended seminar on \"Current Trends in Chemistry\" in DOS in Chemistry, Manasagangotri, University of Mysore and Rashtriya Uchchatar Shiksha Abhiyan from 29/11/2024 to 30/11/2024.\n6. Completed 12 weeks course conducted by NPTEL (FDP) between January and April 2016 on the topic “Symmetry and Group Theory” and obtained Elite Grade.\n7. Completed Faculty Development Programme on “Recent Trends in Advanced Materials and Applications” from 19/10/2020 to 23/10/2020 in National Institute of Engineering, Mysuru.\n8. Completed Faculty Development Programme on “Recent Trends in Engineering Materials, Nano Science and Nano Technology” from 09/11/2020 to 13/11/2020 in Global Academy of Technology, Bengaluru.\n9. Participated in NSS for three years and lead Karnataka team in National Integration Camp for Women organized by Duddupudi College, Sindhanur, Raichur in 2009.\n10. Participated in Bio-diversity assessment, conservation and management camp held by Maithreya Institute for Environment and Rural Science and Hasiru Hejje, Mysuru in Konehalli in June 2009.\n11. Attended national conference on “Recent trends in Chemical Research in SJCE, Mysuru on 3rd and 4th of January 2014.\n12. Attended UGC sponsored two days national conference on “Recent trends in Chemical Biology: An overview” on 25th and 26th of October 2013 at Teresian college.\n13. Attended “Science and Technology for education and health care”, a conference conducted by KSTA and JSS college, Ooty Road, Mysuru on 21/02/2014 and 22/01/2014.\n14. Participated in technical workshop on Exploring SciFinder on 04/01/2014 at UOM, Mysuru.\n15. Participated in National conference on Innovations in Chemical Sciences 2020 at 30th & 31st Jan 2020 held on DoS in Chemistry university of Mysore.\n\n**Oral Presentation**\n1. Presented a paper entitled “Electrochemical, thermodynamic and quantum chemical evaluation of some Schiff bases as mild steel corrosion inhibitors in hydrochloric acid media” on 30-01-2014 in National Conference on Pure and Applied Chemistry in DOS in Chemistry, Manasagangothri, University of Mysore, Mysuru.\n2. Presented a paper entitled “Corrosion inhibition study of some Pyridine Derivatives on Mild Steel: Theoretical and Experimental Approach” in “Current trends in Chemical biology” a conference conducted by JSS college of arts, commerce and science on 2nd and 3rd March 2015.\n\n**Poster Presentation**\n1. Presented a paper (poster) entitled “Anticorrosion potential of some drug based inhibitors for mild steel in hydrochloric acid media” in Indian Science Congress conference between 03/01/2016 and 07/01/2016 at UOM, Mysuru.\n2. Presented a paper (poster) entitled “Adsorption, electrochemical, quantum chemical and morphological studies of newly synthesised hydrazones as mild steel corrosion inhibitors” in International Conference on Science And Technology: Future Challenges and Solutions (STFCS\n- 2016) on 08/08/2017 and 09/08/2017 in UOM, Mysuru.\n\n## Proposal/Funding/Project Financial Assistance\n\n- Nil\n\n## Patent\n\nNational Patents\nNIL\n\nInternational Patents\nNIL\n\n## Roles and Responsibilities:Institute Level\n\n- Research publication work\n- Co-ordinator for ATMEYA 2k25 committee\n- Co-ordinator for IPR committee from BSH departments at ATMECE\n- Member of Scholarship committee at ATMECE\n\n## Roles and Responsibilities:Department Level\n\n- Evaluator for VTU UG exams\n- External examiner in practical exams at various institutions\n- Question paper setting for semester exams for MSc (Chemistry) students\n- Lab in-charge (Chemistry) for the year 2024-25 at ATMECE",
+    md: `## Professional Experience
+
+- Teaching: 8 Years
+- Research: 11 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/554916>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=OVbVs7IAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=56809505100>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0002-8795-2594>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/LBI-4096-2024>
+- **LinkedIn ID:** <https://www.linkedin.com/in/chaitra-t-k-452b971a2/>
+
+## Academic Details
+
+- **Ph.D.** in Chemistry – Title of the thesis: Synthesis and corrosion inhibition behavior of some new heterocyclic derivatives on mild steel in acid media
+- **M.Sc.** in Chemistry
+- **B.Sc** in PCM
+
+## Areas of Interest
+
+- Corrosion
+- Electrochemistry
+- Material science
+
+## Publication Details
+
+1. Turuvekere Krishnamurthy Chaitra, Kikkeri Narasimha Shetty Mohana, Harmesh Chander Tandon, Thermodynamic, electrochemical and quantum chemical evaluation of some triazole Schiff bases as mild steel corrosion inhibitors in acid media. Journal of Molecular Liquids (Impact factor 5.2, Q1) 211, 1026-1038, 2015. <https://doi.org/10.1016/j.molliq.2015.08.031>
+2. Turuvekere K. Chaitra, Kikkeri N. Mohana, Doddahosuru M. Gurudatt, Harmesh C. Tandon, Inhibition activity of new thiazole hydrazones towards mild steel corrosion in acid media by thermodynamic, electrochemical and quantum chemical methods, Taiwan Institute of Chemical Engineers (Impact factor 6.9, Q1), 67, 521- 531, 2016. <https://doi.org/10.1016/j.jtice.2016.08.013>
+3. T K Chaitra, K N Mohana, H C Tandon, Study of new thiazole based pyridine derivatives as potential corrosion inhibitors for mild steel: Theoretical and experimental approach, International Journal of Corrosion (Impact factor 1.5, Q3), Article ID 456901, 2016. <https://doi.org/10.1155/2016/9532809>
+4. Turuvekere K. Chaitra, Kikkeri N. Mohana, Harmesh C. Tandon, Comparative study of Levofloxacin and its amide derivative as efficient water soluble inhibitors for mild steel corrosion in hydrochloric acid solution, International Journal of Industrial Chemistry (Q3), 8, 1-15, 2017. DOI: 10.1007/s40090-016-0083-y
+5. Turuvekere K. Chaitra, Kikkeri N. Mohana, Harmesh C. Tandon, Evaluation of newly synthesized hydrazones as mild steel corrosion inhibitors by adsorption, electrochemical, quantum chemical and morphological studies, Arab Journal of Basic and Applied Sciences (Q2), 25, 45-55, 2017. <https://doi.org/10.1080/25765299.2018.1449347>
+6. Turuvekere Krishnamurthy Chaitra, Kikkeri Narasimhashetty Mohana, Harmesh Chander Tandon, Experimental and Theoretical Studies on the Corrosion Inhibition Performance of Molecules Containing Tert-Butyl Benzyl Group on Mild Steel in Acid Media, Journal of Bio Tribo Corrosion (Q2), 4, 25, 2018. DOI: 10.1007/s40735-018-0141-4
+7. Narayana U. Kudva N, Sumana Y. Kotian, Vrushabendra Basavanna, Vicas C.S, Satish K. Byrappa, Shridevi D, Srikantamurthy Ningaiah, Turuvekere Krishnamurthy Chaitra, Srinivasa Murthy V, K. Byrappa, K. M. Lokanatha Rai, Synthesis, Characterization, and Evaluation of Biological Activities of Imidazolyl-Isoxazoline Analogue, Biointerface Research in Applied Chemistry (Q3), 10 (6), 7187 – 7197, 2020. <https://doi.org/10.33263/BRIAC106.71877197>
+8. Bhondanthila Radhika Rao, Hemanth Kumar. C. M., Hullukere R. Prakruthi, Chandrashekara. B. M., Doddahosuru Mahadevappa Gurudatt, Prakasha K. C., Ningaiah Srikantamurthy, Turuvekere Krishnamurthy Chaitra, Microwave Assisted Facile Synthesis of Butyl Acetate Over Dealuminated Beta Zeolite, Chemistryselect (Impact factor 2.3, Q3), 10 (1), 1-10, 2025. <https://doi.org/10.1002/slct.202304822>
+9. Sahana Raju, Kothanahally S. Sharath Kumar, Yarabhally R Girish, Turuvekere Krishnamurthy Chaitra, Mohd Sajid Ali, Hamad A. Al-Lohedan, Room-temperature aerobic oxidation of alcohols into carbonyl compounds using VO@GO catalyst, Synthetic Communications (Impact factor 2, Q3), 55(6), 465-475, 2025. <https://doi.org/10.1080/00397911.2025.2461114>
+10. Amogh R. Kulkarni, Mahesha Kumaraswamy, Turuvekere K. Chaitra, Doddahosur M. Gurudatt, Kanchugarakoppal S. Rangappa, Toreshettahally R. Swaroop, Basappa Basappa, Sodium hydride induced condensation of methyl ketones with S-methyl O-phenyl carbonodithioate: a regiospecific synthesis of β-oxodithioesters, Synthetic Communications (Impact factor 2, Q3), 55(19), 1464–1470, 2025. <https://doi.org/10.1080/00397911.2025.2564411>
+11. M. Girish, K.R. Pooja, D.M. Gurudatt, T.K. Chaitra, H.M. Suresh Kumar, J. Manjanna, N. Srikantamurthy, M.S. Vijay Kumar, K.B. Naveen, R. Harini, G. Nagaraju, Co2SnO4 nanostructures as bi-functional materials for environmental monitoring and electrochemical sensing, Optical Materials (Impact factor 4.3, Q2), 174, 2026. <https://doi.org/10.1016/j.optmat.2026.117990>
+12. S. D. Nayak, Akash, D. S. Apeksha, H. R. Chethana, D. Nagaraju, S. L. Goankar, T. K. Chaitra, D. M. Gurudatt, B. Basappa, T. R. Swaroop, Knoevenagel Condensation of Active Methylene Compounds with Aldehydes in Choline Chloride–Urea Ionic Liquid, Russian Journal of Organic Chemistry (Impact factor 0.8, Q4), 62:73, 2026. <https://doi.org/10.1134/S1070428025603917>
+13. S Varun, Venkatesh Gowda G R, Gagana G R, D M Gurudatt, T. K Chaitra, Poornima H Hiremat, K. B Naveen, N Srikantamurthy, R Harini, G Nagaraju, Sustainable Sunflower Extract Derived NiV2O6 Nanoparticles For Environmental Remediation And Forensic Application, Journal of Cluster Science (Impact factor 4.1, Q1 for JCR and Q2 for SJR), 37(78), 2026. DOI: 10.1007/s10876-026-03031
+14. Darshan, M., Pooja, K. R., Gurudatt, D. M., Chaitra, T. K., Suresh Kumar, H. M., Manjanna, J., Srikantamurthy, N., Naveen, K. B., Mallikarjunaswamy, C., Ranganath, L., Nagaraju, G., Influence of copper dopant concentration on the photoluminescence properties and photocatalytic activity of nanostructured ZnMn2O4, Ceramics International (Impact factor 6.1, Q1), 52(14), 2026, Pages 23967-23979. DOI: 10.1016/j.ceramint.2026.03.437
+
+## Membership in Professional Bodies
+
+- Life member of Indian Science Congress Association
+
+## Honours/Awards/Achievements
+
+1. Reviewed paper in Asian Journal of Research in Biochemistry and recognized by WOS.
+2. Recognised as Research Guide from VTU since 2025.
+3. Secured Second prize in University level lecture competition conducted by Karnataka Rajya Vignana Parishath on 14/02/2009 at Tumakuru.
+4. Secured First prize in University level science lecture competition conducted by Kalpataru Science College, Tiptur on 07/03/2009.
+5. Received meritorious (RFSMS) fellowship from UGC for research work from 04/08/2015.
+6. Secured highest marks in Chemistry and obtained highest number of prizes for extra-curricular activities in college during graduation at Kalpataru Science College, Tiptur.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Completed NPTEL course "Roadmap for patent creation" in January 2026 semester with Elite Silver Grade.
+2. Completed course on "Patent law for Engineers and Scientists" in January 2026 semester.
+3. Completed a 12-week NPTEL course on "Analytical Chemistry", June 2025 semester — Elite Grade.
+4. Completed a 12-week NPTEL course on "Public Speaking", June 2025 semester — Elite Grade.
+5. Completed 16 weeks course in Swayam on "Chemistry of Nanomaterials" and obtained 78% in January 2025 semester.
+6. Completed 12 weeks course conducted by NPTEL (FDP) on the topic "Symmetry and Group Theory" and obtained Elite Grade in January 2021 semester.
+7. Attended FDP on "Innovations in Bio and Chemical Technologies for Sustainable Energy and Environment (IBCTSEE-2025)" at Dayanand Sagar College of Engineering, Bengaluru between 21/7/2025 to 28/7/2025.
+8. Attended International Faculty Development Program on Growing Globally Competitive Currency in Higher Education on 08/10/2025 and 11/02/2026 conducted by Mr. Manish Malhotra, Futred Innovation Studios, Australia at ATMECE Mysuru.
+9. Organized and attended three day workshop on 'Patent drafting, filing and interpretation" from 12th to 14th June 2025 organized by ATMECE, Mysuru.
+10. Organized and attended FDP on "Essentials of Science for Engineering and Research 2025" at ATMECE, Mysuru between 15/01/2025 and 17/01/2025.
+11. Attended workshop on "Innovations in Chemistry and their applications" conducted by DOS in Organic Chemistry, University of Mysore in collaboration with Rashtriya Uchchatar Shiksha Abhiyan between 24/01/2025 to 30/01/2025.
+12. Attended seminar on "Current Trends in Chemistry" in DOS in Chemistry, Manasagangotri, University of Mysore and Rashtriya Uchchatar Shiksha Abhiyan from 29/11/2024 to 30/11/2024.
+13. Completed Faculty Development Programme on "Recent Trends in Advanced Materials and Applications" from 19/10/2020 to 23/10/2020 in National Institute of Engineering, Mysuru.
+14. Completed Faculty Development Programme on "Recent Trends in Engineering Materials, Nano Science and Nano Technology" from 09/11/2020 to 13/11/2020 in Global Academy of Technology, Bengaluru.
+15. Participated in NSS for three years and lead Karnataka team in National Integration Camp for Women organized by Duddupudi College, Sindhanur, Raichur in 2009.
+16. Participated in Bio-diversity assessment, conservation and management camp held by Maithreya Institute for Environment and Rural Science and Hasiru Hejje, Mysuru in Konehalli in June 2009.
+17. Attended national conference on "Recent trends in Chemical Research" in SJCE, Mysuru on 3rd and 4th of January 2014.
+18. Attended UGC sponsored two days national conference on "Recent trends in Chemical Biology: An overview" on 25th and 26th of October 2013 at Teresian college.
+19. Attended "Science and Technology for education and health care", a conference conducted by KSTA and JSS college, Ooty Road, Mysuru on 21/02/2014 and 22/01/2014.
+20. Participated in technical workshop on Exploring SciFinder on 04/01/2014 at UOM, Mysuru.
+21. Participated in National conference on Innovations in Chemical Sciences 2020 on 30th & 31st Jan 2020 held at DoS in Chemistry, University of Mysore.
+
+**Oral Presentation**
+
+1. Presented a paper entitled "Electrochemical, thermodynamic and quantum chemical evaluation of some Schiff bases as mild steel corrosion inhibitors in hydrochloric acid media" on 30-01-2014 in National Conference on Pure and Applied Chemistry in DOS in Chemistry, Manasagangothri, University of Mysore, Mysuru.
+2. Presented a paper entitled "Corrosion inhibition study of some Pyridine Derivatives on Mild Steel: Theoretical and Experimental Approach" in "Current trends in Chemical biology" a conference conducted by JSS college of arts, commerce and science on 2nd and 3rd March 2015.
+
+**Poster Presentation**
+
+1. Presented a paper (poster) entitled "Anticorrosion potential of some drug based inhibitors for mild steel in hydrochloric acid media" in Indian Science Congress conference between 03/01/2016 and 07/01/2016 at UOM, Mysuru.
+2. Presented a paper (poster) entitled "Adsorption, electrochemical, quantum chemical and morphological studies of newly synthesised hydrazones as mild steel corrosion inhibitors" in International Conference on Science And Technology: Future Challenges and Solutions (STFCS-2016) on 08/08/2017 and 09/08/2017 in UOM, Mysuru.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Served as the Coordinator for NAAC Criterion 3, representing the Basic Sciences and Humanities Department at ATMECE.
+2. Served as the Coordinator for the Intellectual Property Rights (IPR) Cell representing the Basic Sciences and Humanities Department, ATME College of Engineering (ATMECE).
+3. Served as the Coordinator for ATMEYA-2025, ATMEYA-2026, and Kannada Rajyotsava 2025 events, representing the Basic Sciences and Humanities Department.
+4. Member of the Universal Human Values (UHV) Cell, ATME College of Engineering (ATMECE).
+5. Member of the Scholarship Committee, ATME College of Engineering (ATMECE).
+6. Actively involved in research publication activities.
+
+## Roles and Responsibilities: Department Level
+
+- Chemistry Laboratory In-Charge, ATME College of Engineering (ATMECE), Mysuru (August 2024 – Present).
+- Evaluator for VTU UG exams.
+- External examiner in practical exams for M.Sc. (Chemistry) students.
+- Question paper setting for semester exams for MSc (Chemistry) students at Pooja Bhagavat Memorial Mahajana PG Centre.`,
   },
   "dr-halligudra-guddappa": {
     name: "Dr. Halligudra Guddappa",

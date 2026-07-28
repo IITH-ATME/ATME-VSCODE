@@ -105,22 +105,6 @@ ${COMMON_UG_COE}`,
     mba: `
 ## MBA Calendar of Events
 ${COMMON_UG_COE}`,
-    physics: `
-## Physics Department — Calendar of Events (AY 2025-26)
-
-| Sl. No. | Document |
-| --- | --- |
-| 1 | [Calendar of Events — 1st Semester COE 2025-26](/pdfs/basic-science/coe/1st-Semester-COE-2025-26.pdf) |
-| 2 | [Calendar of Events — 2nd & 4th Semester COE 2025-26](/pdfs/basic-science/coe/2nd-and-4th-Semester-COE-2025-26.pdf) |
-${COMMON_UG_COE}`,
-    chemistry: `
-## Chemistry Department — Calendar of Events (AY 2025-26)
-
-| Sl. No. | Document |
-| --- | --- |
-| 1 | [Calendar of Events — 1st Semester COE 2025-26](/pdfs/basic-science/coe/1st-Semester-COE-2025-26.pdf) |
-| 2 | [Calendar of Events — 2nd & 4th Semester COE 2025-26](/pdfs/basic-science/coe/2nd-and-4th-Semester-COE-2025-26.pdf) |
-${COMMON_UG_COE}`,
   },
   "news-letter": {
     mca: `## CA Navonmesha
