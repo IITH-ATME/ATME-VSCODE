@@ -1108,17 +1108,305 @@ Attender
   "dr-halligudra-guddappa": {
     name: "Dr. Halligudra Guddappa",
     url: "https://old.atme.edu.in/dr-halligudra-guddappa/",
-    md: "## Professional Experience\n\n- Teaching: 2 Years\n- Research: 8 Years\n- Industry: 1 Year\n\n## Contact Details\n\n- **Email ID:** **Official:** [Dr.guddappahalligudra\\_ch@atme.edu.in](mailto:Dr.guddappahalligudra_ch@atme.edu.in)\n- **Personal:** [hguddappa.m@gmail.com](mailto:hguddappa.m@gmail.com)\n- **Vidwan ID:** <https://atme.irins.org/profile/412104>\n- **Google Scholar ID:** <https://scholar.google.com/citations?user=Nhg5YBgAAAAJ&hl=en>\n- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=58927587300>\n- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0003-2054-5465>\n- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/AAB-9471-2022>\n- **scholarGPS:** <https://scholargps.com/scholars/96846382985822/guddappa-halligudra>\n- **LinkedIn ID:** <https://www.linkedin.com/in/dr-guddappa-halligudra-940779130/>\n\n\n## Academic Details\n\n**Qualification**\n- **Ph.D.,** in Chemistry\n- **K-SET.,** in Chemistry\n- **M.Sc.,** in Analytical Chemistry\n\n## Areas of Interest\n\n1. Nanomaterials, Heterogeneous Catalysts,\n2. Magnetic Materials\n3. Catalysis, Photocatalysis, Electrocatalysis\n\n## Publication Details\n\n1. Investigation and Characterization of Nanoparticles from Temple Bell Composites for Regulating Microorganisms in Temple Environments – **Journal of The Institution of Engineers (India): Series D, 1-11, 2025** [https://doi.org/10.1007/s40033-025-00932-8 ] **(Q2, Springer)**\n2. Experimental and DFT studies on efficient microwave-exfoliated MXene‒polymer nanocomposites for high-performance supercapacitors **–** ***J Mater Sci: Mater Electron*****36, 1500 (2025)**. [https://doi.org/10.1007/s10854-025-15622-0] **(2.8, Q2, Springer).**\n3. Catalytic behaviour of iron-based nanomaterials for the remediation of hazardous chemicals from wastewater: A Review. ***Journal of Physics and Chemistry of Solids*,** **2025**, [**1016/j.jpcs.2025.112735**], (**4.9, Q1, Elsevier**).\n4. Antibacterial and Antiproliferative Effect of ZnO Nanoparticles Prepared Using Origanum marjorana Plant and Garcinia indica Fruit extracts., ***Journal of Inorganic and Organometallic Polymers and Materials*., 2025, [****1007/s10904-024-03349-0****], (4.9, Q2, Springer).**\n5. WELPSA: A Green Catalyst Mediated Microwave Assisted Efficient Synthesis of Novel 5‐Aminopyrazole‐4‐Carbonitrile Derivatives as Anticancer Agents (MCF‐7, A‐549) and In Silico Studies. ***Archiv der Pharmazie – Chemistry in Life Sciences.,*** **2025**, [**1002/ardp.202500055**], (**3.6, Q2, John Wiley & Sons**).\n6. Tribioelectrochemical Corrosion Behavior of the CNT‒Aluminum 7039 Composite. ***Journal of The Electrochemical Society., 2025,*** **[****1149/1945-7111/adca08****],** (**3.3, Q1, IOP Science**).\n7. Triphenylamine-Based Dual Chemosensor for Cu2+ and Co2+ Ions and Volatile Acid Vapour Sensor, DFT Calculations. **Applied Organometallic Chemistry., 2025, [****1002/aoc.70105****], (3.7, Q2, John Wiley & Sons).**\n8. Selective Al3+ and Fe3+ detection using imidazole–oxadiazole sensors: bioimaging evidence from zebrafish., ***New Journal of Chemistry.,* 2025, [****1039/D5NJ00412H****], (2.7, Q2, Royal Society of Chemistry).**\n9. Imidazole‐Centred Oxadiazole Sensor for Detecting Al3+ and Fe3+ Cations in Living Cells: A Zebrafish Bioimaging Approach., ***Applied Organometallic Chemistry*., 2025, [****1002/aoc.70087****], (3.7, Q2, John Wiley & Sons).**\n10. Imidazole-Thiazole Based Dual Chemosensor for Cu2+ and Co2+ Ions with Identical Excitation Wavelength and Colorimetric TFA Sensing, Theoretical Validation., ***Journal of Molecular Structure.,* 2025, [****1016/j.molstruc.2024.140816****], (4.7, Q2, Elsevier).**\n11. Microwave expedited Cu(I) catalyzed regioselective 1,2,3-triazoles as Mycobacterium Tuberculosis H37Rv inhibitors, in vitro α-amylase and α-glucosidase inhibition, in silico studies., ***Journal of Molecular Structure.,* 2025, [****1016/j.molstruc.2024.140486****], (4.7, Q2, Elsevier).**\n12. Enhanced Catalytic Reduction and Electrochemical Sensing Properties of Magnetic Fe3O4@benzothiazole-Cu(II) Nanoparticles., ***Journal of Inorganic and Organometallic Polymers and Materials*., 2024, [****1007/s10904-024-03091-7****], (4.9, Q2, Springer).**\n13. Imidazole-centred cupric ions sensor: Experimental validation, theoretical understanding, and zebrafish bioimaging*., **Journal of Photochemistry and Photobiology A: Chemistry., 2024*****, [****1016/j.jphotochem.2024.115565****], (4.7, Q2, Elsevier).**\n14. Electrochemical investigation of Fe3O4/TNT/PANI composites for enhanced supercapacitor applications., **Journal of Materials Science: Materials in Electronics., 2024, [****1007/s10854-024-12369-y****], (2.8, Q2, Springer).**\n15. Photocatalytic and Oxygen Evolution Reaction (OER) of Novel Supercritical Fluid Synthesized Nanobiocomposite MoS2/Silk G., ***Asian Journal of Chemistry., 2024*, [****14233/ajchem.2024.30910],** **(Q4, Asian publisher).**\n16. Fe3O4 nanoparticles supported MoS2 nanoflowers as a magnetically recoverable heterogeneous catalyst for the reduction of organic dyes and as an electrochemical sensor for the detection of pharmaceutical samples. ***Ceramics international*, 2022, [****[1016/j.ceramint.2022.06.188](https://doi.org/10.1016/j.ceramint.2022.06.188)] (5.7, Q1,** **Elsevier****).**\n17. PdII on Guanidine-Functionalized Fe3O4 Nanoparticles as an Efficient Heterogeneous Catalyst for Suzuki–Miyaura Cross-Coupling and Reduction of Nitroarenes in Aqueous Media. ***ACS omega,* 2021,** [**[1021/acsomega.1c04528](https://doi.org/10.1021/acsomega.1c04528)**] **(4.9, Q1,** **American Chemical Society****).**\n18. Cu(II) immobilized on guanidine functionalized Fe3O4 magnetic substrate as a heterogeneous catalyst for selective reduction of nitroarenes. ***Journal of Iranian chemical society*, 2022, [****1007/s13738-022-02564-1] (2.8, Q3, Springer).**\n19. Copper zinc tin sulfide and multi-walled carbon nanotubes nanocomposite for visible-light-driven photocatalytic applications. ***Materials Research Bulletin,* 2022*,*** **(****[1016/j.materresbull.2021.111606](https://doi.org/10.1016/j.materresbull.2021.111606)) (5.7, Q1,** **Elsevier****).**\n20. Study of Charge Generation and Effect of the DC Supply on the Growth of Carbon Nanotubes and Their Electrochemical properties, ***Journal of Materials Science:*** ***Materials in Electronics, 33, 2022, 19937–19946. (*****1007/s10854-022-08813-6*)* (2.8, Q2, Springer).**\n21. Silver nanoparticles anchored TiO2 nanotubes prepared using saponin extract as heterogeneous and recyclable catalysts for reduction of dyes. **Ceramics International, 2021,** **[****[1016/j.ceramint.2020.11.173](https://doi.org/10.1016/j.ceramint.2020.11.173)] (5.7, Q1,** **Elsevier****).**\n22. Silver nanoparticles synthesized using saponin extract of Simarouba glauca oil seed meal as effective, recoverable and reusable catalyst for reduction of organic dyes. **Results in Surfaces and Interfaces, May 2021.****[****[1016/j.rsurfi.2021.100005](https://doi.org/10.1016/j.rsurfi.2021.100005)] (4.4, Q2,** **Elsevier****).**\n23. Isolation, characterization and structural elucidation of the leaves of Amischophacelus axillaris and Canthium dicoccum. **Materials Today: Proceedings, 2021,** **[****[1016/j.matpr.2021.09.067](https://doi.org/10.1016/j.matpr.2021.09.067)], (Q4,** **Elsevier****).**\n24. Synthesis of Caffeic Acid Derivatives: Identification of (E)-N-(4-Cyanobenzyl)-3-(3,4-dihydroxyphenyl)acrylamide as an Anticancer Agent against Human Cervical Cancer Cells. ***Asian Journal of Chemistry, 2022.* [****[14233/ajchem.2022.23726](https://doi.org/10.14233/ajchem.2022.23726)], (Q4, Asian publisher).**\n25. Magnetic photocatalytic systems., 2021, [**1016/B978-0-12-820532-7.00016-3]**, **(4.4, Q2, Elsevier, Book chapter).**\n26. Magnetic Substrate supported Heterogeneous catalysts for coupling, cyclization, and nitroarene reduction reactions.” In Current Trends in Materials Chemistry. United publisher, ISBN-978-93-85682-66-7, 2021. **(Book chapter).**\n\n## Membership in Professional Bodies\n\n2023    **Life Member**                IAENG, Hong Kong  2022    **Life Member**               Global Economic Progress & Research Association (GEPRA), Tamil Nadu.  2022    **Life Member**     National Council Teacher Scientist, INDIA  2016    **Life Member**               Indian Science Congress Association (ISCA), Kolkata, INDIA\n\n## Honours/Awards/ Achievements\n\n2021    **Best Flash Talk Presentation Award**              IVaccT-2021 held at PDA College of engineering, kalaburagi, Karnataka, INDIA.  2019    **Visiting Scholar**    Visited from VTU, Muddenahalli to Aryabhata Knowledge University, Patna, Bihar, INDIA  2019    **Master Trainer**   Four Days Hands-on Training and Workshop on “Nanomaterials Synthesis, Characterization and Device Fabrications” Held at Dept. of Nanotechnology,  VTU Muddenahalli in association with Reva University, Bengaluru. INDIA  2019    **Best Poster Presentation Award**              NESARA-2019 held at Dept. of Nanotechnology, VTU Muddenahalli, Karnataka, INDIA  2019    **Best Poster Presentation Award**     MESSAGE-2019 held at Dept. of Nanotechnology, VTU Muddenahalli, Karnataka, INDIA  2017    **DST INSPIRE Award**              Dept of Science & Technology, Ministry of Science & Technology, GOI, INDIA  2014    **Gold Medal Award for Securing First Rank in M.Sc., Analytical Chemistry**              Davanagere University, Davanagere, Karnataka, INDIA\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification/Online Courses\n\n**Sl. No.** — **Title** — **Organized by** — **Venue** — **Date** — **1** — Recent Advances in Energy Harvesting and Sustainable Developments — AICTE-ATAL — The National Institute of Engineering, Mysuru, Karnataka — 06-01-2025 to 11-01-2025 — 2 — Advanced Materials Processing and Characterization Techniques — AICTE-ATAL — S J C Institute of Technology, Chikkaballapura, Karnataka — 16-12-2024 to 21-12-2024 — **3** — Indian knowledge System (Bharatiya Gyan Parampara) — BHU & Vidya Bharti Uccha Shiksha Sansthan — Suttur, Mysuru, Karnataka — 29.12.2023 to 03.01.2024 (6 days) — **4** — Green Technology towards Sustainable Future — Laxminarayan Innovation Technological University — Nagpur, Maharashtra, India — 03/02/2025 to 08/02/2025\n\n## Proposal/Funding/Project Financial Assistance\n\n**Sl. No** — **Title** — **Submission Details** — **Status** — 01 — Study on the influence of temple bells nanoparticles present in temple environment for the inhibition of microbial growth — **ATME Seed Money** Funding amount:  **Rs.** **35,000/-**  Date of Submission: 05-09-**2024** — **On-going** — 02 — Development of an environmentally-friendly, affordable E. coli detection vials for the water treatment technologies — **ATME Seed Money** Funding amount:  **Rs.** **10,000/-**  Date of Submission: 05-09-**2024** — **On-going** — 03 — Nanostructured Metal/Metal Oxide Based Catalysts for organic reactions — **Recipient of INSPIRE Fellowship award**  Ministry of Science & Technology, Department of Science & technology, Government of India, India  **Funding amount: Rs.** **23,00,000/-** — **Completed** **(2017-2022)**\n\n## Patent\n\nNanocoated Solar Water Heater System and Method for Enhancing Heat Transfer Efficiency, Published/Granted: Published, Patent No.: 202341058289.\n\n## Roles and Responsibilities: Institute Level\n\n1. Conducting research activities\n2. Research publication Work\n3. Project Proposal writing\n4. Patent filing and publication work\n5. Mentoring students in research activities and publication\n6. Handling and maintaining Electrochemical Workstation\n7. Conducting technical events\n\n## Roles and Responsibilities: Department Level\n\n1. **Mentoring UG Students:** Guiding students on research, writing, and publications.\n2. **Develop Scholarly Works:** Write papers, file patents, and prepare proposals.",
+    md: `## Professional Experience
+
+- Teaching: 3 Years
+- Research: 9 Years
+- Industry: 1 Year
+
+## Contact Details
+
+- **Email ID:** Official: [Dr.guddappahalligudra_ch@atme.edu.in](mailto:Dr.guddappahalligudra_ch@atme.edu.in) | Personal: [hguddappa.m@gmail.com](mailto:hguddappa.m@gmail.com)
+- **Vidwan ID:** <https://atme.irins.org/profile/412104>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=Nhg5YBgAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=58927587300>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0003-2054-5465>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/AAB-9471-2022>
+- **LinkedIn ID:** <https://www.linkedin.com/in/dr-guddappa-halligudra-940779130/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** in Chemistry
+- **K-SET.** in Chemistry
+- **M.Sc.** in Analytical Chemistry
+
+## Areas of Interest
+
+1. Nanomaterials, Heterogeneous Catalysts
+2. Magnetic Materials
+3. Catalysis, Photocatalysis, Electrocatalysis
+
+## Publication Details
+
+**2026**
+
+1. Guddappa et al. (1st & Corresponding author), Catalytic Reduction of Organic Pollutants and Anticancerous Activity of Eco-Friendly Synthesized ZnO Nanoparticles Using Dill Seed Extract, Topics in Catalysis, Nov 17, 2026, Springer Nature. IF 3/Q2. DOI: 10.1007/s11244-025-02236-3
+2. Guddappa et al. (3rd author), Insight into high-entropy oxides as anodes, cathodes, and solid-state electrolytes for advancing Li-ion batteries: A comprehensive review, Journal of Energy Storage, 2026, Elsevier. IF 9.8/Q1. DOI: 10.1016/j.est.2026.120888
+3. Guddappa et al. (3rd author), Sustainable energy storage using polyaniline‐coated red bricks as supercapacitor electrodes, The Canadian Journal of Chemical Engineering, 2026, John Wiley & Sons. IF 2.2/Q2. DOI: 10.1002/cjce.70502
+4. Guddappa et al. (2nd author), Implementation of the soil health monitoring system to achieve better yield, International Journal of Applied Power Engineering, 2026, IPMU & IEAS. Q2. DOI: 10.11591/ijape.v15.i1.pp308-318
+
+**2025**
+
+5. Guddappa et al. (1st & Corresponding author), Catalytic behaviour of iron-based nanomaterials for the remediation of hazardous chemicals from wastewater: A Review, Journal of Physics and Chemistry of Solids, March 26, 2025, Elsevier. IF 4.3/Q1. DOI: 10.1016/j.jpcs.2025.112735
+6. Guddappa et al. (Co-author), Experimental and DFT studies on efficient microwave-exfoliated MXene‒polymer nanocomposites for high-performance supercapacitors, Journal of Materials Science: Materials in Electronics, 2025, Springer Nature. IF 2.8/Q2. DOI: 10.1007/s10854-025-15622-0
+7. Guddappa et al. (Co-author), Investigation and Characterization of Nanoparticles from Temple Bell Composites for Regulating Microorganisms in Temple Environments, Journal of The Institution of Engineers (India): Series D, 2025, Springer Nature. Q2/0.735. DOI: 10.1007/s40033-025-00932-8
+8. Guddappa et al. (Co-author), WELPSA: A Green Catalyst Mediated Microwave Assisted Efficient Synthesis of Novel 5‐Aminopyrazole‐4‐Carbonitrile Derivatives as Anticancer Agents (MCF‐7, A‐549) and In Silico Studies, Archiv der Pharmazie – Chemistry in Life Sciences, April 2025, 358, no. 4 (2025): e202500055, John Wiley & Sons. IF 4.3/Q2. DOI: 10.1002/ardp.202500055
+9. Guddappa et al. (Co-author), Tribioelectrochemical Corrosion Behavior of the CNT‒Aluminum 7039 Composite, Journal of The Electrochemical Society, 2025, IOP. IF 3.1/Q1. DOI: 10.1149/1945-7111/adca08
+10. Guddappa et al. (Co-author), Triphenylamine-Based Dual Chemosensor for Cu2+ and Co2+ Ions and Volatile Acid Vapour Sensor, DFT Calculations, Applied Organometallic Chemistry, March 2025, John Wiley & Sons. IF 3.7/Q2. DOI: 10.1002/aoc.70105
+11. Guddappa et al. (Co-author), Selective Al3+ and Fe3+ detection using imidazole–oxadiazole sensors: bioimaging evidence from zebrafish, New Journal of Chemistry, 13 Mar 2025, Royal Society of Chemistry. IF 2.7/Q2. DOI: 10.1039/D5NJ00412H
+12. Guddappa et al. (Co-author), Imidazole‐Centred Oxadiazole Sensor for Detecting Al3+ and Fe3+ Cations in Living Cells: A Zebrafish Bioimaging Approach, Applied Organometallic Chemistry, April 2025, John Wiley & Sons. IF 3.7/Q2. DOI: 10.1002/aoc.70087
+13. Guddappa et al. (Co-author), Imidazole-Thiazole Based Dual Chemosensor for Cu2+ and Co2+ Ions with Identical Excitation Wavelength and Colorimetric TFA Sensing, Theoretical Validation, Journal of Molecular Structure, Volume 1324, 5 March 2025, 140816, Elsevier. IF 4/Q2. DOI: 10.1016/j.molstruc.2024.140816
+14. Guddappa et al. (Co-author), Microwave expedited Cu(I) catalyzed regioselective 1,2,3-triazoles as Mycobacterium Tuberculosis H37Rv inhibitors, in vitro α-amylase and α-glucosidase inhibition, in silico studies, Journal of Molecular Structure, Volume 1322, Part 3, 15 February 2025, 140486, Elsevier. IF 4/Q2. DOI: 10.1016/j.molstruc.2024.140486
+
+**2024**
+
+15. Guddappa et al. (First author), Antibacterial and Antiproliferative Effect of ZnO Nanoparticles Prepared Using Origanum marjorana Plant and Garcinia indica Fruit extracts, Journal of Inorganic and Organometallic Polymers and Materials, 23 Aug 2024, 1-11, Springer Nature. IF 3.9/Q2. DOI: 10.1007/s10904-024-03349-0
+16. Guddappa et al. (Co-author), Imidazole-centred cupric ions sensor: Experimental validation, theoretical understanding, and zebrafish bioimaging, Journal of Photochemistry and Photobiology A: Chemistry, Volume 452, 1 July 2024, 115565, Elsevier. IF 4.1/Q2. DOI: 10.1016/j.jphotochem.2024.115565
+17. Guddappa et al. (First author), Enhanced Catalytic Reduction and Electrochemical Sensing Properties of Magnetic Fe3O4@benzothiazole-Cu(II) Nanoparticles, Journal of Inorganic and Organometallic Polymers and Materials, 06 May 2024, 34, 4349–4363, Springer Nature. IF 3.9/Q2. DOI: 10.1007/s10904-024-03091-7
+18. Guddappa et al. (Co-author), Electrochemical investigation of Fe3O4/TNT/PANI composites for enhanced supercapacitor applications, Journal of Materials Science: Materials in Electronics, 18 March 2024, 35, 595, Springer. IF 2.8/Q2. DOI: 10.1007/s10854-024-12369-y
+19. Guddappa et al. (Co-author), Photocatalytic and Oxygen Evolution Reaction (OER) of Novel Supercritical Fluid Synthesized Nanobiocomposite MoS2/Silk G, Asian Journal of Chemistry, 31 Jan 2024, 36, 2, 425-433, Asian Publication Corporation. Q4. DOI: 10.14233/ajchem.2024.30910
+
+**2022**
+
+20. Guddappa et al. (First author), Fe3O4 nanoparticles supported MoS2 nanoflowers as a magnetically recoverable heterogeneous catalyst for the reduction of organic dyes and as an electrochemical sensor for the detection of pharmaceutical samples, Ceramics International, 2022, Elsevier. IF 5.6/Q1. DOI: 10.1016/j.ceramint.2022.06.188
+21. Guddappa et al. (First author), Cu(II) immobilized on guanidine functionalized Fe3O4 magnetic substrate as a heterogeneous catalyst for selective reduction of nitroarenes, Journal of Iranian Chemical Society, 2022, Springer Nature. IF 2.3/Q3. DOI: 10.1007/s13738-022-02564-1
+22. Guddappa et al. (Co-author), Copper zinc tin sulfide and multi-walled carbon nanotubes nanocomposite for visible-light-driven photocatalytic applications, Materials Research Bulletin, 2022, Elsevier. IF 5.7/Q1. DOI: 10.1016/j.materresbull.2021.111606
+23. Guddappa et al. (Co-author), Study on the DC supply and charging effect on the growth of carbon nanotubes and their electrochemical, Journal of Materials Science: Materials in Electronics, 2022, Springer Nature. IF 2.8/Q2. DOI: 10.1007/s10854-022-08813-6
+24. Guddappa et al. (Co-author), Synthesis of Caffeic Acid Derivatives: Identification of (E)-N-(4-Cyanobenzyl)-3-(3,4-dihydroxyphenyl) acrylamide as an Anticancer Agent against Human Cervical Cancer Cells, Asian Journal of Chemistry, 2022, Asian Publication Corporation. Q4. DOI: 10.14233/ajchem.2022.23726
+25. Guddappa et al. (First author), PdII on Guanidine-Functionalized Fe3O4 Nanoparticles as an Efficient Heterogeneous Catalyst for Suzuki–Miyaura Cross-Coupling and Reduction of Nitroarenes in Aqueous Media, ACS Omega, 2022, American Chemical Society. IF 4.9/Q1. DOI: 10.1021/acsomega.1c04528
+
+**2021**
+
+26. Guddappa et al. (Co-author), Silver nanoparticles anchored TiO2 nanotubes prepared using saponin extract as heterogeneous and recyclable catalysts for reduction of dyes, Ceramics International, 2021, Elsevier. IF 5.6/Q1. DOI: 10.1016/j.ceramint.2020.11.173
+27. Guddappa et al. (Co-author), Silver nanoparticles synthesized using saponin extract of Simarouba glauca oil seed meal as effective, recoverable and reusable catalyst for reduction of organic dyes, Results in Surfaces and Interfaces, 2021, Elsevier. IF 4.4/Q1. DOI: 10.1016/j.rsurfi.2021.100005
+28. Guddappa et al. (Co-author), Isolation, characterization and structural elucidation of the leaves of Amischophacelus axillaris and Canthium dicoccum, Materials Today: Proceedings, 2021, Elsevier. Q4. DOI: 10.1016/j.matpr.2021.09.067
+
+## Book Chapters
+
+1. Guddappa et al. (Co-author), Magnetic photocatalytic systems, In: Photocatalytic Systems by Design, 2021, Elsevier. DOI: 10.1016/B978-0-12-820532-7.00016-3
+2. Guddappa et al. (1st author), Magnetic Substrate supported Heterogeneous catalysts for coupling, cyclization, and nitroarenes reduction reactions, In: Current Trends in Materials Chemistry, 2021, United Publisher. ISBN: 978-93-85682-66-7
+
+## Edited Books
+
+1. Water Chemistry, 2024, Infinite Research. ISBN: 978-81-969436-9-1
+2. Technical and Analytical Chemistry, 2023, Infinite Research. ISBN: 978-81-967685-1-5
+3. Industrial Chemicals and Environment, 2023, Infinite Research. ISBN: 978-81-967685-4-6
+
+## Membership in Professional Bodies
+
+- Life Member, IAENG, Hong Kong (2023)
+- Life Member, National Council Teacher Scientist, India (2022)
+- Life Member, Indian Science Congress Association (ISCA), Kolkata, India (2016)
+
+## Honours/Awards/Achievements
+
+- Best Flash Talk Presentation Award, IVaccT-2021 held at PDA College of Engineering, Kalaburagi, Karnataka, India (2021)
+- Visiting Scholar, visited from VTU, Muddenahalli to Aryabhata Knowledge University, Patna, Bihar, India (2019)
+- Master Trainer, Four Days Hands-on Training and Workshop on "Nanomaterials Synthesis, Characterization and Device Fabrications" held at Dept. of Nanotechnology, VTU Muddenahalli in association with Reva University, Bengaluru, India (2019)
+- Best Poster Presentation Award, NESARA-2019 held at Dept. of Nanotechnology, VTU Muddenahalli, Karnataka, India (2019)
+- Best Poster Presentation Award, MESSAGE-2019 held at Dept. of Nanotechnology, VTU Muddenahalli, Karnataka, India (2019)
+- DST INSPIRE Award, Dept. of Science & Technology, Ministry of Science & Technology, GOI, India (2017)
+- Gold Medal Award for Securing First Rank in M.Sc. Analytical Chemistry, Davanagere University, Davanagere, Karnataka, India (2014)
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Advanced Materials Processing and Characterization Techniques, organized by AICTE-ATAL, SJC Institute of Technology, Chikkaballapura, Karnataka, 16-12-2024 to 21-12-2024
+2. Indian Knowledge System (Bharatiya Gyan Parampara), organized by BHU & Vidya Bharti Uccha Shiksha Sansthan, Suttur, Mysuru, Karnataka, 29-12-2023 to 03-01-2024 (6 days)
+3. Recent Advances in Energy Harvesting and Sustainable Developments, organized by AICTE-ATAL, The National Institute of Engineering, Mysuru, Karnataka, 06-01-2025 to 11-01-2025
+4. Green Technology towards Sustainable Future, organized by AICTE-ATAL, Laxminarayan Innovation Technological University, Nagpur, Maharashtra, 03/02/2025 to 08/02/2025
+5. One day international FDP on Growing globally competitive currency in Higher education, delivered by Futred Innovation Studios, Australia, at ATME College of Engineering, Mysuru, Karnataka, 08-10-2025
+6. Transforming Technical Education & Research through Generative AI, organized by AICTE-ATAL, Malnad College of Engineering, Hassan, Karnataka, 10/11/2025 to 15/11/2025
+
+## Proposal/Funding/Project Financial Assistance
+
+1. Study on the influence of temple bells nanoparticles present in temple environment for the inhibition of microbial growth — ATME Seed Money, Funding amount: Rs. 35,000/-, Date of Submission: 05-09-2024. Status: On-going
+2. Development of an environmentally-friendly, affordable E. coli detection vials for the water treatment technologies — ATME Seed Money, Funding amount: Rs. 10,000/-, Date of Submission: 05-09-2024. Status: On-going
+3. Nanostructured Metal/Metal Oxide Based Catalysts for organic reactions — Recipient of INSPIRE Fellowship award, Ministry of Science & Technology, Department of Science & Technology, Government of India. Funding amount: Rs. 23,00,000/-. Status: Completed (2017-2022)
+
+## Patent
+
+- Nanocoated Solar Water Heater System and Method for Enhancing Heat Transfer Efficiency. Published/Granted: Published. Patent No.: 202341058289
+
+## Roles and Responsibilities: Institute Level
+
+- Conducting research activities
+- Research publication work
+- Project proposal writing
+- Patent filing and publication work
+- Mentoring students in research activities and publication
+- Handling and maintaining Electrochemical Workstation
+- Conducting technical events
+
+## Roles and Responsibilities: Department Level
+
+- Mentoring UG Students: Guiding students on research, writing, and publications.
+- Develop Scholarly Works: Write papers, file patents, and prepare proposals.`,
   },
   "anusha-h-s": {
     name: "Mrs. Anusha H S",
     url: "https://old.atme.edu.in/anusha-hs/",
-    md: "## Professional Experience\n\n- Teaching: 2 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official: [hsanusha@outlook.com](mailto:hsanusha@outlook.com)**\n- **Personal: [hsanusha897@gmail.com](mailto:hsanusha897@gmail.com):** **Vidwan ID**\n- [https://vidwan.inflibnet.ac.in//profile/449953](https://vidwan.inflibnet.ac.in/profile/449953)\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?hl=en&user=fOWwCdsAAAAJ>\n- **Scopus ID:** <user=fOWwCdsAAAAJ>\n- **Orcid ID:** <https://orcid.org/0009-0007-0313-285X>\n- **Web of Science Researcher ID:** [IP Address: 118.151.209.134](IP%20Address:%20118.151.209.134)\n- **LinkedIn ID:** [www.linkedin.com/in/anusha-h-s-650b5525a](http://www.linkedin.com/in/anusha-h-s-650b5525a)\n\n\n## Academic Details\n\n- **Qualification**\n- M.Sc. in General Chemistry\n- B.Sc. in Chemistry , Botany , Zoology\n\n## Areas of Interest\n\nOrganic Chemistry, Analytical Chemistry\n\n## Publication Details\n\n1. Synthesis and characterization of Ag2O and MnO doped  Ag2O nanocomposites for Antibacterial  Activity Against  coli\n\n## Honours/Awards/ Achievements\n\n1. I was mentored through the semester of “Organic Synthesis and Spectroscopy” by Dr. Prabhu, a professor at the Indian Institute of Science in Bangalore.\n2. Competed in a Seminar Competition at the “JSS Scientia T20 Orate Competition” regarding the discovery of “Natural Medicinal Products.”\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification/Online Courses\n\n1. CRTC 2023 In ATME College of Engineering\n2. FDP On the Theme of UHV at ATME College of Engineering.\n\n## Roles and Responsibilities: Institute Level\n\nNIL",
+    md: `## Professional Experience
+
+- Teaching: 2 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [hsanusha@outlook.com](mailto:hsanusha@outlook.com) | Personal: [hsanusha897@gmail.com](mailto:hsanusha897@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/449953>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?hl=en&user=fOWwCdsAAAAJ>
+- **Orcid ID:** <https://orcid.org/0009-0007-0313-285X>
+- **LinkedIn ID:** <http://www.linkedin.com/in/anusha-h-s-650b5525a>
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc.** in General Chemistry
+- **B.Sc.** in Chemistry, Botany, Zoology
+
+## Areas of Interest
+
+- Organic Chemistry, Analytical Chemistry
+
+## Publication Details
+
+1. Synthesis and characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial Activity Against E.coli
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+1. Mentored through the semester of "Organic Synthesis and Spectroscopy" by Dr. Prabhu, a professor at the Indian Institute of Science in Bangalore.
+2. Competed in a Seminar Competition at the "JSS Scientia T20 Orate Competition" regarding the discovery of "Natural Medicinal Products."
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. CRTC 2023 in ATME College of Engineering.
+2. FDP on the theme of UHV at ATME College of Engineering.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- NIL`,
   },
   "mahendra-kumar-h-s": {
     name: "Mr. Mahendra Kumar H S",
     url: "https://old.atme.edu.in/mr-mahendra-kumar-h-s/",
-    md: "## Professional Experience\n\n- Teaching: 7 Years\n- Research: 3 Years\n- Industry: 1 Year\n\n## Contact Details\n\n- **Email ID:** Official: m[ahendrakumarhs.ch@atme.edu.in](mailto:ahendrakumarhs.ch@atme.edu.in)\n- Personal: [mahendrakumarhs5@gmail.com](mailto:mahendrakumarhs5@gmail.com)\n- **Vidwan ID:** 536708\n- **Google Scholar ID:** <https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=mahendra+kumar+h+s&oq=>\n- **Scopus ID:** —\n- **Orcid ID:** 0009-0004-0196-8280\n- **Web of Science Researcher ID:** KRO-3691-2024\n- **LinkedIn ID:** [www.linkedin.com/in/ mahendra-kumar-h-s-16511029b](http://www.linkedin.com/in/ mahendra-kumar-h-s-16511029b)\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D.,** (Pursuing) in Chemistry\n- **B.Ed.,**\n- **M.Sc.,** in General Chemistry\n- **B.Sc.,** in Chemistry, Sericulture, Biotechnology\n\n## Areas of Interest\n\n1. Coordination Compounds\n2. Inorganic Chemistry\n3. Organic chemistry\n4. Computational chemistry\n\n## Publication Details\n\n1. Published paper on “**Recent Developments of Coumarin Products as Potential Anticancer Agents**”. Journal of Chemistry and Applicable Chemistry. Volume No: 11 Issue No: 4, June 2022 <https://www.joac.info/Joac/JournalPapers?Year=2022&VolumeNo=11&PartNo=4>\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification/Online Courses\n\n1. Participated in UGC sponsored one day workshop on “**Analytical techniques**” on 6th March 2018 organised by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025\n2. Participated in UGC sponsored one day state level workshop on “**Capacity building for teachers**” on 16th February 2019 organised by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025.\n3. Participated in second national conference on “**Advanced materials for health energy and environment**” (AMHEE 2019) held on September 6th & 7th 2019 organised by department of chemistry, JSS Science and Technology University, Mysore-06.\n4. Participated in UGC sponsored one day state level workshop on “**Teacher’s capacity building**” organised by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025 on 13th February 2020.\n5. Participated in UGC sponsored one day state level “**Orientation and retraining programme for teachers**” initiated by IQAC & organised by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025 on 14th January 2022.\n6. Participated in the one-day state level “**Orientation and retraining programme for teachers**” sponsored by UGC & initiated by IQAC organised by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025 on 28th February 2022.\n7. Participated in the “**Reorientation of faculty programme**” under UGC autonomy grants conducted on March 17th, 2023, at Pooja Bhagavath memorial Mahajana Education centre, Mysore.\n8. Completed one-week teachers training programme jointly organised by SBRR Mahajana First Grade college, Jayalakshmipuram, Mysore & Guru Angad Dev teaching learning centre, SGTB Khalsa college, University of Delhi under Pandit Madan Mohan Malaviya national mission on teachers and teaching (PMMMNMTT) of ministry of education. One-week included hands on activities, submission of quizzes, assignments & project and obtained ‘Grade – A’ as required for promotion under CAS of UGC & AICTE.\n9. Participated in the three day workshop/FDP on “**Essentials of Sciences for Engineering and Research-2025”** organised by Department of Basic Sciences and Humanities Departments, ATME in collaboration with JSS College of Arts, Commerce and Science(Autonomous) and ISTE from 15th January to 17th January 2025, held at ATME college of Engineering, Mysuru.   **Oral Presentation**\n1. Presented a paper on “**Design and synthesis of potent coumarin moieties and its anti-bacterial study**” at International Conference on Advanced material for heath, energy and environment on 28th Feb to 02nd March -2023 organized by Department of Chemistry JSS Science and Technology University, Mysore-06.   **Poster Presentations**\n1. Nithin K.S, Mahendra Kumar H S, Sunil Kumar, Vinutha and Dr.Siddaramaiah. Synthesis and optical properties of Caesium doped silver oxide nanoparticles: Effect of annealing temperature, KSTA Regional Conference on Science and Technology for Education and Health Care held on 21 & 22nd February 2014 organized by JSS college of Arts, Commerce and Science college, B.N. road, Mysore – 570025\n2. Presented the e-POSTER entitled “Design and synthesis, characterization of piperazine Schiff base analogue” and PRESENTATION e-POSTER in the TWO-DAY INTERNATIONAL e-CONFERENCE ON DRUG DISCOVERY AND MATERIAL SCIENCE organized by the IQAC and Dept. of Chemistry (UG & PG) of the JSS college of Arts, Commerce and Science college on 15th & 16th Sep 2021.\n\n## Roles and Responsibilities: Institute Level\n\n1. Conducting research activities\n2. Research publication Work\n3. Publication work\n4. Mentoring students in research activities and publication\n5. Handling and maintaining Electrochemical Workstation\n6. Handling and maintaining analytical & spectroscopic instruments\n\n## Roles And Responsibilities: Department Level\n\n- Course coordinator",
+    md: `## Professional Experience
+
+- Teaching: 8 Years
+- Research: 5 Years
+- Industry: 1 Year
+
+## Contact Details
+
+- **Email ID:** Official: [mahendrakumarhs.ch@atme.edu.in](mailto:mahendrakumarhs.ch@atme.edu.in) | Personal: [mahendrakumarhs5@gmail.com](mailto:mahendrakumarhs5@gmail.com)
+- **Vidwan ID:** 536708
+- **Google Scholar ID:** <https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=mahendra+kumar+h+s&oq=>
+- **Scopus ID:** —
+- **Orcid ID:** 0009-0004-0196-8280
+- **Web of Science Researcher ID:** KRO-3691-2024
+- **LinkedIn ID:** <http://www.linkedin.com/in/mahendra-kumar-h-s-16511029b>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** (Pursuing) in Chemistry
+- **KSET** – Chemical Science
+- **B.Ed.**
+- **M.Sc.** in General Chemistry
+- **B.Sc.** in Chemistry, Sericulture, Biotechnology
+
+## Areas of Interest
+
+1. Coordination Compounds
+2. Inorganic Chemistry
+3. Organic Chemistry
+4. Computational Chemistry
+
+## Publication Details
+
+**Research Articles**
+
+1. M. Sonu, V. L. Yashashwini, R. Kavya, H. S. Mahendra Kumar, M. A. Sangamesha, B. S. Madhukar, Puttaswamy Madhusudan, N. S. Prema, and H. N. Girish, Synthesis and characterization of polyvinyl alcohol‑based ZnGa2O4 nanocomposites: structural, optical, and dielectric properties, Journal of Materials Science, January 2026.
+2. Published paper on "Recent Developments of Coumarin Products as Potential Anticancer Agents", Journal of Chemistry and Applicable Chemistry, Volume No: 11 Issue No: 4, June 2022. <https://www.joac.info/Joac/JournalPapers?Year=2022&VolumeNo=11&PartNo=4>
+
+## Membership in Professional Bodies
+
+- Life Member of the IAENG Society of Chemical Engineering
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Advancements in Materials and Technologies: Thermal, Mechanical and Cryogenic Applications, conducted at Coorg Institute of Technology, Ponnampet, Karnataka, from 29-12-2025 to 03-01-2026.
+2. Participated in UGC sponsored one day workshop on "Analytical techniques" on 6th March 2018 organised by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025.
+3. Participated in UGC sponsored one day state level workshop on "Capacity building for teachers" on 16th February 2019 organised by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025.
+4. Participated in second national conference on "Advanced materials for health energy and environment" (AMHEE 2019) held on September 6th & 7th 2019 organised by Department of Chemistry, JSS Science and Technology University, Mysore-06.
+5. Participated in UGC sponsored one day state level workshop on "Teacher's capacity building" organised by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025 on 13th February 2020.
+6. Participated in UGC sponsored one day state level "Orientation and retraining programme for teachers" initiated by IQAC & organised by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025 on 14th January 2022.
+7. Participated in the one-day state level "Orientation and retraining programme for teachers" sponsored by UGC & initiated by IQAC organised by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025 on 28th February 2022.
+8. Participated in the "Reorientation of faculty programme" under UGC autonomy grants conducted on 17th March 2023, at Pooja Bhagavath Memorial Mahajana Education Centre, Mysore.
+9. Completed one-week teachers training programme jointly organised by SBRR Mahajana First Grade College, Jayalakshmipuram, Mysore & Guru Angad Dev Teaching Learning Centre, SGTB Khalsa College, University of Delhi under Pandit Madan Mohan Malaviya National Mission on Teachers and Teaching (PMMMNMTT) of Ministry of Education. Included hands-on activities, submission of quizzes, assignments & project and obtained 'Grade – A' as required for promotion under CAS of UGC & AICTE.
+10. Participated in the three-day workshop/FDP on "Essentials of Sciences for Engineering and Research-2025" organised by Department of Basic Sciences and Humanities, ATME in collaboration with JSS College of Arts, Commerce and Science (Autonomous) and ISTE from 15th to 17th January 2025, held at ATME College of Engineering, Mysuru.
+11. Participated in a one-day FDP organised by Vidyavardhaka College of Engineering, Mysuru, with Visvesvaraya Technological University, Belagavi, on "Revised Syllabus of Applied Sciences" on 30/08/2025.
+12. Participated in a one-week ATAL FDP organised by Coorg Institute of Technology, Ponnampet, on "Advancements in Materials and Technologies: Thermal, Mechanical and Cryogenic Applications" from 29/12/2025 to 03/01/2026.
+
+**Oral Presentation**
+
+1. Presented a paper on "Design and synthesis of potent coumarin moieties and its anti-bacterial study" at International Conference on Advanced Material for Health, Energy and Environment on 28th Feb to 02nd March 2023, organized by Department of Chemistry, JSS Science and Technology University, Mysore-06.
+
+**Poster Presentations**
+
+1. Nithin K. S, Mahendra Kumar H S, Sunil Kumar, Vinutha and Dr. Siddaramaiah, Synthesis and optical properties of Caesium doped silver oxide nanoparticles: Effect of annealing temperature, KSTA Regional Conference on Science and Technology for Education and Health Care held on 21 & 22nd February 2014, organized by JSS College of Arts, Commerce and Science, B.N. Road, Mysore – 570025.
+2. Presented the e-poster entitled "Design and synthesis, characterization of piperazine Schiff base analogue" in the Two-Day International e-Conference on Drug Discovery and Material Science organized by the IQAC and Dept. of Chemistry (UG & PG), JSS College of Arts, Commerce and Science on 15th & 16th Sep 2021.
+
+**MOOC**
+
+1. Completed 12 weeks of the NPTEL course on "Advanced Transition Metal Chemistry" from 21/07/2025 to 10/10/2025.
+2. Completed 12 weeks of the NPTEL course on "Co-Ordination Chemistry (Chemistry of Transition Elements)" from 19/01/2026 to 10/04/2026.
+3. Completed 12 weeks of the NPTEL course on "Chemistry of Main Group Elements" from 19/01/2026 to 10/04/2026.
+
+**NITTR**
+
+1. Completed Module-1: Orientation towards Technical Education & Curriculum Aspects of National Initiative for Technical Teachers Training, from 06/10/2025 to 30/11/2025.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- A-IMS Coordinator
+- Evaluator for VTU UG exams
+- External examiner in practical exams at various institutions
+
+## Roles and Responsibilities: Department Level
+
+- Course Coordinator – Chemistry
+- Mentor
+- Class Teacher`,
   },
   "thejas-gowda-b": {
     name: "Mr. Thejas Gowda B",
