@@ -441,7 +441,84 @@ Attender
   "ramachandra-m-n": {
     name: "Mr. Ramachandra M N",
     url: "https://old.atme.edu.in/mr-ramachandra-m-n/",
-    md: "## Professional Experience\n\n- Teaching: 20 Years\n- Research: 5 Years\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [ramachandramn\\_phy@atme.edu.in](mailto:ramachandramn_phy@atme.edu.in)\n- **Personal:** [ramu.mnr@gmail.com](mailto:ramu.mnr@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/202647>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=NrZnWoMAAAAJ>\n- **Scopus ID:** <http://www.scopus.com/authid/detail.url?authorId=57216847437>\n- **Orcid ID:** <http://www.orcid.org/0000-0001-7373-8047>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/ramachandra-m-n-64097358/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** in Physics-Radiations (Pursuing)\n- **M.phil**\n- **M.Sc** in Physics\n- **B.Sc** in Physics, Chemistry and Mathematics\n\n## Areas of Interest\n\n1. Radiations\n\n## Publication Details\n\n1. “Measurement of Radon soil gas in and around Bharathinagara, Mandya District” [T S Shashikumar](about:blank), [S Revanna](about:blank), [M N Ramachandra](about:blank), [G V Ashok](about:blank), [C Ningappa](about:blank), [Shivalinge Gowda](about:blank). Radiation Protection Dosimetry, Volume 187, Issue 1, December 2019, Pages 83–87.\n2. “Low friction stability and low wear of some self-lubricating engineered polymer composites under heavy loading conditions**”** Ramachandra M N, Mahesh Lohith K S, Nandan P, Chandrakala N C, Conference: Recent Trends in Geo Science, Material Science and Civil Engineering, ATME College of Engineering, Mysuru, Karnataka, India Volume: 23-24 March 2017.\n\n## Membership in Professional Bodies\n\n- **Life member ISTE Chapter**\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Three Days Faculty Development Program for Student Induction Program from 18th to 20th June 2018 at Sahyadri College of Engineering & Management , Mangaluru\n2. Seven Days Faculty Development Program for Student Induction Program from 16th to 22nd July 2018 at Sahyadri College of Engineering & Management , Mangaluru\n3. Organised- Universal Human Values   **SCIENCE FIESTA**\n1. Faculty coordinator for ATME Science Fiesta – 2K19, in association with Incubation Club, ATMECE, on 20th December 2019   **WORKSHOP**\n1. Five days online workshop on Advanced Techniques for material characterization (ATMC-2020) 6th to 10th of July 2020,Malavia National Institute of Technology, Jaipur.\n2. One day workshop on New model curriculum for First year BE/B,Tech-  CBCS Detailed syllabus (2018-19) On 19th May 2018.\n3. A Technical talk, was organized in the college on 20-02-2014 by the Department of Basic Science on the Topic ‘Basics and Applications in the Field of Nanotechnology’\n4. One day national workshop on “Material Science & Nano Technology” was jointly organized by Dept of Chemistry, VidyaVikas Institute of Engineering & Technologywith KSTA, on 29-08-2015.\n5. One day national workshop on “Interfacing Innovation & IPR for Diffusion of Technology. Organized by NRDC in collaboration with Basic Sciences & Humanities Dept, ATMECE, on 19th January 2015\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- Distinguished Service Award\n\n## Roles and Responsibilities: Institute Level\n\nAnti-Ragging Committee Coordinator.\n\n## Roles and Responsibilities: Department Level\n\n**NIL**",
+    md: `## Professional Experience
+
+- Teaching: 20 Years
+- Research: 5 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [ramachandramn_phy@atme.edu.in](mailto:ramachandramn_phy@atme.edu.in) | Personal: [ramu.mnr@gmail.com](mailto:ramu.mnr@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/202647>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=NrZnWoMAAAAJ>
+- **Scopus ID:** <http://www.scopus.com/authid/detail.url?authorId=57216847437>
+- **Orcid ID:** <http://www.orcid.org/0000-0001-7373-8047>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/QMR-7747-2026>
+- **LinkedIn ID:** <https://www.linkedin.com/in/ramachandra-m-n-64097358/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D** in Physics-Radiations (Pursuing)
+- **M.phil**
+- **M.Sc** in Physics
+- **B.Sc** in Physics, Chemistry and Mathematics
+
+## Areas of Interest
+
+- Radiation Physics
+
+## Publication Details
+
+1. "Rapid and sensitive electrochemical detection of paracetamol using EuZrO3-modified carbon paste electrode", CSC Kumar, KSM Lohith, MN Ramachandra, TR Divakara, P Sumesh, Scientific Reports, volume 15, Article number: 43560 (2025).
+2. "CoCu2O4 Modified Electrodes via Facile Synthesis for Ultrasensitive Dopamine Detection in Physiological Conditions", CSC Kumar, MN Ramachandra, KSM Lohith, N Padmavathy, P Sumesh, Electrochimica Acta, Volume 548, 1 February 2026, 147892. <https://doi.org/10.1016/j.electacta.2025.147892>
+3. "Measurement of Interior and Exterior Gamma Dose Rate in Air in Mandya City, Karnataka." R MN, TS Shashikumar, Grenze International Journal of Engineering & Technology (GIJET) 9 (1), 2023.
+4. "Estimation of indoor and outdoor effective doses and lifetime cancer risk from gamma dose rates in and around Mandya district, Karnataka", TS Shashikumar, MN Ramachandra, Chandrashekar, S Gowda, Radiation Protection Dosimetry 198 (20), 1540-1545, (2022).
+5. "Measurement of Radon soil gas in and around Bharathinagara, Mandya District" T S Shashikumar, S Revanna, M N Ramachandra, G V Ashok, C Ningappa, Shivalinge Gowda. Radiation Protection Dosimetry, Volume 187, Issue 1, December 2019, Pages 83–87.
+6. "Low friction stability and low wear of some self-lubricating engineered polymer composites under heavy loading conditions" Ramachandra M N, Mahesh Lohith K S, Nandan P, Chandrakala N C, Conference: Recent Trends in Geo Science, Material Science and Civil Engineering, ATME College of Engineering, Mysuru, Karnataka, India Volume: 23-24 March 2017.
+7. "Micropropagation of Caralluma stalagmifera var. longipetala: A rare succulent medicinal plant from Karnataka, India", MN Ramachandra, S Karuppusamy, YL Krishnamurthy, African Journal of Biotechnology 13 (35), 2014.
+
+## Membership in Professional Bodies
+
+- Life member ISTE Chapter
+
+## Honours/Awards/ Achievements
+
+- Distinguished Service Award
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. "One week online FDP on VTU's Revised Physics Curriculum". Organized by Cambridge Institute of Technology, Bengaluru from 27th Oct to 1st Nov 2025.
+2. "One day FDP on Revised Applied Physics - 2025 Curriculum" Organised by Vidya Vardhaka College of Engineering on 30th Aug 2025.
+3. Three Days Faculty Development Program for Student Induction Program from 18th to 20th June 2018 at Sahyadri College of Engineering & Management, Mangaluru
+4. Seven Days Faculty Development Program for Student Induction Program from 16th to 22nd July 2018 at Sahyadri College of Engineering & Management, Mangaluru
+5. Organised- Universal Human Values
+
+**SCIENCE FIESTA**
+
+1. Faculty coordinator for ATME Science Fiesta – 2K19, in association with Incubation Club, ATMECE, on 20th December 2019
+
+**WORKSHOP**
+
+1. Five days online workshop on Advanced Techniques for material characterization (ATMC-2020) 6th to 10th of July 2020, Malavia National Institute of Technology, Jaipur.
+2. One day workshop on New model curriculum for First year BE/B.Tech - CBCS Detailed syllabus (2018-19) On 19th May 2018.
+3. A Technical talk, was organized in the college on 20-02-2014 by the Department of Basic Science on the Topic 'Basics and Applications in the Field of Nanotechnology'
+4. One day national workshop on "Material Science & Nano Technology" was jointly organized by Dept of Chemistry, VidyaVikas Institute of Engineering & Technology with KSTA, on 29-08-2015.
+5. One day national workshop on "Interfacing Innovation & IPR for Diffusion of Technology. Organized by NRDC in collaboration with Basic Sciences & Humanities Dept, ATMECE, on 19th January 2015
+
+## Proposal/Funding/Project Financial Assistance
+
+- Life member ISTE Chapter.
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- EMS Coordinator.
+- Student Scholarship Coordinator`,
   },
   "rani-t": {
     name: "Mrs. Rani T",
@@ -463,17 +540,323 @@ Attender
   "dr-madhusudhana-r": {
     name: "Dr. Madhusudhana R",
     url: "https://old.atme.edu.in/dr-madhusudhana-r/",
-    md: "## Contact Details\n\n- **Email ID:** **Official: [madhusudhanar.phy@atme.edu.in](mailto:madhusudhanar.phy@atme.edu.in)**\n- **Personal: [madhu84nano@gmail.com](mailto:madhu84nano@gmail.com):** **Vidwan ID**\n- <https://vidwan.inflibnet.ac.in/profile/384877>\n- **Google Scholar ID:** <https://scholar.google.com/citations?user=6TNXNlMAAAAJ&hl=en>\n- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57195919112>\n- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0002-2345-8781>\n- **Web of Science Researcher ID:** JPA-0893-2023\n- **LinkedIn ID:** <https://www.linkedin.com/in/dr-madhusudhana-r-a165b543/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D. in Physics**\n- **M.Tech.** in **Nanoscience and Nanotechnology** **(University 1st Rank & Gold Medallist)**\n- **M.Phil.** in **Physics**\n- **K-SET** in **Physics**\n- **M.Sc.** in **Physics**\n- **B.Sc.** in **Physics, Chemistry, Maths**\n\n## Areas of Interest\n\n1. Surface Engineering (Thin Film Coatings)\n2. Nanostructured Material Synthesis and Characterisation\n3. Nanostructured Coatings by DC/RF Magnetron Sputtering and Thermal Evaporation Techniques\n\n## Publication Details\n\n1. H., Guddappa, Halligudra, S., Chetana, S., S., Singh, Seema, ***Madhusudhana R***, Shantharaja, S., Lo, Shang-Lien; Catalytic behaviour of iron-based nanomaterials for the remediation of hazardous chemicals from wastewater: A Review, Journal of Physics and Chemistry of Solids **(Q2 Journal, IF: 4.9, SNIP: 0.991),** Vol. 203, 112735, **(2025)**, Scopus indexed, <https://doi.org/10.1134/S1063776124601186>\n2. Ravikiran, B. Sachin,  ***Madhusudhana***, S. L. Aravind & Gurukiran Kashyaup; Investigation of Viscosity and Tribological Characteristics of Cashew Nutshell Oil and Castor Oil Blends using ZDDP as Additives”, Book Chapter – Advances in Science, Technology & Innovation, IEREK Interdisciplinary Series for Sustainable Development, Scopus indexed, Springer Nature **(2025)**, <https://doi.org/10.1007/978-3-031-73816-6_19>\n3. B Sachin; Charitha M Rao; Ravikiran.; Amit Tiwari; T Raghavendra; ***R Madhusudhana***; A Eswaran; C. Durga Prasad “Interactive Design and Development of an Intelligent Vision-Driven 3D Printed Precision Sorting Mechanism for Silk Cocoons”, International Journal on Interactive Design and Manufacturing – Springer **(Q2 Journal, IF: 2.5, SNIP: 1.267)** Scopus Indexed, , Electronic ISSN 1955-2505; Print ISSN 1955-2513; **(2024)**, [https://doi.org/10.1007/s12008- 024-02086-5](https://doi.org/10.1007/s12008-%20024-02086-5)\n4. Ravikiran, Kupparavalli Ramamurthy Prakash, Aravind Surendran Lathika, ***Madhusudhana Ramanna***, Sachin Bandadka, Ajay Anand, “Experimental Study on Tribological, Rheological and Bio-degradability Characteristics of Canola oil with TiO2 Nanoparticles as Bio-nanolubricants, “Tribology in Industry” **(Q3 Journal,** **IF: 1.87, SNIP: 0.681**) Scopus Indexed, SNIP – 0.785, Volume 46, Number 1, **(2024)**, ISSN: 0354-8996, <https://doi.org/10.24874/ti.1591.12.23.02>\n5. Vinaykumar Linganna, ***Madhusudhana Ramanna***, Bhuvan Lokesh Marenahalli, Siddaram Nadigar, Mallesha Lingappa, Synthesis and Characterisation of Triazole, Pyrimidyl, Fluoroaniline, and Nitrobenzamide Derived Picrate Salts in the Journal “Letters in Applied NanoBiosciences”, **(Q3 Journal,** **IF: 0.91, SNIP: 0.396)** Scopus Indexed, Volume 13, Issue 2, 2024, 81, **(2024)** <https://doi.org/10.33263/LIANBS132.081>\n6. Ravikiran, Savant, A., Patil, D., Muraleedharan, A.V., ***Ramanna Madhusudhana***, Design and Development of Helium-Assisted Quadcopter with Object Recognition, AIP Conference Proceedings, **(IF: 0.91, SNIP: 0.204),** Scopus Indexed, SNIP – 0.291, Volume 2766, Issue 1, **(2023)** <https://doi.org/10.1063/5.0139353>\n7. ***Madhusudhana R***, R. Gopalakrishne Urs, L. Krishnamurthy, “ZrO2-TiO2 Multi-layered Nanostructured Coatings on AA5052 Substrate as Corrosion and Thermal Barrier Coatings”, SSRG International Journal of Material Science and Engineering, Volume 8 Issue 3, 1-5, ISSN: 2394 – 8884, **(2022)** <https://doi.org/10.14445/23948884/IJMSE-V8I3P101>\n8. Ravikiran, Srikara Kundaragi, S. L. Aravind, V. M. Akhil,  ***Madhusudhana***, “Rheological and Tribological Characterization of Completely Biogenic Grease” Springer Proceedings in Materials, **(Q3 Journal,** **IF: 0.91, SNIP: 0.174)**, Scopus Indexed, Vol. 18, **(2022)**, <https://doi.org/10.1007/978-981-19-5395-8_12>\n9. ***Madhusudhana R***, R. Gopalakrishne Urs, L. Krishnamurthy, “Thermal Analysis of Yttrium and Cerium Based Nanostructured Powders for High Temperature Applications”- International Journal of Innovative Research in Technology, **(2022)**, Volume 9 Issue 3 — ISSN: 2349-6002\n10. ***Madhusudhana R******.***, Sushma K. L., L. Krishnamurthy, Chandra Sekhar K., Gopalakrishne Urs R., Sangamesha M.A., “Nanostructured Anti-glare Coatings for Night Visibility” – IOP Conference Series – Material Science and Engineering, **(SNIP: 0.622)**, Scopus Indexed, Volume 1065, ISSN: 1757-899X, **(2021)** <https://doi.org[10.1088/1757-899X/1065/1/012017](https://doi.org/10.1088/1757-899X/1065/1/012017)>\n11. ***Madhusudhana R***., Lovesome Benedict S., L. Krishnamurthy, Gopalakrishne Urs R. L. Vinaykumar, “Synthesis and Characterization of Yttrium Nanostructured Coatings” – IOP Conference Series – Material Science and Engineering, **(SNIP: 0.622)**, Scopus Indexed, Volume 1065, ISSN: 1757-899X, (**2021**) <https://doi.org/10.1088/1757-899X/1065/1/012018>\n12. ***Madhusudhana R***., Navyashree K. C., L. Krishnamurthy, Gopalakrishne Urs R., “Synthesis and Characterization of Zirconium Oxide (ZrO2) Films on AA5052 and Glass substrates” – IOP Conference Series – Material Science and Engineering, **(SNIP: 0.622)**, Volume 1065, ISSN: 1757-899X, **(2021)** <https://doi.org/10.1088/1757-899X/1065/1/01201>\n13. ***Madhusudhana R.***, Navyashree K. C., L. Krishnamurthy, R. Gopalakrishne Urs., “Advancements in Quantum Computing – A Review”, International Journal of Scientific Engineering and Research (IJSER), ISSN (Online): 2347-3878, Volume 8, Issue 12, **(2020)** Paper ID: SE20121320360\n14. ***Madhusudhana R***., Lovesome Benedict S., Sushma S, L. Krishnamurthy, R. Gopalakrishne Urs, Sachin D., “Thermal Barrier Coatings for Aerospace Applications” in UGC-CARE Journal ISSN – 2348-2397, SHODH SARITA Vol. 7, Issue 27 (III), **(2020)**\n15. R. Thejashwini, Vijay Khopkar, ***Madhusudhana R.***, B. Sahoo, “Crystal growth and dielectric properties of ammonium dihydrogen phosphate (ADP) single crystal”, Journal of Material Science: Materials in Electronics – Springer, **(Q2 Journal,** **IF: 2.779, SNIP: 0.712),** Scopus Indexed, <https://doi.org/10.1007s10854-> 020-03603-4, **(2020)**\n16. Yaseen K. R. Shariff, Harish K. Choudhary, Vijay Khopkar, Ankit Yadav, ***Madhusudhana R******.***, Balaram Sahoo, “Sol-Gel Auto-Combustion Synthesis of Ba-Sr Hexaferrite Ceramic Powders”, Ceramic International – Elsevier Publications, **(Q1 Journal,** **IF: 2.779, SNIP: 1.257),** Scopus Indexed, <https://doi.org/10.1016/j.ceramint.2020.07.034> (2020)\n17. ***Madhusudhana R.***, Madhurya S., L. Krishnamurthy, R. Gopalakrishne Urs, “A Review on TiO2 in Photo Catalytic Activity and Self-Cleaning Effect”, “International Journal of Advanced Science and Technology”, 29 (3), 10023-10031, **(2020),** <http://sersc.org/journals/index.php/IJAST/article/view/27037>\n18. ***Madhusudhana R******.,*** Naveen Kumar J.R., S. Vainatheya, “Electroless Co-P Coated Nanocenosphere /Polymer/Filler Composite for EMI Shielding Effectiveness”, Elsevier, Material Today Proceedings, **(IF: 1.937, SNIP: 0.838),** Scopus Indexed, Volume 4, Issue 11P3 (2017), Pages 12130-12137, **(2017)**\n19. ***Madhusudhana R******.***, Sairani R., C. Shivakumara, Siddharth Joshi, “Combustion synthesis and characterization of Eu3+ activated Y2O3 red nanophosphors for display device applications”, International Journal of Nanotechnology, Inderscience Publishers, **(Q4 Journal,** **IF: 0.3, SNIP: 0.128),** Scopus Indexed, **(2017)**\n20. ***Madhusudhana R.***, L. Krishnamurthy, Gopalakrishne Urs R., Sangamesha M.A., “Synthesis and Characterization of Zirconia (ZrO2) by simple Sol-Gel Route”, International Journal of Advanced Research, Volume 2, Issue 4, 433-436, ISSN: 2320-5407 **(2014)**\n\n## Membership in Professional Bodies\n\n1. Indian Nuclear Society – Bhabha Atomic Research Centre (India) – Membership No. LM-12034/31-03-2016 (Life Member)\n2. Fellow of The Society of Innovative Educationalists & Scientific Research Professionals (FSIESRP) – Regd.No. LM171899333 (Life Member)\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. **AICTE- ATAL FDP** on “Recent Advances in Energy Harvesting and Sustainable Developments” by The National Institute of Engineering, Mysuru from **01.2025 to 11.01.2025 (6 Days)**\n2. **AICTE- ATAL FDP** on “Next-Generation Energy Storage: Integrating Advanced Electronics and Sensor Technologies” organized by Srinivas University Institute of Engineering &Technology, Mukka, Mangaluru from **11.2024 to 23.11.2024** **(6 Days)** 3. 1-Week Online STTP on **“Transformative AI Tools for Research Writing****”** organized by MLR Institute of Technology, Hyderabad, Telangana & RSP Science Hub, Coimbatore from **30/09/2024 to 05/10/2024 (6 Days)** 4. 6-Day Online FDP on **Universal Human Values (UHV) – II** organized by AICTE in  **27, 2024 to Jun. 1, 2024** 5. 6-day FDP on **“Bharatiya Gyan Paramapara (IKS)****”** jointly organized by Inter-University Centre for Teacher Education (IUCTE), BHU, Varanasi & Vidya Bharti Uccha Shiksha Sansthan, Karnataka under the patronage of JSS Mahavidyapeetha, Mysuru held at Sutturu from  **29, 2023 to Jan. 3, 2024** 6. 3–Day FDP on **“Inculcating Universal Human Values in Technical Education****”** organized by AICTE held at ATME College of Engineering, Mysuru from  **02, 2023 to Nov. 04, 2023**\n7. Certified **“Digital Teacher****”**, Certificate Course on **“Digital Teaching Techniques****”**from ICT Academy, Tamil Nadu from **June 29** **– July 4, 2020**\n8. Online Live FDP on **“Digital Manufacturing using Autodesk Fusion 360****”** organized by ICT Academy, Tamil Nadu from **June 22 – 27, 2020**\n9. Short Term Course on **“Tribology in Machine Elements: Fundamentals & Recent Advances****”** organized by Dept. of Mechanical Engineering, **IIT** **– Jammu during Dec. 9 – 13, 2019**\n10. One Day FDP **on** **“Inspirational Teaching****”** organized by Dept. of Computer Science and Engineering, NIE, Mysuru held on **2, 2019**\n11. Short Term Course on **“Fabrication and Characterization of Nano Hybrid Composites and Ceramic Materials and its impact on Mechanical, Tribology and Electrical Properties****”,** organized by **NIT, Manipur during Dec. 24** **– 18, 2018**\n12. Training Program on **“Synthesis and Characterization Techniques****”** organized by Dept. of Nanoscience & Technology, Sathyabhama University, Tamil Nadu during **April 20** **– 21, 2018**\n13. Three Days FDP on **“Recent Trends in Nanoscience & Technology****” (RTNST-2017),** organized by GSSS Institute of Engineering & Technology for Women, Mysuru from  **12** **– 14, 2017**\n14. Workshop on **“Nano Characterization****”** organized by Central Manufacturing Technology Institute **(CMTI)**, Bengaluru on  **15, 2017**\n15. TEQIP –II Sponsored Three-day Faculty Development Programme (FDP) on **“Micro and Nano Scale Heat Transfer for the Application of Electronic Cooling****”** during  **27** **– March 1, 2017** organized by NIE, Mysuru, Karnataka, India\n16. Short Term Course on **“Modeling and Simulation of Nano-Transistors****”** organized by Dept. of Electrical Engineering, **IIT** **– Kanpur on Feb. 13** **– 17, 2017**\n17. Completed 2 modules on **“Essentials and Decision making****”** in the **UNESCO Bangkok e-learning series on Information Communication Technology in Education** held on  **13, 2017**\n18. Training Program on **“Technology Enabled Teaching Learning Process****”** conducted by National Institute of Technical Teachers Training and Research held during **3** **– 8, 2017** organized by NIE, Mysuru, Karnataka, India\n19. TEQIP – II sponsored **Two-day Workshop on** **“MATLAB****” hands-on training on Nov. 10** **– 11, 2016** at NIE, Mysuru, Karnataka, India\n20. TEQIP – II sponsored **One-day Workshop on** **“Proposal Writing to Funding Agencies****” on Oct. 6, 2016** at NIE, Mysuru, Karnataka, India\n21. One Day Workshop on **“Thin Film Characterization** **– Basic Principles and Practices****”** organized by Department of Physics, **IIT Madras** on  **21, 2016**\n22. International Workshop on **“Nanostructured, Smart and Electronic Materials****”** **(IWNSE-2016)** organized by Rajarajeshwari College of Engineering on **8, 2016,** Bengaluru, Karnataka, India\n23. **One Day Workshop on** **“Nanomaterials****”** organized by VTU Regional Office, Bengaluru on  **14, 2015**, Bengaluru, Karnataka, India\n24. Seminar on **“Benefits of Nuclear and Material Sciences in day-to-day life (BNMS-2015)** organized jointly by Indian Nuclear Society and University of Mysore, Mysuru on  **21- 22, 2015**, Mysuru, Karnataka, India\n25. **Workshop and hands-on training on** **“Physics Experiments using expEYES****”** conducted by the **Indian Institute of Science (IISc)**, Bengaluru, Karnataka, India on  **16, 2015**\n26. **Three-Day Workshop on** **“Research Methodologies & Latex****”** organized by VTU e-Learning Centre, Mysuru from  **29** **– 31, 2014** at Vidya Vikas Institute of Engineering & Technology, Mysuru, Karnataka, India\n27. **National Workshop on Nanoscience and Technology (NW-NST****’ 2013)** held at Mangalore Institute of Engineering & Technology, Moodabidri on  **18** **– 19, 2013**, Mangaluru, Karnataka, India\n28. TEQIP –II Sponsored Two-day Faculty Development Programme (FDP) on **“Emerging Trends in Nano-Electronics and Device Packaging****”** during  **30** **– Oct. 1, 2013,** NIE, Mysuru, Karnataka, India\n29. **One-day state-level seminar** on “Nano Science & Technology” held on **March 25, 2013,** organized by Dept. of Physics, JSS College for Women, Saraswathipuram, Mysuru, Karnataka, India\n30. **International Conference at 5th Bangalore Nano**,  **5-7, 2012,** organized by Dept. of IT, BT and S&T, Govt. of Karnataka, Bengaluru, India\n31. Participated and presented a model in “**Kuvempu University Silver Jubilee Exhibition**”  **16** **– 19, 2012** organized by Committee for Popularization of Science Education, Kuvempu University, Shivammogga, Karnataka, India\n32. **Pre-Conference Workshop** – 3rd International Conference on Frontiers in Nanoscience and Technology. (Cochin Nano – 2011),  **14-17, 2011**, Department of Physics, CUSAT. Kochi, Kerala, India\n33. **3rd International Conference** on Frontiers in Nanoscience and Technology. (Cochin Nano – 2011),  **14-17, 2011**, Department of Physics, CUSAT, Kochi, Kerala.\n34. **National Workshop** on **“Usage of Instruments for Nanotechnology Applications**” on **April 25, 2011** organized by the Dept. of Nanoscience & Technology, Kuvempu University, Shivammogga, Karnataka, India\n\n## Proposal/Funding/Project Financial Assistance\n\n- **Granted**  1. 2021:   *Programme Co-ordinator* *–* Project Proposal submitted to *ATAL – AICTE, New Delhi selected and granted with 0.93 Lakhs* to conduct Faculty Development Programme for AICTE approved faculty throughout India.  2. 2020:   *NIE – Centre for Research and Development sanctioned with Rs. 10,000/-* to carry out research on “Black Cotton Soil Stabilization using Nanocomposite based Hydrogel”  3.  2015 – 16:       *University Grants Commission (UGC – MRP), INR 50,000/-,* “Fabrication and Optimization of Nano-structured TBS for Turbine Blades using Taguchi Design”  4.  2013 – 14:       Project selected and granted with *Rs. 30,000/- from Vision Group on Science and Technology (VGST),* Government of Karnataka, Department of Information Technology, Biotechnology and Science & Technology, *Science Projects in College Education (SPiCE) /(SSP-UG),* Karnataka, India  **Applied**\n1. **Nov. 2024:**      “Nano-Structured Multi-layered Environmental Thermal Barrier Coatings for Aerospace and High-Temperature Applications” to ***UGC-DAE (Consortium for Scientific Research – Indore Centre),*** Funding amount: 45,000/- (For Consumables and Rs. 15,000/- for Travel, ***Total: 60,000/-),*** Ref. no.: CRS/2024-25/1789, Date of Submission: 29.11.2024.\n2. **June 2024:**“Nano-Structured Multi-Layered Thermal Barrier Coatings for High-Temperature Applications”, ***VGST-K-FIST: L1***, ***Funding amount: 17,42,858/-,*** Ref. no.: VRN/000259/23-24, Date of Submission: 20.06.2024.\n3. **Apr. 2024:**      “Development of Coating Materials used in High-Temperature Environments”, (As PI) to ***ISRO-RESPOND***, Funding amount: ***Rs. 75,92,560/-,*** Ref. No.: H7.3, Date of Submission: 06.02.2024.\n4. **Nov. 2023:**      Topic titled “Nano-structured Multi-layered Environmental Thermal Barrier Coating Systems for High-Temperature Applications in Aerospace Industry” applied to ***SERB – SURE*** Scheme for a funding of ***Rs. [29,95,263](https://www.serbonline.in/SERB/MenuPage)/-,*** Ref. No.: 132023001592, on 22.11.2023.\n\n## Honours/Awards/ Achievements\n\n- 1. 2022 – Authored a book titled “Nanoscience and Nanotechnology” published by Scientific International Publishing House (SIPH), registered under the Ministry of SME, Govt. of India. (ISBN: 978-93-5625-535-7) on Nov. 1, 2022 2. 2021 – Best Young Researcher award in International Conference on “Nanotechnology for Better Living (NBL-2021)”, Sep 7 – 11, 2021 organized by National Institute of Technology (NIT) – Srinagar, Jammu and Kashmir. 3. 2021 – Programme Co-ordinator – Project Proposal was selected and granted 0.93 Lakhs from ATAL—AICTE, New Delhi, to conduct a Faculty Development Programme for AICTE-approved faculty throughout India. 4. 2021 – Best Young Researcher award in International Conference on Physical Sciences (ICPS-2021), February 05 – 06, 2021 organized by National Institute of Technology (NIT) – Surat. 5. 2020 – NIE – Centre for Research and Development sanctioned with Rs. 10,000/- to carry out research on “Black Cotton Soil Stabilisation using Nanocomposite-based Hydrogel” 6. 2020 – Best Innovative Technological Researcher & Dedicated Teaching Professional Award, Specialization: Nanotechnology from The Society of Innovative Educationalist & Scientific Research Professional (SIESRP), Chennai 7. 2020 – Awarded “Certified Digital Teacher” badge on successful completion of “Certificate Course on Digital Teaching Techniques” from ICT Academy, Tamil Nadu from June 29 – July 4, 2020 8. 2020 – Best Oral Presentation at 1st International Conference on “Accelerating Innovations in Materials Science” (AIMS – 2020), Organized by BMS Institute of Technology and Management, Bengaluru from Aug. 4 – 7, 2020 9. 2019 – Guest Editor for “American Journal of Materials Synthesis and Processing”, Science Publishing Group (USA) 10. 2018 – 24 Executive Committee Member – Indian Nuclear Society (Bhabha Atomic Research Centre), Mysuru Chapter. 11. 2015 – 16 A Research Grant of Rs. 50,000/- Sanctioned from University Grants Commission (UGC – MRP), Minor Research Project Scheme from Govt. of India, India 12. 2015 – 1st Prize in National Level Technical Paper Presentation Contest (cogNIEscience – 2015) held at NIE, Mysuru, India 13. 2014 – 1st Prize in National Level Technical Paper Presentation Contest (cogNIEscience – 2014) held at NIE, Mysuru, India 14. 2013-14 Project selected and granted with Rs. 30,000/- from Vision Group on Science and Technology (VGST), Government of Karnataka, Department of Information Technology, Biotechnology and Science & Technology, Science Projects in College Education (SPiCE / SSP-UG), Karnataka, India 15. 2012 – 1st Rank & Gold Medalist in M.Tech – Nanotechnology, Kuvempu University, Karnataka, India 16. 2012 – Jawaharlal Nehru Memorial Merit Fund award from the Government of India, India 17. 2012 – Qualified for the prestigious INSPIRE fellowship from DST – Govt. of India, India\n\n## Roles and Responsibilities: Institute Level\n\nRegular roles and responsibilities as per the college curriculum\n\n## Roles and Responsibilities: Department Level\n\nNIL",
+    md: `## Professional Experience
+
+- Teaching: 18 Years
+- Research: 13 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [madhusudhanar.phy@atme.edu.in](mailto:madhusudhanar.phy@atme.edu.in) | Personal: [madhu84nano@gmail.com](mailto:madhu84nano@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/384877>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=6TNXNlMAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57195919112>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0002-2345-8781>
+- **Web of Science Researcher ID:** JPA-0893-2023
+- **LinkedIn ID:** <https://www.linkedin.com/in/dr-madhusudhana-r-a165b543/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** in Physics
+- **M.Tech.** in Nanoscience and Nanotechnology (University 1st Rank & Gold Medallist)
+- **M.Phil.** in Physics
+- **K-SET** in Physics
+- **M.Sc.** in Physics
+- **B.Sc.** in Physics, Chemistry, Maths
+
+## Areas of Interest
+
+1. Surface Engineering (Thin Film Coatings)
+2. Nanostructured Material Synthesis and Characterisation
+3. Nanostructured Coatings by DC/RF Magnetron Sputtering and Thermal Evaporation Techniques
+
+## Publication Details
+
+1. Guddappa Halligudra, Chitrabanu C. Paramesh, Amulya Giridasappa, Chetana Sabbanahalli, Kunal Roy, Madhusudhana Ramanna, Dinesh Rangappa, Prasanna Daddakunche Shivaramu, Catalytic Reduction of Organic Pollutants and Anticancerous Activity of Eco-Friendly Synthesized ZnO Nanoparticles Using Dill Seed Extract, Topics in Catalysis, (2026) 69:1493–1507, (Q2 Journal) Scopus Indexed, <https://doi.org/10.1007/s11244-025-02236-3>
+2. Vidyashree K P, Udayabalan B, Shilpa M S, Madhusudhana R, Nandini S, Bhagyalakshmi R, Shivani T, Machine learning-based detection and classification of leaf diseases in rooftop gardens, Journal of Integrated Science & Technology, J. Integr. Sci. Technol. 2026, 14(5), 1571 (Q3 Journal) Scopus Indexed, <https://pubs.thesciencein.org/journal/index.php/jist/article/view/a1571>
+3. H., Guddappa, Halligudra, S., Chetana, S., S., Singh, Seema, Madhusudhana R, Shantharaja, S., Lo, Shang-Lien; Catalytic behaviour of iron-based nanomaterials for the remediation of hazardous chemicals from wastewater: A Review, Journal of Physics and Chemistry of Solids (Q2 Journal, IF: 4.9, SNIP: 0.991), Vol. 203, 112735, (2025), Scopus indexed, <https://doi.org/10.1134/S1063776124601186>
+4. Ravikiran, B. Sachin, R. Madhusudhana, S. L. Aravind & Gurukiran Kashyaup; Investigation of Viscosity and Tribological Characteristics of Cashew Nutshell Oil and Castor Oil Blends using ZDDP as Additives, Book Chapter - Advances in Science, Technology & Innovation, IEREK Interdisciplinary Series for Sustainable Development, Scopus indexed, Springer Nature (2025), <https://doi.org/10.1007/978-3-031-73816-6_19>
+5. B Sachin; Charitha M Rao; Ravikiran.; Amit Tiwari; T Raghavendra; R Madhusudhana; A Eswaran; C. Durga Prasad "Interactive Design and Development of an Intelligent Vision-Driven 3D Printed Precision Sorting Mechanism for Silk Cocoons", International Journal on Interactive Design and Manufacturing – Springer (Q2 Journal, IF: 2.5, SNIP: 1.267) Scopus Indexed, Electronic ISSN 1955-2505; Print ISSN 1955-2513; (2024), <https://doi.org/10.1007/s12008-024-02086-5>
+6. Ravikiran, Kupparavalli Ramamurthy Prakash, Aravind Surendran Lathika, Madhusudhana Ramanna, Sachin Bandadka, Ajay Anand, "Experimental Study on Tribological, Rheological and Bio-degradability Characteristics of Canola oil with TiO2 Nanoparticles as Bio-nanolubricants", Tribology in Industry (Q3 Journal, IF: 1.87, SNIP: 0.681) Scopus Indexed, SNIP – 0.785, Volume 46, Number 1, (2024), ISSN: 0354-8996, <https://doi.org/10.24874/ti.1591.12.23.02>
+7. Vinaykumar Linganna, Madhusudhana Ramanna, Bhuvan Lokesh Marenahalli, Siddaram Nadigar, Mallesha Lingappa, Synthesis and Characterisation of Triazole, Pyrimidyl, Fluoroaniline, and Nitrobenzamide Derived Picrate Salts in the Journal "Letters in Applied NanoBiosciences", (Q3 Journal, IF: 0.91, SNIP: 0.396) Scopus Indexed, Volume 13, Issue 2, 2024, 81, (2024) <https://doi.org/10.33263/LIANBS132.081>
+8. Ravikiran, Savant, A., Patil, D., Muraleedharan, A.V., Ramanna Madhusudhana, Design and Development of Helium-Assisted Quadcopter with Object Recognition, AIP Conference Proceedings, (IF: 0.91, SNIP: 0.204), Scopus Indexed, SNIP - 0.291, Volume 2766, Issue 1, (2023) <https://doi.org/10.1063/5.0139353>
+9. Madhusudhana R, R. Gopalakrishne Urs, L. Krishnamurthy, "ZrO2-TiO2 Multi-layered Nanostructured Coatings on AA5052 Substrate as Corrosion and Thermal Barrier Coatings", SSRG International Journal of Material Science and Engineering, Volume 8 Issue 3, 1-5, ISSN: 2394 – 8884, (2022) <https://doi.org/10.14445/23948884/IJMSE-V8I3P101>
+10. Ravikiran, Srikara Kundaragi, S. L. Aravind, V. M. Akhil, R. Madhusudhana, "Rheological and Tribological Characterization of Completely Biogenic Grease" Springer Proceedings in Materials, (Q3 Journal, IF: 0.91, SNIP: 0.174), Scopus Indexed, Vol. 18, (2022), <https://doi.org/10.1007/978-981-19-5395-8_12>
+11. Madhusudhana R, R. Gopalakrishne Urs, L. Krishnamurthy, "Thermal Analysis of Yttrium and Cerium Based Nanostructured Powders for High Temperature Applications" - International Journal of Innovative Research in Technology, (2022), Volume 9 Issue 3 | ISSN: 2349-6002
+12. Madhusudhana R., Sushma K. L., L. Krishnamurthy, Chandra Sekhar K., Gopalakrishne Urs R., Sangamesha M.A., "Nanostructured Anti-glare Coatings for Night Visibility" – IOP Conference Series – Material Science and Engineering, (SNIP: 0.622), Scopus Indexed, Volume 1065, ISSN: 1757-899X, (2021) <https://doi.org10.1088/1757-899X/1065/1/012017>
+13. Madhusudhana R., Lovesome Benedict S., L. Krishnamurthy, Gopalakrishne Urs R. L. Vinaykumar, "Synthesis and Characterization of Yttrium Nanostructured Coatings" – IOP Conference Series – Material Science and Engineering, (SNIP: 0.622), Scopus Indexed, Volume 1065, ISSN: 1757-899X, (2021) <https://doi.org/10.1088/1757-899X/1065/1/012018>
+14. Madhusudhana R., Navyashree K. C., L. Krishnamurthy, Gopalakrishne Urs R., "Synthesis and Characterization of Zirconium Oxide (ZrO2) Films on AA5052 and Glass substrates" – IOP Conference Series – Material Science and Engineering, (SNIP: 0.622), Volume 1065, ISSN: 1757-899X, (2021) <https://doi.org/10.1088/1757-899X/1065/1/01201>
+15. Madhusudhana R., Navyashree K. C., L. Krishnamurthy, R. Gopalakrishne Urs., "Advancements in Quantum Computing – A Review", International Journal of Scientific Engineering and Research (IJSER), ISSN (Online): 2347-3878, Volume 8, Issue 12, (2020) Paper ID: SE20121320360
+16. Madhusudhana R., Lovesome Benedict S., Sushma S, L. Krishnamurthy, R. Gopalakrishne Urs, Sachin D., "Thermal Barrier Coatings for Aerospace Applications" in UGC-CARE Journal ISSN – 2348-2397, SHODH SARITA Vol. 7, Issue 27 (III), (2020)
+17. B. R. Thejashwini, Vijay Khopkar, Madhusudhana R., B. Sahoo, "Crystal growth and dielectric properties of ammonium dihydrogen phosphate (ADP) single crystal", Journal of Material Science: Materials in Electronics – Springer, (Q2 Journal, IF: 2.779, SNIP: 0.712), Scopus Indexed, <https://doi.org/10.1007s10854-020-03603-4>, (2020)
+18. Yaseen K. R. Shariff, Harish K. Choudhary, Vijay Khopkar, Ankit Yadav, Madhusudhana R., Balaram Sahoo, "Sol-Gel Auto-Combustion Synthesis of Ba-Sr Hexaferrite Ceramic Powders", Ceramic International – Elsevier Publications, (Q1 Journal, IF: 2.779, SNIP: 1.257), Scopus Indexed, <https://doi.org/10.1016/j.ceramint.2020.07.034> (2020)
+19. Madhusudhana R., Madhurya S., L. Krishnamurthy, R. Gopalakrishne Urs, "A Review on TiO2 in Photo Catalytic Activity and Self-Cleaning Effect", International Journal of Advanced Science and Technology, 29 (3), 10023-10031, (2020), <http://sersc.org/journals/index.php/IJAST/article/view/27037>
+20. Madhusudhana R., Naveen Kumar J.R., S. Vainatheya, "Electroless Co-P Coated Nanocenosphere /Polymer/Filler Composite for EMI Shielding Effectiveness", Elsevier, Material Today Proceedings, (IF: 1.937, SNIP: 0.838), Scopus Indexed, Volume 4, Issue 11P3 (2017), Pages 12130-12137, (2017)
+21. Madhusudhana R., Sairani R., C. Shivakumara, Siddharth Joshi, "Combustion synthesis and characterization of Eu3+ activated Y2O3 red nanophosphors for display device applications", International Journal of Nanotechnology, Inderscience Publishers, (Q4 Journal, IF: 0.3, SNIP: 0.128), Scopus Indexed, (2017)
+22. Madhusudhana R., L. Krishnamurthy, Gopalakrishne Urs R., Sangamesha M.A., "Synthesis and Characterization of Zirconia (ZrO2) by simple Sol-Gel Route", International Journal of Advanced Research, Volume 2, Issue 4, 433-436, ISSN: 2320-5407 (2014)
+
+## Membership in Professional Bodies
+
+- Indian Nuclear Society – Bhabha Atomic Research Centre (India) – Membership No. LM-12034/31-03-2016 (Life Member)
+- Fellow of The Society of Innovative Educationalists & Scientific Research Professionals (FSIESRP) - Regd.No. LM171899333 (Life Member)
+
+## Honours/Awards/ Achievements
+
+- 2026: Received the Best Researcher Award during the Engineering Faculty Awards (17th May, 2026) from Academy of Maritime Education and Training (AMET) University and Dr. J. Ramachandran Maritime Foundation, Chennai.
+- 2026: Successfully obtained the Drone Pilot License to fly drones (Small Category) from Garuda Aerospace Ltd., Chennai and authorized by the Directorate General of Civil Aviation (DGCA), Govt. of India
+- 2025-26: Selected for the Prestigious AICTE Industry Faculty Fellowship for Faculty members of Engineering Colleges across the country and opted to work at Garuda Aerospace Pvt. Ltd., Chennai (Jan. 2026 – Jan. 2027)
+- 2022: Authored a book titled "Nanoscience and Nanotechnology" published by Scientific International Publishing House (SIPH), registered under the Ministry of SME, Govt. of India. (ISBN: 978-93-5625-535-7) on Nov. 1, 2022
+- 2021: Best Young Researcher award in International Conference on "Nanotechnology for Better Living (NBL-2021)", Sep 7 - 11, 2021 organized by National Institute of Technology (NIT) - Srinagar, Jammu and Kashmir.
+- 2021: Programme Co-ordinator - Project Proposal was selected and granted 0.93 Lakhs from ATAL—AICTE, New Delhi, to conduct a Faculty Development Programme for AICTE-approved faculty throughout India.
+- 2021: Best Young Researcher award in International Conference on Physical Sciences (ICPS-2021), February 05 - 06, 2021 organized by National Institute of Technology (NIT) - Surat.
+- 2020: NIE – Centre for Research and Development sanctioned with Rs. 10,000/- to carry out research on "Black Cotton Soil Stabilisation using Nanocomposite-based Hydrogel"
+- 2020: Best Innovative Technological Researcher & Dedicated Teaching Professional Award, Specialization: Nanotechnology from The Society of Innovative Educationalist & Scientific Research Professional (SIESRP), Chennai
+- 2020: Awarded "Certified Digital Teacher" badge on successful completion of "Certificate Course on Digital Teaching Techniques" from ICT Academy, Tamil Nadu from June 29 – July 4, 2020
+- 2020: Best Oral Presentation at 1st International Conference on "Accelerating Innovations in Materials Science" (AIMS – 2020), Organized by BMS Institute of Technology and Management, Bengaluru from Aug. 4 – 7, 2020
+- 2019: Guest Editor for "American Journal of Materials Synthesis and Processing", Science Publishing Group (USA)
+- 2018-24: Executive Committee Member – Indian Nuclear Society (Bhabha Atomic Research Centre), Mysuru Chapter.
+- 2015-16: A Research Grant of Rs. 50,000/- Sanctioned from University Grants Commission (UGC – MRP), Minor Research Project Scheme from Govt. of India, India
+- 2015: 1st Prize in National Level Technical Paper Presentation Contest (cogNIEscience – 2015) held at NIE, Mysuru, India
+- 2014: 1st Prize in National Level Technical Paper Presentation Contest (cogNIEscience – 2014) held at NIE, Mysuru, India
+- 2013-14: Project selected and granted with Rs. 30,000/- from Vision Group on Science and Technology (VGST), Government of Karnataka, Department of Information Technology, Biotechnology and Science & Technology, Science Projects in College Education (SPiCE / SSP-UG), Karnataka, India
+- 2012: 1st Rank & Gold Medalist in M.Tech – Nanotechnology, Kuvempu University, Karnataka, India
+- 2012: Jawaharlal Nehru Memorial Merit Fund award from the Government of India, India
+- 2012: Qualified for the prestigious INSPIRE fellowship from DST - Govt. of India, India
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. AICTE- ATAL FDP on "Transforming Technical Education and Research through Gen AI" Malnad College of Engineering, Hassan, from 10.11.2026 to 15.11.2026 (6 Days)
+2. STTP on "Research Pathways, Research Writing, Funding, Collaboration in Physical Science" organized by NCERT – RIE –Mysuru from Dec. 8 - 13, 2025
+3. AICTE- ATAL FDP on "Recent Advances in Energy Harvesting and Sustainable Developments" by The National Institute of Engineering, Mysuru from 06.01.2025 to 11.01.2025 (6 Days)
+4. AICTE- ATAL FDP on "Next-Generation Energy Storage: Integrating Advanced Electronics and Sensor Technologies" organized by Srinivas University Institute of Engineering & Technology, Mukka, Mangaluru from 18.11.2024 to 23.11.2024 (6 Days)
+5. 1-Week Online STTP on "Transformative AI Tools for Research Writing" organized by MLR Institute of Technology, Hyderabad, Telangana & RSP Science Hub, Coimbatore from 30/09/2024 to 05/10/2024 (6 Days)
+6. 6-Day Online FDP on Universal Human Values (UHV) - II organized by AICTE in May. 27, 2024 to Jun. 1, 2024
+7. 6-day FDP on "Bharatiya Gyan Paramapara (IKS)" jointly organized by Inter-University Centre for Teacher Education (IUCTE), BHU, Varanasi & Vidya Bharti Uccha Shiksha Sansthan, Karnataka under the patronage of JSS Mahavidyapeetha, Mysuru held at Sutturu from Dec. 29, 2023 to Jan. 3, 2024
+8. 3-Day FDP on "Inculcating Universal Human Values in Technical Education" organized by AICTE held at ATME College of Engineering, Mysuru from Nov. 02, 2023 to Nov. 04, 2023
+9. Certified "Digital Teacher", Certificate Course on "Digital Teaching Techniques" from ICT Academy, Tamil Nadu from June 29 – July 4, 2020
+10. Online Live FDP on "Digital Manufacturing using Autodesk Fusion 360" organized by ICT Academy, Tamil Nadu from June 22 - 27, 2020
+11. Short Term Course on "Tribology in Machine Elements: Fundamentals & Recent Advances" organized by Dept. of Mechanical Engineering, IIT – Jammu during Dec. 9 - 13, 2019
+12. One Day FDP on "Inspirational Teaching" organized by Dept. of Computer Science and Engineering, NIE, Mysuru held on Nov. 2, 2019
+13. Short Term Course on "Fabrication and Characterization of Nano Hybrid Composites and Ceramic Materials and its impact on Mechanical, Tribology and Electrical Properties", organized by NIT, Manipur during Dec. 24 – 18, 2018
+14. Training Program on "Synthesis and Characterization Techniques" organized by Dept. of Nanoscience & Technology, Sathyabhama University, Tamil Nadu during April 20 – 21, 2018
+15. Three Days FDP on "Recent Trends in Nanoscience & Technology" (RTNST-2017), organized by GSSS Institute of Engineering & Technology for Women, Mysuru from Oct. 12 – 14, 2017
+16. Workshop on "Nano Characterization" organized by Central Manufacturing Technology Institute (CMTI), Bengaluru on Sept. 15, 2017
+17. TEQIP –II Sponsored Three-day Faculty Development Programme (FDP) on "Micro and Nano Scale Heat Transfer for the Application of Electronic Cooling" during Feb. 27 – March 1, 2017 organized by NIE, Mysuru, Karnataka, India
+18. Short Term Course on "Modeling and Simulation of Nano-Transistors" organized by Dept. of Electrical Engineering, IIT – Kanpur on Feb. 13 – 17, 2017
+19. Completed 2 modules on "Essentials and Decision making" in the UNESCO Bangkok e-learning series on Information Communication Technology in Education held on Jan. 13, 2017
+20. Training Program on "Technology Enabled Teaching Learning Process" conducted by National Institute of Technical Teachers Training and Research held during Jan. 3 – 8, 2017 organized by NIE, Mysuru, Karnataka, India
+21. TEQIP – II sponsored Two-day Workshop on "MATLAB" hands-on training on Nov. 10 – 11, 2016 at NIE, Mysuru, Karnataka, India
+22. TEQIP – II sponsored One-day Workshop on "Proposal Writing to Funding Agencies" on Oct. 6, 2016 at NIE, Mysuru, Karnataka, India
+23. One Day Workshop on "Thin Film Characterization – Basic Principles and Practices" organized by Department of Physics, IIT Madras on Feb. 21, 2016
+24. International Workshop on "Nanostructured, Smart and Electronic Materials" (IWNSE-2016) organized by Rajarajeshwari College of Engineering on Jan. 8, 2016, Bengaluru, Karnataka, India
+25. One Day Workshop on "Nanomaterials" organized by VTU Regional Office, Bengaluru on Dec. 14, 2015, Bengaluru, Karnataka, India
+26. Seminar on "Benefits of Nuclear and Material Sciences in day-to-day life (BNMS-2015) organized jointly by Indian Nuclear Society and University of Mysore, Mysuru on Aug. 21-22, 2015, Mysuru, Karnataka, India
+27. Workshop and hands-on training on "Physics Experiments using expEYES" conducted by the Indian Institute of Science (IISc), Bengaluru, Karnataka, India on Aug. 16, 2015
+28. Three-Day Workshop on "Research Methodologies & Latex" organized by VTU e-Learning Centre, Mysuru from Dec. 29 – 31, 2014 at Vidya Vikas Institute of Engineering & Technology, Mysuru, Karnataka, India
+29. National Workshop on Nanoscience and Technology (NW-NST' 2013) held at Mangalore Institute of Engineering & Technology, Moodabidri on Oct. 18 – 19, 2013, Mangaluru, Karnataka, India
+30. TEQIP –II Sponsored Two-day Faculty Development Programme (FDP) on "Emerging Trends in Nano-Electronics and Device Packaging" during Sept. 30 – Oct. 1, 2013, NIE, Mysuru, Karnataka, India
+31. One-day state-level seminar on "Nano Science & Technology" held on March 25, 2013, organized by Dept. of Physics, JSS College for Women, Saraswathipuram, Mysuru, Karnataka, India
+32. International Conference at 5th Bangalore Nano, Dec. 5-7, 2012, organized by Dept. of IT, BT and S&T, Govt. of Karnataka, Bengaluru, India
+33. Participated and presented a model in "Kuvempu University Silver Jubilee Exhibition" Feb. 16 – 19, 2012 organized by Committee for Popularization of Science Education, Kuvempu University, Shivammogga, Karnataka, India
+34. Pre-Conference Workshop - 3rd International Conference on Frontiers in Nanoscience and Technology. (Cochin Nano – 2011), Aug. 14-17, 2011, Department of Physics, CUSAT. Kochi, Kerala, India
+35. 3rd International Conference on Frontiers in Nanoscience and Technology. (Cochin Nano – 2011), Aug. 14-17, 2011, Department of Physics, CUSAT, Kochi, Kerala.
+36. National Workshop on "Usage of Instruments for Nanotechnology Applications" on April 25, 2011 organized by the Dept. of Nanoscience & Technology, Kuvempu University, Shivammogga, Karnataka, India
+
+## Proposal/Funding/Project Financial Assistance
+
+**Granted**
+
+- 2021: Programme Co-ordinator - Project Proposal submitted to ATAL – AICTE, New Delhi selected and granted with 0.93 Lakhs to conduct Faculty Development Programme for AICTE approved faculty throughout India.
+- 2020: NIE – Centre for Research and Development sanctioned with Rs. 10,000/- to carry out research on "Black Cotton Soil Stabilization using Nanocomposite based Hydrogel"
+- 2015-16: University Grants Commission (UGC - MRP), INR 50,000/-, "Fabrication and Optimization of Nano-structured TBS for Turbine Blades using Taguchi Design"
+- 2013-14: Project selected and granted with Rs. 30,000/- from Vision Group on Science and Technology (VGST), Government of Karnataka, Department of Information Technology, Biotechnology and Science & Technology, Science Projects in College Education (SPiCE) /(SSP-UG), Karnataka, India
+
+**Applied**
+
+- Mar. 2026: "MXene-Enabled Multispectral Camouflage Materials for Advanced Soldier and Vehicle Stealth", iDEX Open Challenge, Funding amount: Rs. 1.5 Cr, Date of Submission: 30.03.2026.
+- Nov. 2024: "Nano-Structured Multi-layered Environmental Thermal Barrier Coatings for Aerospace and High-Temperature Applications" to UGC-DAE (Consortium for Scientific Research – Indore Centre), Funding amount: 45,000/- (For Consumables and Rs. 15,000/- for Travel, Total: 60,000/-), Ref. no.: CRS/2024-25/1789, Date of Submission: 29.11.2024.
+- June 2024: "Nano-Structured Multi-Layered Thermal Barrier Coatings for High-Temperature Applications", VGST-K-FIST: L1, Funding amount: 17,42,858/-, Ref. no.: VRN/000259/23-24, Date of Submission: 20.06.2024.
+- Apr. 2024: "Development of Coating Materials used in High-Temperature Environments", (As PI) to ISRO-RESPOND, Funding amount: Rs. 75,92,560/-, Ref. No.: H7.3, Date of Submission: 06.02.2024.
+- Nov. 2023: Topic titled "Nano-structured Multi-layered Environmental Thermal Barrier Coating Systems for High-Temperature Applications in Aerospace Industry" applied to SERB – SURE Scheme for a funding of Rs. 29,95,263/-, Ref. No.: 132023001592, on 22.11.2023.
+
+## Patent
+
+- Design Patent, Appln. No.: 484473-001, CBR No.: 228143, CBR Date: 19/12/2025, Title: Machine learning Device for Personalized Diet Tracking and Nutrient Analysis, Applicants: Dr. C. Solaimuthu, Dr. Madhusudhana R, Dr. Sunil Shreedhara Murthy, Dr. Manjunatha Neralakere Kenchegowda, Dr. N. V. Sushma, Dr. Mahadeva Prasad P., Dr. N. Sandhya Rani, Dr. Rudresh B M, Design Accepted and published, Journal No. is 11/2026 dated 13.03.2026
+
+## Roles and Responsibilities: Institute Level
+
+1. Regular roles and responsibilities as per the college curriculum
+2. Research
+
+## Roles and Responsibilities: Department Level
+
+- Research`,
   },
   "raghavendra-r": {
     name: "Mr. Raghavendra R",
     url: "https://old.atme.edu.in/mr-raghavendra-r/",
-    md: "## Contact Details\n\n- **Email ID:** **Official:** [raghavendrar\\_phy@atme.edu.in](mailto:raghavendrar_phy@atme.edu.in)\n- **Personal:** [rraghavendra2509@gmail.com](mailto:rraghavendra2509@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/235984>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=AGZ-AxoAAAAJ>\n- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=58653752900>\n- **Orcid ID:** <http://www.orcid.org/0000-0002-6008-6294>\n- **Web of Science Researcher ID:** [rid28894](https://www.researchid.co/rid28894)\n- **LinkedIn ID:** <https://www.linkedin.com/in/raghavendra-r-3063111ab/>\n\n\n## Academic Details\n\n- **Qualification**\n- **PhD**. pursuing – Batteries.\n- **M.Sc** in Physics – University of Mysore.\n- **B.Sc** in Physics, Mathematics & Electronics – University of Mysore.\n\n## Areas of Interest\n\n- Energy Storage Devices\n\n## Publication Details\n\n- “An accont of influenceof TMDCs for anodic materialsof Li/Na-ion battery capacity” – ICRTST – 2022 , 9(1):777-786\n- “Synthesis and Characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial activity against E.Coli”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n- “Fe3O4 Nanoparticles as Nanozymefor the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe”. Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n\n## Membership in Professional Bodies\n\n- IAPT- Indian Association of Physics teachers.\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. One day National Seminar on Chemistry and Chemical Biology – University of Mysuru, Manasagangotri Mysuru – 26th May 2015.\n2. One week Faculty Development programme by TEQIP – Phase II on Recent trends in Micro and Nano Fluidics – PES college of Engineering, Mandya – 2nd to 7th November 2015.\n3. One day workshop on X-Ray crystallography – University of Mysuru, Manasagangotri Mysuru – 10th November 2014.\n4. National webinar on Theurapetic plants & Covid-19 – Tata college Chaibasa, Jharkhand – June 2020\n5. Webinar on Opportunity of Higher Education and Job for B.Sc Physics Students – Department of Physics and IQAC – Raje Ramrao Mahavidyalaya ,Jath – May 2020. 6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian For Experimental Physicists and Chemists – Alva’s Institute of Engineering & Technology – 25th – 29th Oct 2021.\n7. One day International Webinar on the occasion of Albert Einstein’s Nobel Prize centenary Year Celebration “Materials for Energy Application” In collaboration with Department of Physics, SIT, Tumkur and Indian Association of Physics Teachers (IAPT RC12A) – 10th Nov 2021.\n8. One Week Online Teachers Training Program on “An Overview of Teaching in Scientific Foundations of Health” – AICTE-VTU Joint Training Programme for Teachers– 20th – 24th December 2021.\n9. Five days Faculty Development Program on “Hybrid Materials for Multifunctional Applications” in BMS Institute of Technology & Management – 11th – 15th Oct 2022.\n10. One week faculty Development Program on” Current Trend in Material Physics for Engineering Applications” – in BMS college of Engineering – 15th– 19th May 2023. 11. 3 Days face-to-face FDP on the theme “ Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.\n12. Organised “Five Days Faculty Development Program on “Essentials of Sciences for Engineering and Research – 2024” – From 26th Feb 2024 to 1st Mar 2024 in ATME College of Engineering, Mysuru.\n13. Five Days Faculty Development Program on Universal Human Values II approved by AICTE and held at Vidyavardhaka College of Engineering, Mysuru from 09-01-2024 to 13.01.2024 from 9.00AM to 6.30 PM.\n14. Organised “Three Days Faculty Development Program on “Essentials of Sciences for Engineering and Research – 2025” – From 15th Jan 2025 to 17th Jan 2025 in ATME College of Engineering, Mysuru.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n1. 2022 – Authored a book titled “Nanoscience and Nanotechnology” published by Scientific International Publishing House (SIPH), registered under the Ministry of SME, Govt. of India (ISBN: 978-93-5625-535-7) on Nov. 1, 2022.\n2. 2021 – Best Young Researcher award in International Conference on “Nanotechnology for Better Living (NBL-2021)”, Sep 7 – 11, 2021 organized by National Institute of Technology (NIT) – Srinagar, Jammu and Kashmir.\n3. 2021 – Programme Co-ordinator – Project Proposal selected and granted 0.93 Lakhs from ATAL–AICTE, New Delhi, to conduct a Faculty Development Programme for AICTE-approved faculty throughout India.\n4. 2021 – Best Young Researcher award in International Conference on Physical Sciences (ICPS-2021), February 05 – 06, 2021 organized by National Institute of Technology (NIT) – Surat.\n5. 2020 – NIE – Centre for Research and Development sanctioned with Rs. 10,000/- to carry out research on “Black Cotton Soil Stabilisation using Nanocomposite-based Hydrogel”.\n6. 2020 – Best Innovative Technological Researcher & Dedicated Professional Award, Specialization: Nanotechnology from The Society of Innovative Educationalist & Scientific Research Professional (SIESRP), Chennai.\n7. 2020 – Awarded “Certified Digital Teacher” badge on successful completion of Certificate Course on Digital Teaching Techniques from ICT Academy, Tamil Nadu, from June 29 – July 4, 2020.\n8. 2020 – Best Oral Presentation at 1st International Conference on “Accelerating Innovations in Materials Science” (AIMS – 2020), organized by BMS Institute of Technology and Management, Bengaluru.\n\n## Roles and Responsibilities: Institute Level\n\n- Hostel Committee (Warden)\n- ANTI-RAGGING COMMITTEE\n- GRIEVANCE REDRESSAL COMMITTEE\n\n## Roles and Responsibilities: Department Level\n\n- Website\n- NIRF\n- Lab in-charge\n- Department File management\n- ATMEYA\n- Mentor\n- Class Teacher",
+    md: `## Professional Experience
+
+- Teaching: 8 Years
+- Research: 3 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [raghavendrar_phy@atme.edu.in](mailto:raghavendrar_phy@atme.edu.in) | Personal: [rraghavendra2509@gmail.com](mailto:rraghavendra2509@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/235984>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=AGZ-AxoAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=58653752900>
+- **Orcid ID:** <http://www.orcid.org/0000-0002-6008-6294>
+- **Web of Science Researcher ID:** [rid28894](https://www.researchid.co/rid28894)
+- **LinkedIn ID:** <https://www.linkedin.com/in/raghavendra-r-3063111ab/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** pursuing – Batteries.
+- **M.Sc** in Physics – University of Mysore.
+- **B.Sc** in Physics, Mathematics & Electronics – University of Mysore.
+
+## Areas of Interest
+
+- Energy Storage Devices
+
+## Publication Details
+
+1. "Creatinine conjugated copper oxide nanomaterial as peroxidase mimicking nanozyme and study of its biological activity" Next Materials - 2026. Elsevier. <https://doi.org/10.1016/j.nxmate.2025.101453>
+2. "Oxygen deficient MoO3 nanoparticles as peroxidase substitutes, their substrate-nanozyme interactions and real time validation in human serum sample" Journal of Pharmaceutical and Biomedical Analysis - Volume 266, 15 December 2025, 117119. <https://doi.org/10.1016/j.jpba.2025.117119>
+3. "An accont of influenceof TMDCs for anodic materialsof Li/Na-ion battery capacity" - ICRTST - 2022, 9(1):777-786.
+4. "Synthesis and Characterization of Ag2O and MnO doped Ag2O nanocomposites for Antibacterial activity against E.Coli". Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+5. "Fe3O4 Nanoparticles as Nanozymefor the Quantification of Hydrogen Peroxide using 3-Methyl-2-Benzothiazolinonehydrazone Hydrochloride with N-(1-Naphthyl) Ethylenediamine Dihydrochloride as Chromogenic Probe". Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+
+## Membership in Professional Bodies
+
+- IAPT - Indian Association of Physics teachers.
+
+## Honours/Awards/ Achievements
+
+- Certification courses on ecology (Usha charitable trust) and attended rescue camp in Daroji wildlife sanctuary.
+- Sahayog – Job skills training programme (HR)
+- NCC - C certificate, attended 4 National level Camps, Gold medal in firing.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. One day National Seminar on Chemistry and Chemical Biology – University of Mysuru, Manasagangotri Mysuru – 26th May 2015.
+2. One week Faculty Development programme by TEQIP – Phase II on Recent trends in Micro and Nano Fluidics – PES college of Engineering, Mandya - 2nd to 7th November 2015.
+3. One day workshop on X-Ray crystallography – University of Mysuru, Manasagangotri Mysuru – 10th November 2014.
+4. National webinar on Theurapetic plants & Covid-19 – Tata college Chaibasa, Jharkhand – June 2020
+5. Webinar on Opportunity of Higher Education and Job for B.Sc Physics Students – Department of Physics and IQAC – Raje Ramrao Mahavidyalaya, Jath - May 2020.
+6. 5-Days online workshop on Quantum Chemical Calculations using Gaussian For Experimental Physicists and Chemists – Alva's Institute of Engineering & Technology – 25th – 29th Oct 2021.
+7. One day International Webinar on the occasion of Albert Einstein's Nobel Prize centenary Year Celebration "Materials for Energy Application" In collaboration with Department of Physics, SIT, Tumkur and Indian Association of Physics Teachers (IAPT RC12A) – 10th Nov 2021.
+8. One Week Online Teachers Training Program on "An Overview of Teaching in Scientific Foundations of Health" - AICTE-VTU Joint Training Programme for Teachers – 20th – 24th December 2021.
+9. Five days Faculty Development Program on "Hybrid Materials for Multifunctional Applications" in BMS Institute of Technology & Management – 11th – 15th Oct 2022.
+10. One week faculty Development Program on "Current Trend in Material Physics for Engineering Applications" – in BMS college of Engineering – 15th - 19th May 2023.
+11. 3 Days face-to-face FDP on the theme "Inculcating Universal Huaman Values in Technical Education" Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.
+12. Organised "Five Days Faculty Development Program on "Essentials of Sciences for Engineering and Research - 2024" – From 26th Feb 2024 to 1st Mar 2024 in ATME College of Engineering, Mysuru.
+13. Five Days Faculty Development Program on Universal Human Values II approved by AICTE and held at Vidyavardhaka College of Engineering, Mysuru from 09-01-2024 to 13.01.2024 from 9.00AM to 6.30 PM.
+14. Organised "Three Days Faculty Development Program on "Essentials of Sciences for Engineering and Research - 2025" – From 15th Jan 2025 to 17th Jan 2025 in ATME College of Engineering, Mysuru.
+15. "One day FDP on - Applied Physics - 2025 Curriculum" Organised by Vidya Vardhaka college of Engineering on 30th Aug 2025.
+16. "One week online FDP on VTU's Revised Physics Curriculum". Organized by Cambridge institute of technology, Bengaluru from 27th Oct to 1st Nov 2025.
+17. One day international FDP on Growing Globally Competitive Currency in Higher Education. Delivered by Futured Innovation Studios, Australia on 8th Oct 2025 at ATME College of Engineering, Mysuru.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- HOSTEL COMMITTEE
+- ANTI-RAGGING COMMITTEE MEMBER
+- ANTI-RAGGING SQUAD MEMBER
+- GRIEVANCE REDRESSAL COMMITTEE
+- WEBSITE, PUBLICITY & PROMOTION COMMITTEE
+
+## Roles and Responsibilities: Department Level
+
+- NIRF
+- Lab in-charge
+- Department File management
+- Mentor
+- Class Teacher`,
   },
   "anjan-kumar-j": {
     name: "Mr. Anjan Kumar J",
     url: "https://old.atme.edu.in/mr-anjan-kumar-j/",
-    md: "## Professional Experience\n\n- Teaching: 8 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [anjankumarj\\_phy@atme.edu.in](mailto:anjankumarj_phy@atme.edu.in)\n- **Personal:** **Vidwan ID**\n- <https://vidwan.inflibnet.ac.in/profile/239279>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=0-hsa3gAAAAJ>\n- **Scopus ID:** **Orcid ID**\n- <http://www.orcid.org/0000-0001-9235-6968>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/anjan-kumar-j-325030a7/>\n\n\n## Academic Details\n\n- **Qualification**\n- **M.Sc** in Physics\n- **B.Sc** in Physics, Chemistry and Mathematics\n- **B.Ed**\n\n## Areas of Interest\n\n- Solid State Physics\n- Materials\n\n## Publication Details\n\n- “The natural and artificial manifestations of the golden ratio and its implications on aspect ratio” – Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).\n\n## Membership in Professional Bodies\n\n- INDIAN ASSOCIATION OF PHYSICS TEACHERS\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n- Five days Faculty Development Program on “Hybrid Materials for Multifunctional Applications” in BMS Institute of Technology & Management – 11th – 15th Oct 2022. - one month course on “Quantum Computing using Indigenous Quantum Simulator QSim” jointly organized by IIT Roorkee and C-DAC Hyderabad with the support of Ministry of Electronics and Information Technology, Government of India. – 6th – 28th May 2023.\n- 3 days face-to-face FDP on the theme “Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.\n- One Week Faculty Development Program on “Advances in Material Characterization and Data Processing” Organized by ANURAG University. 15th – 20th July 2024.\n- 5 days face-to-face FDP on the theme “Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at Vidyavardhaka College of Engineering, Mysuru.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NCC – A certificate\n- 1 year training certification on Yoga – RIMSE\n\n## Roles and Responsibilities: Institute Level\n\n- ISO Coordinator\n- NIRF\n\n## Roles and Responsibilities: Department Level\n\n- AIM-S Coordinator\n- Sports",
+    md: `## Professional Experience
+
+- Teaching: 9 Years
+
+## Contact Details
+
+- **Email ID:** Official: [anjankumarj_phy@atme.edu.in](mailto:anjankumarj_phy@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/239279>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=0-hsa3gAAAAJ>
+- **Orcid ID:** <http://www.orcid.org/0000-0001-9235-6968>
+- **LinkedIn ID:** <https://www.linkedin.com/in/anjan-kumar-j-325030a7/>
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc** in Physics
+- **B.Sc** in Physics, Chemistry and Mathematics
+- **B.Ed**
+
+## Areas of Interest
+
+- Solid State Physics
+- Materials
+
+## Publication Details
+
+- "The natural and artificial manifestations of the golden ratio and its implications on aspect ratio" – Tuijin Jishu/Journal of Propulsion Technology ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+
+## Membership in Professional Bodies
+
+- INDIAN ASSOCIATION OF PHYSICS TEACHERS
+
+## Honours/Awards/ Achievements
+
+- NCC – A certificate
+- 1 year training certification on Yoga – RIMSE
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Five days Faculty Development Program on "Hybrid Materials for Multifunctional Applications" in BMS Institute of Technology & Management – 11th – 15th Oct 2022.
+2. One month course on "Quantum Computing using Indigenous Quantum Simulator QSim" jointly organized by IIT Roorkee and C-DAC Hyderabad with the support of Ministry of Electronics and Information Technology, Government of India. – 6th – 28th May 2023.
+3. 3 days face-to-face FDP on the theme "Inculcating Universal Huaman Values in Technical Education" Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.
+4. One Week Faculty Development Program on "Advances in Material Characterization and Data Processing" Organized by ANURAG University. 15th – 20th July 2024.
+5. 5 days face-to-face FDP on the theme "Inculcating Universal Huaman Values in Technical Education" Organized by AICTE at Vidyavardhaka College of Engineering, Mysuru.
+6. "One day FDP on - Applied Physics - 2025 Curriculum" Organised by Vidya Vardhaka college of Engineering on 30th Aug 2025.
+7. "One-week online FDP on VTU's Revised Physics Curriculum". Organized by Cambridge Institute of technology, Bengaluru from 27th Oct to 1st Nov 2025.
+8. One day international FDP on Growing Globally Competitive Currency in Higher Education. Delivered by Futured Innovation Studios, Australia on 8th Oct 2025 at ATME College of Engineering, Mysuru.
+9. A short-term online course on "Basics of Wealth Management" in TCS ION on 24th June 2026.
+10. A short-term online course on "Active teaching strategies" in Swayam on 8th May 2026.
+11. A short-term online course on "Introduction to Data Analytics" in Coursera on 26th October 2025.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- ISO Coordinator
+- NIRF
+
+## Roles and Responsibilities: Department Level
+
+- Lab - Coordinator
+- Sports`,
   },
   "dr-avinash-k": {
     name: "Dr. Avinash K",
