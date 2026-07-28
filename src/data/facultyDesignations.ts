@@ -72,7 +72,6 @@ export const FACULTY_DESIGNATIONS: Record<string, string> = {
   "mr-theja-n": "Assistant Professor",
   "mr-vinod-kumar-p": "\u00c2 Assistant Professor",
   "mr-yogesh-n": "Assistant Professor",
-  "mrs-ambika-v": "Assistant Professor",
   "mrs-anusha-b-s": "Assistant Professor",
   "mrs-ashwini-p": "Assistant Professor",
   "mrs-hamsa-cse": "Assistant Professor<br>",

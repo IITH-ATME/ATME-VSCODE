@@ -124,7 +124,6 @@ export const FACULTY_PHOTOS: Record<string, string> = {
   "mr-theja-n": "https://atme.edu.in/wp-content/uploads/2025/10/Mr.-Theja-N-1.jpg.jpeg",
   "mr-yogesh-n": "https://atme.edu.in/wp-content/uploads/2023/05/YOGESH-N-2-1.jpg",
   "mrs-akhila-c-g": "/__l5e/assets-v1/cbd327af-f086-4713-bd4b-f36986febc01/Akhila-C-G-new.jpg",
-  "mrs-ambika-v": "https://atme.edu.in/wp-content/uploads/2026/03/Mrs-AMBIKA-V-1.jpg.jpeg",
   "mrs-anusha-b-s": "https://atme.edu.in/wp-content/uploads/2026/04/Mrs.-Anusha-B-S-1.jpg",
   // "mrs-arpitha-a": removed — scraper picked up another faculty/HOD photo by mistake.
   "mrs-ashwini-p": "/__l5e/assets-v1/68b8da23-7152-483b-b3c8-f9ecd8a03ba3/Ashwini-P.jpg",
@@ -155,7 +154,6 @@ export const FACULTY_PHOTOS: Record<string, string> = {
   "mrs-swathi-c-a": "/__l5e/assets-v1/81ee1280-3173-476d-82cd-58be71067ff7/swathi-c-a.jpg",
   "mrs-vanitha-g-naik": "https://atme.edu.in/wp-content/uploads/2026/03/Vanitha-G-Naik-1.jpg.jpeg",
   "ms-akanksha-v": "https://atme.edu.in/wp-content/uploads/2025/11/Akanksha-V-1.jpg",
-  // "ms-ambika-v": removed — scraper picked up another faculty/HOD photo by mistake.
   "ms-anupama-shetter": "https://atme.edu.in/wp-content/uploads/2022/09/Mrs.-Anupama-Shetter-2.jpg",
   // "ms-b-s-vanishree": removed — scraper picked up another faculty/HOD photo by mistake.
   // "ms-bhavya-dechamma-k-s": removed — scraper picked up another faculty/HOD photo by mistake.

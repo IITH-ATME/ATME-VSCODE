@@ -6724,6 +6724,7 @@ Completed Mooc courses on:
     md: `## Contact Details
 
 - **Email ID:** Official: [pushpalathahp.ec@atme.edu.in](mailto:pushpalathahp.ec@atme.edu.in) | Personal: [pushpalatha944@gmail.com](mailto:pushpalatha944@gmail.com)
+- **Mobile Number:** 9739700425
 - **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/721065>
 - **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=ODY5pJ8AAAAJ>
 - **LinkedIn ID:** <https://www.linkedin.com/in/pushpalatha-h-p-2aa39a46/>
@@ -6789,6 +6790,7 @@ Completed Mooc courses on:
 
 ## Roles and Responsibilities: Department Level
 
+- Department Website Coordinator
 - Department Library committee member`,
   },
 };

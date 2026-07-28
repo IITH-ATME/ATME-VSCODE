@@ -71,7 +71,6 @@ const facultyIdAliases: Record<string, string> = {
   // DS (CSE — Data Science) faculty
   "dr-anitha-d-b": "dr-anitha-d-b-new",
   "dr-vinod-kumar-p": "dr-vinod-kumar-p-2",
-  "ms-ambika-v": "mrs-ambika-v",
   "mr-j-n-karthik": "j-n-karthik",
   "dr-neethi-m-v": "mrs-neethi-m-v",
 };
