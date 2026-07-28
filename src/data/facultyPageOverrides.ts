@@ -2123,7 +2123,78 @@ Attender
   "krupa-n": {
     name: "Mrs. Krupa N",
     url: "https://old.atme.edu.in/krupa-n/",
-    md: "## Professional Experience\n\n- Teaching: 13.5 Years\n- Research: Pursuing\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [krupan.maths@atme.edu.in](mailto:krupan.maths@atme.edu.in)\n- **Personal:** [krupanarayanc@gmail.com](mailto:krupanarayanc@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/653988>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=mBZGaqgAAAAJ>\n- **Scopus ID:** Nil\n- **Orcid ID:** <http://www.orcid.org/0009-0008-3967-8165>\n- **Web of Science Researcher ID:** Nil\n- **LinkedIn ID:** [linkedin.com/in/bhanu-priya-j-7473192a8](https://www.linkedin.com/in/bhanu-priya-j-7473192a8)\n\n\n## Academic Details\n\n- **Qualification**\n- **M.Sc** in Mathematics\n- **B.Sc** in (PME)\n\n## Areas of Interest\n\n- Graph Theory\n\n## Publication Details\n\n- NIL\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n**Sl.no** — **Topics** — **Year** — 01 — E-Learning series on Information &amp; Communication Technology in Education  Module 1: Essentials  Module 2: Decision-Making — January 7, 2017 — 02 — Technical Education Quality Improvement Programme (TEQIP-II) One-day Faculty Development Programme on  OBE &amp; NBA Accreditation — January 8,2018 — 03 — Technology Enabled Teaching Learning Process — 04 — Instructional Design and Delivery System — January 1 to 5, 2018 — 05 — Engineering faculty you can do research, Learn how. — February 22 to 23, 2019 — 06 — TEQIP-III two day’s workshop on STHREE The blueprint to success — June 13 to 14, 2019 — 07 — Augmenting academic skills — August 19 to 30, 2019 — 08 — One day FDP on “Mathematics for Engineer and Engineering for Mathematics” — September 27, 2019 — 09 — Linear Algebra and Mathematical Modelling — December 14, 2019 — 10 — Online Webinar – Outcome Based Education Road-Map to E-Learning &amp; Accreditation — May 20, 2020 — 11 — TEQIP-III three day’s workshop on STHREE The blueprint to success-A continued journey — January 1 to 3, 2020 — 12 — FDP- Dealing with Differential Equations and PDEs — June 8, 2020 — 13 — Linear Algebra and Its Applications — February 26 to March 03, 2021 — 14 — Probability Statistics and Its Application — March 5 to 10, 2021 — 15 — Student Induction Program-Phase II — June 6 to 15, 2022 — 16 — One Day Faculty Orientation Program — November 26, 2022\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Patent\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\nNIL\n\n## Roles and Responsibilities: Department Level\n\nNIL",
+    md: `## Professional Experience
+
+- Teaching: 14.5 Years
+- Research: Pursuing
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [krupan.maths@atme.edu.in](mailto:krupan.maths@atme.edu.in) | Personal: [krupanarayanc@gmail.com](mailto:krupanarayanc@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/653988>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=mBZGaqgAAAAJ>
+- **Scopus ID:** Nil
+- **Orcid ID:** <http://www.orcid.org/0009-0008-3967-8165>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** –
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc.** in Mathematics
+- **B.Sc.** (PME)
+
+## Areas of Interest
+
+- Graph Theory
+
+## Publication Details
+
+1. The Laplacian Minimum Efficient Dominating Energy of a Graph
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. E-Learning series on Information & Communication Technology in Education – Module 1: Essentials, Module 2: Decision-Making, January 7, 2017.
+2. Technical Education Quality Improvement Programme (TEQIP-II) One-day Faculty Development Programme on OBE & NBA Accreditation, January 8, 2018.
+3. Technology Enabled Teaching Learning Process.
+4. Instructional Design and Delivery System, January 1 to 5, 2018.
+5. Engineering Faculty You Can Do Research, Learn How, February 22 to 23, 2019.
+6. TEQIP-III two day's workshop on STHREE – The Blueprint to Success, June 13 to 14, 2019.
+7. Augmenting Academic Skills, August 19 to 30, 2019.
+8. One day FDP on "Mathematics for Engineer and Engineering for Mathematics", September 27, 2019.
+9. Linear Algebra and Mathematical Modelling, December 14, 2019.
+10. Online Webinar – Outcome Based Education Road-Map to E-Learning & Accreditation, May 20, 2020.
+11. TEQIP-III three day's workshop on STHREE – The Blueprint to Success – A Continued Journey, January 1 to 3, 2020.
+12. FDP – Dealing with Differential Equations and PDEs, June 8, 2020.
+13. Linear Algebra and Its Applications, February 26 to March 03, 2021.
+14. Probability Statistics and Its Application, March 5 to 10, 2021.
+15. Student Induction Program – Phase II, June 6 to 15, 2022.
+16. One Day Faculty Orientation Program, November 26, 2022.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- NIL`,
   },
   "nandeesha-k-n": {
     name: "Mr. Nandeesha K N",
