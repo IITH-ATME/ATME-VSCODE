@@ -789,11 +789,10 @@ function RehostedPage() {
                   </div>
                 )}
                 {key === "library-3/e-resources-vtu-consortium-2" && (
-                  <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-5">
+                  <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 gap-5">
                     {[
                       { logo: "/images/library/vtu-consortium-logo.png", name: "MAP MY ACCESS", caption: "Remote Access tool", href: "https://access.vtuconsortium.com/" },
                       { logo: "/images/library/drillbit-logo.jpg", name: "DRILLBIT", caption: "Plagiarism Check tool", href: "https://www.drillbitplagiarism.com/" },
-                      { logo: "/images/library/quiklrn-logo.png", name: "QUICKLRN", caption: "Language learning tool", href: "https://home.quiklrn.com/" },
                     ].map((tool) => (
                       <a
                         key={tool.href}
@@ -806,7 +805,7 @@ function RehostedPage() {
                           src={tool.logo}
                           alt={tool.name}
                           loading="lazy"
-                          className="h-20 w-auto max-w-[160px] object-contain"
+                          className="h-[170px] w-[170px] object-contain"
                         />
                         <div>
                           <div className="font-display font-bold text-[#129199]">{tool.name}</div>

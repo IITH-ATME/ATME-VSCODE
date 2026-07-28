@@ -3090,29 +3090,7 @@ Over sees the matters of Public Relations including Inviting Guests, Sponsorship
 
 Object.assign(pageBodyOverrides, {
   [SC_KEY]: studentCouncilBody.trim(),
-  "library-3/staff-details-2": `## Staff Details
-
-**Teaching staff Details**
-
-| Sl. No. | Name | Designation | Qualification | Contact Details |
-| --- | --- | --- | --- | --- |
-| 1 | Mrs. Priya R. | Librarian | MLISc. KSET NET | [library@atme.edu.in](mailto:library@atme.edu.in) |
-| 2 | Mr. Nandeesh H G | Assit. Librarian | MLISc, (PGDLAN) | |
-
-**Technical staff Details**
-
-| Sl. No. | Name | Designation | Qualification |
-| --- | --- | --- | --- |
-| 1 | Mr. Prakasha P | SDA | M.A |
-| 2 | Mrs. Ramyashree M S | Lib. Assistant | MA |
-| 3 | Mr. Ravi c | Lib. Assistant | BLISc, MLISc |
-
-**Supporting Staff**
-
-| Sl. No. | Name | Designation | Qualification |
-| --- | --- | --- | --- |
-| 1 | Mr. Shivanna Nayaka | Attender | PUC |
-`.trim(),
+  "library-3/staff-details-2": "",
   "sports/staff-details": `## Staff Details
 
 **Teaching staff Details**
@@ -3137,6 +3115,22 @@ Object.assign(pageBodyOverrides, {
 | Sl. No. | Name | Designation | Qualification | Specialization |
 | --- | --- | --- | --- | --- |
 | 01 | Mr. Raghavendra M A | Attender | SSLC | – |
+`.trim(),
+  "library-3/opac-online-public-access-catalogue-koha-library-automation-software": `## Library Automation Software: KOHA
+
+**Features of KOHA ATME:**
+
+[pdfviewer width="800px" height="500px"]/__l5e/assets-v1/991447f6-9a9c-4a47-8c92-f76468f96a87/KOHA-features-Version-25.05.10.pdf[/pdfviewer]
+
+### OPAC – KOHA
+
+**OPAC : Online Public Access Catalogue (KOHA Library Automation Software) : Fully Automated**
+
+**[Click Here](http://118.151.209.133:8001/)**
+
+**How to access OPAC:**
+
+[pdfviewer width="800px" height="500px"]/__l5e/assets-v1/2c81c8d7-a625-41f4-8e61-e71c1016a31c/OPAC-Features-Usage-manual.pdf[/pdfviewer]
 `.trim(),
 });
 
