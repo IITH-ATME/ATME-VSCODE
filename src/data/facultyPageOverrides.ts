@@ -1411,12 +1411,145 @@ Attender
   "thejas-gowda-b": {
     name: "Mr. Thejas Gowda B",
     url: "https://old.atme.edu.in/thejas-gowda-b/",
-    md: "## Professional Experience\n\n- Teaching: 6 Months\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [thejasgowdab.ch@atme.edu.in](thejasgowdab.ch@atme.edu.in%20)\n- **Personal:** <thejasb07@gmail.com>\n- Vidwan ID\n- 281491\n- Google Scholar ID\n- <https://scholar.google.com/citations?hl=en&user=Lkub20MAAAAJ>\n- Scopus ID\n- Orcid ID\n- 0009- 0004-9353-6732\n- Web of Science Researcher ID\n- MHP-7419-2025\n- LinkedIn ID\n- <https://www.linkedin.com/in/thejas-gowda-b-030b72324?trk=contact-info>\n\n\n## Academic Details\n\n- **Qualification**\n- K-SET : Chemical Science\n- MSc., : General Chemistry\n- BSc., :  Chemistry, Botany and Zoology\n\n## Areas of Interest\n\n## Publication Details\n\n- –\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Participated in a three-day FDP organized by ATME Engineering College on “**Essential sciences for engineering and research”** dated from 15th January 2025 to 17th January 2025.\n1. Participated in a three-day FDP organized by ATME Engineering College on “ **Indian Knowledge System**” dated from 5th -7th March 2025.   **Workshops:**\n1. Attended a day state-level workshop on “**Basic experiments in phytotherapy**” on 3rd Aug 2022, organized by the Dept. of Botany and the Dept. of Biochemistry, Sarada Vilas College in association with Cite worthy lifesciences Mysuru.\n2. Attended two day lecture workshop on “**Recent advances in life sciences**” on 1st and 2nd of Dec 2022, organized by Sarada Vilas College, Mysuru, and sponsored by Indian Academy of Sciences, Bengaluru, the Indian National Science Academy, New Delhi, and the National Academy of Sciences, Allahabad.\n3. Attended a day national workshop on “**Recent trends in research methodology**” organized by PG Department of Chemistry, Sarada Vilas College, and IQAC on 29th Jan 2024.\n\n## Roles and Responsibilities: Department Level\n\n1. A-IMS Coordinator.\n2. BBOC407 – Course Coordinator",
+    md: `## Professional Experience
+
+- Teaching: 1 Year 5 Months
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [thejasgowdab.ch@atme.edu.in](mailto:thejasgowdab.ch@atme.edu.in) | Personal: [thejasb07@gmail.com](mailto:thejasb07@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/599149>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=Lkub20MAAAAJ>
+- **Scopus ID:** —
+- **Orcid ID:** 0009-0004-9353-6732
+- **Web of Science Researcher ID:** MHP-7419-2025
+- **LinkedIn ID:** <https://www.linkedin.com/in/thejas-gowda-b-030b72324?trk=contact-info>
+
+## Academic Details
+
+- **Qualification**
+- **KSET** – Chemistry
+- **M.Sc.** in General Chemistry
+- **B.Sc.** in Chemistry, Botany and Zoology
+
+## Areas of Interest
+
+- Synthetic Organic Chemistry
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Participated in a one-week ATAL FDP organised by Coorg Institute of Technology, Ponnampet, on "Advancements in Materials and Technologies: Thermal, Mechanical and Cryogenic Applications" from 29/12/2025 to 03/01/2026.
+2. Participated in a one-day FDP organised by Vidyavardhaka College of Engineering, Mysuru, with Visvesvaraya Technological University, Belagavi, on "Revised Syllabus of Applied Sciences" on 30/08/2025.
+3. Participated in a three-day FDP organised by ATME Engineering College on "Essential Sciences for Engineering and Research" from 15th January 2025 to 17th January 2025.
+4. Participated in a three-day FDP organised by ATME Engineering College on "Indian Knowledge System" from 5th – 7th March 2025.
+
+**Workshops**
+
+1. Attended a day state-level workshop on "Basic experiments in phytotherapy" on 3rd Aug 2022, organized by the Dept. of Botany and the Dept. of Biochemistry, Sarada Vilas College in association with Cite Worthy Lifesciences, Mysuru.
+2. Attended a two-day lecture workshop on "Recent advances in life sciences" on 1st and 2nd of Dec 2022, organised by Sarada Vilas College, Mysuru, and sponsored by the Indian Academy of Sciences, Bengaluru, the Indian National Science Academy, New Delhi, and the National Academy of Sciences, Allahabad.
+3. Attended a one-day national workshop on "Recent trends in research methodology" organised by the PG Department of Chemistry, Sarada Vilas College, and IQAC on 29th Jan 2024.
+
+**MOOC**
+
+1. Completed 12 weeks of the NPTEL course on "Advanced Transition Metal Chemistry" from 21/07/2025 to 10/10/2025.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- A-IMS Coordinator
+- BBOC407 – Course Coordinator`,
   },
   "tejaswini-b-m": {
     name: "Mrs. Tejaswini B M",
     url: "https://old.atme.edu.in/tejaswini-b-m/",
-    md: "## Professional Experience\n\n- Teaching: 1.4 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [tejaswinibm.ch@atme.edu.in](mailto:tejaswinibm.ch@atme.edu.in)\n- **Personal:** [tejaswini2000518@gmail.com](mailto:tejaswini2000518@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/612364>\n- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=8efCgN0AAAAJ>\n- **Scopus ID:** –\n- **Orcid ID:** <https://orcid.org/0009-0001-0525-1373>\n- **Web of Science Researcher ID:** –\n- **LinkedIn ID:** [www.linkedin.com/in/tejaswini-b-m-588682292](http://www.linkedin.com/in/tejaswini-b-m-588682292)\n\n\n## Academic Details\n\n- **Qualification**\n- MSC in General Chemistry\n- BSC in Physics, Chemistry, Mathematics\n\n## Areas of Interest\n\n1. Physical Chemistry\n2. Inorganic Chemistry\n3. Analytic Chemistry\n\n## Publication Details\n\n1. XXX, XXXX,XXXX “VLSI implementation of Digital Watermarking Technique for security and authentication of Digital Data”, IEEE Xplore: 21st December 2021. <https://ieeexplore.ieee.org/document/9645910>\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. FDP on Indian Knowledge System at ATME College of Engineering\n\n## Roles and Responsibilities: Department Level\n\n- Academic Coordinator (BBOK407)\n- H-2 Batch Lab Incharge",
+    md: `## Professional Experience
+
+- Teaching: 1.5 Years
+- Research: Nil
+- Industry: 9 Months
+
+## Contact Details
+
+- **Email ID:** Official: [tejaswinibm.ch@atme.edu.in](mailto:tejaswinibm.ch@atme.edu.in) | Personal: [tejaswini2000518@gmail.com](mailto:tejaswini2000518@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/612364>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=8efCgN0AAAAJ>
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/0009-0001-0525-1373>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <http://www.linkedin.com/in/tejaswini-b-m-588682292>
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc.** in General Chemistry
+- **B.Sc.** in Physics, Chemistry, Mathematics
+
+## Areas of Interest
+
+- Physical Chemistry
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. 3-Days FDP on Indian Knowledge System at ATME College of Engineering.
+2. 7-Days FDP on "Innovations in Bio and Chemical Technologies for Sustainable Energy Resources" at Dayananda Sagar College of Engineering, Bangalore.
+3. One-Day FDP on "Applied Chemistry" organized by VTU at Vidyavardhaka College of Engineering, Mysuru.
+4. 5-Days FDP on "Research Methodology and Advanced Materials Technology" organized by Sai Vidya Institute of Technology.
+5. One-Day International Faculty Development Program on Growing Globally Competitive Currency in Higher Education at ATME College of Engineering.
+6. Completed a 12-week NPTEL course on "Analytical Chemistry", June 2025 semester.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- Website Coordinator
+
+## Roles and Responsibilities: Department Level
+
+1. Course Coordinator (BBOK407)
+2. Mentor`,
   },
   "dr-sudhakar-n": {
     name: "Dr. Sudhakar N",
