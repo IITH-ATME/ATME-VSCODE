@@ -2204,22 +2204,287 @@ Attender
   "chandrashekhar-c": {
     name: "Mr. Chandrashekhar C",
     url: "https://old.atme.edu.in/mr-chandrashekar-c/",
-    md: "## Professional Experience\n\n- Teaching: 16 Years\n- Research: 0 Years\n- Industry: 5 Years\n\n## Contact Details\n\n- **Email ID:** **Official:[Chandrashekarc\\_HU@atme.edu.in](mailto:Chandrashekarc_HU@atme.edu.in)**\n- **Personal:[Chandrumys22@gmail.com](mailto:Chandrumys22@gmail.com):** Vidwan ID\n- <http://vidwan.inflibnet.ac.in/profile/296120>\n- Google Scholar ID\n- <https://scholar.google.com/citations?user=Gy6iCcsAAAAJ&hl>\n- Scopus ID\n- Nil\n- Orcid ID\n- <http://www.orcid.org/0000-0002-0641-6109>\n- Web of Science Researcher ID\n- Nil\n- LinkedIn ID\n- [www.linkedin.com/in/chandrashekar-c-749a4413b](http://www.linkedin.com/in/chandrashekar-c-749a4413b)\n\n\n## Academic Details\n\n- **Qualification**\n- **MA** in Political Science\n- **M.A, LLB**  in HEP  &  Indian Law\n\n## Areas of Interest\n\n1. Law\n2. Political Science\n3. History\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n1. Bar Council of  Karnataka\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. FDP -3\n2. Conferences -2\n3. MOOC-1\n4. Workshop-2\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- **NIL**\n\n## Roles and Responsibilities: Institute Level\n\n1. Member CICC\n2. Member Secretary SAC –Scholarship Awareness Committee\n3. Member College Admission Committee\n4. Member Cultural Committee\n5. Member Website Committee\n\n## Roles and Responsibilities: Department Level\n\n1. Coordinator -Outreach perception team\n2. Coordinator- Photography club",
+    md: `## Professional Experience
+
+- Teaching: 16 Years
+- Research: 0 Years
+- Industry: 5 Years
+
+## Contact Details
+
+- **Email ID:** Official: [Chandrashekarc_HU@atme.edu.in](mailto:Chandrashekarc_HU@atme.edu.in) | Personal: [Chandrumys22@gmail.com](mailto:Chandrumys22@gmail.com)
+- **Vidwan ID:** <http://vidwan.inflibnet.ac.in/profile/296120>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=Gy6iCcsAAAAJ&hl>
+- **Scopus ID:** Nil
+- **Orcid ID:** <http://www.orcid.org/0000-0002-0641-6109>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** <http://www.linkedin.com/in/chandrashekar-c-749a4413b>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** – Nil
+- **MA** in Political Science
+- **B.A., LLB** in HEP & Indian Law
+
+## Areas of Interest
+
+1. Law
+2. Political Science
+3. History
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+1. Bar Council of Karnataka
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. FDP – 3
+2. Conferences – 2
+3. MOOC – 1
+4. Workshop – 2
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Member, CICC
+2. Member Secretary, SAC – Scholarship Awareness Committee
+3. Member, College Admission Committee
+4. Member, Cultural Committee
+5. Member, Website Committee
+
+## Roles and Responsibilities: Department Level
+
+1. Coordinator – Outreach Perception Team
+2. Coordinator – Photography Club`,
   },
   "bharathi-r": {
     name: "Ms. Bharathi R",
     url: "https://old.atme.edu.in/mrs-bharathi-r/",
-    md: "## Professional Experience\n\n- Teaching: 19 Years\n- Research: Nil\n- Industry: 7 Years\n\n## Contact Details\n\n- **Email ID:** **Official:** [**bharathir\\_hu@atme.edu.in**](mailto:bharathir_hu@atme.edu.in)\n- **Personal:** [**bharathib980@gmail.com**](mailto:bharathib980@gmail.com)\n- Vidwan ID\n- <https://vidwan.inflibnet.ac.in//profile/201857>\n- Google Scholar ID\n- <https://scholar.google.com/citations?hl=en&user=-mZfj68AAAAJ>\n- Scopus ID\n- Orcid ID\n- <https://orcid.org/0000-0001-5962-6559>\n- Web of Science Researcher ID\n- LinkedIn ID\n- [www.linkedin.com/in/bharathi-b-374b79264](http://www.linkedin.com/in/bharathi-b-374b79264)\n\n\n## Academic Details\n\n- **Qualification**\n- MSc in Chemistry B.Ed.\n- M.A in English\n- PGDE in English\n\n## Areas of Interest\n\n1. Poetry, travel log\n\n## Publication Details\n\n1. Bharathi:- Paper-1  Title: The Impact of Social Media on Modern English Usage:A Linguistic Perspective . Published in IJCRT([www.ijcrt.org)&](http://www.ijcrt.org)&) 7.97Impact factor by Google Scholar.Volume 12 Issue:10th October Published  7th Oct -2024.UGC Approved Journal:49023(18). Paper ID: IJCRT2410101 Registration ID:269820, ISSN;2320-2882.\n2. Bharathi:- Paper-II Title: FLUCTUATING MOODS OF ABHA,AS REPRESENTED IN THE SHORTSTORY”ABHA” TAKEN FROM “GULAMI TALKIES AND OTHER STORIES”\n3. Published in IJCRT([ijcrt.org)&](http://www.ijcrt.org)&) 7.97 Impact factor by Google Scholar.Volume 13 Issue:3rd March 2025\n4. Published on 14th March 2025..UGC Approved Journal:49023(18). Paper ID: IJCRT2410101 Registration ID:269820, ISSN;2320-2882.\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.\n2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024\n3. Attended three days FDP on “Importance of NAAC Accreditation in Higher Education Institutions” organised by ATME College of Engineering, Mysuru from 9 to 11-11-2020.\n4. Three Day National Level Online Faculty Development Program on “AICTE Exam Reforms:An Overview”-ATMECE from 27.08.2020 to 29.08.2020\n5. Annual Refresher Programme in Pedagogical Innovations And Research Methodology\n6. Attended 3 days and 7 days “Faculty Development for Student Induction” from 24-26 June 2019 and 23-29 July 2019 in Belagavi and Sri Venkateshwara College of Engineering, Bangalore respectively 7. .Mooc \\_1 : Complete English course-Master English Beginner to Advaned -From Udemy\n8. Attened ‘GLOBAL TRADE WAR AND ECONOMIC UNCERTAINTY – A National level Webinar in JSS  college for Women,\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- **NIL**\n\n## Roles and Responsibilities: Institute Level\n\n1. Member: College Canteen & Convenience Shop Committee\n2. Member: College Cultural Committee\n3. Member; Anti Ragging Committee\n4. Member: Sports and Extra Curricular Activity Committee\n5. Member: Admission and Transport Committee\n\n## Roles and Responsibilities: Department Level\n\n1. Class Teacher\n2. Mentor: For Students\n3. UHV: Co-ordinator of Basic science and Humanities\n4. Member of Scholarship Awareness Committee\n5. Course Co-ordinator",
+    md: `## Professional Experience
+
+- Teaching: 21 Years
+- Research: Nil
+- Industry: 7 Years
+
+## Contact Details
+
+- **Email ID:** Official: [bharathir_hu@atme.edu.in](mailto:bharathir_hu@atme.edu.in) | Personal: [bharathib980@gmail.com](mailto:bharathib980@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201857>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=-mZfj68AAAAJ>
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/0000-0001-5962-6559>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <http://www.linkedin.com/in/bharathi-b-374b79264>
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc.** in Chemistry, B.Ed.
+- **M.A.** in English
+- **PGDE** in English
+
+## Areas of Interest
+
+- Poetry, travel log, singing and dancing
+
+## Publication Details
+
+1. R. Bharathi, Paper I: "The Impact of Social Media on Modern English Usage: A Linguistic Perspective", published in IJCRT (www.ijcrt.org) & 7.97 impact factor by Google Scholar, Volume 12 Issue: 10th October, published 7th Oct 2024. UGC Approved Journal: 49023(18). Paper ID: IJCRT2410101, Registration ID: 269820, ISSN: 2320-2882.
+2. R. Bharathi, Paper II: "Fluctuating Moods of Abha, as Represented in the Short Story 'Abha' Taken from 'Gulami Talkies and Other Stories'".
+3. R. Bharathi, Paper III: "The Role of Feminism in Contemporary", published in IJCRT (www.ijcrt.org) & 7.97 impact factor by Google Scholar, Volume 13 Issue: 6th June 2025.
+4. R. Bharathi, Paper IV: "How and Why Have Divorce Rates Changed Over Time", published on 13th November 2025. UGC Approved Journal: 49023(18). Paper ID: IJCRT2511548, Registration ID: 269820, ISSN: 2320-2882.
+
+## Membership in Professional Bodies
+
+- ELT@I
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.
+2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.
+3. Attended three days FDP on "Importance of NAAC Accreditation in Higher Education Institutions" organised by ATME College of Engineering, Mysuru from 9 to 11-11-2020.
+4. Three-Day National Level Online Faculty Development Program on "AICTE Exam Reforms: An Overview" – ATMECE from 27.08.2020 to 29.08.2020.
+5. Annual Refresher Programme in Pedagogical Innovations and Research Methodology (Interdisciplinary), online mode at NPTEL-AICTE from Dec-Feb 2019.
+6. Attended 3 days and 7 days "Faculty Development for Student Induction" from 24-26 June 2019 and 23-29 July 2019 in Belagavi and Sri Venkateshwara College of Engineering, Bangalore respectively.
+7. MOOC-1: Complete English course – Master English Beginner to Advanced, from Udemy.
+8. Attended 'Global Trade War and Economic Uncertainty' – a National level Webinar in JSS College for Women.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Member: College Canteen & Convenience Shop Committee
+2. Member: College Cultural Committee
+3. Member: Anti Ragging Committee
+4. Member: Sports and Extra Curricular Activity Committee
+5. Member: Admission and Transport Committee
+
+## Roles and Responsibilities: Department Level
+
+1. Class Teacher
+2. Mentor: For Students
+3. UHV: Co-ordinator of Basic Science and Humanities
+4. Member of Scholarship Awareness Committee
+5. Course Co-ordinator`,
   },
   "leelavathi-c-r": {
     name: "Mrs. Leelavathi C R",
     url: "https://old.atme.edu.in/mrs-leelavathi-c-r/",
-    md: "## Professional Experience\n\n- Teaching: 15 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:[leelavathicr\\_hu@atme.edu.in](mailto:leelavathicr_hu@atme.edu.in)**\n- **Personal:[leelavathicr03@gmail.com](mailto:leelavathicr03@gmail.com):** Vidwan ID\n- <https://vidwan.inflibnet.ac.in/profile/339356>\n- Google Scholar ID\n- <https://scholar.google.com/citations?hl=en&authuser=3&user=oju3wigAAAAj>\n- Scopus ID\n- Nil\n- Orcid ID\n- Nil\n- Web of Science Researcher ID\n- Nil\n- LinkedIn ID\n- Nil\n\n\n## Academic Details\n\n- **Qualification**\n- BA.Bed\n- MA in kannada\n\n## Areas of Interest\n\n- Essay Writing, Speech,Teaching.\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n- NIL\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- Received Best Teacher Award in Daffodils International Public school .Mandya\n\n## Roles and Responsibilities: Institute Level\n\n1. Hostel Committee Member\n2. Admission Committee Member\n3. Antiragging Squad Member\n4. Grievance Redressal Committee Member\n\n## Roles and Responsibilities: Department Level\n\nNIL",
+    md: `## Professional Experience
+
+- Teaching: 16 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [leelavathicr_hu@atme.edu.in](mailto:leelavathicr_hu@atme.edu.in) | Personal: [leelavathicr03@gmail.com](mailto:leelavathicr03@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/339356>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&authuser=3&user=oju3wigAAAAj>
+- **Scopus ID:** Nil
+- **Orcid ID:** Nil
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** –
+
+## Academic Details
+
+- **Qualification**
+- **B.A., B.Ed.**
+- **M.A.** in Kannada
+
+## Areas of Interest
+
+- Essay Writing, Speech, Teaching
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- Received Best Teacher Award in Daffodils International Public School, Mandya
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. 5-days FDP on Halegannada Bhaashe Sayithya Mimamse Adhyaayana Bhodhana at JGI, Bangalore.
+2. 3-days National level FDP on IKS at ATMECE, Mysuru.
+3. 5-days FDP on Essentials of Sciences for Engineering & Research at ATMECE, Mysuru.
+4. 3-days workshop on Essentials of Sciences for Engineering & Research at ATMECE, Mysuru.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Hostel Committee Member
+2. Admission Committee Member
+3. Antiragging Squad Member
+4. Grievance Redressal Committee Member
+
+## Roles and Responsibilities: Department Level
+
+- Mentor`,
   },
   "rakshitha-v": {
     name: "Ms. Rakshitha V",
     url: "https://old.atme.edu.in/ms-rakshitha-v/",
-    md: "## Contact Details\n\n- **Email ID:** Official: [rakshithav\\_hu@atme.edu.in](mailto:rakshithav_hu@atme.edu.in)\n- Personal: [rakshivrakshitha@gmail.com](mailto:rakshivrakshitha@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/627384>\n- **Google Scholar ID:** **Scopus ID**\n- **Orcid ID:** <https://orcid.org/0009-0005-4275-6599>\n- **Web of Science:** **Orcid ID**\n- **LinkedIn ID:** <https://www.linkedin.com/in/rakshitha-v-772894369/>\n\n\n## Academic Details\n\n- **Qualification**\n- M.A in English\n- B.Ed\n\n## Areas of Interest\n\n- Literature\n\n## Honours/Awards/ Achievements\n\n- State Level dance performer",
+    md: `## Professional Experience
+
+- Teaching: 1.5 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Contact Number:** 9980476763
+- **Email ID:** Official: [rakshithav_hu@atme.edu.in](mailto:rakshithav_hu@atme.edu.in) | Personal: [rakshivrakshitha@gmail.com](mailto:rakshivrakshitha@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/627384>
+- **Google Scholar ID:** –
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/0009-0005-4275-6599>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/rakshitha-v-772894369/>
+
+## Academic Details
+
+- **Qualification**
+- **M.A.** in English
+- **B.Ed.**
+
+## Areas of Interest
+
+- Literature
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- State Level dance performer
+- Resource Person on 5E-method of teaching at Vidhya Vikas B.Ed College, Mysuru, 2025
+- Resource Person on 5E-method of teaching at Vidhya Vikas B.Ed College, Mysuru, 2026
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Attended FDP at VTU
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- National – Nil
+- International – Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Member of Women Cell Committee
+- Coordinator of AFH Committee
+
+## Roles and Responsibilities: Department Level
+
+- Mentor`,
   },
   "ms-pallavi-a-r": {
     name: "Ms. Pallavi A R",
