@@ -1552,39 +1552,573 @@ Attender
 2. Mentor`,
   },
   "dr-sudhakar-n": {
-    name: "Dr. Sudhakar N",
+    name: "Mr. Sudhakar N",
     url: "https://old.atme.edu.in/mr-sudhakar-n/",
-    md: "## Contact Details\n\n- **Email ID:** **Official:** [sudhakarn\\_maths@atme.edu.in](mailto:sudhakarn_maths@atme.edu.in)\n- **Personal:** [sudhakardixith@gmail.com](mailto:sudhakardixith@gmail.com)\n- Vidwan ID\n- <https://vidwan.inflibnet.ac.in/profile/201863>\n- Google Scholar ID\n- <https://scholar.google.com/citations?user=ZXyhp_UAAAAJ&hl=en>\n- Scopus ID\n- Orcid ID\n- <https://orcid.org/orcid-search/search?searchQuery=0000-0002-4006-8785>\n- Web of Science Researcher ID\n- LinkedIn ID\n- <https://linkdin.com.in/sudhakar-n-a093a5176>\n\n\n## Academic Details\n\n- **Qualification**\n- **Pursuing Ph.D. in   Operation Research**\n- **M. Sc** in Mathematics\n- **B.Sc** in  Mathematics\n\n## Areas of Interest\n\n1. Operation Research\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n- Life member in ISTE\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan to 17th Jan 2025.\n2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.\n3. Attended three days FDP on “Importance of NAAC Accreditation in Higher Education Institutions” organized by ATME College of Engineering, Mysuru from 9 to 11-11-2020.\n4. Attended three-day webinar on “Current Trends in Applied Mathematics” from 21st to 23rd September 2020 by MIT, Mysore.\n5. Attended Three days National Level Online FDP on “AICTE Exam Reforms –An overview” by Department of Mechanical Engineering, ATMECE, Mysuru from 27th to 29th August 2020.\n6. Attended Five day FDP on “Mathematics Concepts by Using Free Open Source Software’s(FOSS) organized by BMSIT&M, Bengaluru from 21st to 25th July 2020\n7. Attended TEQIP 1.3 sponsored 5 days’ program on “Outcome Based Education and NBA Accreditation” from 7th to 11th Jan 2020 at GSSS Institute of Engineering &Technology for women, Mysuru.\n8. Attended Three day ADMA National pre-conference workshop on Recent Advances in signed Graphs and their Applications sponsored by TEQIP from 6th to 8th June 2016.\n9. Attended two day UGC sponsored National conference on “Energy of Graphs” organized by Department of Mathematics, Maharani’s Science college for women, Mysuru from 11th and 12th March 2016.   **MOOC CERTIFICATION:**\n1. Online Course on “Student Assessment and Evaluation”\n2. Online Course on “Technology Enabled Learning & Life-long Self-learning”\n3. Online Course on “Orientation towards Technical Education & Curriculum Aspects”\n4. Online Course on “Regression Analysis” online mode at NPTEL-AICTE from July-Oct 2019.\n5. Online Course on “Calculus of several Real Variables” online mode at NPTEL-AICTE from Aug-Oct 2019.\n6. Online course on “The Joy of Computing using Python” during Jan-Apr 2024 by NPTEL-AICTE.\n7. Online course on “Constrained and unconstrained optimization” during Jan-Apr 2023 by NPTEL-AICTE.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\n1. Grievance Redressal Committee\n2. SC-ST Committee\n3. Library Committee\n\n## Roles and Responsibilities: Department Level\n\n1. In charge HOD of Mathematics\n2. Mentor",
+    md: `## Professional Experience
+
+- Teaching: 24 Years
+- Research: 2 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [sudhakarn_maths@atme.edu.in](mailto:sudhakarn_maths@atme.edu.in) | Personal: [sudhakardixith@gmail.com](mailto:sudhakardixith@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201863>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=ZXyhp_UAAAAJ&hl=en>
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/orcid-search/search?searchQuery=0000-0002-4006-8785>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://linkdin.com.in/sudhakar-n-a093a5176>
+
+## Academic Details
+
+- **Qualification**
+- **Pursuing Ph.D.** in Operation Research
+- **M.Sc.** in Mathematics
+- **B.Sc.** in Mathematics
+
+## Areas of Interest
+
+- Operation Research
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- Life member in ISTE
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan to 17th Jan 2025.
+2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.
+3. Attended three days FDP on "Importance of NAAC Accreditation in Higher Education Institutions" organized by ATME College of Engineering, Mysuru from 9 to 11-11-2020.
+4. Attended three-day webinar on "Current Trends in Applied Mathematics" from 21st to 23rd September 2020 by MIT, Mysore.
+5. Attended three days National Level Online FDP on "AICTE Exam Reforms – An overview" by Department of Mechanical Engineering, ATMECE, Mysuru from 27th to 29th August 2020.
+6. Attended five day FDP on "Mathematics Concepts by Using Free Open Source Software's (FOSS)" organized by BMSIT&M, Bengaluru from 21st to 25th July 2020.
+7. Attended TEQIP 1.3 sponsored 5 days' program on "Outcome Based Education and NBA Accreditation" from 7th to 11th Jan 2020 at GSSS Institute of Engineering & Technology for Women, Mysuru.
+8. Attended three day ADMA National pre-conference workshop on Recent Advances in Signed Graphs and their Applications sponsored by TEQIP from 6th to 8th June 2016.
+9. Attended two day UGC sponsored National conference on "Energy of Graphs" organized by Department of Mathematics, Maharani's Science College for Women, Mysuru from 11th and 12th March 2016.
+
+**MOOC Certification**
+
+1. Online Course on "Student Assessment and Evaluation", NITTT 2025.
+2. Online Course on "Technology Enabled Learning & Life-long Self-learning", NITTT 2025.
+3. Online Course on "Orientation towards Technical Education & Curriculum Aspects", NITTT 2021.
+4. Online Course on "Regression Analysis" online mode at NPTEL-AICTE from July-Oct 2019.
+5. Online Course on "Calculus of Several Real Variables" online mode at NPTEL-AICTE from Aug-Oct 2019.
+6. Online course on "The Joy of Computing using Python" during Jan-Apr 2024 by NPTEL-AICTE.
+7. Online course on "Constrained and Unconstrained Optimization" during Jan-Apr 2023 by NPTEL-AICTE.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Grievance Redressal Committee
+2. SC-ST Committee
+3. Library Committee
+
+## Roles and Responsibilities: Department Level
+
+1. In charge HOD of Mathematics
+2. Mentor`,
   },
   "dr-madhusudhan-k-v": {
     name: "Dr. Madhusudhan K V",
     url: "https://old.atme.edu.in/dr-madhusudhan-k-v/",
-    md: "## Professional Experience\n\n- Teaching: 18.5 Years\n- Research: 8 Years\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** <dr.madhusudhankv_maths@atme.edu.in>\n- **Personal:** [kvmadhu13@gmail.com](mailto:kvmadhu13@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/202648>\n- **Google Scholar ID:** <https://scholar.google.com/citations?user=eaklov8AAAAJ>\n- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57211484548>\n- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0001-7700-8172>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/madhu-kv-06091918/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** in Mathematics\n- **M.Sc** in Mathematics\n- **B.Sc** (PMCS)\n\n## Areas of Interest\n\n- Discrete Mathematics, Combinatorics, Graph Theory, Signed Graphs\n\n## Publication Details\n\n1. Note on Common Neighborhood and Near Common Neighborhood Signed Graphs, International Journal of Research and Analytical Reviews (IJRAR), 5(4) (2018), 569-573.(UGC Journal No: 43602) (P-ISSN: 2349-5138, E-ISSN: 2348-1269, India)\n2. Wing Signed Graphs, International Journal of Computational Engineering Research (IJCER), 8(9) (2018), 39-41. (UGC Journal No: 47631) (ISSN: 2250 – 3005, India)\n3. Distance Divisor Signed Graphs, IOSR Journal of Engineering (IOSRJEN),8(10) (2018), 25-27. (UGC Journal No: 48995) (ISSN (E): 2250-3021, ISSN (P): 2278-8719, India)\n4. Note on Distance Coprime Signed Graphs, Journal of Computer and Mathematical Sciences, 9(10) (2018), 1473-1476. (UGC Journal No: 44720) (ISSN (E): 2319-8133, ISSN (P): 0976-5727, India)\n5. Note on Detour Radial Signed Graphs, International J. Math. Combin.,2 (2019), to appear. (ISSN: 1937-1055, China)\n6. Set-Prime Graph of a Finite Group, Proceedings of the Jangjeon Math. Soc., 22(3) (2019), Scopus Indexed (UGC Journal No: 38600) (ISBN: 89-87809-15-3, ISSN:1598-7264, South Korea)\n7. Inverse Product Connectivity Energy of a Graph, International Journal of Engineering, Applied and Management Sciences Paradigms, 54(1) (2019), 194-198. (UGC Journal No: 42582) (ISSN: 2320-6608, India)\n8. Randic type Additive Connectivity Energy of a Graph, Vladikavkaz Mathematical Journal., 21(2) (2019), 18-26. Indexed in Scopus and Web of Science, (ISSN: 1683-3412, EISSN: 1814-0807, Russia)\n9. Degree Equivalence Graph of a Graph, TWMS J. App. Eng. Math, 10(2)(2020), 411-414. Indexed in Scopus and Web of Science. (UGC Journal No: 48837) (ISSN: 2146-1147, e-ISSN: 2587-1013, Turkey)\n10. Negation switching equivalence in signed graphs, International J. Math. Combin., 3 (2010), 85-90. (ISSN: 1937-1055, China)\n11. On Block-Line Forest Signed Graphs, International Journal of Mathematical Combinatorics, 3 (2022), 82-86. (ISSN: 1937-1055, China)\n12. On Line-Block Signed Graphs, International Journal of Mathematical Combinatorics, 1 (2023), 111-115. (ISSN: 1937-1055, China)\n13. Gallai Signed Graphs and Anti-Gallai Signed Graphs, 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Pg. No: 1241–1245\n14. New Bounds on Eigen Values of Normalized Signed Graph, 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Pg. No: 986-990\n\n## Membership in Professional Bodies\n\n1. Member in Academy of Discrete Mathematics & Applications (ADMA)\n2. Member in Indian Society of Technical Education (ISTE)\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Online Course on “Orientation towards Technical Education & Curriculum Aspects” NITTT2021\n2. One day National Conference on “Works of Srinivasa Ramanujan” on July 03, 2010 held in the Department of Studies in Mathematics, UOM, Mysuru.\n3. National Seminar on “Recent Trends and Challenges In Applied Mathematics” on December 22, 2012, RNS Institute of Technology, Bangalore.\n4. Three days Workshop on “MATLAB” on January 6-7-8, 2014, ATME College of Engineering, Mysore\n5. One day National workshop on “Interfacing Innovation and IPR for Diffusion of Technology” on January 19, 2015 organized by NRDC, New Delhi, Mysore\n6. National Seminar on “Current Trends in Mathematical Sciences and Applications” on February 20, 2015, National Institute of Engineering, Mysore\n7. One day National workshop on “Graph Theory and its Applications” Sponsored by TEQIP-II on October 17, 2015, SIT Tumkur\n8. Two days National Conference on “Mathematics and its Applications” on December 22-23, 2015, AIT, Chikkamangaluru.\n9. Two days National Conference on “Energy of Graphs” on March 11-12, 2016, Department of Studies in Mathematics, University of Mysuru, Mysore.\n10. Three days National Pre-Conference workshop on “Recent Advances in Signed Graphs and their Applications” Sponsored by TEQIP-II on October 6-8, 2016, SIT Tumkur.\n11. One Week Online Faculty Development Programme on “ML/DL for Data Science and Analytics using Python” organized by Department of Information Technology from 15-19 February 2023\n12. Two Weeks “REFRESHER COURSE IN MATHEMATICS (Theme: Python & Vedic Mathematics)” organized by Teaching Learning Centre & Department of Mathematics Ramanujan College, University of Delhi under the sponsorship of Ministry of Education, Pandit Madan Mohan Malaviya National Mission on Teachers and Teaching during 13 – 26 July, 2023\n13. International Conference on “Discrete Mathematics (ICDM-2016)” on June 9-10-11, 2016, SIT, Tumkur.\n14. International Conference on recent trends in Science & Technology on 14th & 15th July – 2022, ATMECE, Musuru.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\n1. Member of Magazine committee\n2. Member of NSS committee and\n3. Member of Cultural Committee\n\n## Roles and Responsibilities: Department Level\n\n1. In charge HOD of Mathematics\n2. Exam EMS Coordinator\n3. IA Coordinator\n4. Mentor",
+    md: `## Professional Experience
+
+- Teaching: 18.5 Years
+- Research: 8 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [dr.madhusudhankv_maths@atme.edu.in](mailto:dr.madhusudhankv_maths@atme.edu.in) | Personal: [kvmadhu13@gmail.com](mailto:kvmadhu13@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/202648>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=eaklov8AAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57211484548>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0000-0001-7700-8172>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/madhu-kv-06091918/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** in Mathematics
+- **M.Sc.** in Mathematics
+- **B.Sc.** (PMCS)
+
+## Areas of Interest
+
+- Discrete Mathematics, Combinatorics, Graph Theory, Signed Graphs
+
+## Publication Details
+
+1. Note on Common Neighborhood and Near Common Neighborhood Signed Graphs, International Journal of Research and Analytical Reviews (IJRAR), 5(4) (2018), 569-573. (UGC Journal No: 43602) (P-ISSN: 2349-5138, E-ISSN: 2348-1269, India)
+2. Wing Signed Graphs, International Journal of Computational Engineering Research (IJCER), 8(9) (2018), 39-41. (UGC Journal No: 47631) (ISSN: 2250-3005, India)
+3. Distance Divisor Signed Graphs, IOSR Journal of Engineering (IOSRJEN), 8(10) (2018), 25-27. (UGC Journal No: 48995) (ISSN (E): 2250-3021, ISSN (P): 2278-8719, India)
+4. Note on Distance Coprime Signed Graphs, Journal of Computer and Mathematical Sciences, 9(10) (2018), 1473-1476. (UGC Journal No: 44720) (ISSN (E): 2319-8133, ISSN (P): 0976-5727, India)
+5. Note on Detour Radial Signed Graphs, International J. Math. Combin., 2 (2019), to appear. (ISSN: 1937-1055, China)
+6. Set-Prime Graph of a Finite Group, Proceedings of the Jangjeon Math. Soc., 22(3) (2019), Scopus Indexed (UGC Journal No: 38600) (ISBN: 89-87809-15-3, ISSN:1598-7264, South Korea)
+7. Inverse Product Connectivity Energy of a Graph, International Journal of Engineering, Applied and Management Sciences Paradigms, 54(1) (2019), 194-198. (UGC Journal No: 42582) (ISSN: 2320-6608, India)
+8. Randic type Additive Connectivity Energy of a Graph, Vladikavkaz Mathematical Journal, 21(2) (2019), 18-26. Indexed in Scopus and Web of Science, (ISSN: 1683-3412, EISSN: 1814-0807, Russia)
+9. Degree Equivalence Graph of a Graph, TWMS J. App. Eng. Math, 10(2) (2020), 411-414. Indexed in Scopus and Web of Science. (UGC Journal No: 48837) (ISSN: 2146-1147, e-ISSN: 2587-1013, Turkey)
+10. Negation switching equivalence in signed graphs, International J. Math. Combin., 3 (2010), 85-90. (ISSN: 1937-1055, China)
+11. On Block-Line Forest Signed Graphs, International Journal of Mathematical Combinatorics, 3 (2022), 82-86. (ISSN: 1937-1055, China)
+12. On Line-Block Signed Graphs, International Journal of Mathematical Combinatorics, 1 (2023), 111-115. (ISSN: 1937-1055, China)
+13. Gallai Signed Graphs and Anti-Gallai Signed Graphs, 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Pg. No: 1241–1245.
+14. New Bounds on Eigen Values of Normalized Signed Graph, 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, Pg. No: 986-990.
+
+## Membership in Professional Bodies
+
+1. Member in Academy of Discrete Mathematics & Applications (ADMA)
+2. Member in Indian Society of Technical Education (ISTE)
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Online Course on "Orientation towards Technical Education & Curriculum Aspects", NITTT 2021.
+2. One day National Conference on "Works of Srinivasa Ramanujan" on July 03, 2010, held in the Department of Studies in Mathematics, UOM, Mysuru.
+3. National Seminar on "Recent Trends and Challenges in Applied Mathematics" on December 22, 2012, RNS Institute of Technology, Bangalore.
+4. Three days Workshop on "MATLAB" on January 6-7-8, 2014, ATME College of Engineering, Mysore.
+5. One day National workshop on "Interfacing Innovation and IPR for Diffusion of Technology" on January 19, 2015, organized by NRDC, New Delhi, Mysore.
+6. National Seminar on "Current Trends in Mathematical Sciences and Applications" on February 20, 2015, National Institute of Engineering, Mysore.
+7. One day National workshop on "Graph Theory and its Applications" sponsored by TEQIP-II on October 17, 2015, SIT Tumkur.
+8. Two days National Conference on "Mathematics and its Applications" on December 22-23, 2015, AIT, Chikkamangaluru.
+9. Two days National Conference on "Energy of Graphs" on March 11-12, 2016, Department of Studies in Mathematics, University of Mysuru, Mysore.
+10. Three days National Pre-Conference workshop on "Recent Advances in Signed Graphs and their Applications" sponsored by TEQIP-II on October 6-8, 2016, SIT Tumkur.
+11. International Conference on "Discrete Mathematics (ICDM-2016)" on June 9-10-11, 2016, SIT, Tumkur.
+12. One Week Online Faculty Development Programme on "ML/DL for Data Science and Analytics using Python" organized by Department of Information Technology from 15-19 February 2023.
+13. International Conference on Recent Trends in Science & Technology on 14th & 15th July 2022, ATMECE, Mysuru.
+14. Two Weeks "Refresher Course in Mathematics (Theme: Python & Vedic Mathematics)" organized by Teaching Learning Centre & Department of Mathematics, Ramanujan College, University of Delhi under the sponsorship of Ministry of Education, Pandit Madan Mohan Malaviya National Mission on Teachers and Teaching during 13-26 July, 2023.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Member of Magazine Committee
+2. Member of NSS Committee
+3. Member of Cultural Committee
+
+## Roles and Responsibilities: Department Level
+
+1. Exam EMS Coordinator
+2. IA Coordinator
+3. Mentor`,
   },
   "priyanka-n-b": {
     name: "Mrs. Priyanka N B",
     url: "https://old.atme.edu.in/mrs-priyanka-n-b/",
-    md: "## Professional Experience\n\n- Teaching: 17 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [**priyankanb\\_maths@atme.edu.in**](mailto:priyankanb_maths@atme.edu.in)\n- **Personal:** [**priyabraj02@gmail.com**](mailto:priyabraj02@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201872>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=%20hzKmQfMAAAAJ>\n- **Scopus ID:** 57740654300\n- **Orcid ID:** <http://www.orcid.org/0000-0002-5305-4980>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/priyanka-n-b-b97a6181>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** (Pursuing)\n- **M.Sc**\n- **B.Sc**\n\n## Areas of Interest\n\n- Bio Fluid Mechanics\n\n## Publication Details\n\n1. “**Peristaltic Flow and Heat Transfer through a Prandtl Fluid in Vertical Annulus**” in  recent Advances in Mechanical Engineering. Lecture Notes in Mechanical Engineering.Springer, Singapore. [https://doi.org/10.1007/978-981-19-1388-4\\_16](https://doi.org/10.1007/978-981-19-1388-4_16.), 25th May 2022.\n2. “**Effect of Heat Transfer on Peristaltic Transport of Prandtl Fluid in an Inclined  Porous Channel**” in Mathematics and Computing, Springer Proceedings in Mathematics &  Statistics 415, <https://doi.org/10.1007/978-981-19-9307-7_45>,15 March 2023.\n3. “**Peristaltic transport of Jeffrey Fluid in a Doubly Connected Region**” in  Journal of  Propulsion Technology -Q3 journal ,ISSN: 1001-4055 ,Vol. 44 No. 5 (2023), 18th Dec 2023, Page No: 3435 – 3446.\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.\n2. Online certification and FDP on Numerical Analysis from NPTEL Jan-April 2024.\n3. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.\n4. Participated in 8th International Conference on Mathematics and Computing (ICMC-2022) from 6th to 8th January, 2022,VIT,Vellore-Online\n5. Participated in Third International Conference on ‘Emerging Research in Civil, Aeronautical & Mechanical Engineering’ (ERCAM) from 16th and 17th December, 2021, Nitte Meenakshi Institute of Technology, Bengaluru, India.\n6. Online Course on “Orientation towards Technical Education & Curriculum Aspects” NITTT2021\n7. Mathematical Concepts by Using Free open Source software-21 to 25-07-2020(5 days), BMSIT and Management-Online\n8. Attended three days FDP on “Importance of NAAC Accreditation in Higher Education Institutions” organised by ATME College of Engineering, Mysuru from 9 to 11-11-2020.\n9. Three Day National Level Online Faculty Development Program on “AICTE Exam Reforms:An Overview”-ATMECE from 27.08.2020 to 29.08.2020\n10. Annual Refresher Programme in Pedagogical Innovations And Research Methodology (Interdisciplinary) online mode at NPTEL-AICTE from Dec-Feb 2019\n11. Attended 3 days and 7 days “Faculty Development for Student Induction” from 24-26 June 2019 and 23-29 July 2019 in Belagavi and Sri Venkateshwara College of Engineering, Bangalore respectively.\n12. Attended 2 days and National Conference on Geometric Function Theory And its Applications, In Honour of Dr.S.Latha on 29-30 Jan 2018.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\n1. Member Secretary of Women’s Cell\n2. Transportation Committee Member\n3. QS I- Gauge Member\n4. Academic Council Member\n5. Student Welfare Member\n6. Student Competition Coordinator\n\n## Roles and Responsibilities: Department Level\n\n1. Mentor\n2. Time Table Coordinator\n3. Course Coordinator\n4. Class Teacher",
+    md: `## Professional Experience
+
+- Teaching: 19 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [priyankanb_maths@atme.edu.in](mailto:priyankanb_maths@atme.edu.in) | Personal: [priyabraj02@gmail.com](mailto:priyabraj02@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201872>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=%20hzKmQfMAAAAJ>
+- **Scopus ID:** 57740654300
+- **Orcid ID:** <http://www.orcid.org/0000-0002-5305-4980>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/priyanka-n-b-b97a6181>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** (Pursuing)
+- **M.Sc.**
+- **B.Sc.**
+
+## Areas of Interest
+
+- Bio Fluid Mechanics
+
+## Publication Details
+
+1. "Peristaltic Flow and Heat Transfer through a Prandtl Fluid in Vertical Annulus" in Recent Advances in Mechanical Engineering, Lecture Notes in Mechanical Engineering, Springer, Singapore. <https://doi.org/10.1007/978-981-19-1388-4_16>, 25th May 2022.
+2. "Effect of Heat Transfer on Peristaltic Transport of Prandtl Fluid in an Inclined Porous Channel" in Mathematics and Computing, Springer Proceedings in Mathematics & Statistics 415, <https://doi.org/10.1007/978-981-19-9307-7_45>, 15 March 2023.
+3. "Peristaltic transport of Jeffrey Fluid in a Doubly Connected Region" in Journal of Propulsion Technology – Q3 journal, ISSN: 1001-4055, Vol. 44 No. 5 (2023), 18th Dec 2023, Page No: 3435 – 3446.
+
+## Membership in Professional Bodies
+
+- ISTE
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Online Course on "Technology Enabled Learning & Life-Long Self Learning", NITTT 2025.
+2. Online certification and FDP on Graph Theory from NPTEL, Jan-March 2026.
+3. Attended one week FDP on "A Multidisciplinary Approach of Mathematics in Engineering" in MSRIT from 8th Sep 2025 to 12th Sep 2025.
+4. Online certification on The Joy of Computing using Python from NPTEL, Jul-Oct 2025.
+5. Online certification and FDP on Engineering Mathematics – I from NPTEL, Jul-Oct 2025.
+6. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.
+7. Online certification and FDP on Numerical Analysis from NPTEL, Jan-April 2024.
+8. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.
+9. Participated in 8th International Conference on Mathematics and Computing (ICMC-2022) from 6th to 8th January 2022, VIT, Vellore – Online.
+10. Participated in Third International Conference on 'Emerging Research in Civil, Aeronautical & Mechanical Engineering' (ERCAM) from 16th and 17th December 2021, Nitte Meenakshi Institute of Technology, Bengaluru, India.
+11. Online Course on "Orientation towards Technical Education & Curriculum Aspects", NITTT 2021.
+12. Mathematical Concepts by Using Free Open Source Software, 21 to 25-07-2020 (5 days), BMSIT and Management – Online.
+13. Attended three days FDP on "Importance of NAAC Accreditation in Higher Education Institutions" organised by ATME College of Engineering, Mysuru from 9 to 11-11-2020.
+14. Three Day National Level Online Faculty Development Program on "AICTE Exam Reforms: An Overview" – ATMECE from 27.08.2020 to 29.08.2020.
+15. Annual Refresher Programme in Pedagogical Innovations and Research Methodology (Interdisciplinary), online mode at NPTEL-AICTE from Dec-Feb 2019.
+16. Attended 3 days and 7 days "Faculty Development for Student Induction" from 24-26 June 2019 and 23-29 July 2019 in Belagavi and Sri Venkateshwara College of Engineering, Bangalore respectively.
+17. Attended 2 days National Conference on Geometric Function Theory and its Applications, in Honour of Dr. S. Latha, on 29-30 Jan 2018.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+1. Member Secretary of Women's Cell
+2. Academic Council Member
+3. Student Welfare Member
+4. Student Competition Coordinator
+
+## Roles and Responsibilities: Department Level
+
+1. Mentor
+2. Time Table Coordinator
+3. Course Coordinator
+4. Class Teacher`,
   },
   "divya-k": {
     name: "Mrs. Divya K",
     url: "https://old.atme.edu.in/mrs-divya-k/",
-    md: "## Professional Experience\n\n- Teaching: 18 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [**divyak\\_maths@atme.edu.in**](mailto:divyak_maths@atme.edu.in)\n- **Personal:** [**divya.k015@gmail.com**](mailto:divya.k015@gmail.com)\n- **Vidwan ID:** <http://vidwan.inflibnet.ac.in/profile/201864>\n- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=M7IurrYAAAAJ>\n- **Scopus ID:** **Orcid ID**\n- <https://orcid.org/0000-0001-7735-0541>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/divya-k-659368264/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** (Pursuing)\n- **M.Sc**\n- **M.Phil**\n- **B.Sc** (PMCS)\n\n## Areas of Interest\n\n1. Graph Theory\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15/01/2025 to 17/01/2025.\n2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26/02/2024 to 01/03/2024.\n3. Attended 3 days FDP on the theme “Inculcating UHV in Technical Education “ by AICTE at ATME College of Engineering from 2nd to 4th of November 2023\n4. Attended 3 days Pre Conference Instructional Workshop on SPECTRAL GRAPH THEORY from 05/06/2023 to 07/06/2023 organised by Vidya Vardhaka College of Engineering.\n5. Online Course on “Orientation towards Technical Education & Curriculum Aspects” NITTT 2021\n6. Attended 2 days National Conference on Geometric Function Theory And its Applications, in honour of Dr.S.Latha on 29th and 30th Jan 2018.\n7. *Attended three days FDP on* *“**Importance of NAAC Accreditation in Higher Education Institutions**”* *organised by ATME College of Engineering, Mysuru from 9/11/2020 to 11/11/2020.*\n8. Attended National Conference on the works of Srinivasa Ramanujan conducted by University of Mysore on 03/07/2010\n9. Attended National Conference on the applications of Mathematics and Statistics conducted by Yuvaraja’s College of Mysore on 25/03/2011 to 26/03/2011\n10. Mathematical Concepts by Using Free open Source software-21 to 25-07-2020(5 days), BMSIT and Management\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\n1. Hostel Committee\n\n## Roles and Responsibilities: Department Level\n\n1. Ms Teams Coordinator\n2. Course Coordinator\n3. Class Teacher\n4. Mentor",
+    md: `## Professional Experience
+
+- Teaching: 18 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [divyak_maths@atme.edu.in](mailto:divyak_maths@atme.edu.in) | Personal: [divya.k015@gmail.com](mailto:divya.k015@gmail.com)
+- **Vidwan ID:** <http://vidwan.inflibnet.ac.in/profile/201864>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=M7IurrYAAAAJ>
+- **Scopus ID:** –
+- **Orcid ID:** <https://orcid.org/0000-0001-7735-0541>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/divya-k-659368264/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** (Pursuing)
+- **M.Sc.**
+- **M.Phil.**
+- **B.Sc.** (PMCS)
+
+## Areas of Interest
+
+- Graph Theory
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15/01/2025 to 17/01/2025.
+2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26/02/2024 to 01/03/2024.
+3. Attended 3 days FDP on the theme "Inculcating UHV in Technical Education" by AICTE at ATME College of Engineering from 2nd to 4th of November 2023.
+4. Attended 3 days Pre Conference Instructional Workshop on Spectral Graph Theory from 05/06/2023 to 07/06/2023 organised by Vidya Vardhaka College of Engineering.
+5. Online Course on "Orientation towards Technical Education & Curriculum Aspects", NITTT 2021.
+6. Attended 2 days National Conference on Geometric Function Theory and its Applications, in honour of Dr. S. Latha, on 29th and 30th Jan 2018.
+7. Attended three days FDP on "Importance of NAAC Accreditation in Higher Education Institutions" organised by ATME College of Engineering, Mysuru from 9/11/2020 to 11/11/2020.
+8. Attended National Conference on the works of Srinivasa Ramanujan conducted by University of Mysore on 03/07/2010.
+9. Attended National Conference on the applications of Mathematics and Statistics conducted by Yuvaraja's College of Mysore on 25/03/2011 to 26/03/2011.
+10. Mathematical Concepts by Using Free Open Source Software, 21 to 25-07-2020 (5 days), BMSIT and Management.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- Hostel Committee
+
+## Roles and Responsibilities: Department Level
+
+1. Ms Teams Coordinator
+2. Course Coordinator
+3. Class Teacher
+4. Mentor`,
   },
   "sarada-pratapa": {
     name: "Mrs. Sarada Pratapa",
     url: "https://old.atme.edu.in/mrs-sarada-pratapa/",
-    md: "## Professional Experience\n\n- Teaching: 16 Years\n- Research: 6 Years\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [**saradapratapa.maths@atme.edu.in**](mailto:saradapratapa.maths@atme.edu.in)\n- **Personal:** **[sarada.pratapa@gmail.com](mailto:sarada.pratapa@gmail.com)**\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/268133>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=xtmiXkAAAAAJ>\n- **Scopus ID:** Nil\n- **Orcid ID:** <http://www.orcid.org/0000-0001-8921-2293>\n- **Web of Science Researcher ID:** Nil\n- **LinkedIn ID:** <https://www.linkedin.com/in/sarada-pratapa-03b765191/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** pursing\n- **M.Sc** in Applied Mathematics\n- **B.Sc**\n\n## Areas of Interest\n\n1. Fluid Mechanics\n\n## Publication Details\n\n1. Paper Titled “Variable Viscosity and Prandtl Number Effects on Natural Convection Water Boundary Layers about a Vertical Plate “ has been published   in  International Journal of Scientific Engineering  & Research ,  ISSN: 2277-9655, Volume 6, Issue 7, July 2018, pp 110-113\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n- 1)Essentials of sciences for engineering and research 2025 from 15th jan-17th January 2025 at ATMECE, MYSURU 2) Essentials of sciences for engineering and research 2024 from 26TH-1st mar 2024 at ATMECE, MYSURU Essentials of sciences for engineering and research 2025   3)Participated in **Mathematical Modeling and Numerical Technics in Engineering and Science** oct 9th -13th  2018 at Dept.of Mathematics ,NITW,India.  4) Participated in IEEE two day work shop on **Research Methodology** at NIEIT, Mysuru on 7-8th Sep 2018  5) Participated in the Workshop on **New model curriculum for first year BE /B.TE**CH on 19th may 2018 at SCEM, Mangalore, conducted by VTU,Belgavi  6) Participated in workshop on Information **Literacy for Academic and Research Publicatio**n on 30th Jan 2018 at NIEIT,Mysuru.  7) Participated in One week Training Programme on **Instructional Design and Delivery system** on 1st -6th Jan 2018,at NIEIT,mysuru. 6) Participated in one day workshop on Awareness Programme on **Intellectual Property  Rights for Research and Academicians** on march 2nd 20172017at NIEIT,Mysuru  8) Participated in one day National Seminar on **Nano technology for Energy ,Environment and Health** on 28th Feb 20172017at NIEIT,Mysuru.  9) Participated in International Symposium on **Smart Grid Technology** on 27th and 28th Jan 2017at NIEIT,Mysuru.  10) Participated in one week Faculty Development Programme on **Computational Linear Algebra** on 7th-11th Dec 2016 at SJCE,Mysuru .  11) Participated in Three days Workshop On “**Research Methodology And Research Motivational Aspects”** from 27th  to 29th July 2016 at GSSS Institute of Engineering and Technology for Women, Mysuru.  12) Participated in **Science –Engineering –Technology Conclave** on 2nd -7th May 2016 at NIEIT,Mysuru.  13) Participated in Two day National workshop on **Number Theory and Works of Srinivasa Ramanujan** on 26th and 27th Feb 2016, at University of Mysuru.  14) Participated in Three Days Faculty Development Programme on **“Applied Mathematics in Engineering”** from 12th to 14th Jan 2016 organized by  the Department of Mathematics Sponsored by TEQIP-II at M.S.Ramaiah Institute of Technology ,Bangalore.  15) Participated in Three Days Faculty Development Programme on **“Applied Mathematical Modelling”** from 13th  to 15th July 2015 organized by  the Department of Mathematics Sponsored by TEQIP-II at M.S.Ramaiah Institute of Technology ,Bangalore.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\nNIL\n\n## Roles and Responsibilities: Department Level\n\n1.Time table coordinator 2.Course coordinator  3.Class teacher  4.mentor",
+    md: `## Professional Experience
+
+- Teaching: 16 Years
+- Research: 6 Years
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [saradapratapa.maths@atme.edu.in](mailto:saradapratapa.maths@atme.edu.in) | Personal: [sarada.pratapa@gmail.com](mailto:sarada.pratapa@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/268133>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=xtmiXkAAAAAJ>
+- **Scopus ID:** Nil
+- **Orcid ID:** <http://www.orcid.org/0000-0001-8921-2293>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** <https://www.linkedin.com/in/sarada-pratapa-03b765191/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** Pursuing
+- **M.Sc.** in Applied Mathematics
+- **B.Sc.**
+
+## Areas of Interest
+
+- Fluid Mechanics
+
+## Publication Details
+
+1. Paper titled "Variable Viscosity and Prandtl Number Effects on Natural Convection Water Boundary Layers about a Vertical Plate" has been published in International Journal of Scientific Engineering & Research, ISSN: 2277-9655, Volume 6, Issue 7, July 2018, pp 110-113.
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Essentials of Sciences for Engineering and Research 2025, from 15th Jan to 17th January 2025 at ATMECE, Mysuru.
+2. Essentials of Sciences for Engineering and Research 2024, from 26th Feb to 1st March 2024 at ATMECE, Mysuru.
+3. Participated in Mathematical Modeling and Numerical Technics in Engineering and Science, Oct 9th-13th 2018 at Dept. of Mathematics, NITW, India.
+4. Participated in IEEE two day workshop on Research Methodology at NIEIT, Mysuru on 7-8th Sep 2018.
+5. Participated in the Workshop on New Model Curriculum for First Year BE/B.Tech on 19th May 2018 at SCEM, Mangalore, conducted by VTU, Belagavi.
+6. Participated in workshop on Information Literacy for Academic and Research Publication on 30th Jan 2018 at NIEIT, Mysuru.
+7. Participated in One week Training Programme on Instructional Design and Delivery System on 1st-6th Jan 2018 at NIEIT, Mysuru.
+8. Participated in one day workshop on Awareness Programme on Intellectual Property Rights for Research and Academicians on 2nd March 2017 at NIEIT, Mysuru.
+9. Participated in one day National Seminar on Nano Technology for Energy, Environment and Health on 28th Feb 2017 at NIEIT, Mysuru.
+10. Participated in International Symposium on Smart Grid Technology on 27th and 28th Jan 2017 at NIEIT, Mysuru.
+11. Participated in one week Faculty Development Programme on Computational Linear Algebra on 7th-11th Dec 2016 at SJCE, Mysuru.
+12. Participated in Three days Workshop on "Research Methodology and Research Motivational Aspects" from 27th to 29th July 2016 at GSSS Institute of Engineering and Technology for Women, Mysuru.
+13. Participated in Science-Engineering-Technology Conclave on 2nd-7th May 2016 at NIEIT, Mysuru.
+14. Participated in Two day National workshop on Number Theory and Works of Srinivasa Ramanujan on 26th and 27th Feb 2016, at University of Mysuru.
+15. Participated in Three Days Faculty Development Programme on "Applied Mathematics in Engineering" from 12th to 14th Jan 2016, organized by the Department of Mathematics, sponsored by TEQIP-II, at M.S. Ramaiah Institute of Technology, Bangalore.
+16. Participated in Three Days Faculty Development Programme on "Applied Mathematical Modelling" from 13th to 15th July 2015, organized by the Department of Mathematics, sponsored by TEQIP-II, at M.S. Ramaiah Institute of Technology, Bangalore.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+1. Time Table Coordinator
+2. Course Coordinator
+3. Class Teacher
+4. Mentor`,
   },
   "rangaswamy-s": {
     name: "Mr. Rangaswamy S",
     url: "https://old.atme.edu.in/mr-rangaswamy-s/",
-    md: "## Professional Experience\n\n- Teaching: 8 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [**rangaswamys\\_maths@atme.edu.in**](mailto:rangaswamys_maths@atme.edu.in)\n- **Personal:** [**rangaswamy0830@gmail.com**](mailto:rangaswamy0830@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/error?id=0&email=rangaswamy0830@gmail.com>\n- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=RhhExloAAAAJ>\n- **Scopus ID:** <https://www.scopus.com/freelookup/form/author.uri>\n- **Orcid ID:** <https://orcid.org/0000-0002-7066-406X>\n- **Web of Science Researcher ID:** **LinkedIn ID**\n- <https://www.linkedin.com/in/rangaswamy-s-2a4969263/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** in (Pursuing)\n- **M.Sc** in Mathematics\n- **B.Sc** in (PMCS)\n\n## Areas of Interest\n\n- Complex  Analysis,  Differential Equations\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n- NIL\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.\n2. Online certification and FDP on Finite difference approach  from NPTEL Jan-April 2024.\n3. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.\n4. Attended One Week State Level FDP, a workshop on Cyber Security and Digital Forensics in association with Institute of Engineers (INDIA) from 21-25 August 2023 Organized by EEE, ATME College of Engineering.\n5. Attended 3 days FDP on the theme “Inculcating UHV in Technical Education “ by AICTE at ATME College of Engineering from 2nd to 4th of November 2023\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- NIL\n\n## Roles and Responsibilities: Institute Level\n\n- Womens Committee – Member\n- Mentoring Committee – Member\n- Website Committee – Member\n\n## Roles and Responsibilities: Department Level\n\n1. Class teacher\n2. Mentor",
+    md: `## Professional Experience
+
+- Teaching: 3 Years 11 Months
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [rangaswamys_maths@atme.edu.in](mailto:rangaswamys_maths@atme.edu.in) | Personal: [rangaswamy0830@gmail.com](mailto:rangaswamy0830@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/error?id=0&email=rangaswamy0830@gmail.com>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=RhhExloAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/freelookup/form/author.uri>
+- **Orcid ID:** <https://orcid.org/0000-0002-7066-406X>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/rangaswamy-s-2a4969263/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D.** (Pursuing)
+- **M.Sc.** in Mathematics
+- **B.Sc.** (PMCS)
+
+## Areas of Interest
+
+- Complex Analysis, Differential Equations
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- NIL
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Participated in two-Day National Seminar on 'Expedition to the Matrix World (iMATH-2025)' organized by the Department of Mathematics, Seshadripuram Institute of Technology, Mysuru, held on 24–25 December 2025 through virtual mode.
+2. Completed the Udemy online course 'Patent Filing in India' instructed by Monk Akarshala on 14th October 2025 (Duration: 4.5 hours).
+3. Attended the One-Day Faculty Development Program (FDP) on 'Applied Mathematics' organized by Visvesvaraya Technological University (VTU), Belagavi, in association with Vidya Vardhaka College of Engineering, Mysuru, held on 30th August 2025.
+4. Online certification and FDP on Linear Algebra from NPTEL, Jul-Oct 2025.
+5. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.
+6. Online certification and FDP on Finite Difference Approach from NPTEL, Jan-April 2024.
+7. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.
+8. Attended One Week State Level FDP, a workshop on Cyber Security and Digital Forensics in association with Institute of Engineers (India), from 21-25 August 2023, organized by EEE, ATME College of Engineering.
+9. Attended 3 days FDP on the theme "Inculcating UHV in Technical Education" by AICTE at ATME College of Engineering from 2nd to 4th of November 2023.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- Mentor
+- Class Teacher`,
   },
   "bhanupriya-j": {
     name: "Mrs. Bhanu Priya J",
     url: "https://old.atme.edu.in/ms-bhanu-priya-j/",
-    md: "## Professional Experience\n\n- Teaching: 6 Years\n- Research: Nil\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official:** [bhanupriyaj\\_maths@atme.edu.in](mailto:bhanupriyaj_maths@atme.edu.in)\n- **Personal:** [bhanupriyaghatke@gmail.com](mailto:bhanupriyaghatke@gmail.com)\n- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201858>\n- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=mBZGaqgAAAAJ>\n- **Scopus ID:** Nil\n- **Orcid ID:** <http://www.orcid.org/0000-0002-1553-4369>\n- **Web of Science Researcher ID:** Nil\n- **LinkedIn ID:** [**linkedin.com/in/bhanu-priya-j-7473192a8**](https://www.linkedin.com/in/bhanu-priya-j-7473192a8)\n\n\n## Academic Details\n\n- **Qualification**\n- **M.Sc** in Mathematics\n- **B.Sc** in (PCM)\n\n## Areas of Interest\n\n1. Complex analysis\n\n## Publication Details\n\n- **NIL**\n\n## Membership in Professional Bodies\n\n- ISTE\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.\n2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024Mathematical Concepts by Using Free open Source software-21 to 25-07-2020(5 days), BMSIT and Management.\n3. Three Days Faculty Development Program on “Importance of NAAC Accreditation in Higher Education Institutions”-ATMECE from 09.11.2020 to 11.11.2020\n4. Three Day National Level Online Faculty Development Program on “AICTE Exam Reforms:An Overview”-ATMECE from 27.08.2020 to 29.08.2020\n5. One day FDP on Mathematics for Engineers and Engineering for Mathematicians  at Vidyavardhaka college of Engineering , Mysuru Under Cluster Center Approach of Teaching and Learning Centre, Coimbatore Institute of Technology on 27 th September 2019.\n6. One day FDP on “Basics of linear algebra for machine learning” conducted by Teaching and Learning Centre, Coimbatore Institute of Technology , Coimbatore under the aegis of cluster centre approach at Vidyavardhaka college of Engineering , Mysuru , 30 th September 2019.\n7. Two days webinar on Number Theory and its application to cryptography-10th and 11th july 2020 by The National Institute Of Engineering , Mysore.\n8. Webinar on teaching  pedagogy 17th july 2020 by ATMECE, Mysore. 9. 3 days National webinar on Mathematics and its applications- 20, 21, 22nd of july 2020 by Bapuji Institute of Engineering and Technology, Davanagere.\n10. Webinar on Moore-Penrose Inverse, Singular Values Decompositions and their applications-30th july 2020 by Vidyavardhaka College of Engineering, Mysore.\n11. One day webinar on How can I improve the quality of my performance 6th august 2020 by Vidyavardhaka College of Engineering, Mysore\n12. Webinar on Probability , Sampling Theory and their applications 24th august 2020 by Vidyavardhaka  College of Engineering, Mysore.\n13. Webinar on Sarala Ganitha 29th august 2020 by Vidyavardhaka College of Engineering, Mysore. 14. 5 days webinar series by Govt of India Field Outreach Buareau ,ATMECE , Mysore 15. 5 days Online workshop on Universal Human Value-“Inculcating Universal Human Values in Technical Education” organized by AICTE during 5-10-2020 to 9-10-2020\n16. ARPIT Course on “Pedagagical Innovations And Research Methodology” from 1-12-2020 to 31-03-2021\n17. NITTT – Module -1,from  March – April 2021.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- As a Resource Person for the Alumni Faculty Programme on the Topic “Differential Equations” organized by the Department of Mathematics of MMK AND SDM FIRST GRADE COLLEGE FOR WOMEN , Mysuru on 31 st August 2019.\n\n## Roles and Responsibilities: Institute Level\n\n1. Womens Committee – Member\n\n## Roles and Responsibilities: Department Level\n\n1. Mentoring Committee – Member\n2. Website Committee – Member\n3. Class Teacher\n4. Mentor",
+    md: `## Professional Experience
+
+- Teaching: 6 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [bhanupriyaj_maths@atme.edu.in](mailto:bhanupriyaj_maths@atme.edu.in) | Personal: [bhanupriyaghatke@gmail.com](mailto:bhanupriyaghatke@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201858>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=mBZGaqgAAAAJ>
+- **Scopus ID:** Nil
+- **Orcid ID:** <http://www.orcid.org/0000-0002-1553-4369>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** <https://www.linkedin.com/in/bhanu-priya-j-7473192a8>
+
+## Academic Details
+
+- **Qualification**
+- **M.Sc.** in Mathematics
+- **B.Sc.** (PCM)
+
+## Areas of Interest
+
+- Complex Analysis
+
+## Publication Details
+
+- NIL
+
+## Membership in Professional Bodies
+
+- ISTE
+
+## Honours/Awards/Achievements
+
+- Served as a Resource Person for the Alumni Faculty Programme on the topic "Differential Equations" organized by the Department of Mathematics of MMK and SDM First Grade College for Women, Mysuru, on 31st August 2019.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Attended three days FDP on Essentials of Sciences for Engineering and Research -2025 in ATMECE from 15th Jan 2025 to 17th Jan 2025.
+2. Attended five days FDP on Essentials of Sciences for Engineering and Research -2024 in ATMECE from 26th Feb 2024 to 1st March 2024.
+3. Mathematical Concepts by Using Free Open Source Software, 21 to 25-07-2020 (5 days), BMSIT and Management.
+4. Three Days Faculty Development Program on "Importance of NAAC Accreditation in Higher Education Institutions" – ATMECE from 09.11.2020 to 11.11.2020.
+5. Three Day National Level Online Faculty Development Program on "AICTE Exam Reforms: An Overview" – ATMECE from 27.08.2020 to 29.08.2020.
+6. One day FDP on Mathematics for Engineers and Engineering for Mathematicians at Vidyavardhaka College of Engineering, Mysuru, under Cluster Center Approach of Teaching and Learning Centre, Coimbatore Institute of Technology, on 27th September 2019.
+7. One day FDP on "Basics of Linear Algebra for Machine Learning" conducted by Teaching and Learning Centre, Coimbatore Institute of Technology, under the aegis of cluster centre approach at Vidyavardhaka College of Engineering, Mysuru, on 30th September 2019.
+8. Two days webinar on Number Theory and its Application to Cryptography, 10th and 11th July 2020, by The National Institute of Engineering, Mysore.
+9. Webinar on Teaching Pedagogy, 17th July 2020, by ATMECE, Mysore.
+10. 3 days National webinar on Mathematics and its Applications, 20, 21, 22nd of July 2020, by Bapuji Institute of Engineering and Technology, Davanagere.
+11. Webinar on Moore-Penrose Inverse, Singular Values Decompositions and their Applications, 30th July 2020, by Vidyavardhaka College of Engineering, Mysore.
+12. One day webinar on "How can I improve the quality of my performance", 6th August 2020, by Vidyavardhaka College of Engineering, Mysore.
+13. Webinar on Probability, Sampling Theory and their Applications, 24th August 2020, by Vidyavardhaka College of Engineering, Mysore.
+14. Webinar on Sarala Ganitha, 29th August 2020, by Vidyavardhaka College of Engineering, Mysore.
+15. 5 days webinar series by Govt of India Field Outreach Bureau, ATMECE, Mysore.
+16. 5 days Online workshop on Universal Human Value – "Inculcating Universal Human Values in Technical Education" organized by AICTE during 5-10-2020 to 9-10-2020.
+17. ARPIT Course on "Pedagogical Innovations and Research Methodology" from 1-12-2020 to 31-03-2021.
+18. NITTT – Module-1, from March – April 2021.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- Women's Committee – Member
+
+## Roles and Responsibilities: Department Level
+
+- Mentoring Committee – Member
+- Website Committee – Member
+- Class Teacher
+- Mentor`,
   },
   "krupa-n": {
     name: "Mrs. Krupa N",
