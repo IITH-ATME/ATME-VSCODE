@@ -771,6 +771,10 @@ function DeptSubPage() {
                 // own nested accordion instead of flattening to the default
                 // plain-divider treatment used elsewhere.
                 alwaysAccordion={dept.slug === "aiml" && pageKey === "aiml-research"}
+                // Placed-student photo cards already carry their own baked-in
+                // yellow border — render them uncropped in a 4-column grid
+                // instead of the shared 300x250 row-image box.
+                cropImages={!(dept.slug === "ds" && pageKey === "cseds-placements")}
               />
               {isCseTeachingMethods && labVideosMd && <LabVideosPanel md={labVideosMd} deptName={dept.name} />}
             </>
@@ -1404,20 +1408,8 @@ type BodySegment =
 function segmentBodyImageGroups(md: string): BodySegment[] {
   const imgOnlyLineRe = /^\s*(?:!\[[^\]]*\]\([^)\s]+(?:\s+"[^"]*")?\)\s*)+$/;
   const imgTokenRe = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-  // Merge blank-line gaps that sit directly between two image-only lines so
-  // they form one run instead of two separate one-image groups.
-  const pairGapRe = new RegExp(
-    `(${imgOnlyLineRe.source.replace(/^\^|\$$/g, "")})\\n{2,}(?=${imgOnlyLineRe.source.replace(/^\^|\$$/g, "")})`,
-    "gm"
-  );
-  let collapsed = md;
-  for (let i = 0; i < 5; i++) {
-    const next = collapsed.replace(pairGapRe, "$1\n");
-    if (next === collapsed) break;
-    collapsed = next;
-  }
 
-  const lines = collapsed.split("\n");
+  const lines = md.split("\n");
   const segments: BodySegment[] = [];
   let textBuf: string[] = [];
   let imgBuf: { alt: string; src: string }[] = [];
@@ -1432,16 +1424,30 @@ function segmentBodyImageGroups(md: string): BodySegment[] {
     imgBuf = [];
   };
 
-  for (const line of lines) {
+  // A run of blank lines only *separates* two image groups when nothing but
+  // more blank lines sits between them and the next image-only line — i.e.
+  // it's a real gap before non-image content, not just markdown spacing
+  // between adjacent photos. Any number of consecutive image-only lines
+  // (however many blank lines apart) therefore collapses into one group,
+  // instead of the previous approach of iteratively collapsing one gap at a
+  // time (capped at 5 passes), which silently left longer runs — 6+ images —
+  // split into several one-image groups.
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     if (line.trim() && imgOnlyLineRe.test(line)) {
       flushText();
       imgTokenRe.lastIndex = 0;
       let m: RegExpExecArray | null;
       while ((m = imgTokenRe.exec(line))) imgBuf.push({ alt: m[1], src: m[2] });
-    } else {
-      flushImages();
-      textBuf.push(line);
+      continue;
     }
+    if (!line.trim() && imgBuf.length) {
+      let j = i;
+      while (j < lines.length && !lines[j].trim()) j++;
+      if (j < lines.length && imgOnlyLineRe.test(lines[j])) continue; // stay in the image run
+    }
+    flushImages();
+    textBuf.push(line);
   }
   flushText();
   flushImages();
@@ -1532,7 +1538,6 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
             // img { height: auto }` rule (src/styles.css), which otherwise
             // wins on specificity and lets every image fall back to its own
             // natural aspect ratio.
-            void cropImages;
             return (
               <img
                 key={i}
@@ -1543,7 +1548,7 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
               />
             );
           })()
-        ) : (
+        ) : cropImages ? (
           <div
             key={i}
             className={`grid grid-cols-2 gap-3 ${seg.images.length >= 3 ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
@@ -1565,6 +1570,27 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
                   alt={p.alt || ""}
                   loading="lazy"
                   className="mx-auto !w-[300px] !h-[250px] max-w-full object-cover rounded-lg border border-border bg-white"
+                />
+              );
+            })}
+          </div>
+        ) : (
+          // cropImages=false: each source image already carries its own
+          // baked-in yellow border (e.g. placed-student cards), so cropping
+          // to a shared box would clip content and a second CSS border would
+          // double up. Lay them out as an individually-bordered 4-column
+          // grid instead, at their natural aspect ratio (no crop/upscale).
+          <div key={i} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {seg.images.map((p, j) => {
+              const resolved = rewriteImageSrc(p.src);
+              if (!resolved) return null;
+              return (
+                <img
+                  key={j}
+                  src={resolved}
+                  alt={p.alt || ""}
+                  loading="lazy"
+                  className="mx-auto w-full h-auto max-w-[280px] object-contain bg-white"
                 />
               );
             })}
