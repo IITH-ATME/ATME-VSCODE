@@ -1551,21 +1551,20 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
             {seg.images.map((p, j) => {
               const resolved = rewriteImageSrc(p.src);
               if (!resolved) return null;
-              // Every image in the row shares the same fixed height and
-              // object-contain fit, so a row of differently-sized/aspect
-              // source photos still lines up edge-to-edge without any of
-              // them being cropped, stretched, or upscale-blurred. `!h-*`
-              // forces this past the ambient `.content-prose img { height:
-              // auto }` rule (src/styles.css), which otherwise wins on
-              // specificity and lets each image fall back to its own
-              // natural aspect ratio — the unequal-height bug.
+              // Standard 300x250 box for every accordion row image, so a row
+              // of differently-sized/aspect source photos still lines up
+              // edge-to-edge at the same height. `!h-*`/`!w-*` force this
+              // past the ambient `.content-prose img { height: auto }` rule
+              // (src/styles.css), which otherwise wins on specificity and
+              // lets each image fall back to its own natural aspect ratio —
+              // the unequal-height bug.
               return (
                 <img
                   key={j}
                   src={resolved}
                   alt={p.alt || ""}
                   loading="lazy"
-                  className="w-full !h-64 sm:!h-72 md:!h-80 object-contain rounded-lg border border-border bg-white"
+                  className="mx-auto !w-[300px] !h-[250px] max-w-full object-cover rounded-lg border border-border bg-white"
                 />
               );
             })}
