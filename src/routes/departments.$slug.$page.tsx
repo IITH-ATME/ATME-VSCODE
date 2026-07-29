@@ -2183,9 +2183,9 @@ function CourseResourceTable({ section }: { section: ParsedSection }) {
         <table className="text-sm w-full border-collapse [&_th]:border [&_th]:border-[#f5c518] [&_td]:border [&_td]:border-[#f5c518]/40">
           <thead>
             <tr className="bg-[#129199]/10 text-[#129199]">
-              <th className="text-left p-2 border-b border-[#f5c518] w-14">Sl.No.</th>
+              <th className="text-left p-2 border-b border-[#f5c518] w-10">Sl.No.</th>
               <th className="text-left p-2 border-b border-[#f5c518]">Course Title</th>
-              <th className="text-left p-2 border-b border-[#f5c518] w-28">Course Code</th>
+              <th className="text-left p-2 border-b border-[#f5c518] w-44">Course Code</th>
               {DOC_KIND_HEADERS.map((h) => (
                 <th key={h.key} className="text-center p-2 border-b border-[#f5c518] w-28 whitespace-nowrap">
                   {h.label}
