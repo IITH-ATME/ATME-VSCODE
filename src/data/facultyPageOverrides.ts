@@ -8555,7 +8555,8 @@ MOOC Certification:
 
 ## Academic Details
 
-- **M.Tech** in Structural Engineering
+- **Qualification**
+- **M. Tech** in Structural Engineering
 - **B.E** in Civil Engineering
 
 ## Professional Experience
