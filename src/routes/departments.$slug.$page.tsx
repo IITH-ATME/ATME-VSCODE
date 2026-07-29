@@ -39,7 +39,7 @@ import { formatFacultyName } from "@/lib/facultyName";
 import { rewriteHref } from "@/data/linkRewrite";
 import { rewriteImageSrc, rewritePdfHref } from "@/data/imageRewrite";
 import { resolveAssetUrl } from "@/lib/assetUrl";
-import { STUDENT_LEARNING_2026_27 } from "@/data/studentLearningCourses2026";
+import { STUDENT_LEARNING_2026_27, FIRST_YEAR_TABLE_TITLE } from "@/data/studentLearningCourses2026";
 
 // Context lets the MD <a> renderer know which department it's rendering for,
 // so it can route faculty-profile links to the internal /departments/<dept>/
@@ -2450,6 +2450,11 @@ function StudentLearningCentric({ md, deptName, slug, labVideosMd = "" }: { md: 
           presentation slides for {deptName}. For pedagogy and classroom methods
           adopted by faculty, refer to the <em>Innovative Teaching Learning Methods</em> page.
         </div>
+        {(slug === "physics" || slug === "chemistry") && (
+          <h3 className="font-display text-lg md:text-xl font-bold text-[#129199]">
+            {FIRST_YEAR_TABLE_TITLE}
+          </h3>
+        )}
         <div className="space-y-6">
           {tableSections.map((s, i) => (
             <CourseResourceTable key={i} section={s} />
