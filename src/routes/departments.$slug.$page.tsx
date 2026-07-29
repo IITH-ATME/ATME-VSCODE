@@ -2233,48 +2233,6 @@ function CourseResourceTable({ section }: { section: ParsedSection }) {
   );
 }
 
-function SemesterScaffoldTable({ semester, deptName }: { semester: string; deptName: string }) {
-  return (
-    <div className="rounded-2xl border-2 border-[#f5c518] bg-white overflow-hidden">
-      <div
-        className="px-4 py-3 text-white font-display font-bold flex items-center justify-between"
-        style={{ backgroundColor: "#129199" }}
-      >
-        <span>Semester {semester}</span>
-        <span className="text-xs font-semibold bg-white/15 px-2 py-0.5 rounded">
-          {deptName}
-        </span>
-      </div>
-      <div className="table-scroll">
-        <table className="text-sm w-full border-collapse [&_th]:border [&_th]:border-[#f5c518] [&_td]:border [&_td]:border-[#f5c518]/40">
-          <thead>
-            <tr className="bg-[#129199]/10 text-[#129199]">
-              <th className="text-left p-2 border-b border-[#f5c518] w-14">Sl.No.</th>
-              <th className="text-left p-2 border-b border-[#f5c518]">Course Title</th>
-              <th className="text-left p-2 border-b border-[#f5c518] w-28">Course Code</th>
-              {DOC_KIND_HEADERS.map((h) => (
-                <th key={h.key} className="text-center p-2 border-b border-[#f5c518] w-28 whitespace-nowrap">
-                  {h.label}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td
-                colSpan={3 + DOC_KIND_HEADERS.length}
-                className="p-4 text-center text-sm text-muted-foreground italic"
-              >
-                Coming Soon
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
-}
-
 function LabVideosPanel({ md, deptName }: { md: string; deptName: string }) {
   // `extractLabVideos` already strips the "Lab Videos" wrapper heading, so
   // `md` here is wrapper-free video content ready to hand to AccordionedContent.
@@ -2545,18 +2503,23 @@ function StudentLearningCentric({ md, deptName, slug, labVideosMd = "" }: { md: 
     .map((roman, idx) => ({ heading: `Semester ${roman}`, rows: bySem[idx + 1] || [] }))
     .filter((s) => s.rows.length > 0);
 
+  const hasRealFallbackContent = md && md.replace(/\s+/g, " ").trim().length > 0;
+  const noContentAtAll = fallbackSections.length === 0 && !hasRealFallbackContent;
+
   return (
     <div className="space-y-8">
       <SyllabusLinks slug={slug} />
-      <div className="rounded-xl border border-[#129199]/20 bg-[#129199]/5 px-4 py-3 text-sm text-foreground/80">
+      {!noContentAtAll && (
+        <div className="rounded-xl border border-[#129199]/20 bg-[#129199]/5 px-4 py-3 text-sm text-foreground/80">
 
-        Semester-wise learning resources for {deptName}. Course module, lesson plan,
-        notes / lab manual and presentation slides are linked under each course below.
-        For pedagogy and classroom methods adopted by faculty, refer to the{" "}
-        <em>Innovative Teaching Learning Methods</em> page.
-      </div>
+          Semester-wise learning resources for {deptName}. Course module, lesson plan,
+          notes / lab manual and presentation slides are linked under each course below.
+          For pedagogy and classroom methods adopted by faculty, refer to the{" "}
+          <em>Innovative Teaching Learning Methods</em> page.
+        </div>
+      )}
       {fallbackSections.length === 0 ? (
-        md && md.replace(/\s+/g, " ").trim().length > 400 ? (
+        hasRealFallbackContent ? (
           <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 md:p-6 overflow-hidden">
             <h3 className="font-display text-lg md:text-xl font-bold text-[#129199] mb-3">
               {deptName} — Course Materials & Resources
@@ -2565,13 +2528,7 @@ function StudentLearningCentric({ md, deptName, slug, labVideosMd = "" }: { md: 
               <MD>{md}</MD>
             </div>
           </section>
-        ) : (
-          <div className="space-y-6">
-            {ROMAN.map((roman) => (
-              <SemesterScaffoldTable key={roman} semester={roman} deptName={deptName} />
-            ))}
-          </div>
-        )
+        ) : null
       ) : (
         <div className="space-y-6">
           {fallbackSections.map((s, i) => (
