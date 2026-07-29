@@ -659,8 +659,10 @@ function DeptSubPage() {
   const isCseTeachingMethods = dept.slug === "cse" && k === "innovative-teaching-learning-methods";
   // ECE/EEE's Student Learning page shouldn't show the bottom Course Videos
   // panel — it duplicated the department YouTube channel link already
-  // shown in the top resource card.
-  const studentLearningLabVideosMd = STUDENT_LEARNING_2026_27[dept.slug] ? "" : labVideosMd;
+  // shown in the top resource card. Physics/Chemistry keep it: their panel
+  // carries a per-experiment lab-video table, not just the channel link.
+  const suppressLabVideos = STUDENT_LEARNING_2026_27[dept.slug] && dept.slug !== "physics" && dept.slug !== "chemistry";
+  const studentLearningLabVideosMd = suppressLabVideos ? "" : labVideosMd;
 
   return (
     <DeptContext.Provider value={dept.slug}>
