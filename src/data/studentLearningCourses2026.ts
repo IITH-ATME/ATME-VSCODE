@@ -121,7 +121,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
         row("02", "1BMATS101", "Calculus and Linear Algebra: CSE Stream", { module: "/pdfs/student-learning-2026-27/physics/1BMATS101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATS101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATS101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATS101/PPT.pptx" }),
         row("03", "1BMATM201", "Differential Calculus and Linear Algebra: ME", { module: "/pdfs/student-learning-2026-27/physics/1BMATM201/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BMATM201/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BMATM201/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BMATM201/PPT.pptx" }),
         row("04", "1BMATE101", "Differential Calculus and Linear Algebra: EEE", { module: "/pdfs/student-learning-2026-27/physics/1BMATE101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATE101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATE101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATE101/PPT.pptx" }),
-        row("05", "1BMATC101", "Differential Calculus and Linear Algebra: CV", {  }),
+        row("05", "1BMATC101", "Differential Calculus and Linear Algebra: CV", { module: "/pdfs/student-learning-2026-27/physics/1BMATC101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATC101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATC101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATC101/PPT.pptx" }),
       ],
     },
     {
@@ -137,7 +137,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "EMERGING TECHNOLOGY COURSES",
       rows: [
-        row("01", "1BAIA103 & 203", "Introduction to AI & Applications", {  }),
+        row("01", "1BAIA103 & 203", "Introduction to AI & Applications", { module: "/pdfs/student-learning-2026-27/physics/1BAIA103-203/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BAIA103-203/Lesson-Plan.zip", notes: "/pdfs/student-learning-2026-27/physics/1BAIA103-203/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BAIA103-203/PPT.zip" }),
       ],
     },
     {
@@ -153,11 +153,11 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "ENGINEERING SCIENCE COURSES I & II",
       rows: [
-        row("01", "1BESC104A", "Building Sciences and Mechanics", {  }),
-        row("02", "1BESC104B", "Introduction to Electrical Engineering", {  }),
-        row("03", "1BESC104C", "Introduction to Electronics and Communication Engineering", {  }),
-        row("04", "1BESC104D", "Introduction to Mechanical Engineering", {  }),
-        row("05", "1BESC104E", "Essentials of Information Technology", {  }),
+        row("01", "1BESC104A", "Building Sciences and Mechanics", { module: "/pdfs/student-learning-2026-27/physics/1BESC104A/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BESC104A/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BESC104A/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BESC104A/PPT.zip" }),
+        row("02", "1BESC104B", "Introduction to Electrical Engineering", { module: "/pdfs/student-learning-2026-27/physics/1BESC104B/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BESC104B/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BESC104B/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BESC104B/PPT.zip" }),
+        row("03", "1BESC104C", "Introduction to Electronics and Communication Engineering", { module: "/pdfs/student-learning-2026-27/physics/1BESC104C/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BESC104C/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BESC104C/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BESC104C/PPT.pptx" }),
+        row("04", "1BESC104D", "Introduction to Mechanical Engineering", { module: "/pdfs/student-learning-2026-27/physics/1BESC104D/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BESC104D/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BESC104D/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BESC104D/PPT.zip" }),
+        row("05", "1BESC104E", "Essentials of Information Technology", { module: "/pdfs/student-learning-2026-27/physics/1BESC104E/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BESC104E/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BESC104E/Notes-Lab-Manual.zip" }),
       ],
     },
     {
@@ -171,16 +171,16 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "PROGRAMMING LANGUAGE COURSES",
       rows: [
-        row("01", "1BPLC105B & 205B", "Python Programming", {  }),
-        row("02", "1BPLC205E & 105E", "Introduction to C Programming", {  }),
+        row("01", "1BPLC105B & 205B", "Python Programming", { module: "/pdfs/student-learning-2026-27/physics/1BPLC105B-205B/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BPLC105B-205B/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BPLC105B-205B/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BPLC105B-205B/PPT.zip" }),
+        row("02", "1BPLC205E & 105E", "Introduction to C Programming", { module: "/pdfs/student-learning-2026-27/physics/1BPLC205E-105E/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BPLC205E-105E/Lesson-Plan.zip", notes: "/pdfs/student-learning-2026-27/physics/1BPLC205E-105E/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BPLC205E-105E/PPT.zip" }),
       ],
     },
     {
       heading: "HUMANITIES COURSES",
       rows: [
-        row("01", "1BENG106 & 206", "Communication Skills", {  }),
+        row("01", "1BENG106 & 206", "Communication Skills", { module: "/pdfs/student-learning-2026-27/physics/1BENG106-206/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BENG106-206/Lesson-Plan.docx", ppt: "/pdfs/student-learning-2026-27/physics/1BENG106-206/PPT.zip" }),
         row("02", "1BSKS106 & 206", "Soft Skills", { module: "/pdfs/student-learning-2026-27/physics/1BSKS106-206/Course-Module.pdf" }),
-        row("03", "1BICO107 & 207", "Indian Constitution & Engineering Ethics", {  }),
+        row("03", "1BICO107 & 207", "Indian Constitution & Engineering Ethics", { module: "/pdfs/student-learning-2026-27/physics/1BICO107-207/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BICO107-207/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BICO107-207/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BICO107-207/PPT.zip" }),
         row("04", "1BKSK109 (BKSK107)", "Samskrutika Kannada", { module: "/pdfs/student-learning-2026-27/physics/1BKSK109-BKSK107/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BKSK109-BKSK107/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BKSK109-BKSK107/Notes-Lab-Manual.pdf" }),
         row("05", "1BKBK109 (BKBK107)", "Balake Kannada", { module: "/pdfs/student-learning-2026-27/physics/1BKBK109-BKBK107/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BKBK109-BKBK107/Lesson-Plan.docx" }),
       ],
@@ -194,7 +194,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "PROJECT BASED LEARNING COURSES",
       rows: [
-        row("01", "1BIDTL158", "Innovation and Design Thinking Lab", {  }),
+        row("01", "1BIDTL158", "Innovation and Design Thinking Lab", { module: "/pdfs/student-learning-2026-27/physics/1BIDTL158/Course-Module.zip", notes: "/pdfs/student-learning-2026-27/physics/1BIDTL158/Notes-Lab-Manual.pdf" }),
       ],
     },
   ],
@@ -227,11 +227,11 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "COMPUTER AIDED ENGINEERING DRAWING",
       rows: [
-        row("01", "1BCEDEC103 & 203", "Computer-Aided Engineering Drawing for ECE Stream", {  }),
-        row("02", "1BCEDE103 & 203", "Computer-Aided Engineering Drawing for EEE Stream", {  }),
-        row("03", "1BCEDC103 & 203", "Computer-Aided Engineering Drawing for CV Stream", {  }),
-        row("04", "1BCEDM103 & 203", "Computer-Aided Engineering Drawing for ME Stream", {  }),
-        row("05", "1BCEDS103 & 203", "Computer-Aided Engineering Drawing for CSE Stream", {  }),
+        row("01", "1BCEDEC103 & 203", "Computer-Aided Engineering Drawing for ECE Stream", { module: "/pdfs/student-learning-2026-27/chemistry/1BCEDEC103-203/Course-Module.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCEDEC103-203/Notes-Lab-Manual.zip" }),
+        row("02", "1BCEDE103 & 203", "Computer-Aided Engineering Drawing for EEE Stream", { module: "/pdfs/student-learning-2026-27/chemistry/1BCEDE103-203/Course-Module.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCEDE103-203/Notes-Lab-Manual.zip" }),
+        row("03", "1BCEDC103 & 203", "Computer-Aided Engineering Drawing for CV Stream", { module: "/pdfs/student-learning-2026-27/chemistry/1BCEDC103-203/Course-Module.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCEDC103-203/Notes-Lab-Manual.zip" }),
+        row("04", "1BCEDM103 & 203", "Computer-Aided Engineering Drawing for ME Stream", { module: "/pdfs/student-learning-2026-27/chemistry/1BCEDM103-203/Course-Module.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCEDM103-203/Notes-Lab-Manual.zip" }),
+        row("05", "1BCEDS103 & 203", "Computer-Aided Engineering Drawing for CSE Stream", { module: "/pdfs/student-learning-2026-27/chemistry/1BCEDS103-203/Course-Module.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCEDS103-203/Notes-Lab-Manual.zip" }),
       ],
     },
     {
@@ -247,8 +247,8 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "PROGRAMMME SPECIFICA COURSES I & II",
       rows: [
-        row("01", "1BCIV105 & 205", "Engineering Mechanics", {  }),
-        row("02", "1BECE105-205", "Fundamentals of Electronics & Communication Engineering", {  }),
+        row("01", "1BCIV105 & 205", "Engineering Mechanics", { module: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/PPT.pdf" }),
+        row("02", "1BECE105-205", "Fundamentals of Electronics & Communication Engineering", { module: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/PPT.pptx" }),
         row("03", "1BEIT105 & 205", "Programming in C", {  }),
       ],
     },
@@ -263,16 +263,16 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
       heading: "HUMANITIES COURSES",
       rows: [
         row("01", "1BENG106 & 206", "Communication Skills", { module: "/pdfs/student-learning-2026-27/chemistry/1BENG106-206/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BENG106-206/Lesson-Plan.docx", ppt: "/pdfs/student-learning-2026-27/chemistry/1BENG106-206/PPT.zip" }),
-        row("02", "1BSKS106 & 206", "Soft Skills", {  }),
+        row("02", "1BSKS106 & 206", "Soft Skills", { module: "/pdfs/student-learning-2026-27/chemistry/1BSKS106-206/Course-Module.pdf" }),
         row("03", "1BICO107 & 207", "Indian Constitution & Engineering Ethics", { module: "/pdfs/student-learning-2026-27/chemistry/1BICO107-207/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BICO107-207/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BICO107-207/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/chemistry/1BICO107-207/PPT.zip" }),
-        row("04", "1BKSK109 (BKSK107)", "Samskrutika Kannada", {  }),
-        row("05", "1BKBK109 (BKBK107)", "Balake Kannada", {  }),
+        row("04", "1BKSK109 (BKSK107)", "Samskrutika Kannada", { module: "/pdfs/student-learning-2026-27/chemistry/1BKSK109-BKSK107/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BKSK109-BKSK107/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/chemistry/1BKSK109-BKSK107/Notes-Lab-Manual.pdf" }),
+        row("05", "1BKBK109 (BKBK107)", "Balake Kannada", { module: "/pdfs/student-learning-2026-27/chemistry/1BKBK109-BKBK107/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BKBK109-BKBK107/Lesson-Plan.docx" }),
       ],
     },
     {
       heading: "PROGRAMME SPECIFICA LAB COURSES I & II",
       rows: [
-        row("01", "1BECEL107", "Fundamentals of Electronics & Communication Engineering (Lab)", {  }),
+        row("01", "1BECEL107", "Fundamentals of Electronics & Communication Engineering (Lab)", { module: "/pdfs/student-learning-2026-27/chemistry/1BECEL107/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/chemistry/1BECEL107/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BECEL107/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/chemistry/1BECEL107/PPT.pptx" }),
       ],
     },
     {
@@ -281,4 +281,5 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
         row("01", "1BIDTL158", "Innovation and Design Thinking Lab", { module: "/pdfs/student-learning-2026-27/chemistry/1BIDTL158/Course-Module.zip", notes: "/pdfs/student-learning-2026-27/chemistry/1BIDTL158/Notes-Lab-Manual.pdf" }),
       ],
     },
-  ],};
+  ],
+};
