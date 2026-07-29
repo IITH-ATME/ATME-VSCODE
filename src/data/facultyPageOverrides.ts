@@ -8785,4 +8785,251 @@ Completed Mooc courses on:
 - Department Website Coordinator
 - Department Library committee member`,
   },
+  "madhurya-b-eshwar": {
+    name: "Mrs. Madhurya B Eshwar",
+    url: "https://old.atme.edu.in/madhurya-b-eshwar/",
+    md: `## Professional Experience
+
+- Teaching: 6.2 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [madhuryabeshwar.ec@atme.edu.in](mailto:madhuryabeshwar.ec@atme.edu.in) | Personal: [madhuryaharish@gmail.com](mailto:madhuryaharish@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/612517>
+- **Google Scholar ID:** <https://scholar.google.com/citations?view_op=list_works&hl=id&user=F5pbyu4AAAAJ>
+- **Scopus ID:** Nil
+- **Orcid ID:** <https://orcid.org/0009-0006-9416-7507>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** Nil
+
+## Academic Details
+
+- **Qualification**
+- **M.Tech** in Digital Electronics and Communication Systems
+- **B.E** in Electronics and Communication
+
+## Areas of Interest
+
+1. Networking
+2. Communication Systems
+3. Image processing
+
+## Publication Details
+
+1. Madhurya B Eshwar, PC Srikanth, "A New Trustworthy and Co-operative Nodes Based MIMO Route Discovery Algorithm for WSN", International Journal of Emerging Technology and Advanced Engineering, ISSN 2250-2459, ISO 9001:2008 Certified Journal, Volume 3, Issue 5, May 2013. <https://scholar.google.com/scholar?cluster=2382664783578497064&hl=en&oi=scholarr>
+2. Madhurya B Eshwar, PC Srikanth, "A New Cooperative Nodes Based Route Discovery and Game Theory Based Routing Algorithm for WSN", International Conference on Electronics and Communication Engineering, 24th April 2013.
+3. Madhurya B Eshwar, S Manjunath, Mohan C, Ravi Shankar B M and Sukesh Kumar U, "Optimal Allocation of EV Charging Station using Newton-Raphson Algorithm and Performance Analysis Under Plug-in Electrical Vehicle Penetration".
+
+## Membership in Professional Bodies
+
+1. IAENG
+
+## Honours/Awards/Achievements
+
+1. Secured VTU 2nd rank in M.Tech
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Six day FDP – "Innovative VLSI Paradigms: MEMS, 3D ICs, and AI-Driven Design" organized by Vidya Vikas Institute of Engineering & Technology from 06/01/2025 to 11/01/2025.
+2. Three day National level FDP – "Indian Knowledge System" organized by ATMECE, Mysuru from 05/03/2025 to 07/03/2025.
+3. Five day FDP – "Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications" organized by ATMECE, Mysuru from 10/03/2025 to 14/03/2025.
+4. Three day Workshop – "Patent Drafting, Filing and Interpretation" organized by ATMECE, Mysuru from 12/06/2025 to 14/06/2025.
+5. One day FDP on "AI and its Applications-2025 Scheme" organized by VVCE, Mysuru in association with VTU Belagavi on 30/08/2025.
+6. One day International Faculty Development Program on "Growing Globally Competitive Currency in Higher Education", delivered by Futred Innovation Studios, Australia, on 08-10-2025 at ATME College of Engineering, Mysuru.
+7. One day ToT workshop on "Innovation and Design Thinking" organized by VVCE, Mysuru in association with VTU VRIF on 10/10/2025.
+8. One week FDP on "Empowering Research Excellence" organized by Department of Management Studies, VTU Centre for PGS, Mysuru from 24/11/2025 to 28/11/2025.
+9. One day International Faculty Development Program on "Growing Globally Competitive Currency in Higher Education", delivered by Futred Innovation Studios, Australia, on 11-02-2026 at ATME College of Engineering, Mysuru.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+1. Member of the College Magazine Dynamics Committee
+2. Member of ECE Department Newsletter
+3. Team member of NAAC Criteria 6`,
+  },
+  "swetha-k-t": {
+    name: "Mrs. Swetha K T",
+    url: "https://old.atme.edu.in/swetha-k-t/",
+    md: `## Professional Experience
+
+- Teaching: 09 Years
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [swethakt.ec@atme.edu.in](mailto:swethakt.ec@atme.edu.in) | Personal: [2007.swetha@gmail.com](mailto:2007.swetha@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/543031>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=znzcZucAAAAJ=en&user=mQDgvc8AAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=59700856100>
+- **Orcid ID:** <https://orcid.org/0009-0003-6119-9439>
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/swetha-k-t-153b563b1/>
+
+## Academic Details
+
+- **Qualification**
+- **M.Tech.** in Digital Electronics & Communication Systems
+- **MBA** (HRM Specialization)
+- **PG Diploma** in HRM
+- **B.E** in Electronics & Communication Engineering
+
+## Areas of Interest
+
+- Signals & Systems, Digital Electronics, Electromagnetic Waves, Network Analysis, Antenna Theory
+
+## Publication Details
+
+**International Conferences:**
+
+1. "Music Instruments Classification using Signal Processing and Machine Learning", IEEE International Conference on Networks, Multimedia and Information Technology (NMITCON-2025), published in IEEE Xplore (Scopus Indexed).
+2. "Optimized Audio Classification with Convolution Neural Network Ensembles", International Conference Recent Advances in Science & Engineering Technology (ICRASET), 2024, published in IEEE Xplore (Scopus Indexed).
+3. "Unimodal Biometric Authentication System using Social Network Analysis", International Conference on "Next-Gen Semiconductor Device and Smart Computing Applications", Cambridge Institute of Technology, Bengaluru on 20th & 21st December 2024.
+4. Paper titled "Investigation of the effect of Training Data on the Performance of Support Vector Machine in Classification of Brain MR Images" has been published in volume 1 Issue 4 June 2014 in International Journal of Emerging Trends in Science and Technology.
+5. Paper titled "Performance Analysis of Different ANN Structures in Classifying Brain MRI Images for various Training Data" has been published in volume 2 Issue 5 May 2014 in International Journal of Scientific Research and Education.
+6. Presented a paper titled "Implementation of Coded OFDM using AWGN and Rayleigh Noise", in International Conference on "Technology Management for Green Environment" (ICTMGE-2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
+7. Presented a paper titled "Career Planning and Development at Bajaj Allianz Life Insurance Company Limited", Mysuru, in International Conference on "Technology Management for Green Environment" (ICTMGE-2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
+
+**National Conferences**
+
+1. "Automatic Driving License Test using LabVIEW", paper presented in National Conference on "Smart Systems and Emerging Trends in Electronics and Electrical Engineering" on August 21st, 2025, at GM University Devanagere.
+2. Paper titled: "Calmify AI: AI Based Mental Health Chatbot" presented in Two-Day National Conference on "Artificial Intelligence and Machine Learning for Better Tomorrow" (NCAIMLBT-2026) held on 8th and 9th January 2026, organized by Brindavan College of Engineering, Bengaluru.
+
+## Membership in Professional Bodies
+
+- Member of Indian Society of Technical Education (MISTE)
+- Member of International Association of Engineers (IAENG)
+
+## Honours/Awards/Achievements
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**Faculty Development Programs**
+
+1. Attended one-week offline FDP on "AI & Quantum Driven Image Processing from Theory to Practice" organized by Department of ECE, Dayananda Sagar College of Engineering, Bengaluru from 09th Feb 2026 to 14th Feb 2026.
+2. Attended one-week online ATAL FDP on "Advanced Perspectives in IOT" organized by Government College of Engineering, Station Road Aurangabad from 09th Feb 2026 to 14th Feb 2026.
+3. Attended one-week online ATAL FDP on "Digital Application Fundamentals" organized by NASSCOM from 02nd Feb 2026 to 07th Feb 2026.
+4. Attended one-week online ATAL FDP on "Artificial Intelligence in Healthcare: Intelligent Systems and Applications for Modern Technical Needs" organized by Sreenidhi Institute of Science & Technology from 05th Jan 2026 to 10th Jan 2026.
+5. Attended 5 Day FDP on "Real-Time Digital Signal Processing & Generative AI in Multimodal Medical Imaging" organized by ATME College of Engineering, Mysuru from 6th Jan 2026 to 10th Jan 2026.
+6. Attended One-Week Workshop on "Wireless Power Transfer: Concepts and Applications" organized by Ramaiah Institute of Technology, Bengaluru from 30th June 2025 to 4th July 2025.
+7. Five Day Online FDP on "Inculcating Universal Human Values in Technical Education" from 9th to 14th June 2025 organized by AICTE.
+8. Five Day FDP on "Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications" from 10th to 14th March 2025 organized by Department of E&CE, ATME in association with ATME IEEE Chapter.
+9. Three Day FDP on "Unlocking Generative AI" from 10th to 12th February 2025 organized by Department of CSE – Data Science, ATME in association with IEI, ATME IEEE Chapter and IQAC.
+10. AICTE Training and Learning (ATAL) Academy Faculty Development Program on "Next-Gen System-on-Chip Design for Advanced Semiconductor Solutions" at R.V. College of Engineering, Bengaluru from 12th to 24th August 2024.
+11. NPTEL-AICTE FDP Certification for the successful completion of an 8 Week course "An Introduction to Coding Theory".
+
+**MOOC Certifications**
+
+1. NPTEL Swayam Plus Online Certification on "AI for Educators" from IITM Pravarthak Technologies Foundation during Nov 2025 - Feb 2026.
+2. NPTEL Online Certification for a 12-week course "Signal Processing Techniques and its Applications" from Indian Institute of Technology, Kharagpur during January – April 2026.
+3. NPTEL Online Certification for an 8-week course "Soft Skill Development" from Indian Institute of Technology, Kharagpur – March 2026.
+4. NPTEL Online Certification for a 12-week course "NBA Accreditation and Teaching & Learning in Engineering" from Indian Institute of Science, Bengaluru during January – April 2025.
+5. NPTEL Online Certification for a 12-week course "A Basic Course on Electric and Magnetic Circuits" from IIT, Kharagpur during July-October 2024.
+6. NPTEL Online Certification for an 8-week course "An Introduction to Coding Theory" from IIT, Kanpur during July-September 2024.
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+- NIL
+
+## Roles and Responsibilities: Institute Level
+
+- Admission Committee
+
+## Roles and Responsibilities: Department Level
+
+- NBA Criteria 2 Coordinator
+- Academic Coordinator
+- EMS Coordinator`,
+  },
+  "sneha-m": {
+    name: "Sneha M",
+    url: "https://atme.edu.in/sneha-m/",
+    md: `## Professional Experience
+
+- Teaching: 2.2 Years
+- Research: –
+- Industry: –
+
+## Contact Details
+
+- **Joining Date:** 06-07-2026
+- **Email ID:** Official: [sneham.mba@atme.edu.in](mailto:sneham.mba@atme.edu.in) | Personal: [sneham3105@gmail.com](mailto:sneham3105@gmail.com)
+- **Vidwan ID:** 724885
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=2h3iKHkAAAAJ&hl=en>
+- **Scopus ID:** –
+- **Orcid ID:** 0009-0001-7608-7910
+- **Web of Science Researcher ID:** –
+- **LinkedIn ID:** <https://www.linkedin.com/in/sneha-m-a40996294>
+
+## Academic Details
+
+- **Qualification**
+- **MBA** in Finance, KSET 2025
+
+## Areas of Interest
+
+- Teaching and Training
+- Corporate Training
+- Student Mentoring and Career Guidance
+- Event Planning and Management
+- Competitive Examination Coaching
+- Communication and Professional Development
+
+## Publication Details
+
+- –
+
+## Membership in Professional Bodies
+
+- –
+
+## Honours/Awards/Achievements
+
+- Qualified KSET (2025)
+- Corporate Training Experience – L and T Industries
+- Professional Engagement – TIE events, Mysuru
+- Communication Skills – Certified by TCS Ion
+- Accounting Fundamentals – Certified by TCS Ion
+- Fundamentals of Computerised Accounting – Sakhi Foundation
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Digital Marketing – Infosys, Mysuru
+
+## Proposal/Funding/Project Financial Assistance
+
+- –
+
+## Patent
+
+- National – –
+- International – –
+
+## Roles and Responsibilities: Institute Level
+
+- –
+
+## Roles and Responsibilities: Department Level
+
+- –`,
+  },
 };
