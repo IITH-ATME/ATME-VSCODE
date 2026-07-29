@@ -873,7 +873,7 @@ function RehostedPage() {
                           "pg5-1024x1024.jpeg","pg6-1024x1024.jpeg","pg7-1024x1024.jpeg","pg8-1024x1024.jpeg",
                           "pg9-1024x1024.jpeg","pg10-1024x1024.jpeg","pg11-1024x1024.jpeg",
                         ].map((f, i) => {
-                          const url = `/images/uploads/2026/04/${f}`;
+                          const url = resolveAssetUrl(`/images/uploads/2026/04/${f}`);
                           return (
                             <a
                               key={f}
