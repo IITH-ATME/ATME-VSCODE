@@ -119,7 +119,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
       rows: [
         row("01", "1BMATE101", "Differential Calculus and Linear Algebra: EEE Stream", { module: "/pdfs/student-learning-2026-27/physics/1BMATE101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATE101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATE101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATE101/PPT.pptx" }),
         row("02", "1BMATS101", "Calculus and Linear Algebra: CSE Stream", { module: "/pdfs/student-learning-2026-27/physics/1BMATS101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATS101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATS101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATS101/PPT.pptx" }),
-        row("03", "1BMATM201", "Differential Calculus and Linear Algebra: ME", { module: "/pdfs/student-learning-2026-27/physics/1BMATM201/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BMATM201/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BMATM201/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BMATM201/PPT.pptx" }),
+        row("03", "1BMATM101", "Differential Calculus and Linear Algebra: ME", { module: "/pdfs/student-learning-2026-27/physics/1BMATM101/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BMATM101/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BMATM101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATM101/PPT.pptx" }),
         row("04", "1BMATE101", "Differential Calculus and Linear Algebra: EEE", { module: "/pdfs/student-learning-2026-27/physics/1BMATE101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATE101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATE101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATE101/PPT.pptx" }),
         row("05", "1BMATC101", "Differential Calculus and Linear Algebra: CV", { module: "/pdfs/student-learning-2026-27/physics/1BMATC101/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BMATC101/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BMATC101/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BMATC101/PPT.pptx" }),
       ],
@@ -127,11 +127,11 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "APPLIED PHYSICS",
       rows: [
-        row("01", "1BPHEC102 & 202", "Quantum Physics and Electronics Sensors", { notes: "/pdfs/student-learning-2026-27/physics/1BPHEC102-202/Notes-Lab-Manual.pdf" }),
+        row("01", "1BPHEC102 & 202", "Quantum Physics and Electronics Sensors", { module: "/pdfs/student-learning-2026-27/physics/1BPHEC102-202/Course-Module.docx", lesson: "/pdfs/student-learning-2026-27/physics/1BPHEC102-202/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BPHEC102-202/Notes-Lab-Manual.pdf" }),
         row("02", "1BPHYS102 & 202", "Quantum Physics and Applications", { module: "/pdfs/student-learning-2026-27/physics/1BPHYS102-202/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BPHYS102-202/Lesson-Plan.zip", notes: "/pdfs/student-learning-2026-27/physics/1BPHYS102-202/Notes-Lab-Manual.zip" }),
         row("03", "1BPHEE102 & 202", "Electrical Engineering Materials", { module: "/pdfs/student-learning-2026-27/physics/1BPHEE102-202/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BPHEE102-202/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BPHEE102-202/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BPHEE102-202/PPT.zip" }),
-        row("04", "1BPHYC102 & 202", "Physics for Sustainable Structural Systems", {  }),
-        row("05", "1BPHYM102 & 202", "Physics of Materials", {  }),
+        row("04", "1BPHYC102 & 202", "Physics for Sustainable Structural Systems", { module: "/pdfs/student-learning-2026-27/physics/1BPHYC102-202/Course-Module.docx", lesson: "/pdfs/student-learning-2026-27/physics/1BPHYC102-202/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BPHYC102-202/Notes-Lab-Manual.pdf" }),
+        row("05", "1BPHYM102 & 202", "Physics of Materials", { module: "/pdfs/student-learning-2026-27/physics/1BPHYM102-202/Course-Module.docx", lesson: "/pdfs/student-learning-2026-27/physics/1BPHYM102-202/Lesson-Plan.docx", notes: "/pdfs/student-learning-2026-27/physics/1BPHYM102-202/Notes-Lab-Manual.pdf" }),
       ],
     },
     {
@@ -165,7 +165,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
       rows: [
         row("01", "1BCIV105 & 205", "Engineering Mechanics", { module: "/pdfs/student-learning-2026-27/physics/1BCIV105-205/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/physics/1BCIV105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BCIV105-205/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/physics/1BCIV105-205/PPT.pdf" }),
         row("02", "1BECE105-205", "Fundamentals of Electronics & Communication Engineering", { module: "/pdfs/student-learning-2026-27/physics/1BECE105-205/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BECE105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/physics/1BECE105-205/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BECE105-205/PPT.pptx" }),
-        row("03", "1BEIT105 & 205", "Programming in C", {  }),
+        row("03", "1BEIT105 & 205", "Programming in C", { module: "/pdfs/student-learning-2026-27/physics/1BEIT105-205/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/physics/1BEIT105-205/Lesson-Plan.zip", notes: "/pdfs/student-learning-2026-27/physics/1BEIT105-205/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/physics/1BEIT105-205/PPT.zip" }),
       ],
     },
     {
@@ -249,7 +249,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
       rows: [
         row("01", "1BCIV105 & 205", "Engineering Mechanics", { module: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Course-Module.pdf", lesson: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/Notes-Lab-Manual.pdf", ppt: "/pdfs/student-learning-2026-27/chemistry/1BCIV105-205/PPT.pdf" }),
         row("02", "1BECE105-205", "Fundamentals of Electronics & Communication Engineering", { module: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Lesson-Plan.pdf", notes: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/chemistry/1BECE105-205/PPT.pptx" }),
-        row("03", "1BEIT105 & 205", "Programming in C", {  }),
+        row("03", "1BEIT105 & 205", "Programming in C", { module: "/pdfs/student-learning-2026-27/chemistry/1BEIT105-205/Course-Module.zip", lesson: "/pdfs/student-learning-2026-27/chemistry/1BEIT105-205/Lesson-Plan.zip", notes: "/pdfs/student-learning-2026-27/chemistry/1BEIT105-205/Notes-Lab-Manual.zip", ppt: "/pdfs/student-learning-2026-27/chemistry/1BEIT105-205/PPT.zip" }),
       ],
     },
     {
