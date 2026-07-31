@@ -21,6 +21,11 @@ export const Route = createFileRoute("/campus-tour")({
             src="https://www.google.com/maps/embed?pb=!4v1700000000000!6m8!1m7!1sCAoSLEFGMVFpcE1iTklSSlNiQ3BFNGdHTzVqbDFPNE1kenB3b0M5YWxwODNFNzU0!2m2!1d12.3155768!2d76.7708122!3f178.98!4f-0.35!5f0.7820865974627469"
             width="100%"
             height="100%"
+            // The site-wide `iframe { height: auto }` reset (src/styles.css)
+            // otherwise wins over the height="100%" attribute and collapses
+            // this to the browser's ~150px default iframe height — !h-full
+            // forces it back to the parent's full height.
+            className="!h-full !w-full"
             style={{ border: 0 }}
             loading="lazy"
             allowFullScreen
