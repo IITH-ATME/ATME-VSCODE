@@ -9,6 +9,7 @@ export function InfoPage({
   intro,
   sections = [],
   children,
+  afterChildren,
 }: {
   eyebrow?: string;
   title: string;
@@ -16,6 +17,12 @@ export function InfoPage({
   intro?: string;
   sections?: { heading: string; body: ReactNode }[];
   children?: ReactNode;
+  // Rendered at full page width (container-page) below the normal
+  // max-w-4xl content column — for content like embeds that need much
+  // more room than the prose-width sections above (e.g. campus-tour's
+  // Street View widget, whose own navigation controls get cramped
+  // inside the narrow column).
+  afterChildren?: ReactNode;
 }) {
   return (
     <Layout>
@@ -36,6 +43,7 @@ export function InfoPage({
         ))}
         {children}
       </section>
+      {afterChildren && <section className="container-page pb-14">{afterChildren}</section>}
     </Layout>
   );
 }
