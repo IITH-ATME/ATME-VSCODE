@@ -29,7 +29,7 @@ const ADMISSIONS_JSON_LD = JSON.stringify({
     {
       "@type": "Question",
       name: "What are the institute codes for ATME?",
-      acceptedAnswer: { "@type": "Answer", text: "KCET: E205, COMED-K: E152, MBA: B315, MCA: C613." },
+      acceptedAnswer: { "@type": "Answer", text: "KCET: E205, COMED-K: E152, MBA: B372, MCA: C553." },
     },
   ],
 });
@@ -113,8 +113,8 @@ const documents = [
 const codes = [
   { k: "KCET",    v: "E205" },
   { k: "COMED-K", v: "E152" },
-  { k: "MBA",     v: "B315" },
-  { k: "MCA",     v: "C613" },
+  { k: "MBA",     v: "B372" },
+  { k: "MCA",     v: "C553" },
 ];
 
 const supportFaq = [
