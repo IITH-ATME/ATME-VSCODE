@@ -1119,6 +1119,7 @@ const scholarshipsBody = `
 <tr><td class="p-2 border border-border">10</td><td class="p-2 border border-border">Legrand Empowering Scholarship</td><td class="p-2 border border-border"><a class="text-primary hover:underline" href="https://legrandscholarship.co.in/" target="_blank" rel="noreferrer">Visit</a></td></tr>
 <tr><td class="p-2 border border-border">11</td><td class="p-2 border border-border">Foundation for Excellence (FFE) Scholarships</td><td class="p-2 border border-border"><a class="text-primary hover:underline" href="https://ffe.org/scholarships/" target="_blank" rel="noreferrer">Visit</a></td></tr>
 <tr><td class="p-2 border border-border">12</td><td class="p-2 border border-border">Tata Realty Scholarship for Girls</td><td class="p-2 border border-border"><a class="text-primary hover:underline" href="https://scholarshiplearn.com/tata-realty-scholarship-for-girls/" target="_blank" rel="noreferrer">Visit</a></td></tr>
+<tr><td class="p-2 border border-border">13</td><td class="p-2 border border-border">TVS Cheema Interest-Free Education Loan — 0% interest, no collateral, for financially poor but deserving students (Engineering, Diploma/Polytechnic, Paramedical/B.Sc. Nursing, Diploma Nursing). Last date: 31 August 2026.</td><td class="p-2 border border-border"><a class="text-primary hover:underline" href="/pdfs/admissions/TVS-Cheema-Interest-Free-Education-Loan.pdf" target="_blank" rel="noreferrer">Open PDF</a></td></tr>
 </tbody></table>
 </div></details>
 
