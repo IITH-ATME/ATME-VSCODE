@@ -262,8 +262,6 @@ export const mcaStaff: Faculty[] = [];
 export const mbaAllFaculty: Faculty[] = [
   { id: "dr-oscar-abhishek", name: "Dr. Oscar Abhishek", designation: "Associate Professor & Head", qualification: "PhD, MBA, MCom, K-SET", doj: "04/11/2024", image: "/images/uploads/2026/04/Dr.-Oscar-Abhishek-1.jpg", cvUrl: "https://atme.edu.in/dr-oscar-abhishek/" },
   { id: "lakshmi-m-r", name: "Lakshmi M R", designation: "Assistant Professor", qualification: "MBA, Pursuing PhD", doj: "14/10/2024", image: "/images/uploads/2026/04/Lakshmi-M-R-1.jpg", cvUrl: "https://atme.edu.in/lakshmi-m-r/" },
-
-  { id: "jeevitha-p", name: "Ms. Jeevitha P", designation: "Assistant Professor", qualification: "M.Com, KSET, B.Com", doj: "23/12/2024", image: "/images/uploads/2026/04/Ms.-Jeevitha-P-1.jpg", cvUrl: "https://atme.edu.in/jeevitha-p/" },
   { id: "dr-parthasarathy-n", name: "Dr. Parthasarathy N", designation: "Associate Professor", qualification: "PhD, MBA", doj: "06/05/2026", image: "/__l5e/assets-v1/9491c96f-387a-4a84-920c-1e52159e67d1/Dr-Parthasarathy-N.jpg", cvUrl: "/departments/mba/faculty/dr-parthasarathy-n" },
   { id: "kavana-j", name: "Kavana J", designation: "Assistant Professor", qualification: "MBA, Pursuing PhD", doj: "18/05/2026", image: "/__l5e/assets-v1/e2f8710b-1e5f-4911-b053-99c907237972/Kavana-J.jpg", cvUrl: "/departments/mba/faculty/kavana-j" },
   { id: "sneha-m", name: "Sneha M", designation: "Assistant Professor", qualification: "MBA in Finance, KSET 2025", doj: "06/07/2026", image: "/images/mba/sneha-m.png", cvUrl: "/departments/mba/faculty/sneha-m" },

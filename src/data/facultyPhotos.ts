@@ -61,7 +61,6 @@ export const FACULTY_PHOTOS: Record<string, string> = {
   "j-n-karthik": "https://atme.edu.in/wp-content/uploads/2026/03/Mr.-J-N-Karthik-1.jpg.jpeg",
   "janhavi-nandish": "https://atme.edu.in/wp-content/uploads/2025/05/Janhavi-Nandish-2-150x150.jpg",
   "jayaprakash-narayana": "https://atme.edu.in/wp-content/uploads/2022/12/ECE-04.jpg",
-  "jeevitha-p": "https://atme.edu.in/wp-content/uploads/2026/04/Ms.-Jeevitha-P-1.jpg",
   "jyothi-d-n": "https://atme.edu.in/wp-content/uploads/2022/09/JYOTHI-D-N-1.jpg.jpeg",
   
   "k-s-yogesh": "https://atme.edu.in/wp-content/uploads/2022/12/K-S-YOGESH-1.jpg.jpeg",

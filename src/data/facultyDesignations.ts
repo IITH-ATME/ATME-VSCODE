@@ -38,7 +38,6 @@ export const FACULTY_DESIGNATIONS: Record<string, string> = {
   "hussana-johar-r-b": "Associate Professor",
   "j-n-karthik": "Assistant Professor",
   "janhavi-nandish": "Assistant Professor",
-  "jeevitha-p": "Assistant Professor",
   "jyothi-d-n": "Associate Professor & Head",
   "kavya-p": "Attender",
   "mahesha-b-p": "Attender",
