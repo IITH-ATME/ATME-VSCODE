@@ -18,7 +18,7 @@ export const circulars = [
   { title: "B.E. Honors Programme Registration Circular - AY 2026-27", date: "23/07/2026", file: "be-honours-programme-registration-circular-ay-2026-27.pdf", year: "2026-27", category: "Academic Circulars" },
   { title: "Revised fee circular 3rd and 5th sem AY-2026-27", date: "28/07/2026", file: "higher-sem-fees-circular-3rd-5th-sem-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "Fee circular 7th sem - AY 26-27", date: "06/07/2026", file: "7th-sem-fee-circular-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
-  { title: "1st year revaluation june 2026", date: "—", file: "1st-year-revaluation-june-2026.pdf", year: "2026-27", category: "Examination Circulars" },
+  { title: "1st year revaluation june 2026", date: "03/08/2026", file: "1st-year-revaluation-june-2026.pdf", year: "2026-27", category: "Examination Circulars" },
   { title: "Registration to B.E./B.Tech. Honours Degree Programme", date: "11/09/2025", file: "2637-Registration-to-B.E.-B.Tech_.-Honours-Degree-Programme.pdf", year: "2025-26", category: "Academic Circulars" },
   { title: "2nd Year Fee Payment Circular", date: "28/08/2025", file: "2nd-year-fee-payment-circular.pdf", year: "2025-26", category: "Fee Circulars" },
   { title: "Higher Semester Fees Circular", date: "28/08/2025", file: "higher-semester-fees-circular.pdf", year: "2025-26", category: "Fee Circulars" },
