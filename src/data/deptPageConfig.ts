@@ -151,6 +151,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "resources", label: "Learning Resources" },
     { key: "coe-bs", label: "Calendar of Events" },
     { key: "research-initiatives", label: "Research Initiatives" },
+    { key: "achievements", label: "Achievements" },
     { key: "co-curricular-extracurricular-activities", label: "Activities" },
   ],
   chemistry: [
@@ -160,6 +161,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
     { key: "research-initiatives", label: "Research Initiatives" },
     { key: "resources", label: "Learning Resources" },
     { key: "coe-bs", label: "Calendar of Events" },
+    { key: "achievements", label: "Achievements" },
     { key: "co-curricular-extracurricular-activities", label: "Activities" },
   ],
   mathematics: [
