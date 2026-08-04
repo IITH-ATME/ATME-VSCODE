@@ -425,8 +425,8 @@ export const departments: Department[] = [
       "PEO2: To create technically able alumni with the capacity to examine, plan, to create and execute Electronics and Communication frameworks thereby involving in deep routed learning.",
     ],
     pso: [
-      "PSO1: To have the capability to understand and adopt the technological advancements with the usage of modern tool to analyze and design embedded system or processes for variety of applications.",
-      "PSO2: To work effectively in a group as an independent visionary, team member and leader having the ability to understand the requirement and develop feasible solutions to emerge as potential core or electronic engineer.",
+      "PSO1: Analyse and Design electronic systems by applying the principles of electronic circuits, embedded systems, and integrated circuits using appropriate engineering tools.",
+      "PSO2: Apply engineering knowledge in communication, signal processing, and networking to execute engineering projects and professional assignments through practical learning, internships, and teamwork.",
     ],
     programmes: [
       { programme: "Electronics & Communication Engineering", degree: "B.E (ECE)", duration: "4 Years", intake: "120" },
@@ -748,6 +748,13 @@ export const departments: Department[] = [
       "PEO1: MBA is a two-year full-time programme, aimed at nurturing and training young minds with contemporary skills of management, adept in handling diverse sectors of the economy.",
       "PEO2: The programme intends to inculcate leadership qualities in individuals to strategically position themselves in all emerging platforms of idea generation, creation of pragmatic knowledge, skills and competency development.",
       "PEO3: The diverse course curriculum enables a high degree of academic flexibility for fostering innovation and creativity. It instils resilience and adaptability in students for facing the challenges of the contemporary business world.",
+    ],
+    po: [
+      "PO1. Apply knowledge of management theories and practices to solve business problems.",
+      "PO2. Foster analytical and critical thinking abilities for data based decision making.",
+      "PO3. Ability to develop value-based leadership.",
+      "PO4. Ability to understand, analyse and communicate global, economic, legal and ethical aspects of business.",
+      "PO5. Ability to lead themselves and others in the achievement of organizational goals contributing effectively to a team environment.",
     ],
     pso: [
       "PSO1: Comprehend the contemporary features and characteristics of Business Management Science and its administration.",
