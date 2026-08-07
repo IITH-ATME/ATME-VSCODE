@@ -17,8 +17,19 @@ const byLabel = (links: NavLink[], label: string): FL => {
   const found = links.find((l) => l.label === label);
   return found ? { label: found.label, to: found.to, params: found.params, href: found.href } : { label, href: "#" };
 };
+const asFL = (l: NavLink): FL => ({ label: l.label, to: l.to, params: l.params, href: l.href });
 
-const ABOUT_LINKS: FL[] = [
+const studentLifeLinks = DEPARTMENTS_NAV.columns
+  .find((c) => c.heading === "Academic Programmes")!
+  .groups!.find((g) => g.heading === "Student Life")!.links;
+const findStudentLife = (label: string) => asFL(studentLifeLinks.find((l) => l.label === label)!);
+
+// Kept as its own group, unchanged, per explicit instruction.
+const OTHER_LINKS: FL[] = ["Library", "NSS Unit", "Sports"].map(findStudentLife);
+
+// Same 25 links that used to live under "About us" / "Quick Links", now
+// regrouped into the four headings from the Sahyadri-style reference layout.
+const OUR_COLLEGE_LINKS: FL[] = [
   byLabel(ABOUT_ALL_LINKS, "About College"),
   byLabel(ABOUT_ALL_LINKS, "Vision & Mission"),
   byLabel(ABOUT_ALL_LINKS, "Governing Council (GC)"),
@@ -32,32 +43,28 @@ const ABOUT_LINKS: FL[] = [
   byLabel(ABOUT_ALL_LINKS, "Statutory Declaration and Undertaking"),
 ];
 
-const QUICK_LINKS: FL[] = [
-  { label: "ATME on G-Maps",          href: "https://www.google.com/maps/place/ATME+College+of+Engineering" },
-  { label: "IIRS-ISRO NC",            to: "/iirs-isro-nc" },
+const FACILITIES_LINKS: FL[] = [
+  { label: "Women Cell", to: "/women-cell" },
   { label: "Professional Body Membership", to: "/professional-body-membership" },
-  { label: "Women Cell",              to: "/women-cell" },
-  { label: "Careers",                 to: "/careers" },
-  { label: "Youth4work",              to: "/youth4work" },
-  { label: "VTU Exam Timetable",      href: "https://vtu.ac.in/en/category/examination/time-table/" },
-  { label: "VTU UG Scheme & Syllabus",href: "https://vtu.ac.in/en/b-e-scheme-syllabus/" },
-  { label: "VTU E-Learning",          href: "https://vtu.ac.in/en/elearning/" },
-  { label: "Mandatory Disclosure",    href: "/__l5e/assets-v1/a198c38a-e39e-4c3a-ab4c-a23591dd37e5/Mandatory-Disclosure-2025-26.pdf" },
-  { label: "Employee Handbook",       href: "/__l5e/assets-v1/c402b7eb-a5d4-4a17-b983-1dfd193b363f/Employee-hand-book-3-0.pdf" },
-  { label: "Student Handbook",        href: "/__l5e/assets-v1/ffb2c1a9-c930-4f07-8d05-7b98a9318ac3/Handbook-3-3.pdf" },
-  { label: "Hostel Policy",           href: "/__l5e/assets-v1/849a2f12-1905-4bb5-8463-94e44ffaaa98/HOSTEL-Rules-Regulation-v3.pdf" },
-  { label: "Privacy Policy",          to: "/privacy-policy" },
+  { label: "IIRS-ISRO NC", to: "/iirs-isro-nc" },
+  { label: "ATME on G-Maps", href: "https://www.google.com/maps/place/ATME+College+of+Engineering" },
 ];
 
-// Library, NSS Unit and Sports — kept as their own group, sourced from the
-// same "Student Life" links the header's Departments dropdown uses.
-const asFL = (l: NavLink): FL => ({ label: l.label, to: l.to, params: l.params, href: l.href });
-const studentLifeLinks = DEPARTMENTS_NAV.columns
-  .find((c) => c.heading === "Academic Programmes")!
-  .groups!.find((g) => g.heading === "Student Life")!.links;
-const OTHER_LINKS: FL[] = ["Library", "NSS Unit", "Sports"].map(
-  (label) => asFL(studentLifeLinks.find((l) => l.label === label)!),
-);
+const ACADEMICS_LINKS: FL[] = [
+  { label: "VTU Exam Timetable",       href: "https://vtu.ac.in/en/category/examination/time-table/" },
+  { label: "VTU UG Scheme & Syllabus", href: "https://vtu.ac.in/en/b-e-scheme-syllabus/" },
+  { label: "VTU E-Learning",           href: "https://vtu.ac.in/en/elearning/" },
+  { label: "Careers",                  to: "/careers" },
+  { label: "Youth4work",               to: "/youth4work" },
+];
+
+const DOWNLOADS_LINKS: FL[] = [
+  { label: "Mandatory Disclosure", href: "/__l5e/assets-v1/a198c38a-e39e-4c3a-ab4c-a23591dd37e5/Mandatory-Disclosure-2025-26.pdf" },
+  { label: "Employee Handbook",    href: "/__l5e/assets-v1/c402b7eb-a5d4-4a17-b983-1dfd193b363f/Employee-hand-book-3-0.pdf" },
+  { label: "Student Handbook",     href: "/__l5e/assets-v1/ffb2c1a9-c930-4f07-8d05-7b98a9318ac3/Handbook-3-3.pdf" },
+  { label: "Hostel Policy",        href: "/__l5e/assets-v1/849a2f12-1905-4bb5-8463-94e44ffaaa98/HOSTEL-Rules-Regulation-v3.pdf" },
+  { label: "Privacy Policy",       to: "/privacy-policy" },
+];
 
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {
   return (
@@ -100,7 +107,7 @@ export function Footer() {
       <div aria-hidden className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
       <div aria-hidden className="pointer-events-none absolute -bottom-32 -right-24 h-96 w-96 rounded-full bg-white/10 blur-3xl" />
 
-      {/* Full-height dark stripe that extends the Contact column to the left edge of the viewport on wide screens. */}
+      {/* Full-height dark stripe that extends the Our College column to the left edge of the viewport on wide screens. */}
       <div aria-hidden className="hidden lg:block pointer-events-none absolute top-0 bottom-0 left-0 bg-[#0d4f54]"
         style={{ width: "max(0px, (100vw - 1400px) / 2)" }}
       />
@@ -108,61 +115,74 @@ export function Footer() {
       {/* top accent ribbon */}
       <div className="h-1 w-full bg-white/40" />
 
-      {/* Footer columns — contact info + segregated link groups, all in one full-width row */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1.3fr)_minmax(0,0.8fr)] items-stretch">
-
-        <Col title="Contact Us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
+      {/* Footer link columns — segregated headings */}
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-stretch">
+        <Col title="Our College" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />
           <div className="hidden lg:block absolute -bottom-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />
-          <div className="space-y-4 text-[13px] font-medium leading-relaxed">
-            <div className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-                <MapPin className="h-4 w-4 text-amber-300" />
-              </span>
-              <div className="text-white/80">ATME College of Engineering, 13th KM, Mysore – Kanakapura – Bangalore Road, Mysore – 570 028, Karnataka</div>
-            </div>
-            <div className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-                <Phone className="h-4 w-4 text-amber-300" />
-              </span>
-              <div>
-                <a href="tel:08212954081" className="block text-white/80 hover:text-white">0821-2954081</a>
-                <a href="tel:08212954011" className="block text-white/80 hover:text-white">0821-2954011</a>
-              </div>
-            </div>
-            <div className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-                <Smartphone className="h-4 w-4 text-amber-300" />
-              </span>
-              <div>
-                <a href="tel:+919448285641" className="block text-white/80 hover:text-white">+91 94482 85641</a>
-                <a href="tel:+919448285644" className="block text-white/80 hover:text-white">+91 94482 85644</a>
-              </div>
-            </div>
-            <div className="flex gap-3 items-center">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-                <Mail className="h-4 w-4 text-amber-300" />
-              </span>
-              <a href="mailto:info@atme.edu.in" className="text-white/80 hover:text-white">info@atme.edu.in</a>
-            </div>
-            <div className="flex gap-2 pt-1">
-              {[
-                { Icon: Facebook,  href: "https://www.facebook.com/atmeceofficial/", label: "Facebook" },
-                { Icon: Twitter,   href: "https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09", label: "Twitter" },
-                { Icon: Linkedin,  href: "https://www.linkedin.com/school/atme-college-of-engineering", label: "LinkedIn" },
-                { Icon: Youtube,   href: "https://youtube.com/c/ATMECEOfficial", label: "YouTube" },
-                { Icon: Instagram, href: "https://www.instagram.com/atmeceofficial/", label: "Instagram" },
-              ].map(({ Icon, href, label }) => (
-                <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="grid h-8 w-8 place-items-center rounded-full bg-white/10 ring-1 ring-white/15 hover:bg-[#129199] hover:text-white hover:ring-[#129199] transition-colors">
-                  <Icon className="h-3.5 w-3.5" />
-                </a>
-              ))}
+          <LinkList items={OUR_COLLEGE_LINKS} />
+        </Col>
+        <Col title="Facilities" className="h-full"><LinkList items={FACILITIES_LINKS} /></Col>
+        <Col title="Academics" className="h-full"><LinkList items={ACADEMICS_LINKS} /></Col>
+        <Col title="Downloads" className="h-full"><LinkList items={DOWNLOADS_LINKS} /></Col>
+        <Col title="Basic Sciences & Others" className="h-full"><LinkList items={OTHER_LINKS} /></Col>
+      </div>
+
+      {/* Contact strip */}
+      <div className="relative border-t border-white/15 bg-[#10747b] backdrop-blur-sm">
+        <div className="max-w-[1400px] mx-auto px-4 py-5 grid gap-6 md:grid-cols-4 text-[14px] font-normal leading-relaxed">
+          <div className="flex gap-3">
+            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+              <MapPin className="h-5 w-5 text-amber-300" />
+            </span>
+            <div>
+              <div className="font-semibold text-white mb-1">Location:</div>
+              <div className="text-white/80 leading-relaxed">ATME College of Engineering, 13th KM, Mysore – Kanakapura – Bangalore Road, Mysore – 570 028, Karnataka</div>
             </div>
           </div>
-        </Col>
-        <Col title="About us" className="h-full"><LinkList items={ABOUT_LINKS} /></Col>
-        <Col title="Quick Links" className="h-full"><LinkList items={QUICK_LINKS} /></Col>
-        <Col title="Basic Sciences & Others" className="h-full"><LinkList items={OTHER_LINKS} /></Col>
+          <div className="flex gap-3">
+            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+              <Phone className="h-5 w-5 text-amber-300" />
+            </span>
+            <div>
+              <div className="font-semibold text-white mb-1">Phone:</div>
+              <a href="tel:08212954081" className="block text-white/80 hover:text-white">0821-2954081</a>
+              <a href="tel:08212954011" className="block text-white/80 hover:text-white">0821-2954011</a>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+              <Smartphone className="h-5 w-5 text-amber-300" />
+            </span>
+            <div>
+              <div className="font-semibold text-white mb-1">Mobile:</div>
+              <a href="tel:+919448285641" className="block text-white/80 hover:text-white">+91 94482 85641</a>
+              <a href="tel:+919448285644" className="block text-white/80 hover:text-white">+91 94482 85644</a>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+              <Mail className="h-5 w-5 text-amber-300" />
+            </span>
+            <div>
+              <div className="font-semibold text-white mb-1">Email:</div>
+              <a href="mailto:info@atme.edu.in" className="text-white/80 hover:text-white">info@atme.edu.in</a>
+              <div className="mt-3 flex gap-2">
+                {[
+                  { Icon: Facebook,  href: "https://www.facebook.com/atmeceofficial/", label: "Facebook" },
+                  { Icon: Twitter,   href: "https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09", label: "Twitter" },
+                  { Icon: Linkedin,  href: "https://www.linkedin.com/school/atme-college-of-engineering", label: "LinkedIn" },
+                  { Icon: Youtube,   href: "https://youtube.com/c/ATMECEOfficial", label: "YouTube" },
+                  { Icon: Instagram, href: "https://www.instagram.com/atmeceofficial/", label: "Instagram" },
+                ].map(({ Icon, href, label }) => (
+                  <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="grid h-8 w-8 place-items-center rounded-full bg-white/10 ring-1 ring-white/15 hover:bg-[#129199] hover:text-white hover:ring-[#129199] transition-colors">
+                    <Icon className="h-3.5 w-3.5" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="relative bg-[#0e686f]">
