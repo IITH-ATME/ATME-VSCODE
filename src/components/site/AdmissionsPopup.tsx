@@ -96,7 +96,7 @@ export function AdmissionsPopup() {
             <img
               src={resolveAssetUrl(popupAsset.url)}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-48 sm:h-56 md:h-full object-cover object-top"
+              className="block w-full h-48 sm:h-56 md:h-full object-cover object-top md:object-contain md:object-center bg-white"
               loading="eager"
               width={1181}
               height={1417}
