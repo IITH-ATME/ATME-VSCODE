@@ -140,7 +140,7 @@ export function AdmissionsPopup() {
         <button
           onClick={close}
           aria-label="Close"
-          className="absolute -top-3 -right-3 z-10 grid h-9 w-9 place-items-center rounded-full bg-white text-[#0b2447] shadow-lg hover:scale-110 hover:rotate-90 transition-transform"
+          className="absolute top-3 right-3 z-10 grid h-9 w-9 place-items-center rounded-full bg-white text-[#0b2447] shadow-lg hover:scale-110 hover:rotate-90 transition-transform"
         >
           <X className="h-5 w-5" />
         </button>
