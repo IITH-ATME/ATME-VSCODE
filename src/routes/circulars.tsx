@@ -42,6 +42,14 @@ function Row({ title, date, file }: { title: string; date?: string; file: string
 
 const ALL_KEY = "All";
 
+// Dates are stored as "DD/MM/YYYY"; entries without a real date ("—") sort last.
+function parseDMY(d?: string): number {
+  if (!d || d === "—") return -Infinity;
+  const [dd, mm, yyyy] = d.split("/").map(Number);
+  if (!dd || !mm || !yyyy) return -Infinity;
+  return new Date(yyyy, mm - 1, dd).getTime();
+}
+
 function CategoryTab({
   label,
   count,
@@ -97,7 +105,9 @@ function CircularsPage() {
 
   const filtered = active === ALL_KEY ? circulars : circulars.filter((c) => c.category === active);
 
-  const byYear = filtered.reduce<Record<string, typeof circulars>>((acc, c) => {
+  const sorted = [...filtered].sort((a, b) => parseDMY(b.date) - parseDMY(a.date));
+
+  const byYear = sorted.reduce<Record<string, typeof circulars>>((acc, c) => {
     (acc[c.year] ||= []).push(c);
     return acc;
   }, {});
