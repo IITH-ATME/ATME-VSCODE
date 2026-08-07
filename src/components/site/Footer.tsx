@@ -82,12 +82,12 @@ function Col({ title, children, className, topFill }: { title: string; children:
 }
 
 
-function LinkList({ items, nowrap }: { items: FL[]; nowrap?: boolean }) {
+function LinkList({ items, nowrap, twoCol }: { items: FL[]; nowrap?: boolean; twoCol?: boolean }) {
   const linkCls = "hover:text-amber-300 hover:translate-x-0.5 inline-block transition-all " + (nowrap ? "whitespace-nowrap" : "break-words");
   return (
-    <ul className="space-y-2 text-[13px] font-medium leading-snug">
+    <ul className={"text-[13px] font-medium leading-snug " + (twoCol ? "columns-2 gap-x-5" : "space-y-2")}>
       {items.map((l) => (
-        <li key={l.label}>
+        <li key={l.label} className={twoCol ? "mb-2 break-inside-avoid" : undefined}>
           {l.href ? (
             <a href={resolveAssetUrl(l.href)} target="_blank" rel="noreferrer" className={linkCls}>› {l.label}</a>
           ) : (
@@ -116,11 +116,11 @@ export function Footer() {
       <div className="h-1 w-full bg-white/40" />
 
       {/* Footer link columns — segregated headings */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-stretch">
-        <Col title="Our College" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 items-stretch">
+        <Col title="Our College" className="h-full lg:col-span-2 lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />
           <div className="hidden lg:block absolute -bottom-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />
-          <LinkList items={OUR_COLLEGE_LINKS} />
+          <LinkList items={OUR_COLLEGE_LINKS} twoCol />
         </Col>
         <Col title="Facilities" className="h-full"><LinkList items={FACILITIES_LINKS} /></Col>
         <Col title="Academics" className="h-full"><LinkList items={ACADEMICS_LINKS} /></Col>
