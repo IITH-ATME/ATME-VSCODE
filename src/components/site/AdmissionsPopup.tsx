@@ -156,7 +156,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] md:max-w-[1040px] lg:max-w-[1320px] xl:max-w-[1520px] max-h-[96vh] overflow-y-auto sm:overflow-visible rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-auto lg:max-w-[94vw] max-h-[96vh] overflow-y-auto sm:overflow-visible rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -168,23 +168,23 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="flex flex-col md:flex-row bg-card rounded-2xl overflow-hidden md:h-[92vh] md:max-h-[860px]">
+        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-[92vh] lg:max-h-[860px]">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
-            className="block md:w-3/4 md:h-full shrink-0 animate-[popIn_0.5s_ease-out]"
+            className="block lg:h-full shrink-0 animate-[popIn_0.5s_ease-out]"
           >
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-48 sm:h-56 md:h-full object-cover object-top md:object-contain md:object-center bg-white"
+              className="block w-full h-48 sm:h-56 lg:h-full lg:w-auto object-cover object-top bg-white"
               loading="eager"
               width={1600}
               height={1900}
             />
           </a>
 
-          <div className="flex-1 min-w-0 p-4 sm:p-5 md:h-full flex flex-col">
+          <div className="lg:w-[400px] lg:shrink-0 min-w-0 p-4 sm:p-5 lg:h-full flex flex-col">
             <h2 className="font-display text-xl font-bold text-foreground">Join ATMECE</h2>
             <p className="mt-1 text-xs text-muted-foreground">
               Fill this quick form — our admission team will get in touch with you.
@@ -254,7 +254,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-course" className={fieldClass}>
                         <SelectValue placeholder="Select a course" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {COURSE_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
@@ -272,7 +272,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-enquiry-type" className={fieldClass}>
                         <SelectValue placeholder="Select enquiry type" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {ENQUIRY_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
@@ -318,7 +318,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-puc-status" className={fieldClass}>
                         <SelectValue placeholder="Appearing or Passed" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {PUC_STATUS_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
@@ -336,7 +336,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-qualification" className={fieldClass}>
                         <SelectValue placeholder="Select qualification" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {QUALIFICATION_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
@@ -354,7 +354,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-admission-category" className={fieldClass}>
                         <SelectValue placeholder="Select category" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {ADMISSION_CATEGORY_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
@@ -372,7 +372,7 @@ export function AdmissionsPopup() {
                       <SelectTrigger id="admissions-popup-contact-time" className={fieldClass}>
                         <SelectValue placeholder="Select a time" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="z-[110]">
                         {CONTACT_TIME_OPTIONS.map((opt) => (
                           <SelectItem key={opt} value={opt}>
                             {opt}
