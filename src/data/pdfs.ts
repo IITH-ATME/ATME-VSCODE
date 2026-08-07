@@ -14,6 +14,8 @@ export function pdf(filename: string): string {
 
 // Structured circulars list (mirrors order on atme.edu.in/circulars/)
 export const circulars = [
+  { title: "Registration Circular- 2nd Sem ( MCA and MBA)", date: "07/08/2026", file: "registration-circular-2nd-sem-mba-mca-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
+  { title: "Fee Circular- 2nd Sem ( MCA and MBA)", date: "07/08/2026", file: "fee-circular-2nd-sem-mba-mca-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "RV Fee circular 4th Sem and 6th Sem - AY 25-26", date: "24/07/2026", file: "rv-fee-circular-4th-6th-sem-ay-2025-26.pdf", year: "2026-27", category: "Examination Circulars" },
   { title: "B.E. Honors Programme Registration Circular - AY 2026-27", date: "23/07/2026", file: "be-honours-programme-registration-circular-ay-2026-27.pdf", year: "2026-27", category: "Academic Circulars" },
   { title: "Registration Circular 3rd and 5th Sem AY 2026-2027", date: "28/07/2026", file: "higher-sem-fees-circular-3rd-5th-sem-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
