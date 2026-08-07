@@ -3332,6 +3332,10 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   // uses "Year" instead of "Semester" as the column header there.
   const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" || deptCode === "DS" ? "2026–27" : "2025–26";
   const semesterColLabel = deptCode === "EEE" || deptCode === "DS" ? "Year" : "Semester";
+  // DS's table has no Section/Phone data (source doc lists only Year, Faculty
+  // Incharge, and Mail ID), so those columns are dropped for this dept.
+  const showSection = deptCode !== "DS";
+  const showPhone = deptCode !== "DS";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">
       <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
@@ -3343,10 +3347,10 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
             <tr>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Sl. No.</th>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">{semesterColLabel}</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Section</th>
+              {showSection && <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Section</th>}
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Class Incharge</th>
               <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Mail ID</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Phone</th>
+              {showPhone && <th className="text-left px-3 py-2 font-semibold text-[#0d3438] border-b border-[#129199]/20">Phone</th>}
             </tr>
           </thead>
           <tbody>
@@ -3354,14 +3358,16 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
               <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#129199]/5"}>
                 <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10">{i + 1}</td>
                 <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10">{r.sem}</td>
-                <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10">{r.section}</td>
+                {showSection && <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10">{r.section}</td>}
                 <td className="px-3 py-2 text-foreground/85 font-medium border-b border-[#129199]/10">{r.incharge}</td>
                 <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10 break-all">
                   {r.email ? <a href={`mailto:${r.email}`} className="text-[#129199] hover:underline">{r.email}</a> : "—"}
                 </td>
-                <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10 whitespace-nowrap">
-                  {r.phone ? <a href={`tel:${r.phone}`} className="text-[#129199] hover:underline">{r.phone}</a> : "—"}
-                </td>
+                {showPhone && (
+                  <td className="px-3 py-2 text-foreground/85 border-b border-[#129199]/10 whitespace-nowrap">
+                    {r.phone ? <a href={`tel:${r.phone}`} className="text-[#129199] hover:underline">{r.phone}</a> : "—"}
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>
