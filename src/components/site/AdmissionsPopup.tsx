@@ -1,7 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { X, Loader2, CheckCircle2 } from "lucide-react";
-import popupAsset from "@/assets/admissions-popup.jpg.asset.json";
-import { resolveAssetUrl } from "@/lib/assetUrl";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
@@ -9,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const ADMISSIONS_EMAIL = "admissions@atme.edu.in";
+const POPUP_IMAGE = "/images/admissions/admissions-popup.jpg";
 
 type SubmitStatus = "idle" | "submitting" | "success" | "error";
 
@@ -64,10 +63,15 @@ const initialValues = {
 
 type FormValues = typeof initialValues;
 
+const fieldClass = "h-8 text-sm";
+const labelClass = "text-xs";
+
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <div className="pt-3 pb-0.5 text-[11px] font-bold uppercase tracking-wider text-primary/70">
+    <div className="col-span-2 flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-primary/70">
+      <span className="h-px flex-1 bg-primary/15" />
       {children}
+      <span className="h-px flex-1 bg-primary/15" />
     </div>
   );
 }
@@ -144,7 +148,7 @@ export function AdmissionsPopup() {
       role="dialog"
       aria-modal="true"
       aria-label="ATMECE admissions enquiry form"
-      className={`fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6 transition-opacity duration-300 ${
+      className={`fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 transition-opacity duration-300 ${
         show ? "opacity-100" : "opacity-0"
       }`}
       style={{ backgroundColor: "rgba(8, 30, 45, 0.78)", backdropFilter: "blur(4px)" }}
@@ -152,7 +156,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] md:max-w-[960px] lg:max-w-[1180px] xl:max-w-[1280px] max-h-[92vh] overflow-y-auto sm:overflow-visible rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] md:max-w-[1040px] lg:max-w-[1320px] xl:max-w-[1520px] max-h-[96vh] overflow-y-auto sm:overflow-visible rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -164,26 +168,26 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="flex flex-col md:flex-row bg-card rounded-2xl overflow-hidden md:h-[80vh] md:max-h-[760px]">
+        <div className="flex flex-col md:flex-row bg-card rounded-2xl overflow-hidden md:h-[92vh] md:max-h-[860px]">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
             className="block md:w-3/4 md:h-full shrink-0 animate-[popIn_0.5s_ease-out]"
           >
             <img
-              src={resolveAssetUrl(popupAsset.url)}
+              src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
               className="block w-full h-48 sm:h-56 md:h-full object-cover object-top md:object-contain md:object-center bg-white"
               loading="eager"
-              width={1181}
-              height={1417}
+              width={1600}
+              height={1900}
             />
           </a>
 
-          <div className="flex-1 min-w-0 p-5 sm:p-6 md:h-full md:min-h-0 md:overflow-y-auto md:pr-4">
-            <h2 className="font-display text-2xl font-bold text-foreground">Join ATMECE</h2>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Fill this quick form and our admission team will get in touch with you.
+          <div className="flex-1 min-w-0 p-4 sm:p-5 md:h-full flex flex-col">
+            <h2 className="font-display text-xl font-bold text-foreground">Join ATMECE</h2>
+            <p className="mt-1 text-xs text-muted-foreground">
+              Fill this quick form — our admission team will get in touch with you.
             </p>
 
             {status === "success" ? (
@@ -195,203 +199,208 @@ export function AdmissionsPopup() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="mt-4 space-y-3.5 pb-1">
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-name">
-                    Full Name <span className="text-destructive">*</span>
-                  </Label>
-                  <Input
-                    id="admissions-popup-name"
-                    required
-                    placeholder="Enter your full name"
-                    value={values.name}
-                    onChange={handleChange("name")}
-                  />
-                </div>
+              <form onSubmit={handleSubmit} className="mt-2 flex-1 flex flex-col">
+                <div className="grid grid-cols-2 gap-x-2.5 gap-y-0.5">
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-name" className={labelClass}>
+                      Full Name <span className="text-destructive">*</span>
+                    </Label>
+                    <Input
+                      id="admissions-popup-name"
+                      required
+                      placeholder="Enter your full name"
+                      value={values.name}
+                      onChange={handleChange("name")}
+                      className={fieldClass}
+                    />
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-email">
-                    Email <span className="text-destructive">*</span>
-                  </Label>
-                  <Input
-                    id="admissions-popup-email"
-                    type="email"
-                    required
-                    placeholder="Enter your email address"
-                    value={values.email}
-                    onChange={handleChange("email")}
-                  />
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-email" className={labelClass}>
+                      Email <span className="text-destructive">*</span>
+                    </Label>
+                    <Input
+                      id="admissions-popup-email"
+                      type="email"
+                      required
+                      placeholder="Enter your email address"
+                      value={values.email}
+                      onChange={handleChange("email")}
+                      className={fieldClass}
+                    />
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-phone">
-                    Phone Number <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Input
-                    id="admissions-popup-phone"
-                    type="tel"
-                    inputMode="numeric"
-                    maxLength={10}
-                    placeholder="Enter 10-digit phone number"
-                    value={values.phone}
-                    onChange={handleChange("phone")}
-                  />
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-phone" className={labelClass}>
+                      Phone Number
+                    </Label>
+                    <Input
+                      id="admissions-popup-phone"
+                      type="tel"
+                      inputMode="numeric"
+                      maxLength={10}
+                      placeholder="10-digit phone number"
+                      value={values.phone}
+                      onChange={handleChange("phone")}
+                      className={fieldClass}
+                    />
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-course">
-                    Course Interested In <span className="text-destructive">*</span>
-                  </Label>
-                  <Select required value={values.course} onValueChange={handleSelect("course")}>
-                    <SelectTrigger id="admissions-popup-course">
-                      <SelectValue placeholder="Select a course" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {COURSE_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-course" className={labelClass}>
+                      Course Interested In <span className="text-destructive">*</span>
+                    </Label>
+                    <Select required value={values.course} onValueChange={handleSelect("course")}>
+                      <SelectTrigger id="admissions-popup-course" className={fieldClass}>
+                        <SelectValue placeholder="Select a course" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {COURSE_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-enquiry-type">
-                    Type of Enquiry <span className="text-destructive">*</span>
-                  </Label>
-                  <Select required value={values.enquiryType} onValueChange={handleSelect("enquiryType")}>
-                    <SelectTrigger id="admissions-popup-enquiry-type">
-                      <SelectValue placeholder="Select enquiry type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {ENQUIRY_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="col-span-2 space-y-0.5">
+                    <Label htmlFor="admissions-popup-enquiry-type" className={labelClass}>
+                      Type of Enquiry <span className="text-destructive">*</span>
+                    </Label>
+                    <Select required value={values.enquiryType} onValueChange={handleSelect("enquiryType")}>
+                      <SelectTrigger id="admissions-popup-enquiry-type" className={fieldClass}>
+                        <SelectValue placeholder="Select enquiry type" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {ENQUIRY_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <SectionLabel>Student Information</SectionLabel>
+                  <SectionLabel>Student Information</SectionLabel>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-state">
-                    State <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Input
-                    id="admissions-popup-state"
-                    placeholder="Enter your state"
-                    value={values.state}
-                    onChange={handleChange("state")}
-                  />
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-state" className={labelClass}>
+                      State
+                    </Label>
+                    <Input
+                      id="admissions-popup-state"
+                      placeholder="Enter your state"
+                      value={values.state}
+                      onChange={handleChange("state")}
+                      className={fieldClass}
+                    />
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-city">
-                    City/District <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Input
-                    id="admissions-popup-city"
-                    placeholder="Enter your city or district"
-                    value={values.city}
-                    onChange={handleChange("city")}
-                  />
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-city" className={labelClass}>
+                      City/District
+                    </Label>
+                    <Input
+                      id="admissions-popup-city"
+                      placeholder="Enter your city or district"
+                      value={values.city}
+                      onChange={handleChange("city")}
+                      className={fieldClass}
+                    />
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-puc-status">
-                    PUC/12th Status <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Select value={values.pucStatus} onValueChange={handleSelect("pucStatus")}>
-                    <SelectTrigger id="admissions-popup-puc-status">
-                      <SelectValue placeholder="Appearing or Passed" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {PUC_STATUS_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-puc-status" className={labelClass}>
+                      PUC/12th Status
+                    </Label>
+                    <Select value={values.pucStatus} onValueChange={handleSelect("pucStatus")}>
+                      <SelectTrigger id="admissions-popup-puc-status" className={fieldClass}>
+                        <SelectValue placeholder="Appearing or Passed" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {PUC_STATUS_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-qualification">
-                    Current Qualification <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Select value={values.qualification} onValueChange={handleSelect("qualification")}>
-                    <SelectTrigger id="admissions-popup-qualification">
-                      <SelectValue placeholder="Select qualification" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {QUALIFICATION_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-qualification" className={labelClass}>
+                      Current Qualification
+                    </Label>
+                    <Select value={values.qualification} onValueChange={handleSelect("qualification")}>
+                      <SelectTrigger id="admissions-popup-qualification" className={fieldClass}>
+                        <SelectValue placeholder="Select qualification" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {QUALIFICATION_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <SectionLabel>Admission Category</SectionLabel>
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-admission-category">
-                    Category <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Select value={values.admissionCategory} onValueChange={handleSelect("admissionCategory")}>
-                    <SelectTrigger id="admissions-popup-admission-category">
-                      <SelectValue placeholder="Select category" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {ADMISSION_CATEGORY_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-admission-category" className={labelClass}>
+                      Admission Category
+                    </Label>
+                    <Select value={values.admissionCategory} onValueChange={handleSelect("admissionCategory")}>
+                      <SelectTrigger id="admissions-popup-admission-category" className={fieldClass}>
+                        <SelectValue placeholder="Select category" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {ADMISSION_CATEGORY_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <SectionLabel>Preferred Contact Time</SectionLabel>
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-contact-time">
-                    Best time to reach you <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Select value={values.contactTime} onValueChange={handleSelect("contactTime")}>
-                    <SelectTrigger id="admissions-popup-contact-time">
-                      <SelectValue placeholder="Select a time" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {CONTACT_TIME_OPTIONS.map((opt) => (
-                        <SelectItem key={opt} value={opt}>
-                          {opt}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+                  <div className="space-y-0.5">
+                    <Label htmlFor="admissions-popup-contact-time" className={labelClass}>
+                      Contact Time
+                    </Label>
+                    <Select value={values.contactTime} onValueChange={handleSelect("contactTime")}>
+                      <SelectTrigger id="admissions-popup-contact-time" className={fieldClass}>
+                        <SelectValue placeholder="Select a time" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {CONTACT_TIME_OPTIONS.map((opt) => (
+                          <SelectItem key={opt} value={opt}>
+                            {opt}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                <SectionLabel>Additional Message</SectionLabel>
-                <div className="space-y-1.5">
-                  <Label htmlFor="admissions-popup-message">
-                    Tell us how we can help you <span className="text-muted-foreground font-normal">(Optional)</span>
-                  </Label>
-                  <Textarea
-                    id="admissions-popup-message"
-                    rows={3}
-                    placeholder="Tell us how we can help you."
-                    value={values.message}
-                    onChange={handleChange("message")}
-                  />
+                  <div className="col-span-2 space-y-0.5">
+                    <Label htmlFor="admissions-popup-message" className={labelClass}>
+                      Additional Message
+                    </Label>
+                    <Textarea
+                      id="admissions-popup-message"
+                      rows={1}
+                      placeholder="Tell us how we can help you."
+                      value={values.message}
+                      onChange={handleChange("message")}
+                      className="min-h-0 py-1.5 text-sm resize-none"
+                    />
+                  </div>
                 </div>
 
                 <Button
                   type="submit"
                   disabled={status === "submitting"}
-                  className="w-full h-11 gradient-hero text-primary-foreground text-base font-semibold hover:opacity-90 transition-opacity"
+                  className="mt-2 w-full h-8 gradient-hero text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
                 >
                   {status === "submitting" ? (
                     <span className="flex items-center justify-center gap-2">
@@ -403,7 +412,7 @@ export function AdmissionsPopup() {
                 </Button>
 
                 {status === "error" && (
-                  <p className="text-sm text-destructive text-center">
+                  <p className="mt-1.5 text-xs text-destructive text-center">
                     Something went wrong. Please try again, or email us directly at{" "}
                     <a href={`mailto:${ADMISSIONS_EMAIL}`} className="underline">
                       {ADMISSIONS_EMAIL}
@@ -412,7 +421,7 @@ export function AdmissionsPopup() {
                   </p>
                 )}
 
-                <p className="text-xs text-muted-foreground text-center">
+                <p className="mt-1 text-[10px] leading-tight text-muted-foreground text-center">
                   We respect your privacy. Your information will be used only for admission purposes.
                 </p>
               </form>
