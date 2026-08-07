@@ -128,8 +128,8 @@ function ContactItem({
   iconBg?: string;
 }) {
   return (
-    <div className="flex items-center gap-3 px-4 py-2">
-      <span className={"grid h-11 w-11 shrink-0 place-items-center rounded-full " + (iconBg ?? "bg-white/10 ring-1 ring-white/15")}>
+    <div className="flex items-center gap-2.5 px-4 py-1">
+      <span className={"grid h-9 w-9 shrink-0 place-items-center rounded-full " + (iconBg ?? "bg-white/10 ring-1 ring-white/15")}>
         {icon}
       </span>
       <div className="text-left">
@@ -172,28 +172,28 @@ export function Footer() {
 
       {/* Contact strip */}
       <div className="relative border-t border-white/10">
-        <div className="max-w-[1400px] mx-auto px-4 py-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-white/15">
-          <ContactItem icon={<MapPin className="h-5 w-5 text-amber-300" />} label="Location:">
+        <div className="max-w-[1400px] mx-auto px-4 py-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-white/15">
+          <ContactItem icon={<MapPin className="h-4 w-4 text-amber-300" />} label="Location:">
             ATME College of Engineering, 13th KM, Mysore – Kanakapura – Bangalore Road, Mysore – 570 028, Karnataka
           </ContactItem>
-          <ContactItem icon={<Phone className="h-5 w-5 text-amber-300" />} label="Phone:">
+          <ContactItem icon={<Phone className="h-4 w-4 text-amber-300" />} label="Phone:">
             <a href="tel:08212954081" className="block hover:text-white">0821-2954081</a>
             <a href="tel:08212954011" className="block hover:text-white">0821-2954011</a>
           </ContactItem>
           <ContactItem
-            icon={<WhatsappIcon className="h-5 w-5 text-white" />}
+            icon={<WhatsappIcon className="h-4 w-4 text-white" />}
             iconBg="bg-[#25D366]"
             label="Mobile:"
           >
             <a href="tel:+919448285641" className="block hover:text-white">+91 94482 85641</a>
             <a href="tel:+919448285644" className="block hover:text-white">+91 94482 85644</a>
           </ContactItem>
-          <ContactItem icon={<Mail className="h-5 w-5 text-amber-300" />} label="Email:">
+          <ContactItem icon={<Mail className="h-4 w-4 text-amber-300" />} label="Email:">
             <a href="mailto:info@atme.edu.in" className="hover:text-white">info@atme.edu.in</a>
           </ContactItem>
         </div>
 
-        <div className="flex items-center justify-center gap-2.5 pb-6">
+        <div className="flex items-center justify-center gap-2.5 pb-4">
           <button
             type="button"
             onClick={() => {
