@@ -152,8 +152,8 @@ export function Footer() {
       <div aria-hidden className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
       <div aria-hidden className="pointer-events-none absolute -bottom-32 -right-24 h-96 w-96 rounded-full bg-white/10 blur-3xl" />
 
-      {/* Quick Links panel */}
-      <div className="relative max-w-[1400px] mx-auto px-4 sm:px-6 pt-10 pb-8">
+      {/* Quick Links panel — edge to edge, just a thin teal margin showing at the sides */}
+      <div className="relative w-full px-3 sm:px-4 pt-10 pb-8">
         <div className="rounded-3xl bg-white px-5 sm:px-8 lg:px-10 py-8 sm:py-10 shadow-2xl">
           <div className="text-center mb-8">
             <h3 className="font-display text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-wide text-[#0d3446]">
