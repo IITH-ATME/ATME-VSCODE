@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Mail, Phone, Smartphone, Facebook, Youtube, Linkedin, Instagram, Twitter } from "lucide-react";
 import { resolveAssetUrl } from "@/lib/assetUrl";
-import { ABOUT, type NavLink } from "@/lib/navStructure";
+import { ABOUT, DEPARTMENTS_NAV, type NavLink } from "@/lib/navStructure";
 
 type FL = { label: string; href?: string; to?: string; params?: Record<string, string> };
 
@@ -48,6 +48,16 @@ const QUICK_LINKS: FL[] = [
   { label: "Hostel Policy",           href: "/__l5e/assets-v1/849a2f12-1905-4bb5-8463-94e44ffaaa98/HOSTEL-Rules-Regulation-v3.pdf" },
   { label: "Privacy Policy",          to: "/privacy-policy" },
 ];
+
+// Library, NSS Unit and Sports — kept as their own group, sourced from the
+// same "Student Life" links the header's Departments dropdown uses.
+const asFL = (l: NavLink): FL => ({ label: l.label, to: l.to, params: l.params, href: l.href });
+const studentLifeLinks = DEPARTMENTS_NAV.columns
+  .find((c) => c.heading === "Academic Programmes")!
+  .groups!.find((g) => g.heading === "Student Life")!.links;
+const OTHER_LINKS: FL[] = ["Library", "NSS Unit", "Sports"].map(
+  (label) => asFL(studentLifeLinks.find((l) => l.label === label)!),
+);
 
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {
   return (
@@ -99,7 +109,7 @@ export function Footer() {
       <div className="h-1 w-full bg-white/40" />
 
       {/* Footer columns — contact info + segregated link groups, all in one full-width row */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1.3fr)] items-stretch">
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1.3fr)_minmax(0,0.8fr)] items-stretch">
 
         <Col title="Contact Us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />
@@ -152,6 +162,7 @@ export function Footer() {
         </Col>
         <Col title="About us" className="h-full"><LinkList items={ABOUT_LINKS} /></Col>
         <Col title="Quick Links" className="h-full"><LinkList items={QUICK_LINKS} /></Col>
+        <Col title="Basic Sciences & Others" className="h-full"><LinkList items={OTHER_LINKS} /></Col>
       </div>
 
       <div className="relative bg-[#0e686f]">
