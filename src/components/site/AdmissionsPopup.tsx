@@ -11,15 +11,15 @@ const POPUP_IMAGE = "/images/admissions/admissions-popup.jpg";
 type SubmitStatus = "idle" | "submitting" | "success" | "error";
 
 const COURSE_OPTIONS = [
+  "Civil Engineering",
   "Computer Science & Engineering",
   "Computer Science & Engineering - AI & ML",
-  "Computer Science & Engineering - Data Science",
   "Computer Science & Engineering - Cyber Security",
+  "Computer Science & Engineering - Data Science",
   "Computer Science & Engineering - Design",
-  "Electronics & Communication Engineering",
   "Electrical & Electronics Engineering",
+  "Electronics & Communication Engineering",
   "Mechanical Engineering",
-  "Civil Engineering",
   "BCA (Bachelor of Computer Applications)",
   "MBA (Master of Business Administration)",
   "MCA (Master of Computer Applications)",
