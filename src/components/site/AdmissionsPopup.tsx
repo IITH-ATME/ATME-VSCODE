@@ -184,7 +184,7 @@ export function AdmissionsPopup() {
             />
           </a>
 
-          <div className="lg:w-[400px] lg:shrink-0 min-w-0 p-4 sm:p-5 lg:h-full flex flex-col">
+          <div className="lg:w-[400px] lg:shrink-0 min-w-0 p-4 sm:p-5 lg:h-full flex flex-col lg:justify-center">
             <h2 className="font-display text-xl font-bold text-foreground">Join ATMECE</h2>
             <p className="mt-1 text-xs text-muted-foreground">
               Fill this quick form — our admission team will get in touch with you.
@@ -199,7 +199,7 @@ export function AdmissionsPopup() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="mt-2 flex-1 flex flex-col">
+              <form onSubmit={handleSubmit} className="mt-2 flex flex-col">
                 <div className="grid grid-cols-2 gap-x-2.5 gap-y-0.5">
                   <div className="space-y-0.5">
                     <Label htmlFor="admissions-popup-name" className={labelClass}>
