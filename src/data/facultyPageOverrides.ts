@@ -436,7 +436,188 @@ Attender
   "dr-mahesh-lohith-k-s": {
     name: "Dr. Mahesh Lohith K S",
     url: "https://old.atme.edu.in/dr-mahesh-lohith-k-s/",
-    md: "## Professional Experience\n\n- Teaching: 27 Years\n- Research: 18 Years\n- Industry: Nil\n\n## Contact Details\n\n- **Email ID:** **Official: [dr.maheshlohithks\\_phy@atme.edu.in](mailto:dr.maheshlohithks_phy@atme.edu.in)**\n- **Personal: [maheshlohithks@gmail.com](mailto:maheshlohithks@gmail.com):** **Vidwan ID**\n- <https://vidwan.inflibnet.ac.in/profile/201965>\n- **Google Scholar ID:** <https://scholar.google.com/citations?user=PW1Jh8kAAAAJ>\n- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=25422579000>\n- **Orcid ID:** <https://orcid.org/0000-0003-3457-040X>\n- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/ADJ-9050-2022>\n- **LinkedIn ID:** <https://www.linkedin.com/in/dr-mahesh-lohith-k-s-71059aa2/>\n\n\n## Academic Details\n\n- **Qualification**\n- **Ph.D** in Applied Science – Materials and Tribology (VTU)\n- **M.Sc** in Physics\n- **B.Sc** in Physics, Maths & Computer Science\n- **M.Tech**., (Information Technology), K S O U.\n- **Honors Diploma** in Space Sciences. St. Joseph’s College, Bangalore.\n\n## Areas of Interest\n\n1. Materials and Tribology\n2. Energy storage Devices\n\n## Publication Details\n\n- **Book Publication:**\n1. Scientific foundation of health – 1 Book\n2. Lecture notes on Engineering Physics – 1 (e-Book) 3. e-Book (Free) : Lecutre notes on Engineering Pysics, 2013 Edition, J Balasubramanyam, K S Mahesh Lohith and Sujith Thomas, Research Gate. 4. e-book – Scientific Foundation of Health – VTU\n5. Principles and Practices in Nanotechnology – 024/12/15 Volume-1, Pages- 777 Publisher-AMKcorp Academics   **Journal Publications:**\n1. K. S. Mahesh Lohith., et al. “Oxygen deficient MoO3 nanoparticles as peroxidase substitutes, their substrate-nanozyme interactions and real time validation in human serum sample.” *Journal of Pharmaceutical and Biomedical Analysis* (2025): 117119.\n2. K. S. Mahesh Lohith , Sadashivanna, R. H., Krishna, H., Shivakumar, A., Gangadhara, N. Y., & Krishnegowda, A. (2024). Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies. Nano-Structures & Nano-Objects, 40, 101340.\n3. Nadeem, T., Rafique, T., Khan, W., Khandakar, S., Alkhayyat, A., KS, M. L., … & Brahim, S. M. NANOTECHNOLOGY MEETS QUANTUM COMPUTING: ADVANCING QUANTUM BITS (QUBITS) AND DEVICES FOR NEXT GENERATION COMPUTING.\n4. Ravikumar, R., KS, M. L., & Krishnegowda, A. (2023). An Account of the Influence of TMDC Anodic Materials on Li/Na-ion Battery Capacity. Grenze International Journal of Engineering & Technology (GIJET), 9(1).\n5. Using Amino, P. C. H. P. (2023). Spectrophotometric Assay based on Horseradish Peroxidase-Catalysed Hydrogen Peroxide using Amino Antipyrine and Resorcinol as Chromogenic Reagents for Sensitive Detection of Peroxidase in Plant Extracts.\n6. K. S. Mahesh Lohith,  V. B. Sondur, V. V. Sondur: The Effect of Cryogenic Treatment on the Hardness, Friction and Wear Resistance of Austenitic Ductile Iron Type D3 Tool Steel. International Journal of Modern Engineering Research ( IJMER), 07/2014; 4:24-29.\n7. K. S. Mahesh Lohith, V. B. Sondur, V. V. Sondur: Influence of cryogenic treatment on the friction co- efficient of nylon 6 and caprolactam – graphite composite. IPSAJ International Journal of Mechanical Engineering, ISSN 2321-6441. 01/2014; 1(6):10-15.\n8. K. Gopala Krishna, C. Divakar, K. Venkatesh, C. B. Mohan, K. S. Mahesh Lohith, Bulk temperature estimation during wear of a polymer composite pin. Wear. 01/2010; 268(1):346-351.\n9. K. Gopala Krishna, C. Divakar, K. Venkatesh, C. B. Mohan, K. S. Mahesh Lohith, Tribological studies of polymer based ceramic–metal composites processed at ambient temperature. Wear. 01/2009; 266(7):878-883.\n10. C. B. Mohan, C. Divakar, K. Venkatesh, K. Gopalakrishna, K. S. Mahesh Lohith, T. N. Naveen: Design and development of an advanced linear reciprocating tribometer. Wear. 01/2009; 267(5):1111-1116.\n11. C. B. Mohan, K. Gopalakrishna, K. S. Mahesh Lohith, Krishna Venkatesh, C. Divakar, R. B. Mithun, T. N. Naveen: Coolant lubricity and coolant-lube compatibility with regard to slideway behavior. Journal of The Brazilian Society of Mechanical Sciences and Engineering – J Braz Soc Mech Sci Eng, 01/2008; Volume 30(Issue 4).   **CONFERENCE PUBLICATIONS**\n1. “Some Studies on coolant deterioration”, C. Diwakar, K. Venkatesh, K. Gopala Krishna, C. B. Mohan, K. S. Mahesh Lohith,  R. B. Mithun, T. N. Naveen, International Conference on Industrial tribology, 2006, Tribology society of India, IISC, Bangalore.\n2. Low friction stability and low wear of some self-lubricating engineered polymer composites under heavy loading conditions, National Conference on Recent Trends in Geoscience, Material Science & Civil Engineering. ATME College of Engineering, Mysuru, RTGMCE-2017, Sep 2017, EXCEL India Publications New Delhi, ISBN-ISSN:978-93-86256-67-6.   **SEMINAR PUBLICATIONS**\n1. “Applications of Nano-Technology in education through simple experiments”, K. Venkatesh, R. Geeta Balakrishna, K. S. Mahesh Lohith, All India seminar on Vistas of Nano-Technology, Institute of Engineers,2005, Bangalore.   **SYMPOSIM PUBLICATIONS**  Sonofusion – a review, Symposium on recent development in “Science, Engineering and Technology, ATME College of Engineering, Mysuru, October 2017.\n\n## Membership in Professional Bodies\n\n1. ISTE, TSI (Tribology Society of India)\n2. Member of Board of Studies (VTU)\n3. Member of Board of Examination (VTU)\n\n## FDPs/Conferences/Workshops/STTP/MOOC Certification\n\n1. Workshop on Teaching Methodology, 2002, Sapthagiri College of Engineering Bangalore.\n2. Workshop on Nano-techology, 2005, BTL Institute of Technology, Bangalore.\n3. One day national seminar on nano-materials, 2006, R. V. College of Engineering, Bangalore.\n4. “All India seminar on vistas of nano applications”, Institute of Engineers,2006, Bangalore.\n5. International Conference on Industrial Tribology, Indian Institute of Science, 30th Nov 2006 to 2nd Dec 2006, Bangalore.\n6. Symposium on Nano-technology and Smart materials, 2007, PES Institute of Technology, Bangalore.\n7. One Day Faculty Development Program on “Recent Trends in Science and Mathematics – RTSM-2017.” GSSIETW,\n8. National conference on “Recent Trends in Geo-science, Material Science and Civil Engineering, RTGMCE-2017, 22nd and 23rd March 2017, ATMECE, Mysuru.\n9. State level symposium on Recent Developments in Science, Engineering and Technology, 10th OCT 2017, ATMECE, MYRUSU\n10. Faculty development program on Python application Programming, 17th TO 21st JAN 2018,\n11. TEQIP 1.3 – Workshop on “New model curriculum for first year BE/BTech – CBCS detailed syllabus (2018-19) as per outcome based education (OBE) format including course outcomes and Bloom’s Taxanomy”, Conducted by VTU at Sahyadri College of Engineering, Mangaluru. 19th May 2018.\n12. Six days workshop on – “Art of Counseling”, 2nd to 9th July 2019, ATME College of Engineering , Mysuru, in association with Samadhana Counseling Center Bangalore, Mysuru.\n13. TEQIP 1.3 – Five day FDP on “Outcome Based Education and NBA Accreditation”, 7th to 11th Jan 2020, GSSSIETW, Mysuru.\n14. Online workshop on Advanced Techniques for materials characterization (ATMC – 2020), 6th to 10th July 2020, Malavia National Institute Technology, Jaipur.\n15. Two day online workshop on Advanced Functional Materials (WAFM), 25th and 26th July 2020, Punjab Engineering College, Deemed to be University, Chandigarah.\n16. Eight days FDP on “Mentoring Pedagogy and Teaching in Higher Education”, 3rd to 10th Aug 2020, E&ICT Academy, IIT Guwahati, in association with Bapatla Engineerng College, Bapatla.\n17. TEQIP-3 sponsored webinar on “Characterization of Nanomaterials”, 26th June 2020, The National Institute of Engineering, Autonomous, Mysuru.\n18. Webinar on “Teaching Pedagogy”, 17th July 2020, Department of E & C, ATMECE, Mysore.\n19. Webinar on “Fundamentals of Electromagnetism, 6th July 2020, Vidya Vardhaka College of Engineering, Mysuru.\n20. Webinar on “Quantum Computing Fundamentals and Practical Implementation”, 18th July 2020, GSSSIETW, Mysuru.\n21. Webinar on “Sustainability Through Startup India and Related Schemes”, 5th Aug 2020, Govt. of India, Field Outreach Bureau, Mysruru.\n22. Webinar on “Aatma Nirbhar Bharath – Swatantra Bharathada Shreshta Nirmanakke Nirbhara Bharatha Tatvada Koduge”, 12th August 2020, Govt. of India. Field Outreach Bureau, Mysuru.\n23. International Webinar on “Raman Spectroscopy”, Lecture Series 2020, 1st June 2020, Department of Physics and IQAC, T. K. Madhavan Memorial College, Gangiarkulagara, Kerala, India.\n24. Three days faculty development program on “Importance of NAAC accrediataion in higher education institutions”, 9th to 11th Nov 2020, ATME College of Engineering, Mysuru. 25. 3 days face-to-face FDP on the theme “ Inculcating Universal Huaman Values in Technical Education” Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.\n\n## Proposal/Funding/Project Financial Assistance\n\n- NIL\n\n## Honours/Awards/ Achievements\n\n- **University Level**\n1. Member BOE (PHYSICS), Visvesvaraya Technological University.\n2. Resource Person : “Short Term Course in Nano-sciences and Engineering”,Organized by VTU.   **Other achievements**\n3. IBM Rational trainer,Center for Emerging Technologies, SBMJCE, Bangalore.\n4. Team Member,Micro-satellite Project, Center for Emerging Technologies, SBMJCE, Bangalore\n5. Trained on Ultra Precise Molding Techniques, Indo-German Institute of Technology, Bangalore\n6. Expertise in the evaluation and characterization of tribological properties of materials (Reciprocating and POD tribometers)\n7. Information technology resource facilities – Planning,Setup and Management.\n8. “KAAVYA” Qualified In Sanskrit\n9. Retired as Junior Under Officer (JUO) with a total service of 7 years in NCC.\n\n## Roles and Responsibilities: Institute Level\n\n1. Head of the Department\n2. Coordinator NBA, (Basic Sciences and Humanities)\n3. Member of various college level committees\n4. Examinations\n5. Induction Program\n6. Mentor and Counselor\n\n## Roles and Responsibilities: Department Level\n\n1. Head of the Department.\n2. Research Guide for 3 Research Scholars",
+    md: `## Professional Experience
+
+- Teaching: 28
+- Research: 18
+- Industry:
+
+## Contact Details
+
+- **Email ID:** Official: [dr.maheshlohithks_phy@atme.edu.in](mailto:dr.maheshlohithks_phy@atme.edu.in) | Personal: [maheshlohithks@gmail.com](mailto:maheshlohithks@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201965>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=PW1Jh8kAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=25422579000>
+- **Orcid ID:** <https://orcid.org/0000-0003-3457-040X>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/ADJ-9050-2022>
+- **LinkedIn ID:** <https://www.linkedin.com/in/dr-mahesh-lohith-k-s-71059aa2/>
+
+## Academic Details
+
+- **Qualification**
+- **Ph.D** in Applied Science – Materials and Tribology (VTU)
+- **M.Sc** in Physics (University of Mysore)
+- **B.Sc** in Physics, Maths & Computer Science (Sarada Vilasa College, University of Mysore)
+- **M.Tech**., (Information Technology), K S O U.
+- **Honours Diploma** in Space Sciences. St. Joseph's College, Bangalore.
+
+## Areas of Interest
+
+1. Materials and Tribology
+2. Energy storage Devices
+
+## Publication Details
+
+**Book Publication:**
+
+1. Scientific foundation of health, Publisher - Infinite Learning Solutions, ISBN : 978-81-955465-6-5
+2. Principles and Practices in Nanotechnology, Publisher - AMKcorp Academics, Book code – AMKEDTB112438 pgs: 277, ISBN(E) -978-93-6556-349-8, ISBN(P) – 978-93-6556-010-7
+3. Engineering Physics, e-Book, J Balasubrayamanyam, Mahesh Lohith K S, Sujith Thomas, Research Gate.
+
+**Journal Publications:**
+
+1. Karthik, G., Mahesh Lohith K S., Sunil Kumar, K. C., Nagaraju, G., Avinash, K., Harshitha, H. S., Pooja, K. R., Lakshmi Ranganatha, V., & Mallikarjunaswamy, C. (2026). Electrochemical performance of BiOCl for battery applications: Structural, optical, and charge-storage properties. Ceramics International.
+2. Kumar, C. S. C., Mahesh Lohith K S., Ramachandra, M. N., Divakara, T. R., & Sumesh, P. (2025). Rapid and sensitive electrochemical detection of paracetamol using EuZrO₃-modified carbon paste electrode. Scientific Reports, 15, Article 43560.
+3. Kumar, C. S. C., Ramachandra, M. N., Mahesh Lohith K S., Padmavathy, N., & Sumesh, P. (2026). CoCu₂O₄ modified electrodes via facile synthesis for ultrasensitive dopamine detection in physiological conditions. Electrochimica Acta, 548, Article 147892.
+4. Nikhil Y Gangadhara, P Kiran Kumar, Avinash Krishnegowda, Honnur Krishna, KS Mahesh Lohith, Ravishankar H Sadashivanna, Raghavendra Ravikumar. (2025). Oxygen deficient MoO₃ nanoparticles as peroxidase substitutes, their substrate–nanozyme interactions and real-time validation in human serum sample. Journal of Pharmaceutical and Biomedical Analysis, Article 117119.
+5. HI Nazar Malik, Sudhair Abbas Bangash, Hamza Sohail Bhatti, George Burton, Mahesh Lohith K S, (2025) The Role of Electronic Health Records (Ehr) In Reducing Healthcare Costs and Improving Patient Outcomes. A Systematic Review, Journal of Neonatal Surgery 14 (32S), 5142-5155
+6. Mahesh Lohith K S, Sadashivanna, R. H., Krishna, H., Shivakumar, A., Gangadhara, N. Y., & Krishnegowda, A. (2024). Oxalic acid capped tungsten oxide nanozyme mimicking peroxidase activity, its synthesis characterization, and kinetic data validation via spectrophotometric studies. Nano-Structures & Nano-Objects, 40, 101340.
+7. Nadeem, T., Rafique, T., Khan, W., Khandakar, S., Alkhayyat, A., Mahesh Lohith K S., ... & Brahim, S. M. (n.d.). Nanotechnology meets quantum computing: Advancing quantum bits (qubits) and devices for next generation computing.
+8. Raghavendra R., Mahesh Lohith K. S., & Krishnegowda, A. (2023). An account of the influence of TMDC anodic materials on Li/Na-ion battery capacity. Grenze International Journal of Engineering & Technology, 9(1).
+9. Supriya B. S., Mahesh Lohith K. S. Avinash Krishnegowda (2023). Spectrophotometric assay based on horseradish peroxidase-catalysed hydrogen peroxide using amino antipyrine and resorcinol as chromogenic reagents for sensitive detection of peroxidase in plant extracts.
+10. Mahesh Lohith K. S. (2022). A Brief Discussion on the Influencing Factors and Conditions on Tribometry using a Pin-on-Disc Tribometer, Journal of The Institution of Engineers (India): Series D 103 (1), 355–362
+11. Mahesh Lohith K. S., Sondur, V. B., & Sondur, V. V. (2014). The effect of cryogenic treatment on the hardness, friction and wear resistance of austenitic ductile iron type D3 tool steel. International Journal of Modern Engineering Research, 4, 24–29.
+12. Mahesh Lohith K. S., Sondur, V. B., & Sondur, V. V. (2014). Influence of cryogenic treatment on the friction coefficient of nylon 6 and caprolactam–graphite composite. IPSAJ International Journal of Mechanical Engineering, 1(6), 10–15.
+13. Gopala Krishna, K., Divakar, C., Venkatesh, K., Mohan, C. B., & Mahesh Lohith K S. (2010). Bulk temperature estimation during wear of a polymer composite pin. Wear, 268(1), 346–351.
+14. Gopala Krishna, K., Divakar, C., Venkatesh, K., Mohan, C. B., & Mahesh Lohith K. S., (2009). Tribological studies of polymer-based ceramic–metal composites processed at ambient temperature. Wear, 266(7), 878–883.
+15. Mohan, C. B., Divakar, C., Venkatesh, K., Gopala Krishna, K., Mahesh Lohith K S., & Naveen, T. N. (2009). Design and development of an advanced linear reciprocating tribometer. Wear, 267(5), 1111–1116.
+16. Mohan, C. B., Gopala Krishna, K., Mahesh Lohith K S., Venkatesh, K., Divakar, C., Mithun, R. B., & Naveen, T. N. (2008). Coolant lubricity and coolant–lube compatibility with regard to slideway behavior. Journal of the Brazilian Society of Mechanical Sciences and Engineering, 30(4).
+
+**CONFERENCE PUBLICATIONS**
+
+1. "Some Studies on coolant deterioration", C. Diwakar, K. Venkatesh, K. Gopala Krishna, C. B. Mohan, K. S. Mahesh Lohith, R. B. Mithun, T. N. Naveen, International Conference on Industrial tribology, 2006, Tribology society of India, IISC, Bangalore.
+2. Low friction stability and low wear of some self-lubricating engineered polymer composites under heavy loading conditions, Ramachandra M N, Mahesh Lohith K S, Nandan P, Chandrakala N C, National Conference on Recent Trends in Geoscience, Material Science & Civil Engineering. ATME College of Engineering, Mysuru, RTGMCE-2017, Sep 2017, EXCEL India Publications New Delhi, ISBN-ISSN:978-93-86256-67-6.
+
+**SEMINAR PUBLICATIONS**
+
+1. "Applications of Nano-Technology in education through simple experiments", K. Venkatesh, R. Geeta Balakrishna, K. S. Mahesh Lohith, All India seminar on Vistas of Nano-Technology, Institute of Engineers,2005, Bangalore.
+
+## Membership in Professional Bodies
+
+- Life Member, Tribology Society of India (TSI), Since 2004
+- Life Member, Indian Society for Technical Education (ISTE), Since 2003
+
+## Honours/Awards/ Achievements
+
+**University Level**
+
+1. Member, Board of Studies (Physics), VTU, Belagavi, 2025-28.
+2. Member, Board of Studies (Physics), BEC, Bagalakote, 2025-28.
+3. Chairman, BOE (Board of Examiners) VTU, Physics, 2024-25.
+4. Member, BOE (Board of Examiners) VTU Physics, 2023-24.
+5. Reviewer of Examination Process, BEC, Bagalakote, 27th Nov 2023
+6. Member, Board of Studies - Basic Sciences and Humanities (Composite Board), 2022-25.
+7. Member, Board of Studies (Vidya Vardhaka College of Engineering), 2022-25.
+8. Member, Board of Examiners (Physics), 2021.
+
+**Resource Person for FDP/SDP/STTP**
+
+1. Resource Person: "Short Term Course in Nano-sciences and Engineering", Organized by VTU, 2006
+2. Resource Person – Physics, VTU e-Shikshana, Maxwell's Equations and EM Waves, 2021.
+3. Resource Person, Faculty Orientation Program, 2022 New Scheme, REC Hulkoti, Belgaum and Gulbarga Region. 2022
+4. Resource Person, Faculty Orientation Program, 2022 New Scheme, VVCE, Mysore, Mysore Region.2022.
+5. Resource Person, Faculty Orientation Program, 2022 New Scheme, BMSCE Bangalore, Bangalore Region. 2022.
+6. Resource Person, Faculty Development Program, "Introduction to Python Programming and Applications" – Module 3 and 4, BPLCK105B., VTU, Belagavi, Online Mode, 2023
+7. Resource Person, Faculty Development Program, "Introduction to Python Programming and Applications" – Module 3 and 4, BPLCK105B., VTU, Belagavi, Online Mode, 2024
+8. Resource Person, SDP, Physics of Animations, Dayanand Sagar College of Engineering, Bangalore, 2023
+9. Resource Person, SDP, Physics of Animations, VVCE, Mysuru, 2023
+10. Resource Person, FDP, "Physics of Animation and Physical Interactive Simulator", Shrinivasa I T, Mangalore, 2023
+11. Resource Person, FDP, "Physics of Animation and Interactive Physical Simulator, BIT, Bangalore, Online, 2023.
+12. Resource Person, SDP, "Physics of Animation and Physical Interactive Simulator", JNNCE, Shimoga, 2023.
+13. Resource Person, FDP, "Physics of Animation and Interactive Physical Simulator, Cambridge Institute of Technology, Bangalore, Online, 2023.
+14. Resource Person, SDP, Physics of Animations, VVCE, Mysuru, 2024
+15. Resource Person, Faculty Orientation Program, JNNCE, Shivamogga, Aug 2025
+16. Resource Person, FDP, Non-Destructive Testing, Cambridge Institute of Technology, Bangalore, 2025
+
+**College Level**
+
+1. A Talk on "Preparing Presentations using Latex Beamer"
+2. A Talk on "How to write a research paper"
+3. Workshop on "Latex Beamer", MCA Students, ATMECE, Mysore.
+4. Workshop on "Latex Type Setting", CSE Students, ATMECE, Mysore.
+
+**Other achievements**
+
+1. IBM Rational trainer, Center for Emerging Technologies, SBMJCE, Bangalore.
+2. Team Member, Micro-satellite Project, Center for Emerging Technologies, SBMJCE, Bangalore
+3. Trained on Ultra Precise Molding Techniques, Indo-German Institute of Technology, Bangalore
+4. Expertise in the evaluation and characterization of tribological properties of materials (Reciprocating and POD tribometers)
+5. ITC, Information Technology Center, Head, Management of Resources and Facilities – Planning, Setup and Management.
+6. "KAAVYA" Examination Qualified in Sanskrit
+7. Retired as Junior Under Officer (JUO) with a total service of 7 years in NCC.
+8. Recognition of outstanding Performance in XRD Quiz, Malvern Panalytical
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Workshop on Teaching Methodology, 2002, Sapthagiri College of Engineering Bangalore.
+2. Workshop on Nano-technology, 2005, BTL Institute of Technology, Bangalore.
+3. One day national seminar on nanomaterials, 2006, R. V. College of Engineering, Bangalore.
+4. "All India seminar on vistas of nano applications", Institute of Engineers,2006, Bangalore.
+5. International Conference on Industrial Tribology, Indian Institute of Science, 30th Nov 2006 to 2nd Dec 2006, Bangalore.
+6. Symposium on Nanotechnology and Smart materials, 2007, PES Institute of Technology, Bangalore.
+7. One Day Faculty Development Program on "Recent Trends in Science and Mathematics - RTSM-2017." GSSIETW, Mysuru.
+8. National conference on "Recent Trends in Geo-science, Material Science and Civil Engineering, RTGMCE-2017, 22nd and 23rd March 2017, ATMECE, Mysuru.
+9. State level symposium on Recent Developments in Science, Engineering and Technology, 10th OCT 2017, ATMECE, MYRUSU
+10. Faculty development program on Python application Programming, 17th TO 21st JAN 2018,
+11. TEQIP 1.3 – Workshop on "New model curriculum for first year BE/BTech – CBCS detailed syllabus (2018-19) as per outcome-based education (OBE) format including course outcomes and Bloom's Taxonomy", Conducted by VTU at Sahyadri College of Engineering, Mangaluru. 19th May 2018.
+12. Six days workshop on – "Art of Counseling", 2nd to 9th July 2019, ATME College of Engineering, Mysuru, in association with Samadhana Counseling Center Bangalore, Mysuru.
+13. TEQIP 1.3 – Five-day FDP on "Outcome Based Education and NBA Accreditation", 7th to 11th Jan 2020, GSSSIETW, Mysuru.
+14. Online workshop on Advanced Techniques for Material Characterization (ATMC – 2020), 6th to 10th July 2020, Malavia National Institute Technology, Jaipur.
+15. Two-day online workshop on Advanced Functional Materials (WAFM), 25th and 26th July 2020, Punjab Engineering College, deemed to be University, Chandigarh.
+16. Eight days FDP on "Mentoring Pedagogy and Teaching in Higher Education", 3rd to 10th Aug 2020, E&ICT Academy, IIT Guwahati, in association with Bapatla Engineering College, Bapatla.
+17. TEQIP-3 sponsored webinar on "Characterization of Nanomaterials", 26th June 2020, The National Institute of Engineering, Autonomous, Mysuru.
+18. Webinar on "Teaching Pedagogy", 17th July 2020, Department of E & C, ATMECE, Mysore.
+19. Webinar on "Fundamentals of Electromagnetism, 6th July 2020, Vidya Vardhaka College of Engineering, Mysuru.
+20. Webinar on "Quantum Computing Fundamentals and Practical Implementation", 18th July 2020, GSSSIETW, Mysuru.
+21. Webinar on "Sustainability Through Startup India and Related Schemes", 5th Aug 2020, Govt. of India, Field Outreach Bureau, Mysuru.
+22. Two Days FDP Program on "Importance of Functionalizing Materials and its Applications", 12th and 13th Aug 2020, VVCE, Mysuru.
+23. Webinar on "Aatma Nirbhar Bharath – Swatantra Bharathada Shreshta Nirmanakke Nirbhara Bharatha Tatvada Koduge", 12th August 2020, Govt. of India. Field Outreach Bureau, Mysuru.
+24. International Webinar on "Raman Spectroscopy", Lecture Series 2020, 1st June 2020, Department of Physics and IQAC, T. K. Madhavan Memorial College, Gangiarkulagara, Kerala, India.
+25. Three days faculty development program on "Importance of NAAC accreditation in higher education institutions", 9th to 11th Nov 2020, ATME College of Engineering, Mysuru.
+26. Five Day STTP on "Thermoelectric Materials and its Applications", Center for Continuing Education, Indian Institute of Science, 15th to 19th Nov 2021. (online)
+27. One-Day webinar on "Photo Electric Effect: 100 Years" organized by Department of Physics, BIT, Bangalore, 1st Dec 2021.
+28. A Five-day FDP on "Advances in Characterization Techniques", Presidency University, Bangalore, 10th to 14th Oct 2022.
+29. International Webinar, "Semiconductor Hetero-structure based detectors for optical communication", Adichunchanagiri University, BG Nagara, Mandya Dist., 26th Aug 2022.
+30. Three days face-to-face FDP on the theme, "Inculcating Universal Human Values in Technical Education" Organized by AICTE at ATME College of Engineering, Mysuru from 2nd – 4th Nov 2023.
+31. Five-day FDP on Essentials of Sciences on Engineering and Research 2024, 26th Feb to 1st Mar 2024, ATME College of Engineering, Mysuru – 28.
+32. Three-day FDP on Essentials of Sciences in Engineering and Research 2025, 15th to 17th Jan 2025, ATME College of Engineering Mysuru – 28.
+33. 4th International Faculty Development Programme (FDP) on Advanced Functional Materials: Energy, Environment, and Sustainable Development – 2026, Department of Physics, SRM TRP Engineering College, Tiruchirappalli, Tamilnadu, 28th Feb to 6th March 2025.
+34. 4th International Faculty Development Programme (FDP) on Advanced Functional Materials: Energy, Environment, and Sustainable Development – 2026, Department of Phuysics, SRM TRP Engineering College, Tiruchirappalli, Tamilnadu, 27th Feb to 6th March 2026.
+35. Five Days FDP on Universal Human Values II (UHV II), Jyothi Engineering College, Cheruthuruthi, Thrissur, Kerala.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Seed Money of Rs 65,000/- sanctioned by ATME College of Engineering for the project proposal titled "Tribological Investigations of Plant-Based Polymer Composites for Industrial Applications". Principal Investigator Dr. Mahesh Lohith K S, Head, Research Centre, Physics, ATMECE and Co-Investigator Sunim M H, Research Scholar, Research Centre (Physics), ATMECE.
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Head of the Department (Physics)
+- Head, Research Center (Physics)
+- Coordinator – Physics Cycle
+- Coordinator NBA, (Basic Sciences and Humanities)
+- Member of various college level committees (Academic Council, Research, UHV Cell, etc.,)
+- Examinations (DCS)
+- Coordinator - Induction Program
+
+## Roles and Responsibilities: Department Level
+
+- Research Supervisor
+- Guiding Three Research Scholars
+- Mentor and Counselor`,
   },
   "ramachandra-m-n": {
     name: "Mr. Ramachandra M N",
