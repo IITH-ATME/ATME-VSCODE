@@ -56,6 +56,8 @@ export function AdmissionsPopup() {
         }),
       });
       if (!res.ok) throw new Error("Request failed");
+      const data: { success?: string | boolean } = await res.json();
+      if (data.success !== true && data.success !== "true") throw new Error("Delivery failed");
       setStatus("success");
     } catch {
       setStatus("error");
