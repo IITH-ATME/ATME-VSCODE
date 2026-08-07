@@ -44,7 +44,7 @@ const ENQUIRY_OPTIONS = [
 
 const PUC_STATUS_OPTIONS = ["Appearing", "Passed"];
 const QUALIFICATION_OPTIONS = ["PUC", "CBSE", "ICSE", "Diploma", "B.Sc.", "Other"];
-const ADMISSION_CATEGORY_OPTIONS = ["CET", "COMEDK", "Management", "NRI", "International"];
+const ADMISSION_CATEGORY_OPTIONS = ["CET", "COMEDK", "Management", "International"];
 const CONTACT_TIME_OPTIONS = ["Morning", "Afternoon", "Evening"];
 
 const initialValues = {
