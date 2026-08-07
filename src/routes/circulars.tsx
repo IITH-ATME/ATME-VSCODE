@@ -93,7 +93,7 @@ function CircularsPage() {
   // a newly tagged circular gets its own tab automatically, with no UI change.
   const presentCategories = CIRCULAR_CATEGORIES.filter((cat) => (counts.get(cat) ?? 0) > 0);
 
-  const [active, setActive] = useState<string>(ALL_KEY);
+  const [active, setActive] = useState<string>("Fee Circulars");
 
   const filtered = active === ALL_KEY ? circulars : circulars.filter((c) => c.category === active);
 
