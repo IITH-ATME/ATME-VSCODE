@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Mail, Phone, Smartphone, Facebook, Youtube, Linkedin, Instagram, Twitter } from "lucide-react";
 import { resolveAssetUrl } from "@/lib/assetUrl";
-import { ABOUT, DEPARTMENTS_NAV, type NavLink } from "@/lib/navStructure";
+import { ABOUT, type NavLink } from "@/lib/navStructure";
 
 type FL = { label: string; href?: string; to?: string; params?: Record<string, string> };
 
@@ -49,28 +49,6 @@ const QUICK_LINKS: FL[] = [
   { label: "Privacy Policy",          to: "/privacy-policy" },
 ];
 
-// Departments UG/PG/Basic-Sciences links are sourced directly from the same
-// DEPARTMENTS_NAV structure the header dropdown renders, so the footer can
-// never point at a stale/external URL while the header points internally.
-const deptCol = (heading: string) => DEPARTMENTS_NAV.columns.find((c) => c.heading === heading)!;
-const asFL = (l: NavLink): FL => ({ label: l.label, to: l.to, params: l.params, href: l.href });
-
-const UG_DEPTS: FL[] = deptCol("UG Programmes").links.map(asFL);
-
-const PG_DEPTS: FL[] = [
-  ...deptCol("PG Programmes").links.map(asFL),
-  ...deptCol("Academic Programmes").links.map(asFL), // VTU Honor/Minor Degree
-];
-
-const studentLifeLinks = deptCol("Academic Programmes").groups?.[0].links ?? [];
-const findLink = (label: string) => studentLifeLinks.find((l) => l.label === label);
-const OTHER_DEPTS: FL[] = [
-  ...(deptCol("PG Programmes").groups?.[0].links.map(asFL) ?? []), // Basic Sciences
-  asFL(findLink("Library")!),
-  asFL(findLink("NSS Unit")!),
-  asFL(findLink("Sports")!),
-];
-
 function Col({ title, children, className, topFill }: { title: string; children: React.ReactNode; className?: string; dark?: boolean; topFill?: React.ReactNode }) {
   return (
     <div className={className}>
@@ -112,7 +90,7 @@ export function Footer() {
       <div aria-hidden className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
       <div aria-hidden className="pointer-events-none absolute -bottom-32 -right-24 h-96 w-96 rounded-full bg-white/10 blur-3xl" />
 
-      {/* Full-height dark stripe that extends the About us column to the left edge of the viewport on wide screens. */}
+      {/* Full-height dark stripe that extends the Contact column to the left edge of the viewport on wide screens. */}
       <div aria-hidden className="hidden lg:block pointer-events-none absolute top-0 bottom-0 left-0 bg-[#0d4f54]"
         style={{ width: "max(0px, (100vw - 1400px) / 2)" }}
       />
@@ -120,76 +98,60 @@ export function Footer() {
       {/* top accent ribbon */}
       <div className="h-1 w-full bg-white/40" />
 
-      {/* Footer columns */}
-      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,3.4fr)_minmax(0,2.2fr)_minmax(0,1.3fr)] xl:grid-cols-[minmax(0,200px)_minmax(0,240px)_minmax(0,372px)_minmax(0,305px)_minmax(0,200px)] items-stretch">
+      {/* Footer columns — contact info + segregated link groups, all in one full-width row */}
+      <div className="relative max-w-[1400px] mx-auto px-4 grid gap-3 py-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1.3fr)] items-stretch">
 
-        <Col title="About us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
+        <Col title="Contact Us" className="h-full lg:bg-[#0d4f54] relative" topFill={<div className="hidden lg:block absolute -top-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />}>
           <div className="hidden lg:block absolute -left-4 top-0 bottom-0 w-4 bg-[#0d4f54]" aria-hidden="true" />
           <div className="hidden lg:block absolute -bottom-6 -left-4 right-0 h-6 bg-[#0d4f54]" aria-hidden="true" />
-          <LinkList items={ABOUT_LINKS} />
-        </Col>
-        <Col title="Quick Links" className="h-full"><LinkList items={QUICK_LINKS} /></Col>
-        <Col title="Departments — UG" className="h-full"><LinkList items={UG_DEPTS} nowrap /></Col>
-        <Col title="Departments — PG" className="h-full"><LinkList items={PG_DEPTS} /></Col>
-        <Col title="Basic Sciences & Others" className="h-full"><LinkList items={OTHER_DEPTS} /></Col>
-      </div>
-
-
-      {/* Contact strip */}
-      <div className="relative border-t border-white/15 bg-[#10747b] backdrop-blur-sm">
-        <div className="max-w-[1400px] mx-auto px-4 py-5 grid gap-6 md:grid-cols-4 text-[14px] font-normal leading-relaxed">
-          <div className="flex gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-              <MapPin className="h-5 w-5 text-amber-300" />
-            </span>
-            <div>
-              <div className="font-semibold text-white mb-1">Location:</div>
-              <div className="text-white/80 leading-relaxed">ATME College of Engineering, 13th KM, Mysore – Kanakapura – Bangalore Road, Mysore – 570 028, Karnataka</div>
+          <div className="space-y-4 text-[13px] font-medium leading-relaxed">
+            <div className="flex gap-3">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+                <MapPin className="h-4 w-4 text-amber-300" />
+              </span>
+              <div className="text-white/80">ATME College of Engineering, 13th KM, Mysore – Kanakapura – Bangalore Road, Mysore – 570 028, Karnataka</div>
             </div>
-          </div>
-          <div className="flex gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-<Phone className="h-5 w-5 text-amber-300" />
-            </span>
-            <div>
-              <div className="font-semibold text-white mb-1">Phone:</div>
-              <a href="tel:08212954081" className="block text-white/80 hover:text-white">0821-2954081</a>
-              <a href="tel:08212954011" className="block text-white/80 hover:text-white">0821-2954011</a>
-            </div>
-          </div>
-          <div className="flex gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-              <Smartphone className="h-5 w-5 text-amber-300" />
-            </span>
-            <div>
-              <div className="font-semibold text-white mb-1">Mobile:</div>
-              <a href="tel:+919448285641" className="block text-white/80 hover:text-white">+91 94482 85641</a>
-              <a href="tel:+919448285644" className="block text-white/80 hover:text-white">+91 94482 85644</a>
-            </div>
-          </div>
-          <div className="flex gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
-              <Mail className="h-5 w-5 text-amber-300" />
-            </span>
-            <div>
-              <div className="font-semibold text-white mb-1">Email:</div>
-              <a href="mailto:info@atme.edu.in" className="text-white/80 hover:text-white">info@atme.edu.in</a>
-              <div className="mt-3 flex gap-2">
-                {[
-                  { Icon: Facebook,  href: "https://www.facebook.com/atmeceofficial/", label: "Facebook" },
-                  { Icon: Twitter,   href: "https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09", label: "Twitter" },
-                  { Icon: Linkedin,  href: "https://www.linkedin.com/school/atme-college-of-engineering", label: "LinkedIn" },
-                  { Icon: Youtube,   href: "https://youtube.com/c/ATMECEOfficial", label: "YouTube" },
-                  { Icon: Instagram, href: "https://www.instagram.com/atmeceofficial/", label: "Instagram" },
-                ].map(({ Icon, href, label }) => (
-                  <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="grid h-8 w-8 place-items-center rounded-full bg-white/10 ring-1 ring-white/15 hover:bg-[#129199] hover:text-white hover:ring-[#129199] transition-colors">
-                    <Icon className="h-3.5 w-3.5" />
-                  </a>
-                ))}
+            <div className="flex gap-3">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+                <Phone className="h-4 w-4 text-amber-300" />
+              </span>
+              <div>
+                <a href="tel:08212954081" className="block text-white/80 hover:text-white">0821-2954081</a>
+                <a href="tel:08212954011" className="block text-white/80 hover:text-white">0821-2954011</a>
               </div>
             </div>
+            <div className="flex gap-3">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+                <Smartphone className="h-4 w-4 text-amber-300" />
+              </span>
+              <div>
+                <a href="tel:+919448285641" className="block text-white/80 hover:text-white">+91 94482 85641</a>
+                <a href="tel:+919448285644" className="block text-white/80 hover:text-white">+91 94482 85644</a>
+              </div>
+            </div>
+            <div className="flex gap-3 items-center">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 ring-1 ring-white/15">
+                <Mail className="h-4 w-4 text-amber-300" />
+              </span>
+              <a href="mailto:info@atme.edu.in" className="text-white/80 hover:text-white">info@atme.edu.in</a>
+            </div>
+            <div className="flex gap-2 pt-1">
+              {[
+                { Icon: Facebook,  href: "https://www.facebook.com/atmeceofficial/", label: "Facebook" },
+                { Icon: Twitter,   href: "https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09", label: "Twitter" },
+                { Icon: Linkedin,  href: "https://www.linkedin.com/school/atme-college-of-engineering", label: "LinkedIn" },
+                { Icon: Youtube,   href: "https://youtube.com/c/ATMECEOfficial", label: "YouTube" },
+                { Icon: Instagram, href: "https://www.instagram.com/atmeceofficial/", label: "Instagram" },
+              ].map(({ Icon, href, label }) => (
+                <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="grid h-8 w-8 place-items-center rounded-full bg-white/10 ring-1 ring-white/15 hover:bg-[#129199] hover:text-white hover:ring-[#129199] transition-colors">
+                  <Icon className="h-3.5 w-3.5" />
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
+        </Col>
+        <Col title="About us" className="h-full"><LinkList items={ABOUT_LINKS} /></Col>
+        <Col title="Quick Links" className="h-full"><LinkList items={QUICK_LINKS} /></Col>
       </div>
 
       <div className="relative bg-[#0e686f]">
