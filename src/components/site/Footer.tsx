@@ -50,11 +50,6 @@ const OUR_COLLEGE_LINKS: FL[] = [
   byLabel(ABOUT_ALL_LINKS, "Chairman's Message"),
   byLabel(ABOUT_ALL_LINKS, "About Principal"),
   byLabel(ABOUT_ALL_LINKS, "Principal Message"),
-  byLabel(ABOUT_ALL_LINKS, "Dean Research"),
-  byLabel(ABOUT_ALL_LINKS, "Dean Student Affairs"),
-  byLabel(ABOUT_ALL_LINKS, "Dean Academics"),
-  byLabel(ABOUT_ALL_LINKS, "Academic Council (AC)"),
-  byLabel(ABOUT_ALL_LINKS, "Statutory Declaration and Undertaking"),
 ];
 
 const FACILITIES_LINKS: FL[] = [
@@ -107,8 +102,8 @@ function LinkCard({ icon: Icon, title, items }: { icon: LucideIcon; title: strin
       <span className="mt-1.5 mb-4 h-[3px] w-10 rounded-full bg-[#f5c518]" />
       <ul className="w-full space-y-2.5 text-left text-[13.5px] font-medium leading-snug text-[#26414b]">
         {items.map((l) => (
-          <li key={l.label} className="flex items-start gap-1.5">
-            <ChevronRight className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[#f5c518]" />
+          <li key={l.label} className="flex items-start gap-2">
+            <ChevronRight className="mt-0.5 h-5 w-5 shrink-0 text-[#f5c518]" strokeWidth={3} />
             {l.href ? (
               <a href={resolveAssetUrl(l.href)} target="_blank" rel="noreferrer" className={linkCls}>{l.label}</a>
             ) : (

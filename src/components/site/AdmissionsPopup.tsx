@@ -133,7 +133,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:max-w-[1160px] max-h-[92vh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:max-w-[1160px] max-h-[92vh] lg:h-[88vh] lg:max-h-[800px] overflow-y-auto lg:overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -145,7 +145,7 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-[74vh] lg:max-h-[620px]">
+        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-full">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
@@ -162,9 +162,15 @@ export function AdmissionsPopup() {
           </a>
 
           <div className="lg:w-[400px] lg:shrink-0 min-w-0 p-4 sm:p-5 lg:h-full flex flex-col lg:justify-center">
-            <h2 className="font-display text-xl font-bold text-foreground">Join ATMECE</h2>
-            <p className="mt-1 text-xs text-muted-foreground">
-              Fill this quick form — our admission team will get in touch with you.
+            <h2 className="font-display text-xl sm:text-2xl font-extrabold leading-tight text-foreground">
+              Shape Your Career with{" "}
+              <span className="relative inline-block text-primary">
+                ATMECE
+                <span aria-hidden="true" className="absolute inset-x-0 -bottom-0.5 -z-10 h-2 rounded bg-amber-300/60" />
+              </span>
+            </h2>
+            <p className="mt-1.5 text-xs text-muted-foreground">
+              Fill in your details, and our admission team will contact you shortly.
             </p>
 
             {status === "success" ? (
