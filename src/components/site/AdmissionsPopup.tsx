@@ -3,7 +3,6 @@ import { X, Loader2, CheckCircle2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const ADMISSIONS_EMAIL = "admissions@atme.edu.in";
@@ -26,40 +25,20 @@ const COURSE_OPTIONS = [
   "MCA (Master of Computer Applications)",
 ];
 
-const ENQUIRY_OPTIONS = [
-  "Admission Enquiry",
-  "Fee Structure",
-  "Scholarship",
-  "CET Admission",
-  "COMEDK Admission",
-  "Management Quota",
-  "Campus Visit",
-  "Hostel",
-  "Transport",
-  "Placement Information",
-  "Brochure Request",
-  "Call Back Request",
-  "Other",
-];
-
 const PUC_STATUS_OPTIONS = ["Appearing", "Passed"];
-const QUALIFICATION_OPTIONS = ["PUC", "CBSE", "ICSE", "Diploma", "B.Sc.", "Other"];
+const QUALIFICATION_OPTIONS = ["PUC", "Diploma", "B.Sc.", "Other"];
 const ADMISSION_CATEGORY_OPTIONS = ["CET", "COMEDK", "Management", "International"];
-const CONTACT_TIME_OPTIONS = ["Morning", "Afternoon", "Evening"];
 
 const initialValues = {
   name: "",
   email: "",
   phone: "",
   course: "",
-  enquiryType: "",
   state: "",
   city: "",
   pucStatus: "",
   qualification: "",
   admissionCategory: "",
-  contactTime: "",
-  message: "",
 };
 
 type FormValues = typeof initialValues;
@@ -124,14 +103,11 @@ export function AdmissionsPopup() {
           Email: values.email.trim(),
           "Phone Number": values.phone.trim() || "Not provided",
           "Course Interested In": values.course || "Not specified",
-          "Type of Enquiry": values.enquiryType || "Not specified",
           State: values.state.trim() || "Not provided",
           "City/District": values.city.trim() || "Not provided",
           "PUC/12th Status": values.pucStatus || "Not specified",
           "Current Qualification": values.qualification || "Not specified",
           "Admission Category": values.admissionCategory || "Not specified",
-          "Preferred Contact Time": values.contactTime || "Not specified",
-          Message: values.message.trim() || "Not provided",
           "Submitted From": typeof window !== "undefined" ? window.location.href : "",
         }),
       });
@@ -157,7 +133,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-auto lg:max-w-[94vw] max-h-[96vh] overflow-y-auto sm:overflow-visible rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-auto lg:max-w-[94vw] max-h-[92vh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -169,7 +145,7 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-[92vh] lg:max-h-[860px]">
+        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-[74vh] lg:max-h-[620px]">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
@@ -265,24 +241,6 @@ export function AdmissionsPopup() {
                     </Select>
                   </div>
 
-                  <div className="col-span-2 space-y-0.5">
-                    <Label htmlFor="admissions-popup-enquiry-type" className={labelClass}>
-                      Type of Enquiry <span className="text-destructive">*</span>
-                    </Label>
-                    <Select required value={values.enquiryType} onValueChange={handleSelect("enquiryType")}>
-                      <SelectTrigger id="admissions-popup-enquiry-type" className={fieldClass}>
-                        <SelectValue placeholder="Select enquiry type" />
-                      </SelectTrigger>
-                      <SelectContent className="z-[110]">
-                        {ENQUIRY_OPTIONS.map((opt) => (
-                          <SelectItem key={opt} value={opt}>
-                            {opt}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
                   <SectionLabel>Student Information</SectionLabel>
 
                   <div className="space-y-0.5">
@@ -347,7 +305,7 @@ export function AdmissionsPopup() {
                     </Select>
                   </div>
 
-                  <div className="space-y-0.5">
+                  <div className="col-span-2 space-y-0.5">
                     <Label htmlFor="admissions-popup-admission-category" className={labelClass}>
                       Admission Category
                     </Label>
@@ -363,38 +321,6 @@ export function AdmissionsPopup() {
                         ))}
                       </SelectContent>
                     </Select>
-                  </div>
-
-                  <div className="space-y-0.5">
-                    <Label htmlFor="admissions-popup-contact-time" className={labelClass}>
-                      Contact Time
-                    </Label>
-                    <Select value={values.contactTime} onValueChange={handleSelect("contactTime")}>
-                      <SelectTrigger id="admissions-popup-contact-time" className={fieldClass}>
-                        <SelectValue placeholder="Select a time" />
-                      </SelectTrigger>
-                      <SelectContent className="z-[110]">
-                        {CONTACT_TIME_OPTIONS.map((opt) => (
-                          <SelectItem key={opt} value={opt}>
-                            {opt}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div className="col-span-2 space-y-0.5">
-                    <Label htmlFor="admissions-popup-message" className={labelClass}>
-                      Additional Message
-                    </Label>
-                    <Textarea
-                      id="admissions-popup-message"
-                      rows={1}
-                      placeholder="Tell us how we can help you."
-                      value={values.message}
-                      onChange={handleChange("message")}
-                      className="min-h-0 py-1.5 text-sm resize-none"
-                    />
                   </div>
                 </div>
 
