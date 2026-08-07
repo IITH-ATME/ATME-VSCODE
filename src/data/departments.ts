@@ -631,7 +631,55 @@ export const departments: Department[] = [
     },
   }),
   make("ds", "DS", "CSE — Data Science", "Statistics, machine learning, data engineering and visualisation.", dsFaculty, {
-    about: "I'm delighted to be the Head of Data Science at ATMECE Mysore. Our department is equipped with an excellent, passionate faculty team who are all thoroughly qualified and up-to-date on the latest industry trends. Our students are highly motivated and well-trained for the IT sector with hands-on experience in cutting edge technologies and programming languages.\n\nI'm confident that our students will not only attain good academic score but will also acquire high-paying jobs. The scientific examination of data using mathematical and statistical models, machine learning tools, and artificial intelligence is called data science. In present scenario data scientists play very vital role in deriving conclusions and recommendations in various domains to make our life a better life Department is equipped all modern tools and technologies to impart knowledge in the field of Data Science. Our institute facilitates students with placement training in aptitude and technical sessions, as well as soft-skill classes to aid in better placement.\n\nWe at ATMECE more importance is placed on elevating the students learning experience by providing value-added courses, skill-enhancement programs, and motivate students to participate in technical symposiums, hackathons organised by premier institutes across the nation. I am confident that the Department of Data Science students at ATMECE is prepared to face the new societal issues and challenges in this new millennium, we transform our students in all dimensions of their student life to become better citizen of this nation for better India and better world.",
+    about: "",
+    aboutBullets: [
+      {
+        label: "Established",
+        children: [
+          "Established: 2021",
+          "Initial Intake: 60, Current strength: 169 (2nd to 4th Year)",
+        ],
+      },
+      {
+        label: "Academic Excellence",
+        children: [
+          "Industry-oriented curriculum aligned with VTU and emerging technologies.",
+          "Focus on Data Science, Artificial Intelligence, Machine Learning, Deep Learning, Big Data Analytics, Data Engineering, and Cloud Computing.",
+          "Outcome-Based Education (OBE) with experiential and project-based learning.",
+        ],
+      },
+      {
+        label: "Faculty Expertise",
+        children: [
+          "Data Science & Analytics",
+          "Artificial Intelligence & Machine Learning",
+          "Deep Learning & Computer Vision",
+          "Data Engineering & Big Data",
+          "Cloud Computing",
+          "Internet of Things (IoT)",
+          "Cyber Security",
+          "Full Stack Development",
+        ],
+      },
+      {
+        label: "Facilities & Infrastructure",
+        children: [
+          "Modern computing laboratories with high-speed internet.",
+          "ICT-enabled smart classrooms and seminar hall.",
+          "Specialized laboratories for Data Science, AI/ML, and Programming.",
+          "Access to open-source tools, cloud platforms, and industry-standard software.",
+        ],
+      },
+      {
+        label: "Training & Industry Linkages",
+        children: [
+          "Industry collaborations for internships, workshops, and expert talks.",
+          "Value-added courses in Python, Data Analytics, AI, ML, Generative AI, Cloud Computing, and Full Stack Development.",
+          "Regular coding contests, technical workshops, hackathons, and certification programs.",
+          "Placement-focused training in aptitude, technical skills, communication, and interview preparation.",
+        ],
+      },
+    ],
     vision: "To impart technical education in the field of data science of excellent quality with a high level of professional competence, social responsibility and global awareness among the students",
     mission: [
       "To impact technical education that is upto date, relevant and makes students competitive and employable at global level",
@@ -653,7 +701,43 @@ export const departments: Department[] = [
     programmes: [
       { programme: "Computer Science & Engineering – Data Science", degree: "B.E (CSE – DS)", duration: "4 Years", intake: "60" },
     ],
-    hod: { name: "Dr. Anitha D B", designation: "Professor & Head, CSE-DS(Data Science)", image: "/__l5e/assets-v1/6e0859dd-fc91-478a-b5e9-c348e9187b39/Dr-Anitha-D-B.jpg.jpeg", message: "I'm delighted to be the Head of Data Science at ATMECE Mysore. Our department is equipped with an excellent, passionate faculty team who are all thoroughly qualified and up-to-date on the latest industry trends. Our students are highly motivated and well-trained for the IT sector with hands-on experience in cutting edge technologies and programming languages.\n\nI'm confident that our students will not only attain good academic score but will also acquire high-paying jobs. The scientific examination of data using mathematical and statistical models, machine learning tools, and artificial intelligence is called data science. In present scenario data scientists play very vital role in deriving conclusions and recommendations in various domains to make our life a better life Department is equipped all modern tools and technologies to impart knowledge in the field of Data Science. Our institute facilitates students with placement training in aptitude and technical sessions, as well as soft-skill classes to aid in better placement.\n\nWe at ATMECE more importance is placed on elevating the students learning experience by providing value-added courses, skill-enhancement programs, and motivate students to participate in technical symposiums, hackathons organised by premier institutes across the nation. I am confident that the Department of Data Science students at ATMECE is prepared to face the new societal issues and challenges in this new millennium, we transform our students in all dimensions of their student life to become better citizen of this nation for better India and better world." },
+    hod: {
+      name: "Dr. Anitha D B",
+      designation: "Professor & Head, Department of Computer Science & Engineering (Data Science)",
+      image: "/__l5e/assets-v1/6e0859dd-fc91-478a-b5e9-c348e9187b39/Dr-Anitha-D-B.jpg.jpeg",
+      message: "",
+      messageBullets: [
+        {
+          label: "Educational Approach",
+          children: [
+            "Outcome-Based Education (OBE) with student-centric learning.",
+            "Experiential learning through hands-on laboratory sessions, real-time projects, internships, and industry interactions.",
+            "Collaboration with industry partners and training institutes for emerging technology skill development.",
+            "Encouragement to pursue NPTEL, SWAYAM, MOOC, and other industry certifications for Honors, Minor Degrees, and continuous learning.",
+          ],
+        },
+        {
+          label: "Research & Innovation",
+          children: [
+            "Faculty actively involved in research, publications, funded projects, and consultancy.",
+            "Research focus areas include Artificial Intelligence, Machine Learning, Data Science, Big Data Analytics, Computer Vision, Natural Language Processing, Cloud Computing, and Generative AI.",
+            "Promotion of interdisciplinary research, innovation, and entrepreneurship through project-based learning.",
+          ],
+        },
+        {
+          label: "Student Excellence",
+          children: [
+            "Active participation and achievements in hackathons, coding competitions, technical symposiums, project exhibitions, and innovation challenges.",
+            "Students are encouraged to undertake internships, industry projects, research activities, and certification programmes.",
+            "The Datanauts Club provides a platform for students to organize technical events, workshops, coding contests, and peer-learning activities.",
+          ],
+        },
+        {
+          label: "Our Commitment",
+          text: "We are committed to developing skilled, ethical, and industry-ready data science professionals through quality education, innovation, and practical learning.",
+        },
+      ],
+    },
   }),
   make("bca", "BCA", "Bachelor of Computer Applications", "Undergraduate programme focused on computer applications, software development, databases and IT fundamentals.", noFaculty, {
     about: "In today's technology-driven world, computer applications play a central and increasingly important role from communication, accessing information to harnessing the power of AI to drive innovation, automation, and intelligent decision-making across various domains. Concerning the Department of Computer Applications (BCA Programme), we intend to assure a standard of excellence in imparting higher education by practicing Hands-on Labs and Projects, Interactive Lectures, Case studies, Problem-solving sessions, Technology Integration, providing Networking opportunities and involving students in Research opportunities — leading bachelor students to benefit from a well-rounded education for the dynamic and evolving field of computer applications. The Department facilitates students to flourish their talent, enrich their expertise and competency. Students are also made spirited to become Entrepreneurs through expert talks by diversified resource persons. The duration of the BCA program is three years (Six Semesters). The curriculum, designed by VTU, is aimed at broadcasting a wide spectrum of practice and knowledge in the computing domain in the latest and emerging technologies. The Department of BCA inculcates innovative teaching-learning methods and Outcome Based Education (OBE) to enable students to become intellectual as well as competent professionals.",

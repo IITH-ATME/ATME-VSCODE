@@ -3313,6 +3313,11 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "5th", section: "A", incharge: "Prof. Likitha D", email: "likithad.ci@atme.edu.in" },
     { sem: "7th", section: "A", incharge: "Prof. Vanitha G Naik", email: "vanithagnaik_cs@atme.edu.in" },
   ],
+  DS: [
+    { sem: "2", section: "—", incharge: "Ms Madhu Nagaraj", email: "madhunagaraj_cd@atme.edu.in" },
+    { sem: "3", section: "—", incharge: "Dr. Neethi M V", email: "Dr.neethimv_cd@atme.edu.in" },
+    { sem: "4", section: "—", incharge: "Ms. Sushmitha N", email: "sushmithan.cd@atme.edu.in" },
+  ],
 };
 
 function ClassInchargeTable({ deptCode }: { deptCode: string }) {
@@ -3325,8 +3330,8 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   const showContact = true;
   // EEE-specific: the college now labels this "Academic Year 2026–27" and
   // uses "Year" instead of "Semester" as the column header there.
-  const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" ? "2026–27" : "2025–26";
-  const semesterColLabel = deptCode === "EEE" ? "Year" : "Semester";
+  const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" || deptCode === "DS" ? "2026–27" : "2025–26";
+  const semesterColLabel = deptCode === "EEE" || deptCode === "DS" ? "Year" : "Semester";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">
       <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
