@@ -13,16 +13,17 @@ type SubmitStatus = "idle" | "submitting" | "success" | "error";
 
 const COURSE_OPTIONS = [
   "Computer Science & Engineering",
-  "AI & ML",
-  "Data Science",
-  "Cyber Security",
-  "Information Science",
-  "Electronics & Communication",
-  "Electrical & Electronics",
-  "Mechanical",
-  "Civil",
-  "MBA",
-  "MCA",
+  "Computer Science & Engineering - AI & ML",
+  "Computer Science & Engineering - Data Science",
+  "Computer Science & Engineering - Cyber Security",
+  "Computer Science & Engineering - Design",
+  "Electronics & Communication Engineering",
+  "Electrical & Electronics Engineering",
+  "Mechanical Engineering",
+  "Civil Engineering",
+  "BCA (Bachelor of Computer Applications)",
+  "MBA (Master of Business Administration)",
+  "MCA (Master of Computer Applications)",
 ];
 
 const ENQUIRY_OPTIONS = [
