@@ -133,7 +133,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:max-w-[1160px] max-h-[92vh] lg:h-[88vh] lg:max-h-[800px] overflow-y-auto lg:overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[92vh] lg:h-[88vh] lg:max-h-[800px] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -149,12 +149,12 @@ export function AdmissionsPopup() {
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
-            className="block lg:h-full lg:flex-1 min-w-0 animate-[popIn_0.5s_ease-out]"
+            className="block lg:h-full min-w-0 animate-[popIn_0.5s_ease-out]"
           >
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-48 sm:h-56 lg:h-full lg:w-full object-cover object-top bg-white"
+              className="block w-full h-48 sm:h-56 lg:h-full lg:w-auto object-cover object-top bg-white"
               loading="eager"
               width={1600}
               height={1900}
