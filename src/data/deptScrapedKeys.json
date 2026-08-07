@@ -111,7 +111,8 @@
     "mca-infrastructure",
     "mca-resources",
     "about-the-department",
-    "coe-mca"
+    "coe-mca",
+    "achievements"
   ],
   "mba": [
     "mba-faculty-profile",
@@ -203,6 +204,7 @@
     "bca-program-outcomes",
     "bca-course-list",
     "bca-scheme-syllabus",
-    "bca-resources"
+    "bca-resources",
+    "achievements"
   ]
 }
