@@ -869,10 +869,10 @@ function RehostedPage() {
                       </h2>
                       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                         {[
+                          "2026/08/tata-electronics-systems-and-solutions-01.jpg","2026/08/tata-electronics-systems-and-solutions-02.jpg",
                           "2026/04/pg1-1024x1024.jpeg","2026/04/pg2.jpeg","2026/04/pg3-1024x1024.jpeg","2026/04/pg4-1024x1024.jpeg",
                           "2026/04/pg5-1024x1024.jpeg","2026/04/pg6-1024x1024.jpeg","2026/04/pg7-1024x1024.jpeg","2026/04/pg8-1024x1024.jpeg",
                           "2026/04/pg9-1024x1024.jpeg","2026/04/pg10-1024x1024.jpeg","2026/04/pg11-1024x1024.jpeg",
-                          "2026/08/tata-electronics-systems-and-solutions-01.jpg","2026/08/tata-electronics-systems-and-solutions-02.jpg",
                         ].map((f, i) => {
                           const url = resolveAssetUrl(`/images/uploads/${f}`);
                           return (
