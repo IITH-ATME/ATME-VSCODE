@@ -9605,4 +9605,547 @@ Completed Mooc courses on:
 4. NAAC criteria-4 Coordinator
 5. NBA Criteria-4 Coordinator`,
   },
+  "devaraj-m-r": {
+    name: "Mr. Devaraj M R",
+    url: "https://old.atme.edu.in/devaraj-m-r/",
+    md: `## Professional Experience
+
+- Teaching: 28
+- Research: 08
+- Industry: 02
+
+## Contact Details
+
+- **Email ID:** devarajmr_mech@atme.edu.in
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/201835
+- **Google Scholar ID:** https://scholar.google.com/citations?user=9pF3AZoAAAAJ&hl=in
+- **Scopus ID:** 58653839000
+- **Orcid ID:** https://orcid.org/0000-0002-0532-0594
+- **LinkedIn ID:** https://www.linkedin.com/in/devaraj-m-r-a4749850
+
+## Academic Details
+
+- PhD – Course work completed
+- PG – TOOL Engineering
+- UG – Mechanical Engineering
+
+## Areas of Interest
+
+1. Advanced Materials, Characterisation and Processes.
+2. Composites and Advanced Manufacturing
+
+## Publications Details
+
+**International**
+
+- Devaraj M R, Mohanakumara K C, Niranjan Kumar V S ‘Effect of Cooling Rate on Mechanical Properties of ASTM Grade Steel´ International Journal of Scientific Research in Science, Engineering and Technology, on 2022/3/15, Volume-9, Issue-9, Page-10
+- DEVARAJ M R, MOHANA KUMARA K C “Effect of Chilling during Solidification on Wear Behaviour of Ferrous Based Material” paper presented at international conference in Recent Trends in Science and Technology-ICRTST-2021 at ATMECE on 8th and 9th July 2021 and sent for publication.
+- DEVARAJ M R, NIRANJAN KUMAR V S “Influence of Reinforcement Materials on Mechanical, Metallurgical and Tribological Behavior of Aluminum Composites-Review” Paper published in GIS Science Journal Volume 7 Issue 5 May 2020 “An UGC care approved Group-II Journal. Paper ID: GSJ/1293
+- DEVARAJ M R, Dr. JOEL HEMANTH, “Effect of Cooling Rate on Mechanical Properties of ASTM Grade Steel” published in Advances in Mathematics: Scientific Journal
+- Devaraj M R, Joel Hemanth, Yathisha N, “A Study on Wear Behaviour and Mechanical Properties of Ferrous based Chilled castings”, International Journal of Innovation or Research Science Engineering and Technology (IJIRSET), Volume: 7, Issue: 1, Page No.1001-1009, January 2018.
+- Yathisha N, Devaraj M R, Karthik Kumar,“Design and Fabrication of Pedal Powered Household Reciprocating Pump”, International Journal of Innovation Research science Engineering and Technology (IJIRSET), Vol. 6, issue 9, September 2017.
+- Devaraj M R, Joel Hemanth, Yathisha N,“Effect of Cooling Rate on Properties and Microstructure during Solidification and Heat Treatment of Steels” International Journal of application or innovation in Engineering and Management (IJAIEM), volume 5, issue 9, Page No.23-31, September-2016.
+- Devaraj M R, Joel Hemanth, Yathisha N,“Effect of Cryogenic Treatment on Mechanical Properties of Steel – A review” International journal of Engineering Science Research and Technology (IJESRT), Volume12, Issue 1, Page No. 645-655, December-2015.
+- Yathisha N, Ravikumar S, Arjun M S, Devaraj M R, Suresha S, “A comparative study on stress concentration factor in a centrally notched Glass-fibre/ Epoxy plate by theoretical and finite element analysis.” (IJRST), Volume 2, issue 9; Page no.61-64, Sept.2015.
+- Srinivasa K, Devaraj M R, Yathisha N, Manjunath H S” Microstructure Analysis and Wear Behaviour of Aluminium based Metal Matrix Composite reinforced with ceramic particles” International Journal of Research in Engineering and Technology (IJRET), Volume3, issue 9, Page No.332-338, September 2014.
+- P.S. Mithun, Devaraj M R, “Development of Aluminium Based Composite Material “International Journal of Applied Engineering Research” (IJAER), Volume 6, Issue 1, Page No.121-130, Year -2011.
+- DEVARAJ.M.R. G. BALAKUMAR “Effect of Volume Fraction Addition of Al2O3 Reinforcement on Mechanical and Tribological Properties of Al-Si Alloy Based MMC” Proceedings of National Conference on Advanced Forming Technology (AFT 2010) 15-16th April 2010 at Department of Mechanical Engineering, R.V. College of Engg, Bangalore, PP-4
+- DEVARAJ.M.R., “Mechanical properties of Silicon carbide Particulates reinforced Aluminum alloy composites at different temperatures at all India seminar on Recent advances in Manufacturing technologies held at National institute of Technology, Rourkela, Orissa- 22-23, Oct. 2005
+- DEVARAJ.M.R., “Press Tools” at S J C Institute of technology, Chickballapur, on Recent Trends in Mechanical Engineering in Design, Thermal, Mfg. & Management areas held between 15.11.1999 and 27.11.1999.
+- Research Paper Entitled “Development and Testing of Agave fiber reinforced polymer-based composite” Published in IJMRSET, Volume 7, Issue 6, June 2024.
+
+## Membership in Professional Bodies
+
+- Indian Society for Technical Education (ISTE)-LM 28126
+- Institution of Engineers India (IEI)-FIE-(F-115911-5)
+- Tribology Society of India (TSI)
+
+## Honours/Awards/Achievements
+
+**Awards**
+
+- UG guided project “Automatic Crack Detector in Railway Track” 2015-16, secured first prize at Project work exhibition-2016 held at VVIET, Mysore.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**Conferences**
+
+- DEVARAJ M R, MOHANA KUMARA K C “Effect of Chilling during Solidification on Wear Behaviour of Ferrous Based Material” paper presented at international conference in Recent Trends in Science and Technology-ICRTST-2021 at ATMECE on 8th and 9th July 2021 and also sent for publication.
+- DEVARAJ.M.R. G. BALAKUMAR “Effect of Volume Fraction Addition of Al2O3 Reinforcement on Mechanical and Tribological Properties of Al-Si Alloy Based MMC” Proceedings of National Conference on Advanced Forming Technology (AFT 2010) 15-16th April 2010 at Department of Mechanical Engineering, R.V.College of Engg, Bangalore, PP-4
+- Paper Presented at International conference on Recent trends in Science & Technology ICRTST-2023 organised by ATME College of Engineering, Mysuru held on 18th and 19th October 2023. Paper Entitled “A Study on Effect of Chilling During Solidification and Copper Addition on Wear Behaviour of Steel Group Material”.
+- Paper Presented at International conference on Recent trends in Science & Technology ICRTST-2023 organised by ATME College of Engineering, Mysuru held on 18th and 19th October 2023. Paper Entitled “Investigate the Effect of Extrusion Process on Porosity and Mechanical Characteristics of Al-SiCp Metal Matrix Composite Material”.
+
+**STTP**
+
+- One-Week International Short Term Training Program (Online) titled Coordinator Dr. Jibitesh Kumar Panda “Recent Advancements in Fuel Cell and Hydrogen Storage”, Duration: From 09th to – 13th October 2023.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Project entitled “Development Aad Testing of Biodegradable Agave Fiber Reinforced Polymer Based Composite” was identified by KSCST 2024 (AY: 2023-24) and funded Rs. 5000/-.
+- [Proposed Reference number:47S_BE_4821]
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Squad Member for internal Assessment Tests
+- Teaching Learning Process and Classroom Teaching Evaluation Committee
+- Anti-Ragging Committee Members
+- Anti-Ragging Squad Members
+- Industry-Interaction advisory committee.
+
+## Roles and Responsibilities: Department Level
+
+1. Mentoring Co-ordinator
+2. MoU’s with industries/ Training Centres
+3. Industrial Visits Co-ordinator
+4. Program Assessment Committee.`,
+  },
+  "mr-hemanth-b-r": {
+    name: "Mr. Hemanth B R",
+    url: "https://atme.edu.in/mr-hemanth-b-r/",
+    md: `## Contact Details
+
+- **Email ID:** hemanthbr_me@atme.edu.in
+- **Vidwan ID:** Vd__Tn8AAAAJ
+- **Google Scholar ID:** https://scholar.google.com/citations?user=Vd__Tn8AAAAJ&hl=en
+- **Scopus ID:** https://www.scopus.com/authid/detail.uri?authorId=57211296943
+- **Orcid ID:** https://orcid.org/my-orcid?orcid=0000-0002-4685-2933
+- **WoS ID:** https://www.webofscience.com/wos/author/record/PUH-6854-2026
+- **LinkedIn ID:** https://www.linkedin.com/in/hemanth-b-r-a0b399169/
+
+## Academic Details
+
+- PhD – Pursuing in Mechanical Engineering Research Center, ATME College of Engineering, Mysuru
+- PG – M. Tech in Machine Design at PES College of Engineering, Mandya affiliated to VTU.
+- UG – B. E in Mechanical Engineering at ATME College of Engineering, Mysuru, affiliated to VTU.
+
+## Areas of Interest
+
+1. Additive Manufacturing
+2. Machine Design
+3. Entrepreneurship
+4. Machine Learning
+
+## Publications Details
+
+**International**
+
+- “Solar-Based Polygeneration Systems for a Carbon Neutral Future with Focus on Hydrogen Production: A Comprehensive Review”, G. S. Girishkumar, M. R. Kamesh, N. Shreekala, D. Yogaraj, M. Mohammed Nadeem, B. R. Hemanth and K. S. Nagaprasad, Nature Environment and Pollution Technology, Volume 25, Issue No 2, 2026
+- “Design and CFD Analysis of an Indigenous Rescue Vehicle”, Ahobal N, Vishnu P, Sudharshan N, Hemanth B R, Vijayakumar Naganna Patil, Karthik M. A, International Journal of Environmental Sciences, Page no 1596 – 1602, Vol. 11 Issue No. 23s, 2025.
+- “Wear Behaviour and Surface Analysis of Hybrid Al 6061 Composites Reinforced with Tungsten Carbide and Fly Ash”, D. E. Siddartha, Hemaraju, S. Chethan, Manil Raj and B. R. Hemanth, Journal of Mines, Metals and Fuels, Page no 2601 – 2609, Volume 73, Issue No 8, 2025
+- “Optimized Graphene Oxide Content for Enhancement in the Mechanical Properties of Epoxy Composites”, Mohammed Asif Kattimani, M. Mohammed Nadeem, M. B. Niyaz Ahamed, B. R. Hemanth, Mohammed Mathenulla Shariff, Viswanathan Rajan, S. B. Karthik, A. Rajesh, C. Durga Prasad, J. Inst. Eng. India Ser. D, Page No 535–542, Volume No 107, Issue No 1, 2025
+- “Automated Sensor based Fire Extinguisher Mounted on AGV”, Nagesha S, Preethi S, Raghu L, Mr. Hemanth B R, Mr. Rohith S, Dr. Chethan S, International Journal Of Multidisciplinary Research In Science, Engineering and Technology (IJMRSET), Page No 10394–10397, Volume No 7, Issue No 5, 2024
+- “Development of Multi Crop Agricultural Insecticide Sprayer”, Rayyan Ahmed Tanveer, Adarsha M, Akshay S, Madhusudan R, Dr. Chethan S, Mr. Hemanth B R, International Journal Of Multidisciplinary Research In Science, Engineering and Technology (IJMRSET), Page No 10433–10436, Volume No 7, Issue No 5, 2024
+- “Solar Driven Organic Rankine Cycle System and Hydrogen Fuel Production with Waste Heat Recovery”, G. S. Girishkumar, M. R. Kamesh, V. R. Srinivasan, Syed Mustafakhadri, D. Aravinda, S. R. Ravi Kumar, C. Somashekhar and B. R. Hemanth, Journal of Mines, Metals and Fuels, Page no 189 – 198, Volume 72, Issue No 3, 2024
+- “Experimental Analysis on the Impact Behaviour of Graphite‑Filled Glass Fibre Reinforced Epoxy Composites Subjected to Sea Water Ageing and Notch Depth”, S. Chethan, B. R. Hemanth, Hemaraju, M. Jayashree, Santhosh Kumar, J. Inst. Eng. India Ser. D, Page No 969–974, Volume No 105, Issue No 2, 2024
+- “Design and Fabrication of Fixture for Internal Grinding CNC Machine”, Rohith S, Ravi Kumar S, Md. Nadeem M, Chethan S, Hemanth B R, Grenze International Journal of Engineering and Technology, Pg 763-769, Jan 2023.
+- “Fractal Contact Mechanic Behaviour of Base Structural Steels in Abrasion”, Chethan S, Srinivasa K, Hemanth B R, and Hemaraju, Journal of Mines, Metals and Fuels, Page no 247-253, Volume 70, Issue No 10A, 2022
+
+## Membership in Professional Bodies
+
+- IAENG, ISHRAE Mysuru Chapter
+
+## Honours/Awards/Achievements
+
+**Awards**
+
+- Awarded as Best Innovation Ambassador award in IIC Regional Meet held at BIET, Davanagere
+
+**Achievements**
+
+- Completed AICTE QIP PG Programme in “MACHINE LEARNING” Conducted during June 2025 to December 2025 at Indian Institute of Information Technology, Raichur.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Attended one week ATAL – FDP on “Industry 5.0 with AI” from 3rd to 8th August 2026 at Manakula Vinayagar Institute of Technology, Pondicherry.
+- Attended one week ATAL – FDP on “Application of Artificial Intelligence & Machine Learning in 3D Printing for Next-Gen Materials and Industry 4.0/5.0” from 19th – 24th January 2026 at K.S. Institute of Technology, Bengaluru, Karnataka.
+- Attended one week ATAL – FDP on “Sustainable Manufacturing Practices and Environmental Impact Optimization Techniques” from 09th to 14th December 2024 at Dayananda Sagar College of Engineering, Bengaluru, Karnataka.
+- Attended one week ATAL – FDP on “Impact of Industry 4.0 on Industries and Academia” from 22/01/2024 to 27/01/2024 at S.R.M Institute of Science and Technology, Chennai, Tamil Nadu.
+- Attended 3-day FDP on “Introduction on Modelling and Design for Manufacturing using Fusion 360 by Autodesk” from 6th to 8th November 2023 at ATME College of Engineering, Mysuru, Karnataka.
+- Attended 3-day FDP on “Inculcating Universal Human Values in Technical Education” from 2nd to 4th November 2023 organized by All India Council for Technical Education (AICTE) at ATME College of Engineering, Mysuru.
+- Completed the 3-day online FDP on the theme “Innovation and Design Thinking” organized by IMPACT College of Engineering and Applied Sciences, Bengaluru from October 6 to October 8 2022.
+- Attended 5-day FDP on” 3D Printing & Design - Materials, Solutions, & Applications" from 6th December to 10th December 2021 organized by All India Council for Technical Education (AICTE)  at JSS Academy of Technical Education.
+
+**Conferences**
+
+- “All-Conversion-in-One Converter for EVs and Renewable Energy Applications”, Swathi.K, Jayashree M, Manikannan K, Nadeem Pasha K, Hemanth B R, Raveendra R S, Proceedings of the 9th International Conference on Intelligent Computing and Control Systems (ICICCS-2026), IEEE XPlore Part Number: CFP26K74-ART; ISBN: 979-8-3315-8947-9, Page no 460-464, 2026
+- Presented paper entitled “Design and Fabrication of fixture for Internal grinding CNC machine” in International Conference – ICRTST 2022 held on 14th and 15th July 2022 at ATME College of Engineering, Mysuru
+- “Effect of Glass Powder and MWCNTs on Mechanical and Wear properties of Epoxy based Hybrid Composites with Added Fillers for Elevated Temperature Applications”, Md Nadeem M, Hemanth B R, Yathisha N, International Conference on Recent Trends in Science & Technology-2020 (ICRTST - 2020), Page no 415 – 428, Volume N0 07, Issue Special Issue, 2020
+
+**STTP**
+
+- Completed STTP on “Printed Circuit Board (PCB)” organised by Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu in association with Altium Designers from 13th to 16th October 2025.
+- Completed one Week International Short Term Training Program (Online) titled “Recent Advancements in Fuel Cell and Hydrogen Storage”, successfully organized and delivered by Department of Mechanical Engineering, School of Engineering, Anurag University, India in Collaboration with Centre for New Energy Transition Research, Federation University Australia during 09 - 13 October, 2023.
+- Completed National Level Training program on “Material Characterization, Modelling and Finite Element Analysis” held during 22nd to 28th August 2022 at Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad in collaboration with GITAM University, Visakapatnam.
+
+**MOOC Certification**
+
+- Completed “Technology Enabled Learning and Life Long self-learning” conducted by National Initiative for Technical Teachers Training on February 2026.
+- Completed 8-week NPTEL course on “Processing of Polymers and Polymer Composites” funded by the MoE, Govt. of India in Jan – Mar 2026 period.
+- Completed 8-week NPTEL course on “Advanced Machining Processes” funded by the MoE, Govt. of India in Aug – Oct 2025 period.
+- Completed 4-week NPTEL course on “Design Thinking – A Primer” funded by the MoE, Govt. of India in July – Aug 2024 period.
+- Completed “Upskilling” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2024-25.
+- Completed “Reskilling” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2024-25.
+- Completed “Advanced level” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2023-24.
+- Completed “Foundation level” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2022-23.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Project entitled “Automatic adjustment of side mirrors using sensors connected to steering” was identified by KSCST 2022 and funded Rs. 8000/-
+
+## Patent
+
+**National**
+
+- Title: Automatic Adjustment of side mirrors using sensors connected to steering; Published/Granted: Published; Patent No: 202641002872 A
+- Title: An autonomous internet of things based robotic system for real time multi gas environmental monitoring and intelligent hazard detection; Published/Granted: Published; Patent No: 202641089559 A
+- Title: IoT driven smart healthcare system for real – time patient monitoring; Published/Granted: Published; Patent No: 202641089657 A
+
+## Roles and Responsibilities: Institute Level
+
+- Transportation Incharge
+- IIC Vice President
+- Anti ragging Committee Member
+- Alumni committee member
+
+## Roles and Responsibilities: Department Level
+
+- DST Coordinator
+- NBA Criteria 5 Coordinator
+- NAAC Criteria 3 Coordinator
+- Department sports and cultural Coordinator`,
+  },
+  "mr-ravikumar-s": {
+    name: "Mr. Ravikumar S",
+    url: "https://old.atme.edu.in/mr-ravikumar-s/",
+    md: `## Professional Experience
+
+- Teaching: 26 years
+- Research: 3 years
+- Industry: 1 year
+
+## Contact Details
+
+- **Email ID:** Ravikumars_mech@atme.edu.in
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/201289
+- **Scopus ID:** https://www.scopus.com/authid/detail.uri?authorId=58263856300
+- **Orcid ID:** https://orcid.org/0000-0001-9108-1720
+- **LinkedIn ID:** https://www.linkedin.com/in/ravikumar-gowda-688234126
+
+## Academic Details
+
+- PhD – Course work Completed
+- PG – M.Sc. Engg. By Research
+- UG – BE
+
+## Publications Details
+
+**National**
+
+- Ravikumar S, Yathisha N“A Comparative Study on Stress Concentration Factor in a Centrally Notched Glass-Fibre/Epoxy Plate by Theoretical and Finite Element Analysis”, IJRSI journal Volume 2, Issue 9; Sep-2015.
+- Ravikumar S, Harsha DN, “Study of Sustainable Utility of Biomass Energy Technologies for Rural Infrastructure and Village Power-Opportunities by Developing Bio Village Model”, IJRET journal, Volume 3, Issue 11; November 2014.
+- Ravikumar S, Rangaswamy T, Partha MK,“Thermophoresis Effects on Heat and Mass Transfer in A Non-Darcy Porous Medium”, International Journal of Mechanical and Production Engineering,Volume-1, Issue-1, July-2013.
+
+**International**
+
+- Ravikumar S, Yathisha N“A Comparative Study on Stress Concentration Factor in a Centrally Notched Glass-Fibre/Epoxy Plate by Theoretical and Finite Element Analysis”, IJRSI journal Volume 2, Issue 9; Sep-2015.
+- Ravikumar S, Harsha DN, “Study of Sustainable Utility of Biomass Energy Technologies for Rural Infrastructure and Village Power-Opportunities by Developing Bio Village Model”, IJRET journal, Volume 3, Issue 11; November 2014.
+- Ravikumar S, Rangaswamy T, Partha MK, “Thermophoresis Effects on Heat and Mass Transfer in A Non-Darcy Porous Medium”, International Journal of Mechanical and Production Engineering, Volume-1, Issue-1, July-2013.
+- Rohith S, Ravikumar S, Md. Nadeem M, Chethan S, Hemanth B R “Design and Fabrication of Fixture for Internal Grinding CNC Machine” Greenz International Journal of Engineering and Technology, Jan 2023.
+- Ravikumar S, Chethan S, Mohandas AN, Haseebuddin M R, Hemaraju, Mohammed Nadeem M “Development of Portable 3-Axis Deployed Laser Cutting machine” , Tuijin Jishu/Journal of Propulsion technology. ISSN:1001-4055, Vol 44, No. 5 2023.
+- V. R. Srinivasan, D. Yogaraj, S. Ravikumar, R. Vinayakumar, S. R. Ravikumar and  V. C. Chandra Shekara and H. Govindaraju “Optimization of Machining Parameters in Wire Electric Discharge Machining Inconel 600 Using Regression analysis” Journal of Mines, Metals and Fuels ISSN : 0022-2755 Vol 72 (6) | June 2024.
+
+## Membership in Professional Bodies
+
+- Life member of Indian Society for Technical Education (ISTE)
+- Life member of Institute of Engineers of India (IEI)
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- NPTEL-AICTE Faculty Development Program on “Managing Change in Organisations” Jan-March 2025
+- Six-Day ATAL FDP attended on “Cutting Edge FEM Techniques for Automotive Engineering” June 2025.
+- NPTEL-AICTE Faculty Development Program on “Accreditation and Outcome Based Learning” ) Aug-Oct 2024.
+- One Week International Short Term Training Program (Online) titled “Recent Advancements in Fuel Cell and Hydrogen Storage”, Oct 2023.
+- Three-day Face-to-Face FDP on the theme “Inculcating Universal Human Values in Technical Education” organized by All India Council for Technical Education (AICTE), Nov 2023
+- NPTEL-AICTE Faculty Development Program on “Operations Management” Jan-Apr 2023.
+- Five day faculty development program on “Developing Leadership Skills for Enhancing Personal and Organizational Outcome” Sep. 2021.
+- ARPIT course for Career Advancement Scheme(CAS) promotion “Refresher Course on Teacher and Teaching in Higher Education” Mar 2021.
+- TEQUIP Sponsored Five Day FDP on “Outcome Based Education and NBA Accreditation” Jan 2020.
+- Two-week Online FDP on “Python” (IIT Bombay organized) Jun-July 2020.
+- ARPIT Course for Career Advancement Scheme(CAS) promotion “Pedagogical Innovations And Research Methodology” Feb 2020.
+- NPTEL-AICTE Faculty Development Program on “Course Design and Instruction of Engineering Course” Jul-Sep 2019.
+
+## Roles and Responsibilities: Institute Level
+
+- Institute NBA Coordinator
+- Member Secretary for College Internal Complaints Committee
+- Member Secretary for Mentoring Committee.
+- IQAC Coordinator.
+
+## Roles and Responsibilities: Department Level
+
+- Academic Coordinator
+- Project and Internship Evaluation Committee member`,
+  },
+  "mr-rohith-s": {
+    name: "Mr. Rohith S",
+    url: "https://old.atme.edu.in/mr-rohith-s/",
+    md: `## Professional Experience
+
+- Teaching: 11 years
+- Research: 0
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** rohiths_mech@atme.edu.in
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/201717
+- **Google Scholar ID:** https://scholar.google.com/citations?user=yEsJeiUAAAAJ&hl=en
+- **Scopus ID:** https://www.scopus.com/authid/detail.uri?authorId=58653489600
+- **Orcid ID:** https://orcid.org/0000-0003-0928-1358
+- **WoS ID:** https://www.webofscience.com/wos/author/author-search?state=%7B%7D
+- **LinkedIn ID:** https://www.linkedin.com/in/rohith-somashekara-1142b857v
+
+## Academic Details
+
+- PhD – Pursuing
+- PG – M.Tech in Machine Design
+- UG – BE in Mechanical Engineering
+
+## Areas of Interest
+
+1. Machine Design
+2. Material science
+3. 3D Printing
+
+## Publications Details
+
+**International**
+
+- “Machining Performance Improvement in Turning of EN24 Steel using Design of Experiments”, V. R. Srinivasan, A. Balthilak, S. Rohith, P. Raja, D. Yogaraj, M. R. Kamesh, H. Govindaraju, G. S. Girishkumar, Nitish Kumar B. A. Praveena, Journal of Mines, Metals and Fuels, Pg 2903-2909, Vol 73 (9), September 2025.
+- “Farmer Friendly Multi-Operational Agro Machine”, Vishal S, Vijay Shankar N S, Nakul P, Arjun J R, Chethan S, Rohith S, International Journal Of Multidisciplinary Research in Science, Engineering and Technology (IJMRSET), Pg 10398-10402, Volume 7, Issue 5, May 2024.
+- “Automated Sensor based Fire Extinguisher Mounted on AGV”, Nagesha S, Preethi S, Raghu L, Mr. Hemanth B R, Mr. Rohith S, Dr. Chethan S, International Journal Of Multidisciplinary Research In Science, Engineering and Technology (IJMRSET), Pg 10394- 10397, Volume 7, Issue 5, May 2024.
+- “Modelling and Analysis of a Single Slope Solar Still for Desalination of Water”, G. S. Girishkumar, M. R. Kamesh, S. Rohith, D. Yogaraj, M. Abhilash, H. Sathish,R. Vinayakumar C. Somashekar, Journal of Mines, Metals and Fuels, Pg 313-321, Vol 72 (4), April 2024.
+- “Design and Fabrication of Fixture for Internal Grinding CNC Machine”, Rohith S, Ravi Kumar S, Md. Nadeem M, Chethan S, Hemanth B R, Grenze International Journal of Engineering and Technology, Pg 763-769, Jan 2023.
+- “Evaluation of Mechanical Properties of Jute Fiber, Boron Carbide Reinforced Epoxy Hybrid Composites”, Rohith.S, Mr. Yashwanth N, Dr. Rathnakar. G, International Conference on Recent Trends in Science & Technology-2021 (ICRTST - 2021), International Research Journal of Engineering and Technology (IRJET), Pg 191-198, Volume: 08, Special Issue | Oct 2021 Volume: 08, Special Issue Oct 2021.
+- “Fabrication of Hydrogen Engine”, Rohith S, Yashwanth N, Pavan Kumar K P, International Research Journal of Engineering and Technology (IRJET), Pg 2792-2796, Volume: 08 Issue: 03, Mar 2021.
+- “Design and Fabrication of Fatigue Testing Machine for Sheetmetal”, Rohith S, Yashwanth N, Swarnakiran S, International Research Journal of Engineering and Technology (IRJET), Pg 2535-2543, Volume: 06 Issue: 12, Dec 2019.
+- “Stress Distribution along Outer Most Fiber in Semi Circular Curved Beam Subjected to Out-Of-Plane Load for Different Cross Sections”, Rakshith N, Karthik Kumar M, Rohith S, Ramanuja C M, International Research Journal of Engineering and Technology (IRJET), Pg 4224-4227, Volume: 05, Issue: 05, May-2018.
+- “Fatigue Life Estimation of Machine Components”, Karthik Kumar M, Rakshith N, Yathisha N, Rohith S, International Research Journal of Engineering and Technology (IRJET), Pg 1328-1333, Volume: 05, Issue: 06, June-2018.
+- “Numerical Analysis of Nose Landing Gear System”, Swarnakiran.S, Rohith.S, International Research Journal of Engineering and Technology (IRJET), Pg 1978-1984, Volume: 05, Issue: 04, Apr-2018.
+- “Design and Fabrication of Pedal Powered Household Reciprocating Pump”, Yathisha. N, MD Nadeem M, Devaraj M R, Rohith S, Karthik Kumar M, International Journal of Innovative Research in Science, Engineering and Technology, Pg 18311-18318, Vol. 6, Issue 9, September 2017.
+- “Cold Flow Simulation in an IC Engine”, Rohith. S, Dr. G.V. Naveen Prakash, International Research Journal of Engineering and Technology (IRJET), Pg 82 – 87, Volume: 02, Issue: 07, Oct-2015.
+
+## Membership in Professional Bodies
+
+- Life Member of Indian Society for Technical Education (ISTE)
+- Life member of Institute of Engineers of India (IEI)
+
+## Honours/Awards/Achievements
+
+**Achievements**
+
+- Author of Textbook Elements of Mechanical Engineering- as per new 18 Scheme
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Attended one week ATAL – FDP on “Industry 5.0 with AI” from 3rd to 8th August 2026 at Manakula Vinayagar Institute of Technology, Pondicherry.
+- Attended one week ATAL – FDP on “Application of Artificial Intelligence & Machine Learning in 3D Printing for Next-Gen Materials and Industry 4.0/5.0” from 19th – 24th January 2026 at K.S. Institute of Technology, Bengaluru, Karnataka.
+- Attended one week ATAL – FDP on “Cutting-Edge FEM Techniques for Automotive Engineering” from 23rd to 28th June 2025 at Maharaja Institute of Technology Thandavapura, Mysuru, Karnataka.
+- Attended one week ATAL – FDP on “Sustainable Manufacturing Practices and Environmental Impact Optimization Techniques” from 09th to 14th December 2024 at Dayananda Sagar College of Engineering, Bengaluru, Karnataka.
+- Attended one week ATAL – FDP on “Impact of Industry 4.0 on Industries and Academia” from 22/01/2024 to 27/01/2024 at S.R.M Institute of Science and Technology, Chennai, Tamil Nadu.
+- Attended 3-day FDP on “Introduction on Modelling and Design for Manufacturing using Fusion 360 by Autodesk” from 6th to 8th November 2023 at ATME College of Engineering, Mysuru, Karnataka.
+- Attended 3-day FDP on “Inculcating Universal Human Values in Technical Education” from 2nd to 4th November 2023 organized by All India Council for Technical Education (AICTE) at ATME College of Engineering, Mysuru.
+- Attended two-week ATAL – FDP on “Applications and Research Opportunities in 3D & 4D Printing" from 10th – 21st October 2022 at Dayananda Sagar College of Engineering, Bengaluru, Karnataka.
+- Attended two-week FDP on “Recent advances in design and development of mechatronics and robotic systems” from 4th -16th December 2017 organised by Mahatma Gandhi Institute of Technology, Hyderabad.
+
+**Conferences**
+
+- Presented paper entitled “Design of a sustainable IoT for LPG Monitoring and leakage prevention” in International Conference on sustainable Technology 2025 held on 19th and 20th February 2025 at The National Institute of Engineering, Mysuru
+- Presented paper entitled “Design and Fabrication of fixture for Internal grinding CNC machine” in International Conference – ICRTST 2022 held on 14th and 15th July 2022 at ATME College of Engineering, Mysuru
+- Presented paper entitled “Evaluation of Mechanical Properties of Jute Fiber, Boron Carbide Reinforced Epoxy Hybrid Composites” in International Conference – ICRTST 2021 held on 9th and 10th July 2021 at ATME College of Engineering, Mysuru
+
+**STTP**
+
+- Completed STTP on “Printed Circuit Board (PCB)” organised by Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu in association with Altium Designers from 13th to 16th October 2025.
+
+**MOOC Certification**
+
+- Completed “Technology Enabled Learning and Life Long self-learning” conducted by National Initiative for Technical Teachers Training on February 2026.
+- Completed 8-week course Aug – Oct 2025 NPTEL course on “Advanced Machining Processes” funded by the MoE, Govt. of India.
+- Completed 4-week course Jan – Feb 2025 NPTEL course on “Design Thinking” funded by the MoE, Govt. of India.
+- Completed “Upskilling” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2024-25.
+- Completed “Reskilling” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2024-25.
+- Completed “Advanced level” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2023-24.
+- Completed “Foundation level” training for Innovation Ambassador by MoE’s Innovation cell and AICTE during the IIC calendar year 2022-23.
+- Completed “Orientation towards Technical Education and Curriculum Aspects” conducted by National Initiative for Technical Teachers Training on February 2021.
+- Completed ARPIT Course for Career Advancement Scheme (CAS) promotion “Pedagogical Innovations and Research Methodology” organised by Guru Jambeshwar University of Science & Technology Hisar, Haryana on 16th February 2020.
+- Completed 8-week course Aug – Oct 2019 NPTEL course on “Manufacturing of Composites” funded by the MoE, Govt. of India.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Project entitled “Automatic adjustment of side mirrors using sensors connected to steering” was identified by KSCST 2022 and funded Rs. 8000/-
+- Project entitled “Fabrication of solar cooker by using PCM” was identified by KSCST 2021 and funded Rs. 7000/-
+
+## Patent
+
+**National**
+
+- Title: Automatic Adjustment of side mirrors using sensors connected to steering; Published/Granted:  Published; Patent No: 202641002872 A
+- Title: An autonomous internet of things based robotic system for real time multi gas environmental monitoring and intelligent hazard detection; Published/Granted: Published; Patent No: 202641089559 A
+- Title: IoT driven smart healthcare system for real – time patient monitoring; Published/Granted: Published; Patent No: 202641089657 A
+
+## Roles and Responsibilities: Institute Level
+
+- Member in Admission Committee
+- Member in Sports Committee
+- Member in Cultural Committee
+- Member in Website Committee
+
+## Roles and Responsibilities: Department Level
+
+- Department NBA coordinator
+- Member in PAC Committee`,
+  },
+  "dr-mohanakumara-k-c": {
+    name: "Dr. Mohanakumara K C",
+    url: "https://atme.edu.in/dr-mohanakumara-k-c/",
+    md: `## Contact Details
+
+- **Email ID:** Dr.MOHANAKUMARAKC_mech@atme.edu.in
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/169310
+- **Google Scholar ID:** https://scholar.google.com/citations?user=FLlyLQQAAAAJ&hl=en
+- **Scopus ID:** https://www.scopus.com/authid/detail.uri?authorId=56458867500
+- **Orcid ID:** https://orcid.org/0000-0002-7694-1734
+- **WoS ID:** https://orcid.org/0000-0002-4376-1622
+- **LinkedIn ID:** https://www.linkedin.com/in/dr-mohanakumara-k-c-b29a0a48/
+- **Web of Science Researcher ID:** https://www.webofscience.com/wos/author/record/HHS-9720-2022
+
+## Academic Details
+
+- PhD – Mechanical Engg. - Composite Materials
+- PG - Computer Integrated Manufacturing
+- UG - Mechanical Engineering
+- AICTE QIP PG Certificate in “Cyber Physical System” at IIIT Dharwad
+
+## Areas of Interest
+
+1. Computer Integrated Manufacturing,
+2. Material science and Manufacturing Process
+3. Engineering Drawing,
+4. Metal Matrix Composites
+5. 3D Printing Technology
+6. Energy Engineering
+
+## Publications Details
+
+**International**
+
+- K. C. Mohanakumara, Divakar, H. N., K. S. Keerthiprasad, M. Rakesh, Naveed Anjum, and B. Sandeep. "Influence of Silicon Carbide on the Glass Transition Temperature of Glass Fiber Reinforced Epoxy Matrix Composites: A DSC Investigation." Journal of Mines, Metals & Fuels 73, no. 12 (2025): 3805.
+- KC, Mohanakumara, Niranjan Kumar VS, and Devaraj MR. "Performance Analysis of Multi Axis Solar Tracker using Ardiuno-Uno based Micro-Controller." Grenze International Journal of Engineering & Technology (GIJET) 9, no. 1 (2023): 740.
+- Mohanakumara K C, Niranjan Kumar V S, Devaraj M R, ‘Effect of Cooling Rate on Mechanical Properties of ASTM Grade Steel´ International Journal of Scientific Research in Science, Engineering and Technology, on 2022/3/15, Volume-9, Issue-9, Page-10
+- Ashokkumar M S, Mohanakumara K C et.al “Experimental Investigation on Mechanical na d Tribological properties of Extruded Aluminium A356- Al2O3 Stir cast MMC”, Elsevier- Material Today- Proceedings, Vol-5, 2018.
+- Devaraj M.R, Mohanakumara K C et.al “Using Characteristic Analysis of Low Bio Gas Chamber using Organic Waste”, IRJET, Vol-5, Issue 5, May 2018.
+- Thejkumar J, Ravikumar S, Harsha D N, Mohanakumara K C “Use of lipid Bio-fuels with Environmental Impacts for production of Low Coat Fuel”, IRJET, Vol-5, Issue 4, 2018.
+- Mohanakumara K C et.al “Finite Element Analysis of Combustion Process in Biomass Rice Husk Gasifier” at ICAMS International conference, IFERP, ISBN:978-81-932966-3-9 March 2017.
+- Mohanakumara K C et.al “Performance Study of Production Bio Fertilizer From Bio-fuel Waste” International Research Journal Of Engineering And Technology (IRJET), Vol-3, Issue7, pgs2145-2149, ISSN: 2395-0056, Jul 2016.
+- Mohanakumara K C et.al “Development and Mechanical Properties of SiC Reinforced Cast and Extruded Al Based Metal Matrix Composite” Procedia Materials Science Volume 5,  Pages 934–943, 2014.
+
+## Honours/Awards/Achievements
+
+**Achievements**
+
+- Organized several workshop, faculty development programs, Guest Lectures, Seminars
+- Delivered several guest lectures at various other organization.
+- UG project guided “Multi Axis Solar Tracker” was funded by Karnataka State Council for Science & Technology during 2019-20.
+- UG project guided “Grading/Sorting of Vegetables in a Single Machine” was selected for state level project exhibition held at BEIT Davanagere, 10th and 11th Aug2018.
+- UG project guided “Grading/Sorting of Vegetables in a Single Machine” was funded by Karnataka State Council for Science & Technology during 2017-18.
+- UG project guided “Hybrid Energy Production System using Solar, Wind & Hydro Energy Sources” was funded by Karnataka State Council for Science & Technology during 2016-17.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Participated in an NPTEL-AICTE Faculty Development Programme on “Product Design and Development” funded by the MoE, Govt. of India from July–August 2024.
+- Participated in a Value Added Course entitled “Digital Transformation from Industry 4.0 to Industry 5.0” held at Vellore Institute of Technology, Vellore from June 10–14, 2024.
+- Participated in an NPTEL-AICTE Faculty Development Programme on “Experimental Robotics” funded by the MoE, Govt. of India from February–March 2024.
+- Participated in a one-week blended-mode FDP on “Polymer Composites For Engineering Applications (PCEA-2023)” conducted by the Department of Chemistry at B.M.S. College of Engineering, Bengaluru from May 22–26, 2023.
+- Participated in an NPTEL-AICTE Faculty Development Programme on “Introduction to Industry 4.0 and Industrial Internet of Things” funded by the MoE, Govt. of India from January–April 2023.
+- Participated in a 5-day Face-to-Face “UHV-II FDP” organized by All India Council for Technical Education (AICTE) at RV College of Engineering, Bengaluru from September 5–9, 2022.
+- Participated in a one-week online AICTE–VTU Joint Training Programme for Teachers on “An Overview of Teaching Techniques in Innovation & Design Thinking” organized by VTU-HRDC, Muddenahalli from December 6–10, 2021.
+- Participated in an AICTE Training And Learning (ATAL) Academy Online Elementary FDP on “Applications of 3D Printing Technology in Engineering Education” at Dayananda Sagar College of Engineering from September 20–24, 2021.
+- Participated in an “Innovation Ambassador Training Program (Advanced Level)” consisting of 16 sessions conducted in online mode by MoE's Innovation Cell & AICTE from June 30 – July 31, 2021.
+- Participated in an AICTE Training And Learning (ATAL) Academy Online Elementary FDP on “Numerical simulation and soft computing techniques in advanced manufacturing processes” at Lakshmi Narain College of Technology from July 5–9, 2021.
+- Participated in a one-week online FDP on “Mentoring Pedagogy & Application of ICT tools for Online Classroom Delivery of Teachers” organized by E&ICT Academy, IIT Guwahati from October 27 – November 3, 2020.
+- Participated in a one-week online, hands-on FDP on “Introduction to Python Basics” conducted by the Department of Mechanical Engineering at Canara Engineering College, Mangalore from July 23–29, 2020.
+- Participated in a one-week webinar on “Industry 4.0” organized by the Department of Mechanical Engineering at Nagarjuna College of Engineering and Technology from June 8–12, 2020.
+- Participated in an AICTE-sponsored two-week National Level FDP on “Emphasizing Morals, Values, Ethics and Character Education for Quality Teachers” conducted by the Department of Computer Science and Engineering at P. A. College of Engineering and Technology, Pollachi from December 4–17, 2017.
+- Participated in a TEQIP-II sponsored one-week FDP on “Current Trends in Robotics & Controls” conducted by the Department of Mechanical Engineering at The National Institute of Engineering, Mysuru from March 10–15, 2016.
+
+**Conferences**
+
+- Presented paper entitled “Effect of a Smaller Upstream Square Cylinder on Flow Dynamics and Heat Transfer in Tandem Heated Cylinders” in International Conference AMISE 5.0 organized by the Department of Mechanical Engineering, DSATM, Bengaluru, on 30 March 2026.
+- Presented paper entitled “Performance Analysis of Multi Axis Solar Tracker Using Ardiuno-Uno Based Micro-Controller” in International Conference – ICRTST 2022 held on 14th and 15th July 2022 at ATME College of Engineering, Mysuru
+- Mohanakumara K C, Devaraj M R, Manoj S and Madhuvardhan G “Multi Axis Solar Tracker Using Ardiuno Micro-Controller” International Conference On Recent Trends In Science & Technology (ICRTST – 2021), 8th and 9th July 2021at ATMECE Mysuru,
+- Devaraj M R and Mohanakumara K C “Effect of Chilling during Solidification on Wear Behavior of Ferrous Based Material” International Conference On Recent Trends In Science & Technology (ICRTST – 2021), 8th and 9th July 2021at ATMECE Mysuru,
+- Mohanakumara K C, Niranjan Kumar V S, Harsha D N and Yashwanth N “Study of Utilization of Biofuels and Environmental Impacts” International Conference On Recent Trends In Science & Technology (ICRTST - 2020), 17th and 18th June 2020 at ATMECE Mysuru.
+- Mohanakumara K C, Niranjan Kumar V S, Harsha D N “Biogas Production From Jaggery Waste Using Low Cost Biogas Plant” ICFSGT-2018, ASET Chennai.
+- Harsha D N , Niranjan Kumar V S and Mohanakumara K C “Performance Analysis of Utilization of Biomass Technologies for Developing Bio Village” ICFSGT-2018, ASET Chennai.
+- Ashok Kumar M S, Mohana Kumara K C et.al “Evaluation of Mechanical and Tribological Behaviors of  As Cast & Extruded Aluminium A356 - AL2O3 – MoS2 Hybrid MMC’s” 9th International Conference on Industrial Tribology (ICIT-2017), December 6-9, 2017, Kolkata, India.
+- Mohanakumara K C et.al “Experimental study of Fatigue characteristics of Al-SiC-MoS2 Hybrid Metal Matrix Composites”, at ICAMES-2017 International conference organized by PES Mandya on 17 March 2017.\
+- Ashokkumar M.S, Mohanakumara K C et.al “Mechanical and Tribological Characterization of Aluminium based Hybrid Metal Matrix Composites”, at ICAMES-2017 International conference organized by PES Mandya on 17 March 2017.
+- Mohanakumara K C et.al “Study of Parametric Influence on Mechanical Behaviour of Al-SiCp Metal Matrix Composites using Finite Element Method" for the “International NAFEMS Conference on Engineering Analysis, Modeling, Simulation and 3D-Printing (NAFEMS-3D) – 2016” at Bangalore during 29-31 August 2016.
+- Mohanakumara K C et.al “Experimental Investigations on Mechanical and Tribological Properties of Extruded Aluminium A356 - AL2O3 Stir Cast MMC” ICAMA 2016 at BMS College of Engineering, Bangalore 2016.
+- Mohanakumara K C et.al “Development and Mechanical Properties of SiC Reinforced Cast and Extruded Al Based Metal Matrix Composite” International Conference on Advances in Manufacturing and Materials Engineering, AMME 2014.
+- Mohanakumara K C et.al “Effect of Reinforcement particle size on mechanical and Tribological characteristics of Al-SiCp metal matrix composite” ICAT14, NIT, Calicut, 21-24 February 2014.
+- Ajit Prasad S L, Mohanakumara K C et.al “Tribological Study of as Cast and Extruded A356-SiC Metal Matrix Composites”5th World Tribology Congress in 2013 at Turin, Italy.
+- Mohanakumara K C et.al “Dry Sliding Wear Study of Extruded Al-Sic Metal Matrix Composite”8th International Conference on Industrial Tribology in December- 2012 at Pune.
+
+**MOOC Certification**
+
+- Completed the NPTEL 12-week Artificial Intelligence (AI) for Management course during January–April 2026, with 4 credits
+- Completed the NPTEL 12-week Data Science Using Python course during July–October 2025, with 3 credits
+- Completed the NPTEL 4-week course on Product Design and Development, enhancing knowledge of product design methodologies, innovation, and product development processes. (Jul–Aug 2024)
+- Completed the NPTEL 4-week course on Experimental Robotics, developing knowledge of robotic systems, experimental robotics, and practical robotics applications. (Feb–Mar 2024)
+- Completed the NPTEL course on Introduction to Industry 4.0 and Industrial Internet of Things, gaining knowledge of Industry 4.0 concepts, Industrial IoT, cyber-physical systems, and smart manufacturing technologies. (2022–23)
+- Completed the NPTEL 12-week course on NBA Accreditation and Teaching–Learning in Engineering (NATE), strengthening expertise in outcome-based education, NBA accreditation requirements, and effective engineering teaching–learning practices. (Jan–Apr 2020)
+
+## Patent
+
+**National**
+
+- Title: “Convertible wheel Chair and stretcher system with sliding Mechanism”; Published/Granted: Published 2025; Patent Application No: 202541003099
+
+## Roles and Responsibilities: University Level
+
+- Worked as a Board of Examiners (BOE) Member for Visvesvaraya Technological University (VTU), Belagavi, contributing to the evaluation and quality assurance of university examinations during 2024-25.
+
+## Roles and Responsibilities: Institute Level
+
+- UHV Cell member
+- IIC cell member
+- Library committee member
+- Student Welfare and Disciplinary committee member
+
+## Roles and Responsibilities: Department Level
+
+- NBA coordinator 2017-18-Till Date
+- AIMS- Coordinator 2023-24 to Till date
+- CIM/ CAD/CAM Lab In-Charge-2019-20- Till Date
+- NAAC coordinator 2019 to 204-25
+- EMS coordinator 2022-23
+- Examination (IA) Committee:2017-18, 2018-19, 2019-20, 2020-21
+- Alumni Coordinator-2015-16. 2016-17, 2020-21
+- NSS Coordinator 2019-20, 2020-21
+- Faculty Placement Coordinator - 2015-16, 2016-17`,
+  },
 };

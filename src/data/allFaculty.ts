@@ -111,10 +111,14 @@ export const eeeAllFaculty: Faculty[] = [
 
 export const meAllFaculty: Faculty[] = [
   { id: "dr-srinivasa-k", name: "Dr. Srinivasa K", designation: "Professor & Dean Student Affairs", qualification: "BE, M.Tech, Ph.D", doj: "13/09/2010", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://old.atme.edu.in/dr-srinivasa-k/" },
-  { id: "mr-ravikumar-s", name: "Mr. Ravikumar S", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "26/05/2012", image: "/__l5e/assets-v1/c3a1f515-69a4-48f8-916f-01b6cc4f6dec/mr.-ravi-kumar-s-1.jpg", cvUrl: "https://old.atme.edu.in/mr-ravikumar-s/" },
-  { id: "devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "19/08/2022", image: "/__l5e/assets-v1/54e032df-fd86-497f-9102-ac1dbab55fe5/prof.-devaraj-mr-1.jpg", cvUrl: "https://old.atme.edu.in/devaraj-m-r/" },
   { id: "dr-chethan-s", name: "Dr. Chethan S", designation: "Associate Dean Academics, Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "15/07/2014", image: "/__l5e/assets-v1/e19510b2-7ab1-462d-b546-e8a8a71fc37c/dr.-chethan-s.jpg", cvUrl: "https://old.atme.edu.in/dr-chethan-s/" },
-  { id: "mr-rohith-s", name: "Mr. Rohith S", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "04/07/2016", image: "/__l5e/assets-v1/9880dbb7-73a4-48f3-8c35-1a76dc24efc4/rohith-s.jpg", cvUrl: "https://old.atme.edu.in/mr-rohith-s/" },
+  { id: "mr-ravikumar-s", name: "Mr. Ravikumar S", designation: "Associate Professor", qualification: "BE, M.Sc (Engg.)", doj: "26/05/2012", image: "/images/uploads/ravikumar-s.png", cvUrl: "https://old.atme.edu.in/mr-ravikumar-s/" },
+  { id: "devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "19/08/2022", image: "/images/uploads/devaraj-m-r.png", cvUrl: "https://old.atme.edu.in/devaraj-m-r/" },
+  { id: "mr-raghu", name: "Mr. Raghu", designation: "Assistant Professor", qualification: "M.Tech in Thermal Power Engineering", doj: "", image: "/images/uploads/ME-6.jpg", cvUrl: "https://atme.edu.in/mr-raghu/" },
+  { id: "niranjan-kumar-v-s", name: "Mr. Niranjan Kumar V S", designation: "Assistant Professor", qualification: "M.Tech in Maintenance Engineering", doj: "", image: "/images/uploads/ME-7.jpg", cvUrl: "https://atme.edu.in/niranjan-kumar-v-s/" },
+  { id: "dr-mohanakumara-k-c", name: "Dr. Mohanakumara K C", designation: "Assistant Professor", qualification: "BE, M.Tech, Ph.D", doj: "", image: "/images/uploads/mohanakumara-k-c.png", cvUrl: "https://atme.edu.in/dr-mohanakumara-k-c/" },
+  { id: "mr-rohith-s", name: "Mr. Rohith S", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "04/07/2016", image: "/images/uploads/rohith-s.png", cvUrl: "https://old.atme.edu.in/mr-rohith-s/" },
+  { id: "mr-hemanth-b-r", name: "Mr. Hemanth B R", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "", image: "/images/uploads/hemanth-b-r.png", cvUrl: "https://atme.edu.in/mr-hemanth-b-r/" },
   { id: "mr-chetana-s", name: "Mr. Chetan S", designation: "Assistant Professor", qualification: "BE, M.Tech, Ph.D", doj: "03/02/2023", image: "/__l5e/assets-v1/fb144a66-8307-4ef8-aa23-29181590f632/dr.-chetana-s.jpg", cvUrl: "https://old.atme.edu.in/mr-chetana-s/" },
   { id: "mr-sukruth-sagar-b-p", name: "Mr. Sukruth Sagar B P", designation: "Assistant Professor", qualification: "BE, M.Tech", doj: "14/06/2024", image: "/__l5e/assets-v1/f7da68b6-1eff-4537-aaf5-3adac9c5ff56/sukruth-sagar-b-p.jpg", cvUrl: "https://old.atme.edu.in/mr-sukruth-sagar-b-p/" },
   { id: "madesha-s", name: "Mr. Madesha S", designation: "Foreman", qualification: "Diploma in Mechanical Engineering", doj: "", image: "/__l5e/assets-v1/32b7a0c0-8052-4787-ab02-3e821ec91bef/mr.-madesha-s-1.jpg", cvUrl: "https://old.atme.edu.in/madesha-s/" },
@@ -122,11 +126,7 @@ export const meAllFaculty: Faculty[] = [
   { id: "mr-pradeep-kumar-k-b", name: "Mr. Pradeep Kumar K B", designation: "Instructor", qualification: "MA & ITI", doj: "", image: "/__l5e/assets-v1/bad7ddeb-e06a-45d8-b589-366588e7f881/mr.-pradeep-kumar-k-b.jpg", cvUrl: "https://old.atme.edu.in/mr-pradeep-kumar-k-b/" },
   { id: "mr-h-c-chidambara", name: "Mr. H C Chidambara", designation: "Instructor", qualification: "ITI", doj: "", image: "/__l5e/assets-v1/cea80375-506c-4dfb-8c66-7e9faf623071/mr.-h.-c.-chidambara.jpg", cvUrl: "https://old.atme.edu.in/mr-h-c-chidambara/" },
   { id: "nagendra-r", name: "Mr. Nagendra R", designation: "Attender", qualification: "SSLC", doj: "", image: "/__l5e/assets-v1/66f29778-3b74-41ac-a115-a4bf3d5bdc52/mr.-nagendra-r.jpg", cvUrl: "https://old.atme.edu.in/nagendra-r/" },
-  { id: "mr-swamy", name: "Mr. Swamy", designation: "Attender", qualification: "", doj: "", image: "", cvUrl: "" },
-  { id: "dr-mohanakumara-k-c", name: "Dr. Mohanakumara K C", designation: "Assistant Professor", qualification: "Ph.D in Mechanical Engineering", doj: "", image: "/images/uploads/ME-9.jpg", cvUrl: "https://atme.edu.in/dr-mohanakumara-k-c/" },
-  { id: "mr-raghu", name: "Mr. Raghu", designation: "Assistant Professor", qualification: "M.Tech in Thermal Power Engineering", doj: "", image: "/images/uploads/ME-6.jpg", cvUrl: "https://atme.edu.in/mr-raghu/" },
-  { id: "niranjan-kumar-v-s", name: "Mr. Niranjan Kumar V S", designation: "Assistant Professor", qualification: "M.Tech in Maintenance Engineering", doj: "", image: "/images/uploads/ME-7.jpg", cvUrl: "https://atme.edu.in/niranjan-kumar-v-s/" },
-  { id: "mr-hemanth-b-r", name: "Mr. Hemanth B R", designation: "Assistant Professor", qualification: "M.Tech in Machine Design", doj: "", image: "/images/uploads/ME-12.jpg", cvUrl: "https://atme.edu.in/mr-hemanth-b-r/" },
+  { id: "mr-swamy", name: "Mr. Swamy", designation: "Attender", qualification: "", doj: "", image: "/images/uploads/mr-swamy.jpg", cvUrl: "" },
 ];
 
 export const ceAllFaculty: Faculty[] = [
