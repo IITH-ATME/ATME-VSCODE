@@ -21,6 +21,7 @@ export const circulars = [
   { title: "Registration Circular 3rd and 5th Sem AY 2026-2027", date: "28/07/2026", file: "higher-sem-fees-circular-3rd-5th-sem-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "Registration Circular 7th Sem AY 2026-2027", date: "06/07/2026", file: "7th-sem-fee-circular-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "1st year revaluation june 2026", date: "03/08/2026", file: "1st-year-revaluation-june-2026.pdf", year: "2026-27", category: "Examination Circulars" },
+  { title: "RV Circular - 2021, 2022 & 2025 Scheme", date: "10/08/2026", file: "rv-circular-2021-2022-2025-scheme.pdf", year: "2026-27", category: "Examination Circulars" },
   { title: "Registration to B.E./B.Tech. Honours Degree Programme", date: "11/09/2025", file: "2637-Registration-to-B.E.-B.Tech_.-Honours-Degree-Programme.pdf", year: "2025-26", category: "Academic Circulars" },
   { title: "2nd Year Fee Payment Circular", date: "28/08/2025", file: "2nd-year-fee-payment-circular.pdf", year: "2025-26", category: "Fee Circulars" },
   { title: "Higher Semester Fees Circular", date: "28/08/2025", file: "higher-semester-fees-circular.pdf", year: "2025-26", category: "Fee Circulars" },
