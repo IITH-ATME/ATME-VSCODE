@@ -149,7 +149,7 @@ export function AdmissionsPopup() {
       role="dialog"
       aria-modal="true"
       aria-label="ATMECE admissions enquiry form"
-      className={`fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 transition-opacity duration-300 ${
+      className={`fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-4 transition-opacity duration-300 ${
         show ? "opacity-100" : "opacity-0"
       }`}
       style={{ backgroundColor: "rgba(8, 30, 45, 0.78)", backdropFilter: "blur(4px)" }}
@@ -157,7 +157,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[92vh] lg:h-[88vh] lg:max-h-[800px] overflow-y-auto lg:overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[95vh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -169,7 +169,7 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="flex flex-col lg:flex-row bg-card rounded-2xl overflow-hidden lg:h-full">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] lg:grid-rows-[min(700px,90vh)] bg-card rounded-2xl overflow-hidden">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
@@ -178,15 +178,15 @@ export function AdmissionsPopup() {
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-48 sm:h-56 lg:h-full lg:w-auto object-cover object-top bg-white"
+              className="block w-full h-32 sm:h-48 lg:h-full lg:w-auto object-cover object-top bg-white"
               loading="eager"
               width={1600}
               height={1900}
             />
           </a>
 
-          <div className="lg:w-[400px] lg:shrink-0 min-w-0 p-4 sm:p-5 lg:h-full flex flex-col lg:justify-center">
-            <h2 className="font-display text-xl sm:text-2xl font-extrabold leading-tight text-foreground">
+          <div className="min-w-0 p-3 sm:p-4 lg:p-5 lg:h-full flex flex-col lg:justify-center">
+            <h2 className="font-display text-base sm:text-xl lg:text-2xl font-extrabold leading-tight text-foreground">
               Shape Your Career with{" "}
               <span className="relative inline-block text-primary">
                 ATMECE

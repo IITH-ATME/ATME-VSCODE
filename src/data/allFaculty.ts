@@ -129,8 +129,8 @@ export const meAllFaculty: Faculty[] = [
 ];
 
 export const ceAllFaculty: Faculty[] = [
+  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor & Dean Academics", qualification: "B.E, M.Tech, Ph.D", doj: "01-06-2026", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
   { id: "jyothi-d-n", name: "Dr. Jyothi D N", designation: "Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "14.07.2015", image: "/images/uploads/jyothi-d-n.jpg", cvUrl: "https://old.atme.edu.in/jyothi-d-n/" },
-  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor", qualification: "B.E, M.Tech, Ph.D", doj: "19-06-2026", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
 
   { id: "mr-manu-vijay", name: "Mr. Manu Vijay", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "21.08.2012", image: "/__l5e/assets-v1/fb43e973-3996-4ab8-9649-690959f0513c/Manu-Vijay.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-vijay/" },
   { id: "mrs-shruthi-h-g", name: "Dr. Shruthi H G", designation: "Assistant Professor", qualification: "BE, MTech, PhD", doj: "17.07.2014", image: "/images/uploads/2026/07/shruthi-hg.jpeg", cvUrl: "https://old.atme.edu.in/mrs-shruthi-h-g/" },
