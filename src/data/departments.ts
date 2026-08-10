@@ -789,39 +789,80 @@ export const departments: Department[] = [
   make("mba", "MBA", "Master of Business Administration", "Postgraduate management programme covering finance, marketing, human resources, operations and entrepreneurship.", noFaculty, {
     about: "",
     aboutBullets: [
-      { text: "The Master of Business Administration (MBA) programme at ATMECE is designed to shape tomorrow's business leaders. Combining academic rigour with real-world relevance, our MBA equips students with the tools and insights needed to thrive in today's dynamic global economy. The dynamic curriculum blends theoretical knowledge with real-world application, helping students develop expertise in key areas such as finance, marketing, Human resource, business analytics, operations, strategy and leadership. The programme offers the tools and networks to advance a career, start a business or pivot into a new field." },
+      { text: "Established: 2024 | Intake: 60 | Current Strength: 57 students (1st & 2nd Year)" },
       {
-        label: "Why MBA Program @ATMECE?",
+        label: "Faculty Expertise in:",
         children: [
-          "Comprehensive Curriculum: MBA program covers key disciplines including finance, marketing, strategy, leadership, operations and entrepreneurship, providing a 360-degree view of business management.",
-          "Industry-Relevant Learning: Engage in hands-on projects, case studies and simulations that replicate real business challenges. Gain practical experience and build problem-solving skills that directly apply today's business world.",
-          "Global Perspective: In an increasingly interconnected world, MBA program @ ATMECE offers a global outlook on business. You'll learn how to navigate international markets, manage cross-cultural teams and understand global business trends.",
-          "Networking Opportunities: With access to an extensive network of alumni, corporate partnerships, and guest speakers from leading industries, students can expand their professional connections and open doors to new career opportunities.",
+          "Financial Management & Accounting",
+          "Human Resource Management & Organizational Behaviour",
+          "Marketing Management",
+          "Consumer Behaviour & Brand Management",
+          "Business Analytics & Data-Driven Decision Making",
         ],
       },
       {
-        label: "Program Structure",
-        text: "The MBA program is designed to accommodate full-time students. Key components:",
+        label: "Facilities & Infrastructure:",
         children: [
-          "Core Courses: Foundational subjects such as business management, Finance, Marketing, Human Resource and Business Analytics.",
-          "Electives: Elective courses that align with your career goals, such as digital transformation, data analytics, entrepreneurship.",
-          "Capstone Project: Apply your knowledge in a real-world business scenario through our capstone project at industries/corporates.",
+          "Classrooms as per AICTE norms",
+          "Seminar Hall",
         ],
       },
       {
-        label: "Career Outcomes",
-        text: "Graduates of our MBA program are prepared to take on leadership roles across a variety of industries. Advance your career with corporate, start your own business, or transition into a new field. The Program MBA also equips you with the knowledge, skills, and network to succeed your expected aspirations. Common career paths include:",
+        label: "Industry Readiness & Professional Development",
         children: [
-          "Business Consultant",
-          "Marketing Manager",
-          "Financial Analyst",
-          "Operations Manager",
-          "Entrepreneur",
-          "Product Manager",
+          "Regular interaction with industry professionals, entrepreneurs and academicians.",
+          "Guest lectures, seminars, workshops and corporate interface programmes.",
+          "Pre-placement training and career-oriented skill development.",
+        ],
+      },
+      {
+        label: "Specialized Management Education",
+        children: [
+          "Specializations in Finance, Human Resource Management, Marketing and Business Analytics.",
+          "Opportunities for single or dual specialization based on students' career aspirations.",
+        ],
+      },
+      {
+        label: "Skill & Career Development",
+        children: [
+          "Development of communication, leadership, teamwork and entrepreneurial skills.",
+          "Training in digital, analytical and managerial competencies.",
+          "Support for internships, placements, higher education and entrepreneurial pursuits.",
         ],
       },
     ],
-    hod: { name: "Dr. Oscar Abhishek", designation: "Associate Professor & Head, Master of Business Administration Department", image: "/images/uploads/2026/04/Dr.-Oscar-Abhishek-1.jpg", message: "Welcome to the Department of Master of Business Administration at ATME College of Engineering, Mysuru. The Department of MBA, established in 2024, is committed to nurturing competent, responsible and dynamic management professionals who can make meaningful contributions to the business world and society at large. We integrate rigorous academics with experiential learning through case studies, industry interactions, workshops and corporate interface programmes. Students are regularly exposed to industry professionals, entrepreneurs and academicians through guest lectures, seminars and industrial visits that bridge the gap between theory and practice. Supported by a team of highly qualified and experienced faculty, we foster a learning environment that encourages innovation, critical thinking, collaboration and holistic development, and prepare every MBA graduate to emerge as a confident, competent and ethical business leader." },
+    hod: {
+      name: "Dr. Oscar Abhishek",
+      designation: "Associate Professor & Head, Master of Business Administration Department",
+      image: "/images/uploads/2026/04/Dr.-Oscar-Abhishek-1.jpg",
+      quote: "Empowering Minds, Shaping Future Leaders",
+      message: "",
+      messageBullets: [
+        {
+          label: "Educational Approach",
+          children: [
+            "Academic Excellence & Outcome-Based Educational Approach",
+            "Industry Readiness & Professional Development",
+            "Experiential and Industry Integrated Learning",
+            "Specialized Management Education",
+            "Skill and Career Development",
+            "Holistic Development",
+          ],
+        },
+        {
+          label: "Core Strengths of the MBA Department",
+          children: [
+            "Industry-Integrated Management Education – Bridging classroom learning with real-world business practices through industry interactions and corporate interface programmes.",
+            "Experiential Learning – Learning through case studies, workshops, projects, industrial visits and practical business applications.",
+            "Industry & Academic Exposure – Interaction with industry professionals, entrepreneurs and academicians through guest lectures, seminars and expert sessions.",
+            "Qualified & Experienced Faculty – Strong academic and professional expertise with a focus on effective teaching, mentoring and student development.",
+            "Holistic Student Development – Nurturing communication, leadership, teamwork, ethical values and professional competencies.",
+            "Responsible & Ethical Leadership – Developing management professionals who are socially responsible, globally aware and committed to ethical business practices.",
+            "Career-Ready Professionals – Preparing students to become confident, competent and dynamic business leaders capable of contributing meaningfully to organizations and society.",
+          ],
+        },
+      ],
+    },
     vision: "Develop visionary leaders with strong business acumen, cultural awareness, social responsibility, and global competence to drive innovation, inspire change, and support sustainable development.",
     mission: [
       "To equip students with cutting-edge business knowledge, leadership skills, and global perspectives to enable them to succeed in a dynamic and competitive world.",
