@@ -110,6 +110,7 @@ export const DEPT_PAGES: Record<string, DeptPageItem[]> = {
   ds: [
     { key: "about-the-department", label: "About" },
     { key: "ds-faculty-profile", label: "HOD Profile" },
+    { key: "cseds-research-initiative", label: "Research" },
     { key: "cseds-achievements", label: "Achievements" },
     { key: "data-science-industry-interface", label: "Industry Interface" },
     { key: "cseds-placements", label: "Placements" },
