@@ -8966,6 +8966,22 @@ Completed Mooc courses on:
 - Department Website Coordinator
 - Department Library committee member`,
   },
+  "vineetha-s": {
+    name: "Ms. Vineetha S",
+    url: "",
+    md: `## Contact Details
+
+- **Email ID:** Official: [vineethas.ec@atme.edu.in](mailto:vineethas.ec@atme.edu.in)
+
+## Qualification
+
+- M.Tech
+- B.E
+
+## Professional Experience
+
+- Teaching: 7 Years`,
+  },
   "madhurya-b-eshwar": {
     name: "Mrs. Madhurya B Eshwar",
     url: "https://old.atme.edu.in/madhurya-b-eshwar/",
