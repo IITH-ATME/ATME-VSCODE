@@ -11,6 +11,7 @@ export type FacultyProfileSection = { title: string; items: FacultyProfileItem[]
 
 // Headings that should become rendered sections.
 const SECTION_HEADINGS: string[] = [
+  "Academic Details",
   "Qualification",
   "Education Details",
   "Areas of Interest",
@@ -81,7 +82,6 @@ const SKIP_HEADINGS = [
   "Program",
   "Department",
   "Contact Details",
-  "Academic Details", // title-only row; the real headings come after
   "Date of Joining",
   "Date of Joining Institution",
   "Total Experience",
