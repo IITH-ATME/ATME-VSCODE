@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
-import { FileText, Download, ExternalLink, LayoutGrid } from "lucide-react";
+import { FileText, Download, ExternalLink, LayoutGrid, Sparkles } from "lucide-react";
 import { circulars, pdf } from "@/data/pdfs";
 import { CIRCULAR_CATEGORIES, CIRCULAR_CATEGORY_ICONS, type CircularCategory } from "@/data/circularCategories";
 
@@ -15,16 +15,42 @@ export const Route = createFileRoute("/circulars")({
   component: CircularsPage,
 });
 
-function Row({ title, date, file }: { title: string; date?: string; file: string }) {
+function ImportantBadge() {
+  return (
+    <span
+      className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-[0_2px_8px_-1px_rgba(220,38,38,0.6)] animate-pulse"
+      style={{ background: "linear-gradient(90deg, #dc2626 0%, #f97316 100%)" }}
+    >
+      <Sparkles className="h-3 w-3" /> Important
+    </span>
+  );
+}
+
+function Row({ title, date, file, important }: { title: string; date?: string; file: string; important?: boolean }) {
   const url = pdf(file);
   return (
-    <li className="flex flex-col sm:flex-row sm:items-center gap-3 p-5 hover:bg-secondary/40 transition-colors">
+    <li
+      className={
+        "flex flex-col sm:flex-row sm:items-center gap-3 p-5 transition-colors " +
+        (important
+          ? "bg-gradient-to-r from-amber-50 via-orange-50 to-transparent ring-1 ring-inset ring-orange-300/70 hover:from-amber-100"
+          : "hover:bg-secondary/40")
+      }
+    >
       <div className="flex items-start gap-4 flex-1 min-w-0">
-        <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary shrink-0">
+        <div
+          className={
+            "grid h-10 w-10 place-items-center rounded-lg shrink-0 " +
+            (important ? "bg-orange-500/15 text-orange-600" : "bg-primary/10 text-primary")
+          }
+        >
           <FileText className="h-5 w-5" />
         </div>
         <div className="flex-1 min-w-0">
-          <div className="font-semibold text-foreground leading-snug break-words">{title}</div>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="font-semibold text-foreground leading-snug break-words">{title}</div>
+            {important && <ImportantBadge />}
+          </div>
           {date && <div className="text-xs text-muted-foreground mt-0.5">{date}</div>}
         </div>
       </div>
@@ -139,7 +165,7 @@ function CircularsPage() {
         <section key={y} className="mt-10 first:mt-0">
           <h2 className="text-xl font-bold text-foreground mb-3">Student Circulars · AY {y}</h2>
           <ul className="divide-y divide-border rounded-2xl border border-border bg-card overflow-hidden">
-            {byYear[y].map((c) => <Row key={c.file} title={c.title} date={c.date} file={c.file} />)}
+            {byYear[y].map((c) => <Row key={c.file} title={c.title} date={c.date} file={c.file} important={c.important} />)}
           </ul>
         </section>
       ))}
