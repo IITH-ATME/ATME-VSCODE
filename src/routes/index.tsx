@@ -169,13 +169,6 @@ const journeySteps = [
   { n: "04", t: "Counselling & Join",  d: "Attend allotment counselling, submit documents, and confirm your seat.", icon: Users },
 ];
 
-const programsOffered = [
-  { tag: "UG",       t: "B.E. / B.Tech", d: "4 Years", intake: "Intake: 60–180", accent: "from-[#1eb59b] to-[#0e7d6a]" },
-  { tag: "PG",       t: "MBA",           d: "2 Years", intake: "Intake: 60",     accent: "from-[#3b82f6] to-[#1d4ed8]" },
-  { tag: "PG",       t: "MCA",           d: "2 Years", intake: "Intake: 120",    accent: "from-[#f59e0b] to-[#d97706]" },
-  { tag: "Research", t: "Ph.D.",         d: "3–5 Years", intake: "Intake: Limited", accent: "from-[#a855f7] to-[#7e22ce]" },
-];
-
 
 
 
@@ -430,25 +423,6 @@ function Home() {
                   </Reveal>
                 );
               })}
-            </div>
-          </div>
-
-          {/* PROGRAMS OFFERED */}
-          <div className="mt-16">
-            <h3 className="text-center text-xl md:text-2xl font-semibold mb-8">Programs Offered</h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-              {programsOffered.map((p, i) => (
-                <Reveal key={p.t} delay={i * 90}>
-                  <div className="group relative h-full rounded-2xl p-6 bg-white text-foreground shadow-xl overflow-hidden hover:-translate-y-2 active:-translate-y-1 hover:shadow-2xl transition-all duration-300 ring-1 ring-border">
-                    <div className={`pointer-events-none absolute -top-10 -right-10 w-32 h-32 rounded-full bg-gradient-to-br ${p.accent} opacity-20 blur-2xl group-hover:scale-150 transition-transform duration-500`} />
-                    <span className={`relative inline-flex rounded-full bg-gradient-to-br ${p.accent} text-white px-2.5 py-0.5 text-[11px] font-bold tracking-wider shadow`}>{p.tag}</span>
-                    <h4 className="relative mt-4 text-xl font-bold text-[#129199]">{p.t}</h4>
-                    <p className="relative mt-1 text-foreground/80">{p.d}</p>
-                    <p className="relative mt-3 text-xs uppercase tracking-wider text-muted-foreground">{p.intake}</p>
-                    <div className={`relative mt-4 h-0.5 w-10 bg-gradient-to-r ${p.accent} group-hover:w-full transition-all duration-500`} />
-                  </div>
-                </Reveal>
-              ))}
             </div>
           </div>
 
