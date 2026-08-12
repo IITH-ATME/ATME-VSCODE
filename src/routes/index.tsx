@@ -7,9 +7,9 @@ import heroImg from "@/assets/hero-campus.jpg";
 import slide2 from "@/assets/slide-2.jpg.asset.json";
 import brochure from "@/assets/college-brochure.pdf.asset.json";
 import {
-  ArrowRight, Calendar, Clock,
-  Microscope, Trophy, GraduationCap, BookOpen,
-  CheckCircle2, FileText, Award, Users, Building2, Phone, Download,
+  ArrowRight, Clock,
+  Microscope, Trophy, BookOpen,
+  CheckCircle2, FileText, Award, Users, Building2, Download,
 } from "lucide-react";
 import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { EventCard } from "@/components/site/EventCard";
@@ -174,13 +174,6 @@ const programsOffered = [
   { tag: "PG",       t: "MBA",           d: "2 Years", intake: "Intake: 60",     accent: "from-[#3b82f6] to-[#1d4ed8]" },
   { tag: "PG",       t: "MCA",           d: "2 Years", intake: "Intake: 120",    accent: "from-[#f59e0b] to-[#d97706]" },
   { tag: "Research", t: "Ph.D.",         d: "3–5 Years", intake: "Intake: Limited", accent: "from-[#a855f7] to-[#7e22ce]" },
-];
-
-const keyDates = [
-  { t: "KCET Applications Open",      d: "Jan 15, 2025",  s: "OPEN", tone: "bg-emerald-500 text-white" },
-  { t: "COMEDK UGET Exam",            d: "May 11, 2025",  s: "SOON", tone: "bg-amber-500 text-white" },
-  { t: "Management Quota Applications", d: "June 1, 2025", s: "SOON", tone: "bg-amber-500 text-white" },
-  { t: "Classes Commence",            d: "Aug 1, 2025",   s: "SOON", tone: "bg-amber-500 text-white" },
 ];
 
 
@@ -459,39 +452,6 @@ function Home() {
             </div>
           </div>
 
-          {/* KEY DATES + APPLY CALLOUT */}
-          <div className="mt-16 grid lg:grid-cols-[1.4fr_1fr] gap-6">
-            <Reveal>
-              <div className="rounded-2xl bg-white text-foreground p-6 md:p-8 shadow-2xl">
-                <h3 className="text-xl md:text-2xl font-bold tracking-tight">Key Dates 2026–27</h3>
-                <ul className="mt-5 divide-y">
-                  {keyDates.map((k) => (
-                    <li key={k.t} className="flex items-center justify-between py-3.5">
-                      <div>
-                        <p className="font-semibold text-sm">{k.t}</p>
-                        <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1"><Calendar className="h-3 w-3" />{k.d}</p>
-                      </div>
-                      <span className={`text-[10px] font-bold tracking-widest px-2.5 py-1 rounded-full ${k.tone}`}>{k.s}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Reveal>
-            <Reveal delay={150}>
-              <div className="rounded-2xl bg-gradient-to-br from-[#129199] to-[#0e686f] text-white p-6 md:p-8 shadow-2xl flex flex-col h-full ring-1 ring-white/15">
-                <h3 className="text-xl md:text-2xl font-bold tracking-tight">Apply Now for 2026–27</h3>
-                <p className="mt-2 text-white/90 text-sm">Seats filling fast. Don't miss out!</p>
-                <div className="mt-auto pt-6 flex flex-col gap-3">
-                  <a href="https://atme.edu.in/admissions" className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-[#ea580c] px-5 py-3 text-sm font-semibold hover:scale-[1.02] transition">
-                    <GraduationCap className="h-4 w-4" /> Apply Online
-                  </a>
-                  <a href="tel:+918212954081" className="inline-flex items-center justify-center gap-2 rounded-full bg-white/15 border border-white/40 px-5 py-3 text-sm font-semibold hover:bg-white/25 transition">
-                    <Phone className="h-4 w-4" /> +91-821-2954081
-                  </a>
-                </div>
-              </div>
-            </Reveal>
-          </div>
         </div>
       </section>
 
