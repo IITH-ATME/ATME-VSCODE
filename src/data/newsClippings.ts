@@ -7,6 +7,16 @@ export type Clipping = { id: string; year: string; title: string; date: string; 
 
 export const NEWS_CLIPPINGS: Clipping[] = [
   {
+    id: "2026-fdp-uhv-atmece-hosts-5-day-faculty-development-prog",
+    year: "2026",
+    title: "ATMECE Hosts 5-Day Faculty Development Programme on Universal Human Values",
+    date: "12th August 2026",
+    media: [
+      { type: "image", url: "/images/uploads/news-clippings/2026-fdp-uhv-1.jpeg" },
+      { type: "image", url: "/images/uploads/news-clippings/2026-fdp-uhv-2.jpeg" },
+    ],
+  },
+  {
     id: "2026-1-times-all-india-engineering-ranking-atme-at-152",
     year: "2026",
     title: "Times All India Engineering Ranking. ATME at 152",
