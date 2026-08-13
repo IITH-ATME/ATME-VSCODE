@@ -1398,6 +1398,7 @@ ATME provides financial support to students from economically weaker backgrounds
 
 export const UG_FEES_URL = "/pdfs/admissions/Fees-Structure-2026-27.pdf";
 const PG_FEES_URL = "/__l5e/assets-v1/a29bd4c7-d469-4764-b1b2-9415d2ef9fb5/Fees-Structure-MBA-and-MCA-AY-2024-25.pdf";
+const LATERAL_ENTRY_FEES_URL = "/pdfs/admissions/2nd-Year-Lateral-Entry-Fee-Structure-AY-2026-27.pdf";
 
 const feeStructureBody = `
 # Fees Structure
@@ -1411,6 +1412,12 @@ The complete UG fee structure for the academic year 2026-27 is embedded below.
 ### PG Fee Structure (MBA & MCA) for 2024-25
 
 The PG fee structure for MBA and MCA programmes is embedded below. You may also [download](${PG_FEES_URL}) the PDF.
+
+### 2nd Year Lateral Entry Fee Structure AY-2026-27
+
+The complete 2nd Year Lateral Entry Fee Structure AY-2026-27 is embedded below.
+
+[pdfviewer]${LATERAL_ENTRY_FEES_URL}[/pdfviewer]
 `;
 
 
