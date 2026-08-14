@@ -21,12 +21,12 @@ function toGroup(s: NavSection): Group {
 const LEFT: Group[] = [
   { label: "Home", to: "/" },
   toGroup(ABOUT),
+  toGroup(ADMINISTRATION),
   toGroup(DEPARTMENTS_NAV),
   toGroup(ADMISSIONS),
 ];
 const RIGHT: Group[] = [
   toGroup(RESEARCH),
-  toGroup(ADMINISTRATION),
   toGroup(PLACEMENTS),
   toGroup(CAMPUS_LIFE),
 ];
@@ -53,7 +53,7 @@ const CET_CODES: Array<{ k: string; v: string }> = [
 function NavItem({ g, align = "center" }: { g: Group; align?: "left" | "center" | "right" }) {
   if (!g.columns) {
     return (
-      <Link to={g.to!} className="px-2 py-2 text-[13px] font-semibold tracking-wide text-[#129199] hover:text-[#0b5a5f] whitespace-nowrap transition-colors">
+      <Link to={g.to!} className="px-1.5 py-2 text-[13px] font-semibold tracking-wide text-[#129199] hover:text-[#0b5a5f] whitespace-nowrap transition-colors">
         {g.label}
       </Link>
     );
@@ -65,7 +65,7 @@ function NavItem({ g, align = "center" }: { g: Group; align?: "left" | "center" 
     cols === 2 ? "grid-cols-1 sm:grid-cols-2" :
     "grid-cols-1";
   const panelPos = align === "right" ? "right-0" : "left-0";
-  const triggerClass = "px-2 py-2 text-[13px] font-semibold tracking-wide text-[#129199] rounded-t-md inline-flex items-center gap-1 whitespace-nowrap transition-colors relative z-[60] group-hover:text-white group-hover:bg-[#129199]";
+  const triggerClass = "px-1.5 py-2 text-[13px] font-semibold tracking-wide text-[#129199] rounded-t-md inline-flex items-center gap-1 whitespace-nowrap transition-colors relative z-[60] group-hover:text-white group-hover:bg-[#129199]";
   return (
     <div className="group relative">
       {g.to ? (
@@ -265,7 +265,7 @@ export function Header() {
 
       {/* Main header */}
       <div className="max-w-[1600px] mx-auto px-2 sm:px-3">
-        <div className="flex min-[1440px]:grid min-[1440px]:grid-cols-[1fr_auto_1fr] items-center gap-3 min-[1440px]:gap-6 py-2">
+        <div className="flex min-[1440px]:grid min-[1440px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 min-[1440px]:gap-3 min-[1600px]:gap-6 py-2">
           {/* Left nav */}
           <nav className="hidden min-[1440px]:flex items-center justify-end gap-1.5 flex-nowrap">
             {LEFT.map(g => <NavItem key={g.label} g={g} align="left" />)}
