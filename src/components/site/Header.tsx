@@ -22,10 +22,10 @@ const LEFT: Group[] = [
   { label: "Home", to: "/" },
   toGroup(ABOUT),
   toGroup(ADMINISTRATION),
-  toGroup(DEPARTMENTS_NAV),
   toGroup(ADMISSIONS),
 ];
 const RIGHT: Group[] = [
+  toGroup(DEPARTMENTS_NAV),
   toGroup(RESEARCH),
   toGroup(PLACEMENTS),
   toGroup(CAMPUS_LIFE),
