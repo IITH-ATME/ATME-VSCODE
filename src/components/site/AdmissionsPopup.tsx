@@ -180,8 +180,8 @@ export function AdmissionsPopup() {
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
               className="block w-full h-32 sm:h-48 lg:h-full lg:w-auto object-cover object-top bg-white"
               loading="eager"
-              width={1600}
-              height={1900}
+              width={900}
+              height={1069}
             />
           </a>
 
