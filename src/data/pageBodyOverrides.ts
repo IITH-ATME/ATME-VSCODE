@@ -3732,8 +3732,61 @@ const committeesBody = `
 | 16 | Dr. OSCAR ABHISHEK | Member | 9972044943 |
 | 17 | Dr. MURALIDHAR M P | Member | 9611551921 |`;
 
+const clubsAssociationsBody = `
+## Student Clubs at ATMECE
+
+### 1. Art Club
+
+The Art Club provides a creative platform for students to explore and showcase their artistic talents through sketching, painting, crafts, calligraphy, and other visual art forms. The club encourages creativity, imagination, and self-expression while organizing exhibitions, competitions, workshops, and art-based activities.
+
+**Faculty Incharge:** Ashwini P, Asst Prof, Dept of CSE
+
+### 2. Literature Club
+
+The Literature Club nurtures a love for language, reading, writing, and creative expression. Students can participate in poetry, storytelling, debates, essay writing, book discussions, literary competitions, and other activities that enhance communication skills and confidence.
+
+**Faculty Incharge:** Chandrashekar P, Lecturer, Dept of Humanities
+
+### 3. Music Club
+
+The Music Club provides a vibrant platform for students interested in singing, instrumental music, and musical performance. It promotes creativity and teamwork through musical events, competitions, jam sessions, workshops, and performances during college celebrations.
+
+**Faculty Incharge:** Rangaswamy, Asst Prof, Dept of Mathematics
+
+### 4. Dance Club
+
+The Dance Club celebrates different forms of dance and provides students with opportunities to learn, practice, and perform. Through regular training, competitions, cultural programmes, and stage performances, the club promotes creativity, fitness, confidence, and teamwork.
+
+**Faculty Incharge:** Dr. Shruthi H G, Asst Prof, Dept of Civil
+
+### 5. Photography Club
+
+The Photography Club encourages students to capture moments, stories, people, nature, and campus life through photography. It provides opportunities to learn photography techniques, participate in photo walks and competitions, and showcase creative work through exhibitions and digital platforms.
+
+**Faculty Incharge:** Yathiraj D N, Asst Prof, Dept of MCA
+
+### 6. Coding and Innovation Club
+
+The Coding and Innovation Club fosters programming skills, technological creativity, and problem-solving abilities among students. The club promotes coding challenges, hackathons, workshops, project development, and innovative solutions to real-world problems, encouraging students to transform ideas into impactful projects.
+
+**Faculty Incharge:** Dr. Mahesh Lohith, Assoc Prof & HOD, Dept of Physics
+
+### 7. Entrepreneurship Club
+
+The Entrepreneurship Club, supported by the Institution's Innovation Council (IIC), encourages students to develop entrepreneurial thinking and transform innovative ideas into viable ventures. The club provides exposure to ideation, business planning, mentoring, startup development, incubation, and entrepreneurship-related competitions and activities.
+
+**Faculty Incharge:** Hemanth B R, Asst Prof, Dept of Mechanical
+
+### 8. Sports and Fitness Club
+
+The Sports and Fitness Club promotes physical well-being, teamwork, discipline, and a healthy lifestyle among students. It encourages participation in indoor and outdoor sports, fitness activities, tournaments, recreational events, and intercollegiate competitions, fostering a spirit of sportsmanship and leadership.
+
+**Faculty Incharge:** Dr. Muralidhar M P, Director, Physical Education
+`;
+
 Object.assign(pageBodyOverrides, {
   "list-of-committees": committeesBody.trim(),
+  "clubs-associations": clubsAssociationsBody.trim(),
   [SC_KEY]: studentCouncilBody.trim(),
   "library-3/staff-details-2": "",
   "sports/staff-details": `## Staff Details
