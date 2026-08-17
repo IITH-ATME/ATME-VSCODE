@@ -169,23 +169,23 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] lg:grid-rows-[min(620px,82dvh)] bg-card rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] bg-card rounded-2xl overflow-hidden">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
-            className="block lg:h-full min-w-0 animate-[popIn_0.5s_ease-out]"
+            className="block min-w-0 animate-[popIn_0.5s_ease-out]"
           >
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-32 sm:h-48 lg:h-full lg:w-auto object-cover object-top bg-white"
+              className="block w-full h-32 sm:h-48 lg:h-auto lg:max-h-[620px] lg:w-auto object-cover object-top bg-white"
               loading="eager"
               width={900}
               height={1069}
             />
           </a>
 
-          <div className="min-w-0 p-3 sm:p-4 lg:p-5 lg:h-full flex flex-col lg:overflow-y-auto">
+          <div className="min-w-0 p-3 sm:p-4 lg:p-5 flex flex-col">
             <h2 className="font-display text-base sm:text-xl lg:text-2xl font-extrabold leading-tight text-foreground">
               Shape Your Career with{" "}
               <span className="relative inline-block text-primary">
