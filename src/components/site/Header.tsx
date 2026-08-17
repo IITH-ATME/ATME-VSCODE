@@ -221,7 +221,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-border/60">
       {/* Topbar — single line, compact */}
       <div className="text-white text-[10px]" style={{ background: "linear-gradient(90deg, #0b5a5f 0%, #10747b 55%, #1aa39b 100%)" }}>
-        <div className="max-w-[1600px] mx-auto px-2 sm:px-3 py-1 flex flex-row flex-wrap lg:flex-nowrap items-center justify-center gap-x-2 sm:gap-x-4 gap-y-1">
+        <div className="max-w-[1600px] mx-auto px-2 sm:px-3 py-1 flex flex-row flex-wrap lg:flex-nowrap items-center justify-center min-[1440px]:justify-start gap-x-2 sm:gap-x-4 gap-y-1">
           {/* Contact + CET codes */}
           <div className="flex flex-wrap items-center gap-x-2 sm:gap-x-3 gap-y-0.5 shrink-0">
             <a href="mailto:info@atme.edu.in" className="inline-flex items-center gap-1 hover:opacity-90">
