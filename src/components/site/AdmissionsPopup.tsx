@@ -169,7 +169,7 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] lg:grid-rows-[min(700px,90dvh)] bg-card rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-[620px_400px] bg-card rounded-2xl overflow-hidden">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
@@ -178,7 +178,7 @@ export function AdmissionsPopup() {
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-32 sm:h-48 lg:h-full lg:w-auto object-cover object-top bg-white"
+              className="block w-full h-32 sm:h-48 lg:h-full object-cover object-top bg-white"
               loading="eager"
               width={900}
               height={1069}
