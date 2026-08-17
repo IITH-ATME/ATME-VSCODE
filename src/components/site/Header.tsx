@@ -267,7 +267,7 @@ export function Header() {
       <div className="max-w-[1600px] mx-auto px-2 sm:px-3">
         <div className="flex min-[1440px]:grid min-[1440px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 min-[1440px]:gap-3 min-[1600px]:gap-6 py-2">
           {/* Left nav */}
-          <nav className="hidden min-[1440px]:flex items-center justify-end gap-1.5 flex-nowrap">
+          <nav className="hidden min-[1440px]:flex items-center justify-between gap-1.5 flex-nowrap min-[1440px]:ml-3">
             {LEFT.map(g => <NavItem key={g.label} g={g} align="left" />)}
           </nav>
 
@@ -284,7 +284,7 @@ export function Header() {
             <nav className="flex-1 flex items-center justify-between gap-1.5 flex-nowrap">
               {RIGHT.map(g => <NavItem key={g.label} g={g} align="right" />)}
             </nav>
-            <div className="flex flex-nowrap items-center gap-2 shrink-0">
+            <div className="flex flex-nowrap items-center gap-2 shrink-0 min-[1440px]:mr-3">
               <div className="relative">
                 <button
                   type="button"
