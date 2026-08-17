@@ -157,7 +157,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[95dvh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[92dvh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -169,7 +169,7 @@ export function AdmissionsPopup() {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] lg:grid-rows-[min(700px,90vh)] bg-card rounded-2xl overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_400px] lg:grid-rows-[min(620px,82dvh)] bg-card rounded-2xl overflow-hidden">
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
@@ -185,7 +185,7 @@ export function AdmissionsPopup() {
             />
           </a>
 
-          <div className="min-w-0 p-3 sm:p-4 lg:p-5 lg:h-full flex flex-col lg:justify-center">
+          <div className="min-w-0 p-3 sm:p-4 lg:p-5 lg:h-full flex flex-col lg:overflow-y-auto">
             <h2 className="font-display text-base sm:text-xl lg:text-2xl font-extrabold leading-tight text-foreground">
               Shape Your Career with{" "}
               <span className="relative inline-block text-primary">
