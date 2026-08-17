@@ -1777,7 +1777,7 @@ export const pageBodyOverrides: Record<string, string> = {
   "entrance-plan": "## Entrance Plan\n\nThe detailed entrance and campus circulation plan for ATME College of Engineering is shown below.",
   "drinking-water-ro": "## Drinking Water & RO\n\nWater purifiers at ATME are based on superior, state-of-the-art technology. Two units of Reverse Osmosis (RO), UV and UF systems power the drinking-water purification plant, each with a capacity of **300 LPH (litres per hour)** and a **600-litre SS food-grade storage tank**.\n\nA centralized, floor-wise distribution system delivers safe drinking water through **12 dedicated tap points** across the campus, each marked with clear notification details indicating that the water is safe for drinking.",
   "health-center": "## Health Center\n\n### Medical Facility in College Campus\n\nATME College of Engineering has entered into a **Memorandum of Understanding (MOU)** with **Cauvery Heart & Multi-Specialty Hospital** to facilitate the ATME College of Engineering Students, Parents & Staff for both **in-patient treatment** as well as **out-patient treatment**.\n\nThe College has also facilitated a **Medical Room in the campus** for emergency cases. The College has a well-equipped medical room with **1 set of bed, First Aid kits, Doctor Examination table**, etc.",
-  "transportation": "## Transportation\n\nFrom the day the college opened in the heart of Mysore city, it has been providing transport facilities from all corners of the city to the campus. Because most engineering colleges are located away from city premises, parents and students often look for a comfortable, reliable and well-coordinated transport system alongside academics and infrastructure.\n\nBoth teaching and non-teaching staff use the same college transportation, which ensures excellent coordination between staff and students. Opting for the college bus is **not mandatory** \u2014 students may use the service if they wish. **Around 500 people** currently use these facilities.\n\n### Transportation Committee\n\n| Sl. No. | Name | Position | Contact |\n| --- | --- | --- | --- |\n| 1 | Dr. Sachidananda Murthy K L | Chairman | 9448678271 |\n| 2 | Dr. Srinivasa K | Member Secretary | 9945045415 |\n| 3 | Mr. Hemanth B R | Member | 7026251531 |\n| 4 | Mr. Mohan M | Member | 9448285647 |\n| 5 | Mr. Kumar Gowda | Transportation Service Provider | 9886992424 |\n| 6 | Mr. Jagadesh | Transportation Supervisor | 7899758265 |\n| 7 | Mr. Kalathma M K | Member | 9901209973 |\n| 8 | Mrs. Priyanka N B | Member | 9663674218 |\n| 9 | Ms. Ambika V | Member | 6361592908 |\n| 10 | Mrs. Madhu Nagaraj | Member | 9742133691 |\n| 11 | Mr. Somasundar | Member | 9739929289 |\n| 12 | Mr. Pruthvi | Member | 7619475600 |\n\n### Policy & Bus Routes",
+  "transportation": "## Transportation\n\nFrom the day the college opened in the heart of Mysore city, it has been providing transport facilities from all corners of the city to the campus. Because most engineering colleges are located away from city premises, parents and students often look for a comfortable, reliable and well-coordinated transport system alongside academics and infrastructure.\n\nBoth teaching and non-teaching staff use the same college transportation, which ensures excellent coordination between staff and students. Opting for the college bus is **not mandatory** \u2014 students may use the service if they wish. **Around 500 people** currently use these facilities.\n\n### Transportation Committee\n\n| Sl. No. | Name | Position | Contact |\n| --- | --- | --- | --- |\n| 1 | Dr. SACHIDANANDA MURTHY K L | Chairman | 9448285644 |\n| 2 | Dr. SRINIVASA K | Member Secretary | 9945045415 |\n| 3 | Mr. HEMANTH B R | Member | 7026251531 |\n| 4 | Mr. MOHAN M | Member | 9448285647 |\n| 5 | Mr. KUMAR GOWDA | Transportation Service provider | 9886992424 |\n| 6 | Mr. ASHWIN | Transportation Supervisor | 9916310314 |\n| 7 | Mrs. PRIYANKA N B | Member | 9663674218 |\n| 8 | Mrs. MADHU NAGARAJ | Member | 9742133691 |\n| 9 | Mr. SOMASUNDAR | Member | 9739929289 |\n| 10 | Mr. PRUTHVI | Member | 7619475600 |\n\n### Policy & Bus Routes",
   "solar-rooftop-system": "## Solar Rooftop System\n\n1. We have a **250 KVA transformer** with a **70 KVA** contract load from the Electricity Board, supported by a centralized distribution panel for the individual blocks with full safety equipment.\n2. As a backbone, we also have a **100 KW Diesel Generator**.\n3. We have installed a **95 KWp Solar Rooftop Photovoltaic (Grid-Tied) System**.\n\n- SERAPHIM 315 Wp solar panels making up the 95 KWp array\n- GoodWe inverters \u2014 25 KW, 4 nos.\n- Safety installations include lightning arresters, metal board and inverter earthing\n- Modules are mounted on MS skillion truss-type structures inclined at 35\u00b0; the space under the array is fully utilized\n- Contract period with the Electricity Board: **25 years** at **\u20b99.56 per unit**\n\n**Solar SRTPV Conclusion \u2014 a small effort towards an environmentally friendly campus.**\n\n|     |     |\n| --- | --- |\n| **Assured units generated \u2014 1,500 units annually per kW** \u2014 considering 1 hour of power failure per day on average, average generation of 5 units/kW, and 310 sunny days per year in Mysore. | 1,47,250 Units / Year |\n| Savings in CO\u2082 emissions \u2014 equivalent to planting 402 trees of 14 years\u2019 age yearly to neutralize CO\u2082 in nature. | 58 tons annually |",
   "magazine": "## DYNAMICS - Magazine\n\nA college magazine is an annual publication of a college. As a College magazine is an attempt to record all the activities of the students and committee, it was thought fit to name the college magazine **\u201CDYNAMICS\u201D**. It is a forum through which the young learners of the college express their juvenile ideas and knowledge on different topics.\n\nTo plan and work out logistics, a team of dedicated faculty members from each department joined together to form a Magazine Committee. The college magazine is the culmination of students' expression of thoughts, aspirations, talents, emotions and creativity of both faculty and students. It encourages them to think beyond academics and brings out hidden talents like literature, art, photography, etc.\n\n## Editions",
   "industry-labs": "## Industry Labs\n\nATME College of Engineering has established a series of **Industry-Sponsored Centres of Excellence (CoE)** in collaboration with leading technology partners. These labs expose students to current industry tools, real-world workflows and globally recognised certifications \u2014 bridging the gap between classroom learning and professional practice.\n\n### Centres of Excellence on Campus\n\n|     |     |\n| --- | --- |\n| **Lab / Centre of Excellence** | **Industry Partner & Focus** |\n| Bosch Rexroth Centre of Excellence | Hydraulics, pneumatics, factory automation and Industry 4.0 training. |\n| Siemens Centre of Excellence | Advanced manufacturing, CNC, mechatronics and PLC-based automation. |\n| Microsoft Innovation Lab | Cloud computing (Azure), AI fundamentals and developer tooling. |\n| Cisco Networking Academy | CCNA-aligned networking, cybersecurity and IoT modules. |\n| Texas Instruments Innovation Lab | Embedded systems, analog electronics and DSP development. |\n| Autodesk Design Studio | CAD/CAM, BIM and 3D modelling for engineering design. |\n\n### What students gain\n\n- Hands-on training on **industry-standard equipment and software** used by leading manufacturers and IT companies.\n- Access to **certification programmes** that strengthen placement readiness and global mobility.\n- Project work, internships and **capstone problems sourced directly from industry partners**.\n- Faculty development programmes (FDPs) and **train-the-trainer** sessions conducted by partner companies.\n- A continuous pipeline of **workshops, hackathons and skill-development bootcamps** held inside the labs.\n\n### Why it matters\n\nThe Industry Labs ensure that every ATME graduate steps into the workplace already familiar with the tools, standards and processes used by leading employers \u2014 making the transition from campus to career seamless.",
@@ -3111,7 +3111,7 @@ const committeesBody = `
 | 2 | Dr. NALINI REBELLO | Member Secretary | 9945371440 |
 | 3 | Dr. BHAGYASHREE S R | Member | 9900110944 |
 | 4 | Dr. SRINIVASA K | Member | 9738601201 |
-| 5 | Dr. PUTTE GOWDA D | Member | 9900622014 |
+| 5 | Dr. PUTTE GOWDA D | Member | 9900622401 |
 | 6 | Dr. PARTHASARATHY L | Member | 9035064022 |
 | 7 | Dr. PRATHIBA M K | Member | 9449610089 |
 | 8 | Dr. ANIL KUMAR C J | Member | 9900477621 |
@@ -3172,25 +3172,25 @@ const committeesBody = `
 | 9 | Mr. SOMA SUNDAR | Member | 9739929289 |
 | 10 | Mrs. SUJATHA S | Member | 9008710988 |
 
-#### [STUDENTS GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
+#### [STUDENT GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| **STUDENTS GRIEVANCE REDRESSAL COMMITTEE** |
+| **STUDENT GRIEVANCE REDRESSAL COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Dr. PARTHASARATHY L | Member | 9035064022 |
 | 3 | Dr. RAGHAVENDRA L | Member | 7829859477 |
 | 4 | Dr. BASANTH KUMAR | Member | 9611882250 |
-| 5 | KHATEEJA AMBREEN | Member | 9481711509 |
+| 5. | Dr. KHATEEJA AMBREEN | Member | 9481711509 |
 | 6 | Mr. SUDHAKAR N | Member | 9480573571 |
 | 7 | Mrs. SWETHA K T | Member | 8428249852 |
 | 8 | Mr. RAGHAVENDRA R | Member | 9590828662 |
 | 9 | Mrs. LEELAVATHI N | Member | 7899571411 |
-| 10 | Mr. PRANAV UMESH (4AD23CS078) | Student Member | 8431889100 |
-| 11 | Ms. AISHWARYA G R (4AD24EC005) | Student Member | 9901555075 |
+| 10 | Mr. Pranav Umesh (4AD23CS078) | Student Member | 8431889100 |
+| 11 | Ms. Aishwarya G R (4AD24EC005) | Student Member | 9901555075 |
 | 12 | Mrs. PALLAVI | Member Secretary | 9342575252 |
-| 13 | Prof. C K SUBBARAYA | VTU -Ombudsperson | 9448480343 |
+| 13 | Prof. C K Subbaraya | VTU -Ombudsperson | 9448480343 |
 
 #### [GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
 
@@ -3248,19 +3248,19 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
 | 2 | Mr. H. VENKATESH | Member | 9448285654 |
-|  | Dr. NALINI REBELLO | Member | 9945371440 |
-| 3 | Dr. SACHIDANANDAMURTHY K L | Member | 9448285644 |
-| 4 | Dr. Thotreingam Kasar<br>Founder & Director,<br>EDspire Research Centre, Mysore | Member | 8123530082 |
-| 5 | Other University Professor |  |  |
-| 6 | Dr. RAGHAVENDRA L | Member | 7829859477 |
-| 7 | Dr. VINOD KUMAR P | Member | 9538006039 |
-| 8 | Prof. GIRISH M | Member | 9964406640 |
-| 9 | Prof. ANUPAMA SHETTER | Member | 9738484396 |
-| 10 | Dr. SHILPA B L | Member | 9886893166 |
-| 11 | Prof. SHRUTHI H G | Member | 9538343733 |
-| 12 | Mr. PRATHEEK P S | Alumni | 9482145565 |
-| 13 | Ms. V V RIYA VIJAY | Student Member | 9019868459 |
-| 14 | Prof. RAVIKUMAR S | Member Secretary | 9880543740 |
+| 3 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 4 | Dr. SACHIDANANDAMURTHY K L | Member | 9448285644 |
+| 5 | Dr. Thotreingam Kasar<br>Founder & Director,<br>EDspire Research Centre, Mysore | Member | 8123530082 |
+| 6 | Other University Professor |  |  |
+| 7 | Dr. RAGHAVENDRA L | Member | 7829859477 |
+| 8 | Dr. VINOD KUMAR P | Member | 9538006039 |
+| 9 | Prof. GIRISH M | Member | 9964406640 |
+| 10 | Prof. ANUPAMA SHETTER | Member | 9738484396 |
+| 11 | Dr. SHILPA B L | Member | 9886893166 |
+| 12 | Prof. SHRUTHI H G | Member | 9538343733 |
+| 13 | Mr. PRATHEEK P S | Alumni | 9482145565 |
+| 14 | Ms. V V RIYA VIJAY | Student Member | 9019868459 |
+| 15 | Prof. RAVIKUMAR S | Member Secretary | 9880543740 |
 
 #### [FINANCE COMMITTEE MEMBERS](/p/list-of-committees)
 
@@ -3311,10 +3311,10 @@ const committeesBody = `
 | **STATUTORY APPROVAL & AFFILIATION COMMITTEE (AICTE, VTU ETC.,)** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Dr. NALINI REBELLO | Member | 9945371440 |
-| 3 | Dr. PRATHIBA M K | Member Secretary | 9449610089 |
-| 4 | Dr. PAVITHRA A C | Member | 8884699040 |
-| 5 | Dr. RAGHAVENDRA L | Member | 7829859477 |
+| 2 | Dr. PRATHIBA M K | Member Secretary | 9449610089 |
+| 3 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 4 | Dr. RAGHAVENDRA L | Member | 7829859477 |
+| 5 | Dr. PAVITHRA A C | Member | 8884699040 |
 | 6 | Dr. MAHESH LOHITH S | Member | 9845206504 |
 | 7 | Mr. RAVIKUMAR S | Member | 9880543740 |
 | 8 | Dr. NEETHI M V | Member | 8550852565 |
@@ -3533,8 +3533,8 @@ const committeesBody = `
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
 | 2 | Dr. SACHIDANANDAMURTHY K L | Member | 9448285644 |
 | 3 | Mr. LIKHIT M L | Member Secretary | 8123845620 |
-| 4 | Mr. ROHITH S | Member | 9739866912 |
-| 5 | Mr. RAGHAVENDRA R | Member | 9590828662 |
+| 4 | Dr. RAGHAVENDRA L | Member | 7829859477 |
+| 5 | Mr. ROHITH S | Member | 9739866912 |
 | 6 | Mrs. B S VANISHREE | Member | 8105010672 |
 | 7 | Mr. J N KARTHIK | Member | 7996904428 |
 | 8 | Mrs. DARSHINI Y | Member | 8904801598 |
@@ -3680,9 +3680,9 @@ const committeesBody = `
 | 2 | Dr. AVINASH K | Member Secretary | 91486 23123 |
 | 3 | Dr. SACHIDANANDA MURTHY | Member | 9448678271 |
 | 4 | Mr. RAVIKUMAR S | Member | 988043740 |
-| 5 | Mr. SANDESH R | Member | 9448678271 |
-| 6 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
-| 7 | Mr. RAGHAVENDRA L | Member | 7829859477 |
+| 5 | Dr.  RAGHAVENDRA L | Member | 7829859477 |
+| 6 | Mr. SANDESH R | Member | 9448678271 |
+| 7 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
 | 8 | Mr. DEVARAJ M R | Member | 9972322811 |
 | 9 | Mrs. AKHILA C G | Member | 9743726895 |
 | 10 | Mr. SIDDEGOWDA C J | Member | 9880717468 |
