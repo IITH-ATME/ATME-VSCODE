@@ -3101,33 +3101,33 @@ const committeesBody = `
 
 **Committees as approved by the Academic Council for the duration 2025-26 and 2026-27.**
 
-#### [ACADEMIC COUNCIL](/p/list-of-committees)
+#### [ACADEMIC COUNCIL MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **ACADEMIC COUNCIL MEMBERS** |
 | **Sl. No.** | **Name** | **Position** | **Contact No** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Dr. CHETHAN S (Assistant to Dean Academics) | Member Secretary | 9844928905 |
+| 2 | Dr. NALINI REBELLO | Member Secretary | 9945371440 |
 | 3 | Dr. BHAGYASHREE S R | Member | 9900110944 |
 | 4 | Dr. SRINIVASA K | Member | 9738601201 |
-| 5 | Dr. PUTTE GOWDA D | Member | 9900622401 |
+| 5 | Dr. PUTTE GOWDA D | Member | 9900622014 |
 | 6 | Dr. PARTHASARATHY L | Member | 9035064022 |
 | 7 | Dr. PRATHIBA M K | Member | 9449610089 |
 | 8 | Dr. ANIL KUMAR C J | Member | 9900477621 |
 | 9 | Dr. NASREEN FATHIMA | Member | 9986617206 |
 | 10 | Dr. ANITHA D B | Member | 9731251316 |
-| 11 | Dr. JYOTHI D N | Member | 9738806913 |
-| 12 | Dr. MAHESH LOHITH K S | Member | 9845206504 |
-| 13 | Dr. AVINASH K | Member | 91486 23123 |
-| 14 | Dr. SHAKUNTALA C | Member | 8970779374 |
-| 15 | Dr. OSCAR ABHISHEK | Member | 9972044943 |
-| 16 | Mr. SUDHAKAR N | Member | 9480573571 |
-| 17 | Mrs. PRIYANKA N B | Member | 9663674218 |
+| 11 | Dr. CHETHAN S | Member | 9844928905 |
+| 12 | Dr. JYOTHI D N | Member | 9738806913 |
+| 13 | Dr. MAHESH LOHITH K S | Member | 9845206504 |
+| 14 | Dr. AVINASH K | Member | 91486 23123 |
+| 15 | Dr. SHAKUNTALA C | Member | 8970779374 |
+| 16 | Dr. OSCAR ABHISHEK | Member | 9972044943 |
+| 17 | Mr. SUDHAKAR N | Member | 9480573571 |
 | 18 | Dr. T KASAR, Founder & Director, EDspire Research. | Industry Member | 8123530082 |
 | 19 | Dr. MANGALA KESHAVA, BMSCE, BANGALORE | Member | 9845675201 |
 
-#### [ANTI RAGGING COMMITTEE](/p/list-of-committees)
+#### [ANTI-RAGGING COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3155,7 +3155,7 @@ const committeesBody = `
 | 20 | Mr. SADIQ GHOUSE KHAN WAHAB(AIML) | Parents’ Representative | 7406750060 |
 | 21 | M Vishwanathan | Parents’ Representative<br>Associate Professor, Maharani’s Arts College for Women | 9945831253 |
 
-#### [ANTI-RAGGING SQUAD](/p/list-of-committees)
+#### [ANTI-RAGGING SQUAD MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3172,27 +3172,43 @@ const committeesBody = `
 | 9 | Mr. SOMA SUNDAR | Member | 9739929289 |
 | 10 | Mrs. SUJATHA S | Member | 9008710988 |
 
-#### [STUDENT GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
+#### [STUDENTS GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| **STUDENT GRIEVANCE REDRESSAL COMMITTEE** |
+| **STUDENTS GRIEVANCE REDRESSAL COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Dr. PARTHASARATHY L | Member | 9035064022 |
 | 3 | Dr. RAGHAVENDRA L | Member | 7829859477 |
 | 4 | Dr. BASANTH KUMAR | Member | 9611882250 |
-| 5. | Dr. KHATEEJA AMBREEN | Member | 9481711509 |
+| 5 | KHATEEJA AMBREEN | Member | 9481711509 |
 | 6 | Mr. SUDHAKAR N | Member | 9480573571 |
 | 7 | Mrs. SWETHA K T | Member | 8428249852 |
 | 8 | Mr. RAGHAVENDRA R | Member | 9590828662 |
 | 9 | Mrs. LEELAVATHI N | Member | 7899571411 |
-| 10 | Mr. Pranav Umesh (4AD23CS078) | Student Member | 8431889100 |
-| 11 | Ms. Aishwarya G R (4AD24EC005) | Student Member | 9901555075 |
+| 10 | Mr. PRANAV UMESH (4AD23CS078) | Student Member | 8431889100 |
+| 11 | Ms. AISHWARYA G R (4AD24EC005) | Student Member | 9901555075 |
 | 12 | Mrs. PALLAVI | Member Secretary | 9342575252 |
-| 13 | Prof. C K Subbaraya | VTU -Ombudsperson | 9448480343 |
+| 13 | Prof. C K SUBBARAYA | VTU -Ombudsperson | 9448480343 |
 
-#### [INTERNAL COMPLAINT COMMITTEE](/p/list-of-committees)
+#### [GRIEVANCE REDRESSAL COMMITTEE](/p/list-of-committees)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **GRIEVANCE REDRESSAL COMMITTEE** |
+| **Sl. No.** | **Name** | **Position** | **Contact Details** |
+| 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
+| 2 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 3 | Dr. PARTHASARATHY L | Member | 9035064022 |
+| 4 | Dr. PUTTE GOWDA D | Member | 9900622014 |
+| 5 | Dr. PRATHIBA M K | Member | 9449610089 |
+| 6 | Dr. NASREEN FATHIMA | Member | 9986617206 |
+| 7 | Dr. SHAKUNTHALA C | Member | 8970779374 |
+| 8 | Dr. JYOTHI D N | Member | 9738806913 |
+| 9 | Dr. AVINASH K | Member | 9148623123 |
+
+#### [INTERNAL COMPLAINT COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3208,7 +3224,7 @@ const committeesBody = `
 | 8 | Ms. Heeba Arshi | Student Member | 8549890636 |
 | 9 | Mr. Chiranth S | Student Member | 9380826128 |
 
-#### [SC-ST COMMITTEE](/p/list-of-committees)
+#### [SC-ST COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3224,7 +3240,29 @@ const committeesBody = `
 | 8 | Mr. SOMASUNDAR | Member | 9739929289 |
 | 9 | Mr. KUSHAL R | Member | 9738461046 |
 
-#### [FINANCE COMMITTEE](/p/list-of-committees)
+#### [INTERNAL QUALITY ASSURANCE CELL COMMITTEE MEMBERS](/p/list-of-committees)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **INTERNAL QUALITY ASSURANCE CELL COMMITTEE MEMBERS** |
+| **Sl. No.** | **Name** | **Position** | **Contact Details** |
+| 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
+| 2 | Mr. H. VENKATESH | Member | 9448285654 |
+|  | Dr. NALINI REBELLO | Member | 9945371440 |
+| 3 | Dr. SACHIDANANDAMURTHY K L | Member | 9448285644 |
+| 4 | Dr. Thotreingam Kasar<br>Founder & Director,<br>EDspire Research Centre, Mysore | Member | 8123530082 |
+| 5 | Other University Professor |  |  |
+| 6 | Dr. RAGHAVENDRA L | Member | 7829859477 |
+| 7 | Dr. VINOD KUMAR P | Member | 9538006039 |
+| 8 | Prof. GIRISH M | Member | 9964406640 |
+| 9 | Prof. ANUPAMA SHETTER | Member | 9738484396 |
+| 10 | Dr. SHILPA B L | Member | 9886893166 |
+| 11 | Prof. SHRUTHI H G | Member | 9538343733 |
+| 12 | Mr. PRATHEEK P S | Alumni | 9482145565 |
+| 13 | Ms. V V RIYA VIJAY | Student Member | 9019868459 |
+| 14 | Prof. RAVIKUMAR S | Member Secretary | 9880543740 |
+
+#### [FINANCE COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3233,25 +3271,25 @@ const committeesBody = `
 | 1 | Sri. VEERESH R | Chairman | 9448285652 |
 | 2 | Dr. L BASAVARAJ | Member Secretary | 9448285641 |
 | 3 | Dr. BHAGYASHREE S R | Member | 9900110944 |
-| 4 | Dr. SACHIDANANDA MURTHY | Member | 9448678271 |
+| 4 | Dr. SACHIDANANDA MURTHY | Member | 9448285644 |
 | 5 | Mrs. PALLAVI | Member | 9342575252 |
 | 6 | STATUTORY AUDITOR | Special Invite |  |
 
-#### [RESOURCE PLANNING & PURCHASE COMMITTEE](/p/list-of-committees)
+#### [RESOURCE PLANNING & PURCHASE COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **RESOURCE PLANNING & PURCHASE COMMITTEE MEMBERS** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
-| 1 | Sri. SHIVASHANKAR K | Chairman | 9036926363 |
+| 1 | Sri. SHIVASHANKAR K | Chairman | 9448285651 |
 | 2 | Dr. L BASAVARAJ | Member Secretary | 9448285641 |
-| 3 | Dr. CHETHAN S (Assistant to Dean Academics) | Member | 9844928905 |
+| 3 | Dr. NALINI REBELLO | Member | 9945371440 |
 | 4 | Dr. BHAGYASHREE S R | Member | 9900110944 |
 | 5 | Dr. NASREEN FATHIMA | Member | 9986617206 |
-| 6 | Mrs. PALLAVI | Member | 9342575252 |
+| 6 | Mrs. PALLAVI T | Member | 9342575252 |
 | 7 | Mr. HARISH | Member | 9008960806 |
 
-#### [STAFF RECRUITMENT & SELECTION COMMITTEE](/p/list-of-committees)
+#### [STAFF RECRUITMENT & SELECTION COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3259,23 +3297,24 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Sri. L ARUN KUMAR | Hon’ble Chairman | 9448285650 |
 | 2 | Dr. L BASAVARAJ | Member Secretary | 9448285641 |
-| 3 | Dr. CHETHAN S (Assistant to Dean Academics) | Member | 9844928905 |
-| 4 | Mrs. PALLAVI | Member | 9342575252 |
-| 5 | CONCERNED DEPT. HOD | Invitee |  |
-| 6 | SUBJECT EXPERT 1 | Member |  |
-| 7 | SUBJECT EXPERT 2 | Member |  |
+| 3 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 4 | Dr. BHAGYASHREE S R | Member | 9900110944 |
+| 5 | Mrs. PALLAVI T | Member | 9342575252 |
+| 6 | CONCERNED DEPT. HOD | Invitee |  |
+| 7 | SUBJECT EXPERT 1 | Member |  |
+| 8 | SUBJECT EXPERT 2 | Member |  |
 
-#### [STATUTORY APPROVAL & AFFILIATION COMMITTEE (AITCE,VTU,etc.,)](/p/list-of-committees)
+#### [STATUTORY APPROVAL & AFFILIATION COMMITTEE (AICTE, VTU ETC.,)](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **STATUTORY APPROVAL & AFFILIATION COMMITTEE (AICTE, VTU ETC.,)** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Dr. PRATHIBA M K | Member Secretary | 9449610089 |
-| 3 | Dr. NALINI REBELLO | Member | 9945371440 |
-| 4 | Dr. RAGHAVENDRA L | Member | 7829859477 |
-| 5 | Dr. PAVITHRA A C | Member | 8884699040 |
+| 2 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 3 | Dr. PRATHIBA M K | Member Secretary | 9449610089 |
+| 4 | Dr. PAVITHRA A C | Member | 8884699040 |
+| 5 | Dr. RAGHAVENDRA L | Member | 7829859477 |
 | 6 | Dr. MAHESH LOHITH S | Member | 9845206504 |
 | 7 | Mr. RAVIKUMAR S | Member | 9880543740 |
 | 8 | Dr. NEETHI M V | Member | 8550852565 |
@@ -3293,20 +3332,17 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Mr. RAVIKUMAR S | Member Secretary | 9880543740 |
-| 3 | Dr. PRATHIBHA M K | Member | 9449610089 |
-| 4 | Mrs. SHRILAKSHMI PRASAD | Member | 9886492940 |
-| 5 | Mr. MANJUNATH K | Member | 9738403734 |
-| 6 | Dr. PRAVEEN KUMAR M | Member | 9731251884 |
-| 7 | Mrs. SHRUTHI H G | Member | 9538343733 |
-| 8 | Mrs. KHATEEJA AMBAREEN | Member | 9844967242 |
-| 9 | Mrs. AMBIKA V | Member | 6361592908 |
-| 10 | JANHAVI N | Member | 8792906279 |
-| 11 | UMME HANI SHARIFF | Member |  |
-| 12 | Ms. BHANU PRIYA J | Member | 8867904101 |
-| 13 | Mr. SANDESH R | Member | 9854756854 |
-| 14 | Mrs. SHARANYA | Professional Counselor-Special Invitee | 98808 73774 |
+| 3 | Dr. SWETHA G K | Member | 9590299405 |
+| 4 | Dr. SIDDEGOWDA | Member | 9880717468 |
+| 5 | Mr. SHREESHAYANA R | Member | 9739002631 |
+| 6 | Mrs. AKHILA C G | Member | 9743726895 |
+| 7 | Mrs. PALLAVI A R | Member | 6360832795 |
+| 8 | Mr. GURU PRASAD K N | Member | 9353446681 |
+| 9 | Mrs. GADI DIVYASREE | Member | 9490857305 |
+| 10 | Ms. SNEHA M | Member | 7406477279 |
+| 11 | Mr. RANGASWAMY S | Member | 7996557926 |
 
-#### [ALUMNI COMMITTEE](/p/list-of-committees)
+#### [ALUMNI COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3315,18 +3351,19 @@ const committeesBody = `
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
 | 2 | Dr. PUTTEGOWDA D | Member Secretary | 9900622014 |
 | 3 | Mr. RAMACHANDRA | Member | 9742100542 |
-| 4 | MAHENDRA KUMAR H S | Member | 9738403734 |
+|  | Dr. VINODKUMAR | Member | 9538006039 |
+| 4 | Dr. SWETHA G K | Member | 9590299405 |
 | 5 | Mr. SANDESH R | Member | 9854756854 |
-| 6 | Mrs. SARADA PRATAPA | Member | 7829909465 |
-| 7 | Mr. MANJUNATH K | Member | 9738403734 |
-| 8 | Mrs. KAVYASHREE E D | Member | 7259488108 |
-| 9 | Mrs. AKHILA C G | Member | 9743726895 |
-| 10 | Mr. HEMANTH B R | Member | 7026251531 |
-| 11 | Ms. SWAPNA H | Member | 9591562578 |
-| 12 | Mr. YOGESH N | Member | 9663170150 |
-| 13 | Mrs. VANITHA G NAIK | Member | 9845048809 |
-| 14 | Dr. NEETHI M V | Member | 8550852565 |
-| 15 | Mr. SIDDEGOWDA C J | Member | 9880717468 |
+| 6 | Mr. MANJUNATH K | Member | 9738403734 |
+| 7 | Mrs. KAVANA J | Member | 7676147275 |
+| 8 | Mrs. AKHILA C G | Member | 9743726895 |
+| 9 | Mr. HEMANTH B R | Member | 7026251531 |
+| 10 | Ms. SWAPNA H | Member | 9591562578 |
+| 11 | Mr. YOGESH N | Member | 9663170150 |
+| 12 | Mrs. VANITHA G NAIK | Member | 9845048809 |
+| 13 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
+
+#### [ALUMNI COMMITTEE MEMBERS (Registered)](/p/list-of-committees)
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -3334,8 +3371,8 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Name** | **Position** | **Contact Details** |
 | 1 | SHASHANK – ECE STUDENT ALUMNI | ALUMNI | President |  |
 | 2 | PAVAN – ME STUDENT ALUMNI | ALUMNI | Vice President | 8867098981 |
-| 3 | Dr. PUTTEGOWDA D – CSE | HOD (CSE) | Secretary | 9900622014 |
-| 4 | LAVANYA N – CSE STUDENT ALUMNI | ALUMNI | Joint Secretary | 9036098516 |
+| 3 | Dr. PUTTEGOWDA D - CSE | HOD (CSE) | Secretary | 9900622014 |
+| 4 | LAVANYA N - CSE STUDENT ALUMNI | ALUMNI | Joint Secretary | 9036098516 |
 | 5 | ANUPAMA SHETTER – ECE STUDENT ALUMNI | ALUMNI | Treasurer | 9738484396 |
 | 6 | HEMANTH B R – ME STUDENT ALUMNI | ALUMNI | Member | 7026251531 |
 | 7 | SHIVARAJ R – CE STUDENT ALUMNI | ALUMNI | Member | 8562314598 |
@@ -3344,32 +3381,32 @@ const committeesBody = `
 | 10 | VISHWAS B-CSD STUDENT ALUMNI | ALUMNI | Member | 7406475907 |
 | 11 | AMRUTHA R – EEE STUDENT ALUMNI | ALUMNI | Member | 8123408770 |
 
-#### [TRAINING & PLACEMENT ADVISORY COMMITTEE](/p/list-of-committees)
+#### [Placement & Advisory Committee](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| #### **TRAINING & PLACEMENT ADVISORY COMMITTEE MEMBERS** |
-| #### **Sl. No.** | #### **Name** | #### **Position** | #### **Contact Details** |
+| **Placement & Advisory Committee** |
+| **Sl. No** | **Name** | **Position** | **Contact Number** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
 | 2 | Mrs. LAKSHMI SHREE C V | Member Secretary | 8722188881 |
-| 3 | Dr. CHETHAN S (Assistant to Dean Academics) | Member | 9844928905 |
-| 4 | Dr. SRINIVASA K (Dean Student Affairs) | Member | 9945045415 |
-| 5 | CHANDRASHEKARAIAH B R– LTTS Mysore            (Head of Digital Medical Delivery Unit) | Member | 9945123838 |
-| 6 | Dr. DHARMA PRASAD -Prosetta Bioconformatics Pvt Ltd (CEO and Chief Scientist) | Member | 8212403650 |
-| 7 | Ms. MARIA SUSHMA | Member | 9611637370 |
-| 8 | Mr. NAMITHA A P | Member | 7349169852 |
-| 9 | Mrs. SPOORTHI P N | Member | 8618449205 |
-| 10 | Mr. GURUPRASAD K N | Member | 9739319567 |
-| 11 | Mrs. KEERTHANA M M | Member | 9008923086 |
-| 12 | Mr. KALATHMA M K | Member | 9901209973 |
+| 3 | CHANDRASHEKARAIAH B R– LTTS Mysore | Member |  |
+| 4 | Dr. DHARMA PRASAD -Prosetta Bioconformatics Pvt Ltd | Member |  |
+| 5 | Dr.NALINI ELIZABETH REBELLO | Member | 9945371440 |
+| 6 | Dr. SRINIVASA K | Member | 9945045415 |
+| 7 | Dr.JYOTHI D N | Member | 9738806913 |
+| 8 | Dr.JAYANNA VEERANNA GORABAL | Member | 8073319424 |
+| 9 | Dr.PADMAJA K | Member | 9986292529 |
+| 10 | Dr.PARTHASARATHY N | Member | 9591205060 |
+| 11 | Dr. VINOD KUMAR | Member | 9538006039 |
+| 12 | Dr.SHWETHA G K | Member | 9590299405 |
 | 13 | Mr. ROHITH S | Member | 9739866912 |
-| 14 | Dr. VINOD KUMAR | Member | 9538006039 |
-| 15 | Mrs. SHAMBHAVI | Member | 7899950928 |
-| 16 | Dr. UMA MAHESH R N | Member | 7406573982 |
-| 17 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
-| 18 | Mr. LIKITH N | Member | 8892476764 |
+| 14 | Mr. GURUPRASAD K N | Member | 9739319567 |
+| 15 | Mr. MANJUNATH K | Member | 9738403734 |
+| 16 | Mrs. VANITHA G NAIK | Member | 9845048809 |
+| 17 | Mrs. YESHASHWINI BHANDARI K R | Member | 9606406640 |
+| 18 | Ms. SHILPASHREE V N | Member | 8088001383 |
 
-#### [STUDENTS WELFARE & DISCIPLINARY COMMITTEE](/p/list-of-committees)
+#### [STUDENT’S WELFARE & DISCIPLINARY COMMITTEE MEMBERS](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -3377,44 +3414,17 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Dr. JAYANT KUMAR RATHOD | Member | 9880636747 |
-| 3 | Dr. NASREEN FATHIMA | Member | 9986617206 |
-| 4 | Dr. ANIL KUMAR C J | Member | 9900477621 |
-| 5 | Dr. ANITHA D B | Member | 9731251316 |
-| 6 | Dr. SHAKUNTHALA C | Member | 8970779374 |
-| 7 | Dr. SATHISH K R | Member | 9611982696 |
-| 8 | Dr.OSCAR ABHISHEK | Member | 9972044943 |
-| 9 | Dr. KHATEEJA AMBAREEN | Member | 9844967242 |
-| 10 | Dr. MURALIDHARA M P | Member | 9611551921 |
-| 11 | Dr. CHAITRA T K | Member | 7795712941 |
-| 12 | Mr. MANU VIJAY | Member | 9738601201 |
-| 13 | Dr. MOHAN KUMAR K C | Member Secretary | 9141559487 |
-
-#### [ACCREDITATION & ISO](/p/list-of-committees)
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| ###### **ACCREDITATION & ISO** |
-| ###### **Sl. No.** | ###### **Name** | ###### **Position** | ###### **Contact Details** |
-| ###### **1** | ###### **Dr. L BASAVARAJ** | ###### **Chairman** | ###### **9448285641** |
-| ###### **2** | ###### **Dr. CHETHAN S (Assistant to Dean Academics)** | ###### **Member Secretary** | ###### **9844928905** |
-| ###### **3** | ###### **Dr. PARTHASARATHY L** | ###### **Member** | ###### **9035064022** |
-| ###### **4** | ###### **Mr. MANU VIJAY** | ###### **Member** | ###### **9738601201** |
-| ###### **5** | ###### **Dr. MAHESH LOHITH K S** | ###### **Member** | ###### **9845206504** |
-| ###### **6** | ###### **Mr. RAGHAVENDRA L** | ###### **Member** | ###### **7829859477** |
-| ###### **7** | ###### **Mr. SHREESHAYANA R** | ###### **Member** | ###### **9739002631** |
-| ###### **8** | ###### **Mr. PUNITH K** | ###### **Member** | ###### 8762506972 |
-| ###### **9** | ###### **Ms. ANUPAMA SHETTER** | ###### **Member** | ###### **9738484396** |
-| ###### **10** | ###### **Mr. GIRISH M** | ###### **Member** | ###### **9964406640** |
-| ###### **11** | ###### **Mr. PRADEEP KUMAR Y** | ###### **Member** | ###### **9986646017** |
-| ###### **12** | ###### **Mr. RAGHURAM A S** | ###### **Member** | ###### **9448552109** |
-| ###### **13** | ###### **Mrs. SHRILAKSHMI PRASAD** | ###### **Member** | ###### **9886492940** |
-| ###### **14** | ###### **Mr. RAVIKUMAR S** | ###### **Member** | ###### **9880543740** |
-| ###### **15** | ###### **Dr. NASREEN FATHIMA** | ###### **Member** | ###### **9986617206** |
-| ###### **16** | ###### **Dr. VINOD KUMAR P** | ###### **Member** | ###### **9538006039** |
-| ###### **17** | ###### **Dr. AVINASH K** | ###### **Member** | ###### **9148623123** |
-| ###### **18** | ###### **Mr. NANNAYYA H M** | ###### **Member** | ###### **8867904101** |
-| ###### **19** | ###### Ms.NISCHITHA M | ###### **Member** | ###### 88674 74557 |
-| ###### **20** | ###### **Mr. NAGESH J** | ###### **Member** | ###### **9886975772** |
+|  | Dr. NASREEN FATHIMA | Member | 9986617206 |
+| 3 | Dr. ANIL KUMAR C J | Member | 9900477621 |
+| 4 | Dr. ANITHA D B | Member | 9731251316 |
+| 5 | Dr. SHAKUNTHALA C | Member | 8970779374 |
+| 6 | Dr. SATHISH K R | Member | 9611982696 |
+| 7 | Dr.OSCAR ABHISHEK | Member | 9972044943 |
+| 8 | Dr. KHATEEJA AMBAREEN | Member | 9844967242 |
+| 9 | Dr. MURALIDHARA M P | Member | 9611551921 |
+| 10 | Dr. CHAITRA T K | Member | 7795712941 |
+| 11 | Mr. MANU VIJAY | Member | 9738601201 |
+| 12 | Dr. MOHAN KUMAR K C | Member Secretary | 9141559487 |
 
 #### [CANTEEN & CONVENIENCE SHOP COMMITTEE](/p/list-of-committees)
 
@@ -3423,83 +3433,57 @@ const committeesBody = `
 | **CANTEEN & CONVENIENCE SHOP COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
-| 2 | Mrs. SHRUTHI H G | Member Secretary | 9538343733 |
+| 2 | Mrs. ASHWINI P | Member Secretary | 9902922229 |
 | 3 | Dr. SACHIDANANDAMURTHY K L | Member | 9448678271 |
-| 4 | Dr. PRAVEEN KUMAR M | Member | 9731251884 |
-| 5 | Mrs. JUSLIN FRANKLIN | Member | 9036065420 |
+| 4 | Dr. CHETHAN S | Member | 98449 28905 |
+| 5 | Ms. TEJASWINI B M | Member | 6364677529 |
 | 6 | Mr. RAMACHANDRA | Member | 9742100542 |
-| 7 | Mr. HEMANTH KUMAR | Member | 8088696880 |
+| 7 | Dr. NEETHI M V | Member | 7899114964 |
 | 8 | Mr. YOGESH N | Member | 9663170150 |
 | 9 | Mr. SANDESH R | Member | 9741006464 |
-| 10 | Mrs. PALLAVI | Member | 9342575252 |
 
-#### [E-CELL & CAREER GUIDANCE COMMITTEE](/p/list-of-committees)
+#### [E-CELL](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| **E-Cell** |
-| **Sl. No** **.** | **Name** | **Position** | **Contact Details** |
+| **E-CELL** |
+| **Sl. No** | **Name** | **Position** | **Contact Number** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Mrs. LAKSHMI SHREE C V | Member Secretary | 8722188881 |
-| 3 | Dr. CHETHAN S (Assistant to Dean Academics) | Member | 9844928905 |
-| 4 | Dr. SRINIVASA K (Dean Student Affairs) | Member | 9945045415 |
-| 5 | CHANDRASHEKARAIAH B R– LTTS Mysore (Head of Digital Medical Delivery Unit) | Member | 9945123838 |
-| 6 |  | Member |  |
-| 7 |  | Member |  |
-| 8 | Ms. MARIA SUSHMA | Member | 9611637370 |
-| 9 | Mr. NAMITHA A P | Member | 7349169852 |
-| 10 | Mrs. SPOORTHI P N | Member | 8618449205 |
-| 11 | Mr. GURUPRASAD K N | Member | 9739319567 |
-| 12 | Mrs. KEERTHANA M M | Member | 9008923086 |
-| 13 | Mr. KALATHMA M K | Member | 9901209973 |
-| 14 | Mr. ROHITH S | Member | 9739866912 |
-| 15 | Dr. VINOD KUMAR | Member | 9538006039 |
-| 16 | Mrs. SHAMBHAVI | Member | 7899950928 |
-| 17 | Dr. UMA MAHESH R N | Member | 7406573982 |
-| 18 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
-| 19 | Mr. LIKITH N | Member | 8892476764 |
+| 2 | Mrs. LAKSHMI SHREE C V | Member Secretary | 872218881 |
+| 3 | Dr. SRINIVASA K | Member | 9945045415 |
+| 4 | CHANDRASHEKARAIAH B R– LTTS Mysore | Member |  |
+| 5 | Dr.PARTHASARATHY L | Member | 9035064022 |
+| 6 | Dr. VINOD KUMAR | Member | 9538006039 |
+| 7 | Mrs.BINDUSHREE V | Member | 9964981481 |
+| 8 | Mrs.ASHWINI P | Member | 9902922229 |
+| 9 | Mr.GIRISH M | Member | 9964406640 |
+| 10 | Mr.HEMANTH B R | Member | 7029251531 |
+| 11 | Ms. SWAPNA H | Member | 9591562578 |
+| 12 | Mrs.GOWTHAM M G | Member | 9035724265 |
+| 13 | Mrs.BHARATHI B | Member | 8496009262 |
+| 14 | Mrs. SHAMBHAVI | Member | 7899950928 |
+| 15 | Mrs.SUMA H C | Member | 8884763898 |
+| 16 | Mr. GURUPRASAD K N | Member | 9739319567 |
 
-#### [MAGAZINE & NEWS LETTER COMMITTEE](/p/list-of-committees)
+#### [MAGAZINE & NEWSLETTER COMMITTEE](/p/list-of-committees)
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **MAGAZINE & NEWSLETTER COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
-| 1 | Dr. PUTTEGOWDA D | Chairman | 99006 22014 |
+| 1 | Dr. PUTTEGOWDA D | Chairman | 9035064022 |
 | 2 | Mr. LIKHIT M L | Member Secretary | 8123845620 |
-| 3 | Mrs. ASHWINI P | Member | 9902922229 |
-| 4 | Mrs. MADHURYA B ESHWAR | Member | 8861414341 |
-| 5 | Mrs. SWATHI C A | Member | 8310818925 |
-| 6 | Mr. RAGHU | Member | 8970425914 |
-| 7 | Mr. ANJAN KUMAR J | Member | 8095064765 |
-| 8 | Mr. YOGESH N | Member | 9663170150 |
-| 9 | Mr. J N KARTHIK | Member | 7996904428 |
-| 10 | Mrs. KHATEEJA AMBAREEN | Member | 9844967242 |
-| 11 | Mrs. VANITHA G NAIK | Member | 9845048809 |
-| 12 | Mr. YATHIRAJ | Member | 9886655578 |
-
-#### [RESEARCH, PUBLICATION & CO-CURRICULAR ACTIVITIES COMMITTEE](/p/list-of-committees)
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| ###### **RESEARCH, PUBLICATION & CO-CURRICULAR ACTIVITIES COMMITTEE** |
-| ###### **Sl. No.** | ###### **Name** | ###### **Position** | ###### **Contact Details** |
-| ###### **1** | ###### **Dr. BHAGYASHREE S R** | ###### **Chairperson** | ###### **9900110944** |
-| ###### **2** | ###### **Dr. SATHISH K R** | ###### **Member Secretary** | ###### **9611982696** |
-| ###### **3** | ###### **Dr. SUNEETH KUMAR** | ###### **Member** | ###### **7845614709** |
-| ###### **4** | ###### **Dr. PRATHIBHA M K** | ###### **Member** | ###### **9449610089** |
-| ###### **5** | ###### **Dr. MOHANKUMAR K C** | ###### **Member** | ###### **9141559487** |
-| ###### **6** | ###### **Dr. MAHESH LOHITH K S** | ###### **Member** | ###### **9845206504** |
-| ###### **7** | ###### **Dr. AVINASH K** | ###### **Member** | ###### **9148623123** |
-| ###### **8** | ###### **Dr. NASREEN FATHIMA** | ###### **Member** | ###### **9986617206** |
-| ###### **9** | ###### **Dr. VINOD KUMAR P** | ###### **Member** | ###### **9538006039** |
-| ###### **10** | ###### **Dr. PAVITHRA A C** | ###### **Member** | ###### **8884699040** |
-| ###### **11** | ###### **Mr. CHANDRASHEKAR P** | ###### **Member** | ###### **9538584312** |
-| ###### **12** | ###### **Mr. RAGHURAM A S** | ###### **Member** | ###### **9448552109** |
-| ###### **13** | ###### **Mr. YOGESH N** | ###### **Member** | ###### **9663170150** |
-| ###### **14** | ###### **Mr. PUNEETH K** | ###### **Member** | ###### **8762506972** |
-| ###### **15** | ###### **Mrs. MADHU NAGARAJ** | ###### **Member** | ###### **9742133691** |
-| ###### **16** | ###### **Mrs. KHATEEJA AMBAREEN** | ###### **Member** | ###### **9844967242** |
+| 3 | Miss.RAKSHITHA V | Member | 9980476763 |
+| 4 | Mrs.NAMITHA | Member | 9538343733 |
+| 5 | Miss.KAVYASHREE B L | Member | 9538000953 |
+| 6 | Mrs. MADHURYA B ESHWAR | Member | 8861414341 |
+| 7 | Mrs.SHILPA SHREE V N | Member | 8088001383 |
+| 8 | Mr. RAGHU | Member | 8970425914 |
+| 9 | Mr.RAGAVENDRA R | Member | 9590828662 |
+| 10 | Mr. YOGESH N | Member | 9663170150 |
+| 11 | Mr. J N KARTHIK | Member | 7996904428 |
+| 12 | Miss.UMME HANI SHARRIF | Member | 9353748601 |
+| 13 | Miss.LAKSHMI M R | Member | 8951569640 |
 
 #### [HOSTEL COMMITTEE](/p/list-of-committees)
 
@@ -3508,17 +3492,16 @@ const committeesBody = `
 | **HOSTEL COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
-| 2 | Dr. SACHIDANANDAMURTHY K L | Member Secretary | 9448678271 |
+| 2 | Dr. SACHIDANANDAMURTHY K L | Member Secretary | 9448285644 |
 | 3 | Mr. RAGHAVENDRA R | Warden | 9590828662 |
 | 4 | Mr. LEELAVATHI N | Warden | 7899571411 |
 | 5 | Mrs. BINDUSHREE V | Member | 9964981481 |
-| 6 | Dr. PRAVEEN KUMAR M | Member | 9731251884 |
+| 6 | Mrs. SHREELAKSHMI PRASAD | Member | 9886492940 |
 | 7 | Mr. HEMANTH B R | Member | 7026251531 |
 | 8 | Dr. JYOTHI D N | Member | 9738806913 |
-| 9 | Mrs. DIVYA K | Member | 9620191619 |
-| 10 | Dr. NEETHI M V | Member | 8550825565 |
-| 11 | Mr. MANIKANTA | Member | 9741153589 |
-| 12 | Mr. NAGESH J | Member | 9886975772 |
+| 9 | Ms. SUSHMITHA B H | Member | 9880162457 |
+| 10 | Mr. MANIKANTA | Member | 9741153589 |
+| 11 | Mr. NAGESH J | Member | 9886975772 |
 
 #### [SPORTS & EXTRA CURRICULAR COMMITTEE](/p/list-of-committees)
 
@@ -3528,16 +3511,18 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Dr. MURALIDHAR M P | Member Secretary | 9611551921 |
-| 3 | Mrs. JUSLIN F | Member | 9036065420 |
-| 4 | Mr. SANDESH R | Member | 9854756854 |
-| 5 | Dr. SATHISH K R | Member | 9611982696 |
-| 6 | Mr. ROHITH S | Member | 9739866912 |
-| 7 | Mr. RUDRESH A N | Member | 9743580290 |
-| 8 | Mr. RAMACHANDRA M N | Member | 9742100542 |
-| 9 | Mrs. DARSHINI Y | Member | 8904801598 |
-| 10 | Ms. LIKITHA D | Member | 9686299373 |
-| 11 | Mr. J N KARTHIK | Member | 7996904428 |
-| 12 | Mrs. ROOPA | Member | 9901264421 |
+| 3 | Mrs. SUMA H C | Member | 8884763898 |
+| 4 | Mr. CHANDRA SHEKAR P | Member | 9538584312 |
+| 5 | Mr. VIJAY KUMAR S | Member | 7676754272 |
+| 6 | Mr. YATHIRAJ D N | Member | 9886655578 |
+| 7 | Mrs. DARSHINI M S | Member | 8095700907 |
+| 8 | Mr. J N KARTHIK | Member | 7996904428 |
+| 9 | Mrs. KAVYASHREE S | Member | 8660133254 |
+| 10 | Mr. ROHITH S | Member | 9739866912 |
+| 11 | Mr. RUDRESH A N | Member | 9743580290 |
+| 12 | Mr. MAHENDRA KUMAR H S | Member | 7795257247 |
+| 13 | Miss. SANDHYA G | Member | 7483298369 |
+| 14 | Miss. DARSHINI Y | Member | 8861572439 |
 
 #### [WEBSITE, PUBLICITY & PROMOTION COMMITTEE](/p/list-of-committees)
 
@@ -3546,22 +3531,20 @@ const committeesBody = `
 | **WEBSITE, PUBLICITY & PROMOTION COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Dr. SRINIVASA K | Member Secretary | 9945045415 |
-| 3 | Dr. SACHIDANANDAMURTHY K L | Member | 9448678271 |
-| 4 | Mr. LIKHIT M L | Member | 81238 45620 |
-| 5 | Mrs. JUSLIN F | Member | 9036065420 |
-| 6 | Mr. ROHITH S | Member | 9739866912 |
-| 7 | Mr. RAGHAVENDRA R | Member | 9590828662 |
-| 8 | B S VANISHREE | Member | 8105010672 |
-| 9 | Mr. PUNEETH K | Member | 8762506972 |
-| 10 | Ms. MARIA SUSHMA | Member | 9902831147 |
-| 11 | Mrs. MADHU NAGRAJ | Member | 974213369 |
-| 12 | Mrs. DARSHINI Y | Member | 8904801598 |
-| 13 | Mr. CHANDRASHEKHAR C | Member | 9845115924 |
-| 14 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
-| 15 | Mrs. VANITHA G NAIK | Member | 9845048809 |
-| 16 | Mr. NAGAPPA | Member | 9739197115 |
-| 17 | Ms. PALLAVI | Member | 9611840837 |
+| 2 | Dr. SACHIDANANDAMURTHY K L | Member | 9448285644 |
+| 3 | Mr. LIKHIT M L | Member Secretary | 8123845620 |
+| 4 | Mr. ROHITH S | Member | 9739866912 |
+| 5 | Mr. RAGHAVENDRA R | Member | 9590828662 |
+| 6 | Mrs. B S VANISHREE | Member | 8105010672 |
+| 7 | Mr. J N KARTHIK | Member | 7996904428 |
+| 8 | Mrs. DARSHINI Y | Member | 8904801598 |
+| 9 | Mr. CHANDRASHEKHAR C | Member | 9845115924 |
+| 10 | Mr. YATHIRAJ D N | Member | 9886655578 |
+| 11 | Mrs. SUMA H C | Member | 8884763898 |
+| 12 | Mrs. BHARATHI B | Member | 8496009262 |
+| 13 | Mrs. SHILPASHREE V N | Member | 8088001383 |
+| 14 | Mr. NAGAPPA | Member | 9739197115 |
+| 15 | Mr. CHETHAN GODINAL | Member | 6360000342 |
 
 #### [A-IMS COMMITTEE](/p/list-of-committees)
 
@@ -3570,22 +3553,22 @@ const committeesBody = `
 | **A-IMS COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Mr. NIRANJAN KUMAR V S | Member Secretary | 9945614138 |
-| 3 | Mr. MOHAN M | Member | 9916088975 |
-| 4 | Mr. TEJAS N | Member | 8431187332 |
-| 5 | Mr. MAHENDRA | Member | 7795257247 |
-| 6 | Mr. PRADEEP KUMAR Y | Member | 9986646017 |
-| 7 | Mr. RAGHURAM A S | Member | 9448552109 |
-| 8 | Dr. MOHANAKUMAR K C | Member | 9141559487 |
-| 9 | Ms. SWAPNA H | Member | 9591562578 |
-| 10 | Mrs. NAMITHA | Member | 9538343733 |
-| 11 | Ms. HARSHITHA | Member | 9901790762 |
-| 12 | Mrs. SANDYA G | Member | 7483298369 |
-| 13 | Mrs. MADHU NAGRAJ | Member | 9742133691 |
-| 14 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
+| 2 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 3 | Mr. NIRANJAN KUMAR V S | Member Secretary | 9945614138 |
+| 4 | Mr. MOHAN M | Member | 9916088975 |
+| 5 | Mr. THEJAS GOWDA B | Member | 8431187332 |
+| 6 | Mr. SHASHANK PATIL | Member | 8310682305 |
+| 7 | Mr. PRADEEP KUMAR Y | Member | 9986646017 |
+| 8 | Mr. RAGHURAM A S | Member | 9448552109 |
+| 9 | Dr. MOHANAKUMAR K C | Member | 9141559487 |
+| 10 | Ms. SWAPNA H | Member | 9591562578 |
+| 11 | Mrs. NAMITHA A P | Member | 9538343733 |
+| 12 | Ms. HARSHITHA H B | Member | 9901790762 |
+| 13 | Mrs. YESHASHWINI BHANDARI K R | Member | 9742251453 |
+| 14 | Mrs. MADHU NAGRAJ | Member | 9742133691 |
 | 15 | Ms. LAKSHMI M R | Member | 8951569640 |
-| 16 | Mrs. PALLAVI | Member | 9342575252 |
-| 17 | Mrs. KHATEEJA AMBREEN | Member | 9844967242 |
+| 16 | Mrs. SUMA H C | Member | 8884763898 |
+| 17 | Mrs. PALLAVI T | Member | 9342575252 |
 
 #### [NSS, RED CROSS & SOCIAL OUTREACH COMMITTEE](/p/list-of-committees)
 
@@ -3595,17 +3578,17 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Mr. RUDRESH A N | Member Secretary | 9743580290 |
-| 3 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
-| 4 | Dr. MURALIDHAR M P | Member | 9611551921 |
-| 5 | Mr. MANJUNATH K | Member | 9738403734 |
-| 6 | Mrs. SHRUTHI H G | Member | 9538343733 |
-| 7 | Dr. SATHISH K R | Member | 9611982696 |
+| 3 | Dr. MURALIDHAR M P | Member | 9611551921 |
+| 4 | Mr. MANJUNATH K | Member | 9738403734 |
+| 5 | Miss.TEJASWINI B M | Member | 6364677529 |
+| 6 | Miss.SUSHMITHA N | Member | 7676528297 |
+| 7 | Mrs.SWATHI C A | Member | 8310818925 |
 | 8 | Mr. RAGHU | Member | 8970425914 |
-| 9 | Mrs. DARSHINI Y | Member | 8904801598 |
-| 10 | Mrs. AMBIKA V | Member | 6361592908 |
-| 11 | Dr. NEETHI M V | Member | 8550825565 |
-| 12 | Mrs. VANITHA G NAIK | Member | 9845048809 |
-| 13 | Mr. MANIKANTA | Member | 9741153589 |
+| 9 | Mrs.DIVYA N | Member | 9535400101 |
+| 11 | Mr.CHETAN GODINAL | Member | 6360000342 |
+| 12 | Mr. MANIKANTA | Member | 9741153589 |
+| 13 | Mrs.ARPITHA A | Member | 7348898858 |
+| 14 | Miss.SNEHA M | Member | 7406477279 |
 
 #### [LIBRARY COMMITTEE](/p/list-of-committees)
 
@@ -3614,19 +3597,17 @@ const committeesBody = `
 | **LIBRARY COMMITTEE** |
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Mrs. PRIYA R | Member Secretary | 8970331642 |
-| 3 | Dr. CHETHAN S | Member | 9844928905 |
-| 4 | Dr. BHAGYASHREE S R | Member | 9900110944 |
-| 5 | Mr. MANUVIJAY | Member | 9738601201 |
-| 6 | Dr. GORABAL J V | Member | 8073319424 |
-| 7 | Dr. MOHANAKUMAR K C | Member | 9141559487 |
-| 8 | Mr. SUDHAKAR N | Member | 9480573571 |
-| 9 | Mrs. MARIA SUSHMA S | Member | 9902831147 |
+| 2 | Dr. NALINI REBELLO | Member | 9945371440 |
+| 3 | Mrs. PRIYA R | Member Secretary | 8970331642 |
+| 4 | Dr. CHETHAN S | Member | 9844928905 |
+| 5 | Dr. BHAGYASHREE S R | Member | 9900110944 |
+| 6 | Mr. MANUVIJAY | Member | 9738601201 |
+| 7 | Dr. GORABAL J V | Member | 8073319424 |
+| 8 | Dr. MOHANAKUMAR K C | Member | 9141559487 |
+| 9 | Mr. SUDHAKAR N | Member | 9480573571 |
 | 10 | Ms. ANUPAMA SHETTER | Member | 9738484396 |
-| 11 | JANHAVI N | Member | 8792906279 |
-| 12 | Dr. NEETHI M V | Member | 8550852565 |
-| 13 | Dr. HUSSANA JOHAR R B | Member | 9740315252 |
-| 14 | Ms. POOJITHA | Member | 6362505745 |
+| 11 | Dr. NEETHI M V | Member | 8550852565 |
+| 12 | Dr. HUSSANA JOHAR R B | Member | 9740315252 |
 
 #### [INDUSTRY-INSTITUTE INTERACTION COMMITTEE](/p/list-of-committees)
 
@@ -3655,15 +3636,17 @@ const committeesBody = `
 | 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
 | 2 | Dr. SRINIVASA K | Member Secretary | 9945045415 |
 | 3 | Mr. CHANDRASHEKHAR C | Member | 9845115924 |
-| 4 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
-| 5 | Mr. ROHITH S | Member | 9739866912 |
-| 6 | Mrs. BHARATHI B | Member | 8496009262 |
-| 7 | Ms. LIKITHA D | Member | 9686299373 |
-| 8 | Mrs. KEERTHANA M M | Member | 9008923086 |
-| 9 | Mrs. KEERTHI A KUMBAR | Member | 9538550857 |
-| 10 | Ms. HARSHITHA | Member | 9901790762 |
-| 11 | Mr. J N KARTHIK | Member | 7996904428 |
-| 12 | SUSHMITHA B H | Member | 9880162457 |
+| 4 | Mr. ROHITH S | Member | 9739866912 |
+| 5 | Mrs.SHRUTHI H G | Member | 9538787767 |
+| 6 | Miss.POOJITHA S | Member | 6362505745 |
+| 7 | Miss.CLARA B | Member | 9901460788 |
+| 8 | Miss.SANDHYA G | Member | 7483298369 |
+| 9 | Miss.BHAVYA DECHAMMA K S | Member | 9483052115 |
+| 10 | Mrs.ARPITHA M S | Member | 7026578004 |
+| 11 | Mrs.PUSHPALATHA H P | Member | 9739700425 |
+| 12 | Mrs.SWATHI C A | Member | 8310818925 |
+| 13 | Ms.BHARATHI R | Member | 9845075297 |
+| 14 | Miss.KAVANA J | Member | 7676147275 |
 
 #### [STUDENTS COMPETITION & EXHIBITION COMMITTEE](/p/list-of-committees)
 
@@ -3673,40 +3656,19 @@ const committeesBody = `
 | **Sl. No.** | **Name** | **Position** | **Contact Details** |
 | 1 | Dr. SRINIVASA K | Chairman | 9945045415 |
 | 2 | Dr. ANIL KUMAR C J | Member Secretary | 9900477621 |
-| 3 | Dr. AVINASH K | Member | 91486 23123 |
-| 4 | Mr. RAGHURAM | Member | 7975506198 |
-| 5 | Mr. SANDESH R | Member | 9854756854 |
-| 6 | Mr. GIRISH M | Member | 9110872296 |
-| 7 | Mr. LIKHIT M L | Member | 8123845620 |
-| 8 | Mr. NIRANJAN KUMAR | Member | 9844870275 |
-| 9 | Ms. ANUPAMA SHETTER | Member | 9738484396 |
-| 10 | Ms. SWAPNA H | Member | 9591562578 |
-| 11 | Mrs. PRIYANKA N B | Member | 9663674218 |
-| 12 | Mr. YOGESH N | Member | 9663170150 |
-| 13 | Dr. NEETHI M V | Member | 8550825565 |
-| 14 | Dr. HUSSANA JOHAR R B | Member | 9740315252 |
-| 15 | Mr. YATHIRAJ | Member | 9886655578 |
-
-#### [IQAC](/p/list-of-committees)
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **INTERNAL QUALITY ASSURANCE CELL COMMITTEE** **MEMBERS** |
-| **Sl. No.** | **Name** | **Position** | **Contact Details** |
-| 1 | Dr. L BASAVARAJ | Chairman | 9448285641 |
-| 2 | Mr. H. VENKATESH | Member | 9448285654 |
-| 3 | Dr. SACHIDANANDAMURTHY K L | Member | 9448678271 |
-| 4 | Dr. Thotreingam Kasar<br>Founder & Director,<br>EDspire Research Centre, Mysore | Member | 8123530082 |
-| 5 | Other University Professor |  |  |
-| 6 | Dr. RAGHAVENDRA L | Member | 7829859477 |
-| 7 | Dr. VINOD KUMAR P | Member | 9538006039 |
-| 8 | Prof. GIRISH M | Member | 9964406640 |
-| 9 | Prof. ANUPAMA SHETTER | Member | 9738484396 |
-| 10 | Dr. SHILPA B L | Member | 9886893166 |
-| 11 | Prof. SHRUTHI H G | Member | 9538343733 |
-| 12 | Mr. PRATHEEK P S | Alumni | 9482145565 |
-| 13 | Mr. PUNEETH J | Student Member |  |
-| 14 | Prof. RAVIKUMAR S | Member | 9880543740 |
+| 3 | Mr.ANJAN KUMAR J | Member | 8095064765 |
+| 4 | Mr.NAGESH M S | Member | 9945292800 |
+| 5 | Mr.SHREESHAYANA R | Member | 9739002631 |
+| 6 | Mr.THEJA N | Member | 9036989521 |
+| 7 | Mr.YOGESH N | Member | 9663170150 |
+| 8 | Dr.VINOD KUMAR P | Member | 9538006039 |
+| 9 | Dr.HUSSANA JOHAR R B | Member | 8660567085 |
+| 10 | Dr.BASANTH KUMAR | Member | 9611882250 |
+| 11 | Mr. ROHITH S | Member | 9739866912 |
+| 12 | Mr. GIRISH M | Member | 9964406640 |
+| 13 | Mr.PRASHANT R KAIGADDI | Member | 9844283686 |
+| 14 | Mrs.ARPITHA A | Member | 7348898858 |
+| 15 | Mrs.RAZIKHA AMREEN M I | Member | 9960964395 |
 
 #### [ADMISSION COMMITTEE](/p/list-of-committees)
 
@@ -3719,18 +3681,51 @@ const committeesBody = `
 | 3 | Dr. SACHIDANANDA MURTHY | Member | 9448678271 |
 | 4 | Mr. RAVIKUMAR S | Member | 988043740 |
 | 5 | Mr. SANDESH R | Member | 9448678271 |
-| 6 | Mr. ROHITH S | Member | 9739866912 |
-| 7 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
-| 8 | Mr. RAGHAVENDRA L | Member | 7829859477 |
-| 9 | Mrs. JUSLIN F | Member | 9036065420 |
-| 10 | Mr. DEVARAJ M R | Member | 9972322811 |
-| 11 | Mrs. AKHILA C G | Member | 9743726895 |
-| 12 | Mr. SIDDEGOWDA C J | Member | 9880717468 |
-| 13 | Mr. CHANDRASHEKAR C | Member | 8147504344 |
-| 14 | Mrs. LEELAVATHI N | Member | 7899571411 |
-| 15 | Mrs. SWETHA K T | Member | 8428249852 |
-| 16 | Dr. OSCAR ABHISHEK | Member | 9972044943 |
-| 17 | Dr. MURALIDHAR M P | Member | 9611551921 |`;
+| 6 | Dr. MADHUSUDHAN K V | Member | 8904516386 |
+| 7 | Mr. RAGHAVENDRA L | Member | 7829859477 |
+| 8 | Mr. DEVARAJ M R | Member | 9972322811 |
+| 9 | Mrs. AKHILA C G | Member | 9743726895 |
+| 10 | Mr. SIDDEGOWDA C J | Member | 9880717468 |
+| 11 | Mr. CHANDRASHEKAR C | Member | 8147504344 |
+| 12 | Mrs. LEELAVATHI N | Member | 7899571411 |
+| 13 | Mrs. PUSHPALATHA | Member | 9739700425 |
+| 14 | Dr. OSCAR ABHISHEK | Member | 9972044943 |
+| 15 | Dr. MURALIDHAR M P | Member | 9611551921 |
+
+#### [TRANSPORTATION COMMITTEE](/p/list-of-committees)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **TRANSPORTATION COMMITTEE** |
+| **Sl. No.** | **Name** | **Position** | **Contact Details** |
+| 1 | Dr. SACHIDANANDA MURTHY K L | Chairman | 9448285644 |
+| 2 | Dr. SRINIVASA K | Member Secretary | 9945045415 |
+| 3 | Mr. HEMANTH B R | Member | 7026251531 |
+| 4 | Mr. MOHAN M | Member | 9448285647 |
+| 5 | Mr. KUMAR GOWDA | Transportation Service provider | 9886992424 |
+| 6 | Mr. ASHWIN | Transportation Supervisor | 9916310314 |
+| 7 | Mrs. PRIYANKA N B | Member | 9663674218 |
+| 8 | Mrs. MADHU NAGARAJ | Member | 9742133691 |
+| 9 | Mr. SOMASUNDAR | Member | 9739929289 |
+| 10 | Mr. PRUTHVI | Member | 7619475600 |
+
+#### [WOMEN'S CELL](/p/list-of-committees)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **WOMEN'S CELL** |
+| **Sl. No.** | **Name** | **Position** | **Contact Details** |
+| 1 | Dr. BHAGYASHREE S R | Chairman | 9900110944 |
+| 2 | Mrs.  SHRILAKSHMI PRASAD | Member Secretary | 9663674218 |
+| 3 | Mrs. MYTHRI R | Member | 9482667395 |
+| 4 | Mrs. SHRUTHI H G | Member | 9538787767 |
+| 5 | Mrs. DIVYA K | Member | 9620191619 |
+| 6 | Ms. RAKSHITHA V | Member | 9980476763 |
+| 7 | Ms. TANYA R | Member | 9380958387 |
+| 8 | Ms. MADHU NAGRAJ | Member | 9742133691 |
+| 9 | Ms. UMME HANI SHARIF | Member | 9353748601 |
+| 10 | Ms. SHAMBAVI K A | Member | 7899950928 |
+| 11 | Ms. BHAVYA DECHAMMA | Member | 9483052115 |`;
 
 const clubsAssociationsBody = `
 ## Student Clubs at ATMECE
