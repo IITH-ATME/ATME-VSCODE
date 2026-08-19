@@ -267,7 +267,7 @@ export function Header() {
       <div className="max-w-[1600px] mx-auto px-2 sm:px-3">
         <div className="flex min-[1440px]:grid min-[1440px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 min-[1440px]:gap-3 min-[1600px]:gap-6 py-2">
           {/* Left nav */}
-          <nav className="hidden min-[1440px]:flex items-center justify-start gap-1.5 flex-nowrap">
+          <nav className="hidden min-[1440px]:flex items-center justify-start min-[1440px]:pl-[45px] min-[1600px]:pl-[125px] gap-1.5 flex-nowrap">
             {LEFT.map(g => <NavItem key={g.label} g={g} align="left" />)}
           </nav>
 
