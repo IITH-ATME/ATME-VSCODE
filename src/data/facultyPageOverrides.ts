@@ -8982,6 +8982,62 @@ Completed Mooc courses on:
 
 - Teaching: 7 Years`,
   },
+  "geetha-m-a": {
+    name: "Geetha M A",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: 12 Years
+- Research: 0
+- Industry: 0
+
+## Contact Details
+
+- **Email ID:** Official: [geethama.ee@atme.edu.in](mailto:geethama.ee@atme.edu.in) | Personal: [Geethamar023@gmail.com](mailto:Geethamar023@gmail.com)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/729715>
+- **Scopus ID:** Nil
+- **Google Scholar ID:** Nil
+- **Orcid ID:** Nil
+- **LinkedIn ID:** <https://www.linkedin.com/in/geetha-m-a-29580>
+
+## Academic Details
+
+- **Qualification**
+- **B.E** in Electrical & Electronics Engineering
+- **M.Tech** in Computer Application In Industrial Drives
+
+## Areas of Interest
+
+1. Power Electronics Applications in Power Systems
+2. Computer & AI Applications to Power Systems, control of electric drives
+3. Smart Grid
+4. Electric Vehicles
+5. Power Systems
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+1. Attended a Short Term Course on "Hydraulics, Pneumatic Systems in Industrial Automation" organized by Bosch Center of Excellence, MCE, Hassan during 27th -29th January 2014.
+2. Participated in 12 days AICTE sponsored FDP on "Emerging Trends in Power System Research" organized by Malnad College of Engineering, Hassan, during 23rd December 2013 – 3rd January 2014.
+3. Attended three-days National Workshop on "Power Electronics in Distributed Generation", Organized by department of Electrical Engineering, NITK, Surathkal during 7th - 9th February 2014.
+4. Attended One day Workshop on "Dissertation Report and Thesis Writing Skills", Organized by department of Electrical Engineering, MCE, Hassan on 18th December 2014.
+5. Participated in one day National Workshop on "Patents and Innovations" organized by Malnad College of Engineering, Hassan, held on 31st August 2013.
+6. Participated in two days TEQIP-II sponsored workshop on "Empowering Teachers" organized by Malnad College of Engineering and DBali iT Solutions, Hassan, during 24th and 25th October 2013.
+
+## Membership in Professional Bodies
+
+1. IAENG- International Association of Engineers
+2. IAEEEE_- International Association of Advanced Electrical and Energetic Engineers
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+1. NBA Criteria 8 Co-ordinator
+2. Domain Specific Training (DST) Co-ordinator for 3rd year student
+3. Class Teacher for 2nd year`,
+  },
   "madhurya-b-eshwar": {
     name: "Mrs. Madhurya B Eshwar",
     url: "https://old.atme.edu.in/madhurya-b-eshwar/",
