@@ -56,5 +56,5 @@ export const policies = [
   { title: "Reservation in Student Admission Policy", file: "15-ATME-Reservation-in-Student-Admission-Policy.pdf" },
   { title: "Hostel Rules & Regulations", file: "HOSTEL-Rules-Regulation-v3.pdf" },
   { title: "Student / Employee Handbook", file: "Handbook-3-3.pdf" },
-  { title: "Mandatory Disclosure 2025-26", file: "Mandatory-Disclosure-2025-26.pdf" },
+  { title: "Mandatory Disclosure 2026-27", file: "Mandatory-Disclosure-2026-27.pdf" },
 ];

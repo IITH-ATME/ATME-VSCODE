@@ -7,16 +7,16 @@ export const Route = createFileRoute("/mandatory-disclosure")({
   head: () => ({
     meta: [
       { title: "Mandatory Disclosure — ATME College of Engineering" },
-      { name: "description", content: "AICTE Mandatory Disclosure 2025-26 and statutory approvals for ATME College of Engineering, Mysuru." },
+      { name: "description", content: "AICTE Mandatory Disclosure 2026-27 and statutory approvals for ATME College of Engineering, Mysuru." },
     ],
   }),
   component: Page,
 });
 
 function Page() {
-  const url = pdf("Mandatory-Disclosure-2025-26.pdf");
+  const url = pdf("Mandatory-Disclosure-2026-27.pdf");
   return (
-    <InfoPage eyebrow="Statutory" title="Mandatory Disclosure 2025-26" subtitle="As required by AICTE, New Delhi">
+    <InfoPage eyebrow="Statutory" title="Mandatory Disclosure 2026-27" subtitle="As required by AICTE, New Delhi">
       <div className="mt-6 flex flex-wrap gap-3">
         <a href={url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-semibold hover:opacity-90">
           <Download className="h-4 w-4" /> Download Disclosure (PDF)

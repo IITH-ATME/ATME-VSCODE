@@ -2352,7 +2352,7 @@ institutional information.
 
 [pdfviewer width="1200px" height="800px"]https://new.atme.edu.in/wp-content/uploads/2026/04/Transparency-and-Avialability.pdf[/pdfviewer]
 
-### Mandatory Disclosure 2025-26
+### Mandatory Disclosure 2026-27
 
 [pdfviewer width="1200px" height="800px"]https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/pdfs/uploads/a198c38a-Mandatory-Disclosure-2025-26.pdf[/pdfviewer]
 
