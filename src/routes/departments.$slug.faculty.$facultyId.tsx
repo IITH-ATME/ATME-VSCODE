@@ -388,7 +388,8 @@ const CANONICAL_SECTIONS: { title: string; aliases: string[] }[] = [
   { title: "Academic Details", aliases: ["academic details", "qualification", "qualifications", "educational qualification", "educational qualifications", "education details", "degrees obtained", "degrees obtained, with field, institutions and dates", "degrees obtained with field institutions and dates"] },
   { title: "Areas of Interests", aliases: ["areas of interest", "areas of interests", "area of interest", "research areas", "research area", "research interests", "research activity"] },
   { title: "Professional Experience", aliases: ["professional experience", "employment record", "employment record in institution", "employment record in institution (in order starting from present position)", "experience", "teaching experience", "work experience", "ph d guidance", "ph.d guidance", "ph.d. guidance", "phd guidance", "research guidance"] },
-  { title: "Publications Details", aliases: ["publications details", "publication details", "publications", "publication", "international book chapter publications", "book chapters", "journal publications", "conference publications", "patent", "patents"] },
+  { title: "Publications Details", aliases: ["publications details", "publication details", "publications", "publication", "international book chapter publications", "book chapters", "journal publications", "conference publications"] },
+  { title: "Patents", aliases: ["patent", "patents", "patents published"] },
   { title: "Membership in Professional Bodies", aliases: ["membership in professional bodies", "professional memberships", "professional body memberships", "professional body membership", "memberships", "membership in scientific and professional societies", "membership in scientific and professional societies with abbreviations", "membership of university / institution authorities", "membership of university / institution authorities (in the reverse chronological order)", "membership of university institution authorities"] },
   { title: "FDPs/Conferences/Workshops/STTP/MOOC Certification", aliases: ["fdps/conferences/workshops/sttp/mooc certification", "fdps/conferences/workshops/sttp/mooc certification/online courses", "fdps / conferences / workshops / sttp / mooc certification", "fdps / conferences / workshops / sttp / mooc certification / online courses", "fdps conferences workshops sttp mooc certification", "fdps conferences workshops sttp mooc certification online courses", "mooc certification", "fdp", "fdps", "workshops", "conferences attended", "conference details", "conferences", "sttp", "list of short-term courses", "list of short-term courses / national level technical symposia organized", "short-term courses", "certifications", "certification"] },
   { title: "Proposal/Funding/Project Financial Assistance", aliases: ["proposal/funding/project financial assistance", "proposal / funding / project financial assistance", "funding", "funded projects", "funding projects", "projects funded", "research grants", "grants", "r&d projects executed", "r&d projects", "research projects"] },
@@ -444,13 +445,12 @@ function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: str
       const match = exactMatch ?? CANONICAL_SECTIONS.find((c) => c.aliases.some((a) => norm.includes(a)));
       const targetTitle = match?.title ?? lastMatchTitle;
       if (!targetTitle) continue;
-      // A differently-titled section (e.g. "Patent") whose entire body is
-      // just a placeholder ("Nil"/"None"/"-") carries no real information —
-      // folding it into a sibling canonical card via its alias (e.g. the
-      // "patent" alias under "Publications Details") would add a spurious
-      // extra bullet that reads as a real entry among genuine publications.
-      // Skip folding placeholder-only foreign sections in; a section only
-      // ever needs to show "Nil" once, under its own actual heading.
+      // A differently-titled section whose entire body is just a placeholder
+      // ("Nil"/"None"/"-") carries no real information — folding it into a
+      // sibling canonical card via alias would add a spurious extra bullet
+      // that reads as a real entry among that card's genuine items. Skip
+      // folding placeholder-only foreign sections in; a section only ever
+      // needs to show "Nil" once, under its own actual heading.
       const isPlaceholderOnly = (t: string) => /^(nil|none|n\/?a)$/i.test(t.replace(/[*_]/g, "").trim());
       if (normalize(targetTitle) !== norm && s.items.length > 0 && s.items.every((it) => isPlaceholderOnly(it.text))) {
         continue;
@@ -885,9 +885,9 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
 
 function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[]; proseClass: string; sectionTitle?: string }) {
   const sectionCoversCert = !!sectionTitle && /(certificat|FDP|workshop|MOOC|SWAYAM|NPTEL|conference)/i.test(sectionTitle);
-  // Publications Details (and the Patent/Book Chapter sections folded into it)
-  // get a yellow underline on every hyperlink so citation links stand out.
-  const isPublicationsSection = !!sectionTitle && /publications?\s*details/i.test(sectionTitle);
+  // Publications Details and Patents get a yellow underline on every
+  // hyperlink so citation links stand out.
+  const isPublicationsSection = !!sectionTitle && /publications?\s*details|^patents$/i.test(sectionTitle);
   const linkHighlightClass = isPublicationsSection
     ? "[&_a]:underline [&_a]:decoration-2 [&_a]:decoration-[#f5c518] [&_a]:underline-offset-2 [&_a]:hover:decoration-[#e0b400]"
     : "";

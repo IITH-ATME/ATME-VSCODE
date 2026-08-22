@@ -195,9 +195,9 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 **International**
 
 1. Scopus-Indexed Journal Publications
-2. Anupama Shetter, et al "Emerging Biomarkers in Cancer Diagnosis and Prognosis: Novel Approaches for Precision Oncology", Onkologia i Radioterapia, Vol. 18(9), 2024.
+2. **Anupama Shetter, et al** "Emerging Biomarkers in Cancer Diagnosis and Prognosis: Novel Approaches for Precision Oncology", Onkologia i Radioterapia, Vol. 18(9), 2024.
 3. Non-Scopus-Indexed Journal Publications
-4. Anupama Shetter, et al "Fusion of Computational Mathematics and Artificial Intelligence for Intelligent Decision-Making in Engineering and Technology," International Journal of Advances in Signal and Image Sciences, Vol. 12, No. 2s, pp. 1148–1164, Published on 10 February 2026, DOI: 10.29284/s6eze156.
+4. **Anupama Shetter, et al** "Fusion of Computational Mathematics and Artificial Intelligence for Intelligent Decision-Making in Engineering and Technology," International Journal of Advances in Signal and Image Sciences, Vol. 12, No. 2s, pp. 1148–1164, Published on 10 February 2026, DOI: 10.29284/s6eze156.
 
 ## Membership in Professional Bodies
 
@@ -212,67 +212,67 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 **Notable Achievements**
 
-1. Co-authored a textbook titled "Microprocessor and Its Applications", published by SIP Publications in September 2024. The ISBN for this publication is 978-9366746135.
-2. The second book, titled "Artificial Intelligence and Machine Learning", is co-authored and is published under ISBN 978-93-48151-76-6.
+1. Co-authored a textbook titled **"Microprocessor and Its Applications"**, published by **SIP Publications** in **September 2024**. The ISBN for this publication is **978-9366746135**.
+2. The second book, titled **"Artificial Intelligence and Machine Learning"**, is co-authored and is published under ISBN **978-93-48151-76-6**.
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **Faculty Development Programs (FDPs)**
 
-1. Completed "The BodhiTree and SAFE Tools for Effective Online Teaching" Organized by: Teaching Learning Centre (ICT), IIT Bombay, Date: 20 June 2020
-2. Completed "LaTeX101x: LaTeX for Students, Engineers, and Scientists", Organized by: IITBombayX, Duration: 24 Sep – 2 Dec 2019 | Grade A+
-3. Completed 4-week online course on Workplace Communication, Platform: IIT BombayX, Duration: Jan – May 2021
-4. Completed "Python" Spoken Tutorial Certification, Organized by: IIT Bombay, 2020
+1. Completed **"The BodhiTree and SAFE Tools for Effective Online Teaching"** Organized by: **Teaching Learning Centre (ICT), IIT Bombay,** Date: **20 June 2020**
+2. Completed **"LaTeX101x: LaTeX for Students, Engineers, and Scientists",** Organized by: **IITBombayX,** Duration: **24 Sep – 2 Dec 2019** | **Grade A+**
+3. Completed **4-week online course on Workplace Communication,** Platform: **IIT BombayX,** Duration: **Jan – May 2021**
+4. Completed **"Python" Spoken Tutorial Certification,** Organized by: **IIT Bombay**, 2020
 5. Participated in Two-Week FDP (40 hrs) on "Deep Learning & Applications (Parallel Architectures)" Organized by: E&ICT Academies – IIT Guwahati, IIT Kanpur, IIT Roorkee, MNIT Jaipur, NIT Patna, NIT Warangal, IIITDM Jabalpur, Duration: Aug 23 – Sep 3, 2021
-6. Participated in AICTE-ATAL FDP – "Internet of Things (IoT)", Babasaheb Bhimrao Ambedkar University (5–9 Oct 2020)
-7. Participated in AICTE-ATAL FDP – "Intelligence and Machine Learning in Biomedical Engineering", UBDTCE (21–25 Sep 2020)
-8. Attended AICTE-Sponsored STTP (Phase III) – "Design of Knowledge-Based Systems using AI/ML for Agriculture & Food Products", MIT MAHE (12–17 Oct 2020)
-9. Attended FDP on "Engineering Statistics and Linear Algebra", VVCE, Mysuru (27–31 Jan 2020)
-10. Attended 3-Day FDP on "Intellectual Property Rights in Engineering Education", ATMECE, Mysuru (29–31 Jul 2020)
-11. Attended 3-Day FDP on "Importance of NAAC Accreditation in HEI"
-12. Participated in FDP on "How to Crack VTU Ph.D. Coursework in Research Methodology and IPR (16PHDRM)", JNNCE, Shimoga (2–6 Nov 2020)
+6. Participated in **AICTE-ATAL FDP** – "Internet of Things (IoT)", Babasaheb Bhimrao Ambedkar University (5–9 Oct 2020)
+7. Participated in **AICTE-ATAL FDP** – "Intelligence and Machine Learning in Biomedical Engineering", UBDTCE (21–25 Sep 2020)
+8. Attended **AICTE-Sponsored STTP (Phase III)** – "Design of Knowledge-Based Systems using AI/ML for Agriculture & Food Products", MIT MAHE (12–17 Oct 2020)
+9. Attended **FDP on "Engineering Statistics and Linear Algebra"**, VVCE, Mysuru (27–31 Jan 2020)
+10. Attended **3-Day FDP on "Intellectual Property Rights in Engineering Education"**, ATMECE, Mysuru (29–31 Jul 2020)
+11. Attended **3-Day FDP on "Importance of NAAC Accreditation in HEI"**
+12. Participated in **FDP on "How to Crack VTU Ph.D. Coursework in Research Methodology and IPR (16PHDRM)"**, JNNCE, Shimoga (2–6 Nov 2020)
 
 **Conference Papers**
 
 1. IEEE Xplore / Scopus-Indexed Conference Publications
-2. Anupama Shetter, Raj V.G., Vishveshwara B.S., et al., "Standalone Platform-Level Interrupt Controller with Pre-Interrupt Thresholds," 17th International Conference on Advances in Computing, Control and Telecommunication Technologies (ACT 2026), 2026.
+2. **Anupama Shetter,** Raj V.G., Vishveshwara B.S., et al., "Standalone Platform-Level Interrupt Controller with Pre-Interrupt Thresholds," 17th International Conference on Advances in Computing, Control and Telecommunication Technologies (ACT 2026), 2026.
 3. Anupama Shetter, Sneha M., Shobith B.R., et al., "Nightfall-EX Advanced: An Offline TinyML-Based Portable ECG Monitoring and Emergency Alert System," Proceedings of the International Conference on Emerging Research in Smart Electronics and Machine Informatics (ECMI 2026), 2026. DOI: 10.1109/ECMI68341.2026.11603095.
-4. Anupama Shetter, et al., "Efficient Image and Video Data Coding with DWT and Adaptive Huffman for Intelligent Decision Systems," 2025 International Conference on Decision Aid Sciences and Applications (DASA), IEEE, 2025. DOI: 10.1109/DASA68193.2025.11499062
-5. Anupama Shetter, et al., "Nightfall-EX Advanced: An Offline TinyML-Based Portable ECG Monitoring and Emergency Alert System," 2026 International Conference on Emerging Research in Smart Electronics and Machine Informatics (ECMI), IEEE, 2026. DOI: 10.1109/ECMI68341.2026.11603095
+4. **Anupama Shetter, et al.,** "Efficient Image and Video Data Coding with DWT and Adaptive Huffman for Intelligent Decision Systems," 2025 International Conference on Decision Aid Sciences and Applications (DASA), IEEE, 2025. **DOI:** 10.1109/DASA68193.2025.11499062
+5. **Anupama Shetter, et al.,** "Nightfall-EX Advanced: An Offline TinyML-Based Portable ECG Monitoring and Emergency Alert System," 2026 International Conference on Emerging Research in Smart Electronics and Machine Informatics (ECMI), IEEE, 2026. **DOI:** 10.1109/ECMI68341.2026.11603095
 6. Anupama Shetter, et al., "Musical Instrument Classification Using Deep Learning CNN Models", 2024 IEEE International Conference on Intelligent Computing and Intelligent Systems (ICI-CIS), IEEE Xplore, DOI: 10.1109/ICIICS63763.2024.10859695, pp. 1–7.
-7. Anupama Shetter, et al "Blockchain Based Authentication Scheme to Secure Fog Enabled IoT Devices", 2023 IEEE International Conference on Contemporary Computing and Communications (InC4), Apr 21–22, 2023. IEEE Xplore.
+7. **Anupama Shetter, et al** "Blockchain Based Authentication Scheme to Secure Fog Enabled IoT Devices", 2023 IEEE International Conference on Contemporary Computing and Communications (InC4), Apr 21–22, 2023. IEEE Xplore.
 8. IEEE Xplore: <https://ieeexplore.ieee.org/document/10859695>
-9. Anupama Shetter, et al., "Digital Image Watermarking Based on Sine Transformation with Constant Co-Efficient", International Conference on Inventive Research in Computing Applications (ICIRCA 2018), IEEE, pp. 21–24, ISBN: 978-1-5386-2456-1.
+9. **Anupama Shetter, et al.**, "Digital Image Watermarking Based on Sine Transformation with Constant Co-Efficient", International Conference on Inventive Research in Computing Applications (ICIRCA 2018), IEEE, pp. 21–24, ISBN: 978-1-5386-2456-1.
 10. IEEE Link: <https://doi.org/10.1109/ICIRCA.2018.8597431>
-11. Anupama Shetter, et al., "Digital Image Watermarking using Tenth Root of Exponential Function", 2018 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018), IEEE Xplore, ISBN: 978-1-5386-2440-1.
+11. **Anupama Shetter, et al.**, "Digital Image Watermarking using Tenth Root of Exponential Function", 2018 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018), IEEE Xplore, ISBN: 978-1-5386-2440-1.
 12. IEEE Link: <https://ieeexplore.ieee.org/document/8502580>
-13. Anupama Shetter, et al., "Finger Print Image Enhancement using Thresholding and Binarization Techniques", 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018), IEEE Xplore Compliant, ISBN: 978-1-5386-1974-2.
-14. Anupama Shetter, et al., "Image De-Noising using Filtering and Equalization Techniques", 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018).
-15. Anupama Shetter, et al., "Rural eLearning: An Efficient Strategy to Educate Farmers or Villagers", International Conference on Recent Trends in Science and Technology – July 14–15, 2022.
+13. **Anupama Shetter, et al.**, "Finger Print Image Enhancement using Thresholding and Binarization Techniques", 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018), IEEE Xplore Compliant, ISBN: 978-1-5386-1974-2.
+14. **Anupama Shetter, et al.**, "Image De-Noising using Filtering and Equalization Techniques", 3rd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT-2018).
+15. **Anupama Shetter**, et al., "Rural eLearning: An Efficient Strategy to Educate Farmers or Villagers", International Conference on Recent Trends in Science and Technology – July 14–15, 2022.
 16. Other Conferences (ICRTST – ATME Mysuru, National Conferences)
-17. Anupama Shetter, "MEMORY CONTROLLER WITH AN AHB PROTOCOL", International Conference on Recent Trends in Science and Technology (ICRTST – 2023), Mysuru.
+17. **Anupama Shetter**, "MEMORY CONTROLLER WITH AN AHB PROTOCOL", International Conference on Recent Trends in Science and Technology (ICRTST – 2023), Mysuru.
 18. ICRTST 2023 Conference Link: <https://icrtst.atme.edu.in/>
-19. Swapna H, Anupama Shetter, "Low-Cost Design of Women's Safety Jacket with GPS and GSM Integration", ICRTST – 2023, Mysuru.
+19. **Swapna H, Anupama Shetter**, "Low-Cost Design of Women's Safety Jacket with GPS and GSM Integration", ICRTST – 2023, Mysuru.
 20. ICRTST 2023 Conference Link: <https://icrtst.atme.edu.in/>
-21. Anupama Shetter, et al., "Development of an Autonomous Wall Painting Mobile Robot using Raspberry Pi", ICRTST – 2022, July 2022.
-22. Anupama Shetter, et al., "Self-activating Sanistation and Real-time Mask Detection System", ICRTST – 2021, Mysuru.
-23. Anupama Shetter, et al., "MRI Medical Image Denoising and Enhancement using Fundamental Filters", ICRTST – 2021, Mysuru.
-24. Anupama Shetter, et al., "Detection of Various Stages of Lung Cancer", ICRTST – 2020, Mysuru.
-25. Anupama Shetter, et al., "Agricultural Automation Using IoT", International Conference on Recent Trends in Science and Technology (ICRTST – 2020), International Journal of Research in Engineering and Technology (IJRET), pp. 489–493, ISSN: 2395-0072.
+21. **Anupama Shetter, et al.**, "Development of an Autonomous Wall Painting Mobile Robot using Raspberry Pi", ICRTST – 2022, July 2022.
+22. **Anupama Shetter, et al.**, "Self-activating Sanistation and Real-time Mask Detection System", ICRTST – 2021, Mysuru.
+23. **Anupama Shetter, et al.**, "MRI Medical Image Denoising and Enhancement using Fundamental Filters", ICRTST – 2021, Mysuru.
+24. **Anupama Shetter, et al.**, "Detection of Various Stages of Lung Cancer", ICRTST – 2020, Mysuru.
+25. **Anupama Shetter, et al.**, "Agricultural Automation Using IoT", International Conference on Recent Trends in Science and Technology (ICRTST – 2020), International Journal of Research in Engineering and Technology (IJRET), pp. 489–493, ISSN: 2395-0072.
 26. Other Journal Publications
-27. Anupama Shetter, et al., "High Speed DAS using Aurora Protocol with Error Detection", International Journal of Engineering Science and Computing (IJESC), Volume 6, Issue 6, ISSN: 2321 3361, 2016.
-28. Anupama Shetter, et al., "Selection & Performance Analysis of Spreading Sequences for DS-CDMA Systems", International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 7, Issue 6, June 2018.
+27. **Anupama Shetter, et al.**, "High Speed DAS using Aurora Protocol with Error Detection", International Journal of Engineering Science and Computing (IJESC), Volume 6, Issue 6, ISSN: 2321 3361, 2016.
+28. **Anupama Shetter, et al.**, "Selection & Performance Analysis of Spreading Sequences for DS-CDMA Systems", International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), Volume 7, Issue 6, June 2018.
 
 **Workshops Attended**
 
-1. 5 Days workshop on "PCB Design and Fabrication" conducted by Altium Training Centre at Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu from 13th Oct 2025 to 17th Oct 2025.
-2. Twelve-Day Workshop on "Emerging Design, Innovation and Technology (EDIT): Medical Device Design", Organized by: Department of Design, IIT Roorkee, Date: 23rd May 2023
-3. Participated in National Workshop on Outcome-Based Education & Accreditation, GH Raisoni Institute, Nagpur (11 Sep 2020)
-4. Participated in 3-Day Workshop – "Innovative Technologies to Improve Quality of Teaching & Learning", GH Raisoni Institute, Nagpur
+1. **5 Days** workshop on **"PCB Design and Fabrication"** conducted by Altium Training Centre at Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu from 13th Oct 2025 to 17th Oct 2025.
+2. **Twelve-Day Workshop** on "Emerging Design, Innovation and Technology (EDIT): Medical Device Design", Organized by: **Department of Design, IIT Roorkee,** Date: **23rd May 2023**
+3. Participated in **National Workshop on Outcome-Based Education & Accreditation**, GH Raisoni Institute, Nagpur (11 Sep 2020)
+4. Participated in **3-Day Workshop** – "Innovative Technologies to Improve Quality of Teaching & Learning", GH Raisoni Institute, Nagpur
 5. Attended Webinar and Workshop – "LabVIEW", LabVIEW Academy, SJBIT, Bengaluru (4–8 May 2020)
 6. Industrial Trainings
 7. Completed 2-Week Faculty Industrial Training on "Electronics Manufacturing & PCB Assembly with Quality Control" at SS Technology, Mysuru, from 26 June 2026 to 11 July 2026.
-8. Completed Industrial Training at Renal Health Care Products Pvt. Ltd., Bangalore (27 Sep – 1 Oct 2021)
+8. Completed **Industrial Training** at Renal Health Care Products Pvt. Ltd., Bangalore (27 Sep – 1 Oct 2021)
 
 **STTP (Short-Term Training Programmes)**
 
@@ -286,34 +286,34 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 4. Completed Course on "Altium Designer Essentials – On Demand (English)", November 2025.
 5. Completed Course on "Patent Filing India", AY 2025–26.
 6. Completed Course on "Python for Machine Learning & Data Science", AY 2025–26.
-7. Completed ARPIT-SWAYAM Course on "Pedagogical Innovations & Research Methodology", 2019–20
-8. Completed NPTEL Course – "Teaching and Learning in General Programs (TALG)", 2019
+7. Completed **ARPIT-SWAYAM Course** on "Pedagogical Innovations & Research Methodology", 2019–20
+8. Completed **NPTEL Course** – "Teaching and Learning in General Programs (TALG)", 2019
 9. NITTTR – AICTE NITTT Modules Completed
-10. Module 1: Orientation Towards Technical Education & Curriculum Aspects (Sep–Oct 2020)
-11. Module 2: Professional Ethics & Sustainability (Apr–May 2021)
-12. Module 3: Communication Skills & Knowledge Dissemination (Apr–May 2021)
-13. Module 4: Instructional Planning and Delivery (Sep–Oct 2021)
-14. Module 5: Technology Enabled Learning & Lifelong Self-Learning (Apr–May 2022)
-15. Module 6: Student Assessment and Evaluation (Apr–May 2022)
-16. Module 7: Creative Problem Solving, Innovation and Meaningful R&D (Completed)
-17. Module 8: Digital Skills (Completed)
+10. **Module 1**: Orientation Towards Technical Education & Curriculum Aspects (Sep–Oct 2020)
+11. **Module 2**: Professional Ethics & Sustainability (Apr–May 2021)
+12. **Module 3**: Communication Skills & Knowledge Dissemination (Apr–May 2021)
+13. **Module 4**: Instructional Planning and Delivery (Sep–Oct 2021)
+14. **Module 5**: Technology Enabled Learning & Lifelong Self-Learning (Apr–May 2022)
+15. **Module 6**: Student Assessment and Evaluation (Apr–May 2022)
+16. **Module 7**: Creative Problem Solving, Innovation and Meaningful R&D (Completed)
+17. **Module 8**: Digital Skills (Completed)
 
 ## Proposal/Funding/Project Financial Assistance
 
-1. Guide for KSCST Sponsored Student Project (49th Series, 2025–26): "Agricultural Robot for Plant Disease Detection, Fertilizer Spraying, and Weed Cutting", sanctioned by Karnataka State Council for Science and Technology (KSCST), Government of Karnataka. with a sanctioned amount of ₹5,500
+1. **Guide for KSCST Sponsored Student Project (49th Series, 2025–26): "Agricultural Robot for Plant Disease Detection, Fertilizer Spraying, and Weed Cutting**", sanctioned by Karnataka State Council for Science and Technology (KSCST), Government of Karnataka. with a sanctioned amount of **₹5,500**
 2. Guided the project titled "IoT-Based Food Spoiling Detection using Arduino and GSM", funded by KSCST under the 48th Series (AY 2024–2025) with a sanctioned amount of ₹4,000 (Ref. No. 48S_BE_5044).
 3. Guided the project titled "Spine Serenity: Smart Relief Massager", funded by KSCST under the 47th Series (AY 2023–2024) with a grant of ₹6,500 (Ref. No. 47S_BE_4623).
 4. Guided the project titled "Detection and Surveillance of UAV Based on RF and Radar Technology", funded by KSCST in the 46th Series (AY 2022–2023) with a sanctioned amount of ₹6,000 (Ref. No. 46S_BE_4182).
 5. Guided the project "Development of an Autonomous Wall Painting Mobile Robot using Raspberry Pi", funded by KSCST in the 45th Series (AY 2021–2022) with a grant of ₹6,000 (Ref. No. 45S_BE_4133).
 6. Guided the project "Agricultural Robot using IoT", funded by KSCST in the 43rd Series (AY 2019–2020) with a sanctioned amount of ₹5,000 (Ref. No. 43S_BE_0873).
 7. Guided the project titled "Self-activating Sanistation and Real-time Mask Detection System", which received funding support from VTU Financial Assistance Scheme for the academic year 2020–2021.
-8. Guided the innovation project titled "Farm to Table", funded under the K-Tech NAIN scheme through ATME College of Engineering, Mysuru, with ₹6,0000 promoting entrepreneurial solutions in agriculture and supply chain
+8. Guided the innovation project titled **"Farm to Table"**, funded under the **K-Tech NAIN** scheme through **ATME College of Engineering, Mysuru**, with ₹6,0000 promoting entrepreneurial solutions in agriculture and supply chain
 
 ## Patent
 
-1. Title: Integrated Smart Building Management System Using Arduino and LabVIEW. Published/Granted: Published. Patent No: 202541122550 A
-2. Title: Sustainable Power Generation through Integrated Waste-to-Energy Systems. Published/Granted: Published. Patent No: 202541122446 A
-3. Title: Adaptive Saffron Aeroponic Chamber with Multi-Parameter Climate Optimization. Published/Granted: Published. Patent No: 202541122549 A
+1. Title: Integrated Smart Building Management System Using Arduino and LabVIEW. Published/Granted: Published. **Patent No:** 202541122550 A
+2. Title: Sustainable Power Generation through Integrated Waste-to-Energy Systems. Published/Granted: Published. **Patent No:** 202541122446 A
+3. Title: Adaptive Saffron Aeroponic Chamber with Multi-Parameter Climate Optimization. Published/Granted: Published. **Patent No:** 202541122549 A
 4. Title: A Novel Deep Learning Based Automated Cybersecurity System and Method Thereof. Published/Granted: Published. Patent No: 202441024310 A
 5. Title: Sensor-Based Intelligent Wearable Neck Patch to Detect and Diagnose Early Warning Signs of Strokes. Published/Granted: Published. Patent No: 202241061148 A
 6. Title: IoT-Based Infectious Disease Examination System and Method. Published/Granted: Published. Patent No: 202241056170 A
@@ -370,14 +370,14 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 **National**
 
-1. Akshay Sai, Prajwal Joshi, Mythri R, Lavanya M S, Parameshwara S " Simulation on effect of graphene nanofillers interaction with epoxy matrix nanocomposite" National Conference on Recent advancements in mechanical and material sciences (NCRAMMS)" The National Institute of Engineering , Mysuru, Karnataka , India. 7th -8th July 2022.
+1. Akshay Sai, Prajwal Joshi, **Mythri R**, Lavanya M S, Parameshwara S " Simulation on effect of graphene nanofillers interaction with epoxy matrix nanocomposite" National Conference on Recent advancements in mechanical and material sciences (NCRAMMS)" The National Institute of Engineering , Mysuru, Karnataka , India. 7th -8th July 2022.
 
 **International**
 
-1. Santhy P. Kuruvilla, N. M. Renukappa, Mythri R and J Sundara Rajan; "Assessment of Hydrophobicity of Silicone and Fibre reinforced filled Epoxy Composites under contamination" IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 27, No. 2, 2020
-2. Hadimani Shivakumar , N. M. Renukappa , Mythri R , Kunigal Shivakumar "Thermal properties of Epoxy-GnP based Nanodielectrics" International Conference on Electrical, Electronics, Computers, Communication, Mechanical and Computing (EECCMC), Priyadarshini Engineering College, Vellore District, Tamil Nadu, India. 28th-29th January 2018
-3. Hadimani Shivakumar, N. M. Renukappa, Mythri.R and SundaraRajan "High k Dielectric properties of Epoxy-GnP Nanocomposites" 3rd international Conference on Innovative ,Design ,Analysis & Development Practices in Aerospace and Automotive Engineering (I-DAD), Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai,Tamil Nadu, India. 22th -24th February, 2018
-4. Santhy P. Kuruvilla, N. M. Renukappa, Mythri R, "Investigation on Leakage Current Characteristics of Glass fiber Reinforced Epoxy Composite Insulator under Different levels of Pollution" International conference on Recent Advances in Materials and Manufacturing Technology(ICRAMMT), Marri Laxman Reddy Institute of Technology & Management, Telangana, India. 19th -20th November 2018
+1. Santhy P. Kuruvilla, N. M. Renukappa, **Mythri R** and J Sundara Rajan; "Assessment of Hydrophobicity of Silicone and Fibre reinforced filled Epoxy Composites under contamination" IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 27, No. 2, 2020
+2. Hadimani Shivakumar , N. M. Renukappa , **Mythri R** , Kunigal Shivakumar "Thermal properties of Epoxy-GnP based Nanodielectrics" International Conference on Electrical, Electronics, Computers, Communication, Mechanical and Computing (EECCMC), Priyadarshini Engineering College, Vellore District, Tamil Nadu, India. 28th-29th January 2018
+3. Hadimani Shivakumar, N. M. Renukappa, **Mythri.R** and SundaraRajan "High k Dielectric properties of Epoxy-GnP Nanocomposites" 3rd international Conference on Innovative ,Design ,Analysis & Development Practices in Aerospace and Automotive Engineering (I-DAD), Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai,Tamil Nadu, India. 22th -24th February, 2018
+4. Santhy P. Kuruvilla, N. M. Renukappa, **Mythri R**, "Investigation on Leakage Current Characteristics of Glass fiber Reinforced Epoxy Composite Insulator under Different levels of Pollution" International conference on Recent Advances in Materials and Manufacturing Technology(ICRAMMT), Marri Laxman Reddy Institute of Technology & Management, Telangana, India. 19th -20th November 2018
 
 ## Membership in Professional Bodies
 
@@ -407,6 +407,14 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 1. NPTEL Online Certification : Fundamentals of Electronic Device Fabrication, 4 week July - Aug 2025
 2. NPTEL Online Certification : The joy of computing using python, 12 weeks , July - Oct 2024
 3. NPTEL Online Certification : VLSI Design Flow – RTL to GDS , 12 weeks , July - Oct 2023
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+- Nil
 
 ## Roles and Responsibilities: Institute Level
 
@@ -440,8 +448,8 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 - **Qualification**
 - **PhD** - Wireless Sensor Networks From UVCE, Bangalore University
-- PG - Digital Electronics
-- UG - Electronics & Communication Engineering
+- **PG -** Digital Electronics
+- **UG -** Electronics & Communication Engineering
 
 ## Areas of Interest
 
@@ -467,6 +475,24 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 9. Optimized Image Compression Using Multiple Compressed Sensing Techniques-2025/4/10 SN Computer Science
 10. Enhanced machine learning models for accurate breast cancer mammogram classification -Global Transitions 2025/3/22
 11. INTELLIGENT SYSTEMS AND APPLICATIONS IN ENGINEERING
+12. A comprehensive study on various encryption techniques for digital images in multimedia networks-2024/2/23 2024 International Conference on Integrated Circuits and Communication Systems (ICICACS)
+13. Optimized deep learning approach for image compression using compressed sensing technique with convolutional autoencoders-2024/7/26 2024 International Conference on Data Science and Network Security (ICDSNS)
+14. Network on chip design and implementation on FPGA with advanced hardware and networking functionalities-2013/7/4 2013 Fourth International Conference on Computing, Communications and Networking Technologies (ICCCNT)
+15. Modified Efficient Protection of Palm Disaster from RPW Larvae using WSNs-2020/1 International Journal of Recent Technology and Engineering (IJRTE)
+16. Optimized Audio Classification with Convolutional Neural Network Ensembles-2024/11/21 2024 International Conference on Recent Advances in Science and Engineering Technology (ICRASET)
+17. Machine learning models based crop recommendation and plant disease identification for real time application-2023/11/2 2023 international conference on ambient intelligence, knowledge informatics and industrial electronics (AIKIIE)
+18. Enhancement of satellite images using edge detection techniques-2023/9/1 2023 International Conference on Network, Multimedia and Information Technology (NMITCON)
+19. Optimized Deep Learning Approach for Image Compression Using Compressed Sensing Technique with Convolutional Autoencoders-2024/10 2nd IEEE International Conference on Data Science and Network Security, ICDSNS 2024, 2024
+20. Artificial Intelligence-Driven Forensic Analysis of Digital Images for Cybersecurity Investigations-2024/6 International Journal of Intelligent Systems and Applications in Engineering
+21. A review: Sign language converter using hand gloves -2023/10 International Journal of Intelligent Systems and Applications in Engineering
+22. Secured Data Communication for Lung Cancer Detection and Multi Level Classification-**2021/7 International Journal of Advanced Research in Science, Engineering and Technology**
+23. "Software Defined Radio for WSN in Real-Time Healthcare Monitoring System"- 2021/7 International Journal of Advanced Research in Science, Engineering and Technology
+24. Medical Sensor Network Based Real-Time Activity and Healthcare Monitoring for Mute and Paralytic Persons-2020/6 International Journal of Engineering and Advanced Technology (IJEAT)
+25. Enhanced Lung Cancer Detection and Multi-Level Classification of MRI with CT Images-2020/6 International Journal of Advanced Research in Science, Engineering and Technology
+26. Lung Cancer Detection and Multi-Level Classification Using Discrete Wavelet Transform Approach-2020/1 World Academy of Science, Engineering and Technology International Journal of Biomedical and Biological Engineering Singapore
+27. "Design and Development of Medical Sensor Networks for Differently Abled Persons"- **SENSORCOMM 2019 : The Thirteenth International Conference on Sensor Technologies and Applications**
+28. Network on chip design and implementation on FPGA with advanced hardware and networking functionalities-2013 4th International Conference on Computing, Communications and Networking Technologies, ICCCNT 2013
+29. Lung Cancer detection and multi-level classifification using discrete Wavelet Transform approach-2020 Int. J. Biomed. Biol. Eng
 
 ## Membership in Professional Bodies
 
@@ -506,7 +532,7 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 ## Patent
 
 1. Title: IOT based electric fencing monitoring system in agricultural farm. Published/Granted: Published. Patent No: 202341025395.
-2. Title: Design and Implementation of Stochastic Resource Algorithm for Interweave and Underlay Conditions in Cognitive Radio Networks. Published/Granted: : Published. Patent No: 202341052412.
+2. Title: Design and Implementation of Stochastic Resource Algorithm for Interweave and Underlay Conditions in Cognitive Radio Networks. Published/Granted: : Published. **Patent No:** **202341052412**.
 
 ## Roles and Responsibilities: Institute Level
 
@@ -560,73 +586,73 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 1. Journal Publication:
 2. Gagana, S. L., Hanok, S., Ganavi, B. N., Akash, L. & Gowda, M. M. (2026). "Maize Identification and Categorization of Leaf Diseases Using Machine Learning. Indiana Journal of Multidisciplinary Research, 6(4), ISSN (Online)- 2583-3820, Volume-06|Issue-04|2026, 164-168. https://doi.org/10.5281/zenodo.21600476.
 3. Meghana, T., Hanok, S., Dharanya, R.,Aishwarya, K. N. & Dhanush, C. (2026). "Leaf Disease Detection Using Deep Learning. Indiana Journal of Multidisciplinary Research", ISSN (Online)- 2583-3820, Volume-06|Issue-04|2026 , 6(4), 169-172.
-4. Sachin B Jadhav, Shalini Hanok, Tigulla Rajitha, Dr. R. Balakrishnan, Mr. Venkoba Kutagamari, Dr. Rajendra Kumar Ganiya. (2026). "Digital Rights and Data Privacy In The Era Of Artificial Intelligence: Legal Challenges, Ethical Considerations, And Global Regulatory Frameworks." Scientific Culture, 12(4), Vol. 12, No. 4, (2026), pp. 7359-7368 https://doi.org/10.5281/zenodo.20078691
-5. Chethan Raj C, Jeevitha R, Shoieb Ahamed , Kavyashree M K, Nandini G S, Shalini Hanok "Optimized Hybrid Learning Approach For Autism Spectrum Disorder Detection" International Journal Of Applied Mathematics Volume 38 No. 12s, 2025 ISSN: 1311-1728, ISSN: 1314-8060, 2nd December 2025.
-6. Vijay, C.P., Thejaswini, R., Hanok Shalini. et al. Deep Learning Models for Accurate Detection of COVID-19 Pneumonia from Chest X-Ray Images. SN COMPUT. SCI. 6, 758 (2025). https://doi.org/10.1007/s42979-025-04301-w
-7. Paramesha, K., Jalapur, Shalini Hanok, S. et al. Machine Learning and Deep Learning Approaches for Guava Disease Detection. SN COMPUT. SCI. 6, 361 (2025). https://doi.org/10.1007/s42979-025-03886-6.
-8. Shalini Hanok, Navya N, Kavyashree M K, Anupama S "Statistical Authentication Technique for Facebook using Social Network Analysis" Journal of Propulsion Technology (Scopus-Q3), December 2023.
-9. Shalini Hanok and Shankaraiah "In Loco Identity Fraud Detection Model using Statistical Analysis for Social Networking Sites: A case study with Facebook"- International Arab Journal of Information Technology (IAJIT) (SCI Expanded Journal, Impact factor - 0.967, Q3), March 2023. doi: 10.34028/iajit/20/2/15.
-10. Shalini P and Shankaraiah "Multimodal Biometric Decision Fusion Security Technique to Evade Immoral Social Networking Sites for Minor"--Applied Intelligence (SCI Journal, Impact factor - 5.086, Q1), May 2022. https://doi.org/10.1007/s10489-022-03538-9
-11. Shalini P and Shankaraiah "Social Behavioral Biometric Multimodal Union to Evade Fake Account Creation in Facebook"-- Multimedia Tools and communication (SCI Expanded Journal, Impact factor - 2.577, Q1), May 2022. https://doi.org/10.1007/s11042-022-13104-7.
+4. Sachin B Jadhav, **Shalini Hanok**, Tigulla Rajitha, Dr. R. Balakrishnan, Mr. Venkoba Kutagamari, Dr. Rajendra Kumar Ganiya. (2026). "**Digital Rights and Data Privacy In The Era Of Artificial Intelligence: Legal Challenges, Ethical Considerations, And Global Regulatory Frameworks**." Scientific Culture, 12(4), Vol. 12, No. 4, (2026), pp. 7359-7368 https://doi.org/10.5281/zenodo.20078691
+5. Chethan Raj C, Jeevitha R, Shoieb Ahamed , Kavyashree M K, Nandini G S, **Shalini Hanok** "**Optimized Hybrid Learning Approach For Autism Spectrum Disorder Detection**" International Journal Of Applied Mathematics Volume 38 No. 12s, 2025 ISSN: 1311-1728, ISSN: 1314-8060, 2nd December 2025.
+6. Vijay, C.P., Thejaswini, R., **Hanok Shalini**. et al. Deep Learning Models for Accurate Detection of COVID-19 Pneumonia from Chest X-Ray Images. SN COMPUT. SCI. 6, 758 (2025). https://doi.org/10.1007/s42979-025-04301-w
+7. Paramesha, K., Jalapur, **Shalini Hanok**, S. et al. Machine Learning and Deep Learning Approaches for Guava Disease Detection. SN COMPUT. SCI. 6, 361 (2025). https://doi.org/10.1007/s42979-025-03886-6.
+8. Shalini Hanok, Navya N, Kavyashree M K, Anupama S **"Statistical Authentication Technique for Facebook using Social Network Analysis"** Journal of Propulsion Technology (Scopus-Q3), December 2023.
+9. Shalini Hanok and Shankaraiah **"In Loco Identity Fraud Detection Model using Statistical Analysis for Social Networking Sites: A case study with Facebook**"- International Arab Journal of Information Technology (IAJIT) (SCI Expanded Journal, Impact factor - 0.967, Q3), March 2023. doi: 10.34028/iajit/20/2/15.
+10. Shalini P and Shankaraiah **"Multimodal Biometric Decision Fusion Security Technique to Evade Immoral Social Networking Sites for Minor"**--Applied Intelligence (SCI Journal, Impact factor - 5.086, Q1), May 2022. https://doi.org/10.1007/s10489-022-03538-9
+11. Shalini P and Shankaraiah **"Social Behavioral Biometric Multimodal Union to Evade Fake Account Creation in Facebook"**-- Multimedia Tools and communication (SCI Expanded Journal, Impact factor - 2.577, Q1), May 2022. https://doi.org/10.1007/s11042-022-13104-7.
 
 ## Membership in Professional Bodies
 
-1. ISTE Lifetime membership ID: LM145733
-2. IAENG membership number is: 391326.
+1. ISTE Lifetime membership ID: **LM145733**
+2. IAENG membership number is: **391326**.
 
 ## Honours/Awards/Achievements
 
 **Awards Received**
 
-1. Indian Excellence Award for "Best Researcher Award" by Jataayu Staffing Force Private Limited, Mysuru on 19th June 2022.
+1. Indian Excellence Award for "**Best Researcher Award"** by Jataayu Staffing Force Private Limited, Mysuru on 19th June 2022.
 
 **Notable Achievements**
 
-1. Completed AICTE-QIP-PG Program on "Cybersecurity" at IIIT Dharwad. 1 month-offline and 5 months online with a CGPA of 9.7.
+1. Completed AICTE-QIP-PG Program on "**Cybersecurity**" at IIIT Dharwad. 1 month-offline and 5 months online with a CGPA of 9.7.
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **Faculty Development Programs (FDPs)**
 
-1. Online FDP on "AI Driven Technologies in Electronics and Communication Engineering" from 2nd to 6th March 2026.
+1. Online FDP on "**AI Driven Technologies in Electronics and Communication Engineering**" from 2nd to 6th March 2026.
 2. One day FDP on "Growing Globally Competitive Currency in Higher Education" Delivered by Futred Innovation Studios, Australia on 8th October 2025 at ATMECE,Mysuru.
-3. Offline FDP on "Cybersecurity Phase 1" from 7th July 2025 to 18th July 2025 at IIIT Dharward.
-4. Offline FDP on "Cybersecurity Phase 2" from 8th December 2025 to 20th December 2025 at IIIT Dharward.
-5. Symposium on "Application of image processing techniques in the field of Electronics and Communication and Civil Engineering" 6th to 10th November 2023, ATME College of Engineering, Mysore.
-6. Offline FDP on "Advanced communication using USRP and LabView" from 25 th September to 27 th September 2023, ATME College of Engineering, Mysore.
-7. Offline FDP on "Inculcating Universal Human Values in Technical Education" from 7th September to 9th September 2023, Vidya Vardhaka College of Engineering, Mysore.
-8. Online FDP on "Outcome Based Education and Essential AI Tools for Teachers" from 10th August to 18th August 2023, organised by the Internal Quaiity Assurance Cell (IQAC) of Carmel College (Autonomous), Mala in association with The Kerala State Higher Education Council (KSHEC).
-9. Faculty Development Program on "Cybersecurity, Network Simulators and Research Challenges in Networking", from 21st to 25th January 2019, Department of Computer Science & Engineering, Vidyavardhaka College of Engineering, Mysuru, Karnataka.
-10. Offline FDP on "Network Simulator-2", from 17th to 19th August 2017, Department of Computer Science & Engineering, Vidyavardhaka College of Engineering, Mysuru, Karnataka.
+3. Offline FDP on "**Cybersecurity Phase 1**" from 7th July 2025 to 18th July 2025 at IIIT Dharward.
+4. Offline FDP on "**Cybersecurity Phase 2**" from 8th December 2025 to 20th December 2025 at IIIT Dharward.
+5. Symposium on "**Application of image processing techniques in the field of Electronics and Communication and Civil Engineering" 6th to 10th November 2023**, ATME College of Engineering, Mysore.
+6. Offline FDP on "**Advanced communication using USRP and LabView**" from **25 th September to 27 th September 2023**, ATME College of Engineering, Mysore.
+7. Offline FDP on "**Inculcating Universal Human Values in Technical Education**" from **7th September to 9th September 2023**, Vidya Vardhaka College of Engineering, Mysore.
+8. Online FDP on "**Outcome Based Education and Essential AI Tools for Teachers**" from **10th August to 18th August 2023,** organised by the Internal Quaiity Assurance Cell (IQAC) of Carmel College (Autonomous), Mala in association with The Kerala State Higher Education Council (KSHEC).
+9. Faculty Development Program on **"Cybersecurity, Network Simulators and Research Challenges in Networking"**, from **21st to 25th January 2019**, Department of Computer Science & Engineering, Vidyavardhaka College of Engineering, Mysuru, Karnataka.
+10. Offline FDP on **"Network Simulator-2",** from **17th to 19th August 2017**, Department of Computer Science & Engineering, Vidyavardhaka College of Engineering, Mysuru, Karnataka.
 
 **Conference Papers**
 
-1. Gagana S L, d Shalini Hanok, Ganavi BN, Akash L, Mrudula M Gowda "Maize Identification and Categorization of Leaf Diseases Using Machine Learning" Springer conference proceeding International Conference on Digital Technology and Engineering (ICDTE -2025), 16th & 17th October, 2025.
+1. Gagana S L, d Shalini Hanok, Ganavi BN, Akash L, Mrudula M Gowda "**Maize Identification and Categorization of Leaf Diseases Using Machine Learning**" Springer conference proceeding International Conference on Digital Technology and Engineering (ICDTE -2025), 16th & 17th October, 2025.
 2. Meghana T, Shalini Hanok, Dharanya R, hAishwarya K N, Dhanush C "Leaf Disease Detection Using Deep Learning" Springer conference proceeding International Conference on Digital Technology and Engineering (ICDTE -2025), 16th & 17th October, 2025.
-3. Shalini Hanok, Veeraprathap V, and Swetha K T and Simran Pal R "Unimodal Biometric Authentication System using Social Network Analysis" International conference on 'Next generation devices & smart computing application" (ICNGSDSCA-2024) In association with Springer, Cambridge institute of technology, Bangalore, December 2024.
-4. Shalini P and Shankaraiah, "A Novel Technique to regulate access to immoral content for Minors"-Accepted and published in IEEE conference on 2019, 7th International Conference on Smart Computing & Communications (ICSCC-2019), Miri, Sarawak, Malaysia.
-5. Shalini P and Kavyashree M K, "Survey On Various Mac Layer Backoff Algorithms in IEEE 802.15.4" International Conference On Emerging Trends In Science And Engineering(Icetse-2017), Coorg Institute Of Technology, Ponnampet, Kodugu, Karnataka.
+3. Shalini Hanok, Veeraprathap V, and Swetha K T and Simran Pal R "**Unimodal Biometric Authentication System using Social Network Analysis**" International conference on 'Next generation devices & smart computing application" (ICNGSDSCA-2024) In association with Springer, Cambridge institute of technology, Bangalore, December 2024.
+4. Shalini P and Shankaraiah, **"A Novel Technique to regulate access to immoral content for Minors"**-Accepted and published in IEEE conference on 2019, 7th International Conference on Smart Computing & Communications (ICSCC-2019), **Miri, Sarawak, Malaysia.**
+5. Shalini P and Kavyashree M K, "Survey On Various Mac Layer Backoff Algorithms in IEEE 802.15.4" **International Conference On Emerging Trends In Science And Engineering(Icetse-2017), Coorg Institute Of Technology,** **Ponnampet, Kodugu, Karnataka.**
 
 **Workshops Attended**
 
-1. Workshop on "Research proposal writing" by Indian ledge system organized by ICMR, Hyderabad from 17th -18th February 2023. Submitted research proposal on 25th Feb 2023.
-2. Workshop on "Research Proposal Preparation", from 5th to 6th September 2019, Department of Electronics and Communication Engineering, SJCE, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
-3. A Tutorials on "Deriving a Machine Learning Model for Identifying Meteoroids", 28th June 2019, Miri, Sarawak, Malaysia.
-4. Workshop on "Cybersecurity for Water Management Systems in 21st Century", 29th June 2019, Miri, Sarawak, Malaysia.
-5. Workshop on "Hands on Practice with VISUAL TCAD", from 9th March to 15th March 2019, Department of Electronics and Communication Engineering, SJCE, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
-6. Workshop on "Research Methodologies", from 18th to 19th November 2017, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
+1. Workshop on "**Research proposal writing**" by Indian ledge system organized by ICMR, Hyderabad from **17th -18th February 2023**. Submitted research proposal on 25th Feb 2023.
+2. Workshop on **"Research Proposal Preparation"**, from **5th to 6th September 2019**, Department of Electronics and Communication Engineering, SJCE, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
+3. A Tutorials on **"Deriving a Machine Learning Model for Identifying Meteoroids",** 28th June 2019, **Miri, Sarawak, Malaysia.**
+4. Workshop on **"Cybersecurity for Water Management Systems in 21st Century"**, 29th June 2019, **Miri, Sarawak, Malaysia.**
+5. Workshop on "**Hands on Practice with VISUAL TCAD**", from **9th March to 15th March 2019**, Department of Electronics and Communication Engineering, SJCE, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
+6. Workshop on **"Research Methodologies"**, from **18th to 19th November 2017**, JSS Science and Technology University, JSS TI Campus, Mysuru, Karnataka.
 
 **STTP (Short-Term Training Programmes)**
 
-1. 5-day Short Term Training Program on "Application of Deep Learning in Multidisciplinary Area" organized by the Department of Information Technology, National Institute of Technology Karnataka (An Institute of National Importance under Ministry of Education, Govt. of India), Suratkal-575025 from 1st -5th July 2024.
+1. **5-day Short Term Training Program** on "**Application of Deep Learning in Multidisciplinary Area**" organized by the Department of Information Technology, **National Institute of Technology Karnataka** (An Institute of National Importance under Ministry of Education, Govt. of India), Suratkal-575025 from **1st -5th July 2024.**
 
 **MOOC Certifications**
 
-1. Online Udemy course on "Innovation and Technology for Teaching and Learning" 22nd June 2026
+1. Online Udemy course on "**Innovation and Technology for Teaching and Learning**" 22nd June 2026
 2. Online FDP on "AI Driven Technologies in Electronics and Communication Engineering" from 2nd to 6th March 2026.
-3. NPTEL course on "Computer Networks and Internet Protocol" Jan- April 2026
-4. NPTEL course on "NBA Accreditation and Teaching and Learning in Engineering (NATE)" Jan-April 2025
-5. Completed Advanced certification in "Data Science and AI" for a duration of September 2022 to September 2023, from IIT Madras-Digital Skills Academy's Programme, Intellipaat Software Solutions Pvt. Ltd.
+3. NPTEL course on "**Computer Networks and Internet Protocol**" **Jan- April 2026**
+4. NPTEL course on "**NBA Accreditation and Teaching and Learning in Engineering (NATE)" Jan-April 2025**
+5. Completed Advanced certification in "**Data Science and AI**" for a duration of **September 2022 to September 2023**, from IIT Madras-Digital Skills Academy's Programme, Intellipaat Software Solutions Pvt. Ltd.
 
 ## Proposal/Funding/Project Financial Assistance
 
@@ -634,7 +660,7 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 ## Patent
 
-1. Title: Floating Waste Collecting Robot. Published/Granted: Published. Patent No: 202541122442.
+1. **Title:** Floating Waste Collecting Robot. **Published/Granted:** Published. **Patent No:** 202541122442.
 
 ## Roles and Responsibilities: Institute Level
 
@@ -751,7 +777,7 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 ## Patent
 
-1. Title: Sustainable Power Generation through Integrated Waste-to-Energy Systems. Published/Granted: Published. Patent No: 202541122446.
+1. **Title:** **Sustainable Power Generation through Integrated Waste-to-Energy Systems**. Published/Granted: Published. Patent No: 202541122446.
 
 ## Roles and Responsibilities: Institute Level
 
@@ -785,9 +811,9 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 ## Academic Details
 
 - **Qualification**
-- PhD – pursuing
-- PG - Digital Electronics & Communication Systems
-- UG - Electronics & Communication Engineering
+- **PhD –** pursuing
+- **PG -** Digital Electronics & Communication Systems
+- **UG -** Electronics & Communication Engineering
 
 ## Areas of Interest
 
@@ -798,24 +824,24 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 **National**
 
-1. Guruprasad K N, Mohammed Yahya, Nooralesh C B,Prajwal B, Mohammed Umar Taqi, "Airbag Enabled Safety Jackets for Riders", 7th National Conference on "Emerging Trends in Engineering, Science & Technology", 30 April 2024.
-2. Dr. Bhagyashree S R, Mr. Guruprasad K N, Jyothi H S, Meghana B K, Manju G P, Adarsh E, "Soil Health Monitoring System to help the Farmers for Improving the Yield of the Crop", National Conferences on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26th April 2019.
-3. Guruprasad K N, Shobitha, Afifa Khan, Nikitha M, "IOT based Patient Monitoring system using ESP8266", National Conferences on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26th April 2019.
+1. Guruprasad K N, Mohammed Yahya, Nooralesh C B,Prajwal B, Mohammed Umar Taqi, **"Airbag Enabled Safety Jackets for Riders",** 7th National Conference on "Emerging Trends in Engineering, Science & Technology", 30 April 2024.
+2. Dr. Bhagyashree S R, Mr. Guruprasad K N, Jyothi H S, Meghana B K, Manju G P, Adarsh E, **"Soil Health Monitoring System to help the Farmers for Improving the Yield of the Crop"**, National Conferences on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26th April 2019.
+3. Guruprasad K N, Shobitha, Afifa Khan, Nikitha M, **"IOT based Patient Monitoring system using ESP8266"**, National Conferences on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26th April 2019.
 
 **International**
 
-1. Guruprasad K N, Mahesh P K, "Comparative Evaluation of Optimization Strategies for Fine-Tuning Autoencoders Using Deep Learning", 3rd International Conference on Wireless Communication and Internet of Everything (ICWCIE - 2026), Sharnbasva University, Kalaburagi, 7th February 2026.
-2. Guruprasad K N, Spandana K G, Manasa G, Hemashree G M, Balaji G V, "Medical Based System for Accurate Blood Donor Matching Prediction Using Machine Learning", International Conference on Recent Trends in Engineering, Science and Technology (RTEST-2025), Xavier Institute for Research and Development, 25 October 2025.
-3. Guruprasad K N, Poorvitha S, Varsha H S, Suchithra J, "Artificial Nose using Support Vector Machine", International Conference on Recent Trends in Engineering, Science and Technology (RTEST-2025), Xavier Institute for Research and Development, 25 October 2025.
-4. Guruprasad K N, Manasa G, Spandana K G, Navyashree B R, Hemashree G M, "Third Eye for the Blind: An Assistive Vision System Using IoT", Technix International Journal for Engineering Research (TIJER), Volume 12, Issue 11, November 2025.
-5. Guruprasad K N, Poorvitha S, Varsha H S, Suchithra J, "Smart Home Automation System Using Wi-Fi and Bluetooth", Technix International Journal for Engineering Research (TIJER), Volume 12, Issue 10, October 2025.
-6. Guruprasad K N, Mahesh P K, "A Comprehensive Review of Optimization Techniques for Fine-Tuning Autoencoders with Deep Learning", International Research Journal of Engineering and Technology (IRJET), Volume 12 Issue 07, July 2025.
-7. Guruprasad K N, Ullas R, Chandan S M, Jayakumar J, Sagar S "Agri Bot & Eco Pathogen Detection", International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), Volume 13, Issue 5, May 2025. DOI:10.15680/IJIRCCE.2025.1305291.
-8. Guruprasad K N, Madan S, Bhuvan B M, Kushal U, "Bluetooth Controlled Robotic ARM Rover", International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), Volume 13, Issue 5, May 2025. DOI:10.15680/IJIRCCE.2025.1305279.
-9. Guruprasad K N, Girish M, "Wireless Sensor Network Based Smart BMS using LabVIEW", International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 18-19 July 2023.
-10. Guruprasad K N, P Balakrishna, Chethan S, Nithin Gowda A M and Dasharatha A M, "Smart Water Management and Monitoring System for Apartments using IoT Environment", International Conference on Recent Trends in Science and Technology (ICRTST, ATME College of Engineering, Mysuru, 16-07 July 2022.
-11. K N Guruprasad, Keerthi A Kumbar, "Fingerprint Authorization Based Driving License Checking System", International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 08-09 July 2021.
-12. K N Guruprasad, Keerthi A Kumbar, "Arduino Inclinometer using MPU6050", International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 17-18 June 2020.
+1. Guruprasad K N, Mahesh P K, **"Comparative Evaluation of Optimization Strategies for Fine-Tuning Autoencoders Using Deep Learning",** 3rd International Conference on Wireless Communication and Internet of Everything (ICWCIE - 2026), Sharnbasva University, Kalaburagi, 7th February 2026.
+2. Guruprasad K N, Spandana K G, Manasa G, Hemashree G M, Balaji G V, **"Medical Based System for Accurate Blood Donor Matching Prediction Using Machine Learning",** International Conference on Recent Trends in Engineering, Science and Technology (RTEST-2025), Xavier Institute for Research and Development, 25 October 2025.
+3. Guruprasad K N, Poorvitha S, Varsha H S, Suchithra J, **"Artificial Nose using Support Vector Machine",** International Conference on Recent Trends in Engineering, Science and Technology (RTEST-2025), Xavier Institute for Research and Development, 25 October 2025.
+4. Guruprasad K N, Manasa G, Spandana K G, Navyashree B R, Hemashree G M, **"Third Eye for the Blind: An Assistive Vision System Using IoT",** Technix International Journal for Engineering Research (TIJER), Volume 12, Issue 11, November 2025.
+5. Guruprasad K N, Poorvitha S, Varsha H S, Suchithra J, **"Smart Home Automation System Using Wi-Fi and Bluetooth",** Technix International Journal for Engineering Research (TIJER), Volume 12, Issue 10, October 2025.
+6. Guruprasad K N, Mahesh P K, **"A Comprehensive Review of Optimization Techniques for Fine-Tuning Autoencoders with Deep Learning",** International Research Journal of Engineering and Technology (IRJET), Volume 12 Issue 07, July 2025.
+7. Guruprasad K N, Ullas R, Chandan S M, Jayakumar J, Sagar S **"Agri Bot & Eco Pathogen Detection",** International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), Volume 13, Issue 5, May 2025. DOI:10.15680/IJIRCCE.2025.1305291.
+8. Guruprasad K N, Madan S, Bhuvan B M, Kushal U, **"Bluetooth Controlled Robotic ARM Rover",** International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), Volume 13, Issue 5, May 2025. DOI:10.15680/IJIRCCE.2025.1305279.
+9. Guruprasad K N, Girish M, **"Wireless Sensor Network Based Smart BMS using LabVIEW",** International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 18-19 July 2023.
+10. Guruprasad K N, P Balakrishna, Chethan S, Nithin Gowda A M and Dasharatha A M, **"Smart Water Management and Monitoring System for Apartments using IoT Environment",** International Conference on Recent Trends in Science and Technology (ICRTST, ATME College of Engineering, Mysuru, 16-07 July 2022.
+11. K N Guruprasad, Keerthi A Kumbar, **"Fingerprint Authorization Based Driving License Checking System",** International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 08-09 July 2021.
+12. K N Guruprasad, Keerthi A Kumbar, **"Arduino Inclinometer using MPU6050",** International Conference on Recent Trends in Science and Technology (ICRTST), ATME College of Engineering, Mysuru, 17-18 June 2020.
 
 ## Membership in Professional Bodies
 
@@ -826,26 +852,26 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 **Honours Received**
 
-1. Emerged as the Class Topper by securing the highest marks in the M. Tech First Semester University Examinations (2011–2012).
-2. Achieved the highest marks in the M. Tech Third Semester University Examinations (2012–2013) and became the Class Topper.
+1. Emerged as the **Class Topper** by securing the **highest marks** in the M. Tech First Semester University Examinations (2011–2012).
+2. Achieved the **highest marks** in the M. Tech Third Semester University Examinations (2012–2013) and became the **Class Topper**.
 
 **Awards Received**
 
-1. Received the 'Best Presentation Award' at the RIT Research Conclave 2026, a one-day Research Conclave organized by the Department of Computer Science, Rajeev Institute of Technology, Hassan, on 27 July 2026.
-2. Awarded the SET (Staff of Electronics & Telecommunications) Certificate of Excellence by the Department of Electronics & Communication / Telecommunication Engineering for securing highest marks in the 1st semester M. Tech examinations (2011-2012).
+1. Received the **'Best Presentation Award'** at the **RIT Research Conclave 2026**, a one-day Research Conclave organized by the Department of Computer Science, Rajeev Institute of Technology, Hassan, on **27 July 2026**.
+2. Awarded the **SET (Staff of Electronics & Telecommunications)** Certificate of Excellence by the Department of Electronics & Communication / Telecommunication Engineering for securing highest marks in the 1st semester M. Tech examinations (2011-2012).
 
 **Notable Achievements**
 
-1. Authored the book 'Basic Electronics' published by Notion Press, co-written by Dr. S. R. Bhagyashree, Pradeep Kumar Y, Shalini V S, and Harini R.
+1. Authored the book **'Basic Electronics'** published by Notion Press, co-written by Dr. S. R. Bhagyashree, Pradeep Kumar Y, Shalini V S, and Harini R.
 2. The book is available at https://notionpress.com/in/read/basic-electronics-1321963/
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **Faculty Development Programs (FDPs)**
 
-1. Participated in a 12-week Faculty Development Programme (FDP) on "Artificial Intelligence: Concepts and Techniques", conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, organized by IIT Madras
-2. Successfully completed a 12-week Faculty Development Programme (FDP) on "Soft Skills", conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, organized by IIT Madras.
-3. Participated in a one-week Faculty Development Programme (FDP) titled "Integrating AI into Academia: One-week FDP on Advancements in AI" (FDP Application No.: 1741600241) from 21st to 26th July 2025, organized by the Department of Computer Science, Christ College (Autonomous), Irinjalakuda North P.O, Irinjalakuda, Thrissur, Kerala.
+1. Participated in a 12-week Faculty Development Programme (FDP) on **"Artificial Intelligence: Concepts and Techniques",** conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, organized by IIT Madras
+2. Successfully completed a 12-week Faculty Development Programme (FDP) on "**Soft Skills"**, conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, organized by IIT Madras.
+3. Participated in a one-week Faculty Development Programme (FDP) titled "**Integrating AI into Academia: One-week FDP on Advancements in AI"** (FDP Application No.: 1741600241) from 21st to 26th July 2025, organized by the Department of Computer Science, Christ College (Autonomous), Irinjalakuda North P.O, Irinjalakuda, Thrissur, Kerala.
 4. Participated in a 3-day FDP on "Patent Drafting, Filing & Interpretation" from 12th to 14th June 2025, organized by ATME College of Engineering, Mysuru.
 5. Successfully completed a 5-day FDP on "Artificial Intelligence and Machine Learning Techniques for Engineering Applications - Theory and Practice" from 26th February to 1st March 2024, organized by NIT, Puducherry.
 6. Engaged in a 5-day FDP on "Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications" from 10th to 14th March 2025, organized by ATME College of Engineering, Mysuru.
@@ -871,53 +897,53 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 
 **Conference Papers**
 
-1. Participated in the IEEE Third International Conference on 'Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship and Talent' for 2 days, held from 10th to 11th February 2023 at Vidya Vikas Institute of Engineering & Technology (VVIET), Mysore."
-2. Participated in the IEEE International Conference on New Trends in Engineering and Technology (ICNTET-2018), held at GRT Institute of Engineering and Technology, Tiruvallur, Chennai, on 07–08 September 2018, and presented the paper titled "Design and Implementation of Arduino Based Dual Axis Autonomous Solar Tracker
+1. Participated in the IEEE Third International Conference on '**Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship and Talent**' for 2 days, held from 10th to 11th February 2023 at Vidya Vikas Institute of Engineering & Technology (VVIET), Mysore."
+2. Participated in the IEEE International Conference on New Trends in Engineering and Technology (ICNTET-2018), held at GRT Institute of Engineering and Technology, Tiruvallur, Chennai, on 07–08 September 2018, and presented the paper titled **"Design and Implementation of Arduino Based Dual Axis Autonomous Solar Tracker**
 
 **Workshops Attended**
 
-1. Participated in a 3-day Workshop on "Generative AI, Agentic AI and Quantum Computing", conducted from 23-25 February 2026 during the academic year 2025–2026, organized by Department of Computer Science-Data Science, ATME College of Engineering, Mysuru.
+1. Participated in a 3-day Workshop on **"Generative AI, Agentic AI and Quantum Computing",** conducted from 23-25 February 2026 during the academic year 2025–2026, organized by Department of Computer Science-Data Science, ATME College of Engineering, Mysuru.
 2. Successfully participated in a Workshop on "Art of Counselling" from 2nd to 9th July 2019, organized by Dept. of Mechanical Engineering, ATME College of Engineering, in association with Samadhana Counselling Centre, Bangalore.
 3. Engaged in a Workshop on "Analysis of Biomedical Signals and their Mathematical Modelling" from 24th to 28th December 2018, organized by Dept. of Electronics and Instrumentation & Dept. of Mathematics, SJCE, Mysuru.
 
 **STTP (Short-Term Training Programmes)**
 
-1. Participated in a 6-day Short-Term Training Programme (STTP) on "Design Thinking for Higher Order Learning and Student Transformation", conducted from 29 June 2026 to 4 July 2026 during the academic year 2025–2026, organized by the Malaviya Mission Teacher Training Centre (MMTTC), National Institute of Technology (NIT) Warangal.
+1. Participated in a 6-day Short-Term Training Programme (STTP) on **"Design Thinking for Higher Order Learning and Student Transformation"**, conducted from 29 June 2026 to 4 July 2026 during the academic year 2025–2026, organized by the Malaviya Mission Teacher Training Centre (MMTTC), **National Institute of Technology (NIT) Warangal.**
 2. Successfully finished a 5-day STP on "Advanced Embedded Systems" from 21st to 25th August 2023, organized by NITTR, Chandigarh.
 3. Engaged in a 1-week Pedagogy Training on "Technical Education" from 16th to 20th January 2018, organized by VTU-HRDC, Centre for PG Studies, Muddenahalli, Chikkaballapur.
 4. Took part in a Webinar on "Satellite and Automation" from 11th to 13th May 2020, organized by GSSSIETW, IEEE Student Branch, in association with IEEE Bangalore Section & CAS Society.
 
 **MOOC Certifications**
 
-1. Successfully earned a 12-week NPTEL online certification course on Artificial Intelligence: Concepts and Techniques, conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, offered by IISc Bangalore, with Elite + Silver certification.
-2. Successfully completed a 12-week NPTEL online certification course on Soft Skills, conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, offered by IIT Roorkee, with Elite + Silver certification and ranked in the Top 2%.
-3. Earned 8 weeks Online Certification in Academic Leadership in Cross Cultural Context of Higher Educational Institutions from 20th January 2025 to 15th May 2025 organized by National Institute of Technical Teachers Training and Research (NITTTR), Chennai.
-4. Successfully accomplished 12 weeks Online Certification in Machine Learning and Deep Learning - Fundamentals and Applications from 24th July 2023 to 13th October 2023 organized by IIT, Guwahati.
-5. Awarded certification for 5 days STP on Advanced Embedded Systems from 21st August 2023 to 25th August 2023 organized by NITTTR, Chandigarh.
-6. Certified in 8 weeks Online Program NITTTR - Module 8: Institutional Management & Administrative Procedures from 1st October 2022 to 30th November 2022 organized by NITTTR, Chennai.
-7. Certified in 8 weeks Online Program NITTTR - Module 7: Creative Problem Solving, Innovation and Meaningful R&D from 1st October 2022 to 30th November 2022 organized by NITTTR, Chennai.
-8. Successfully certified in 8 weeks Online Program NITTTR - Module 6: Student Assessment and Evaluation from 1st April 2022 to 31st May 2022 organized by NITTTR, Chennai.
-9. Successfully accomplished 8 weeks Online Certification in NITTTR - Module 5: Technology Enabled Learning & Life Long Self Learning from 1st April 2022 to 31st May 2022 organized by NITTTR, Chennai.
-10. Earned 8 weeks Online Certification in NITTTR - Module 4: Instructional Planning and Delivery from 1st September 2021 to 31st October 2021 organized by NITTTR, Chennai.
-11. Certified in 8 weeks Online Certification Course NITTTR - Module 3: Communication Skills, Modes & Knowledge Dissemination from 1st April 2021 to 31st May 2021 organized by NITTTR, Chennai.
-12. Successfully certified in 8 weeks Online Program NITTTR - Module 2: Professional Ethics & Sustainability from 1st April 2021 to 31st May 2021 organized by NITTTR, Chennai.
-13. Accomplished 8 weeks Online Certification in NITTTR - Module 1: Orientation towards Technical Education & Curriculum Aspects from 1st September 2020 to 31st October 2020 organized by NITTTR, Chennai.
-14. Acquired proficiency through 4 months Online Certification in Workplace Communication from 26th January 2021 to 28th May 2021 organized by IIT BombayX.
-15. Achieved certification in 12 weeks Online Certification Course Analog Electronic Circuits from 14th September 2020 to 4th December 2020 organized by IIT Madras.
-16. Certified with Elite in 8 weeks Online Certification Course Body Language: Key to Professional Success from 14th September 2020 to 6th October 2020 organized by IIT Roorkee.
-17. Successfully certified in 1 week FDP & Online Training on LaTex from 27th April to 2nd May 2020 organized by Spoken Tutorial Project, IIT Bombay.
-18. Accomplished 1 month Hands-On Workshop on The BodhiTree and SAFE Tools for Effective Online Teaching on 20th June 2020 organized by Teaching Learning Centre (ICT) at IIT Bombay.
-19. Successfully earned 3 months ARPIT Online Certification in Pedagogical Innovations and Research Methodology from 1st October 2019 to 31st January 2020 organized by SWAYAM in association with Guru Jambheshwar University of Science & Technology, Hisar, Haryana.
+1. Successfully earned a 12-week NPTEL online certification course on **Artificial Intelligence: Concepts and Techniques,** conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, offered by IISc Bangalore, with Elite + Silver certification.
+2. Successfully completed a 12-week NPTEL online certification course on **Soft Skills**, conducted from 21 July 2025 to 10 October 2025 during the academic year 2025–2026, offered by IIT Roorkee, with Elite + Silver certification and ranked in the Top 2%.
+3. Earned 8 weeks Online Certification in **Academic Leadership in Cross Cultural Context of Higher Educational Institutions** from 20th January 2025 to 15th May 2025 organized by National Institute of Technical Teachers Training and Research (NITTTR), Chennai.
+4. Successfully accomplished 12 weeks Online Certification in **Machine Learning and Deep Learning - Fundamentals and Applications** from 24th July 2023 to 13th October 2023 organized by IIT, Guwahati.
+5. Awarded certification for 5 days STP on **Advanced Embedded Systems** from 21st August 2023 to 25th August 2023 organized by NITTTR, Chandigarh.
+6. Certified in 8 weeks Online Program **NITTTR - Module 8: Institutional Management & Administrative Procedures** from 1st October 2022 to 30th November 2022 organized by NITTTR, Chennai.
+7. Certified in 8 weeks Online Program **NITTTR - Module 7: Creative Problem Solving, Innovation and Meaningful R&D** from 1st October 2022 to 30th November 2022 organized by NITTTR, Chennai.
+8. Successfully certified in 8 weeks Online Program **NITTTR - Module 6: Student Assessment and Evaluation** from 1st April 2022 to 31st May 2022 organized by NITTTR, Chennai.
+9. Successfully accomplished 8 weeks Online Certification in **NITTTR - Module 5: Technology Enabled Learning & Life Long Self Learning** from 1st April 2022 to 31st May 2022 organized by NITTTR, Chennai.
+10. Earned 8 weeks Online Certification in **NITTTR - Module 4: Instructional Planning and Delivery** from 1st September 2021 to 31st October 2021 organized by NITTTR, Chennai.
+11. Certified in 8 weeks Online Certification Course **NITTTR - Module 3: Communication Skills, Modes & Knowledge Dissemination** from 1st April 2021 to 31st May 2021 organized by NITTTR, Chennai.
+12. Successfully certified in 8 weeks Online Program **NITTTR - Module 2: Professional Ethics & Sustainability** from 1st April 2021 to 31st May 2021 organized by NITTTR, Chennai.
+13. Accomplished 8 weeks Online Certification in **NITTTR - Module 1: Orientation towards Technical Education & Curriculum Aspects** from 1st September 2020 to 31st October 2020 organized by NITTTR, Chennai.
+14. Acquired proficiency through 4 months Online Certification in **Workplace Communication** from 26th January 2021 to 28th May 2021 organized by IIT BombayX.
+15. Achieved certification in 12 weeks Online Certification Course **Analog Electronic Circuits** from 14th September 2020 to 4th December 2020 organized by IIT Madras.
+16. Certified with Elite in 8 weeks Online Certification Course **Body Language: Key to Professional Success** from 14th September 2020 to 6th October 2020 organized by IIT Roorkee.
+17. Successfully certified in 1 week FDP & Online Training on **LaTex** from 27th April to 2nd May 2020 organized by Spoken Tutorial Project, IIT Bombay.
+18. Accomplished 1 month Hands-On Workshop on **The BodhiTree and SAFE Tools for Effective Online Teaching** on 20th June 2020 organized by Teaching Learning Centre (ICT) at IIT Bombay.
+19. Successfully earned 3 months ARPIT Online Certification in **Pedagogical Innovations and Research Methodology** from 1st October 2019 to 31st January 2020 organized by SWAYAM in association with Guru Jambheshwar University of Science & Technology, Hisar, Haryana.
 
 ## Proposal/Funding/Project Financial Assistance
 
-1. "Sanctioned an amount of Rs. 17.90 Lakhs by the Department of Science and Technology (DST), National Council for Science & Technology Communication Division, Government of India, for implementing the project titled 'SciFest – Science Fiesta for School Children: 7th to 12th Standard', with active contribution as the Co-Principal Investigator".
-2. "Received an amount of Rs. 6,000/- from the Karnataka State Council for Science and Technology (KSCST) for the student project proposal titled 'Solar Panel Cleaning Robot' (Project Proposal Reference No.: 46S_BE_4086), which has been approved by the Council under the 'Student Project Programme – 46th Series', in the year 2022-2023".
-3. "Secured an amount of Rs. 5,500/- from the Karnataka State Council for Science and Technology (KSCST) for the student project proposal titled 'Smart Cabin Using IoT for Physically Challenged People' (Project Proposal Reference No.: 44S_BE_2172), approved under the 'Student Project Programme – 44th Series' in the year 2020-2021".
+1. "Sanctioned an amount of **Rs. 17.90 Lakhs** by the Department of Science and Technology (DST), National Council for Science & Technology Communication Division, Government of India, for implementing the project titled '**SciFest – Science Fiesta for School Children: 7th to 12th Standard**', with active contribution as the Co-Principal Investigator".
+2. "Received an amount of **Rs. 6,000/-** from the Karnataka State Council for Science and Technology (KSCST) for the student project proposal titled '**Solar Panel Cleaning Robot**' (Project Proposal Reference No.: 46S_BE_4086), which has been approved by the Council under the 'Student Project Programme – 46th Series', in the year 2022-2023".
+3. "Secured an amount of **Rs. 5,500/-** from the Karnataka State Council for Science and Technology (KSCST) for the student project proposal titled '**Smart Cabin Using IoT for Physically Challenged People**' (Project Proposal Reference No.: 44S_BE_2172), approved under the 'Student Project Programme – 44th Series' in the year 2020-2021".
 
 ## Patent
 
-1. Title: 'A Smart Farming Management System and Method'. Published/Granted: Granted. Patent No: 542900.
+1. **Title:** 'A Smart Farming Management System and Method'. **Published/Granted:** Granted. **Patent No:** 542900.
 
 ## Roles and Responsibilities: Institute Level
 
@@ -10065,8 +10091,8 @@ Completed Mooc courses on:
 
 - **Qualification**
 - PhD -
-- PG - M. Tech in Digital Electronics and Communication Systems
-- UG - B.E in Electronics and Communication
+- **PG - M. Tech** in Digital Electronics and Communication Systems
+- **UG - B.E in** Electronics and Communication
 
 ## Areas of Interest
 
@@ -10169,18 +10195,18 @@ Completed Mooc courses on:
 
 **National**
 
-1. "Automatic Driving License Test using LabVIEW" Paper presented in National Conference on "Smart Systems and Emerging Trends in Electronics and Electrical Engineering" on August 21st, 2025, at GM University Devanagere.
-2. Paper titled: "Calmify AI: AI Based Mental Health Chatbot" presented in Two- Day National Conference on "Artificial Intelligence and Machine Learning for Better Tomorrow" (NCAIMLBT-2026) held on 8th and 9th January 2026, organized by Brindavan College of Engineering, Bengaluru.
+1. "**Automatic Driving License Test using LabVIEW**" Paper presented in National Conference on "Smart Systems and Emerging Trends in Electronics and Electrical Engineering" on August 21st, 2025, at GM University Devanagere.
+2. Paper titled: "**Calmify AI: AI Based Mental Health Chatbot**" presented in Two- Day National Conference on "Artificial Intelligence and Machine Learning for Better Tomorrow" (NCAIMLBT-2026) held on 8th and 9th January 2026, organized by Brindavan College of Engineering, Bengaluru.
 
 **International**
 
-1. "Music Instruments Classification using Signal Processing and Machine Learning", IEEE International Conference on Networks, Multimedia and Information Technology (NMITCON-2025), published in IEEE Xplore (Scopus Indexed)
-2. "Optimized Audio Classification with Convolution Neural Network Ensembles", International Conference Recent Advances in Science & Engineering Technology (ICRASET), 2024, published in IEEE Xplore (Scopus Indexed).
-3. "Unimodal Biometric Authentication System using Social Network Analysis", International Conference on "Next-Gen Semiconductor Device and Smart Computing Applications", Cambridge Institute of Technology, Bengaluru on 20th & 21st December 2024
-4. Paper titled "Investigation of the effect of Training Data on the Performance of Support Vector Machine in Classification of Brain MR Images" has been published in volume 1 Issue 4 June 2014 in International Journal of Emerging Trends in Science and Technology.
-5. Paper titled "Performance Analysis of Different ANN Structures in Classifying Brain MRI Images for various Training Data" has been published in volume 2 Issue 5 May 2014 in International Journal of Scientific Research and Education.
-6. Presented a paper titled "Implementation of Coded OFDM using AWGN and Rayleigh Noise", Mysuru in International Conference on "Technology Management for Green Environment" (ICTMGE -2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
-7. Presented a paper titled "Career Planning and Development at Bajaj Allianz Life Insurance Company Limited", Mysuru in International Conference on "Technology Management for Green Environment" (ICTMGE -2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
+1. "**Music Instruments Classification using Signal Processing and Machine Learning**", IEEE International Conference on Networks, Multimedia and Information Technology (NMITCON-2025), published in IEEE Xplore (Scopus Indexed)
+2. "**Optimized Audio Classification with Convolution Neural Network Ensembles**", International Conference Recent Advances in Science & Engineering Technology (ICRASET), 2024, published in IEEE Xplore (Scopus Indexed).
+3. "**Unimodal Biometric Authentication System using Social Network Analysis**", International Conference on "Next-Gen Semiconductor Device and Smart Computing Applications", Cambridge Institute of Technology, Bengaluru on 20th & 21st December 2024
+4. Paper titled "**Investigation of the effect of Training Data on the Performance of Support Vector Machine in Classification of Brain MR Images"** has been published in volume 1 Issue 4 June 2014 in International Journal of Emerging Trends in Science and Technology.
+5. Paper titled "**Performance Analysis of Different ANN Structures in Classifying Brain MRI Images for various Training Data"** has been published in volume 2 Issue 5 May 2014 in International Journal of Scientific Research and Education.
+6. Presented a paper titled "**Implementation of Coded OFDM using AWGN and Rayleigh Noise**", Mysuru in International Conference on "Technology Management for Green Environment" (ICTMGE -2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
+7. Presented a paper titled **"Career Planning and Development at Bajaj Allianz Life Insurance Company Limited"**, Mysuru in International Conference on "Technology Management for Green Environment" (ICTMGE -2013) held during 19th to 21st September 2013 at VTU Regional Center, Mysuru.
 
 ## Membership in Professional Bodies
 
@@ -10195,29 +10221,29 @@ Completed Mooc courses on:
 
 **Faculty Development Programs (FDPs)**
 
-1. Attended one-week offline FDP on "AI & Quantum Driven Image Processing from Theory to Practice" organized by Department of ECE, Dayananda Sagar College of Engineering, Bengaluru from 09th Feb 2026 to 14th Feb 2026.
-2. Attended one-week online ATAL FDP on "Advanced Perspectives in IOT" organized by Government College of Engineering, Station Road Aurangabad from 09th Feb 2026 to 14th Feb 2026.
-3. Attended one-week online ATAL FDP on "Digital Application Fundamentals" organized by NASSCOM from 02nd Feb 2026 to 07th Feb 2026.
-4. Attended one-week online ATAL FDP on "Artificial Intelligence in Healthcare: Intelligent Systems and Applications for Modern Technical Needs" organized by Sreenidhi Institute of Science & Technology from 05th Jan 2026 to 10th Jan 2026.
-5. Attended 5 Day FDP on "Real-Time Digital Signal Processing & Generative AI in Multimodal Medical Imaging" organized by ATME College of Engineering, Mysuru from 6th Jan 2026 to 10th Jan 2026.
-6. Five Day Online FDP on "Inculcating Universal Human Values in Technical Education" from 9th to 14th June 2025 organized by AICTE.
-7. Five Day FDP on "Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications" from 10th to 14th March 2025 organized by Department of E&CE, ATME in association with ATME IEEE Chapter
-8. Three Day FDP on "Unlocking Generative AI" from 10th to 12th February 2025 organized by Department of CSE – Data Science, ATME in association with IEI, ATME IEEE Chapter and IQAC.
-9. AICTE Training and Learning (ATAL) Academy Faculty Development Program on "Next-Gen System-on-Chip Design for Advanced Semiconductor Solutions" at R.V. College of Engineering, Bengaluru from 12th to 24th August 2024. AICTE Training and Learning (ATAL) Academy Faculty Development Program on Next-Gen System-on-Chip Design for Advanced Semiconductor Solutions at R.V. College of Engineering, Bengaluru from 12th to 24th August 2024.
-10. NPTEL-AICTE FDP Certification for the successful completion of a 8 Week course "An Introduction to Coding Theory"
+1. Attended one-week offline FDP on "**AI & Quantum Driven Image Processing from Theory to Practice"** organized by Department of ECE, Dayananda Sagar College of Engineering, Bengaluru from 09th Feb 2026 to 14th Feb 2026.
+2. Attended one-week online ATAL FDP on "**Advanced Perspectives in IOT**" organized by Government College of Engineering, Station Road Aurangabad from 09th Feb 2026 to 14th Feb 2026.
+3. Attended one-week online ATAL FDP on "**Digital Application Fundamentals**" organized by **NASSCOM** from 02nd Feb 2026 to 07th Feb 2026.
+4. Attended one-week online ATAL FDP on "**Artificial Intelligence in Healthcare: Intelligent Systems and Applications for Modern Technical Needs**" organized by Sreenidhi Institute of Science & Technology from 05th Jan 2026 to 10th Jan 2026.
+5. Attended 5 Day FDP on **"Real-Time Digital Signal Processing & Generative AI in Multimodal Medical Imaging"** organized by ATME College of Engineering, Mysuru from 6th Jan 2026 to 10th Jan 2026.
+6. Five Day Online FDP on **"Inculcating Universal Human Values in Technical Education**" from 9th to 14th June 2025 organized by AICTE.
+7. Five Day FDP on **"Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications"** from 10th to 14th March 2025 organized by Department of E&CE, ATME in association with ATME IEEE Chapter
+8. Three Day FDP on **"Unlocking Generative AI"** from 10th to 12th February 2025 organized by Department of CSE – Data Science, ATME in association with IEI, ATME IEEE Chapter and IQAC.
+9. AICTE Training and Learning (ATAL) Academy Faculty Development Program on "**Next-Gen System-on-Chip Design for Advanced Semiconductor Solutions"** at R.V. College of Engineering, Bengaluru from 12th to 24th August 2024. AICTE Training and Learning (ATAL) Academy Faculty Development Program on Next-Gen System-on-Chip Design for Advanced Semiconductor Solutions at R.V. College of Engineering, Bengaluru from 12th to 24th August 2024.
+10. NPTEL-AICTE FDP Certification for the successful completion of a 8 Week course "**An Introduction to Coding Theory"**
 
 **Workshops Attended**
 
-1. Attended One-Week Workshop on "Wireless Power Transfer: Concepts and Applications" organized by Ramaiah Institute of Technology, Bengaluru from 30th June 2025 to 4th July 2025.
+1. Attended One-Week Workshop on **"Wireless Power Transfer: Concepts and Applications" organized by Ramaiah Institute of Technology, Bengaluru** from 30th June 2025 to 4th July 2025.
 
 **MOOC Certifications**
 
-1. NPTEL Swayam Plus Online Certification on "AI for Educators" from IITM Pravarthak Technologies Foundation during Nov 2025 - Feb 2026.
-2. NPTEL Online Certification for a 12-week course "Signal Processing Techniques and its Applications" from Indian Institute of Technology, Kharagpur during January – April 2026.
-3. NPTEL Online Certification for a 8-week course "Soft Skill Development" from Indian Institute of Technology, Kharagpur – March 2026.
-4. NPTEL Online Certification for a 12-week course "NBA Accreditation and Teaching & Learning in Engineering" from Indian Institute of Science, Bengaluru during January – April 2025.
-5. NPTEL Online Certification for a 12-week course "A Basic Course on Electric and Magnetic Circuits" from IIT, Kharagpur during July-October 2024.
-6. NPTEL Online Certification for an 8-week course "An Introduction to Coding Theory" from IIT, Kanpur during July-September 2024.
+1. NPTEL Swayam Plus Online Certification on **"AI for Educators**" from IITM Pravarthak Technologies Foundation during Nov 2025 - Feb 2026.
+2. NPTEL Online Certification for a 12-week course **"Signal Processing Techniques and its Applications"** from Indian Institute of Technology, Kharagpur during January – April 2026.
+3. NPTEL Online Certification for a 8-week course **"Soft Skill Development"** from Indian Institute of Technology, Kharagpur – March 2026.
+4. NPTEL Online Certification for a 12-week course **"NBA Accreditation and Teaching & Learning in Engineering"** from Indian Institute of Science, Bengaluru during January – April 2025.
+5. NPTEL Online Certification for a 12-week course "**A Basic Course on Electric and Magnetic Circuits"** from IIT, Kharagpur during July-October 2024.
+6. NPTEL Online Certification for an 8-week course **"An Introduction to Coding Theory**" from IIT, Kanpur during July-September 2024.
 
 ## Proposal/Funding/Project Financial Assistance
 
@@ -10594,8 +10620,8 @@ Completed Mooc courses on:
 
 ## Patent
 
-1. Title: An Eye Movement Based Communication Device. Published/Granted: Published. Patent No: 202141045361
-2. Title: Smart Wearable Device for Real-Time Health Data Acquisition and Alert Transmission. Published/Granted: Published. Patent No: 202541122577
+1. **Title:** An Eye Movement Based Communication Device. **Published/Granted:** Published. **Patent No:** 202141045361
+2. **Title:** Smart Wearable Device for Real-Time Health Data Acquisition and Alert Transmission. Published/Granted: Published. **Patent No:** 202541122577
 
 ## Roles and Responsibilities: Institute Level
 
@@ -10629,8 +10655,8 @@ Completed Mooc courses on:
 
 - **Qualification**
 - PhD -
-- PG - Master of Technology in Industrial Automation and Robotics at The National Institute of Engineering, Mysore.
-- UG - Bachelor of Engineering in Electronics and Communication at VVCE, Mysore
+- **PG -** Master of Technology in Industrial Automation and Robotics at The National Institute of Engineering, Mysore.
+- **UG -** Bachelor of Engineering in Electronics and Communication at VVCE, Mysore
 
 ## Areas of Interest
 
@@ -10643,16 +10669,16 @@ Completed Mooc courses on:
 
 **International**
 
-1. "Peer-To-Peer Communication System Using Flex Sensor Smart Glove for Enhancing Accessibility in Speech and Hearing Challenges" ieeexplore on 22 January 2026. Doi: 10.1109/IC3IT66137.2025.11341024
-2. "Hybrid Deep Learning Models for Accurate EEG-Based Cognitive State Classification" SN Computer Science – A Springer Nature Journal on September 2025. https://doi.org/10.1007/s42979-025-04338-x
-3. "Implementation of Machine Learning Based Interpreter for Real Time Sign Language Detection and Action Recognition" ieeexplore on October 2024. Doi: 10.1109/NMITCON62075.2024.10699131
-4. "Multi-Function Agribot" International Journal of Engineering Research & Technology (IJERT), June 2019.
-5. "PLC Based Diesel Generator Automation" International Journal of Scientific Research in Computer Science, Engineering and Information Technology, May/June 2018.
-6. "Design of Smart ECU for Automobiles" International Journal of Scientific Research in Computer Science, Engineering and Information Technology, May/June 2018.
-7. "Multipurpose Cleaning Robot" International Journal for Science and Advance Research in Technology, May 2018
-8. "Hexa Agri Robot", International Digital Library Technology & Research Special Issue, International e-Journal for Technology and Research-2017, May 2017.
-9. "Fire Extinguishing Robot", International Journal of Advanced Research in Computer and Communication Engineering, December 2016.
-10. "Design of Central Nursing Station and SMS Intimation to the Doctor Using LabView", International Journal of Research and Analytical Reviews, December 2016.
+1. **"Peer-To-Peer Communication System Using Flex Sensor Smart Glove for Enhancing Accessibility in Speech and Hearing Challenges"** ieeexplore on 22 January 2026. Doi: 10.1109/IC3IT66137.2025.11341024
+2. **"Hybrid Deep Learning Models for Accurate EEG-Based Cognitive State Classification"** SN Computer Science – A Springer Nature Journal on September 2025. https://doi.org/10.1007/s42979-025-04338-x
+3. **"Implementation of Machine Learning Based Interpreter for Real Time Sign Language Detection and Action Recognition"** ieeexplore on October 2024. Doi: 10.1109/NMITCON62075.2024.10699131
+4. **"Multi-Function Agribot"** International Journal of Engineering Research & Technology (IJERT), June 2019.
+5. **"PLC Based Diesel Generator Automation"** International Journal of Scientific Research in Computer Science, Engineering and Information Technology, May/June 2018.
+6. "**Design of Smart ECU for Automobiles"** International Journal of Scientific Research in Computer Science, Engineering and Information Technology, May/June 2018.
+7. **"Multipurpose Cleaning Robot"** International Journal for Science and Advance Research in Technology, May 2018
+8. **"Hexa Agri Robot",** International Digital Library Technology & Research Special Issue, International e-Journal for Technology and Research-2017, May 2017.
+9. "**Fire Extinguishing Robot**", International Journal of Advanced Research in Computer and Communication Engineering, December 2016.
+10. **"Design of Central Nursing Station and SMS Intimation to the Doctor Using LabView",** International Journal of Research and Analytical Reviews, December 2016.
 
 ## Membership in Professional Bodies
 
@@ -10662,56 +10688,56 @@ Completed Mooc courses on:
 
 **Notable Achievements**
 
-1. Under my guidance students of 3rd semester have won 1st Prize in IEEE Project Exhibition "SPARK 2025" on 21st November 2025 organized by Brindavan college of Engineering, Bengaluru.
-2. Under my guidance Students of 6th semester have won 1st Prize in Project Exhibition for the Project titled "IoT Based Parental Controlled e-Bike" at AIT college chikkamagaluru on 7th June 2024.
-3. Under my guidance Students of 5th semester have Secured 3rd Prize in a State Level Technical Symposium "PLASMA 2K23" held at Jawaharlal Nehru College of Engineering, Shivamogga on 23rd December 2023.
-4. Under my guidance Students of 7th semester students have won 1st Place in a Robotic Competition held at The National Institute of Engineering, Mysuru on 9th December 2023.
-5. Under my guidance a team of 6th semester students won "BEST WOMEN'S TEAM" award with ₹1Lakh+ in Hackathon "SYMBIOT 2023 – a 24 hour build challenge" on 5th and 6th May 2023 at VVCE, Mysuru.
-6. Under my guidance a team of 6th semester students won 2nd Prize with ₹6K cash prize in "Ideathon" at NIE, Mysuru on 25th March 2023
-7. Under my guidance a team of 6th semester students won "BEST WOMEN'S TEAM" award with ₹1Lakh+ for an innovative idea presented for the project titled "LINE VOLTAGE MONITORING SYSTEM FOR RURAL & REMOTE AREAS" in Hackathon "SYMBIOT 2022 – a 24 hour build challenge" on 9th & 10th June 2022 at VVCE, Mysuru.
+1. Under my guidance students of 3rd semester have **won 1st Prize in IEEE Project Exhibition "SPARK 2025"** on 21st November 2025 organized by Brindavan college of Engineering, Bengaluru.
+2. Under my guidance Students of 6th semester have won 1st Prize in Project Exhibition for the Project titled **"IoT Based Parental Controlled e-Bike"** at AIT college chikkamagaluru on 7th June 2024.
+3. Under my guidance Students of 5th semester have **Secured 3rd Prize in a State Level Technical Symposium** "PLASMA 2K23" held at Jawaharlal Nehru College of Engineering, Shivamogga on 23rd December 2023.
+4. Under my guidance Students of 7th semester students have **won 1st Place in a Robotic Competition** held at The National Institute of Engineering, Mysuru on 9th December 2023.
+5. Under my guidance a team of 6th semester students won **"BEST WOMEN'S TEAM"** award with **₹1Lakh+** in Hackathon **"SYMBIOT 2023 – a 24 hour build challenge"** on 5th and 6th May 2023 at VVCE, Mysuru.
+6. Under my guidance a team of 6th semester students **won 2nd Prize with ₹6K cash prize** in **"Ideathon"** at NIE, Mysuru on 25th March 2023
+7. Under my guidance a team of 6th semester students won **"BEST WOMEN'S TEAM"** award with **₹1Lakh+** for an innovative idea presented for the project titled **"LINE VOLTAGE MONITORING SYSTEM FOR RURAL & REMOTE AREAS"** in Hackathon **"SYMBIOT 2022 – a 24 hour build challenge"** on 9th & 10th June 2022 at VVCE, Mysuru.
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **Faculty Development Programs (FDPs)**
 
-1. Participated in 5-day Faculty Development Program on "Hardware Accelerators for Next Generation Systems: PYNQ Z2 and TCL Based Design Methodologies" from 29th June to 03th July 2026 at Nitte Meenakshi Institute of Technology Nitte (Deemed to be University), Bengaluru.
-2. Participated & successfully completed one-week AICTE Training and Learning (ATAL) Academy Faculty Development Program on "Intelligent Automation: Leveraging Robotics, AI, and IoT for Industry 4.0" at SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING from 10th to 15th November 2025.
-3. Participated in the One-week online Faculty Development Program on "Fundamentals & Applications of EDGE Computing using JETSON ORIN NANO as EDGE DEVICE" from 21st to 25th July 2025 organized by Sri Sairam College of Engineering, Bengaluru in association with IEEE Bangalore Section.
-4. Participated in 3-day comprehensive workshop on "Patent Drafting, Filing & Interpretation" from 12th to 15th June 2025 organized by IPR-Cell in association with ICC, ATME College of Engineering, Mysuru.
-5. Participated in the seminar on "Substrate Integrated Waveguide and Dielectric Image Line Based Circuit Components and Antennas" by Prof. Animesh Biswas, IIT, Kanpur organized by IEEE IISc MTT/AP-S Student Branch Chapter on 6th December 2024.
-6. Participated in the hybrid seminar on "Transaction-Level Verilog and its Ecosystem" by Steeve Hoover organized by IEEE-IISc VLSI Chapter on December 03, 2024.
-7. Participated in Faculty development Program on "Gen AI for Educators" on 26th October 2024 organized by MRIT, Mandya.
-8. Participated in the One-week online International Faculty Development Program on "Advancements in Automobile Engineering for Sustainable Development" from 24th to 28th June 2024, organized by the Department of Automobile Engineering, VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad in association with the SAE Collegiate Club of VNRVJIET.
-9. Participated in one day workshop on "Scientific Research Article Writing, Funding Proposal and Patent Filing" organized by ECE Research Centre, Department of ECE in association with DST-CURIE project, GSSSIETW, Mysuru on 16th May 2024.
-10. Participated and successfully completed 5 days Online National Level Faculty Development Program on "Emerging Trends in Signal Processing, Image Processing and Artificial Intelligence" from 12th to 16th of September 2023, organized by department of Electronics and Communication Engineering, SJMIT, Chitradurga-577502.
-11. Participated in workshop "VLSI to System Design: Silicon to End Application Approach" organized by AICTE, Arm Education and STMicroelectronics from 31st July to 4th August 2023.
-12. Participated and successfully completed One-Week Online AICTE–VTU Joint Teachers Training Programme on "Introduction to Python Programming & its Applications" from 19th to 23rd June 2023 Organized by Visvesvaraya Technological University, Centre for PG Studies, VIAT, Muddenahalli, Chikkaballapur (Dist.) – 562101.
-13. Participated and successfully completed One-Week Online AICTE–VTU Joint Teachers Training Programme on "Robotics & Artificial Intelligence" from 24th to 28th April 2023 Organized by Visvesvaraya Technological University, Centre for PG Studies, VIAT, Muddenahalli, Chikkaballapur (Dist.) - 562101.
+1. Participated in 5-day Faculty Development Program on **"Hardware Accelerators for Next Generation Systems: PYNQ Z2 and TCL Based Design Methodologies" from** 29th June to 03th July 2026 at Nitte Meenakshi Institute of Technology Nitte (Deemed to be University), Bengaluru.
+2. Participated & successfully completed one-week AICTE Training and Learning (ATAL) Academy Faculty Development Program on **"Intelligent Automation: Leveraging Robotics, AI, and IoT for Industry 4.0"** at SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING from 10th to 15th November 2025.
+3. Participated in the One-week online Faculty Development Program on **"Fundamentals & Applications of EDGE Computing using JETSON ORIN NANO as EDGE DEVICE"** from 21st to 25th July 2025 organized by Sri Sairam College of Engineering, Bengaluru in association with IEEE Bangalore Section.
+4. Participated in 3-day comprehensive workshop on **"Patent Drafting, Filing & Interpretation"** from 12th to 15th June 2025 organized by IPR-Cell in association with ICC, ATME College of Engineering, Mysuru.
+5. Participated in the seminar on **"Substrate Integrated Waveguide and Dielectric Image Line Based Circuit Components and Antennas"** by Prof. Animesh Biswas, IIT, Kanpur organized by IEEE IISc MTT/AP-S Student Branch Chapter on 6th December 2024.
+6. Participated in the hybrid seminar on **"Transaction-Level Verilog and its Ecosystem"** by Steeve Hoover organized by IEEE-IISc VLSI Chapter on December 03, 2024.
+7. Participated in Faculty development Program on **"Gen AI for Educators"** on 26th October 2024 organized by MRIT, Mandya.
+8. Participated in the One-week online International Faculty Development Program on **"Advancements in Automobile Engineering for Sustainable Development"** from 24th to 28th June 2024, organized by the Department of Automobile Engineering, VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad in association with the SAE Collegiate Club of VNRVJIET.
+9. Participated in one day workshop on **"Scientific Research Article Writing, Funding Proposal and Patent Filing"** organized by ECE Research Centre, Department of ECE in association with DST-CURIE project, GSSSIETW, Mysuru on 16th May 2024.
+10. Participated and successfully completed 5 days Online National Level Faculty Development Program on **"Emerging Trends in Signal Processing, Image Processing and Artificial Intelligence"** from 12th to 16th of September 2023, organized by department of Electronics and Communication Engineering, SJMIT, Chitradurga-577502.
+11. Participated in workshop **"VLSI to System Design: Silicon to End Application Approach"** organized by AICTE, Arm Education and STMicroelectronics from 31st July to 4th August 2023.
+12. Participated and successfully completed One-Week Online AICTE–VTU Joint Teachers Training Programme on **"Introduction to Python Programming & its Applications"** from 19th to 23rd June 2023 Organized by Visvesvaraya Technological University, Centre for PG Studies, VIAT, Muddenahalli, Chikkaballapur (Dist.) – 562101.
+13. Participated and successfully completed One-Week Online AICTE–VTU Joint Teachers Training Programme on **"Robotics & Artificial Intelligence"** from 24th to 28th April 2023 Organized by Visvesvaraya Technological University, Centre for PG Studies, VIAT, Muddenahalli, Chikkaballapur (Dist.) - 562101.
 
 **Conference Papers**
 
-1. Presented paper titled "Peer-to-Peer Communication System using Flex Sensor Smart Glove for Enhancing Accessibility in Speech and Hearing Challenges" in IEEE International Conference on Communication, Computer, and Information Technology (IC3IT-2025) organized at Mysuru Royal Institute of Technology, Mandya, India on 24th and 25th October 2025 in association with IEEE Mysore Subsection and IEEE Bangalore Section
-2. Presented paper titled "Implementation of Machine Learning Based Interpreter for Real Time Sign Language Detection and Action Recognition" in 2nd IEEE International Conference on Networks, Multimedia and Information Technology (NMITCON-2024) on 9th & 10th August 2024 in association with IEEE Bangalore Section, organized by Nitte Meenakshi Institute of Technology, Bengaluru.
-3. Presented paper titled "Multilevel Garbage Disposal System in Apartments" presented by Nagesh M S in the Fourth National Conference on Communication and Data science (NCCDS - 2024) organized by the Department of Electronics and Communication Engineering, GSSSIETW, Mysuru in association with IETE (Mysuru Subsection), ISTE (Mysuru) & IJTRET on 25th April 2024.
-4. Presented Paper titled "Automation of DG Sets Using PLC" 10th National Conference on Advanced Techniques in Electrical & Electronics Engineering (NCATEE-19), on 4th May, 2019 at SJBIT, Bengaluru.
-5. Nagesh M S Presented paper "PLC Based Diesel Generator Automation" Second National Conference on Robotics, Automation, Controls and Embedded System (NCRACES-2018), on 7th May 2018 at GSSSIETW, Mysuru
-6. Nagesh M S Presented paper "Automatic Fire Fighting Robot" National Conference on Sustainable Engineering and Management (NCSEM-17), on 26th May, 2017 at TOCE, Bengaluru.
-7. Nagesh M S Presented paper "Hexa Agri Robot" in National Conference on Advanced Techniques in Electrical & Electronics Engineering (NCATEE-17), on 10th May 2017 at SJBIT, Bengaluru.
+1. Presented paper titled **"Peer-to-Peer Communication System using Flex Sensor Smart Glove for Enhancing Accessibility in Speech and Hearing Challenges"** in IEEE International Conference on Communication, Computer, and Information Technology (IC3IT-2025) organized at Mysuru Royal Institute of Technology, Mandya, India on 24th and 25th October 2025 in association with IEEE Mysore Subsection and IEEE Bangalore Section
+2. Presented paper titled **"Implementation of Machine Learning Based Interpreter for Real Time Sign Language Detection and Action Recognition"** in 2nd IEEE International Conference on Networks, Multimedia and Information Technology (NMITCON-2024) on 9th & 10th August 2024 in association with IEEE Bangalore Section, organized by Nitte Meenakshi Institute of Technology, Bengaluru.
+3. Presented paper titled **"Multilevel Garbage Disposal System in Apartments"** presented by Nagesh M S in the Fourth National Conference on Communication and Data science (NCCDS - 2024) organized by the Department of Electronics and Communication Engineering, GSSSIETW, Mysuru in association with IETE (Mysuru Subsection), ISTE (Mysuru) & IJTRET on 25th April 2024.
+4. Presented Paper titled **"Automation of DG Sets Using PLC"** 10th National Conference on Advanced Techniques in Electrical & Electronics Engineering (NCATEE-19), on 4th May, 2019 at SJBIT, Bengaluru.
+5. Nagesh M S Presented paper **"PLC Based Diesel Generator Automation"** Second National Conference on Robotics, Automation, Controls and Embedded System (NCRACES-2018), on 7th May 2018 at GSSSIETW, Mysuru
+6. Nagesh M S Presented paper **"Automatic Fire Fighting Robot"** National Conference on Sustainable Engineering and Management (NCSEM-17), on 26th May, 2017 at TOCE, Bengaluru.
+7. Nagesh M S Presented paper **"Hexa Agri Robot"** in National Conference on Advanced Techniques in Electrical & Electronics Engineering (NCATEE-17), on 10th May 2017 at SJBIT, Bengaluru.
 
 **MOOC Certifications**
 
-1. Completed 8 weeks NPTEL Certification Course on "Mechatronics" during February – April 2026.
-2. Completed 12 weeks NPTEL Certification Course on "Digital electronic and System design" during July - November 2025.
-3. Completed 12 Weeks NPTEL Certification Course on "Wheeled Mobile Robotics" during January - March 2022.
+1. Completed 8 weeks NPTEL Certification Course on **"Mechatronics"** during February – April 2026.
+2. Completed 12 weeks NPTEL Certification Course on **"Digital electronic and System design"** during July - November 2025.
+3. Completed 12 Weeks NPTEL Certification Course on **"Wheeled Mobile Robotics"** during January - March 2022.
 
 ## Proposal/Funding/Project Financial Assistance
 
-1. Received ₹6000/- from KSCST for the project titled "Design of Autonomous Indoor Wall Painting Robot".
-2. Received ₹5000/- from VTU for the project titled "Arm Rehabilitation Device for Stroke Patients".
+1. Received ₹6000/- from KSCST for the project titled **"Design of Autonomous Indoor Wall Painting Robot"**.
+2. Received ₹5000/- from VTU for the project titled **"Arm Rehabilitation Device for Stroke Patients"**.
 
 ## Patent
 
-- Title: Data science, AI, ML algorithms Based Paddy-Disease Avoidance system using DNN and Image Processing approach. Published/Granted: Published. Patent No: 202241037444
+- **Title:** Data science, AI, ML algorithms Based Paddy-Disease Avoidance system using DNN and Image Processing approach. Published/Granted: Published. **Patent No:** 202241037444
 
 ## Roles and Responsibilities: Institute Level
 
@@ -10757,10 +10783,10 @@ Completed Mooc courses on:
 
 **National**
 
-1. "A Review on Medical Image Classification Approaches" International Journal of Emerging Technologies and Innovative Research (www.jetir.org), ISSN:2349-5162, Vol.5, Issue 6, page no.885-889, June-2018
-2. "Recovery Analysis of Skin Transplantation Using SVM", International Journal of Emerging Technologies and Innovative Research (www.jetir.org), ISSN:2349-5162, Vol.5, Issue 6, page no.259-265, June-2018
-3. ''A Novel Deep Learning Framework for Kannada Handwritten Character Recognition" 2025 6th International Conference for Emerging Technology (INCET) Karnataka, India | 979-8-3315-3103-4/25/$31.00 ©2025 IEEE | DOI: 10.1109/INCET64471.2025.1114000
-4. Machine Learning-based Signature Verification using OCR and Line Sweep Technique " International Journal of Research and Scientific Innovation(IJRSI) DOI: 10.51244/IJRSI.2026.1306000429 Volume/Issue: 13/6 | Page No: 5777-5785
+1. **"A Review on Medical Image Classification Approaches"** International Journal of Emerging Technologies and Innovative Research (www.jetir.org), ISSN:2349-5162, Vol.5, Issue 6, page no.885-889, June-2018
+2. **"Recovery Analysis of Skin Transplantation Using SVM"**, International Journal of Emerging Technologies and Innovative Research (www.jetir.org), ISSN:2349-5162, Vol.5, Issue 6, page no.259-265, June-2018
+3. **''A Novel Deep Learning Framework for Kannada Handwritten Character Recognition**" 2025 6th International Conference for Emerging Technology (INCET) Karnataka, India | 979-8-3315-3103-4/25/$31.00 ©2025 IEEE | DOI: 10.1109/INCET64471.2025.1114000
+4. **Machine Learning-based Signature Verification using OCR and Line Sweep Technique** " International Journal of Research and Scientific Innovation(IJRSI) DOI: 10.51244/IJRSI.2026.1306000429 Volume/Issue: 13/6 | Page No: 5777-5785
 
 ## Membership in Professional Bodies
 
@@ -10856,11 +10882,11 @@ Completed Mooc courses on:
 
 **International**
 
-1. Pradeep Kumar Y, Sakshi K. N., Meghana H. N., Rakshitha K. S., and Chandrashekar B. J. "Noise Level Monitor and Controlling System." International Research Journal of Engineering and Technology (IRJET), vol. 12, no. 6, June 2025. p-ISSN: 2395-0072.
-2. Pradeep Kumar Y, Dr. Bhagyashree S. R., and Dr. S. Andal Bhaskar. "A Survey on Machine Learning in Forecasting Success in Intrauterine Insemination." Tuijin Jishu/Journal of Propulsion Technology, vol. 44, no. 5, 2023. ISSN: 1001-4055.
-3. Pradeep Kumar Y, Anusha A. R., Anees Fathima A. B., Annapoorna D., and Apoorva H. S. "Water Quality Monitoring System Based on IoT." Grenze Scientific Society, 2022.
-4. Pradeep Kumar Y, and Dr. Bhagyashree S. R. "A Survey on Neuropsychiatric Tools and Machine Learning Approaches Used in the Diagnosis of Depression." International Research Journal of Engineering and Technology (IRJET), vol. 8, Special Issue ICRTST-Oct. 2021.
-5. Pradeep Kumar Y, and Dr. Bhagyashree S. R. "Machine Learning and EEG in Diagnosing Depression: A Survey." International Research Journal of Engineering and Technology (IRJET), vol. 7, Special Issue ICRTST-June 2020.
+1. Pradeep Kumar Y, Sakshi K. N., Meghana H. N., Rakshitha K. S., and Chandrashekar B. J. "**Noise Level Monitor and Controlling System."** International Research Journal of Engineering and Technology (IRJET), vol. 12, no. 6, June 2025. p-ISSN: 2395-0072.
+2. Pradeep Kumar Y, Dr. Bhagyashree S. R., and Dr. S. Andal Bhaskar. "**A Survey on Machine Learning in Forecasting Success in Intrauterine Insemination."** Tuijin Jishu/Journal of Propulsion Technology, vol. 44, no. 5, 2023. ISSN: 1001-4055.
+3. Pradeep Kumar Y, Anusha A. R., Anees Fathima A. B., Annapoorna D., and Apoorva H. S. "**Water Quality Monitoring System Based on IoT."** Grenze Scientific Society, 2022.
+4. Pradeep Kumar Y, and Dr. Bhagyashree S. R. **"A Survey on Neuropsychiatric Tools and Machine Learning Approaches Used in the Diagnosis of Depression."** International Research Journal of Engineering and Technology (IRJET), vol. 8, Special Issue ICRTST-Oct. 2021.
+5. Pradeep Kumar Y, and Dr. Bhagyashree S. R. **"Machine Learning and EEG in Diagnosing Depression: A Survey."** International Research Journal of Engineering and Technology (IRJET), vol. 7, Special Issue ICRTST-June 2020.
 
 ## Membership in Professional Bodies
 
@@ -10874,80 +10900,80 @@ Completed Mooc courses on:
 
 **Notable Achievements**
 
-1. Authored the book 'Basic Electronics' published by Notion Press, co-written by Dr. S. R. Bhagyashree, Guruprasad K N, Shalini V S, and Harini R.
+1. Authored the book '**Basic Electronics'** published by Notion Press, co-written by Dr. S. R. Bhagyashree, Guruprasad K N, Shalini V S, and Harini R.
 2. The book is available at https://notionpress.com/in/read/basic-electronics-1321963/
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **Faculty Development Programs (FDPs)**
 
-1. 5-day FDP on "Integrating AI into Academia: Advancements in AI", conducted from 21st to 26th July 2025 at CHRIST College, Irinjalakuda, organized by the AICTE Training and Learning (ATAL) Academy, All India Council for Technical Education (AICTE), New Delhi.
-2. 3-day FDP on "Patent Drafting, Filing & Interpretation", conducted from 12th to 14th June 2025 by ATME College of Engineering, Mysuru.
-3. 5-day FDP on "Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications", conducted from 10th to 14th March 2025 at ATME College of Engineering, Mysuru.
-4. 3-day FDP on "Application of Image Processing Techniques in the Field of Electronics, Communication, and Civil Engineering", organized by ATME College of Engineering, Mysuru, from 6th to 8th November 2023.
-5. 5-day FDP on "Designing Embedded AI Systems using STMicroelectronics AI Ecosystem", organized by DigiToad Technologies Pvt. Ltd., Bangalore, in collaboration with STMicroelectronics, held at N.M.A.M Institute of Technology, Nitte, on 12th–14th October and 6th–7th November 2023.
-6. 3-day FDP on "Advanced Communication using USRP and LabVIEW", conducted by ATME College of Engineering, Mysuru, from 25th to 27th September 2023.
-7. 7-day National Level Online FDP on "Outcome Based Education and Essential AI Tools for Teachers", organized by Carmel College (Autonomous), Mala, Kerala, from 10th to 18th August 2023, in association with the Kerala State Higher Education Council.
-8. 1-week National Level FDP on "Recent Trends in Deep Learning", organized by the Department of Artificial Intelligence, G. H. Raisoni Institute of Engineering and Technology, Nagpur, from 1st to 7th July 2022.
-9. 5-day FDP on "Data Science", organized by ATAL FDP and JC Bose University of Science and Technology, Faridabad, from 21st to 25th February 2022.
-10. 2-week FDP on "Deep Learning and Its Applications (Parallel Architecture)", organized by premier institutions including IIT Guwahati, IIT Kanpur, IIT Roorkee, MNIT Jaipur, NIT Patna, NIT Warangal, and PDPM IIITDM Jabalpur, from 23rd August to 3rd September 2021, supported by MeitY, Govt. of India.
-11. 3-day FDP on "Importance of NAAC Accreditation in Higher Education Institutions", conducted by ATME College of Engineering, Mysuru, from 9th to 11th November 2020.
-12. 3-day FDP on "AICTE Exam Reforms – An Overview", organized by the Department of Mechanical Engineering, ATME College of Engineering, from 27th to 29th August 2020.
-13. 5-day FDP on "Advanced Microcontrollers and Python Programming", organized by the Department of ECE, Jyothy Institute of Technology, Bengaluru, from 11th to 15th August 2020.
-14. 3-day FDP on "Intellectual Property Rights in Engineering Education", organized by the Department of ECE, ATME College of Engineering, Mysuru, from 29th to 31st July 2020, in association with KSCST, IISc Campus, Bengaluru.
-15. 2-week FDP on "Python", conducted by JSS Academy of Technical Education, NOIDA, from 22nd June to 4th July 2020, in association with Spoken Tutorial Project, IIT Bombay, funded by MHRD.
-16. 3-day FDP on "Research Methodology and LaTeX", organized by East West College of Engineering, from 18th to 20th June 2020.
-17. 5-day FDP on "Machine Learning Using Python", conducted by Reva University, Bangalore, from 25th to 29th May 2020.
-18. 1-week FDP and online training on "LaTeX", conducted by Spoken Tutorial Project, IIT Bombay, from 27th April to 2nd May 2020, funded by National Mission on Education through ICT, MHRD.
-19. 1-week FDP on "Transforming Education – The Google Classroom Way", conducted by Aachi Institute of Management and Entrepreneur Development, from 1st to 7th June 2020.
-20. 5-day FDP on "Real-Time Multi-Core Design Engineering in the Field of Communication", conducted by the Department of ECE, VVIET, Mysuru, from 21st to 24th March 2018, in association with VGST, Govt. of Karnataka.
-21. 1-week FDP on "Pedagogy Training in Technical Education", organized by VTU-HRDC, from 16th to 20th January 2018, sponsored by TEQIP-III.
-22. 1-day FDP on "Recent Trends in Microwaves and Its Applications", conducted by ATME College of Engineering, Mysuru, on 22nd January 2016.
-23. 1-day FDP on "LabVIEW", conducted by ATME College of Engineering, Mysuru, on 8th January 2015.
-24. 4-day FDP on "Virtual Instrumentation Essentials for Academics and Research in Engineering", organized by AIT, Chikmagalur, from 28th to 31st May 2014.
-25. 3-day FDP on "MATLAB", organized by ATME College of Engineering, Mysuru, from 6th to 8th January 2014.
+1. 5-day FDP on **"Integrating AI into Academia: Advancements in AI"**, conducted from **21st to 26th July 2025** at **CHRIST College, Irinjalakuda**, organized by the **AICTE Training and Learning (ATAL) Academy, All India Council for Technical Education (AICTE), New Delhi**.
+2. 3-day FDP on **"Patent Drafting, Filing & Interpretation"**, conducted from 12th to 14th June 2025 by ATME College of Engineering, Mysuru.
+3. 5-day FDP on **"Cyber Security Awareness and Emerging Technologies for Secure Social Media and Banking Applications"**, conducted from 10th to 14th March 2025 at ATME College of Engineering, Mysuru.
+4. 3-day FDP on **"Application of Image Processing Techniques in the Field of Electronics, Communication, and Civil Engineering"**, organized by ATME College of Engineering, Mysuru, from 6th to 8th November 2023.
+5. 5-day FDP on **"Designing Embedded AI Systems using STMicroelectronics AI Ecosystem",** organized by DigiToad Technologies Pvt. Ltd., Bangalore, in collaboration with STMicroelectronics, held at N.M.A.M Institute of Technology, Nitte, on 12th–14th October and 6th–7th November 2023.
+6. 3-day FDP on **"Advanced Communication using USRP and LabVIEW"**, conducted by ATME College of Engineering, Mysuru, from 25th to 27th September 2023.
+7. 7-day National Level Online FDP on **"Outcome Based Education and Essential AI Tools for Teachers"**, organized by Carmel College (Autonomous), Mala, Kerala, from 10th to 18th August 2023, in association with the Kerala State Higher Education Council.
+8. 1-week National Level FDP on **"Recent Trends in Deep Learning", organized by the Department of Artificial Intelligence,** G. H. Raisoni Institute of Engineering and Technology, Nagpur, from 1st to 7th July 2022.
+9. 5-day FDP on **"Data Science"**, organized by ATAL FDP and JC Bose University of Science and Technology, Faridabad, from 21st to 25th February 2022.
+10. 2-week FDP on **"Deep Learning and Its Applications (Parallel Architecture)",** organized by premier institutions including IIT Guwahati, IIT Kanpur, IIT Roorkee, MNIT Jaipur, NIT Patna, NIT Warangal, and PDPM IIITDM Jabalpur, from 23rd August to 3rd September 2021, supported by MeitY, Govt. of India.
+11. 3-day FDP on "**Importance of NAAC Accreditation in Higher Education Institutions",** conducted by ATME College of Engineering, Mysuru, from 9th to 11th November 2020.
+12. 3-day FDP on **"AICTE Exam Reforms – An Overview"**, organized by the Department of Mechanical Engineering, ATME College of Engineering, from 27th to 29th August 2020.
+13. 5-day FDP on **"Advanced Microcontrollers and Python Programming"**, organized by the Department of ECE, Jyothy Institute of Technology, Bengaluru, from 11th to 15th August 2020.
+14. 3-day FDP on **"Intellectual Property Rights in Engineering Education",** organized by the Department of ECE, ATME College of Engineering, Mysuru, from 29th to 31st July 2020, in association with KSCST, IISc Campus, Bengaluru.
+15. 2-week FDP on **"Python",** conducted by JSS Academy of Technical Education, NOIDA, from 22nd June to 4th July 2020, in association with Spoken Tutorial Project, IIT Bombay, funded by MHRD.
+16. 3-day FDP on **"Research Methodology and LaTeX",** organized by East West College of Engineering, from 18th to 20th June 2020.
+17. 5-day FDP on **"Machine Learning Using Python",** conducted by Reva University, Bangalore, from 25th to 29th May 2020.
+18. 1-week FDP and online training on **"LaTeX"**, conducted by Spoken Tutorial Project, IIT Bombay, from 27th April to 2nd May 2020, funded by National Mission on Education through ICT, MHRD.
+19. 1-week FDP on **"Transforming Education** – **The Google Classroom Way**", conducted by Aachi Institute of Management and Entrepreneur Development, from 1st to 7th June 2020.
+20. 5-day FDP on **"Real-Time Multi-Core Design Engineering in the Field of Communication",** conducted by the Department of ECE, VVIET, Mysuru, from 21st to 24th March 2018, in association with VGST, Govt. of Karnataka.
+21. 1-week FDP on **"Pedagogy Training in Technical Education"**, organized by VTU-HRDC, from 16th to 20th January 2018, sponsored by TEQIP-III.
+22. 1-day FDP on **"Recent Trends in Microwaves and Its Applications"**, conducted by ATME College of Engineering, Mysuru, on 22nd January 2016.
+23. 1-day FDP on **"LabVIEW",** conducted by ATME College of Engineering, Mysuru, on 8th January 2015.
+24. 4-day FDP on **"Virtual Instrumentation Essentials for Academics and Research in Engineering",** organized by AIT, Chikmagalur, from 28th to 31st May 2014.
+25. 3-day FDP on **"MATLAB"**, organized by ATME College of Engineering, Mysuru, from 6th to 8th January 2014.
 
 **Conference Papers**
 
-1. Pradeep Kumar Y, Abhishek M., Nishchitha D. Gowda, Supriya H. R., and Veepthi M. A. "Smart Bin for Segregation of Biodegradable and Non-Biodegradable Waste." IETE Sponsored 7th National Conference on Emerging Trends in Engineering, Science and Technology (NCETEST-7), RNS Institute of Technology, Bangalore, 2024.
-2. Pradeep Kumar Y, et al. "Quadcopter Using Arduino UNO Controller." National Conference on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26 Apr. 2019.
-3. Pradeep Kumar Y, S. R. BhagyaShree, Chandan G. N., and Hamsini. "Automated Moisture Level Control of Irrigation Field for Improving Yield of a Crop." 2nd International Conference on Networks, Information and Communications, SVCE, Bengaluru, 18–20 May 2015.
-4. Guruprasad, K. N., and Y. Pradeep Kumar. "Design and Implementation of Arduino Based Dual Axis Autonomous Solar Tracker." IEEE International Conference on New Trends in Engineering & Technology (ICNTET), GRT Institute of Technology, Tiruvallur, Chennai, 7–8 Sept. 2018. Catalog: CFP18P34-PRJ: 978-1-5386-5629-7.
+1. Pradeep Kumar Y, Abhishek M., Nishchitha D. Gowda, Supriya H. R., and Veepthi M. A. **"Smart Bin for Segregation of Biodegradable and Non-Biodegradable Waste."** IETE Sponsored 7th National Conference on Emerging Trends in Engineering, Science and Technology (NCETEST-7), RNS Institute of Technology, Bangalore, 2024.
+2. Pradeep Kumar Y, et al. **"Quadcopter Using Arduino UNO Controller."** National Conference on Communication and Data Science (NCCDS), GSSS Institute of Engineering and Technology for Women, Mysuru, 26 Apr. 2019.
+3. Pradeep Kumar Y, S. R. BhagyaShree, Chandan G. N., and Hamsini. "**Automated Moisture Level Control of Irrigation Field for Improving Yield of a Crop."** 2nd International Conference on Networks, Information and Communications, SVCE, Bengaluru, 18–20 May 2015.
+4. Guruprasad, K. N., and Y. Pradeep Kumar. **"Design and Implementation of Arduino Based Dual Axis Autonomous Solar Tracker."** IEEE International Conference on New Trends in Engineering & Technology (ICNTET), GRT Institute of Technology, Tiruvallur, Chennai, 7–8 Sept. 2018. Catalog: CFP18P34-PRJ: 978-1-5386-5629-7.
 
 **Workshops Attended**
 
-1. 5-day Workshop on "Scientific Communication for Researchers", held at the R&D Center, BMS College of Engineering, from 29th May to 2nd June 2023.
-2. 1-day workshop on "eSim – A First Course in the IoT Series for Teachers", organized by Teaching Learning Centre, ICT at IIT Bombay, on 21st September 2019, under PMMMNMTT, MHRD, Govt. of India.
-3. 15-day Hands-On Workshop on The BodhiTree and SAFE Tools for Effective Online Teaching, organized by Teaching Learning Centre (ICT), IIT Bombay, on 20th June 2020.
-4. 6-day Workshop on the Art of Counselling, conducted by the Department of Mechanical Engineering, ATME College of Engineering, from 2nd to 9th July 2019, in association with Samadhana Counselling Centre, Bangalore.
-5. 1-week workshop on "Analysis of Biomedical Signals and Their Mathematical Modelling", organized by the Departments of Electronics & Instrumentation and Mathematics, SJCE, Mysore, from 24th to 28th December 2018.
-6. 1-week workshop on "Applications of Advanced Embedded Systems Using NI LabVIEW and Arduino", conducted by ATME College of Engineering, Mysuru, from 27th to 31st October 2017.
-7. 2-day workshop on "NI-LabVIEW and ARM Processor", organized by GMIT, Davanagere, from 27th to 28th February 2015.
-8. 1-day workshop on "Interfacing Innovation & IPR for Diffusion of Technology", organized by ATME College of Engineering, Mysuru, on 19th January 2015.
+1. 5-day Workshop on **"Scientific Communication for Researchers"**, held at the R&D Center, BMS College of Engineering, from 29th May to 2nd June 2023.
+2. 1-day workshop on **"eSim – A First Course in the IoT Series for Teachers",** organized by Teaching Learning Centre, ICT at IIT Bombay, on 21st September 2019, under PMMMNMTT, MHRD, Govt. of India.
+3. 15-day Hands-On Workshop on **The BodhiTree and SAFE Tools** for Effective Online Teaching, organized by Teaching Learning Centre (ICT), IIT Bombay, on 20th June 2020.
+4. 6-day Workshop on the **Art of Counselling**, conducted by the Department of Mechanical Engineering, ATME College of Engineering, from 2nd to 9th July 2019, in association with Samadhana Counselling Centre, Bangalore.
+5. 1-week workshop on **"Analysis of Biomedical Signals and Their Mathematical Modelling",** organized by the Departments of Electronics & Instrumentation and Mathematics, SJCE, Mysore, from 24th to 28th December 2018.
+6. 1-week workshop on **"Applications of Advanced Embedded Systems Using NI LabVIEW and Arduino"**, conducted by ATME College of Engineering, Mysuru, from 27th to 31st October 2017.
+7. 2-day workshop on **"NI-LabVIEW and ARM Processor"**, organized by GMIT, Davanagere, from 27th to 28th February 2015.
+8. 1-day workshop on **"Interfacing Innovation & IPR for Diffusion of Technology"**, organized by ATME College of Engineering, Mysuru, on 19th January 2015.
 
 **STTP (Short-Term Training Programmes)**
 
-1. 6-day Residential Short-Term Training on "Design Thinking for Higher Order Learning and Student Transformation", conducted from 29th June to 4th July 2026 at the Malaviya Mission Teacher Training Centre, National Institute of Technology (NIT) Warangal, under the Malaviya Mission Teacher Training Program (MMTTP) of the University Grants Commission (UGC), Ministry of Education, Government of India.
-2. 5-day STC on "Artificial Intelligence and Machine Learning Techniques for Engineering Applications – Theory and Practice", organized by NIT Puducherry, from 26th February to 1st March 2024.
+1. 6-day Residential Short-Term Training on **"Design Thinking for Higher Order Learning and Student Transformation",** conducted from 29th June to 4th July 2026 at the Malaviya Mission Teacher Training Centre, National Institute of Technology (NIT) Warangal, under the Malaviya Mission Teacher Training Program (MMTTP) of the University Grants Commission (UGC), Ministry of Education, Government of India.
+2. 5-day STC on **"Artificial Intelligence and Machine Learning Techniques for Engineering Applications – Theory and Practice"**, organized by NIT Puducherry, from 26th February to 1st March 2024.
 
 **MOOC Certifications**
 
-1. Earned a 12-week NPTEL online certification in "Soft Skills" (Elite + Silver, Top 5%), conducted from July 2025 to October 2025, organized by NPTEL – IIT Roorkee.
-2. Earned a 12-week NPTEL online certification in "Artificial Intelligence: Concepts and Techniques" (Elite + Silver, Top 5%), conducted from July 2025 to October 2025, organized by NPTEL – Indian Institute of Science (IISc), Bangalore.
-3. Earned an 8-week online certification in Academic Leadership in Cross Cultural Context of Higher Educational Institutions, from 20th January 2025 to 15th May 2025, organized by the National Institute of Technical Teachers Training and Research (NITTTR), Chennai.
-4. Completed a 12-week online certification course titled Machine Learning and Deep Learning – Fundamentals and Applications, from 24th July 2023 to 13th October 2023, conducted by IIT Guwahati.
-5. Successfully completed the following 8-week online certification programs organized by the National Institute of Technical Teachers Training and Research (NITTTR), Chennai:
-6. NITTTR - Module 8: Institutional Management & Administrative Procedures (1st October 2022 – 30th November 2022)
-7. NITTTR - Module 7: Creative Problem Solving, Innovation and Meaningful R&D (1st October 2022 – 30th November 2022)
-8. NITTTR - Module 6: Student Assessment and Evaluation (1st April 2022 – 31st May 2022)
-9. NITTTR - Module 5: Technology Enabled Learning & Life Long Self Learning (1st April 2022 – 31st May 2022)
-10. NITTTR - Module 4: Instructional Planning and Delivery (1st September 2021 – 31st October 2021)
-11. NITTTR - Module 3: Communication Skills, Modes & Knowledge Dissemination (1st April 2021 – 31st May 2021)
-12. NITTTR - Module 2: Professional Ethics & Sustainability (1st April 2021 – 31st May 2021)
-13. NITTTR - Module 1: Orientation towards Technical Education & Curriculum Aspects (1st September 2020 – 31st October 2020).
-14. Accomplished a 4-month online certification course titled Workplace Communication, from 26th January 2021 to 28th May 2021, offered by IITBombayX.
-15. Completed a 3-month certification course titled Pedagogical Innovations and Research Methodology, from 1st October 2019 to 31st January 2020, conducted by SWAYAM in association with Guru Jambheshwar University of Science & Technology, Hisar, Haryana, under the ARPIT Online Course.
-16. Successfully completed an 8-week course titled Python for Data Science, offered by Swayam NPTEL during August–September 2019.
+1. Earned a 12-week NPTEL online certification in **"Soft Skills"** (Elite + Silver, Top 5%), conducted from July 2025 to October 2025, organized by NPTEL – IIT Roorkee.
+2. Earned a 12-week NPTEL online certification in "**Artificial Intelligence: Concepts and Techniques"** (Elite + Silver, Top 5%), conducted from July 2025 to October 2025, organized by NPTEL – Indian Institute of Science (IISc), Bangalore.
+3. Earned an 8-week online certification **in Academic Leadership in Cross Cultural Context of Higher Educational Institutions**, from 20th January 2025 to 15th May 2025, organized by the National Institute of Technical Teachers Training and Research (NITTTR), Chennai.
+4. Completed a 12-week online certification course titled **Machine Learning and Deep Learning – Fundamentals and Applications**, from 24th July 2023 to 13th October 2023, conducted by IIT Guwahati.
+5. Successfully completed the following 8-week online certification programs organized by the **National Institute of Technical Teachers Training and Research (NITTTR), Chennai**:
+6. **NITTTR - Module 8: Institutional Management & Administrative Procedures** (1st October 2022 – 30th November 2022)
+7. **NITTTR - Module 7: Creative Problem Solving, Innovation and Meaningful R&D** (1st October 2022 – 30th November 2022)
+8. **NITTTR - Module 6: Student Assessment and Evaluation** (1st April 2022 – 31st May 2022)
+9. **NITTTR - Module 5: Technology Enabled Learning & Life Long Self Learning** (1st April 2022 – 31st May 2022)
+10. **NITTTR - Module 4: Instructional Planning and Delivery** (1st September 2021 – 31st October 2021)
+11. **NITTTR - Module 3: Communication Skills, Modes & Knowledge Dissemination** (1st April 2021 – 31st May 2021)
+12. **NITTTR - Module 2: Professional Ethics & Sustainability** (1st April 2021 – 31st May 2021)
+13. **NITTTR - Module 1: Orientation towards Technical Education & Curriculum Aspects** (1st September 2020 – 31st October 2020).
+14. Accomplished a 4-month online certification course titled **Workplace Communication**, from 26th January 2021 to 28th May 2021, offered by IITBombayX.
+15. Completed a 3-month certification course titled **Pedagogical Innovations and Research Methodology**, from 1st October 2019 to 31st January 2020, conducted by SWAYAM in association with Guru Jambheshwar University of Science & Technology, Hisar, Haryana, under the ARPIT Online Course.
+16. Successfully completed an 8-week course titled **Python for Data Science**, offered by Swayam NPTEL during August–September 2019.
 
 ## Proposal/Funding/Project Financial Assistance
 
@@ -10956,7 +10982,7 @@ Completed Mooc courses on:
 
 ## Patent
 
-1. Title: Energy Efficient Robotic Sanitizing Device. Published/Granted: Granted. Patent No: 537655
+1. **Title:** Energy Efficient Robotic Sanitizing Device. **Published/Granted:** Granted. **Patent No:** 537655
 
 ## Roles and Responsibilities: Institute Level
 
