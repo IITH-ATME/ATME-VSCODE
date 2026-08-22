@@ -25,7 +25,7 @@ export type Circular = {
 // Structured circulars list (mirrors order on atme.edu.in/circulars/)
 export const circulars: Circular[] = [
   { title: "3rd sem MBA n MCA registration 2026-27", date: "22/08/2026", file: "3rd-sem-mba-mca-registration-2026-27.pdf", year: "2026-27", category: "Examination Circulars" },
-  { title: "Transportation Fee Circular - students - 2026-27", date: "15/06/2026", file: "transportation-fee-circular-students-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
+  { title: "Transportation Fee Circular - students - 2026-27", date: "22/08/2026", file: "transportation-fee-circular-students-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "VTU Student Registration Circular — 5th & 7th Sem AY 2026-27", date: "11/08/2026", file: "vtu-student-registration-circular-2026-27.pdf", year: "2026-27", category: "Examination Circulars", important: true },
   { title: "Registration Circular- 2nd Sem ( MCA and MBA)", date: "07/08/2026", file: "registration-circular-2nd-sem-mba-mca-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "Fee Circular- 2nd Sem ( MCA and MBA)", date: "07/08/2026", file: "fee-circular-2nd-sem-mba-mca-ay-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
