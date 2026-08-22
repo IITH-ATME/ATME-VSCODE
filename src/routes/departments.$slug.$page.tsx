@@ -3304,9 +3304,9 @@ const CLASS_INCHARGE_BY_DEPT: Record<string, InchargeRow[]> = {
     { sem: "7th", section: "B", incharge: "Mr. Chandra Shekar P", email: "CHANDRASHEKARP_EC@atme.edu.in", phone: "9538584312" },
   ],
   ME: [
-    { sem: "4th", section: "A", incharge: "Mr. Niranjan Kumar V S", email: "niranjankumarvs_mech@atme.edu.in", phone: "9945614138" },
-    { sem: "6th", section: "A", incharge: "Mr. Raghu", email: "raghu_mech@atme.edu.in", phone: "8970425914" },
-    { sem: "8th", section: "A", incharge: "Mr. Ravi Kumar S", email: "ravikumars_mech@atme.edu.in", phone: "9880543740" },
+    { sem: "3rd", section: "A", incharge: "Mr. Hemanth B R", email: "hemanthbr_me@atme.edu.in" },
+    { sem: "5th", section: "A", incharge: "Dr. Mohanakumara K C", email: "dr.mohanakumarakc_mech@atme.edu.in" },
+    { sem: "7th", section: "A", incharge: "Mr. Sukruth Sagar B P", email: "sukruthsagarbp.me@atme.edu.in" },
   ],
   "AI&ML": [
     { sem: "3rd", section: "A", incharge: "Prof. Apoorva S M", email: "apoorvasm.ci@atme.edu.in" },
@@ -3330,12 +3330,13 @@ function ClassInchargeTable({ deptCode }: { deptCode: string }) {
   const showContact = true;
   // EEE-specific: the college now labels this "Academic Year 2026–27" and
   // uses "Year" instead of "Semester" as the column header there.
-  const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" || deptCode === "DS" ? "2026–27" : "2025–26";
+  const academicYear = deptCode === "EEE" || deptCode === "ECE" || deptCode === "CE" || deptCode === "DS" || deptCode === "ME" ? "2026–27" : "2025–26";
   const semesterColLabel = deptCode === "EEE" || deptCode === "DS" ? "Year" : "Semester";
   // DS's table has no Section/Phone data (source doc lists only Year, Faculty
-  // Incharge, and Mail ID), so those columns are dropped for this dept.
+  // Incharge, and Mail ID), so those columns are dropped for this dept. ME's
+  // 2026-27 roster likewise lists no phone numbers.
   const showSection = deptCode !== "DS";
-  const showPhone = deptCode !== "DS";
+  const showPhone = deptCode !== "DS" && deptCode !== "ME";
   return (
     <section className="rounded-2xl border-2 border-[#f5c518] bg-white p-4 sm:p-6 shadow-sm min-w-0">
       <h3 className="font-display text-lg font-bold text-[#129199] mb-3 pb-2 border-b border-[#129199]/20">
