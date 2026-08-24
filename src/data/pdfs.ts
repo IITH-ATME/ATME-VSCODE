@@ -24,6 +24,7 @@ export type Circular = {
 
 // Structured circulars list (mirrors order on atme.edu.in/circulars/)
 export const circulars: Circular[] = [
+  { title: "Summer Semester / Makeup Exam Application 2026-27", date: "24/08/2026", file: "summer-makeup-exam-application-2026-27.pdf", year: "2026-27", category: "Examination Circulars" },
   { title: "3rd sem MBA n MCA registration 2026-27", date: "22/08/2026", file: "3rd-sem-mba-mca-registration-2026-27.pdf", year: "2026-27", category: "Examination Circulars" },
   { title: "Transportation Fee Circular - students - 2026-27", date: "22/08/2026", file: "transportation-fee-circular-students-2026-27.pdf", year: "2026-27", category: "Fee Circulars" },
   { title: "VTU Student Registration Circular — 5th & 7th Sem AY 2026-27", date: "11/08/2026", file: "vtu-student-registration-circular-2026-27.pdf", year: "2026-27", category: "Examination Circulars", important: true },
