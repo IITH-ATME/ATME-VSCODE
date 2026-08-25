@@ -132,8 +132,8 @@ const meFaculty: Faculty[] = [
   { id: "dr-chethan-s", name: "Dr. Chethan S", designation: "Associate Professor & Head", qualification: "BE,M.Tech,Ph.D", doj: "15/07/2014", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
   { id: "dr-srinivasa-k", name: "Dr.Srinivasa K", designation: "Professor and Dean Student Affairs", qualification: "BE,M.Tech,Ph.D", doj: "13/09/2010", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
   { id: "mr-ravikumar-s", name: "Mr. Ravikumar S", designation: "Associate Professor", qualification: "BE,M.Tech,", doj: "26/05/2012", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
-  { id: "mr-devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE,M.Tech", doj: "19/08/2022", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
-  { id: "mr-rohith-s", name: "Mr.Rohith S", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "04/07/2016", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
+  { id: "mr-devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE,M.Tech", doj: "19/08/2022", image: "/images/me/devaraj-m-r.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
+  { id: "mr-rohith-s", name: "Mr.Rohith S", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "04/07/2016", image: "/images/me/rohith-s.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
   { id: "mr-chetan-s", name: "Mr. Chetan S", designation: "Assistant Professor", qualification: "BE,M.Tech,Ph.D", doj: "03/02/2023", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
   { id: "mr-sukruth-sagar-b-p", name: "Mr.Sukruth Sagar B P", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "14/06/2024", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://atme.edu.in/mechanical-engineering/mechanical-faculty-profile/" },
 ];
@@ -147,6 +147,7 @@ const dsFaculty: Faculty[] = [
   { id: "ms-sushmitha-n", name: "Ms. Sushmitha N", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "17-11-2025", image: "/images/ds/ms-sushmitha-n.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "ms-pallavi-a-r", name: "Ms. Pallavi A R", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "07-08-2025", image: "/__l5e/assets-v1/465712f4-c199-445b-bc11-42a72bdfa8e9/pallavi-ar.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "ms-arpitha-m-s", name: "Arpitha M S", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "01-07-2026", image: "", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
+  { id: "chandan-a", name: "Mr. Chandan A", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "03-08-2026", image: "", cvUrl: "/departments/ds/faculty/chandan-a" },
 ];
 
 const ceFaculty: Faculty[] = [
