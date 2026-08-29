@@ -147,7 +147,7 @@ const dsFaculty: Faculty[] = [
   { id: "ms-sushmitha-n", name: "Ms. Sushmitha N", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "17-11-2025", image: "/images/ds/ms-sushmitha-n.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "ms-pallavi-a-r", name: "Ms. Pallavi A R", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "07-08-2025", image: "/__l5e/assets-v1/465712f4-c199-445b-bc11-42a72bdfa8e9/pallavi-ar.jpg", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
   { id: "ms-arpitha-m-s", name: "Arpitha M S", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "01-07-2026", image: "", cvUrl: "https://atme.edu.in/cse-data-science/cse-faculty-profile-data-science/" },
-  { id: "chandan-a", name: "Mr. Chandan A", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "03-08-2026", image: "", cvUrl: "/departments/ds/faculty/chandan-a" },
+  { id: "chandan-a", name: "Mr. Chandan A", designation: "Assistant Professor", qualification: "BE,M.Tech", doj: "03-08-2026", image: "/images/uploads/chandan-a.png", cvUrl: "/departments/ds/faculty/chandan-a" },
 ];
 
 const ceFaculty: Faculty[] = [
