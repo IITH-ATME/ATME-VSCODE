@@ -64,8 +64,8 @@ const initialValues = {
 
 type FormValues = typeof initialValues;
 
-const fieldClass = "h-8 text-sm";
-const labelClass = "text-xs";
+const fieldClass = "h-7 sm:h-8 text-sm";
+const labelClass = "text-[11px] sm:text-xs";
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -157,7 +157,7 @@ export function AdmissionsPopup() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[92dvh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
+        className={`relative w-full max-w-[94vw] sm:max-w-[640px] lg:w-fit lg:max-w-[94vw] max-h-[98dvh] overflow-y-auto rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-500 ease-out ${
           show ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-6"
         }`}
       >
@@ -173,27 +173,27 @@ export function AdmissionsPopup() {
           <a
             href="/admissions"
             aria-label="View ATMECE admissions details"
-            className="block min-w-0 lg:h-full animate-[popIn_0.5s_ease-out]"
+            className="hidden sm:block min-w-0 lg:h-full animate-[popIn_0.5s_ease-out]"
           >
             <img
               src={POPUP_IMAGE}
               alt="ATMECE Admissions Open — No Donation, No Development Fee"
-              className="block w-full h-32 sm:h-48 lg:h-full object-cover object-top bg-white"
+              className="block w-full h-40 lg:h-full object-cover object-top bg-white"
               loading="eager"
               width={900}
               height={1069}
             />
           </a>
 
-          <div className="min-w-0 p-3 sm:p-4 lg:p-5 lg:h-full flex flex-col">
-            <h2 className="font-display text-base sm:text-xl lg:text-2xl font-extrabold leading-tight text-foreground">
+          <div className="min-w-0 p-2.5 sm:p-4 lg:p-5 lg:h-full flex flex-col">
+            <h2 className="font-display text-sm sm:text-xl lg:text-2xl font-extrabold leading-tight text-foreground">
               Shape Your Career with{" "}
               <span className="relative inline-block text-primary">
                 ATMECE
                 <span aria-hidden="true" className="absolute inset-x-0 -bottom-0.5 -z-10 h-2 rounded bg-amber-300/60" />
               </span>
             </h2>
-            <p className="mt-1.5 text-xs text-muted-foreground">
+            <p className="mt-1 text-[11px] sm:text-xs text-muted-foreground">
               Fill in your details, and our admission team will contact you shortly.
             </p>
 
@@ -206,7 +206,7 @@ export function AdmissionsPopup() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="mt-2 flex flex-col">
+              <form onSubmit={handleSubmit} className="mt-1.5 flex flex-col">
                 <div className="grid grid-cols-2 gap-x-2.5 gap-y-0.5">
                   <div className="space-y-0.5">
                     <Label htmlFor="admissions-popup-name" className={labelClass}>
@@ -399,7 +399,7 @@ export function AdmissionsPopup() {
                       placeholder="Tell us how we can help you."
                       value={values.message}
                       onChange={handleChange("message")}
-                      className="min-h-0 py-1.5 text-sm resize-none"
+                      className="min-h-0 py-1 sm:py-1.5 text-sm resize-none"
                     />
                   </div>
                 </div>
@@ -407,7 +407,7 @@ export function AdmissionsPopup() {
                 <Button
                   type="submit"
                   disabled={status === "submitting"}
-                  className="mt-2 w-full h-8 gradient-hero text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
+                  className="mt-1.5 w-full h-7 sm:h-8 gradient-hero text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
                 >
                   {status === "submitting" ? (
                     <span className="flex items-center justify-center gap-2">
@@ -428,7 +428,7 @@ export function AdmissionsPopup() {
                   </p>
                 )}
 
-                <p className="mt-1 text-[10px] leading-tight text-muted-foreground text-center">
+                <p className="hidden sm:block mt-1 text-[10px] leading-tight text-muted-foreground text-center">
                   We respect your privacy. Your information will be used only for admission purposes.
                 </p>
               </form>

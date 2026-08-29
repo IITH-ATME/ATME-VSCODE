@@ -276,7 +276,12 @@ export function Header() {
 
           {/* Center logo */}
           <Link to="/" className="shrink-0 flex items-center justify-center px-2 md:px-3 min-[1440px]:px-4 py-1 mx-auto hover:opacity-95 transition-opacity">
-            <img src={resolveAssetUrl(logoAsset.url)} alt="ATME College of Engineering" className="w-36 md:w-44 lg:w-48 min-[1440px]:w-56 2xl:w-64 h-auto max-h-16 md:max-h-20 min-[1440px]:max-h-24 2xl:max-h-28 max-w-none object-contain drop-shadow-sm" />
+            <img
+              src={resolveAssetUrl(logoAsset.url)}
+              alt="ATME College of Engineering"
+              className="w-36 md:w-44 lg:w-48 min-[1440px]:w-56 2xl:w-64 h-auto max-h-16 md:max-h-20 min-[1440px]:max-h-24 2xl:max-h-28 max-w-none object-contain drop-shadow-sm"
+              style={{ transform: "translateX(-13%)" }}
+            />
           </Link>
 
           {/* Right side: nav + search + hamburger (desktop) */}
