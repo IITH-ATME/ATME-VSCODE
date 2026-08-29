@@ -11660,18 +11660,18 @@ Completed Mooc courses on:
 ## Contact Details
 
 - **Email ID:** Official: [chandana.cd@atme.edu.in](mailto:chandana.cd@atme.edu.in), Personal: [chandanashwathkumar@gmail.com](mailto:chandanashwathkumar@gmail.com)
-- **Vidwan ID:** Nil
-- **Google Scholar ID:** Nil
-- **Scopus ID:** Nil
-- **Orcid ID:** Nil
-- **Web of Science Researcher ID:** Nil
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/728062>
+- **Google Scholar ID:** NA
+- **Scopus ID:** NA
+- **Orcid ID:** <https://orcid.org/0009-0001-8135-2088>
+- **Web of Science Researcher ID:** NA
 - **LinkedIn ID:** <https://www.linkedin.com/in/chandan-ashwath-6a0329171>
 
 ## Academic Details
 
 - **Qualification**
-- **M. Tech** in Data Science from Sri Jayachamarajendra College of Engineering (2026), Mysuru.
-- **B.E** in Electronics & Communication Engineering from Vidyavardhaka College of Engineering (2021), Mysuru.
+- **PG** – M.Tech in Data Science, JSS Science and Technology University, 2026
+- **UG** – ECE, Vidyavardhaka College of Engineering, 2021
 
 ## Areas of Interest
 
@@ -11689,11 +11689,12 @@ Completed Mooc courses on:
 
 ## Honours/Awards/Achievements
 
-- Data Science using AI course, NSDC in collaboration with Internshala, A grade
+- Nil
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- Nil
+- NPTEL Course on Python for Data Science, July-Aug 2022
+- Internshala Course on Data Science Using AI, Feb-Mar 2026
 
 ## Proposal/Funding/Project Financial Assistance
 
@@ -12509,5 +12510,201 @@ Completed Mooc courses on:
 2. VTU, AICTE & LIC visit Coordinator
 3. DST Coordinator
 4. Department Budget Coordinator`,
+  },
+  "akarsha-r-r": {
+    name: "Akarsha R R",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: 1.0
+- Research: 1.0
+- Industry: 8+
+
+## Contact Details
+
+- **Email ID:** Official: [akarsharr.mca@atme.edu.in](mailto:akarsharr.mca@atme.edu.in)
+- **Vidwan ID:** Nil
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=0kkW9n0AAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/pages/authors/57215912199>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0009-0007-1706-4421>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/QXI-4282-2026>
+- **LinkedIn ID:** <https://www.linkedin.com/in/akarshaak-r-r>
+
+## Academic Details
+
+- **Qualification**
+- **PhD** - Nil
+- **PG** – M.C.A (Master of Computer Applications)
+- **UG** – B.C.A (Bachelors of Computer Applicatios)
+
+## Areas of Interest
+
+1. Atlasian Tools Development
+2. AI / ML / Deep Learning and Data Analytics
+3. UI Path / Automations / RPA
+4. KA
+
+## Publication Details
+
+**National:**
+
+- Nil
+
+**International:**
+
+1. International Conference -Global Goals, Local Solutions-Integrating Sustainability in Everyday Life "Detection of Cardiovascular Diseases using ECG signal Analysis", 18th and 19th September 2025.
+2. International Conference on Intelligent Computing and Control Systems (ICICCS 2026)" Attention-Driven Convolutional Neural Network for Real-Time Driver Drowsiness and Inattention Awareness", organized by Nandha Engineering College, Erode on 16th to 18th March 2026
+
+## Membership in Professional Bodies
+
+- Nil
+
+## Honours/Awards/Achievements
+
+**Honours:**
+
+- Nil
+
+**Awards:**
+
+- Best President in Rotract club of South East Mysore by Rotary.
+- Best Team Player CGI client Appreciation trophy as achieved 12% to 72% of productive in Testing.
+
+**Achievements:**
+
+- Winner: Athletics (1500,1200,800) - Amrita University Level Competations held (2015-18)
+- "2nd in Hackathon held my Pyframes" Tech Companies organized and collaboration with Rotary Bangalore.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**Conferences:**
+
+- IGNITE Conference on technologies conducted by TESCO White field Campus Banglore
+- CGI Envision APAC: Convened AI enthusiasts focusing on enterprise transformation and Frontier Firm strategies, Old Airport road near HAL Banglore
+
+**Workshops:**
+
+- Served as a resource person for an expert-led workshop on software testing at Amrita, guiding participants through core quality assurance concepts and practical methodologies
+- Conducted
+
+**STTP:**
+
+- Nil
+
+**MOOC Certification:**
+
+- Nil
+
+## Proposal/Funding/Project Financial Assistance
+
+- Project -"Short commencement and application web app" by DAHDF (Department of Animal Husbandry and Fisheries) Govt of Karnataka "CSR Funds"
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+1. Placement Technical Trainer.
+2. Sports Co-ordinator`,
+  },
+  "shrunga-d": {
+    name: "Shrunga D",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: 1.4
+- Research: Nil
+- Industry: Nil
+
+## Contact Details
+
+- **Email ID:** Official: [shrungad.mca@atme.edu.in](mailto:shrungad.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/731381>
+- **Google Scholar ID:** <https://shorturl.at/zhs5N>
+- **Scopus ID:** <https://www.scopus.com/dashboard.uri?origin=userDashboard&zone=TopNavBar>
+- **Orcid ID:** <https://orcid.org/0009-0002-7371-2845>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** <https://www.linkedin.com/in/shrunga-d-6964b21b7>
+
+## Academic Details
+
+- **Qualification**
+- **PhD** - Nil
+- **UG/PG** – Int. M.C.A (Integrated Master of Computer Applications)
+
+## Areas of Interest
+
+1. Machine learning and Data Analytics
+2. Data Structures and Algorithms
+3. Cybersecurity
+4. Web Technologies
+5. Operating System
+
+## Publication Details
+
+**National:**
+
+- Nil
+
+**International:**
+
+- Nil
+
+## Membership in Professional Bodies
+
+- Nil
+
+## Honours/Awards/Achievements
+
+**Honours:**
+
+- Nil
+
+**Awards:**
+
+- Nil
+
+**Achievements:**
+
+- Nil
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**Conferences:**
+
+- Measuring Image Quality: Crucial Indicators for Evaluating Camera-Captured Document Contents
+
+**Workshops:**
+
+- Nil
+
+**STTP:**
+
+- Nil
+
+**MOOC Certification:**
+
+- Nil
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+- Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+- Nil`,
   },
 };

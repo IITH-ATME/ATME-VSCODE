@@ -688,16 +688,14 @@ export const departments: Department[] = [
       "Educate to the global standards with a benchmark of excellence and kindle the spirit of innovation.",
     ],
     peo: [
-      "PEO1: Develop cutting-edge skills in data science and its related technologies, such as machine learning, predictive analytic, and data engineering.",
-      "PEO2: Design and develop data-driven solutions to real-world problems in a business, research, or social environment.",
-      "PEO3: Apply data engineering and data visualization techniques to discover, investigate, and interpret data.",
-      "PEO4: Demonstrate ethical and responsible data practices in problem solving",
-      "PEO5: Integrate fields within computer science, optimization, and statistics to develop better solutions",
+      "PEO1: Graduates will have successful careers in Data Science, AI, and related domains through strong technical and analytical skills.",
+      "PEO2: Graduates will pursue higher education, research, and engage in lifelong learning to adapt to evolving technologies.",
+      "PEO3: Graduates will demonstrate professionalism, ethical responsibility, teamwork, and leadership in multidisciplinary environments.",
+      "PEO4: Graduates will contribute to society by developing innovative and sustainable solutions using Data Science",
     ],
     pso: [
-      "PSO1: Develop relevant programming skills to become a successful data scientist",
-      "PSO2: Apply data science concepts and algorithms to solve real world problems of the society",
-      "PSO3: Apply data science techniques in the various domains like agriculture, education healthcare for better society",
+      "PSO1: Graduates will be able to design, implement, and manage scalable data engineering solutions, including data pipelines, storage systems, and big data frameworks for efficient data processing.",
+      "PSO2: Graduates will be able to develop and deploy machine learning models and data analytics solutions to solve real-world problems across various application domains",
     ],
     programmes: [
       { programme: "Computer Science & Engineering – Data Science", degree: "B.E (CSE – DS)", duration: "4 Years", intake: "60" },

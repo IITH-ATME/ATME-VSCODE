@@ -254,6 +254,8 @@ export const mcaAllFaculty: Faculty[] = [
   { id: "sushmitha-b-h", name: "Sushmitha B H", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "24/10/2025", image: "/__l5e/assets-v1/9fc1a4e6-1831-45fd-991d-3b8fdab20d39/mca-Sushmitha_Photo.jpeg", cvUrl: "https://atme.edu.in/sushmitha-b-h/" },
   { id: "teharin", name: "Teharin", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "20/05/2026", image: "/images/uploads/2026/05/Teharin.png", cvUrl: "/p/teharin" },
   { id: "clara-b", name: "Clara B", designation: "Assistant Professor", qualification: "MCA; BCA", doj: "22/05/2026", image: "/images/uploads/2026/05/Clara-B.png", cvUrl: "/p/clara-b" },
+  { id: "akarsha-r-r", name: "Akarsha R R", designation: "Assistant Professor", qualification: "B.C.A, MCA", doj: "11/08/2026", image: "/images/uploads/akarsha-r-r.png", cvUrl: "/departments/mca/faculty/akarsha-r-r" },
+  { id: "shrunga-d", name: "Shrunga D", designation: "Assistant Professor", qualification: "MCA", doj: "05/08/2026", image: "/images/uploads/shrunga-d.png", cvUrl: "/departments/mca/faculty/shrunga-d" },
   { id: "ravikala-k-g", name: "Ravikala K G", designation: "Assistant Professor", qualification: "MCA (Master of Computer Applications) in Cybersecurity; BCA (Bachelor of Computer Application)", doj: "", image: ravikalaKGImg, cvUrl: "/p/ravikala-k-g" },
   { id: "jayaprakash", name: "Jayaprakash", designation: "Instructor", qualification: "Diploma in ECE", doj: "01/08/2013", image: jayaprakashN.url, cvUrl: "/p/jayaprakash" },
   { id: "bhumika-v-r", name: "Bhumika V R", designation: "Programmer", qualification: "MCA; BCA", doj: "02/09/2024", image: "/images/uploads/2025/11/Bhumika-V-R-1.jpg", cvUrl: "https://atme.edu.in/bhumika-v-r/" },
