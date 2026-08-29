@@ -183,7 +183,7 @@ As per AICTE guidelines, ATME College of Engineering publishes the institutional
 mandatory disclosure document each academic year. The latest disclosure is
 embedded below for direct viewing and download.
 
-[pdfviewer width="1200px" height="800px"]https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/pdfs/uploads/a198c38a-Mandatory-Disclosure-2025-26.pdf[/pdfviewer]
+[pdfviewer width="1200px" height="800px"]https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/pdfs/uploads/mandatory-disclosure-2026-27.pdf[/pdfviewer]
 `;
 
 const eoaAicteBody = `
@@ -2354,7 +2354,7 @@ institutional information.
 
 ### Mandatory Disclosure 2026-27
 
-[pdfviewer width="1200px" height="800px"]https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/pdfs/uploads/a198c38a-Mandatory-Disclosure-2025-26.pdf[/pdfviewer]
+[pdfviewer width="1200px" height="800px"]https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/pdfs/uploads/mandatory-disclosure-2026-27.pdf[/pdfviewer]
 
 [Budget Allocation and Utilization](${SELF(GOV_KEY)})
 

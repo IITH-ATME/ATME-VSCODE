@@ -703,7 +703,7 @@ export const departments: Department[] = [
     hod: {
       name: "Dr. Anitha D B",
       designation: "Professor & Head, Department of Computer Science & Engineering (Data Science)",
-      image: "/__l5e/assets-v1/6e0859dd-fc91-478a-b5e9-c348e9187b39/Dr-Anitha-D-B.jpg.jpeg",
+      image: "/images/uploads/dr-anitha-d-b-hod.png",
       message: "",
       messageBullets: [
         {
