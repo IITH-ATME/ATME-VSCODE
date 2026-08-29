@@ -18,6 +18,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { pdf } from "@/data/pdfs";
 import { ABOUT, DEPARTMENTS_NAV, type NavLink } from "@/lib/navStructure";
 
 type FL = { label: string; href?: string; to?: string; params?: Record<string, string> };
@@ -68,7 +69,7 @@ const ACADEMICS_LINKS: FL[] = [
 ];
 
 const DOWNLOADS_LINKS: FL[] = [
-  { label: "Mandatory Disclosure", href: "/__l5e/assets-v1/a198c38a-e39e-4c3a-ab4c-a23591dd37e5/Mandatory-Disclosure-2025-26.pdf" },
+  { label: "Mandatory Disclosure", href: pdf("Mandatory-Disclosure-2026-27.pdf") },
   { label: "Employee Handbook",    href: "/__l5e/assets-v1/c402b7eb-a5d4-4a17-b983-1dfd193b363f/Employee-hand-book-3-0.pdf" },
   { label: "Student Handbook",     href: "/__l5e/assets-v1/ffb2c1a9-c930-4f07-8d05-7b98a9318ac3/Handbook-3-3.pdf" },
   { label: "Hostel Policy",        href: "/__l5e/assets-v1/849a2f12-1905-4bb5-8463-94e44ffaaa98/HOSTEL-Rules-Regulation-v3.pdf" },
