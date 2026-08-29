@@ -267,7 +267,7 @@ export function Header() {
       <div className="max-w-[1600px] mx-auto px-2 sm:px-3">
         <div className="flex min-[1440px]:grid min-[1440px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 min-[1440px]:gap-3 min-[1600px]:gap-6 py-2">
           {/* Left nav */}
-          <nav className="hidden min-[1440px]:flex items-center justify-between min-[1440px]:pl-[45px] min-[1536px]:pl-[93px] min-[1600px]:pl-[125px] gap-1.5 flex-nowrap">
+          <nav className="hidden min-[1440px]:flex items-center justify-end gap-6 flex-nowrap">
             {LEFT.map(g => <NavItem key={g.label} g={g} align="left" />)}
           </nav>
 
@@ -275,7 +275,7 @@ export function Header() {
           <div className="flex-1 min-[1440px]:hidden" />
 
           {/* Center logo */}
-          <Link to="/" className="shrink-0 flex items-center justify-center px-2 md:px-3 min-[1440px]:px-4 py-1 mx-auto hover:opacity-95 transition-opacity">
+          <Link to="/" className="shrink-0 flex items-center justify-center px-2 md:px-3 min-[1440px]:!px-6 2xl:px-8 py-1 mx-auto hover:opacity-95 transition-opacity">
             <img
               src={resolveAssetUrl(logoAsset.url)}
               alt="ATME College of Engineering"
@@ -286,7 +286,7 @@ export function Header() {
 
           {/* Right side: nav + search + hamburger (desktop) */}
           <div className="hidden min-[1440px]:flex items-center justify-between gap-1.5">
-            <nav className="flex-1 flex items-center justify-between gap-1.5 flex-nowrap">
+            <nav className="min-[1440px]:-ml-[53px] 2xl:-ml-[71px] flex items-center justify-start gap-6 flex-nowrap">
               {RIGHT.map(g => <NavItem key={g.label} g={g} align="right" />)}
             </nav>
             <div className="flex flex-nowrap items-center gap-2 shrink-0">
