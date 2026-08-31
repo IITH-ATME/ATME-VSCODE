@@ -1259,6 +1259,14 @@ function renderAccordionTree(
 ) {
   return nodes.map((n, i) => {
     const key = `${keyPrefix}-${i}`;
+    // A body consisting of nothing but this sentinel comment (invisible —
+    // dropped by the markdown renderer) is an explicit authoring override:
+    // force the plain-divider treatment even though the batch/year-group
+    // heuristics below would otherwise promote this node to a clickable
+    // accordion (e.g. a heading whose children happen to be titled with
+    // year ranges, like "Sports Achievements" → "2025-2026"/"2024-2025").
+    const forceDivider = n.body.trim() === "<!-- divider -->";
+    const effectiveBody = forceDivider ? "" : n.body;
     const allChildrenAreBatches =
       n.children.length > 0 && n.children.every((c) => BATCH_TITLE_RE.test(c.title.trim()));
     const allChildrenHaveYearRange =
@@ -1270,6 +1278,7 @@ function renderAccordionTree(
         return NUMBERED_ITEM_RE.test(t) || REPORT_SUBSECTION_RE.test(t);
       });
     const isYearGroup =
+      !forceDivider &&
       !n.body.trim() &&
       n.children.length > 0 &&
       (YEAR_TITLE_RE.test(n.title.trim()) ||
@@ -1277,7 +1286,7 @@ function renderAccordionTree(
         allChildrenAreBatches ||
         allChildrenHaveYearRange ||
         allChildrenAreReportSubsections);
-    if (!alwaysAccordion && !n.body.trim() && n.children.length > 0 && !isYearGroup) {
+    if (!alwaysAccordion && !effectiveBody.trim() && n.children.length > 0 && !isYearGroup) {
       return (
         <div key={key} className="w-full space-y-3">
           <div className={level === 0 ? "pt-2 text-center" : "pt-1 text-center"}>
