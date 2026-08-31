@@ -551,9 +551,14 @@ function MD({ children }: { children: string }) {
             <table className={TABLE_CLS}>{children}</table>
           </div>
         ),
-        img: ({ src, alt }) => {
+        img: ({ src, alt, style, className }) => {
           const resolved = rewriteImageSrc(String(src || ""));
           if (!resolved) return null;
+          // Raw HTML <img style="..."> in the source markdown (rehypeRaw)
+          // opts an image out of the shared default look — used for one-off
+          // treatments (e.g. a circular bordered photo) that shouldn't apply
+          // to every image on every department page.
+          if (style) return <img src={resolved} alt={alt || ""} loading="lazy" style={style} className={className} />;
           return <img src={resolved} alt={alt || ""} loading="lazy" className="mx-auto my-6 block h-auto max-h-[420px] max-w-full rounded-lg border border-border bg-white object-contain" />;
         },
       }}
