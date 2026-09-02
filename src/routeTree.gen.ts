@@ -30,6 +30,7 @@ import { Route as LibraryRouteImport } from './routes/library'
 import { Route as IirsIsroNcRouteImport } from './routes/iirs-isro-nc'
 import { Route as HostelPolicyRouteImport } from './routes/hostel-policy'
 import { Route as EmployeeHandbookRouteImport } from './routes/employee-handbook'
+import { Route as CyberarmorRegistrationRouteImport } from './routes/cyberarmor-registration'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CircularsRouteImport } from './routes/circulars'
 import { Route as CareersRouteImport } from './routes/careers'
@@ -166,6 +167,11 @@ const HostelPolicyRoute = HostelPolicyRouteImport.update({
 const EmployeeHandbookRoute = EmployeeHandbookRouteImport.update({
   id: '/employee-handbook',
   path: '/employee-handbook',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CyberarmorRegistrationRoute = CyberarmorRegistrationRouteImport.update({
+  id: '/cyberarmor-registration',
+  path: '/cyberarmor-registration',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -337,6 +343,7 @@ export interface FileRoutesByFullPath {
   '/careers': typeof CareersRoute
   '/circulars': typeof CircularsRoute
   '/contact': typeof ContactRoute
+  '/cyberarmor-registration': typeof CyberarmorRegistrationRoute
   '/employee-handbook': typeof EmployeeHandbookRoute
   '/hostel-policy': typeof HostelPolicyRoute
   '/iirs-isro-nc': typeof IirsIsroNcRoute
@@ -390,6 +397,7 @@ export interface FileRoutesByTo {
   '/careers': typeof CareersRoute
   '/circulars': typeof CircularsRoute
   '/contact': typeof ContactRoute
+  '/cyberarmor-registration': typeof CyberarmorRegistrationRoute
   '/employee-handbook': typeof EmployeeHandbookRoute
   '/hostel-policy': typeof HostelPolicyRoute
   '/iirs-isro-nc': typeof IirsIsroNcRoute
@@ -444,6 +452,7 @@ export interface FileRoutesById {
   '/careers': typeof CareersRoute
   '/circulars': typeof CircularsRoute
   '/contact': typeof ContactRoute
+  '/cyberarmor-registration': typeof CyberarmorRegistrationRoute
   '/employee-handbook': typeof EmployeeHandbookRoute
   '/hostel-policy': typeof HostelPolicyRoute
   '/iirs-isro-nc': typeof IirsIsroNcRoute
@@ -500,6 +509,7 @@ export interface FileRouteTypes {
     | '/careers'
     | '/circulars'
     | '/contact'
+    | '/cyberarmor-registration'
     | '/employee-handbook'
     | '/hostel-policy'
     | '/iirs-isro-nc'
@@ -553,6 +563,7 @@ export interface FileRouteTypes {
     | '/careers'
     | '/circulars'
     | '/contact'
+    | '/cyberarmor-registration'
     | '/employee-handbook'
     | '/hostel-policy'
     | '/iirs-isro-nc'
@@ -606,6 +617,7 @@ export interface FileRouteTypes {
     | '/careers'
     | '/circulars'
     | '/contact'
+    | '/cyberarmor-registration'
     | '/employee-handbook'
     | '/hostel-policy'
     | '/iirs-isro-nc'
@@ -661,6 +673,7 @@ export interface RootRouteChildren {
   CareersRoute: typeof CareersRoute
   CircularsRoute: typeof CircularsRoute
   ContactRoute: typeof ContactRoute
+  CyberarmorRegistrationRoute: typeof CyberarmorRegistrationRoute
   EmployeeHandbookRoute: typeof EmployeeHandbookRoute
   HostelPolicyRoute: typeof HostelPolicyRoute
   IirsIsroNcRoute: typeof IirsIsroNcRoute
@@ -844,6 +857,13 @@ declare module '@tanstack/react-router' {
       path: '/employee-handbook'
       fullPath: '/employee-handbook'
       preLoaderRoute: typeof EmployeeHandbookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cyberarmor-registration': {
+      id: '/cyberarmor-registration'
+      path: '/cyberarmor-registration'
+      fullPath: '/cyberarmor-registration'
+      preLoaderRoute: typeof CyberarmorRegistrationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -1124,6 +1144,7 @@ const rootRouteChildren: RootRouteChildren = {
   CareersRoute: CareersRoute,
   CircularsRoute: CircularsRoute,
   ContactRoute: ContactRoute,
+  CyberarmorRegistrationRoute: CyberarmorRegistrationRoute,
   EmployeeHandbookRoute: EmployeeHandbookRoute,
   HostelPolicyRoute: HostelPolicyRoute,
   IirsIsroNcRoute: IirsIsroNcRoute,
