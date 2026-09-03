@@ -5462,8 +5462,10 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 ### Contact Details
 
 - **Official Email Id:** bhavyadechammaks.cs@atme.edu.in
+- **Vidwan ID:** https://vidwan.inflibnet.ac.in/664385
 - **Google Scholar Id:** –
 - **Scopus ID:** –
+- **Orcid ID:** https://orcid.org/0009-0005-8039-9174
 - **WoS ID:** https://www.webofscience.com/wos/author/record/PGL-6704-2026
 - **LinkedIn ID:** http://www.linkedin.com/in/bhavya-dechamma-ks
 
@@ -5626,9 +5628,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 **National**
 
-- Title: Design of Secure IoT Healthcare Architecture with Deep Learning based
-- Published/Granted: Published
-- Patent No: 202341017236
+- Title: Design of Secure IoT Healthcare Architecture with Deep Learning based. Published/Granted: Published. Patent No: 202341017236
 
 ### Roles and Responsibilities: Institute Level
 
@@ -8269,7 +8269,7 @@ _Nil_
   },
 
   "yashaswini-urs": {
-    name: "Ms Yashaswini",
+    name: "Ms Yashaswini Urs",
     url: "https://atme.edu.in/yashaswini-urs/",
     md: `### Professional Experience
 
@@ -9036,6 +9036,17 @@ _Nil_
 - **Scopus ID:** Scopus Author ID: 58643042500
 - **Orcid ID:** <https://orcid.org/0000-0002-0784-3161>
 - **LinkedIn ID:** <https://www.linkedin.com/in/padmaja-k-184a29185/>
+
+## Academic Details
+
+**Qualification**
+
+| Sl. No | Name of the Degree | College Pursued | University | Year of Passing |
+| --- | --- | --- | --- | --- |
+| 01 | PhD in Data Science | Christ University, Bangalore | Christ University, Bangalore | 08-Dec-2025 |
+| 02 | MTech in CSE | BIET, Davangere | VTU, Belagavi | 2015 |
+| 03 | BE in CSE | Bellary Engineering College, Bellary | VTU, Belagavi | 2005 |
+| 04 | Diploma in CSE | Govt Diploma College, Hubli | Board of Technical Educations, Bangalore | 2002 |
 
 ## Areas of Interest
 
