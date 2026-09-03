@@ -6963,7 +6963,11 @@ NPTEL:
 
 ### Honours/Awards/Achievements
 
-**Online Certifications/ Course completed**
+- Received “Best paper award” for presenting a paper entitled “Authorized Public Auditing of Dynamic Big-Data with fine-grained updates on cloud” in the National conference on advances in computer science & Engineering jointly organized by CENSA, ISTE & EWIT Bangalore on 29th and 30th April 2015.
+
+### FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**Online Certifications/ Course Completed**
 
 - Completed course on Udemy “GCP Associate Cloud Engineer- Google Cloud Certification” on July 9th
 - Completed course on Udemy “Patent Filing in India” June 4th
@@ -6975,9 +6979,6 @@ NPTEL:
 - Completed “python for everybody” course from coursera.
 - Completed Python for data science – Cognitive class.
 - Completed NITTT-Module1: Orientation towards technical education and curriculum aspects, Nov-Feb-2021.
-- Received “Best paper award” for presenting a paper entitled “Authorized Public Auditing of Dynamic Big-Data with fine-grained updates on cloud” in the National conference on advances in computer science & Engineering jointly organized by CENSA, ISTE & EWIT Bangalore on 29th and 30th April 2015.
-
-### FDPs/Conferences/Workshops/STTP/MOOC Certification
 
 **FDP**
 
