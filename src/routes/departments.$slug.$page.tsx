@@ -3079,7 +3079,7 @@ function DepartmentAboutView({
       {dept.hod && (dept.hod.message || dept.hod.messageBullets || dept.hod.quote) && (
         <section className="rounded-2xl border-2 border-[#f5c518] bg-[#129199]/5 p-4 sm:p-6 md:p-8 min-w-0">
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-6 items-center sm:items-start">
-            <div className="relative w-36 md:w-52 aspect-[3/4] rounded-xl overflow-hidden border-2 border-[#129199]/30 bg-white shrink-0 shadow-md">
+            <div className="relative w-36 md:w-52 aspect-[3/4] rounded-xl overflow-hidden bg-white shrink-0 shadow-md">
               {(() => {
                 const resolved = dept.hod.image ? rewriteImageSrc(dept.hod.image) : null;
                 return resolved ? (
@@ -3094,7 +3094,7 @@ function DepartmentAboutView({
                       const fallback = img.nextElementSibling as HTMLElement | null;
                       if (fallback) fallback.style.display = "grid";
                     }}
-                    className="absolute inset-0 h-full w-full object-cover"
+                    className="absolute inset-0 w-full aspect-[3/4] object-cover"
                   />
                 ) : null;
               })()}
@@ -3105,6 +3105,7 @@ function DepartmentAboutView({
               >
                 {dept.hod.name?.[0] ?? "?"}
               </div>
+              <div aria-hidden className="absolute inset-0 rounded-xl border-2 border-[#129199]/30 pointer-events-none" />
             </div>
             <div className="min-w-0 flex-1">
               <div className="text-center sm:text-left">
