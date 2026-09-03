@@ -5823,9 +5823,9 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
     url: "https://atme.edu.in/dr-putte-gowda-d/",
     md: `### Professional Experience
 
-- Teaching: 21
-- Research: 6
-- **Teaching:  21 Years:** Research: 6 Years | Industry: 2 Years
+- Teaching: 21 Years
+- Research: 6 Years
+- Industry: 2 Years
 
 ### Contact Details
 
@@ -5909,8 +5909,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 - BoS Member of Artificial Intelligence and Data Science, Mysore University School of Engineering, UoM, Mysore
 - BoE Member of Computer Science and Engineering Board, VTU, Belagavi.
 - Member of LIC Team , VTU 2021
-- Session Chair person for 3rd
-- National Conference on Image Processing, Computing, Communication, Networking and Data Analytics (NCICCNDA 2018) , GSSSIETW, Mysore
+- Session Chair person for 3rd National Conference on Image Processing, Computing, Communication, Networking and Data Analytics (NCICCNDA 2018), GSSSIETW, Mysore
 - Reviewer of International conference 4th International Conference on Emerging Research in Computing, Information, Communication and Applications (Springer) ERCICA 2016.
 - Session Chair for Zonal Level Paper Presentation Conducted by Vidya Vikash Institute of Technology, MYSURU.
 - Session Chair for Paper Presentation in State level symposium at ATME College of Engineering, MYSURU
@@ -6336,8 +6335,7 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 **Qualification**
 
-- M. Tech in Computer Science &amp;
-- Engineering
+- M. Tech in Computer Science &amp; Engineering
 - B.E in Information Science &amp; Engineering
 
 ### Areas of Interest
@@ -6363,15 +6361,14 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 
 - Life Member ISTE – LM127036
 - CSI MEMBER FOR 3 YEARS
-- HONOURS/AWARDS/
-- ACHIEVEMENTS
+
+### Honours/Awards/ Achievements
+
 - Got Best Teacher Award for the Year 2020
 
 ### FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- Raghuram A S, ”Python Application
-- Programming”, FDP in ATMECE, on 17th-21st
-- Jan 2018.
+- Raghuram A S, ”Python Application Programming”, FDP in ATMECE, on 17th-21st Jan 2018.
 - Attended fifteen days Faculty development Program on “Python” online organized by JSS.
 - Attended Five days FDP on “Universal Human Values” Organized by AICTE.
 - Attended Three days FDP on Mobile Application Development Lab online at BGSIT
@@ -6843,58 +6840,60 @@ NPTEL:
 ### MEMBERSHIP IN PROFESSIONAL BODIES
 
 - Life Member ISTE-LM 127038
-- HONOURS/AWARDS/
-- ACHIEVEMENTS
+
+### HONOURS/AWARDS/ACHIEVEMENTS
+
 - Awarded Best Paper Presentation in National conference, on “Enhanced Energy Efficiency Clustering for Wireless Sensor Networks” in BGSIT, Mandya, on May 19th, 2017.
-- Awarded Best Paper Presentation in 3rd National Conference NCICCNDA on “6Lowpan Network using Contiki Operating System” in GSSSIETW, Mysuru on April 28th , 2018.
-- Awarded
-- Best Teacher Award for the Academic Year 2022-23 by ATME College of Engineering, Mysuru, on Sept 20th , 2024.
-- FDPS/WORKSHOPS/STTP/MOOC CERTIFICATION
-- Five days FDP on &quot;Emerging AI Technologies: From Machine Learning To Generative AI&quot;, from 27-01- 2026 to 31-01-2026, organized by BGS College of Engineering and Technology (BGSCET), in collaboration with Neuriq Pvt Ltd, Bangalore (Online Mode).
-- 6-Day ATAL FDP on “Impact of Quantum Computing and GenAI towards AGI” at CHRIST DEEMED TO BE UNIVERSITY KENGERI CAMPUS from 16thto 21st June 2025.
-- 4-Day FDP on “Machine Learning Lab”
-- (Online Mode) from 05th08th
-- Feb 2025. (Online Mode) 5-Day FDP on “Advanced Research Methods & Data Analysis” from 20thto 24th
-- Jan 2025. (Online Mode) 3-Day FDP on “Full Stack Development”, organized by GSSSIETW, Mysuru during 23rdto 25th April 2024.
-- 5-Day FDP on “Introduction to Internet of Things (IoT)” from 17thto 21st April 2023 (Online Mode) 5-Day FDP on “Introduction to Web Programming” from 27thto 31st March 2023 (Online Mode) 5-Day FDP on “Contemporary Research Methodology and Latex for Research Documentation” , Organized by GSSSIETW, Mysuru from 20thto 24th July 2020 (Online Mode).
-- 1 week FDP on “E Contents and ICT Tools for Innovative and Effective Teaching”,
-- Organized by KS Jain Institute of Engineering and Technology, Modinagar, Ghaziabad, Lucknow, on 15thto 21st July 2020. (Online Mode) 6-Day FDP on “Pedagogical Training for Teachers on Tools for Online Teaching Learning and Evaluation” , organized by Swami Ramanand Teerth Marathwada University, Nanded, Maharashtra, from 01stto 06th July 2020. (Online Mode)
-- Two Weeks Online FDP on “Python”,
-- Organized by JSS Mahavidya peetha, JSS Academy of Technical Education, Noida, from 22nd June to 04th July 2020.
-- 5-Day FDP on “PhP & MySQL”, organized by Sridevi Women’s Engineering College, Hyderabad, from 8thto 12th June 2020. (Online Mode) 5-Day FDP on “NBA & NAAC Accrediation Process” , Organized by M.S Ramaiah Institute of Technology, Bengaluru, from 4thto 8th June 2020.
-- One day 2nd International Seminar on “Research and Innovation in Engineering and Technology (ISRIET)”, at GSSSIETW Mysuru,on 16th
-- Dec 2019.
-- 5-Day FDP on “Recent Advances in Machine Learning” in GSSSIETW, Mysuru on 17thto 21st July 2018.
-- 3-Day FDP on “Cryptography, Network Security and Cyber Law”, held at VVCE, Mysuru, on 22ndto 24th January 2018.
-- 5-Day FDP on “Python Application Programming”, at ATMECE Mysuru, on 17thto 21st January 2018.
-- 3-Day FDP on “ARM Cortex M3 Microcontrollers”, at ATMECE Mysuru on 14thto 16th December 2017.
-- Workshops 3-Day workshop on “Mobile Application Development” organized by SJB Institute of Technology from 15th to 17th March 2021 (Online Mode).
-- 1-Day National Level Workshop on “E Content Creation and Streaming using OBS Studio and Streamyard”
-- Organized by Flipschool.com on 19th July 2020. (Online Mode)
+- Awarded Best Paper Presentation in 3rd National Conference NCICCNDA on “6Lowpan Network using Contiki Operating System” in GSSSIETW, Mysuru on April 28th, 2018.
+- Awarded Best Teacher Award for the Academic Year 2022-23 by ATME College of Engineering, Mysuru, on Sept 20th, 2024.
+
+### FDPS/WORKSHOPS/STTP/MOOC CERTIFICATION
+
+**FDPs**
+
+- Five days FDP on "Emerging AI Technologies: From Machine Learning To Generative AI", from 27-01-2026 to 31-01-2026, organized by BGS College of Engineering and Technology (BGSCET), in collaboration with Neuriq Pvt Ltd, Bangalore (Online Mode).
+- 6-Day ATAL FDP on “Impact of Quantum Computing and GenAI towards AGI” at CHRIST DEEMED TO BE UNIVERSITY KENGERI CAMPUS from 16th to 21st June 2025.
+- 4-Day FDP on “Machine Learning Lab” (Online Mode) from 05th to 08th Feb 2025.
+- 5-Day FDP on “Advanced Research Methods & Data Analysis” from 20th to 24th Jan 2025. (Online Mode)
+- 3-Day FDP on “Full Stack Development”, organized by GSSSIETW, Mysuru during 23rd to 25th April 2024.
+- 5-Day FDP on “Introduction to Internet of Things (IoT)” from 17th to 21st April 2023 (Online Mode)
+- 5-Day FDP on “Introduction to Web Programming” from 27th to 31st March 2023 (Online Mode)
+- 5-Day FDP on “Contemporary Research Methodology and Latex for Research Documentation”, Organized by GSSSIETW, Mysuru from 20th to 24th July 2020 (Online Mode).
+- 1 week FDP on “E Contents and ICT Tools for Innovative and Effective Teaching”, Organized by KS Jain Institute of Engineering and Technology, Modinagar, Ghaziabad, Lucknow, on 15th to 21st July 2020. (Online Mode)
+- 6-Day FDP on “Pedagogical Training for Teachers on Tools for Online Teaching Learning and Evaluation”, organized by Swami Ramanand Teerth Marathwada University, Nanded, Maharashtra, from 01st to 06th July 2020. (Online Mode)
+- Two Weeks Online FDP on “Python”, Organized by JSS Mahavidya peetha, JSS Academy of Technical Education, Noida, from 22nd June to 04th July 2020.
+- 5-Day FDP on “PhP & MySQL”, organized by Sridevi Women’s Engineering College, Hyderabad, from 8th to 12th June 2020. (Online Mode)
+- 5-Day FDP on “NBA & NAAC Accrediation Process”, Organized by M.S Ramaiah Institute of Technology, Bengaluru, from 4th to 8th June 2020.
+- One day 2nd International Seminar on “Research and Innovation in Engineering and Technology (ISRIET)”, at GSSSIETW Mysuru, on 16th Dec 2019.
+- 5-Day FDP on “Recent Advances in Machine Learning” in GSSSIETW, Mysuru on 17th to 21st July 2018.
+- 3-Day FDP on “Cryptography, Network Security and Cyber Law”, held at VVCE, Mysuru, on 22nd to 24th January 2018.
+- 5-Day FDP on “Python Application Programming”, at ATMECE Mysuru, on 17th to 21st January 2018.
+- 3-Day FDP on “ARM Cortex M3 Microcontrollers”, at ATMECE Mysuru on 14th to 16th December 2017.
+
+**Workshops**
+
+- 3-Day workshop on “Mobile Application Development” organized by SJB Institute of Technology from 15th to 17th March 2021 (Online Mode).
+- 1-Day National Level Workshop on “E Content Creation and Streaming using OBS Studio and Streamyard”, Organized by Flipschool.com on 19th July 2020. (Online Mode)
 - One day Workshop on “R Language”, IIT Bombay in ATMECE, Mysuru on 17th December 2019.
 - One day Workshop on “Linux”, IIT Bombay in ATMECE, Mysuru on 23rd August 2019.
-- One day workshop on “Art of Counseling” in ATMECE, Mysuru, from 2ndto 9th July 2019.
+- One day workshop on “Art of Counseling” in ATMECE, Mysuru, from 2nd to 9th July 2019.
 - One day Workshop on “Python”, IIT Bombay in ATMECE, Mysuru on 22nd June 2019.
-- MOOC Certifications
-- Completed Swayam NPTEL Online Course Certification on“Machine learning using Python
-- Programming”
-- Jan – April 2025 (12 Week Course).
-- Completed Industrial Training in “Data Analytics using Spreadsheets”, Conducted by National Institute of Electronics and Information Technology (NIELIT), Gorakhpur, with ‘A’ Grade, from 21 st July to 04 th Aug 2025, 2 Weeks/30 hours. (Online Mode).
-- Completed Swayam NPTEL, INI Online Course Certification on“Introduction to Machine Learning” from July – Sept 2024 (8 Week Course).
-- Completed
-- “Introduction to Intellectual Property”, Swayam NPTEL, Jan-June 2024 (12 Week Course).
-- Completed
-- “Introduction to Internet of Things”, Swayam NPTEL, Jan-Apr 2024 (12 Week Course).
-- Completed 1 Course in NITTT, Module 7, “Creative Problem Solving, Innovation, and Meaningful R & D” , Dec 2023 to Feb 2024 (12 Week Course).
-- Completed
-- “Operating System Fundamentals” , Swayam NPTEL, July to Oct 2023 (12 Week Course).
-- Completed Swayam ARPIT Online Course Certification on“Pedagogical Innovations and Research Methodology”, from Nov 2019 to Jan 2020.
-- Completed four-week training on Module 1
-- “CCNA Routing and Switching: Introduction to Networks”, at ATME College of Engineering, Mysuru on 29th July 2019.
-- NITTT Courses 1. Module 1: “Orientation towards Technical Education and Curriculum Aspects”, 29 th March to 31 st May 2025, (8 Week Course).
-- 2. Module 2: “Professional Ethics and Sustainability”, 29 th March to 31 st May 2025, (8 Week Course) 3. Module 7: “Creative Problem Solving, Innovation, and Meaningful R &amp; D”, 01 st Oct 2023 to 30 th Nov 2023, (8 Week Course).
-- ROLES AND RESPONSIBILITIES:
-- INSTITUTE LEVEL
+
+**MOOC Certifications**
+
+- Completed Swayam NPTEL Online Course Certification on “Machine learning using Python Programming” Jan – April 2025 (12 Week Course).
+- Completed Industrial Training in “Data Analytics using Spreadsheets”, Conducted by National Institute of Electronics and Information Technology (NIELIT), Gorakhpur, with ‘A’ Grade, from 21st July to 04th Aug 2025, 2 Weeks/30 hours. (Online Mode).
+- Completed Swayam NPTEL, INI Online Course Certification on “Introduction to Machine Learning” from July – Sept 2024 (8 Week Course).
+- Completed “Introduction to Intellectual Property”, Swayam NPTEL, Jan-June 2024 (12 Week Course).
+- Completed “Introduction to Internet of Things”, Swayam NPTEL, Jan-Apr 2024 (12 Week Course).
+- Completed 1 Course in NITTT, Module 7, “Creative Problem Solving, Innovation, and Meaningful R & D”, Dec 2023 to Feb 2024 (12 Week Course).
+- Completed “Operating System Fundamentals”, Swayam NPTEL, July to Oct 2023 (12 Week Course).
+- Completed Swayam ARPIT Online Course Certification on “Pedagogical Innovations and Research Methodology”, from Nov 2019 to Jan 2020.
+- Completed four-week training on Module 1 “CCNA Routing and Switching: Introduction to Networks”, at ATME College of Engineering, Mysuru on 29th July 2019.
+- NITTT Courses: Module 1: “Orientation towards Technical Education and Curriculum Aspects”, 29th March to 31st May 2025, (8 Week Course); Module 2: “Professional Ethics and Sustainability”, 29th March to 31st May 2025, (8 Week Course); Module 7: “Creative Problem Solving, Innovation, and Meaningful R &amp; D”, 01st Oct 2023 to 30th Nov 2023, (8 Week Course).
+
+### ROLES AND RESPONSIBILITIES: INSTITUTE LEVEL
+
 - AVR Asst. Admin
 
 ### ROLES AND RESPONSIBILITIES: DEPARTMENT LEVEL
@@ -6961,29 +6960,27 @@ NPTEL:
 ### Membership in Professional Bodies
 
 - Indian Society for Technical Education (LM 116853)
-- Honours/Awards/
-- Achievements
-- Online Certifications/ Course completed
+
+### Honours/Awards/Achievements
+
+**Online Certifications/ Course completed**
+
 - Completed course on Udemy “GCP Associate Cloud Engineer- Google Cloud Certification” on July 9th
-- Completed course on Udemy“Patent Filing in India” June 4th
-- Completed NPTEL EXAM “Big Data computing
-- “ 8 Week course Aug-Oct 2024.
-- Completed NPTEL EXAM “IOT “12 week course
-- Jul-Oct-2024
-- Completed NPTEL EXAM “Cloud Computing “12 week course
-- Jul-Oct-2023
+- Completed course on Udemy “Patent Filing in India” June 4th
+- Completed NPTEL EXAM “Big Data computing” 8 Week course Aug-Oct 2024.
+- Completed NPTEL EXAM “IOT” 12 week course Jul-Oct-2024
+- Completed NPTEL EXAM “Cloud Computing” 12 week course Jul-Oct-2023
 - Cleared NPTEL EXAM Feb 2020- “Pedagogical Innovations And Research Methodology (Interdisciplinary).
-- Completed “Cyber security “course from Amity University.
-- Completed “python for everybody “course from coursera.
+- Completed “Cyber security” course from Amity University.
+- Completed “python for everybody” course from coursera.
 - Completed Python for data science – Cognitive class.
-- Completed
-- NITTT-Module1 : Orientation towards technical education and curriculum aspects, Nov-Feb-2021.
-- Received
-- “Best paper award” for presenting a paper entitled “Authorized Public Auditing of Dynamic Big-Data with fine-grained updates on cloud” in the National conference on advances in computer science & Engineering jointly organized by CENSA, ISTE & EWIT Bangalore on 29thand 30th April 2015.
+- Completed NITTT-Module1: Orientation towards technical education and curriculum aspects, Nov-Feb-2021.
+- Received “Best paper award” for presenting a paper entitled “Authorized Public Auditing of Dynamic Big-Data with fine-grained updates on cloud” in the National conference on advances in computer science & Engineering jointly organized by CENSA, ISTE & EWIT Bangalore on 29th and 30th April 2015.
 
 ### FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- FDP
+**FDP**
+
 - Attended one week FDP on on “Impact of Quantum Computing and GenAI towards AGI” at CHRIST DEEMED TO BE UNIVERSITY KENGERI CAMPUS from 16/06/2025 to 21/06/2025.
 - Attended Five day Faculty development program on “Cyber security awareness and emerging technologies for secure social media and banking applications” from 10thto 14th March 2025 organized by Dept of ECE at ATME College of Engineering, Mysuru.
 - Attended Three day Faculty development program on “AI, ML& DL in the data evolution era : Progress & Applications
@@ -6996,7 +6993,9 @@ NPTEL:
 - Three days FDP on “Importance of NAAC Accreditation in Higher Education Institutions” from 09-11-2020 to 11-11-2020 organized by ATME College of Engineering, Mysuru.
 - Attended three days Faculty Development Programme on “AICTE Exam reforms- An Overview” from 27-8-2020 to 29-8-2020 at ATMECE , Mysore.
 - Attended Six days National Level FDP on “Moodle and E -Content Creation “from 27-7-2020- to 1-8-2020 , organized by CIT , Coorg.
-- Webinars
+
+**Webinars**
+
 - Technical Talk on “Natural Language Processing” organized by Department of Computer Science and Engineering, ATME College of Engineering , Mysuru ,on 30th September 2020.
 - Webinar on “Unlock your Data with Data Science” organized by Department of ComputerScience and Engineering under CSI Student Branch,, ATME College of Engineering, Mysuru, on 20.07.2020.
 - Webinar on “A Process Approach to Writing Research Articles-for Beginners” organized by the Research, Publication & Co-Curricular Activities Committee, ATME College of Engineering, Mysuru, held on 26th August 2021
@@ -7014,10 +7013,11 @@ NPTEL:
 
 ### Patent
 
-- **National:** International
-- **Title: Published/Granted: Patent No.:** Title: Published/Granted: Patent No.:
+- NIL
 
 ### Roles and Responsibilities: Institute Level
+
+- NIL
 
 ### Roles and Responsibilities: Department Level
 
@@ -7390,10 +7390,9 @@ NPTEL:
     url: "https://atme.edu.in/ms-rakshitha-n-m/",
     md: `### Professional Experience
 
-- Teaching: 1
+- Teaching: 1 Year
 - Research: Nil
 - Industry: 1 year
-- **Teaching:  1 Year:** Research:Nil | Industry: 1 year
 
 ### Contact Details
 
@@ -7424,50 +7423,10 @@ NPTEL:
 
 ### FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- CAUVERY COLLEGE GONIKOPPAL
-- Organized by:
-- Kamala institute of technology & science, singapur, Huzurabad, Karimnagar.
-- Theme:
-- Data visualization using Power BI
-- Mode:
-- Online
-- Duration: 5 Days (2nd– 6th August 2024)
-- Participation:
-- Successfully completed
-- COLLEGE OF ENGINEERING ( Maharashtra)
-- Organized by:
-- Dr. Vithalrao
-- Theme:
-- Augment Reality / Virtual Reality (AR/VR)
-- Mode:
-- Online
-- Duration: 7 Days (25TH
-- – 31ST August 2025)
-- Participation:
-- Successfully completed
-- JBIET
-- Organized by:
-- J B Institute of Engineering & Technology (JBIET), Hydrabad, Telangana.
-- Theme:
-- Cloud Computing
-- Mode:
-- Online
-- Duration: 5 Days (14TH
-- – 18ST July 2025)
-- Participation:
-- Successfully completedSJC
-- INSTITUTE OF TECHNOLOGY
-- Organized by:
-- Department of MBA & Research Centre, SJCIT(Chikkaballapur).
-- Theme:
-- Gen AI & Chat GPT Application in the Industry
-- Mode:
-- Online
-- Duration: 5 Days (27TH
-- – 31ST
-- Jan 2025)
-- Participation:
-- Successfully completed
+- CAUVERY COLLEGE GONIKOPPAL — Organized by: Kamala institute of technology & science, singapur, Huzurabad, Karimnagar. Theme: Data visualization using Power BI. Mode: Online. Duration: 5 Days (2nd–6th August 2024). Participation: Successfully completed.
+- COLLEGE OF ENGINEERING (Maharashtra) — Organized by: Dr. Vithalrao. Theme: Augment Reality / Virtual Reality (AR/VR). Mode: Online. Duration: 7 Days (25TH – 31ST August 2025). Participation: Successfully completed.
+- JBIET — Organized by: J B Institute of Engineering & Technology (JBIET), Hydrabad, Telangana. Theme: Cloud Computing. Mode: Online. Duration: 5 Days (14TH – 18ST July 2025). Participation: Successfully completed.
+- SJC INSTITUTE OF TECHNOLOGY — Organized by: Department of MBA & Research Centre, SJCIT (Chikkaballapur). Theme: Gen AI & Chat GPT Application in the Industry. Mode: Online. Duration: 5 Days (27TH – 31ST Jan 2025). Participation: Successfully completed.
 
 ### Honours/Awards/ Achievements
 
