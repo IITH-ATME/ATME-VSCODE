@@ -653,7 +653,6 @@ function RehostedPage() {
               <p className="font-semibold">For Remote Access! Users, please reach out to the library.</p>
               <p className="font-semibold pt-2">PRIYA R</p>
               <p>Librarian</p>
-              <p><span className="font-semibold">Phone No:</span> 8970331642</p>
               <p>
                 <span className="font-semibold">Email ID:</span>{" "}
                 <a href="mailto:library@atme.edu.in" className="text-[#129199] underline">

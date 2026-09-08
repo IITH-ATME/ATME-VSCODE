@@ -474,14 +474,19 @@ function ScrapedProfileContent({ facultyId, md: raw, isStaff }: { facultyId: str
 
     // Move cert/NPTEL/SWAYAM/MOOC items out of non-cert cards into the
     // FDPs/Certification card so "Certification Courses" only appears once.
+    // Honours/Awards/Achievements is excluded: an award or recognition that
+    // happens to name NPTEL/SWAYAM (e.g. "Recognized as NPTEL Discipline
+    // Star") is a genuine achievement, not a course certification, and must
+    // never be swept out of its own card just for mentioning the platform.
     const CERT_TITLE = "FDPs/Conferences/Workshops/STTP/MOOC Certification";
+    const HONOURS_TITLE = "Honours/Awards/Achievements";
     const isCertText = (t: string) =>
       /\b(NPTEL|SWAYAM|ARPIT|MOOC)\b/i.test(t) ||
       /on[\s-]?line\s+(courses?|nptel|swayam)/i.test(t) ||
       /\bcertification\s+course/i.test(t);
     const certBucket = byCanonical.get(CERT_TITLE) ?? [];
     for (const [title, bucket] of byCanonical) {
-      if (title === CERT_TITLE) continue;
+      if (title === CERT_TITLE || title === HONOURS_TITLE) continue;
       const keep: ProfileItem[] = [];
       for (const it of bucket) {
         if (isCertText(it.text) && !it.columns) {
@@ -884,7 +889,12 @@ function ExperienceTable({ items }: { items: ProfileItem[] }) {
 }
 
 function SectionItems({ items, proseClass, sectionTitle }: { items: ProfileItem[]; proseClass: string; sectionTitle?: string }) {
-  const sectionCoversCert = !!sectionTitle && /(certificat|FDP|workshop|MOOC|SWAYAM|NPTEL|conference)/i.test(sectionTitle);
+  // Honours/Awards/Achievements is also exempt: an award that happens to
+  // name NPTEL/SWAYAM/MOOC (e.g. "Recognized as NPTEL Discipline Star") is a
+  // genuine achievement, not a course certification, and must never be
+  // split out into a synthetic "Certification Courses" sub-group.
+  const sectionCoversCert =
+    !!sectionTitle && /(certificat|FDP|workshop|MOOC|SWAYAM|NPTEL|conference|honour|honor|award)/i.test(sectionTitle);
   // Publications Details and Patents get a yellow underline on every
   // hyperlink so citation links stand out.
   const isPublicationsSection = !!sectionTitle && /publications?\s*details|^patents$/i.test(sectionTitle);
