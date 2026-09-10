@@ -69,7 +69,7 @@ const extractFromCell = (cell: string): string | undefined => {
   }
 
   // bare URL
-  const url = c.match(/https?:\/\/[^\s)\]]+/i);
+  const url = c.match(/https?:\/\/[^\s)\]>]+/i);
   if (url) return url[0];
 
   // bare email
