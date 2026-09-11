@@ -1571,8 +1571,8 @@ He served as an **academic senate member of VTU from 2019 to 2022** and is a lif
 
 ## Professional Experience
 
-- **Teaching Experience:** 34 years
-- **Research Experience:** 20 years
+- **Teaching Experience:** 39 years
+- **Research Experience:** 29 years
 - **UG Projects Guided:** 80
 - **PG Projects Guided:** 10
 - **PhDs Awarded under VTU:** 6
@@ -3725,7 +3725,29 @@ const committeesBody = `
 | 8 | Ms. MADHU NAGRAJ | Member | 9742133691 |
 | 9 | Ms. UMME HANI SHARIF | Member | 9353748601 |
 | 10 | Ms. SHAMBAVI K A | Member | 7899950928 |
-| 11 | Ms. BHAVYA DECHAMMA | Member | 9483052115 |`;
+| 11 | Ms. BHAVYA DECHAMMA | Member | 9483052115 |
+
+#### [Research Publication & co - curricualr activites committee](/p/list-of-committees)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **Research Publication & co - curricualr activites committee** |
+| **Sl no** | **Name** | **Position** | **Contact Number** |
+| 1 | Dr. BHAGYASHREE S R | Chairperson |  |
+| 2 | Dr. SATHISH K R | Member Secretary |  |
+| 3 | Dr.VEERAPRATHAP V | Member |  |
+| 4 | Dr.MOHAN KUMAR K C | Member |  |
+| 5 | Dr. MAHESH LOHITH K S | Member |  |
+| 6 | Dr. PAVITHRA A C | Member |  |
+| 7 | Dr. KHATEEJA AMBAREEN | Member |  |
+| 8 | Dr. VINOD KUMAR P | Member |  |
+| 9 | Dr.SHILPA B L | Member |  |
+| 10 | Dr.OSCAR ABHISHEK | Member |  |
+| 11 | Dr. BASANTH KUMAR | Member |  |
+| 12 | Mrs.AKHILA C G | Member |  |
+| 13 | Mrs.KAVYASHREE S | Member |  |
+| 14 | Miss.SHAMBHAVI K A | Member |  |
+`;
 
 const clubsAssociationsBody = `
 ## Student Clubs at ATMECE

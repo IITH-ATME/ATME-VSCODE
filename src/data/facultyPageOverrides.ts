@@ -5266,8 +5266,8 @@ IEI, ISTE, IAENG, SEFI, ACCE, ASCE.
 ## Contact Details
 
 - **Email ID:** Official: [Dr.jayantkumararathod.cs@atme.edu.in](mailto:Dr.jayantkumararathod.cs@atme.edu.in)
-- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/650946>
-- **Google Scholar ID:** <https://scholar.google.com/citations?user=tF-H6BYAAAAJ&hl=en>
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/650946>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=f0s73s4AAAAJ&hl=en>
 - **Scopus ID:** <https://www.scopus.com/pages/authors/57189095746>
 - **Orcid ID:** <https://orcid.org/0000-0003-3127-391X>
 - **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/JVP-1919-2024>
