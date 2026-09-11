@@ -3257,7 +3257,7 @@ const committeesBody = `
 | 9 | Prof. GIRISH M | Member | 9964406640 |
 | 10 | Prof. ANUPAMA SHETTER | Member | 9738484396 |
 | 11 | Dr. SHILPA B L | Member | 9886893166 |
-| 12 | Prof. SHRUTHI H G | Member | 9538343733 |
+| 12 | Dr. SHRUTHI H G | Member | 9538343733 |
 | 13 | Mr. PRATHEEK P S | Alumni | 9482145565 |
 | 14 | Ms. V V RIYA VIJAY | Student Member | 9019868459 |
 | 15 | Prof. RAVIKUMAR S | Member Secretary | 9880543740 |
@@ -3637,7 +3637,7 @@ const committeesBody = `
 | 2 | Dr. SRINIVASA K | Member Secretary | 9945045415 |
 | 3 | Mr. CHANDRASHEKHAR C | Member | 9845115924 |
 | 4 | Mr. ROHITH S | Member | 9739866912 |
-| 5 | Mrs.SHRUTHI H G | Member | 9538787767 |
+| 5 | Dr. SHRUTHI H G | Member | 9538343733 |
 | 6 | Miss.POOJITHA S | Member | 6362505745 |
 | 7 | Miss.CLARA B | Member | 9901460788 |
 | 8 | Miss.SANDHYA G | Member | 7483298369 |
@@ -3718,7 +3718,7 @@ const committeesBody = `
 | 1 | Dr. BHAGYASHREE S R | Chairman | 9900110944 |
 | 2 | Mrs.  SHRILAKSHMI PRASAD | Member Secretary | 9663674218 |
 | 3 | Mrs. MYTHRI R | Member | 9482667395 |
-| 4 | Mrs. SHRUTHI H G | Member | 9538787767 |
+| 4 | Dr. SHRUTHI H G | Member | 9538343733 |
 | 5 | Mrs. DIVYA K | Member | 9620191619 |
 | 6 | Ms. RAKSHITHA V | Member | 9980476763 |
 | 7 | Ms. TANYA R | Member | 9380958387 |
