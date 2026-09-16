@@ -28,7 +28,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
         row("02", "BCS304", "OPERATING SYSTEMS", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS304/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS304/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS304/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS304/ppt.zip" }),
         row("03", "BCS305", "DATA STRUCTURES & APPLICATIONS", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS305/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS305/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS305/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS305/ppt.zip" }),
         row("04", "BCSL307A", "PROJECT MANAGEMENT WITH GIT", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL307A/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL307A/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL307A/notes-lab-manual.pdf", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL307A/ppt.pptx" }),
-        row("05", "BMATCS301", "-", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/course-module.zip", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/ppt.pdf" }),
+        row("05", "BMATCS301", "Probability, Distributions and Statistics", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/course-module.zip", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BMATCS301/ppt.pdf" }),
         row("06", "BCSL306", "DSA-LABORATORY", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL306/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL306/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL306/notes-lab-manual.pdf", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCSL306/ppt.pptx" }),
         row("07", "BCS303", "Digital Design and Computer Organization", { module: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS303/course-module.zip", lesson: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS303/lesson-plan.zip", notes: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS303/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/aiml/3rdsem/BCS303/ppt.zip" }),
       ],
@@ -127,8 +127,8 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "Academic Year 2026-27 (3rd Semester)",
       rows: [
-        row("01", "BCV305", "-", { module: "/pdfs/student-learning-2026-27/ce/3rdsem/BCV305/course-module.docx", lesson: "/pdfs/student-learning-2026-27/ce/3rdsem/BCV305/lesson-plan.docx" }),
-        row("02", "BCVL306", "-", { module: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/notes-lab-manual.pdf" }),
+        row("01", "BCV305", "Engineering Geology for Infrastructural Projects", { module: "/pdfs/student-learning-2026-27/ce/3rdsem/BCV305/course-module.docx", lesson: "/pdfs/student-learning-2026-27/ce/3rdsem/BCV305/lesson-plan.docx" }),
+        row("02", "BCVL306", "Building CAD and 3D Modelling Lab", { module: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ce/3rdsem/BCVL306/notes-lab-manual.pdf" }),
       ],
     },
     {
@@ -177,7 +177,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
     {
       heading: "Academic Year 2026-27 (3rd Semester)",
       rows: [
-        row("01", "BAIL307A", "-", { module: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/notes-lab-manual.zip" }),
+        row("01", "BAIL307A", "Exploratory Data Analysis Lab", { module: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ds/3rdsem/BAIL307A/notes-lab-manual.zip" }),
         row("02", "BCS301", "Mathematics for Computer Science", { module: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS301/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS301/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS301/notes-lab-manual.pdf", ppt: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS301/ppt.pdf" }),
         row("03", "BCS302", "Object Oriented Programming with JAVA", { module: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS302/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS302/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS302/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS302/ppt.zip" }),
         row("04", "BCS303", "Digital Design and Computer Organization", { module: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS303/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS303/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS303/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/ds/3rdsem/BCS303/ppt.zip" }),
