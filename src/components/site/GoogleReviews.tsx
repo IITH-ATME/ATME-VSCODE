@@ -1,4 +1,7 @@
-import { Star } from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
+import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { Reveal } from "./Reveal";
 import type { GoogleReviewsResult } from "@/lib/api/googleReviews.functions";
 
@@ -28,8 +31,85 @@ function StarRow({ rating, className = "h-4 w-4" }: { rating: number; className?
   );
 }
 
+function ReviewCard({ r }: { r: GoogleReviewsResult["reviews"][number] }) {
+  return (
+    <figure className="h-full rounded-2xl bg-white border-2 border-[#129199]/15 p-6 shadow-md flex flex-col relative overflow-hidden">
+      <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#129199] to-amber-400" />
+      <div className="flex items-center gap-3">
+        <div className="h-12 w-12 shrink-0 overflow-hidden rounded-full bg-gradient-to-br from-[#129199] to-amber-400 p-[2px]">
+          <div className="relative flex h-full w-full items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-[#129199] to-amber-400 text-white font-bold text-sm overflow-hidden">
+            <span aria-hidden>{r.author.split(" ").map((w) => w[0]).slice(0, 2).join("")}</span>
+            {r.authorPhoto && (
+              <img
+                src={r.authorPhoto}
+                alt={r.author}
+                loading="lazy"
+                referrerPolicy="no-referrer"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            )}
+          </div>
+        </div>
+        <div className="min-w-0">
+          {r.authorUri ? (
+            <a
+              href={r.authorUri}
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold leading-tight text-[#129199] text-sm hover:underline truncate block"
+            >
+              {r.author}
+            </a>
+          ) : (
+            <h4 className="font-semibold leading-tight text-[#129199] text-sm truncate">{r.author}</h4>
+          )}
+          <div className="flex items-center gap-1.5 mt-0.5">
+            <StarRow rating={r.rating} />
+            {r.relativeTime && <span className="text-[11px] text-foreground/50">{r.relativeTime}</span>}
+          </div>
+        </div>
+        <GoogleLogo className="h-5 w-5 ml-auto shrink-0" />
+      </div>
+      <blockquote className="mt-4 text-sm text-foreground/80 italic leading-relaxed relative pl-5 line-clamp-6">
+        <span className="absolute left-0 top-0 text-3xl leading-none text-[#129199]/70 font-serif">&ldquo;</span>
+        {r.text}
+      </blockquote>
+    </figure>
+  );
+}
+
 export function GoogleReviews({ data }: { data: GoogleReviewsResult | undefined }) {
   const reviews = data?.reviews ?? [];
+
+  const autoplayRef = useRef<ReturnType<typeof Autoplay> | null>(null);
+  if (autoplayRef.current === null) {
+    autoplayRef.current = Autoplay({ delay: 4500, stopOnInteraction: false, stopOnMouseEnter: true });
+  }
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: reviews.length > 1, align: "start" },
+    [autoplayRef.current],
+  );
+  const [selected, setSelected] = useState(0);
+  const [snapCount, setSnapCount] = useState(0);
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelected(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    setSnapCount(emblaApi.scrollSnapList().length);
+    onSelect();
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
+    return () => {
+      emblaApi.off("select", onSelect);
+      emblaApi.off("reInit", onSelect);
+    };
+  }, [emblaApi, onSelect]);
+
   if (reviews.length === 0) return null;
 
   const mapsUrl = data?.mapsUri || GOOGLE_MAPS_FALLBACK_URL;
@@ -63,55 +143,52 @@ export function GoogleReviews({ data }: { data: GoogleReviewsResult | undefined 
           </div>
         </Reveal>
 
-        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {reviews.map((r, i) => (
-            <Reveal key={r.id} delay={i * 80}>
-              <figure className="h-full rounded-2xl bg-white border-2 border-[#129199]/15 p-6 shadow-md hover:shadow-2xl hover:-translate-y-1 active:-translate-y-1 transition-all flex flex-col relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#129199] to-amber-400" />
-                <div className="flex items-center gap-3">
-                  <div className="h-12 w-12 shrink-0 overflow-hidden rounded-full bg-gradient-to-br from-[#129199] to-amber-400 p-[2px]">
-                    <div className="relative flex h-full w-full items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-[#129199] to-amber-400 text-white font-bold text-sm overflow-hidden">
-                      <span aria-hidden>{r.author.split(" ").map((w) => w[0]).slice(0, 2).join("")}</span>
-                      {r.authorPhoto && (
-                        <img
-                          src={r.authorPhoto}
-                          alt={r.author}
-                          loading="lazy"
-                          referrerPolicy="no-referrer"
-                          onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
-                          className="absolute inset-0 h-full w-full object-cover"
-                        />
-                      )}
-                    </div>
+        <Reveal delay={80}>
+          <div className="mt-12 relative">
+            <div className="overflow-hidden" ref={emblaRef}>
+              <div className="flex -ml-4">
+                {reviews.map((r) => (
+                  <div key={r.id} className="min-w-0 shrink-0 grow-0 basis-full sm:basis-1/2 lg:basis-1/3 pl-4">
+                    <ReviewCard r={r} />
                   </div>
-                  <div className="min-w-0">
-                    {r.authorUri ? (
-                      <a
-                        href={r.authorUri}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="font-semibold leading-tight text-[#129199] text-sm hover:underline truncate block"
-                      >
-                        {r.author}
-                      </a>
-                    ) : (
-                      <h4 className="font-semibold leading-tight text-[#129199] text-sm truncate">{r.author}</h4>
-                    )}
-                    <div className="flex items-center gap-1.5 mt-0.5">
-                      <StarRow rating={r.rating} />
-                      {r.relativeTime && <span className="text-[11px] text-foreground/50">{r.relativeTime}</span>}
-                    </div>
-                  </div>
-                  <GoogleLogo className="h-5 w-5 ml-auto shrink-0" />
+                ))}
+              </div>
+            </div>
+
+            {reviews.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  aria-label="Previous review"
+                  onClick={() => emblaApi?.scrollPrev()}
+                  className="absolute -left-3 sm:-left-5 top-1/2 -translate-y-1/2 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white hover:bg-[#129199]/5 text-[#129199] shadow-md border-2 border-[#f5c518]/60"
+                >
+                  <ChevronLeft className="h-5 w-5" />
+                </button>
+                <button
+                  type="button"
+                  aria-label="Next review"
+                  onClick={() => emblaApi?.scrollNext()}
+                  className="absolute -right-3 sm:-right-5 top-1/2 -translate-y-1/2 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white hover:bg-[#129199]/5 text-[#129199] shadow-md border-2 border-[#f5c518]/60"
+                >
+                  <ChevronRight className="h-5 w-5" />
+                </button>
+
+                <div className="mt-6 flex items-center justify-center gap-2">
+                  {Array.from({ length: snapCount }).map((_, i) => (
+                    <button
+                      key={i}
+                      type="button"
+                      aria-label={`Go to review ${i + 1}`}
+                      onClick={() => emblaApi?.scrollTo(i)}
+                      className={`h-2.5 rounded-full transition-all ${i === selected ? "w-6 bg-[#129199]" : "w-2.5 bg-[#129199]/25 hover:bg-[#129199]/50"}`}
+                    />
+                  ))}
                 </div>
-                <blockquote className="mt-4 text-sm text-foreground/80 italic leading-relaxed relative pl-5 line-clamp-6">
-                  <span className="absolute left-0 top-0 text-3xl leading-none text-[#129199]/70 font-serif">&ldquo;</span>
-                  {r.text}
-                </blockquote>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
+              </>
+            )}
+          </div>
+        </Reveal>
 
         <div className="mt-10 text-center">
           <a
