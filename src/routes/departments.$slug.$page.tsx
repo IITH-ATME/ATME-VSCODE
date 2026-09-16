@@ -159,6 +159,17 @@ export const Route = createFileRoute("/departments/$slug/$page")({
           placeholderTitle = pages[resKey].title || canon.label;
         }
       }
+      // Activities: a scraped/curated page can arrive under any of this
+      // canonical section's aliases after this route was first generated
+      // (e.g. newly added department activity content) — render it here
+      // instead of "Coming Soon" rather than requiring a URL change.
+      if (!placeholderMd && canonKey === "co-curricular") {
+        const actKey = canon.aliases.find((a) => pages[a]);
+        if (actKey) {
+          placeholderMd = pages[actKey].markdown || "";
+          placeholderTitle = pages[actKey].title || canon.label;
+        }
+      }
       // COE / Magazine / News Letter: pull from a department-specific
       // scrapedAll entry so every dept shows year-wise PDFs/accordions.
       if (!placeholderMd && (canonKey === "coe" || canonKey === "magazine" || canonKey === "news-letter")) {

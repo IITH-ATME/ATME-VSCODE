@@ -7,6 +7,109 @@
 export type FacultyPageOverride = { name: string; url: string; md: string };
 
 export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
+  "divya-p": {
+    name: "Divya P",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: -
+- Research: -
+- Industry: 11 years
+
+## Contact Details
+
+- **Email ID:** Official: [divyap.mba@atme.edu.in](mailto:divyap.mba@atme.edu.in)
+- **Vidwan ID:** -
+- **Google Scholar ID:** <https://scholar.google.com/citations?view_op=list_works&hl=en&user=Ha0JvRIAAAAJ>
+- **Scopus ID:** -
+- **Orcid ID:** <https://orcid.org/0009-0007-3890-395X>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <https://www.linkedin.com/in/divya-p-2975b344>
+
+## Academic Details
+
+- **Qualification**
+- **MBA** in Marketing and Finance
+- **BE** in Electrical and Electronics Engineering
+
+## Areas of Interest
+
+1. Teaching and training
+2. Personality development programs
+3. Public speaking
+4. Placement trainings
+
+## Publication Details
+
+**National**
+
+-
+
+**International**
+
+-
+
+## Membership in Professional Bodies
+
+-
+
+## Honours/Awards/Achievements
+
+**Honours**
+
+-
+
+**Awards**
+
+-
+
+**Achievements**
+
+1. Won several contests for Best Performance Awards at ICICI Prudential Life Insurance.
+2. Won Best Employee Award at ICICI Prudential for Mysore branch for Dec 2023.
+3. Consistently achieved and exceeded performance parameters at Amazon and ICICI Prudential Life Insurance.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+-
+
+**Conferences**
+
+-
+
+**Workshops**
+
+-
+
+**STTP**
+
+-
+
+**MOOC Certification**
+
+-
+
+## Proposal/Funding/Project Financial Assistance
+
+-
+
+## Patent
+
+**National:** -
+
+**International:** -
+
+## Roles and Responsibilities: Institute Level
+
+-
+
+## Roles and Responsibilities: Department Level
+
+-
+`,
+  },
   "dr-manjula-a-v": {
     name: "Dr. Manjula A V",
     url: "",

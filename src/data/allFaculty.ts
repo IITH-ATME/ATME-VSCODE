@@ -270,5 +270,6 @@ export const mbaAllFaculty: Faculty[] = [
   { id: "kavana-j", name: "Kavana J", designation: "Assistant Professor", qualification: "MBA, Pursuing PhD", doj: "18/05/2026", image: "/__l5e/assets-v1/e2f8710b-1e5f-4911-b053-99c907237972/Kavana-J.jpg", cvUrl: "/departments/mba/faculty/kavana-j" },
   { id: "sneha-m", name: "Sneha M", designation: "Assistant Professor", qualification: "MBA in Finance, KSET 2025", doj: "06/07/2026", image: "/images/mba/sneha-m.png", cvUrl: "/departments/mba/faculty/sneha-m" },
   { id: "kavya-p", name: "Kavya P", designation: "Attender", qualification: "SSLC", doj: "", image: "/images/uploads/2025/11/Kavya-P-1.jpg", cvUrl: "https://atme.edu.in/kavya-p/" },
+  { id: "divya-p", name: "Divya P", designation: "Assistant Professor", qualification: "MBA in Marketing and Finance, BE in Electrical and Electronics Engineering", doj: "10/09/2026", image: "/images/uploads/2026/09/divya-p-mba-faculty.png", cvUrl: "/departments/mba/faculty/divya-p" },
 ];
 export const mbaStaff: Faculty[] = [];
