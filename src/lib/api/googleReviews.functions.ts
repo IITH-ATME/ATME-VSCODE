@@ -5,7 +5,7 @@ import { createServerFn } from "@tanstack/react-start";
 // Requires GOOGLE_PLACES_API_KEY and GOOGLE_PLACE_ID in .env. The Places
 // API (New) returns at most 5 "most relevant" reviews per place — Google
 // does not allow requesting more, and there is no server-side rating
-// filter, so we filter to rating >= 4 with non-empty text after fetching.
+// filter, so we filter to rating >= 3 with non-empty text after fetching.
 //
 // The `reviews` field is billed under Places API's priciest SKU, so the
 // result is cached in-memory per Worker isolate to avoid re-fetching on
@@ -66,7 +66,7 @@ export const getGoogleReviews = createServerFn({ method: "GET" }).handler(
 
       const data = (await res.json()) as PlacesApiResponse;
       const reviews: GoogleReview[] = (data.reviews ?? [])
-        .filter((r) => typeof r.rating === "number" && r.rating >= 4 && !!r.text?.text?.trim())
+        .filter((r) => typeof r.rating === "number" && r.rating >= 3 && !!r.text?.text?.trim())
         .map((r) => ({
           id: r.name ?? crypto.randomUUID(),
           author: r.authorAttribution?.displayName?.trim() || "Google User",

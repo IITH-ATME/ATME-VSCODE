@@ -123,15 +123,6 @@ export function GoogleReviews({ data }: { data: GoogleReviewsResult | undefined 
             What People Say on Google
           </h2>
           <div className="mt-4 flex flex-col items-center justify-center gap-2">
-            {typeof data?.overallRating === "number" && (
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-foreground">{data.overallRating.toFixed(1)}</span>
-                <StarRow rating={data.overallRating} className="h-5 w-5" />
-                {typeof data.totalReviews === "number" && (
-                  <span className="text-sm text-foreground/60">({data.totalReviews.toLocaleString()} reviews)</span>
-                )}
-              </div>
-            )}
             <a
               href={mapsUrl}
               target="_blank"
