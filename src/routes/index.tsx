@@ -15,9 +15,12 @@ import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { EventCard } from "@/components/site/EventCard";
 import { SITE_EVENTS } from "@/data/siteEvents";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { GoogleReviews } from "@/components/site/GoogleReviews";
+import { getGoogleReviews } from "@/lib/api/googleReviews.functions";
 
 
 export const Route = createFileRoute("/")({
+  loader: async () => ({ googleReviews: await getGoogleReviews() }),
   head: () => ({
     meta: [
       { title: "ATME College of Engineering — Mysuru | VTU Affiliated" },
@@ -173,6 +176,7 @@ const journeySteps = [
 
 
 function Home() {
+  const { googleReviews } = Route.useLoaderData();
   const [tab, setTab] = useState<"ug" | "pg">("ug");
   const [newsFilter, setNewsFilter] = useState<Level>("all");
   const [playIntro, setPlayIntro] = useState(false);
@@ -658,6 +662,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <GoogleReviews data={googleReviews} />
 
     </Layout>
   );
