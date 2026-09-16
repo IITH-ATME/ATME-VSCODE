@@ -3854,6 +3854,446 @@ Object.assign(pageBodyOverrides, {
 
 
 
+// Correction: Ambika V's details/photo removed from the NSS committee
+// list and the IIRS-ISRO contact table per management request.
+const nssUnitBody = `
+[Skip to content](/p/nss-unit)
+
+[![ATME College of Engineering](/__l5e/assets-v1/4519b204-1c5c-4570-ad02-6e238e674849/ATME-Final-logo-copy.png)](/p/)
+
+## National Service Scheme (NSS) and Red Cross Unit
+
+#### [ABOUT NSS](/p/nss-unit)
+
+The **National Service Scheme** ( **NSS**) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji’s Centenary year, 1969. Aimed at developing student’s personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage. Today, NSS has more than 3.2 million student volunteers on its roll spread over 298 Universities and 42 (+2) Senior Secondary Councils and Directorate of Vocational Education all over the country. From its inception, more than 3.75 crore students from Universities, Colleges and Institutions of higher learning have benefited from the NSS activities, as student volunteers.
+
+National Service Scheme provides the students an opportunity to understand the community; identify its needs and problems as well as the solutions in which they can be involved by assuming social and civic responsibilities. NSS also provides students with the opportunity to apply their education in finding practical solutions to the problems faced by the individuals and the community at large. NSS aims at arousing social consciousness of the youth with an overall objective of personality development through community service. NSS enables students to participate in various programmes of social service and national development, and to help the community.
+
+#### [OBJECTIVES OF NSS](/p/nss-unit)
+
+- Understand the community in which they work
+- Understand themselves in relation to their community
+- Identify the needs and problems of the community and involve them in problem-solving
+- Develop among themselves a sense of social and civic responsibility
+- Utilize their knowledge in finding practical solutions to individual and community problems
+- Develop competence required for group-living and sharing of responsibilities
+- Gain skills in mobilizing community participation
+- Acquire leadership qualities and democratic attitudes
+- Develop capacity to meet emergencies and natural disasters and
+- Practice national integration and social harmony
+
+#### [NSS, RED CROSS & SOCIAL OUTREACH COMMITTEE LIST](/p/nss-unit)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **Sl. No.** | **Name** | **Position** | **Contact Details** |
+| 1 | Dr. Srinivasa K | Chairman | 9945045415 |
+| 2 | Mr. Rudresh A N | Member Secretary | 9743580290 |
+| 3 | Dr. Madhusudhan K V | Member | 8904516386 |
+| 4 | Dr. Muralidhar M P | Member | 9611551921 |
+| 5 | Dr. Hussana Johar | Member | 9740315252 |
+| 6 | Mr. Manjunath K | Member | 9738403734 |
+| 7 | Mrs. Shruthi H G | Member | 9538343733 |
+| 8 | Ms. Swathi C A | Member | 8310818925 |
+| 9 | Mr. Raghu | Member | 8970425914 |
+| 10 | Ms. Darshini Gowda | Member | 8904801598 |
+| 11 | Mrs. Kavyashree E D | Member | 7259488108 |
+
+#### [ROLES AND RESPONSIBILITIES OF COMMITTEE MEMBERS](/p/nss-unit)
+
+- Development of short-, medium- and long-term plans, programmes and activities in-line with the overall strategic plan and relevant policies of the Indian Red Cross Society and NSS
+- To plan for yearlong events before the commencement of the semester
+- Updating the upcoming events on the website.
+- To give the annual budget to meet the yearlong expenditure.
+- To make necessary recommendations to the Executive Committee to implement IRCS (Indian Red Cross Society) Junior/Youth development programmes.
+- To suggest a theme annually to focus Youth Red Cross activities for that year.
+- Conduct community reach programme and maintain expenditure,
+- To submit the minutes of its meetings to the Managing Body. Maintain the record of volunteers, project activity reports, and Blood donors directory.
+- Sending the report to local newspapers and to the College magazine after the conduction of Each and every event.
+
+#### [NSS STUDENT COORDINATORS](/p/nss-unit)
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **Sl. No.** | **Name** | **Department** | **Position** |
+| 1 | Harshith B N | ECE | Co-ordinator |
+| 2 | Teaswini D | ECE | Co-ordinator |
+| 3 | Chandana D N | DS | Co-ordinator |
+| 4 | Lahiya Fathima Ahmed | DS | Co-ordinator |
+| 5 | Dhanush H | CSE | Co-ordinator |
+| 6 | Jeevitha R | CSE | Co-ordinator |
+| 7 | Sadiq Ahmed | CSE | Co-ordinator |
+| 8 | Saniya Khalid | CSE | Co-ordinator |
+| 9 | Chiranth N | CV | Co-ordinator |
+| 10 | Raju S R | ME | Co-ordinator |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2025-26](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Nasha Mukt Bharat Abhiyaan | 13th August 2025 | NSS | [Link](/pdfs/nss/1-Nasha-Mukt-Bharat-Abhiyaan-Report.pdf) |
+| 2 | Sadbhavana Diwas | 20th August 2025 | NSS | [Link](/pdfs/nss/2-Sadbhavana-Diwas-Report.pdf) |
+| 3 | Health Check-up Camp | 24th September 2025 | Red-Cross | [Link](/pdfs/nss/3-Health-Check-up-Camp-Report.pdf) |
+| 4 | Environmental Awareness Programme | 27th October 2025 | NSS | [Link](/pdfs/nss/4-Environmental-Awareness-Programme-Report.pdf) |
+| 5 | Rashtriya Ekta Diwas | 31st October 2025 | NSS | [Link](/pdfs/nss/5-Rashtriya-Ekta-Diwas-Report.pdf) |
+| 6 | Constitution Day | 26th November 2025 | NSS | [Link](/pdfs/nss/6-Constitution-Day-Report.pdf) |
+| 7 | Blood Donation | 26th November 2025 | Red-Cross | [Link](/pdfs/nss/7-Blood-Donation-Report.pdf) |
+| 8 | Fit Mysuru – Marathon | 11th January 2026 | NSS | [Link](/pdfs/nss/8-Fit-Mysuru-Marathon-Report.pdf) |
+| 9 | Chiguru | 8th February 2026 | NSS | [Link](/pdfs/nss/9-Chiguru-Report.pdf) |
+| 10 | Child Health Awareness Session | 12th February 2026 | NSS | [Link](/pdfs/nss/10-Child-Health-Awareness-Session-Report.pdf) |
+| 11 | Blood Donation and Health Check-up Camp | 8th April 2026 | Red-Cross | [Link](/pdfs/nss/11-Blood-Donation-and-Health-Check-up-Camp-Report.pdf) |
+| 12 | World No Tobacco Day | 31st May 2026 | NSS | [Link](/pdfs/nss/12-World-No-Tobacco-Day-Report.pdf) |
+| 13 | International Yoga Day | 22nd June 2026 | NSS | [Link](/pdfs/nss/13-International-Yoga-Day-Report.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2024-25](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | World Environment Day | 24th June 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/Environment-Day-Sapling-Plantation-Drive.pdf) |
+| 2 | Clean Drive | 14th June 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/Clean-drive-report.pdf) |
+| 3 | Blood Donation and Heart Health Check-up Camp | 15th May 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/Blood-donation-report.pdf) |
+| 4 | Healthy and strong with plants | 2nd April 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/1.-Healthy-and-strong-with-plants-Report.pdf) |
+| 5 | Palliative Care orientation | 29 March 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/2.-Palliative-Care-Report.pdf) |
+| 6 | World Water Day | 28 March 2025 | NSS | [Link](/pdfs/nss/2024-25/3.-World-Water-Day-Report.pdf) |
+| 7 | Food Planet Health | 26 March 2025 | Red-Cross | [Link](/pdfs/nss/2024-25/4.-Food-Planet-Health-Report.pdf) |
+| 8 | National Science Day | 28 February 2025 | NSS | [Link](/pdfs/nss/2024-25/5.-National-Science-Day.pdf) |
+| 9 | Cardio Pulmonary Resuscitation –  Life Saving Workshop | 10 November 2024 | NSS | [Link](/pdfs/nss/2024-25/6.-CPR.pdf) |
+| 10 | National Unity Day | 30 October 2024 | NSS | [Link](/pdfs/nss/2024-25/7-Unity-Day.pdf) |
+| 11 | Memory Walk | 21 September 2024 | NSS | [Link](/pdfs/nss/2024-25/8.-Memory-Walk.pdf) |
+| 12 | International Day of Democracy | 15 September 2024 | NSS | [Link](/pdfs/nss/2024-25/9.-Democracy-Day.pdf) |
+| 13 | Namma Nadige Aroghyadedege<br>Awareness on Alzheimer’s disease | 12 September 2024 | NSS | [Link](/pdfs/nss/2024-25/10.-Namma-Nadige-Arogydedege.pdf) |
+| 14 | Inner wheel cancer detection camp | 28 & 29 August 2024 | Red-Cross | [Link](/pdfs/nss/2024-25/11.-Inner-wheel-cancer-detection-camp.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2023-24](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Blood Donation Camp | 11 May 2024 | NSS | [Link](/pdfs/nss/2023-24/Blood-donation-report.pdf) |
+| 2 | Golden Jubilee Walkathon | 10 Mar 2024 | NSS | [Link](/pdfs/nss/2023-24/Golden-Jubilee-Year-report-10.03.24.pdf) |
+| 3 | Republic day | 26 Jan 2024 | NSS | [Link](/pdfs/nss/2023-24/Republic-day-report-26.04.24.pdf) |
+| 4 | National Voters Day | 25 Jan 2024 | NSS | [Link](/pdfs/nss/2023-24/National-voters-day-report-25.01.24.pdf) |
+| 5 | National Youth Day | 18 Jan 2024 | NSS | [Link](/pdfs/nss/2023-24/Youth-day-report-18.01.24.pdf) |
+| 6 | Awareness Program on Crime Prevention Month – 2023 | 13 Dec 2023 | NSS | [Link](/pdfs/nss/2023-24/Crime-prevention-awareness.pdf) |
+| 7 | Awareness Program on Voters Day | 08 Dec 2023 | NSS | [Link](/pdfs/nss/2023-24/Voters-awareness.pdf) |
+| 8 | Health Check-Up Camp | 05 Dec 2023 | Red-Cross | [Link](/pdfs/nss/2023-24/Health-check-up.pdf) |
+| 9 | Blood Donation Camp | 04 Dec 2023 | Red-Cross | [Link](/pdfs/nss/2023-24/Blood-donation.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2022-23](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Blood Donation camp | 18 Aug 2023 | Red-Cross | [Link](/pdfs/nss/2022-23/Blood-donation-report-18.8.23.pdf) |
+| 2 | Independence day | 15 Aug 2023 | NSS | [Link](/pdfs/nss/2022-23/Independence-day-report-15.08.23.pdf) |
+| 3 | Study kit distribution | 22 Jul 2023 | NSS | [Link](/pdfs/nss/2022-23/Study-kit-report.pdf) |
+| 4 | Clean drive at Chamundi hills | 23 Jun 2023 | NSS | [Link](/pdfs/nss/2022-23/Clean-drive-report.pdf) |
+| 5 | International Yoga day-2023 | 21 Jun 2023 | NSS | [Link](/pdfs/nss/2022-23/Yoga-day-21.6.23.pdf) |
+| 6 | World Environment day-2023 | 05 Jun 2023 | NSS | [Link](/pdfs/nss/2022-23/Environmental-day-report.pdf) |
+| 7 | Blood donation camp | 14 Mar 2023 | Red-Cross | [Link](/pdfs/nss/2022-23/Blood-donation-report.pdf) |
+| 8 | NSS Camp | 27 Feb to 3 March 2022 | NSS & Red-Cross | [Link](/pdfs/nss/2022-23/NSS-Camp-Report.pdf) |
+| 9 | Chiguru Cultural event | 19 Feb 2023 | NSS | [Link](/pdfs/nss/2022-23/Chiguru-report-report.pdf) |
+| 10 | Wall paint | 17 and 18 Dec 2022 | NSS | [Link](/pdfs/nss/2022-23/Wall-paint-report-report.pdf) |
+| 11 | Constitution day | 26 Nov 2022 | NSS | [Link](/pdfs/nss/2022-23/Constitution-day-report-report.pdf) |
+| 12 | Unity Day Celebration | 31 Oct 2022 | NSS | [Link](/pdfs/nss/2022-23/Unity-day-report-report.pdf) |
+| 13 | Koti Kanta Gayana | 28 Oct 2022 | NSS | [Link](/pdfs/nss/2022-23/Koti-kanta-gayana-report.pdf) |
+| 14 | Global Hand washing Day | 15 Oct 2022 | NSS | [Link](/pdfs/nss/2022-23/Global-handwash-report.pdf) |
+| 15 | Traffic Management  during Dasara Festival | 28 Sep to 5 Oct 2022 | NSS | [Link](/pdfs/nss/2022-23/Traffic-management-report.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2021-22](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | 75th Independence day celebration | 15 Aug 2022 | NSS | [Link](/pdfs/nss/2021-22/1.-Independence-day-report.pdf) |
+| 2 | International Yoga Day | 21 Jun 2022 | NSS | [Link](/pdfs/nss/2021-22/2.-yoga-day-report.pdf) |
+| 3 | Be a Blood Donor, be a Hero – Blood donation camp | 13 Jun 2022 | Red-Cross | [Link](/pdfs/nss/2021-22/3.-Blood-donation-report.pdf) |
+| 4 | Marathon – Run to plant | 12 Jun 2022 | NSS | [Link](/pdfs/nss/2021-22/4.-marathon-report.pdf) |
+| 5 | Eye Camp | 9 and 10 May 2022 | Red-Cross | [Link](/pdfs/nss/2021-22/5.-Faculty-eye-test-report.pdf) |
+| 6 | Eye Camp | 23 Feb 2022 | Red-Cross | [Link](/pdfs/nss/2021-22/6.-Students-and-Faculty-eye-test-report.pdf) |
+| 7 | National Voter’s Day – 2022 | 25 Jan 2022 | NSS | [Link](/pdfs/nss/2021-22/7.-Voters-day-report.pdf) |
+| 8 | Webinar on Patriotism and Moral Education | 21 Jan 2022 | NSS | [Link](/pdfs/nss/2021-22/8.-Webinar-Report.pdf) |
+| 9 | NMMS (National Means-Cum-Merit) training program | 17 Dec 2021 | NSS | [Link](/pdfs/nss/2021-22/9.-NMMS-report.pdf) |
+| 10 | Study kit distribution to Govt. school students | 3 and 7 Dec 2021 | NSS | [Link](/pdfs/nss/2021-22/10.-Volunteer-support-for-School-Kit-distribution-for-Government-School-Students.pdf) |
+| 11 | National Pollution Control Day | 2 Dec 2021 | NSS | [Link](/pdfs/nss/2021-22/11.-National-Pollution-control-Day.pdf) |
+| 12 | Orientation Program by Youth for Seva | 23 Nov 2021 | NSS | [Link](/pdfs/nss/2021-22/12.-Youth-for-Seva-Orientation-Program.pdf) |
+| 13 | NSS Camp | 27 Sep to 1 Oct 2021 | NSS & Red-Cross | [Link](/pdfs/nss/2021-22/13.-NSS-Camp-at-Biligere-Hundi-Village.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2020-21](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Conduction of SSLC Examination | 19 & 22 Jul 2021 | NSS | [Link](/pdfs/nss/2020-21/1.-Self-Volunteering-for-Conduction-of-SSLC-Examination-under-Covid-19-Pandemic-Situation.pdf) |
+| 2 | Vaccination drive | 30 Jun 2021 | NSS | [Link](/pdfs/nss/2020-21/2.-Covid-19-Vaccination-Drive.pdf) |
+| 3 | Covid Care and Covid Mitra | 16 May to 6 Jun 2022 | NSS | [Link](/pdfs/nss/2020-21/3.-Covid-care-report.pdf) |
+| 4 | Covid-19 RTPCR test for Students | 7 Jan 2021 | NSS | [Link](/pdfs/nss/2020-21/4.-Covid-19-RTPCR-Test-Drive.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2019-20](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | NSS Camp | 9 to 13 Mar 2020 | NSS & Red-Cross | [Link](/pdfs/nss/2019-20/1.-NSS-Camp-at-Dinka-village.pdf) |
+| 2 | Blood donation, Eye and Dental Check-up camp | 11 Mar 2020 | Red-Cross | [Link](/pdfs/nss/2019-20/2.-Voluntary-Blood-Donation.pdf) |
+| 3 | Marathon – Run for Wild | 1 Mar 2020 | NSS | [Link](/pdfs/nss/2019-20/3.-Run-for-Wild.pdf) |
+| 4 | Swachh Bharath Abhiyan Awareness | 15 Oct 2019 | NSS | [Link](/pdfs/nss/2019-20/4.-Swachh-Bharath-Abhiyan-Awareness-Computer-Science-Department.pdf) |
+| 5 | Traffic Awareness and Traffic Rules | 20 Aug 2019 | NSS | [Link](/pdfs/nss/2019-20/5.-Traffic-awareness-and-traffic-rules.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2018-19](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Environmental Day celebration | 21 Jun 2019 | NSS | [Link](/pdfs/nss/2018-19/1.-Environmental-Day-celebration.pdf) |
+| 2 | Blood donation camp | 11 Apr 2019 | Red-Cross | [Link](/pdfs/nss/2018-19/2.-Voluntary-Blood-Donation-1.pdf) |
+| 3 | Marathon – Run for Hope | 24 Apr 2019 | NSS | [Link](/pdfs/nss/2018-19/3.-Run-for-Hope.pdf) |
+| 4 | Ayudh – Motivational Program | 16 Nov 2018 | NSS | [Link](/pdfs/nss/2018-19/4.-Ayudh.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2017-18](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Marathon – Run for Vision | 21 Mar 2018 | NSS | [Link](/pdfs/nss/2017-18/1.-Run-for-Vision.pdf) |
+| 2 | Blood donation and Eye Check-up camp | 16 Mar 2018 | Red-Cross | [Link](/pdfs/nss/2017-18/2.-Voluntary-Blood-Donation-2.pdf) |
+| 3 | Swachhata Pakhwada | 7 Sep 2017 | NSS | [Link](/pdfs/nss/2017-18/3.-Swachh-Bharath-Abhiyan-Awareness-Computer-Science-Department.pdf) |
+
+#### [NSS & RED-CROSS ACTIVITIES: AY: 2016-17](/p/nss-unit)
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Sl No** | **Activity** | **Date** | **Organizing Unit** | **Report Links** |
+| 1 | Blood donation and Eye Check-up camp | 24 Apr 2017 | Red-Cross | [Link](/pdfs/nss/2016-17/1.-Voluntary-Blood-Donation.pdf) |
+| 2 | Marathon – Run for Amar Jawan | 23 Apr 2017 | NSS | [Link](/pdfs/nss/2016-17/2.-Run-for-Amar-Jawan.pdf) |
+| 3 | Plantation at Govt High School, Harohalli | 6 Jan 2017 | NSS | [Link](/pdfs/nss/2016-17/3.-Plantation-at-Govt-High-School.pdf) |
+| 4 | Swachh Bharath Abhiyan Awareness | 19 Nov 2016 | NSS | [Link](/pdfs/nss/2016-17/4.-Swachh-Bharath-Abhiyan-Awareness.pdf) |
+| 5 | Swachh Bharath Abhiyan Awareness | 12 Nov 2016 | NSS | [Link](/pdfs/nss/2016-17/5.-Swachh-Bharath-Abhiyan-Awareness-Computer-Science-Department.pdf) |
+| 6 | Swachh Bharath Abhiyan Awareness | 10 Nov 2016 | NSS | [Link](/pdfs/nss/2016-17/6.-Swachh-Bharath-Abhiyan-Awareness-Civil-Engineering-Department.pdf) |
+| 7 | Swachh Bharath Abhiyan Awareness | 8 Nov 2016 | NSS | [Link](/pdfs/nss/2016-17/7.-Swachh-Bharath-Abhiyan-Awareness_EEE.pdf) |
+| 8 | Tribute to Freedom Fighters and Martyr’s | 19 Aug 2016 | NSS | [Link](/pdfs/nss/2016-17/8.-Tribute-to-Freedom-Fighters-and-Martyrs.pdf) |
+
+Social media & sharing icons powered by [UltimatelySocial](https://www.ultimatelysocial.com/?utm_source=usmplus_settings_page&utm_campaign=credit_link_to_homepage&utm_medium=banner)
+
+[![Facebook](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_facebook.png)](https://www.facebook.com/atmeceofficial/)
+
+[![Facebook](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_fb/icon_Visit_us_en_US.png)](https://www.facebook.com/atmeceofficial/)
+
+Facebook
+
+[![fb-share-icon](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/fb_icons/en_US.svg)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fatme.edu.in%2Fnss-unit)
+
+[![X (Twitter)](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_twitter.png)](https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09)
+
+[![Visit Us](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_twitter/icon_Visit_us_en_US.png)](https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09)
+
+[![Follow Me](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/Twitter_Follow/en_US_Follow.svg)](https://twitter.com/intent/user?screen_name=ATMECE)
+
+[![YouTube](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_youtube.png)](https://youtube.com/c/ATMECEOfficial)
+
+[![YouTube](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_youtube/icon_Visit_us_en_US.svg)](https://youtube.com/c/ATMECEOfficial)
+
+Set Youtube Channel ID
+
+[![LinkedIn](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_linkedin.png)](https://www.linkedin.com/school/atme-college-of-engineering)
+
+[![LinkedIn](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_linkedin/icon_en_US.svg)](https://www.linkedin.com/school/atme-college-of-engineering)
+
+[![Share](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/Linkedin_Share/en_US_share.svg)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fatme.edu.in%2Fnss-unit)
+
+[![Instagram](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_instagram.png)](https://instagram.com/atmeceofficial?igshid=1i2yw9rjl46r4)`;
+
+const iirsIsroNcBody = `
+[Skip to content](/p/iirs-isro-nc)
+
+[![ATME College of Engineering](/__l5e/assets-v1/4519b204-1c5c-4570-ad02-6e238e674849/ATME-Final-logo-copy.png)](/p/)
+
+## IIRS-ISRO NC
+
+#### [General Information](/p/iirs-isro-nc)
+
+## ATME College of Engineering is listed as one of the nodal centre to conduct online courses offered by IIRS-ISRO Dehradun.
+
+Adding yet another feather to its cap, ATME College of Engineering is listed as one of the nodal centre to conduct online courses offered by IIRS-ISRO Dehradun on 1st July 2020. Being a nodal centre, ATME CE will **facilitate Students, Faculties, Research Scholars and Engineering Professionals** to attend live courses/sessions delivered by experts from IIRS. The participating candidates would be attending live sessions, and live interactions with IIRS-ISRO experts through distance mode using webcasting.
+
+#### [IIRS Outreach program:](/p/iirs-isro-nc)
+
+The use of Remote Sensing, Geographical Information System, Global Navigation Satellite System and associated geospatial technologies is increasing rapidly, creating an urgent demand for trained manpower. The live and interactive mode of distance learning is enabled through Internet and A-view software platform developed by Amrita e-learning Lab in collaboration with Ministry of Human Resource Development (MHRD) Government of India. The programs are available through Internet without any cost to the user. The live and interactive sessions will be conducted by experts from IISR-ISRO and other knowledge Institutions. IIRS has successfully conducted 22 such courses so far with participation of over 120258+ participants from 1048+ academic institutions, government departments and industry. The beneficiaries of the programme may include:
+
+- Central/State/Private Universities & Academic Institutions;
+- Central & State Government Organizations/Departments;
+- Research Institutes;
+- Geospatial Industry;
+- NGOs
+
+IIRS also conducts various theme oriented online courses and monthly webinars on recent topics on geospatial technologies and its applications. Users are encouraged to actively participate on these programs.
+
+IIRS official website- [www.iirs.gov.in](http://www.iirs.gov.in/)
+
+**Reception of the Program:**
+
+Live & Interactive programme can be received in two ways:
+
+**A-View:** A-VIEW is an advanced multi-modal, multi-platform, collaborative e-learning solution which allows an instructor to teach or interact with a large number of learners transcending geographies on a real-time basis through live audio video streaming and synchronized content sharing. A-VIEW allows the instructor to perform live evaluation of the learners and to get real-time feedback from attendees on the go. A-VIEW can also act as an online meeting tool that can support online social collaboration and interactions with multiple users from various locations simultaneously. ([http://aview.in/](http://aview.in/))
+
+**Webcasting:** Webcasting is the process of video broadcasting live over the internet.
+
+#### [Guidelines and Registration Details:](/p/iirs-isro-nc)
+
+**Guidelines to Join Online Course through IIRS-ISRO E-CLASS Platform**
+
+Following guidelines and Standard Operating Procedures are issued for live & interactive courses under IIRS Outreach programme.
+
+**Step 1:**
+
+Register for the course through- [https://elearning.iirs.gov.in/edusatregistration/student](https://elearning.iirs.gov.in/edusatregistration/student).
+
+Please provide your details very carefully specially your email ID and mobile number. **Select Institution name as ATME College of Engineering, Mysuru (Electronics and Communication)**
+
+You will receive one registration number on successful submission of your application as web page display and email message.
+
+**Step 2:**
+
+Activate your account by clicking on given link in your email. Once account is activated and email is verified, your application will be available for selection process to Institute/Course coordinator/Director.
+
+**Step 3:**
+
+The course coordinator/Director will review your application and verify the submitted documents and approve or reject your application.
+
+**Step 4:**
+
+All the approved participants will receive an approval email with their login credentials of IIRS E-CLASS platform ([https://eclass.iirs.gov.in](https://eclass.iirs.gov.in/)) and Examination Portal ([https://elearning.iirs.gov.in](https://elearning.iirs.gov.in/)). Single user name and password will work for both the portals.
+
+- **Case 1:** If login credentials are received with approval email, please visit: https://eclass.iirs.gov.in
+- **Case 2:** If you have not received any approval email then please check status of your application at: [https://elearning.iirs.gov.in/edusatregistration/studentstatus](https://elearning.iirs.gov.in/edusatregistration/studentstatus)
+- and if your status is “Approved” then reset your password by clicking on link provided in above web page or through URL- [https://elearning.iirs.gov.in/mdl/login/forgot\_password.php](https://elearning.iirs.gov.in/mdl/login/forgot_password.php)
+- **Case 3:** If you have already participated in any earlier online course of IIRS- ISRO then your old login credentials will be valid for this course also. No new login credentials will be provided. However you can reset your password by clicking on “Forgot Password?” available in E-CLASS portal.
+- **Case 4:**
+
+
+EmbedPress: Please enter your YouTube API key at [EmbedPress > Platforms > YouTube](/p/wp-admin) to embed YouTube Channel.
+
+
+**Step 5:**
+
+All the approved participants has to login at IIRS E-CLASS platform- [https://eclass.iirs.gov.in](https://eclass.iirs.gov.in/) with his/her credentials during live sessions. For course schedule and contents please visit- [https://www.iirs.gov.in/EDUSAT-News](https://www.iirs.gov.in/EDUSAT-News). The daily course schedule will be available in E-CLASS also.
+
+**Step 6: Course Delivery**
+
+1. **Procedure of Attendance Recording:**
+
+- The E-CLASS platform will automatically record the attendance of a participant based on his/her login during the session and presence during the session.
+- Typically, the attendance is marked as present after 50% duration of total session time. For example, if total duration of a session is 60 minutes then the attendance will be marked as “Present” after 30 minutes of active login.
+- If due to some technical problem or other reason participant is unable to continue the session then he/she has to watch the same session through ”Offline” mode available under E-CLASS login. The time for offline session will be recorded/updated accordingly.
+- The coordinators of networked Institutions are also allowed to upload the attendance of an individual participant through their E-CLASS CMS login. If by any reason attendance of a participant is not being recorded/updated in E- CLASS then he/she can ask his/her Coordinator to upload their attendance for particular course.
+
+1. **Study Materials:**
+
+- All the study material such as presentation contents, suggested links and recorded video sessions will be available under E-CLASS login.
+- Interactive e-learning/MOOC contents will be available under IIRS e-learning portal- [https://elearning.iirs.gov.in](https://elearning.iirs.gov.in/) where participant has to login by using same login credentials of E-CLASS. Note: Please click on “Participant Login” button before proceeding further in e-learning portal.
+
+1. **Status of Attendance:**
+
+- Status of course-wise attendance will be available under E-CLASS login with eligibility for examination.
+
+1. **Feedback of the course:**
+
+- All the participants have to submit feedback of individual course through E- CLASS. After successful login to E-CLASS the feedback link will be available for each course.
+
+1. **Online Examination**:
+
+- All the participants who are meeting the minimum attendance criteria will be allowed for online examination. The examination will be conducted through: [https://elearning.iirs.gov.in](https://elearning.iirs.gov.in/). The date and time of examination will be intimated within 2 weeks of course completion.
+- The Multiple Choice Questions (MCQ) and True/False statement based questions will be asked during online examination.
+- The random questions will be displayed to the participant from available question bank in IIRS E-CALSS platform.
+- The minimum passing score will be announced for each course separately. All the successful participants in examination will be eligible for course certificate.
+
+1. **Issue of Certificate:**
+
+- The certificate will be issued within 2 to 3 weeks of online examination. The certificate will be available through coordinator of networked Institution (if applicable).
+- The certificate will also be available under E-CLASS login of each participant.
+
+1. **Certificate Validation:**
+
+- All the certificate of IIRS-ISRO online courses can be validated through direct scanning of QR code available certificate or through https://certificate.iirs.gov.in
+
+**For registration details contact: Guruprasad K N, Assistant Professor, Department of Electronics and Communication, ATMECE, Mysore.**
+
+#### [Programs Coordinated:](/p/iirs-isro-nc)
+
+Programs coordinated by the nodal center of ATME College of Engineering
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Sl. No** | **Program** | **Topic** | **Date** | **Duration** | **Schedule** | **Participants** | **Status** |
+| 1 | 66th IIRS Outreach Program | Global Navigation Satellite System | September 14th to<br>September 25th<br>2020 | 2 Weeks | [66\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/66_schedule.pdf.pdf) | 82 | Completed |
+| 2 | 67th IIRS Outreach Program | Understanding of coastal ocean processes using remote sensing and Numerical Modelling | September 21st to<br>September 25th<br>2020 | 1 Week | [67\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/67_schedule.pdf.pdf) | 78 | Completed |
+| 3 | 68th IIRS Outreach Program | Geographical<br>Information System | September 28th  to<br>October 23rd<br>2020 | 4 Weeks | [68\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/68_schedule.pdf.pdf) | 64 | Completed |
+| 4 | 72nd IIRS Outreach Program | Basics of<br>Geocomputation and Geoweb Services | October 19th to<br>October 29th 2020 | 2 Weeks | [72\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/72_schedule.pdf.pdf) | 16 | Completed |
+| 5 | 69th IIRS Outreach Program | RS & GIS Applications | November 2nd to<br>November 20th, 2020 | 3 Weeks | [69\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/69_schedule.pdf.pdf) | 36 | Completed |
+| 6 | 70th IIRS Outreach Program | Remote Sensing of Land Degradation | December 1st  to<br>December 7th 2020 | 1 Week | [70\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/70_schedule.pdf.pdf) | 50 | Completed |
+| 7 | 71st IIRS Outreach Program | SAR-Polarimetry & Interferometry | December 14th   to<br>December 18th  2020 | 1 Week | [71\_schedule.pdf](https://atme.edu.in/wp-content/uploads/2022/05/71_schedule.pdf.pdf) | 69 | Completed |
+
+#### [Achievements:](/p/iirs-isro-nc)
+
+|     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Sl. no** | **Program Name** | **No. of students registered to the course** | **No. of students successfully received the certificate** | **Certificates** |
+| **Institution Certificate** | **Coordinator Certificate** |  |
+| 1 | 66th IIRS Outreach Program on Global Navigation Satellite System | 82 | 61 | [66\_institution.jpg](https://atme.edu.in/wp-content/uploads/2022/05/66_institution.jpg.jpg) | [66\_coordinator.jpg](https://atme.edu.in/wp-content/uploads/2022/05/66_coordinator.jpg.jpg) |  |
+| 2 | 67th IIRS Outreach Program on Understanding of coastal ocean processes using remote sensing and numerical modelling | 78 | 78 | [67\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/67_institution.jpg.jpg) | [67\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/67_coordinator.jpg.jpg) |  |
+| 3 | 68th IIRS Outreach Program on Geographical Information System | 64 | 64 | [68\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/1.-Course-68-Institution-Certificate-1.pdf) | [68\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/2.-Course-68_Coordinator-Certificate-1.pdf) |  |
+| 4 | 72nd IIRS Outreach Program on Basics of Geocomputation and Geoweb Services | 16 | 16 | [72\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/1.-Course-72-Institution-Certificate-1.pdf) | [72\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/2.-Course-72_Coordinator-Certificate-1.pdf) |  |
+| 5 | 69th IIRS Outreach Program RS and GS Applications | 36 | 36 | [69\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/1.-Course-69-Institution-Certificate-1.pdf) | [69\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/2.-Course-69_Coordinator-Certificate-1.pdf) |  |
+| 6 | 70th IIRS Outreach Program on Remote Sensing of Land Degradation | 50 | 50 | [70\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/1.-Course-70_Institution-Certificate.pdf) | [70\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/2.-Course-70_Coordinator-Certificate.pdf) |  |
+| 7 | 71st IIRS Outreach Program on SAR-Polarimetry & Interferometry | 69 | 22 | [71\_institution.pdf](https://atme.edu.in/wp-content/uploads/2022/05/71_institution.pdf.pdf) | [71\_coordinator.pdf](https://atme.edu.in/wp-content/uploads/2022/05/71_coordinator.pdf.pdf) |  |
+
+#### [Contact Information:](/p/iirs-isro-nc)
+
+|     |
+| --- |
+| [![](https://atme.edu.in/wp-content/uploads/2022/05/isro-guru-250x300-1-150x150.jpg)](/p/iirs-isro-nc) |
+| **Mr. Guruprasad K N**<br>Assistant Professor, Dept. of ECE<br>IIRS-ISRO Outreach Program Coordinator<br>**Email: guruprasadkn\_ec@atme.edu.in**<br>**Contact: 9739319567** |
+
+#### [Reports:](/p/iirs-isro-nc)
+
+Social media & sharing icons powered by [UltimatelySocial](https://www.ultimatelysocial.com/?utm_source=usmplus_settings_page&utm_campaign=credit_link_to_homepage&utm_medium=banner)
+
+[![Facebook](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_facebook.png)](https://www.facebook.com/atmeceofficial/)
+
+[![Facebook](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_fb/icon_Visit_us_en_US.png)](https://www.facebook.com/atmeceofficial/)
+
+Facebook
+
+[![fb-share-icon](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/fb_icons/en_US.svg)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fatme.edu.in%2Fiirs-isro-nc)
+
+[![X (Twitter)](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_twitter.png)](https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09)
+
+[![Visit Us](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_twitter/icon_Visit_us_en_US.png)](https://twitter.com/atmece1?t=zoaaeYpkOtJxZVPWD2WYaw&s=09)
+
+[![Follow Me](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/Twitter_Follow/en_US_Follow.svg)](https://twitter.com/intent/user?screen_name=ATMECE)
+
+[![YouTube](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_youtube.png)](https://youtube.com/c/ATMECEOfficial)
+
+[![YouTube](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_youtube/icon_Visit_us_en_US.svg)](https://youtube.com/c/ATMECEOfficial)
+
+Set Youtube Channel ID
+
+[![LinkedIn](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_linkedin.png)](https://www.linkedin.com/school/atme-college-of-engineering)
+
+[![LinkedIn](/p/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/Visit_us_linkedin/icon_en_US.svg)](https://www.linkedin.com/school/atme-college-of-engineering)
+
+[![Share](/p/wp-content/plugins/ultimate-social-media-icons/images/share_icons/Linkedin_Share/en_US_share.svg)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fatme.edu.in%2Fiirs-isro-nc)
+
+[![Instagram](/p/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_instagram.png)](https://instagram.com/atmeceofficial?igshid=1i2yw9rjl46r4)`;
+
+Object.assign(pageBodyOverrides, {
+  "nss-unit": nssUnitBody.trim(),
+  "iirs-isro-nc": iirsIsroNcBody.trim(),
+});
+
+
 export function getBodyOverride(key: string): string | null {
   const k = key.replace(/^\/+|\/+$/g, "").toLowerCase();
   return pageBodyOverrides[k] ?? null;
