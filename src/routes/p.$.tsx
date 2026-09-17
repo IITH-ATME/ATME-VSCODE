@@ -542,6 +542,11 @@ function RehostedPage() {
   const portraitIdx = useRef(0);
   portraitIdx.current = 0;
   const headings = extractHeadings(bodyMd);
+  // Pages whose body markdown is overridden to "" (e.g. library-3/staff-details-2,
+  // which replaces its raw scraped tables with the <LibraryStaffPhotos> grid)
+  // have nothing to put inside the bordered content-card — skip rendering
+  // that wrapper entirely so it doesn't show up as an empty bordered box.
+  const hasBodyContent = bodyMd.trim().length > 0;
   const showToc = false; // sidebar/in-page nav removed — pages now render full width
   const ctx = findSectionForSlug(key);
   const showSidebar = false;
@@ -719,6 +724,7 @@ function RehostedPage() {
               </div>
             )}
 
+            {hasBodyContent && (
             <div className="content-card">
               <div className="content-prose prose prose-slate max-w-none
                 prose-headings:font-display prose-headings:tracking-tight
@@ -1862,9 +1868,17 @@ function RehostedPage() {
                     return /chairman|principal|director|dean|sir|madam|message|secretary|portrait|\d{2,4}x\d{2,4}/.test(a + " " + s);
                   };
                   const portraits = allMatches.filter((m) => personLike(m[1], m[2]));
-                  const isPersonPage = /chairman|principal|director|dean|secretary|message/.test(key.toLowerCase());
-                  if (portraits.length === 1 && isPersonPage) {
-                    const portrait = portraits[0];
+                  const isPersonPage =
+                    /chairman|principal|director|dean|secretary|message/.test(key.toLowerCase()) ||
+                    /librarian/i.test(page.title || "");
+                  // On a confirmed person page, a single image is the
+                  // portrait even when its alt text doesn't carry one of the
+                  // person-ish keywords above (e.g. a library staff photo
+                  // captioned with just a name, like "Mrs. Priya R.").
+                  const singlePortrait =
+                    portraits.length === 1 ? portraits[0] : allMatches.length === 1 && isPersonPage ? allMatches[0] : null;
+                  if (singlePortrait && isPersonPage) {
+                    const portrait = singlePortrait;
                     const bodyOnly = bodyMd.replace(portrait[0], "").replace(/\n{3,}/g, "\n\n");
                     return (
                       <div className="grid gap-6 sm:gap-8 sm:grid-cols-[200px_1fr] md:grid-cols-[240px_1fr] lg:grid-cols-[280px_1fr] items-start">
@@ -1992,6 +2006,7 @@ function RehostedPage() {
                 })()}
               </div>
             </div>
+            )}
 
             {/* Trailing "Documents & Downloads" section removed — PDFs now
                 render inline as clickable links within the body markdown. */}
