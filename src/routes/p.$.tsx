@@ -20,7 +20,7 @@ import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { pdfFromAtmeUrl, rewritePdfUrls } from "@/data/pdfRewrite";
 import { rewriteImageSrc } from "@/data/imageRewrite";
 import imageAssets from "@/data/imageAssets.json";
-import { ArrowLeft, FileText, ChevronRight } from "lucide-react";
+import { ArrowLeft, FileText, ChevronRight, Mail, GraduationCap, Award } from "lucide-react";
 import { findSectionForSlug } from "@/lib/navStructure";
 import { SectionTabNav } from "@/components/site/SectionTabNav";
 import { getHubForSplat } from "@/lib/hubTabs";
@@ -636,7 +636,6 @@ function RehostedPage() {
               {[
                 { label: "Find your book in ATME library", href: "http://118.151.209.133:8001/" },
                 { label: "Find your E-Journals & E-Books", href: "https://access.vtuconsortium.com/atme" },
-                { label: "Find your E-Newspapers & E-Magazines", href: "https://library.magzter.com/home" },
                 { label: "Find your Question papers", href: "http://118.151.209.133:8080/jspui/" },
               ].map((b) => (
                 <a
@@ -791,6 +790,76 @@ function RehostedPage() {
                         </div>
                       </div>
                     ))}
+                  </div>
+                )}
+                {key === "library-3/e-resources-vtu-consortium-2" && (
+                  <div className="not-prose my-6">
+                    <h3 className="text-base font-semibold mb-3 text-[#129199] font-display">
+                      VTU Consortium e-Resources for the year 2026-27
+                    </h3>
+                    <div className="rounded-lg border border-[#f5c518] overflow-x-auto w-full">
+                      <table className="w-full table-auto border-collapse text-sm">
+                        <thead className="bg-[#129199]">
+                          <tr>
+                            {["Sl. No", "Publisher Logo", "Publishers", "e-Resources", "Website", "Subscription Period", "Contact Person"].map((h) => (
+                              <th key={h} className={`p-2 md:p-3 text-center border border-[#f5c518] text-white font-semibold whitespace-nowrap ${h === "Publisher Logo" ? "w-[110px]" : ""}`}>
+                                {h}
+                              </th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {[
+                            { sl: "1", logo: "ieee.jpg", publisher: "IEEE", resource: "ASPP 202 Journals & POP ALL conference 1800 proceedings", website: "https://ieeexplore.ieee.org", period: "01-09-2026 to 30-04-2027", contact: "Mr.Manjunath Rudrappa", email: "mrudrappa@ebsco.com", phone: "9870200104" },
+                            { sl: "2", logo: "elsevier-sciencedirect.jpg", publisher: "Elsevier Science Direct", resource: "275 e-Journals – Engineering & Computer Science", website: "https://www.sciencedirect.com", period: "23-05-2026 to 22-05-2027", contact: "Lavanya Trikha", email: "l.trikha@elsevier.com", phone: "9717856870" },
+                            { sl: "3", logo: "emerald.jpg", publisher: "Emerald Publishing", resource: "Management 212 e-Journals", website: "https://www.emerald.com/insight/", period: "01-10-2026 to 30-09-2027", contact: "S Vinay Kumar", email: "svkumar@emerald.com", phone: "9916252539" },
+                            { sl: "", logo: "emerald.jpg", publisher: "ICE", resource: "29 e-Journals Civil Engineering", website: "https://www.emerald.com/insight/", period: "01-10-2026 to 30-09-2027", contact: "S Vinay Kumar", email: "svkumar@emerald.com", phone: "9916252539" },
+                            { sl: "4", logo: "taylor-francis.jpg", publisher: "Taylor & Francis", resource: "260 e-Journals", website: "https://www.tandfonline.com/", period: "01-09-2026 to 31-08-2027", contact: "Suresh C", email: "suresh.c@tandfindia.com", phone: "9840847170" },
+                            { sl: "5", logo: "taylor-francis.jpg", publisher: "Taylor & Francis", resource: "369 e-Books", website: "https://www.taylorfrancis.com/", period: "From 1-10-2026 perpetual access", contact: "Suresh C", email: "suresh.c@tandfindia.com", phone: "9840847170" },
+                            { sl: "6", logo: "proquest.jpg", publisher: "ProQuest", resource: "2642 Management eJournals & 3100 Technology Collection", website: "https://www.proquest.com/", period: "01-09-2026 to 31-08-2027", contact: "Lakshmikanth A", email: "Lakshmikanth.Aswathanarayan@clarivate.com", phone: "M +91 988 633 9117" },
+                            { sl: "7", logo: "oreilly.jpg", publisher: "Oreilly", resource: "60,000 e-books", website: "https://www.oreilly.com/", period: "01-09-2026 to 31-08-2027", contact: "Lakshmikanth A", email: "Lakshmikanth.Aswathanarayan@clarivate.com", phone: "M +91 988 633 9117" },
+                            { sl: "8", logo: "quiklrn.jpg", publisher: "Quiklrn", resource: "Language Communication Lab unlimited users", website: "https://home.quiklrn.com", period: "19-09-2026 to 18-09-2027", contact: "Rajesh Shaha", email: "rajesh@quiklrn.com", phone: "9845005732" },
+                            { sl: "9", logo: "pearson.jpg", publisher: "Pearson", resource: "115 e-books", website: "https://elibrary.in.pearson.com/", period: "01-09-2026 to 31-08-2030", contact: "Sudhir Kumar Jain", email: "sudhir.jain@pearson.com", phone: "Mobile: 9986133226" },
+                            { sl: "10", logo: "cambridge.jpg", publisher: "Cambridge University Press", resource: "289 e-books", website: "https://www.cambridge.org/core", period: "Perpetual access from 01-09-2026", contact: "Aftab Alam", email: "aftab.alam2@cambridge.org", phone: "M.779504580" },
+                            { sl: "", logo: "cambridge.jpg", publisher: "Cambridge University Press", resource: "400+ e-journals", website: "https://www.cambridge.org/core", period: "01-09-2026 to 31-08-2027", contact: "Aftab Alam", email: "aftab.alam2@cambridge.org", phone: "M.779504580" },
+                            { sl: "11", logo: "edutainer-pat.jpg", publisher: "PAT Technology", resource: "53 Multimedia e-Learning Courses and 4 Minor Degree Programmes", website: "https://online.vtu.ac.in/", period: "01-10-2026 to 30-09-2027", contact: "Mr.Shrawan Tiwari", email: "info@edutainer.in", phone: "9513399613" },
+                            { sl: "12", logo: "microsage-gatetutor.jpg", publisher: "GATEtutor Powered by PragyaAI", resource: "All Branches of Engineering", website: "https://www.gatetutor.in/", period: "01-10-2026 to 30-09-2027", contact: "Mallikarjun Borigidde", email: "mallikarjun@gatetutor.in", phone: "9960334040" },
+                            { sl: "13", logo: "drillbit.jpg", publisher: "DrillBit", resource: "Plagiarism Detection Software", website: "https://www.drillbitplagiarism.com", period: "12-05-2026 to 11-05-2027", contact: "Mr.Jayanna", email: "jayanna.belavadi@drillbitplagiarism.com", phone: "9739904021" },
+                            { sl: "14", logo: "myaccess-map-systems.jpg", publisher: "MAP Systems", resource: "Technology Platform", website: "https://access.vtuconsortium.com", period: "18-11-2025 to 17-05-2027", contact: "Mr.Somshekhar V Thalange", email: "somshekhar@maplibraryservices.com", phone: "86001 05949" },
+                            { sl: "15", logo: "google.jpg", publisher: "Google Educational Plus", resource: "AI-Powered Infrastructure for all students", website: "", period: "01-10-2026 to 30-09-2027", contact: "Nikhil Jain", email: "nikhil@visionastraaai.com", phone: "7996566124" },
+                          ].map((r, i) => (
+                            <tr key={i}>
+                              <td className="p-2 border border-[#f5c518] text-center align-middle">{r.sl}</td>
+                              <td className="p-2 border border-[#f5c518] text-center align-middle w-[110px]">
+                                <img
+                                  src={`/images/library/e-resources-2026-27/${r.logo}`}
+                                  alt={r.publisher}
+                                  loading="lazy"
+                                  className="h-10 w-[90px] object-contain mx-auto"
+                                />
+                              </td>
+                              <td className="p-2 border border-[#f5c518] align-middle whitespace-nowrap font-semibold text-[#0e7a80]">{r.publisher}</td>
+                              <td className="p-2 border border-[#f5c518] align-middle">{r.resource}</td>
+                              <td className="p-2 border border-[#f5c518] align-middle whitespace-nowrap">
+                                {r.website ? (
+                                  <a href={r.website} target="_blank" rel="noreferrer" className="text-[#129199] underline break-all">
+                                    {r.website}
+                                  </a>
+                                ) : null}
+                              </td>
+                              <td className="p-2 border border-[#f5c518] align-middle whitespace-nowrap">{r.period}</td>
+                              <td className="p-2 border border-[#f5c518] align-middle whitespace-nowrap">
+                                <div>{r.contact}</div>
+                                <div>
+                                  <a href={`mailto:${r.email}`} className="text-[#129199] underline">{r.email}</a>
+                                </div>
+                                <div>{r.phone}</div>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 )}
                 {key === "library-3/e-resources-vtu-consortium-2" && (
@@ -1854,6 +1923,239 @@ function RehostedPage() {
                     }
                   }
 
+                  // Mrs. Priya R. (Librarian) — dedicated faculty-profile-style
+                  // layout matching the department faculty profile pages
+                  // (photo + info card header, then Contact Details / Academic
+                  // Details / etc. as gold-bordered cards with a teal header
+                  // bar), built from her official Faculty Profile document
+                  // rather than the generic scraped-markdown renderer, since
+                  // library staff aren't part of a department's faculty roster.
+                  if (key === "mrs-priya-r") {
+                    const header = {
+                      name: "Mrs. PRIYA R.",
+                      designation: "Librarian",
+                      department: "Library and Information Center",
+                      qualification: "M.L.I.Sc Gold medallist, (PhD.)",
+                      doj: "20-Dec-2021",
+                      image: "https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/images/uploads/2026/09/mrs-priya-r-librarian.png",
+                    };
+                    const contactRows: { label: string; value: string; href: string }[] = [
+                      { label: "Email", value: "library@atme.edu.in", href: "mailto:library@atme.edu.in" },
+                      { label: "Vidwan ID", value: "https://vidwan.inflibnet.ac.in/profile/482559", href: "https://vidwan.inflibnet.ac.in/profile/482559" },
+                      { label: "ORCID ID", value: "https://orcid.org/0009-0005-2768-6537", href: "https://orcid.org/0009-0005-2768-6537" },
+                    ];
+                    type Group = { heading?: string; items: string[] };
+                    const sections: { title: string; academic?: boolean; groups: Group[] }[] = [
+                      {
+                        title: "Academic Details",
+                        academic: true,
+                        groups: [
+                          { items: [
+                            "(PhD.) – Pursuing in University of Mysore",
+                            "NET - Qualified for the NATIONAL ELIGIBILITY TEST",
+                            "K-SET - Qualified for the KARNATAKA STATE ELIGIBILITY TEST",
+                            "M.L.I.Sc. - Master's in library and information science (Regular), University of Mysore, in the Year 2010-2012.",
+                            "BSc - Bachelor of Science in PES Degree College, Mandya, University of Mysore, in the Year 2007-2010",
+                          ] },
+                        ],
+                      },
+                      {
+                        title: "Areas of Interest",
+                        groups: [{ items: ["Scientometrics", "Altmetrics", "Webometrics"] }],
+                      },
+                      {
+                        title: "Publication Details",
+                        groups: [
+                          { heading: "Article Publications", items: [
+                            "Priya R., Dr. Nayana H. (2026) The Expansion of Artificial Intelligence in Academic Library Reference Services: Librarians’ Perspective of Private Universities in Karnataka, India. International Journal of Humanities and Social Sciences (IJHSS).",
+                            "Priya R., Ashoka R., Pavan N. S. (2022) Analysis of Digital Information Management strategies by faculties of Higher Education Institutions. Library Philosophy and Practice.",
+                          ] },
+                          { heading: "Conference papers", items: [
+                            "Priya R., Dr. Nagaraja L. Gujjarappa, Dr. Chandrashekara M. (2026) Reinventing Library Automation using AI for Enhancing Information Services, National Conference on TEMPLE-2: 2026 Bridging the Digital divide: Technology applications in Public and Academic Libraries.",
+                            "Priya R., Dr. Nagaraja L. Gujjarappa, Dr. Chandrashekara M. (2026) Scientometric Analysis of Smart Libraries in the context of Sustainable Smart Cities Multidisciplinary International conference on Innovate, integrate, impact – Technology & Trade for better World. ANVESHANA-2026.",
+                            "Priya R., Dr. Nayana H. (2025) The Future of Libraries: Embracing Change, Technology and Community Needs. International conference on CILIST-25, Library professionals foundations (LPF).",
+                            "Priya R., Dr. Nayana H. (2024) Evaluating the user Approachability of the Website Design for Engineering College Libraries in Mysore, Karnataka, India. International conference on CILIST-25, Library professionals foundations (LPF).",
+                          ] },
+                        ],
+                      },
+                      {
+                        title: "Membership in Professional Bodies",
+                        groups: [{ items: [
+                          "Member of MILAN (Mysore University Library and Information Science Alumni).",
+                          "Member of KALA (Karnataka Library Association)",
+                        ] }],
+                      },
+                      {
+                        title: "Honours/Awards/Achievements",
+                        groups: [
+                          { heading: "Awards", items: ["Awarded the Sri B N RAJU MEMORIAL GOLD MEDAL"] },
+                          { heading: "Achievements", items: [
+                            "NET - Qualified for the NATIONAL ELIGIBILITY TEST",
+                            "K-SET - Qualified for the KARNATAKA STATE ELIGIBILITY TEST",
+                          ] },
+                        ],
+                      },
+                      {
+                        title: "FDPs/Conferences/Workshops/STTP/MOOC Certification",
+                        groups: [
+                          { heading: "FDPs", items: [
+                            "Participated in a 3-day Face-to-Face FDP on the theme \"Inculcating Universal Human Values in Technical Education\" organized by All India Council for Technical Education (AICTE) at ATME College of Engineering, Mysuru, from 2nd Nov to 4th Nov 2023.",
+                            "Attended FDP on IEEE Explore Digital Library on 8 Feb 2019.",
+                          ] },
+                          { heading: "Conferences", items: [
+                            "Participated and presented a paper titled \"The Future of Libraries: Embracing Change, Technology and Community Needs.\" In the online International Conference on Intelligent Future and Organization: Integrating Artificial Intelligence, Data Analytics, and Digital Innovations, organized by Library Professionals Foundation (LPF) on 9th May 2026.",
+                            "Participated and presented a paper and received the Best Paper Award for the title \"Scientometric Analysis of Smart Libraries in the context of Sustainable Smart Cities\" in the Multidisciplinary International Conference on \"Innovate, Integrate, Impact- Technology & Trade for Better World\" organized in association with Research & Development cell -PRAYOGA & Internal Quality Assurance Cell on 15th April 2026.",
+                            "Participated and presented a paper titled \"Evaluating the user Approachability of the Website Design for Engineering College Libraries in Mysore, Karnataka, India\" in the online International Conference on Contemporary Innovations in Library Information Services and Technologies(CILIST-25), organized by Library Professionals Foundation (LPF) on 10th May 2025, and received the Best Presentation Award.",
+                            "Presented paper in the two-day National Conference on Modern Library Technologies and Services (NCMLTS-2025) during 28-29 March 2025, organised by Central Library, Manipal Academy of Higher Education (MAHE), Bengaluru.",
+                            "Participated in the \"National Conference on Academic Publishing, Libraries and Artificial Intelligence\" MILAN-APLAI 2024 held at the University of Mysore on June 21st and 22nd, 2024.",
+                            "Participated in the \"National Conference on Exploring the Past, Present, and Future of Library and Information Science\" held at the University of Mysore on May 29th and 30th, 2023.",
+                          ] },
+                          { heading: "Workshops", items: [
+                            "Participated in the \"Three–Day Workshop on the Scholarly Publications: Tools & Techniques\" held on 6th- 8th Jan 2023 at Golden Jubilee Bhavan, JSS STU, Mysuru.",
+                            "Participated in the one-day conclave on \"Sustainable Development of Libraries through Integration of Technology in Alignment with NEP 2020\" organized by the Library and Information Centre at JSS University, Noida, on 15th April 2025.",
+                            "Attended Workshop on \"Leveraging Microsoft Power BI\" for library Metrics at IIMB Bangalore on 11 Aug 2023",
+                          ] },
+                        ],
+                      },
+                      {
+                        title: "Roles and Responsibilities: Institute Level",
+                        groups: [{ items: [
+                          "Convener of an awareness program on \"Accelerating Literature Review using EBSCO AI\" on 15-05-2026.",
+                          "Convener of an awareness program on \"One Day Workshop on E-Resources- Springer Nature\" on 13-09-2025.",
+                          "Convener of an awareness program on \"Library E-Resources and Plagiarism Check Tool\" on 11-03-2025.",
+                          "Convener of an awareness program on \"E-resources EBSCO and IEEE Xplore, Digital Library\", on 23-11-2024.",
+                          "Convener of an awareness program on \"NDLI - Awareness Program to Students\" on 18-05-2024.",
+                          "Convener of an Awareness program on \"Library E-Resources & Plagiarism Software\" on 23-04-2024.",
+                          "Convener of an Awareness program on \"Utilization of IEEE E-Resources, VTU Consortium\" on 20-07-2023.",
+                          "Convener of an awareness program on \"E-Resources and Automation Software Usage Awareness Program\" on 07-09-2022.",
+                          "Convener of an awareness program on \"Springer Nature Science and Technology Symposium\" on 11-05-2021.",
+                          "Convener of an awareness program on \"Research publication indexing jointly organized by IEEE-EBSCO\", on 13-06-2020.",
+                          "Convener of an awareness program on \"Enhancement of Presentation Skills for Faculty in the Virtual Era\", on 16-05-2019.",
+                        ] }],
+                      },
+                      {
+                        title: "Roles and Responsibilities: Department Level",
+                        groups: [{ items: [
+                          "Overall Library management.",
+                          "Planning and managing departmental activities",
+                          "Providing required service to library users (Staff & Students)",
+                          "Maintaining budgets for library facilities and resources",
+                          "Statistical documentation for NAAC, NBA, and LIC",
+                          "Researching new reading trends provides information",
+                          "Deliberating Awareness Programs",
+                        ] }],
+                      },
+                    ];
+                    const headerRows = [
+                      { label: "Name", value: header.name },
+                      { label: "Designation", value: header.designation },
+                      { label: "Department", value: header.department },
+                      { label: "Qualification", value: header.qualification },
+                      { label: "Date of Joining", value: header.doj },
+                    ];
+                    return (
+                      <div className="not-prose">
+                        <div className="relative overflow-hidden rounded-2xl border-2 shadow-card" style={{ borderColor: "#f5c518" }}>
+                          <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #129199 0%, #0e7a80 55%, #0b6066 100%)" }} />
+                          <div aria-hidden className="absolute -top-20 -right-20 h-56 w-56 rounded-full" style={{ background: "radial-gradient(closest-side, rgba(245,197,24,0.3), transparent 70%)" }} />
+                          <div className="relative grid md:grid-cols-[220px_1fr] gap-4 md:gap-6 p-4 md:p-6 items-start">
+                            <div className="flex flex-col items-center md:items-stretch gap-2 w-full max-w-[220px] mx-auto md:mx-0">
+                              <div className="rounded-2xl border-2 border-[#f5c518] bg-card overflow-hidden w-full">
+                                <div className="aspect-[4/5] w-full overflow-hidden relative bg-[#f1f5f9]">
+                                  <img
+                                    src={header.image}
+                                    alt={header.name}
+                                    className="relative h-full w-full object-cover object-center"
+                                  />
+                                </div>
+                              </div>
+                              <div className="text-center md:text-left mt-1">
+                                <h1 className="font-display text-base md:text-lg font-bold text-white leading-tight">{header.name}</h1>
+                                <div className="mt-0.5 text-xs text-white/85">{header.designation}</div>
+                              </div>
+                            </div>
+                            <div className="rounded-xl bg-white/95 backdrop-blur p-1 shadow-md self-start">
+                              <table className="w-full text-sm md:text-base">
+                                <tbody>
+                                  {headerRows.map((row, i, arr) => (
+                                    <tr key={row.label} className={i < arr.length - 1 ? "border-b border-[#f5c518]/40" : ""}>
+                                      <th className="text-left px-2.5 py-2.5 md:px-3 md:py-3 w-40 md:w-52 font-bold text-white align-top rounded-l-lg text-sm md:text-base" style={{ backgroundColor: "#129199" }}>{row.label}</th>
+                                      <td className="px-2.5 py-2.5 md:px-3 md:py-3 align-top break-words text-base md:text-lg font-semibold" style={{ color: "#0e7a80", fontWeight: 600 }}>{row.value}</td>
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="mt-10">
+                          <div className="flex items-center gap-3 mb-4">
+                            <div className="grid h-10 w-10 place-items-center rounded-lg text-white" style={{ backgroundColor: "#129199" }}>
+                              <Mail className="h-5 w-5" />
+                            </div>
+                            <h2 className="font-display text-xl font-semibold">Contact Details</h2>
+                          </div>
+                          <div className="overflow-hidden rounded-2xl border-2 bg-card shadow-sm" style={{ borderColor: "#f5c518" }}>
+                            <table className="w-full text-sm md:text-[15px]">
+                              <tbody>
+                                {contactRows.map((r, i, arr) => (
+                                  <tr key={r.label} className={i < arr.length - 1 ? "border-b" : ""} style={{ borderColor: "rgba(245,197,24,0.55)" }}>
+                                    <th className="text-left align-middle px-3 md:px-4 py-3 w-48 md:w-56 font-semibold text-white" style={{ backgroundColor: "#129199" }}>
+                                      <span className="inline-flex items-center gap-2">
+                                        {r.label === "Email" ? <Mail className="h-4 w-4 opacity-90" /> : r.label === "Vidwan ID" ? <GraduationCap className="h-4 w-4 opacity-90" /> : <Award className="h-4 w-4 opacity-90" />}
+                                        {r.label}
+                                      </span>
+                                    </th>
+                                    <td className="px-3 md:px-4 py-3 align-middle break-all bg-card">
+                                      <a href={r.href} target={r.label === "Email" ? undefined : "_blank"} rel={r.label === "Email" ? undefined : "noreferrer"} className="font-medium hover:underline" style={{ color: "#129199" }}>{r.value}</a>
+                                    </td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                        <div className="mt-10 space-y-6">
+                          {sections.map((s) => (
+                            <div key={s.title} className="overflow-hidden rounded-2xl border-2 bg-card shadow-sm" style={{ borderColor: "#f5c518" }}>
+                              <div className="px-4 md:px-5 py-3 text-white font-semibold font-display text-base md:text-lg" style={{ backgroundColor: "#129199" }}>
+                                {s.title}
+                              </div>
+                              <div className="p-4 md:p-6 space-y-5">
+                                {s.groups.map((g, gi) => (
+                                  <div key={gi}>
+                                    {g.heading && (
+                                      <div className="mb-3 flex items-center gap-2">
+                                        <span className="h-5 w-1 rounded-full" style={{ backgroundColor: "#f5c518" }} />
+                                        <h3 className="font-display font-semibold text-base md:text-lg" style={{ color: "#0e7a80" }}>{g.heading}</h3>
+                                      </div>
+                                    )}
+                                    {s.academic ? (
+                                      <ul className="space-y-2.5 text-sm md:text-[15px] leading-relaxed">
+                                        {g.items.map((item, i) => (
+                                          <li key={i} className="pl-4 break-words text-left border-l-[3px] rounded-sm" style={{ borderColor: "#f5c518", color: "#0e7a80" }}>
+                                            {item}
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    ) : (
+                                      <ul className="list-disc pl-5 space-y-2 text-sm md:text-[15px] leading-relaxed text-foreground/90 marker:text-[#129199]">
+                                        {g.items.map((item, i) => (
+                                          <li key={i} className="break-words text-left">{item}</li>
+                                        ))}
+                                      </ul>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  }
 
                   // Single-portrait "person" page (Chairman's / Principal's
                   // message, About Principal etc.) — render the whole body
@@ -1870,12 +2172,7 @@ function RehostedPage() {
                   };
                   const portraits = allMatches.filter((m) => personLike(m[1], m[2]));
                   const isPersonPage =
-                    /chairman|principal|director|dean|secretary|message/.test(key.toLowerCase()) ||
-                    /librarian/i.test(page.title || "");
-                  // On a confirmed person page, a single image is the
-                  // portrait even when its alt text doesn't carry one of the
-                  // person-ish keywords above (e.g. a library staff photo
-                  // captioned with just a name, like "Mrs. Priya R.").
+                    /chairman|principal|director|dean|secretary|message/.test(key.toLowerCase());
                   const singlePortrait =
                     portraits.length === 1 ? portraits[0] : allMatches.length === 1 && isPersonPage ? allMatches[0] : null;
                   if (singlePortrait && isPersonPage) {
