@@ -467,7 +467,7 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
   ],
   "mba": [
     {
-      heading: "Academic Year 2026-27",
+      heading: "Academic Year 2026-27 (3rd Semester)",
       rows: [
         row("01", "MBA301", "Logistics & Supply Chain Management", { module: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA301/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA301/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA301/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA301/ppt.zip" }),
         row("02", "MBA302", "International Business", { module: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA302/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA302/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA302/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/mba/3rdsem/MBA302/ppt.zip" }),
