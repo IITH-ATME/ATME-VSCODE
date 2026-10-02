@@ -12064,14 +12064,21 @@ Completed Mooc courses on:
 
 ## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-1. Deep Learning 3 days workshop at Vidyavardhaka College of Engineering.
-2. Mobile Application Development Workshop.
-3. Generative AI Workshop.
-4. NPTEL course on Soft Computing.
-5. NPTEL course on Industrial IOT.
-6. Seven day NEP 2020 orientation and sensitization programme under Malaviya Mission Teacher Training of UGC organized by Central University of Andhra Pradesh from 15th to 23rd December 2025
-7. Five days FDP on Cybersecurity at National Institute of Technology Karnataka, Surathkal, Mangaluru.
-8. Five days FDP on Cloud Computing at ATMECE Karnataka, Mysore.
+**FDPs**
+
+1. Seven day NEP 2020 orientation and sensitization programme under Malaviya Mission Teacher Training of UGC organized by Central University of Andhra Pradesh from 15th to 23rd December 2025
+2. Five days FDP on Cybersecurity at National Institute of Technology Karnataka, Surathkal, Mangaluru.
+3. Five days FDP on Cloud Computing at ATMECE Karnataka, Mysore.
+
+**Workshops**
+
+1. Mobile Application Development Workshop.
+2. Generative AI Workshop.
+
+**MOOC Certification**
+
+1. NPTEL course on Soft Computing.
+2. NPTEL course on Industrial IOT.
 
 ## Proposal/Funding/Project Financial Assistance
 
@@ -12088,7 +12095,8 @@ Completed Mooc courses on:
 ## Roles and Responsibilities: Department Level
 
 1. MOOC Coordinator
-2. Mentoring Coordinator`,
+2. Mentoring Coordinator
+3. 7th Semester Class Teacher`,
   },
   "dr-neethi-m-v": {
     name: "Dr. Neethi M V",
@@ -12242,16 +12250,17 @@ Completed Mooc courses on:
 
 ## Publication Details
 
-1. S. R. Bhagyashree, Guddappa Halligudra, Anupama Sindagi, **Madhu Nagaraj,** C. Shyamala, Shaista Tarannum, R. Thailagavathy, T. R. Yashavantha Kumar, published paper titled "Implementation of the Soil Health Monitoring System to Achieve Better Yield" under International Journal of Applied Power Engineering, Q2 Journal. https://ijape.iaescore.com/index.php/IJAPE/article/view/21751/13419
-2. Madhu Nagaraj, Tanaz Mariam, Lahari M Urs, Syed Tahir Umez, Mohammed Junaid, published paper title "Blockchain-Based Organ Donation Management System" under International Journal of Innovative Research in Technology, UGC Care Journal, Volume 12, Issue 10, March 2026. https://ijirt.org/publishedpaper/IJIRT194100_PAPER.pdf
-3. Madhu Nagaraj, Ananya Desai, Bhoomika V, Likhithashree S M, Maheshwari H S, published paper title "A Survey on Cyber Attack Detection Techniques in Cloud Environment" under International Research Journal of Engineering and Technology (IRJET), Volume 10, Issue 10, September 2025. https://www.irjet.net/archives/V12/i9/IRJET-V12I929.pdf
-4. Padmini M S, Asha Rani Mahadeva, **Madhu Nagaraj**, Namratha Gopinath, published paper titled "Machine Learning for Precision Dental Diagnosis: Real-Time X-Ray Detection and Patient Record Integration - SmiloScope" under ICIAS 2025, Springer Nature. https://drive.google.com/file/d/1F2sgSNyx_FgU2RhYTLu43LWA6unV8J4o/view
-5. Madhu Nagaraj, Vanitha G Naik, published paper titled "Enhancing Drug-Target Interaction Prediction Through Machine Learning" under Tanz Research Journal Volume 10, Issue 10, October 2024, https://drive.google.com/file/u/0/d/1_FZTHv286U3r8_2L_48fr24VneNjWeTM/view?usp=sharing&pli=1
-6. Madhu Nagaraj, Rampur Srinath, published paper titled "**Survey on Approaches to Detect Sinkhole Attacks in Wireless Sensor networks**" under International Journal of Wireless Communications and Networking Technologies (IJWCNT) Volume 10, No.4, June - July 2021, https://warse.org/IJWCNT/static/pdf/file/ijwcnt01102021.pdf
-7. Madhu Nagaraj, Rampur Srinath, published paper titled "**Hybrid Ant Colony Optimization for Sinkhole Detection in WSN**" under International Research Journal of Engineering and Technology (IRJET), Volume 08 Issue 06 June 2021 https://www.irjet.net/archives/V8/i6/IRJET-V8I6186.pdf
-8. Sughosha K S, Madhu Nagaraj published paper titled "**Object Detection in Real Time**" under International Research Journal of Modernization in Engineering Technology and Science (IRJMETS) Volume:04/Issue:07/July-2022 https://www.irjmets.com/uploadedfiles/paper//issue_7_july_2022/29027/final/fin_irjmets1659346069.pdf
-9. Ashish ND, Madhu Nagaraj published paper titled "**Online Voting System Using Blockchain Technology**" under International Journal of Research in Engineering and Science (IJRES), Volume 10 Issue 9, September 2022. https://www.ijres.org/papers/Volume-10/Issue-9/10094045.pdf
-10. Sahil Javkar, Madhu Nagaraj published paper titled "**Snake Game Using Hand Tracking Recognition**" under International Research Journal of Modernization in Engineering Technology and Science (IRJMETS) Volume:04/Issue:07/July-2022 https://www.irjmets.com/uploadedfiles/paper//issue_7_july_2022/29029/final/fin_irjmets1659348154.pdf
+1. Neethi M V, C. Sharad, **Madhu Nagaraj,** Vishwesh Jayashekar, Bharath Basavaraj, Yathiraj R, published paper titled "Digital Learning Platform for Rural Education: A Multilingual, Offline-Capable Framework with AI-Powered Adaptive Learning" under Conference: 2026 International Conference on Computing Theory and Wireless Communications (ICCTWC), 1-6. 10.1109/ICCTWC68241.2026.11583354.
+2. S. R. Bhagyashree, Guddappa Halligudra, Anupama Sindagi, **Madhu Nagaraj,** C. Shyamala, Shaista Tarannum, R. Thailagavathy, T. R. Yashavantha Kumar, published paper titled "Implementation of the Soil Health Monitoring System to Achieve Better Yield" under International Journal of Applied Power Engineering, Q2 Journal. https://ijape.iaescore.com/index.php/IJAPE/article/view/21751/13419
+3. Madhu Nagaraj, Tanaz Mariam, Lahari M Urs, Syed Tahir Umez, Mohammed Junaid, published paper title "Blockchain-Based Organ Donation Management System" under International Journal of Innovative Research in Technology, UGC Care Journal, Volume 12, Issue 10, March 2026. https://ijirt.org/publishedpaper/IJIRT194100_PAPER.pdf
+4. Madhu Nagaraj, Ananya Desai, Bhoomika V, Likhithashree S M, Maheshwari H S, published paper title "A Survey on Cyber Attack Detection Techniques in Cloud Environment" under International Research Journal of Engineering and Technology (IRJET), Volume 10, Issue 10, September 2025. https://www.irjet.net/archives/V12/i9/IRJET-V12I929.pdf
+5. Padmini M S, Asha Rani Mahadeva, **Madhu Nagaraj**, Namratha Gopinath, published paper titled "Machine Learning for Precision Dental Diagnosis: Real-Time X-Ray Detection and Patient Record Integration - SmiloScope" under ICIAS 2025, Springer Nature. https://drive.google.com/file/d/1F2sgSNyx_FgU2RhYTLu43LWA6unV8J4o/view
+6. Madhu Nagaraj, Vanitha G Naik, published paper titled "Enhancing Drug-Target Interaction Prediction Through Machine Learning" under Tanz Research Journal Volume 10, Issue 10, October 2024, https://drive.google.com/file/u/0/d/1_FZTHv286U3r8_2L_48fr24VneNjWeTM/view?usp=sharing&pli=1
+7. Madhu Nagaraj, Rampur Srinath, published paper titled "**Survey on Approaches to Detect Sinkhole Attacks in Wireless Sensor networks**" under International Journal of Wireless Communications and Networking Technologies (IJWCNT) Volume 10, No.4, June - July 2021, https://warse.org/IJWCNT/static/pdf/file/ijwcnt01102021.pdf
+8. Madhu Nagaraj, Rampur Srinath, published paper titled "**Hybrid Ant Colony Optimization for Sinkhole Detection in WSN**" under International Research Journal of Engineering and Technology (IRJET), Volume 08 Issue 06 June 2021 https://www.irjet.net/archives/V8/i6/IRJET-V8I6186.pdf
+9. Sughosha K S, Madhu Nagaraj published paper titled "**Object Detection in Real Time**" under International Research Journal of Modernization in Engineering Technology and Science (IRJMETS) Volume:04/Issue:07/July-2022 https://www.irjmets.com/uploadedfiles/paper//issue_7_july_2022/29027/final/fin_irjmets1659346069.pdf
+10. Ashish ND, Madhu Nagaraj published paper titled "**Online Voting System Using Blockchain Technology**" under International Journal of Research in Engineering and Science (IJRES), Volume 10 Issue 9, September 2022. https://www.ijres.org/papers/Volume-10/Issue-9/10094045.pdf
+11. Sahil Javkar, Madhu Nagaraj published paper titled "**Snake Game Using Hand Tracking Recognition**" under International Research Journal of Modernization in Engineering Technology and Science (IRJMETS) Volume:04/Issue:07/July-2022 https://www.irjmets.com/uploadedfiles/paper//issue_7_july_2022/29029/final/fin_irjmets1659348154.pdf
 
 ## Membership in Professional Bodies
 
@@ -12295,6 +12304,11 @@ Completed Mooc courses on:
 5. Fundamentals of Deep Learning - NPTEL Online Certification
 6. Introduction to Machine Learning - NPTEL Online Certification
 
+**Conferences**
+
+1. ICIAS 2025
+2. ICCTWC 2026
+
 ## Proposal/Funding/Project Financial Assistance
 
 - Nil
@@ -12302,6 +12316,7 @@ Completed Mooc courses on:
 ## Patent
 
 1. The work titled "A System for Yield Estimation of Mango Fruit Crop Using Deep Learning" is filed for Patents, Patent application no: 202041043720, and has received FER "shall be examined under sections 12 and 13 of the Act."
+2. Title of the invention: Temporal Analysis of Mango Fruit. Date of filing: 5.12.2025. Publication: 2/1/2026. Patent application no: 202041043720
 
 ## Roles and Responsibilities: Institute Level
 

@@ -7,6 +7,13 @@ export type Clipping = { id: string; year: string; title: string; date: string; 
 
 export const NEWS_CLIPPINGS: Clipping[] = [
   {
+    id: "2026-12-atmece-vtu-rank-holders-26th-convocation",
+    year: "2026",
+    title: "ATMECE VTU Rank Holders - 26th Convocation",
+    date: "2nd October 2026",
+    media: [{ type: "image", url: "/images/uploads/news-clippings/2026-vtu-rank-holders-26th-convocation.jpeg" }],
+  },
+  {
     id: "2026-11-welcoming-new-students-atmece",
     year: "2026",
     title: "Welcoming New Students to ATME College – A New Journey of Learning, Growth & Excellence.",
