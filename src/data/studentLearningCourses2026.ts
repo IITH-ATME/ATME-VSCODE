@@ -153,6 +153,18 @@ export const STUDENT_LEARNING_2026_27: Record<string, ParsedSection[]> = {
   }],
   "cy": [
     {
+      heading: "Academic Year 2026-27 (3rd Semester)",
+      rows: [
+        row("01", "BCS302", "OOP With JAVA", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS302/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS302/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS302/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS302/ppt.zip" }),
+        row("02", "BCS303", "Digital Design and Computer Organization", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS303/course-module.zip", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS303/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS303/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS303/ppt.zip" }),
+        row("03", "BCS304", "Operating Systems", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS304/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS304/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS304/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS304/ppt.zip" }),
+        row("04", "BCS305", "Data Structures & Applications", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS305/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS305/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS305/notes-lab-manual.zip", ppt: "/pdfs/student-learning-2026-27/cy/3rdsem/BCS305/ppt.zip" }),
+        row("05", "BMATCS301", "Probability, Distributions and Statistics", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BMATCS301/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BMATCS301/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BMATCS301/notes-lab-manual.pdf", ppt: "/pdfs/student-learning-2026-27/cy/3rdsem/BMATCS301/ppt.pdf" }),
+        row("06", "BCSL306", "DSA Laboratory", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL306/course-module.pdf", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL306/lesson-plan.pdf", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL306/notes-lab-manual.pdf" }),
+        row("07", "BCSL307A", "Project Management with Git", { module: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL307A/course-module.docx", lesson: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL307A/lesson-plan.docx", notes: "/pdfs/student-learning-2026-27/cy/3rdsem/BCSL307A/notes-lab-manual.docx" }),
+      ],
+    },
+    {
       heading: "Academic Year 2026-27 (5th Semester)",
       rows: [
         row("01", "BCYL504", "ADVANCED CYBERSECURITY LAB", { lesson: "/pdfs/student-learning-2026-27/cy/5thsem/BCYL504/lesson-plan.zip", notes: "/pdfs/student-learning-2026-27/cy/5thsem/BCYL504/notes-lab-manual.zip" }),
