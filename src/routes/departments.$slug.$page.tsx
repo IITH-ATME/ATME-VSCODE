@@ -1732,6 +1732,13 @@ function parsePdfSections(md: string): {
   let cur: Sec | null = null;
   let lastSubHeading = "";
   let yearContext: string | null = null;
+  // Explicit non-year "container" headings (e.g. a named newsletter masthead
+  // like "NIRMAAN") that should group every dated sub-heading following them
+  // into one accordion labeled with the container's own title, instead of
+  // each dated sub-heading becoming its own top-level group. Scoped to an
+  // exact-match allowlist so it can never affect any other heading/page.
+  const CONTAINER_HEADING_TITLES = new Set(["nirmaan"]);
+  let containerActive = false;
   const seenFiles = new Set<string>();
   const pdfLink = /\[([^\]]+)\]\(((?:https?:[^)\s]+|\/[^)\s]+)\.pdf(?:\?[^)\s]*)?)\)/gi;
   const viewerLink = /\[([^\]]+)\]\((https?:[^)\s]+pdfjs[^)\s]*\?file=([^)&\s]+)[^)\s]*)\)/gi;
@@ -1784,19 +1791,38 @@ function parsePdfSections(md: string): {
       if (!title) continue;
 
 
+      // Explicit container heading (e.g. "NIRMAAN"): acts like a year
+      // heading for grouping purposes, but keeps its own literal title as
+      // the group label for every dated sub-heading that follows, until a
+      // different, unrelated heading ends the container.
+      if (CONTAINER_HEADING_TITLES.has(title.toLowerCase())) {
+        if (cur && (cur.pdfs.length || cur.intro.trim())) sections.push(cur);
+        cur = { title, intro: "", pdfs: [], level, year: title };
+        yearContext = title;
+        containerActive = true;
+        lastSubHeading = title;
+        continue;
+      }
       // Year headings (e.g. "AY 2025-26", "2024-25") set the year context
       // for subsequent sub-sections but do not create a section themselves
       // when they carry no PDFs — they become the outer accordion label.
       if (isYearTitle(title)) {
         if (cur && (cur.pdfs.length || cur.intro.trim())) sections.push(cur);
-        cur = { title, intro: "", pdfs: [], level, year: title };
-        yearContext = title;
+        const groupKey = containerActive && yearContext ? yearContext : title;
+        cur = { title, intro: "", pdfs: [], level, year: groupKey };
+        if (!containerActive) yearContext = title;
         lastSubHeading = title;
         continue;
       }
       // Every other heading starts a new accordion section so PDFs are
-      // grouped under the most specific heading that introduces them.
+      // grouped under the most specific heading that introduces them. This
+      // also ends any active container so unrelated content (e.g. an older
+      // archive section) after it is not swept into the container's group.
       if (cur && (cur.pdfs.length || cur.intro.trim())) sections.push(cur);
+      if (containerActive) {
+        containerActive = false;
+        yearContext = null;
+      }
       cur = { title, intro: "", pdfs: [], level, year: yearContext };
       lastSubHeading = title;
       continue;

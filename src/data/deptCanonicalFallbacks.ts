@@ -119,10 +119,9 @@ const PDF_REF_RE = /(\.pdf(?![a-z])|\/__l5e\/assets-v1\/[^)\s"'<>]+\.pdf|wp-cont
 // New department newsletters (Feb/Jan 2026 edition) — prepended on top of
 // any existing scraped newsletter content so the latest issue appears first.
 export const NEW_NEWSLETTERS: Record<string, { heading: string; url: string }> = {
-  ce: {
-    heading: "NIRMAAN — Volume 11 / Issue 01 / February 2026",
-    url: "/__l5e/assets-v1/1f703e54-5126-41d7-8dd4-6f93fc888d96/CE-NIRMAAN-Newsletter-Vol-11-Issue-01-Feb-2026.pdf",
-  },
+  // ce intentionally omitted: its NIRMAAN issues (multiple, dated) are
+  // hand-authored directly in deptScraped.json under a "## NIRMAAN"
+  // container heading instead of this single-entry auto-prepend.
   cse: {
     heading: "CSE Newsletter — Volume 15 : Issue I, February 2026",
     url: "/__l5e/assets-v1/6d51a7e3-ac33-4493-b291-38ba0f5dba23/CSE-Newsletter-Vol-15-Issue-1-Feb-2026.pdf",
