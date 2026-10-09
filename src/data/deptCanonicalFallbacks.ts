@@ -116,29 +116,14 @@ ${COMMON_UG_COE}`,
 
 const PDF_REF_RE = /(\.pdf(?![a-z])|\/__l5e\/assets-v1\/[^)\s"'<>]+\.pdf|wp-content\/uploads\/[^)\s"'<>]+\.pdf)/i;
 
-// New department newsletters (Feb/Jan 2026 edition) — prepended on top of
-// any existing scraped newsletter content so the latest issue appears first.
-export const NEW_NEWSLETTERS: Record<string, { heading: string; url: string }> = {
-  // ce intentionally omitted: its NIRMAAN issues (multiple, dated) are
-  // hand-authored directly in deptScraped.json under a "## NIRMAAN"
-  // container heading instead of this single-entry auto-prepend.
-  cse: {
-    heading: "CSE Newsletter — Volume 15 : Issue I, February 2026",
-    url: "/__l5e/assets-v1/6d51a7e3-ac33-4493-b291-38ba0f5dba23/CSE-Newsletter-Vol-15-Issue-1-Feb-2026.pdf",
-  },
-  ece: {
-    heading: "ECHELON — Volume 13 : Issue 1, February 2026",
-    url: "/__l5e/assets-v1/ca8cc925-f698-4945-9434-e2488d2ff7c2/ECE-ECHELON-Newsletter-Vol-13-Issue-1-Feb-2026.pdf",
-  },
-  eee: {
-    heading: "AY:2025-26",
-    url: "/__l5e/assets-v1/11f3d0c2-f089-4ff1-af1e-dfc3d6f29a6a/EEE-INSPIRE-Newsletter-Vol-11-Issue-1-Jan-2026.pdf",
-  },
-  me: {
-    heading: "MECH TIMES — Volume 12 : Issue 1, February 2026",
-    url: "/__l5e/assets-v1/1d88d364-e044-4491-908d-e6ff5d1e42c6/ME-MECH-TIMES-Newsletter-Vol-12-Issue-1-Feb-2026.pdf",
-  },
-};
+// Formerly held a single "latest issue" entry per department, auto-prepended
+// on top of scraped newsletter content. Every department's issues (old and
+// new) are now hand-authored directly in deptScraped.json as dated headings,
+// so each issue persists and gets its own accordion instead of only the
+// single most-recent one ever being visible. Kept as an empty map (rather
+// than removed) since normalizeNewsletterMd/newsletterPrefix below still
+// read from it — a future dept can opt back in here if ever needed.
+export const NEW_NEWSLETTERS: Record<string, { heading: string; url: string }> = {};
 
 function newsletterPrefix(deptSlug: string): string {
   const n = NEW_NEWSLETTERS[deptSlug];
