@@ -34,6 +34,13 @@ export function PdfEmbed({
   const url = rawUrl ? pdfFromAtmeUrl(rawUrl) : rawUrl;
   const ref = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
+  // Google Docs Viewer renders the PDF inside its iframe asynchronously —
+  // the iframe's own `load` event fires almost immediately (it's just the
+  // viewer shell), well before the document itself has finished converting
+  // and painting, which can take 10-20s for a large/newly-uploaded file.
+  // Without a visible loading state here, that gap looks like a blank/dark,
+  // broken embed instead of "still loading" — this overlay fixes that.
+  const [previewReady, setPreviewReady] = useState(false);
   const diag = useDiagnostics();
 
   // Track viewport so the embed height adapts: phones get ~70vh capped,
@@ -131,6 +138,19 @@ export function PdfEmbed({
         : "mobile-open-cta"
       : "desktop-native-object→gview-fallback";
 
+  // Cross-origin, so the iframe's own `load` event (shell loaded) can't be
+  // correlated with "the page has actually painted" — Google's viewer keeps
+  // fetching/rendering page images well after that fires. A short, fixed
+  // delay is a simpler, more reliable heuristic than trusting `load`: in
+  // practice the first page is visible a few seconds in, even for a
+  // newly-uploaded file Google hasn't converted/cached before.
+  useEffect(() => {
+    if (!inView) return;
+    setPreviewReady(false);
+    const timer = window.setTimeout(() => setPreviewReady(true), 4000);
+    return () => window.clearTimeout(timer);
+  }, [inView, gviewSrc]);
+
   // Open in new tab — uses window.open so it works even when the parent
   // preview iframe lacks `allow-popups` for plain target="_blank" links.
   const openInNewTab = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -172,6 +192,18 @@ export function PdfEmbed({
     </div>
   );
 
+  const loadingOverlay = !previewReady && (
+    <div
+      className="pointer-events-none absolute inset-0 grid place-items-center bg-white"
+      style={{ height: frameHeight }}
+    >
+      <div className="flex flex-col items-center gap-2.5 text-muted-foreground">
+        <div className="h-7 w-7 animate-spin rounded-full border-2 border-primary/25 border-t-primary" />
+        <span className="text-xs font-medium">Loading preview…</span>
+      </div>
+    </div>
+  );
+
   return (
     <div
       ref={ref}
@@ -193,13 +225,15 @@ export function PdfEmbed({
           {/* Google Docs viewer renders the PDF inline so the browser
              never triggers a native download prompt. Users can still
              download explicitly via the button in the header. */}
-          <iframe
-            src={gviewSrc}
-            title={title || "PDF"}
-            className="block w-full bg-white border-0"
-            style={{ height: frameHeight }}
-            loading="lazy"
-          />
+          <div className="relative w-full" style={{ height: frameHeight }}>
+            {loadingOverlay}
+            <iframe
+              src={gviewSrc}
+              title={title || "PDF"}
+              className="block w-full h-full bg-white border-0"
+              loading="lazy"
+            />
+          </div>
           <div className="flex items-center justify-center gap-2 border-t border-border bg-muted/30 px-3 py-2.5">
             <a
               href={absoluteUrl}
@@ -220,13 +254,15 @@ export function PdfEmbed({
           </div>
         </div>
       ) : (
-        <iframe
-          src={gviewSrc}
-          title={title || "PDF"}
-          className="block w-full bg-white border-0"
-          style={{ height: frameHeight }}
-          loading="lazy"
-        />
+        <div className="relative w-full" style={{ height: frameHeight }}>
+          {loadingOverlay}
+          <iframe
+            src={gviewSrc}
+            title={title || "PDF"}
+            className="block w-full h-full bg-white border-0"
+            loading="lazy"
+          />
+        </div>
       )}
 
       {diag && (
