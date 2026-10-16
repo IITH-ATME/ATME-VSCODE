@@ -1175,7 +1175,10 @@ function RehostedPage() {
                       thead: ({ children }: any) => (
                         <thead className="bg-[#129199]">{children}</thead>
                       ),
-                      tbody: ({ children }: any) => {
+                      tbody: ({ children, node }: any) => {
+                        // Tables that already carry explicit rowspans opt out
+                        // of auto-merging with <tbody data-no-merge>.
+                        if (node?.properties?.dataNoMerge != null) return <tbody>{children}</tbody>;
                         // Merge consecutive duplicate cells in middle columns
                         // (e.g. "Research Centre" repeated across many rows)
                         // into a single rowSpan cell so the value appears

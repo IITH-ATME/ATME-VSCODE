@@ -2997,34 +2997,35 @@ The Student Council exists to promote the quality of student life within and out
 
 To make the students participate in the development of the Institute and develop their career, personality and organizational skills through interactive programs with the faculty, administration and society.
 
-#### [Student Council Members - Institute Level](/p/${SC_KEY})
+#### [Student Council Members - Institute Level for AY 2026 - 27](/p/${SC_KEY})
 
-| Sl. No. | Name | Council Post | Department | Phone Number |
-| --- | --- | --- | --- | --- |
-| 1 | HARSHA V S | PRESIDENT | ECE | 9380619700 |
-| 2 | RAHUL M G | VICE PRESIDENT | ECE | 9663799107 |
-| 3 | KISHOR M | GENERAL SECRETARY | AIML | 9886651313 |
-| 4 | NIKHITHA L | GENERAL SECRETARY (Non-technical) | MCA | 9380414678 |
-| 5 | SARAHA S R | Joint SECRETARY | EEE | 9380653893 |
-| 6 | DEEKSHA S | TRESURER | DS | 9933595659 |
-| 7 | YASHAS VADAGA | CULTURAL HEAD | AIML | 7204860706 |
-| 8 | ANKUSH SAI GOWDA | CULTURAL SECRETARY (1st. YEAR) | CSE | 8792058607 |
-| 9 | YASHASWINI MC | CULTURAL SECRETARY (2nd. YEAR) | EEE | 7760468609 |
-| 10 | ADITHYA M | CULTURAL SECRETARY (3th. YEAR) | AIML | 8867251018 |
-| 11 | SOLIN JAMES | CULTURAL SECRETARY (Non-technical) | MBA | 7353028868 |
-| 12 | PRAJWAL | SPORTS HEAD (4th. YEAR) | MECH | 7892083091 |
-| 13 | TANSHU P | SPORTS SECRETARY (1st. YEAR) | DATA SCIENCE | 8310584350 |
-| 14 | ANKITHA A P | SPORTS SECRETARY (2nd. YEAR) | EEE | 9591565916 |
-| 15 | AKSHAY S D | SPORTS SECRETARY (3rd. YEAR) | CSE | 7892253463 |
-| 16 | VARSHA K | SPORTS SECRETARY (Non-technical) | BCA | 7259973916 |
-| 17 | NIDA NAWAZ KHAN | PLACEMENT SECRETARY (Circuit branch) | AIML | 9019983925 |
-| 18 | DIVYASSHREE M N | PLACEMENT SECRETARY (Non-circuit branch) | Civil | 9964283672 |
-| 19 | VIGNESH S | PLACEMENT SECRETARY (Non-technical) | MCA | 8762232582 |
-| 20 | SUMA S ROLLI | PR and MEDIA | EEE | 7760360815 |
-
-#### [Student Council Members - Department Level](/p/${SC_KEY})
-
-[pdfviewer width="1200px" height="800px"]https://old.atme.edu.in/wp-content/uploads/2023/01/Department-Student-Council.pdf[/pdfviewer]
+<table>
+<thead><tr><th>Sl NO</th><th>Student Name</th><th>Branch</th><th>Year</th><th>Role</th></tr></thead>
+<tbody data-no-merge>
+<tr><td>1</td><td>RAHUL M G</td><td>E&amp;C</td><td>4<sup>th</sup></td><td>President</td></tr>
+<tr><td>2</td><td>LIKITH KUMAR.K</td><td>E&amp;C</td><td>3<sup>rd</sup></td><td>Vice president</td></tr>
+<tr><td>3</td><td>SHREYAS. K. A</td><td>CSE-DS</td><td>3<sup>rd</sup></td><td rowspan="2">General Secretary</td></tr>
+<tr><td>4</td><td>AMEENA.B. I (PG)</td><td>MCA</td><td>2<sup>nd</sup></td></tr>
+<tr><td>5</td><td>PRATHAM GOWDA</td><td>CSE</td><td>2<sup>nd</sup></td><td rowspan="2">Joint Secretary</td></tr>
+<tr><td>6</td><td>LAVANYA</td><td>MCA</td><td>2nd</td></tr>
+<tr><td>7</td><td>SOGASU</td><td>CSE</td><td>2nd</td><td rowspan="2">Treasurer</td></tr>
+<tr><td>8</td><td>PRAVEEN.V (PG)</td><td>MCA</td><td>2nd</td></tr>
+<tr><td>9</td><td>KISHORE.M</td><td>AI&amp;ML</td><td>4<sup>th</sup></td><td>Cultural head</td></tr>
+<tr><td>10</td><td>SINCHANA</td><td>CSE-CY</td><td>3<sup>rd</sup></td><td rowspan="4">Cultural secretary</td></tr>
+<tr><td>11</td><td>BHOOMICA.C</td><td>CSE-CY</td><td>2<sup>nd</sup></td></tr>
+<tr><td>12</td><td>RAMYA SHETTY C</td><td>EC</td><td>1<sup>st</sup></td></tr>
+<tr><td>13</td><td>HARSHITHA.B. R (PG)</td><td>MBA</td><td>2nd</td></tr>
+<tr><td>14</td><td>PRANAY.S</td><td>CSE-CG</td><td>4<sup>th</sup></td><td>Sports Head</td></tr>
+<tr><td>15</td><td>HARSHITH.M</td><td>CSE</td><td>3<sup>rd</sup></td><td rowspan="4">Sports secretary</td></tr>
+<tr><td>16</td><td>NISHA.U.H</td><td>CSE-CG</td><td>2<sup>nd</sup></td></tr>
+<tr><td>17</td><td>THARUNKUMAR.K</td><td></td><td>1<sup>st</sup></td></tr>
+<tr><td>18</td><td>DEEKSHA.S (PG)</td><td>MCA</td><td>2<sup>nd</sup></td></tr>
+<tr><td>19</td><td>KRUSHIKA.D (CIRCUIT BRANCH)</td><td>EC</td><td>3<sup>rd</sup></td><td rowspan="3">Secretary/Placement</td></tr>
+<tr><td>20</td><td>SUHANA TAJ (NON-CIRCUIT BRANCH)</td><td>CIVIL</td><td>3<sup>rd</sup></td></tr>
+<tr><td>21</td><td>HITHESH SINGH PATARI R</td><td>MCA</td><td>2<sup>nd</sup></td></tr>
+<tr><td>22</td><td>I.M .KUSHALAPPA</td><td>MECH</td><td>2nd</td><td>Secretary/ PR Media</td></tr>
+</tbody>
+</table>
 
 #### [Term of Office Bearers](/p/${SC_KEY})
 
