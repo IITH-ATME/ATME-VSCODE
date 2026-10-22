@@ -3,6 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { FloatingActions } from "./FloatingActions";
 import { AdmissionsPopup } from "./AdmissionsPopup";
+import { BreadcrumbJsonLd } from "./JsonLd";
 
 export function Layout({ children }: { children: ReactNode }) {
   return (
@@ -12,6 +13,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <Footer />
       <FloatingActions />
       <AdmissionsPopup />
+      <BreadcrumbJsonLd />
     </div>
   );
 }

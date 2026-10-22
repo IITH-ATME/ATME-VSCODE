@@ -4,6 +4,7 @@ import { Layout, PageHero } from "@/components/site/Layout";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { CheckCircle2, FileText, Phone, Mail, ArrowRight, Send } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { seo } from "@/lib/seo";
 
 const DEPT_OPTIONS = ["CSE", "ISE", "AIML", "ECE", "EEE", "ME", "Civil", "MBA", "MCA"] as const;
 
@@ -77,16 +78,12 @@ function EnquiryForm() {
 }
 
 export const Route = createFileRoute("/admissions")({
-  head: () => ({
-    meta: [
-      { title: "Admissions 2026-27 — ATME College of Engineering" },
-      { name: "description", content: "Admissions are open for the 2026-27 academic year at ATME College of Engineering, Mysuru. Eligibility, process, fees and scholarships." },
-      { property: "og:title", content: "Admissions 2026-27 — ATME" },
-      { property: "og:description", content: "Apply for BE/MBA/MCA programmes at ATME, Mysuru. VTU affiliated · NAAC accredited." },
-      { property: "og:url", content: "https://atme.edu.in/admissions" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/admissions" }],
-  }),
+  head: () =>
+    seo({
+      title: "Admissions 2026-27 — ATME College of Engineering",
+      path: "/admissions",
+      description: "Admissions are open for the 2026-27 academic year at ATME College of Engineering, Mysuru. Eligibility, process, fees and scholarships.",
+    }),
   component: AdmissionsPage,
 });
 

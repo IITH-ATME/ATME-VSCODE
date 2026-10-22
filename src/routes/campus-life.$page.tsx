@@ -4,6 +4,7 @@ import { InfoPage } from "@/components/site/InfoPage";
 import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { pdfFromAtmeUrl } from "@/data/pdfRewrite";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 
 const PAGES: Record<string, { title: string; subtitle: string; intro: string; img?: string; sections?: { heading: string; body: ReactNode }[] }> = {
   atmeya:                  { title: "ATMEYA", subtitle: "The annual cultural fest of ATME", intro: "ATMEYA is the flagship cultural fest of ATME — three days of music, dance, theatre, fashion and gaming, drawing students from colleges across South India." },
@@ -202,15 +203,12 @@ export const Route = createFileRoute("/campus-life/$page")({
     if (!page) throw notFound();
     return { page };
   },
-  head: ({ loaderData }) =>
-    loaderData
-      ? {
-          meta: [
-            { title: `${loaderData.page.title} — ATME Campus Life` },
-            { name: "description", content: loaderData.page.intro.slice(0, 160) },
-          ],
-        }
-      : { meta: [{ title: "Campus Life — ATME" }] },
+  head: ({ loaderData, params }) =>
+    seo({
+      title: loaderData ? `${loaderData.page.title} — Campus Life` : "Campus Life",
+      path: `/campus-life/${params.page}`,
+      descriptionSource: loaderData?.page.intro,
+    }),
   notFoundComponent: () => (
     <InfoPage title="Page not found" subtitle="This Campus Life page doesn't exist yet." />
   ),

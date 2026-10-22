@@ -2,6 +2,7 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { BookOpen, GraduationCap, ListChecks, Lightbulb } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 const URL = "https://atme.edu.in/resources/discrete-mathematical-structures";
 const TITLE = "Discrete Mathematical Structures (DMS) Notes — VTU 2022 Scheme | ATME";
@@ -50,18 +51,16 @@ const DMS_FAQ_JSON_LD = JSON.stringify({
 });
 
 export const Route = createFileRoute("/resources/discrete-mathematical-structures")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESC },
-      { name: "keywords", content: "dms notes, discrete mathematical structures vtu, discrete mathematical structures notes, vtu dms 2022 scheme, pigeonhole principle, BCS405A notes" },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESC },
-      { property: "og:url", content: URL },
-      { property: "og:type", content: "article" },
-    ],
-    links: [{ rel: "canonical", href: URL }],
-  }),
+  head: () => {
+    const tags = seo({ title: TITLE, path: "/resources/discrete-mathematical-structures", description: DESC, type: "article" });
+    return {
+      meta: [
+        ...tags.meta,
+        { name: "keywords", content: "dms notes, discrete mathematical structures vtu, discrete mathematical structures notes, vtu dms 2022 scheme, pigeonhole principle, BCS405A notes" },
+      ],
+      links: tags.links,
+    };
+  },
   component: DMSPage,
 });
 

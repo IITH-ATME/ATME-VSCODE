@@ -2,14 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { EventCard } from "@/components/site/EventCard";
 import { SITE_EVENTS } from "@/data/siteEvents";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/campus-life/events")({
-  head: () => ({
-    meta: [
-      { title: "Events — ATME Campus Life" },
-      { name: "description", content: "Every fest, workshop, FDP, conference and student activity at ATME College of Engineering, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Events — ATME Campus Life",
+      path: "/campus-life/events",
+      description: "Every fest, workshop, FDP, conference and student activity at ATME College of Engineering, Mysuru.",
+    }),
 
   component: () => {
     const today = new Date().toISOString().slice(0, 10);

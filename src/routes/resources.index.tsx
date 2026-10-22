@@ -2,18 +2,15 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { BookOpen, FileText, Video, Library, Target, ArrowRight } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/")({
-  head: () => ({
-    meta: [
-      { title: "Student Learning Hub — ATME" },
-      { name: "description", content: "Notes, previous year question papers, video lectures, e-library and placement prep — everything ATME students need in one place." },
-      { property: "og:title", content: "Student Learning Hub — ATME" },
-      { property: "og:description", content: "Notes, VTU papers, video lectures, e-library and placement prep for ATME students." },
-      { property: "og:url", content: "https://atme.edu.in/resources" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources" }],
-  }),
+  head: () =>
+    seo({
+      title: "Student Learning Hub — ATME",
+      path: "/resources",
+      description: "Notes, previous year question papers, video lectures, e-library and placement prep — everything ATME students need in one place.",
+    }),
   component: ResourcesHub,
 });
 

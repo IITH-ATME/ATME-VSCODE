@@ -80,15 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "ATME College of Engineering — Mysuru" },
-      { name: "description", content: "ATME College of Engineering, Mysuru — autonomous, AICTE-approved, VTU-affiliated, NAAC A+ institution offering UG and PG engineering programmes." },
+      { name: "description", content: "ATME College of Engineering, Mysuru — AICTE-approved, VTU-affiliated, NAAC A+ institution offering UG and PG engineering programmes." },
       { name: "author", content: "ATME College of Engineering" },
       { property: "og:title", content: "ATME College of Engineering — Mysuru" },
-      { property: "og:description", content: "Autonomous engineering institution in Mysuru offering UG and PG programmes with strong research, placements, and campus life." },
+      { property: "og:description", content: "VTU-affiliated engineering institution in Mysuru offering UG and PG programmes with strong research, placements, and campus life." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "ATME College of Engineering" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "ATME College of Engineering — Mysuru" },
-      { name: "twitter:description", content: "Autonomous engineering institution in Mysuru offering UG and PG programmes with strong research, placements, and campus life." },
+      { name: "twitter:description", content: "VTU-affiliated engineering institution in Mysuru offering UG and PG programmes with strong research, placements, and campus life." },
       { name: "theme-color", content: "#238987" },
       { name: "msapplication-TileColor", content: "#238987" },
       { name: "msapplication-TileImage", content: "/atme-icon-192.png?v=20260617" },
@@ -163,12 +163,22 @@ const ROOT_JSON_LD = JSON.stringify({
   logo: resolveAssetUrl(atmeLogo.url),
   address: {
     "@type": "PostalAddress",
-    streetAddress: "13th Kilometer, Bannur Road, Mysuru–Bannur Highway",
+    streetAddress: "13th KM, Mysore – Kanakapura – Bangalore Road",
     addressLocality: "Mysuru",
     addressRegion: "Karnataka",
     postalCode: "570028",
     addressCountry: "IN",
   },
+  // Contact details and profiles as published in the site footer.
+  telephone: "+91-821-2954081",
+  email: "info@atme.edu.in",
+  sameAs: [
+    "https://www.facebook.com/atmeceofficial/",
+    "https://twitter.com/atmece1",
+    "https://www.linkedin.com/school/atme-college-of-engineering",
+    "https://youtube.com/c/ATMECEOfficial",
+    "https://www.instagram.com/atmeceofficial/",
+  ],
 });
 
 function RootShell({ children }: { children: ReactNode }) {

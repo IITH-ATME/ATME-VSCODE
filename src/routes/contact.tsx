@@ -2,6 +2,7 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { MapPin, Phone, Mail, Building2 } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 const CONTACT_JSON_LD = JSON.stringify({
   "@context": "https://schema.org",
@@ -22,16 +23,12 @@ const CONTACT_JSON_LD = JSON.stringify({
 });
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact — ATME College of Engineering" },
-      { name: "description", content: "Get in touch with ATME College of Engineering. Address, phone numbers and email for admissions and general enquiries." },
-      { property: "og:title", content: "Contact ATME" },
-      { property: "og:description", content: "Reach our campus, corporate office and admissions team." },
-      { property: "og:url", content: "https://atme.edu.in/contact" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/contact" }],
-  }),
+  head: () =>
+    seo({
+      title: "Contact — ATME College of Engineering",
+      path: "/contact",
+      description: "Get in touch with ATME College of Engineering. Address, phone numbers and email for admissions and general enquiries.",
+    }),
   component: ContactPage,
 });
 

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { seo } from "@/lib/seo";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -12,12 +13,12 @@ export const Route = createFileRoute("/careers")({
     return { markdown: page?.markdown || "" };
   },
   component: CareersPage,
-  head: () => ({
-    meta: [
-      { title: "Careers — ATME" },
-      { name: "description", content: "Employment notifications and career opportunities at ATME College of Engineering, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Careers — ATME",
+      path: "/careers",
+      description: "Employment notifications and career opportunities at ATME College of Engineering, Mysuru.",
+    }),
 });
 
 function CareersPage() {

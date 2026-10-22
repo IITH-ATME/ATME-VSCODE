@@ -2,14 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
 import { pdf, policies } from "@/data/pdfs";
 import { Download, FileText } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/student-handbook")({
-  head: () => ({
-    meta: [
-      { title: "Student Handbook — ATME College of Engineering" },
-      { name: "description", content: "Download the ATME Student Handbook with academic policies, rules and regulations." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Student Handbook — ATME College of Engineering",
+      path: "/student-handbook",
+      description: "Download the ATME Student Handbook with academic policies, rules and regulations.",
+    }),
   component: Page,
 });
 

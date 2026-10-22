@@ -5,6 +5,7 @@ import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import imgAssets from "@/data/imgAssets.json";
 import imageAssets from "@/data/imageAssets.json";
+import { seo, proseLines } from "@/lib/seo";
 
 // Pages that should render one or more inline PDF embeds after the article body.
 const INLINE_PDFS: Record<string, { title: string; url: string }[]> = {
@@ -20,6 +21,19 @@ const INLINE_PDFS: Record<string, { title: string; url: string }[]> = {
   ],
 };
 
+
+// These /about/* pages repeat content the header menu links under /p/*;
+// point search engines at the menu version.
+const MENU_PAGE: Record<string, string> = {
+  "vision-mission": "/p/vision-mission",
+  "governing-council": "/p/about-us/governing-council-gc",
+  "chairmans-message": "/p/about-us/chairmans-message",
+  "about-principal": "/p/about-principal",
+  "principal-message": "/p/principal-message",
+  "academic-council": "/p/about-us/academic-council-ac",
+  "statutory-declaration": "/p/about-us/statutory-declaration-and-undertaking",
+  "dean-student-affairs": "/p/atme-research/dean-student-affairs",
+};
 
 const ROUTE_MAP: Record<string, { key: keyof typeof scraped; section: string }> = {
   "vision-mission": { key: "vision-mission", section: "About" },
@@ -56,8 +70,13 @@ export const Route = createFileRoute("/about_/$page")({
   component: AboutPage,
   head: ({ params }) => {
     const m = ROUTE_MAP[params.page];
-    const title = m ? scraped[m.key].title : "About — ATME";
-    return { meta: [{ title: `${title} — ATME College of Engineering` }, { name: "description", content: `${title} at ATME College of Engineering, Mysuru.` }] };
+    const page = m ? scraped[m.key] : undefined;
+    return seo({
+      title: page?.title ?? "About",
+      path: `/about/${params.page}`,
+      canonicalPath: MENU_PAGE[params.page],
+      descriptionSource: page ? proseLines(page.text) : null,
+    });
   },
 });
 

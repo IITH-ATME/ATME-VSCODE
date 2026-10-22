@@ -1,13 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/nabl")({
-  head: () => ({
-    meta: [
-      { title: "NABL Accreditation — ATME College of Engineering" },
-      { name: "description", content: "ATME Civil Engineering Laboratory is NABL accredited under ISO/IEC 17025:2017." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "NABL Accreditation — ATME College of Engineering",
+      path: "/nabl",
+      description: "ATME Civil Engineering Laboratory is NABL accredited under ISO/IEC 17025:2017.",
+    }),
   component: () => (
     <InfoPage
       eyebrow="Quality & Accreditation"

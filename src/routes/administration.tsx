@@ -2,16 +2,15 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { Users, Shield, FileText, ArrowRight } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/administration")({
-  head: () => ({
-    meta: [
-      { title: "Administration — ATME College of Engineering" },
-      { name: "description", content: "Deans, committees, cells and institutional policies at ATME College of Engineering, Mysuru." },
-      { property: "og:title", content: "Administration at ATME" },
-      { property: "og:description", content: "Leadership, cells, committees and policies that run ATME College of Engineering." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Administration — ATME College of Engineering",
+      path: "/administration",
+      description: "Deans, committees, cells and institutional policies at ATME College of Engineering, Mysuru.",
+    }),
   component: AdministrationHub,
 });
 

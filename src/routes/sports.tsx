@@ -3,16 +3,15 @@ import { Layout, PageHero } from "@/components/site/Layout";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { SectionTabNav } from "@/components/site/SectionTabNav";
 import { sportsTabs } from "@/lib/hubTabs";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/sports")({
-  head: () => ({
-    meta: [
-      { title: "Department of Sports — ATME College of Engineering" },
-      { name: "description", content: "Sports department at ATME — facilities, committee, staff, events, scholarships and achievements." },
-      { property: "og:title", content: "Department of Sports — ATME" },
-      { property: "og:description", content: "Cricket, football, basketball, athletics and indoor sports facilities at ATME, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Department of Sports — ATME College of Engineering",
+      path: "/sports",
+      description: "Sports department at ATME — facilities, committee, staff, events, scholarships and achievements.",
+    }),
   component: SportsHub,
 });
 

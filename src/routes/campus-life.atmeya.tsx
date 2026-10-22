@@ -12,30 +12,18 @@ import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { resolveAssetUrl } from "@/lib/assetUrl";
 
 export const Route = createFileRoute("/campus-life/atmeya")({
-  head: () => ({
-    meta: [
-      { title: "ATMEYA — Annual Cultural Fest | ATME College of Engineering" },
-      {
-        name: "description",
-        content:
-          "ATMEYA — the annual cultural fest of ATME College of Engineering, Mysuru. Reports and highlights from ATMEYA 2k15 through ATMEYA 2k25.",
-      },
-      { property: "og:title", content: "ATMEYA — Annual Cultural Fest of ATME" },
-      {
-        property: "og:description",
-        content:
-          "Three days of music, dance, theatre, fashion, sports and themes that make a difference — explore all editions of ATMEYA at ATME, Mysuru.",
-      },
-      {
-        property: "og:image",
-        content: resolveAssetUrl("/images/uploads/2026/02/rsz_1untitled_design.jpg"),
-      },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "ATMEYA — Annual Cultural Fest | ATME College of Engineering",
+      path: "/campus-life/atmeya",
+      description: "ATMEYA — the annual cultural fest of ATME College of Engineering, Mysuru. Reports and highlights from ATMEYA 2k15 through ATMEYA 2k25.",
+      image: resolveAssetUrl("/images/uploads/2026/02/rsz_1untitled_design.jpg"),
+    }),
   component: AtmeyaPage,
 });
 
 import atmeyaCollageResized from "@/assets/rsz_atmeya_2k26_16x9_collage.jpg.asset.json";
+import { seo } from "@/lib/seo";
 
 const SLIDES = [
   resolveAssetUrl(atmeyaCollageResized.url),

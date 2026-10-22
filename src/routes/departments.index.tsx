@@ -2,16 +2,15 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { departmentsIndex as departments } from "@/data/departmentsIndex";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/departments/")({
-  head: () => ({
-    meta: [
-      { title: "Departments — ATME College of Engineering" },
-      { name: "description", content: "Explore UG and PG departments at ATME including CSE, AI & ML, Cyber Security, ECE, EEE, Mechanical, Civil, BCA, MCA and MBA." },
-      { property: "og:title", content: "Departments at ATME" },
-      { property: "og:description", content: "UG and PG departments with industry-aligned curriculum." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Departments — ATME College of Engineering",
+      path: "/departments",
+      description: "Explore UG and PG departments at ATME including CSE, AI & ML, Cyber Security, ECE, EEE, Mechanical, Civil, BCA, MCA and MBA.",
+    }),
   component: DeptsList,
 });
 

@@ -2,18 +2,15 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { Video, ExternalLink } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/videos")({
-  head: () => ({
-    meta: [
-      { title: "Video Lectures — ATME" },
-      { name: "description", content: "Curated NPTEL, SWAYAM and YouTube playlists for engineering subjects, available to ATME students and faculty." },
-      { property: "og:title", content: "Video Lectures — ATME" },
-      { property: "og:description", content: "High-quality MOOCs and curated playlists from leading institutions." },
-      { property: "og:url", content: "https://atme.edu.in/resources/videos" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources/videos" }],
-  }),
+  head: () =>
+    seo({
+      title: "Video Lectures — ATME",
+      path: "/resources/videos",
+      description: "Curated NPTEL, SWAYAM and YouTube playlists for engineering subjects, available to ATME students and faculty.",
+    }),
   component: VideosPage,
 });
 

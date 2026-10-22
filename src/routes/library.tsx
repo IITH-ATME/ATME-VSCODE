@@ -3,16 +3,15 @@ import { Layout, PageHero } from "@/components/site/Layout";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { SectionTabNav } from "@/components/site/SectionTabNav";
 import { libraryTabs } from "@/lib/hubTabs";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/library")({
-  head: () => ({
-    meta: [
-      { title: "Central Library — ATME College of Engineering" },
-      { name: "description", content: "ATME Central Library — collection, services, OPAC, digital learning, e-resources, repository and contact." },
-      { property: "og:title", content: "Central Library — ATME" },
-      { property: "og:description", content: "Knowledge center of ATME — print + e-book collection, VTU consortium, OPAC, digital learning and library services." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Central Library — ATME College of Engineering",
+      path: "/library",
+      description: "ATME Central Library — collection, services, OPAC, digital learning, e-resources, repository and contact.",
+    }),
   component: LibraryHub,
 });
 

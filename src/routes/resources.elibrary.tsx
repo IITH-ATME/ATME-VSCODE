@@ -2,18 +2,15 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { Library, ExternalLink } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/elibrary")({
-  head: () => ({
-    meta: [
-      { title: "E-Library & Journals — ATME" },
-      { name: "description", content: "Access IEEE, Springer, DELNET, NDL and curated open-access journals at ATME College of Engineering, Mysuru." },
-      { property: "og:title", content: "E-Library & Journals — ATME" },
-      { property: "og:description", content: "Curated subscriptions and open-access resources for ATME students and faculty." },
-      { property: "og:url", content: "https://atme.edu.in/resources/elibrary" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources/elibrary" }],
-  }),
+  head: () =>
+    seo({
+      title: "E-Library & Journals — ATME",
+      path: "/resources/elibrary",
+      description: "Access IEEE, Springer, DELNET, NDL and curated open-access journals at ATME College of Engineering, Mysuru.",
+    }),
   component: ElibPage,
 });
 

@@ -7,12 +7,7 @@ import { getDept } from "@/data/departments";
 
 import { facultyExtras } from "@/data/facultyExtras";
 import { extractContactFromMarkdown } from "@/data/extractContactFromMarkdown";
-import {
-  cseAllFaculty, eceAllFaculty, eeeAllFaculty, meAllFaculty, ceAllFaculty, dsAllFaculty,
-  cseStaff, eceStaff, eeeStaff, meStaff, ceStaff, dsStaff,
-  aimlAllFaculty, csdAllFaculty, cyAllFaculty, mcaAllFaculty, mbaAllFaculty,
-  aimlStaff, csdStaff, cyStaff, mcaStaff, mbaStaff,
-} from "@/data/allFaculty";
+import { facultyPool, homeProfilePath } from "@/data/facultyRoster";
 import { mergeFaculty, parseQualificationList } from "@/data/facultyDerived";
 import { formatFacultyName } from "@/lib/facultyName";
 
@@ -23,6 +18,8 @@ import { rewritePdfUrls } from "@/data/pdfRewrite";
 import { parseFacultyProfile } from "@/data/parseFacultyProfile";
 import { expandDesignation } from "@/lib/deptNames";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo, absoluteUrl, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { JsonLd } from "@/components/site/JsonLd";
 
 const scrapedMdComponents = {
   img: ({ src, alt, ...rest }: any) => (
@@ -31,20 +28,6 @@ const scrapedMdComponents = {
   ),
 };
 
-
-const ALL_BY_DEPT: Record<string, any[]> = {
-  cse: [...cseAllFaculty, ...cseStaff],
-  ece: [...eceAllFaculty, ...eceStaff],
-  eee: [...eeeAllFaculty, ...eeeStaff],
-  me: [...meAllFaculty, ...meStaff],
-  ce: [...ceAllFaculty, ...ceStaff],
-  ds: [...dsAllFaculty, ...dsStaff],
-  aiml: [...aimlAllFaculty, ...aimlStaff],
-  csd: [...csdAllFaculty, ...csdStaff],
-  cy: [...cyAllFaculty, ...cyStaff],
-  mca: [...mcaAllFaculty, ...mcaStaff],
-  mba: [...mbaAllFaculty, ...mbaStaff],
-};
 
 // Some faculty ids in departments.ts differ slightly from the slugs the
 // old.atme profile pages used, so the scraped/override key lookup misses.
@@ -98,7 +81,7 @@ export const Route = createFileRoute("/departments/$slug/faculty/$facultyId")({
   loader: async ({ params }) => {
     const dept = getDept(params.slug);
     if (!dept) throw notFound();
-    const pool = [...dept.faculty, ...(ALL_BY_DEPT[dept.slug] ?? [])];
+    const pool = facultyPool(dept.slug, dept.faculty);
     const raw = pool.find((f) => f.id === params.facultyId);
     if (!raw) throw notFound();
     const merged = mergeFaculty(raw);
@@ -108,13 +91,18 @@ export const Route = createFileRoute("/departments/$slug/faculty/$facultyId")({
 
   },
 
-  head: ({ loaderData }) => ({
-    meta: loaderData ? [
-      { title: `${loaderData.faculty.name} — ${loaderData.dept.name} · ATME` },
-      { name: "description", content: `${loaderData.faculty.name}, ${loaderData.faculty.designation} in the Department of ${loaderData.dept.name} at ATME College of Engineering.` },
-      { property: "og:image", content: loaderData.faculty.image },
-    ] : [],
-  }),
+  head: ({ loaderData, params }) =>
+    seo({
+      title: loaderData ? `${loaderData.faculty.name} — ${loaderData.dept.name}` : "Faculty Profile",
+      path: `/departments/${params.slug}/faculty/${params.facultyId}`,
+      // People listed under several departments: index one profile only.
+      canonicalPath: homeProfilePath(params.facultyId),
+      description: loaderData
+        ? `${loaderData.faculty.name}, ${loaderData.faculty.designation} in the Department of ${loaderData.dept.name} at ATME College of Engineering, Mysuru.`
+        : null,
+      image: loaderData?.faculty.image ? resolveAssetUrl(loaderData.faculty.image) : null,
+      type: "profile",
+    }),
   component: FacultyDetail,
 });
 
@@ -135,6 +123,17 @@ function FacultyDetail() {
 
   return (
     <Layout>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: faculty.name,
+          jobTitle: faculty.designation,
+          ...(faculty.image ? { image: absoluteUrl(resolveAssetUrl(faculty.image)) } : {}),
+          url: absoluteUrl(`/departments/${dept.slug}/faculty/${faculty.id}`),
+          worksFor: { "@type": "CollegeOrUniversity", name: SITE_NAME, url: SITE_URL },
+        }}
+      />
       <section className="gradient-soft border-b border-border">
         <div className="container-page py-6">
           <Link to="/departments/$slug/faculty" params={{ slug: dept.slug }} className="inline-flex items-center gap-2 text-sm text-primary font-semibold hover:text-primary-dark">

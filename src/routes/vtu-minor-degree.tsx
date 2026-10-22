@@ -2,16 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
 import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { pdf } from "@/data/pdfs";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/vtu-minor-degree")({
-  head: () => ({
-    meta: [
-      { title: "VTU Minor Degree — ATME College of Engineering" },
-      { name: "description", content: "VTU Minor Degree programme details offered at ATME College of Engineering, Mysuru." },
-      { property: "og:title", content: "VTU Minor Degree — ATME College of Engineering" },
-      { property: "og:description", content: "Programme details for the VTU Minor Degree at ATME College of Engineering." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "VTU Minor Degree — ATME College of Engineering",
+      path: "/vtu-minor-degree",
+      description: "VTU Minor Degree programme details offered at ATME College of Engineering, Mysuru.",
+    }),
   component: VtuMinorDegreePage,
 });
 

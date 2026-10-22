@@ -18,7 +18,7 @@ import { PdfEmbed } from "@/components/site/PdfEmbed";
 import { PdfThumbCard } from "@/components/site/PdfThumbCard";
 import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
 import { pdfFromAtmeUrl, rewritePdfUrls } from "@/data/pdfRewrite";
-import { rewriteImageSrc } from "@/data/imageRewrite";
+import { rewriteImageSrc, resolveContentHref } from "@/data/imageRewrite";
 import imageAssets from "@/data/imageAssets.json";
 import { ArrowLeft, FileText, ChevronRight, Mail, GraduationCap, Award } from "lucide-react";
 import { findSectionForSlug } from "@/lib/navStructure";
@@ -36,6 +36,7 @@ import { SolarRooftopGallery } from "@/components/site/SolarRooftopGallery";
 import { AboutCollegeExtras } from "@/components/site/AboutCollegeExtras";
 import { LibraryStaffPhotos } from "@/components/site/LibraryStaffPhotos";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo, softTitle } from "@/lib/seo";
 
 import { SECTION_BANNER, type SectionKey } from "@/lib/sectionBanners";
 import campusBanner from "@/assets/college-infra.jpg.asset.json";
@@ -49,6 +50,46 @@ type Page = { title: string; description?: string; markdown: string; sourceURL: 
 if (typeof window !== "undefined" && import.meta.env.DEV) {
   import("@/data/validatePagePdfSections");
 }
+
+// Pages reachable under two URLs with the same (or a subset of the same)
+// content, including old WordPress paths that duplicate a department page.
+// Each duplicate's canonical points at the richer, better-linked URL so
+// search engines index one copy.
+const DUPLICATE_OF: Record<string, string> = {
+  "institutions-innovation-council-iic": "/p/iic",
+  "administration/a-ims": "/p/a-ims",
+  "one-day-zonal-level-workshop-on-nuclear-energy-developments-for-societal-benefits":
+    "/p/event/one-day-zonal-level-workshop-on-nuclear-energy-developments-for-societal-benefits",
+  "indian-knowledge-system-report": "/p/event/indian-knowledge-system",
+  "three-days-state-level-fdp-on-unlocking-generative-ai": "/p/event/three-days-state-level-fdp-on-unlocking-generative-ai",
+  "three-days-fdp-on-artificial-intelligence-machine-learning-deep-learning-in-the-data-revolution-era-progress-applications":
+    "/p/event/three-days-fdp-on-artificial-intelligence-machine-learning-deep-learning-in-the-data-revolution-era-progress-applications",
+  "a-three-day-fdp-on-essential-sciences-for-engineering-and-research-2025": "/p/event/essential-sciences-for-engineering-and-research-2025",
+  "sci-fest-science-fiesta-for-students-from-7th-to-12th-standard": "/p/event/scifest",
+  "parents-teachers-meeting": "/p/event/parents-teachers-meeting",
+  "structural-engineers-in-innovation-and-entrepreneurship-2": "/p/structural-engineers-in-innovation-and-entrepreneurship",
+  "scifest-science-fiesta-for-school-childrens-from-7th-to-12th-standard-2":
+    "/p/scifest-science-fiesta-for-school-childrens-from-7th-to-12th-standard",
+  "atme-fees-structure": "/p/admissions/fee-structure",
+  "computer-science-and-engineering/about-the-department": "/departments/cse/about-the-department",
+  "civil-engineering/about-the-department-2": "/departments/ce/about-the-department-2",
+  "mechanical-engineering/about-mechanical-department": "/departments/me/about-mechanical-department-2",
+  "electrical-and-electronics-engineering/ee-about-the-department": "/departments/eee/ee-about-the-department",
+  "master-of-computer-applications": "/departments/mca/about-the-department",
+  "ai-ml": "/departments/aiml/about-the-department",
+  "27515-2": "/departments/csd/faculty/dr-shwetha-g-k",
+  // Old WordPress department pages linked from /p/course-information.
+  "cyber-security": "/departments/cy/about-the-department",
+  "cse-data-science": "/departments/ds/about-the-department",
+  "cse-computer-science-design": "/departments/csd/about-the-department",
+  "master-of-business-administration-mba": "/departments/mba/about-the-department",
+  "electronics-communication-engineering/about-the-department-2": "/departments/ece/about-the-department",
+  "iirs-isro-nc": "/iirs-isro-nc",
+};
+
+// Near-empty WordPress leftovers (a bare name, a broken Drive embed) — kept
+// reachable but out of search results.
+const THIN_PAGES = new Set(["shree", "mr-shree", "shreeshayana"]);
 
 // Nav menu slugs that don't match the scraped slug 1:1 — alias them so links
 // land on the correct content instead of the "coming soon" stub.
@@ -66,6 +107,24 @@ const SLUG_ALIASES: Record<string, string> = {
   "about-us/chairmans-message": "about-us/chairmans-message-2",
   "admissions/general-information": "general-information",
 };
+
+// Some scraped pages (admissions, fees, library, sports…) have an empty
+// title. Fall back to the label the site's own navigation uses for the page,
+// then to the readable last URL segment.
+function resolvePageTitle(page: Page, key: string): string {
+  const hub = getHubForSplat(key);
+  const hubTab = hub?.tabs.find((t) => t.splat === key);
+  return (
+    page.title?.trim() ||
+    findSectionForSlug(key)?.link.label ||
+    (hubTab && hub ? `${hubTab.label} — ${hub.hubLabel}` : undefined) ||
+    (key.split("/").pop() || "ATME")
+      .replace(/-\d+$/, "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase())
+      .replace(/\b(Ug|Pg|Atme|Vtu|Aicte)\b/g, (w) => w.toUpperCase())
+  );
+}
 
 export const Route = createFileRoute("/p/$")({
   loader: async ({ params }) => {
@@ -91,6 +150,9 @@ export const Route = createFileRoute("/p/$")({
 
     const { getBodyOverride, UG_FEES_URL: ugFeesUrl } = await import("@/data/pageBodyOverrides");
     const overrideBody = getBodyOverride(key);
+    // Old WordPress faculty profiles duplicate the migrated department profile.
+    const { homeProfilePath } = await import("@/data/facultyRoster");
+    const duplicateOf = DUPLICATE_OF[key] ?? (key.includes("/") ? undefined : homeProfilePath(key));
 
     if (!page) {
       // Stub fallback: render a generic "info coming soon" page so card links
@@ -105,16 +167,34 @@ export const Route = createFileRoute("/p/$")({
         markdown: `## ${title}\n\nDetailed information for **${title}** at ATME College of Engineering will be published here shortly.`,
         sourceURL: "",
       };
-      return { page: stub, key, overrideBody, ugFeesUrl };
+      return { page: stub, key, overrideBody, ugFeesUrl, isStub: true, duplicateOf };
     }
-    return { page, key, overrideBody, ugFeesUrl };
+    return { page, key, overrideBody, ugFeesUrl, isStub: false, duplicateOf };
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData ? [
-      { title: `${loaderData.page.title || loaderData.key} — ATME` },
-      { name: "description", content: loaderData.page.description || `${loaderData.page.title} — ATME College of Engineering, Mysuru.` },
-    ] : [],
-  }),
+  head: ({ loaderData, params }) => {
+    const key = loaderData?.key ?? (params as { _splat?: string })._splat ?? "";
+    const duplicateOf = loaderData?.duplicateOf ?? DUPLICATE_OF[key];
+    return seo({
+      title: loaderData ? resolvePageTitle(loaderData.page, key) : key,
+      path: `/p/${key}`,
+      // Bare /p is a copy of the old WordPress homepage — defer to the real one.
+      canonicalPath: key === "" ? "/" : duplicateOf,
+      // Scraped WordPress descriptions are mostly empty or boilerplate
+      // ("Faculty Profile"), so describe the page from its rendered body.
+      descriptionSource: loaderData ? sanitizeMarkdown(loaderData.overrideBody || loaderData.page.markdown) : null,
+      // Lead with the page's own title: many posts open with the same stock
+      // sentence ("ATME College of Engineering is celebrating…").
+      descriptionPrefix: loaderData ? softTitle(resolvePageTitle(loaderData.page, key)) : undefined,
+      // Out of the index: "coming soon" stubs, near-empty leftovers, and
+      // WordPress category "… Archives" listings (thin lists of other posts;
+      // "follow" still lets crawlers reach every post they link to).
+      noindex:
+        !loaderData ||
+        loaderData.isStub ||
+        THIN_PAGES.has(key) ||
+        /\bArchives\s*$/i.test(loaderData.page.title || ""),
+    });
+  },
   notFoundComponent: () => (
     <Layout>
       <PageHero title="Page not found" subtitle="The requested page does not exist." />
@@ -549,6 +629,7 @@ function RehostedPage() {
   const hasBodyContent = bodyMd.trim().length > 0;
   const showToc = false; // sidebar/in-page nav removed — pages now render full width
   const ctx = findSectionForSlug(key);
+  const pageTitle = resolvePageTitle(page, key);
   const showSidebar = false;
   const gridCls = "";
 
@@ -603,7 +684,7 @@ function RehostedPage() {
             </div>
           )}
           <h1 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-display font-bold text-[#129199] max-w-3xl mx-auto">
-            {page.title}
+            {page.title || <span className="sr-only">{pageTitle}</span>}
           </h1>
         </div>
       </section>
@@ -690,7 +771,7 @@ function RehostedPage() {
                       />
                     </div>
                     <div className="text-center md:text-left mt-1">
-                      <h1 className="font-display text-base md:text-lg font-bold text-white leading-tight">Dr. Srinivasa K</h1>
+                      <h2 className="font-display text-base md:text-lg font-bold text-white leading-tight">Dr. Srinivasa K</h2>
                       <div className="mt-0.5 text-xs text-white/85">Professor &amp; Dean Student Affairs</div>
                     </div>
                   </div>
@@ -1333,7 +1414,7 @@ function RehostedPage() {
                           return (
                             <img
                               src={resolveAssetUrl(src as string)}
-                              alt={alt || ""}
+                              alt={alt?.trim() || pageTitle}
                               loading="lazy"
                               onError={hideOnError}
                               className="rounded-xl shadow-md w-full max-w-3xl max-h-[420px] h-auto mx-auto my-6 border border-border block object-contain bg-white clear-both"
@@ -1354,7 +1435,7 @@ function RehostedPage() {
                         return (
                           <img
                             src={resolveAssetUrl(src as string)}
-                            alt={alt || ""}
+                            alt={alt?.trim() || pageTitle}
                             loading="lazy"
                             onError={hideOnError}
                             className={`rounded-lg sm:rounded-xl shadow-md border border-border bg-white object-contain ${sizeCls} max-h-[280px] sm:max-h-[360px] md:max-h-[420px] h-auto mx-auto my-4 sm:my-6 block clear-both animate-fade-in`}
@@ -1363,9 +1444,12 @@ function RehostedPage() {
                       },
 
                       a: ({ href, children, className: incomingClass, node, ...rest }: any) => {
-                        const url = String(href || "");
-                        const isPdf = /\.pdf(\?|$)/i.test(url);
-                        const isExternal = /^https?:\/\//i.test(url);
+                        const rawUrl = String(href || "");
+                        // Styling is decided from the source link; the href is
+                        // mapped to the rehosted copy so /__l5e/ uploads work.
+                        const url = rawUrl ? resolveContentHref(rawUrl) : rawUrl;
+                        const isPdf = /\.pdf(\?|$)/i.test(rawUrl);
+                        const isExternal = /^https?:\/\//i.test(rawUrl);
                         // If the markdown source already provided a className
                         // (raw HTML override), respect it and don't apply our
                         // default link styling.
@@ -1492,7 +1576,7 @@ function RehostedPage() {
                                     <a key={j} href={resolveAssetUrl(img.src)} target="_blank" rel="noreferrer" className="block group">
                                       <img
                                         src={resolveAssetUrl(img.src)}
-                                        alt={img.alt}
+                                        alt={img.alt?.trim() || pageTitle}
                                         loading="lazy"
                                         onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
                                         className="w-full !h-44 sm:!h-52 md:!h-60 lg:!h-64 !max-h-none object-cover rounded-lg border border-[#f5c518] shadow-sm bg-white transition-transform group-hover:scale-[1.02]"
@@ -1558,7 +1642,7 @@ function RehostedPage() {
                                 <a key={j} href={resolveAssetUrl(img.src)} target="_blank" rel="noreferrer" className="block group">
                                   <img
                                     src={resolveAssetUrl(img.src)}
-                                    alt={img.alt}
+                                    alt={img.alt?.trim() || pageTitle}
                                     loading="lazy"
                                     onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
                                     className="w-full !h-44 sm:!h-52 md:!h-60 lg:!h-64 !max-h-none object-cover rounded-lg border border-[#f5c518] shadow-sm bg-white transition-transform group-hover:scale-[1.02]"
@@ -1617,7 +1701,7 @@ function RehostedPage() {
                                 <figure className="m-0 mx-auto md:mx-0 w-full max-w-[320px] lg:max-w-[380px]">
                                   <img
                                     src={resolveAssetUrl(profile.imageSrc)}
-                                    alt={profile.imageAlt}
+                                    alt={profile.imageAlt?.trim() || pageTitle}
                                     loading="lazy"
                                     className="block w-full h-auto rounded-lg border border-[#f5c518] bg-white object-contain shadow-md"
                                   />
@@ -1767,7 +1851,7 @@ function RehostedPage() {
                                 <figure className="m-0 w-full">
                                   <img
                                     src={resolveAssetUrl(block.imageSrc)}
-                                    alt={block.imageAlt}
+                                    alt={block.imageAlt?.trim() || pageTitle}
                                     loading="lazy"
                                     className="block w-full h-56 sm:h-64 md:h-72 object-cover rounded-lg border border-[#f5c518] bg-white shadow-md"
                                   />
@@ -2073,7 +2157,7 @@ function RehostedPage() {
                                 </div>
                               </div>
                               <div className="text-center md:text-left mt-1">
-                                <h1 className="font-display text-base md:text-lg font-bold text-white leading-tight">{header.name}</h1>
+                                <h2 className="font-display text-base md:text-lg font-bold text-white leading-tight">{header.name}</h2>
                                 <div className="mt-0.5 text-xs text-white/85">{header.designation}</div>
                               </div>
                             </div>
@@ -2186,7 +2270,7 @@ function RehostedPage() {
                         <figure className="m-0 mx-auto sm:mx-0 max-w-[240px] sm:max-w-none w-full sm:sticky sm:top-24 self-start">
                           <img
                             src={resolveAssetUrl(portrait[2])}
-                            alt={portrait[1] || page.title}
+                            alt={portrait[1] || pageTitle}
                             loading="eager"
                             className="w-full h-auto max-h-[360px] rounded-xl border border-[#f5c518] shadow-md bg-white object-contain"
                           />

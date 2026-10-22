@@ -2,18 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { EventCard } from "@/components/site/EventCard";
 import { SITE_EVENTS } from "@/data/siteEvents";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/upcoming-events")({
-  head: () => ({
-    meta: [
-      { title: "Upcoming Events — ATME College of Engineering" },
-      { name: "description", content: "Stay updated with all upcoming events, workshops and conferences at ATME College of Engineering, Mysuru." },
-      { property: "og:title", content: "Upcoming Events — ATME College of Engineering" },
-      { property: "og:description", content: "Festivals, conferences, hackathons and student activities at ATME, Mysuru." },
-      { property: "og:url", content: "https://atme.edu.in/upcoming-events" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/upcoming-events" }],
-  }),
+  head: () =>
+    seo({
+      title: "Upcoming Events — ATME College of Engineering",
+      path: "/upcoming-events",
+      description: "Stay updated with all upcoming events, workshops and conferences at ATME College of Engineering, Mysuru.",
+    }),
 
   component: () => {
     const today = new Date().toISOString().slice(0, 10);

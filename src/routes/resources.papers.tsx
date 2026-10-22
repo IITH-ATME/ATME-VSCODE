@@ -3,18 +3,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { departmentsIndex as departments } from "@/data/departmentsIndex";
 import { FileText } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/papers")({
-  head: () => ({
-    meta: [
-      { title: "Previous Year Question Papers — ATME" },
-      { name: "description", content: "VTU and internal previous-year question papers organised by branch, semester and year." },
-      { property: "og:title", content: "Previous Year Question Papers — ATME" },
-      { property: "og:description", content: "VTU question papers organised by branch and semester." },
-      { property: "og:url", content: "https://atme.edu.in/resources/papers" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources/papers" }],
-  }),
+  head: () =>
+    seo({
+      title: "Previous Year Question Papers — ATME",
+      path: "/resources/papers",
+      description: "VTU and internal previous-year question papers organised by branch, semester and year.",
+    }),
   component: PapersPage,
 });
 
