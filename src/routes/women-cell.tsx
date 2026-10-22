@@ -11,6 +11,7 @@ import {
 import { PdfThumbCard } from "@/components/site/PdfThumbCard";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { sanitizeMarkdown } from "@/data/sanitizeMarkdown";
+import { seo } from "@/lib/seo";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -21,12 +22,12 @@ export const Route = createFileRoute("/women-cell")({
     return { markdown: sanitizeMarkdown(page?.markdown || "") };
   },
   component: WomenCellPage,
-  head: () => ({
-    meta: [
-      { title: "Women Cell — ATME College of Engineering" },
-      { name: "description", content: "Women Cell at ATME — empowerment, awareness programmes, MOMs, AFH activities and annual reports." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Women Cell — ATME College of Engineering",
+      path: "/women-cell",
+      description: "Women Cell at ATME — empowerment, awareness programmes, MOMs, AFH activities and annual reports.",
+    }),
 });
 
 type Section = {

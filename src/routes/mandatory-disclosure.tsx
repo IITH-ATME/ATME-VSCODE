@@ -2,14 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
 import { pdf, approvals } from "@/data/pdfs";
 import { Download, FileText } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/mandatory-disclosure")({
-  head: () => ({
-    meta: [
-      { title: "Mandatory Disclosure — ATME College of Engineering" },
-      { name: "description", content: "AICTE Mandatory Disclosure 2026-27 and statutory approvals for ATME College of Engineering, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Mandatory Disclosure — ATME College of Engineering",
+      path: "/mandatory-disclosure",
+      description: "AICTE Mandatory Disclosure 2026-27 and statutory approvals for ATME College of Engineering, Mysuru.",
+    }),
   component: Page,
 });
 

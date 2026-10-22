@@ -4,24 +4,15 @@ import { Reveal } from "@/components/site/Reveal";
 import { DocSectionTabs, type DocSection } from "@/components/site/DocSectionTabs";
 import { pdf } from "@/data/pdfs";
 import { Mail, User } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/nirf")({
-  head: () => ({
-    meta: [
-      { title: "NIRF Rankings & Reports — ATME College of Engineering" },
-      {
-        name: "description",
-        content:
-          "NIRF Institution Data and Ranking Reports for ATME College of Engineering — Engineering, Overall, Innovation and SDG categories from 2022 to 2026.",
-      },
-      { property: "og:title", content: "NIRF Rankings & Reports — ATME College of Engineering" },
-      {
-        property: "og:description",
-        content:
-          "Download NIRF Engineering, Overall, Innovation and SDG ranking reports submitted by ATME College of Engineering.",
-      },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "NIRF Rankings & Reports — ATME College of Engineering",
+      path: "/nirf",
+      description: "NIRF Institution Data and Ranking Reports for ATME College of Engineering — Engineering, Overall, Innovation and SDG categories from 2022 to 2026.",
+    }),
   component: NirfPage,
 });
 

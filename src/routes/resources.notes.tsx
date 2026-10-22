@@ -3,18 +3,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { departmentsIndex as departments } from "@/data/departmentsIndex";
 import { FileText, Download } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/notes")({
-  head: () => ({
-    meta: [
-      { title: "Notes & Study Material — ATME" },
-      { name: "description", content: "Subject-wise lecture notes organised by branch and semester for ATME engineering students." },
-      { property: "og:title", content: "Notes & Study Material — ATME" },
-      { property: "og:description", content: "Browse subject-wise lecture notes by branch and semester." },
-      { property: "og:url", content: "https://atme.edu.in/resources/notes" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources/notes" }],
-  }),
+  head: () =>
+    seo({
+      title: "Notes & Study Material — ATME",
+      path: "/resources/notes",
+      description: "Subject-wise lecture notes organised by branch and semester for ATME engineering students.",
+    }),
   component: NotesPage,
 });
 

@@ -2,14 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
 import { pdf } from "@/data/pdfs";
 import { Download } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/employee-handbook")({
-  head: () => ({
-    meta: [
-      { title: "Employee Handbook — ATME College of Engineering" },
-      { name: "description", content: "ATME College Employee Handbook covering HR policies, service rules and code of conduct." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Employee Handbook — ATME College of Engineering",
+      path: "/employee-handbook",
+      description: "ATME College Employee Handbook covering HR policies, service rules and code of conduct.",
+    }),
   component: Page,
 });
 

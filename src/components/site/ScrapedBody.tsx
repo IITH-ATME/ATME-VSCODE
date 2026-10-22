@@ -29,7 +29,16 @@ const TABLE_CLS =
   "[&_td]:align-middle [&_td]:whitespace-normal [&_td]:break-words [&_td]:hyphens-auto " +
   "[&_td]:max-w-[280px] sm:[&_td]:max-w-none";
 
-export function ScrapedBody({ markdown, deptSlug }: { markdown: string; deptSlug?: string }) {
+export function ScrapedBody({
+  markdown,
+  deptSlug,
+  fallbackAlt = "",
+}: {
+  markdown: string;
+  deptSlug?: string;
+  /** Alt text for content images scraped without one (usually the page title). */
+  fallbackAlt?: string;
+}) {
   const cleaned = titleCaseMarkdownHeadings(sanitizeMarkdown(rewritePdfUrls(markdown || "")));
   return (
     <div className={`content-card content-prose ${PROSE}`}>
@@ -73,7 +82,7 @@ export function ScrapedBody({ markdown, deptSlug }: { markdown: string; deptSlug
           img: ({ src, alt }) => {
             const resolved = rewriteImageSrc(String(src || ""));
             if (!resolved) return null;
-            return <img src={resolved} alt={alt || ""} loading="lazy" className="mx-auto my-6 block h-auto max-h-[420px] max-w-full rounded-lg border border-border bg-white object-contain" />;
+            return <img src={resolved} alt={alt?.trim() || fallbackAlt} loading="lazy" className="mx-auto my-6 block h-auto max-h-[420px] max-w-full rounded-lg border border-border bg-white object-contain" />;
           },
         }}
       >

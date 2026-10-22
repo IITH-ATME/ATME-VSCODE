@@ -111,15 +111,18 @@ export function HomeHero() {
                         >
                           {s.eyebrow}
                         </motion.div>
-                        <motion.h1
-                          className="mt-3 sm:mt-4 font-display text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] sm:leading-[1.05]"
+                        {/* Rotating slide headline. Not an <h1>: the page's single
+                            H1 lives in routes/index.tsx so every slide doesn't
+                            add another one. */}
+                        <motion.div
+                          className="mt-3 sm:mt-4 font-display text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] sm:leading-[1.05] tracking-[-0.01em] [overflow-wrap:break-word] hyphens-auto"
                           style={{ color: "var(--banner-text)" }}
                           variants={{ hidden: { opacity: 0, y: 30 }, show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 0.61, 0.36, 1] } } }}
                         >
                           {s.title[0]}
                           <br />
                           <span style={{ color: "var(--banner-accent)" }}>{s.title[1]}</span>
-                        </motion.h1>
+                        </motion.div>
                         <motion.div
                           className="mt-5 sm:mt-8 flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3"
                           variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 0.61, 0.36, 1] } } }}

@@ -2,18 +2,15 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { Target, ExternalLink, Brain, MessageSquare, FileText, Code2 } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/resources/placement")({
-  head: () => ({
-    meta: [
-      { title: "Placement Prep — ATME" },
-      { name: "description", content: "Aptitude, coding practice, mock interviews and resume building resources for ATME students." },
-      { property: "og:title", content: "Placement Prep — ATME" },
-      { property: "og:description", content: "Aptitude, coding, mock interviews and resume kits for ATME students." },
-      { property: "og:url", content: "https://atme.edu.in/resources/placement" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/resources/placement" }],
-  }),
+  head: () =>
+    seo({
+      title: "Placement Prep — ATME",
+      path: "/resources/placement",
+      description: "Aptitude, coding practice, mock interviews and resume building resources for ATME students.",
+    }),
   component: PlacementPrep,
 });
 

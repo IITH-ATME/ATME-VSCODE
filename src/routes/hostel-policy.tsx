@@ -2,14 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
 import { pdf } from "@/data/pdfs";
 import { Download } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/hostel-policy")({
-  head: () => ({
-    meta: [
-      { title: "Hostel Rules & Regulations — ATME College of Engineering" },
-      { name: "description", content: "Hostel policies, rules and regulations for residential students at ATME." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Hostel Rules & Regulations — ATME College of Engineering",
+      path: "/hostel-policy",
+      description: "Hostel policies, rules and regulations for residential students at ATME.",
+    }),
   component: Page,
 });
 

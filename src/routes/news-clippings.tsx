@@ -4,18 +4,15 @@ import { InfoPage } from "@/components/site/InfoPage";
 import { Newspaper, ExternalLink, FileText, Images, ChevronLeft, ChevronRight, X, Calendar } from "lucide-react";
 import { NEWS_CLIPPINGS, type Clipping } from "@/data/newsClippings";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/news-clippings")({
-  head: () => ({
-    meta: [
-      { title: "In the News — ATME College of Engineering" },
-      { name: "description", content: "Press coverage, newspaper clippings and media recognition for ATME College of Engineering, Mysuru." },
-      { property: "og:title", content: "In the News — ATME College of Engineering" },
-      { property: "og:description", content: "Press coverage, newspaper clippings and media recognition for ATME College of Engineering, Mysuru." },
-      { property: "og:url", content: "https://atme.edu.in/news-clippings" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/news-clippings" }],
-  }),
+  head: () =>
+    seo({
+      title: "In the News — ATME College of Engineering",
+      path: "/news-clippings",
+      description: "Press coverage, newspaper clippings and media recognition for ATME College of Engineering, Mysuru.",
+    }),
   component: NewsClippingsPage,
 });
 

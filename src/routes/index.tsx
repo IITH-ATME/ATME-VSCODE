@@ -15,26 +15,28 @@ import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { EventCard } from "@/components/site/EventCard";
 import { SITE_EVENTS } from "@/data/siteEvents";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 import { GoogleReviews } from "@/components/site/GoogleReviews";
 import { getGoogleReviews } from "@/lib/api/googleReviews.functions";
 
 
 export const Route = createFileRoute("/")({
   loader: async () => ({ googleReviews: await getGoogleReviews() }),
-  head: () => ({
-    meta: [
-      { title: "ATME College of Engineering — Mysuru | VTU Affiliated" },
-      { name: "description", content: "ATME College of Engineering, Mysuru — AICTE approved, VTU affiliated, NAAC A+ accredited engineering college offering 11 UG and 2 PG programmes." },
-      { property: "og:title", content: "ATME College of Engineering — Mysuru" },
-      { property: "og:description", content: "Established 2010 · AICTE approved · VTU affiliated · NAAC A+ · NBA · NABL · QS I-Gauge Gold." },
-      { property: "og:url", content: "https://atme.edu.in/" },
-      { property: "og:image", content: heroImg },
-    ],
-    links: [
-      { rel: "canonical", href: "https://atme.edu.in/" },
-      { rel: "preload", as: "image", href: resolveAssetUrl(slide2.url), fetchpriority: "high" } as unknown as { rel: string; href: string },
-    ],
-  }),
+  head: () => {
+    const tags = seo({
+      title: "ATME College of Engineering, Mysuru | VTU Affiliated",
+      path: "/",
+      description: "ATME College of Engineering, Mysuru — AICTE approved, VTU affiliated, NAAC A+ accredited engineering college offering 11 UG and 2 PG programmes.",
+      image: heroImg,
+    });
+    return {
+      meta: tags.meta,
+      links: [
+        ...tags.links,
+        { rel: "preload", as: "image", href: resolveAssetUrl(slide2.url), fetchpriority: "high" } as unknown as { rel: string; href: string },
+      ],
+    };
+  },
 
 
   component: Home,

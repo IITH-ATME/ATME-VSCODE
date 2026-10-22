@@ -6,16 +6,15 @@ import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { recruiterCount } from "@/data/recruiters";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/placements")({
-  head: () => ({
-    meta: [
-      { title: "Placements — ATME College of Engineering" },
-      { name: "description", content: "ATME's Career Guidance and Placement department helps students secure roles with leading recruiters across India." },
-      { property: "og:title", content: "Placements at ATME" },
-      { property: "og:description", content: "Career guidance, training and a strong recruiter network." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Placements — ATME College of Engineering",
+      path: "/placements",
+      description: "ATME's Career Guidance and Placement department helps students secure roles with leading recruiters across India.",
+    }),
   component: PlacementsPage,
 });
 

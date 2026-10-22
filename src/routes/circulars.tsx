@@ -4,14 +4,15 @@ import { InfoPage } from "@/components/site/InfoPage";
 import { FileText, Download, ExternalLink, LayoutGrid, Sparkles } from "lucide-react";
 import { circulars, pdf } from "@/data/pdfs";
 import { CIRCULAR_CATEGORIES, CIRCULAR_CATEGORY_ICONS, type CircularCategory } from "@/data/circularCategories";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/circulars")({
-  head: () => ({
-    meta: [
-      { title: "Circulars & Notifications — ATME College of Engineering" },
-      { name: "description", content: "Official circulars, notifications and approvals from ATME College of Engineering, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Circulars & Notifications — ATME College of Engineering",
+      path: "/circulars",
+      description: "Official circulars, notifications and approvals from ATME College of Engineering, Mysuru.",
+    }),
   component: CircularsPage,
 });
 

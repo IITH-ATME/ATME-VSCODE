@@ -2,16 +2,15 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { Beaker, BookOpen, Lightbulb, Award, ArrowRight } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/research")({
-  head: () => ({
-    meta: [
-      { title: "Research at ATME College of Engineering" },
-      { name: "description", content: "Research initiatives, funding, publications, IPR and the IIRS-ISRO network centre at ATME, Mysuru." },
-      { property: "og:title", content: "Research at ATME" },
-      { property: "og:description", content: "Research vision, funding, publications and MoUs at ATME College of Engineering." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Research at ATME College of Engineering",
+      path: "/research",
+      description: "Research initiatives, funding, publications, IPR and the IIRS-ISRO network centre at ATME, Mysuru.",
+    }),
   component: ResearchHub,
 });
 

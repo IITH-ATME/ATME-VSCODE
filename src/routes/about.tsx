@@ -4,17 +4,16 @@ import { SECTION_BANNER } from "@/lib/sectionBanners";
 import { GraduationCap, Trophy, Building2, Globe2, Download } from "lucide-react";
 import brochure from "@/assets/college-brochure.pdf.asset.json";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About ATME College of Engineering — Mysuru" },
-      { name: "description", content: "About ATME — quick facts, accreditations and key information." },
-      { property: "og:title", content: "About ATME College of Engineering" },
-      { property: "og:description", content: "Quick facts about ATME College of Engineering, Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "About ATME College of Engineering — Mysuru",
+      path: "/about",
+      description: "About ATME College of Engineering, Mysuru — quick facts, accreditations, approvals and key information about the institution.",
+    }),
   component: AboutHub,
 });
 

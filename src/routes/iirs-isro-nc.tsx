@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { seo } from "@/lib/seo";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -12,12 +13,12 @@ export const Route = createFileRoute("/iirs-isro-nc")({
     return { markdown: page?.markdown || "" };
   },
   component: IIRSPage,
-  head: () => ({
-    meta: [
-      { title: "IIRS-ISRO Network Centre — ATME" },
-      { name: "description", content: "IIRS-ISRO Network Centre at ATME — online courses on Remote Sensing, GIS and related areas offered by IIRS Dehradun." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "IIRS-ISRO Network Centre — ATME",
+      path: "/iirs-isro-nc",
+      description: "IIRS-ISRO Network Centre at ATME — online courses on Remote Sensing, GIS and related areas offered by IIRS Dehradun.",
+    }),
 });
 
 function fixAchievementsTable(md: string): string {
@@ -62,7 +63,7 @@ function IIRSPage() {
     <Layout>
       <PageHero bgImage={SECTION_BANNER.research} eyebrow="Research" title="IIRS-ISRO Network Centre" />
       <div className="container-page py-12 max-w-5xl content-flow">
-        <ScrapedBody markdown={md} />
+        <ScrapedBody markdown={md} fallbackAlt="IIRS-ISRO Network Centre" />
       </div>
     </Layout>
   );

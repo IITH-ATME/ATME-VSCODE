@@ -83,3 +83,16 @@ export function rewritePdfHref(href: string): string {
   }
   return resolveAssetUrl(href);
 }
+
+// Link targets in scraped content (PDFs, images, videos) that still use the
+// Lovable upload path (/__l5e/…) or a site-relative WordPress upload path —
+// neither is served by atme.edu.in, so map them to the rehosted copy.
+export function resolveContentHref(href: string): string {
+  const h = href.trim();
+  const abs = h.startsWith("/wp-content/") ? `https://atme.edu.in${h}` : h;
+  if (/\.(?:jpe?g|png|gif|webp)(?:[?#].*)?$/i.test(abs)) return rewriteImageSrc(abs) || abs;
+  if (/\.pdf(?:[?#].*)?$/i.test(abs)) return resolveAssetUrl(rewritePdfHref(abs));
+  if (abs.startsWith("https://atme.edu.in/wp-content/")) return abs.replace("https://atme.edu.in/", "https://old.atme.edu.in/");
+  return resolveAssetUrl(abs);
+}
+

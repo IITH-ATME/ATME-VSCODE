@@ -2,8 +2,15 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
 import { Reveal, Counter } from "@/components/site/Reveal";
 import { rewriteImageSrc } from "@/data/imageRewrite";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/campus-life/")({
+  head: () =>
+    seo({
+      title: "Campus Life — ATME College of Engineering, Mysuru",
+      path: "/campus-life",
+      description: "Explore campus life at ATME — clubs, events, sports, library, hostel, transportation, scholarships and more.",
+    }),
   component: CampusLife,
 });
 

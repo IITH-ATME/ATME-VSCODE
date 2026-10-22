@@ -1,18 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/privacy-policy")({
   component: PrivacyPage,
-  head: () => ({
-    meta: [
-      { title: "Privacy Policy — ATME College of Engineering" },
-      { name: "description", content: "How ATME College of Engineering collects, uses and protects personal information submitted through our website forms and services." },
-      { property: "og:title", content: "Privacy Policy — ATME College of Engineering" },
-      { property: "og:description", content: "Our commitments on data collection, cookies, security and contact for the ATME College of Engineering website." },
-      { property: "og:url", content: "https://atme.edu.in/privacy-policy" },
-    ],
-    links: [{ rel: "canonical", href: "https://atme.edu.in/privacy-policy" }],
-  }),
+  head: () =>
+    seo({
+      title: "Privacy Policy — ATME College of Engineering",
+      path: "/privacy-policy",
+      description: "How ATME College of Engineering collects, uses and protects personal information submitted through our website forms and services.",
+    }),
 });
 
 function PrivacyPage() {

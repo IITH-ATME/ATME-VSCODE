@@ -15,6 +15,7 @@ import type { Faculty } from "@/data/departments";
 import { ArrowLeft } from "lucide-react";
 import atmeLogo from "@/assets/atme-logo.png.asset.json";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 
 
 const ALL_BY_DEPT: Record<string, typeof cseAllFaculty> = {
@@ -91,12 +92,14 @@ export const Route = createFileRoute("/departments/$slug/faculty/")({
     if (!dept) throw notFound();
     return { dept };
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData ? [
-      { title: `Faculty & Staff — ${loaderData.dept.name} — ATME` },
-      { name: "description", content: `Teaching, technical and supporting staff of ${loaderData.dept.name} at ATME College of Engineering.` },
-    ] : [],
-  }),
+  head: ({ loaderData, params }) =>
+    seo({
+      title: loaderData ? `Faculty & Staff — ${loaderData.dept.name}` : "Faculty & Staff",
+      path: `/departments/${params.slug}/faculty`,
+      description: loaderData
+        ? `Teaching, technical and supporting staff of the Department of ${loaderData.dept.name} at ATME College of Engineering, Mysuru — qualifications, designations and profiles.`
+        : null,
+    }),
   component: FacultyPage,
 });
 

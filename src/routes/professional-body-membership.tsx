@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { seo } from "@/lib/seo";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -13,12 +14,12 @@ export const Route = createFileRoute("/professional-body-membership")({
     return { markdown: page?.markdown || "" };
   },
   component: PBMPage,
-  head: () => ({
-    meta: [
-      { title: "Professional Body Membership — ATME" },
-      { name: "description", content: "Institutional professional society chapters and faculty/student memberships at ATME College of Engineering." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Professional Body Membership — ATME",
+      path: "/professional-body-membership",
+      description: "Institutional professional society chapters and faculty/student memberships at ATME College of Engineering.",
+    }),
 });
 
 function PBMPage() {

@@ -2,6 +2,7 @@ import { createFileRoute, useParams, Link } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
 import { scraped } from "@/data/scrapedPages";
 import { ExternalLink } from "lucide-react";
+import { seo, proseLines } from "@/lib/seo";
 
 const ROUTE_MAP: Record<string, { key: keyof typeof scraped; source: string }> = {
   "dean-message": { key: "dean-research", source: "https://new.atme.edu.in/atme-research/dean-research-message/" },
@@ -11,8 +12,12 @@ export const Route = createFileRoute("/research/$page")({
   component: ResearchPage,
   head: ({ params }) => {
     const m = ROUTE_MAP[params.page];
-    const title = m ? scraped[m.key].title : "Research — ATME";
-    return { meta: [{ title: `${title} — ATME` }, { name: "description", content: `${title} at ATME College of Engineering.` }] };
+    const page = m ? scraped[m.key] : undefined;
+    return seo({
+      title: page?.title ?? "Research",
+      path: `/research/${params.page}`,
+      descriptionSource: page ? proseLines(page.text) : null,
+    });
   },
 });
 

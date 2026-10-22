@@ -39,12 +39,16 @@ import { formatFacultyName } from "@/lib/facultyName";
 import { rewriteHref } from "@/data/linkRewrite";
 import { rewriteImageSrc, rewritePdfHref } from "@/data/imageRewrite";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { seo } from "@/lib/seo";
 import { STUDENT_LEARNING_2026_27, FIRST_YEAR_TABLE_TITLE } from "@/data/studentLearningCourses2026";
 
 // Context lets the MD <a> renderer know which department it's rendering for,
 // so it can route faculty-profile links to the internal /departments/<dept>/
 // faculty/<id> route instead of the dead atme.edu.in/<slug>/ URL.
 const DeptContext = createContext<string | undefined>(undefined);
+// Current page's heading, used as alt text for content images that were
+// scraped without one.
+const PageTitleContext = createContext<string>("");
 
 
 
@@ -212,12 +216,18 @@ export const Route = createFileRoute("/departments/$slug/$page")({
     return { dept, page: adjustedPage, pageKey: params.page, isPlaceholder: false, canonKey: null as string | null, allPages: pages };
 
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData ? [
-      { title: `${loaderData.page.title || loaderData.pageKey} — ${loaderData.dept.name} — ATME` },
-      { name: "description", content: `${loaderData.page.title} at ${loaderData.dept.name}, ATME College of Engineering, Mysuru.` },
-    ] : [],
-  }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return seo({ title: "Department", path: `/departments/${params.slug}/${params.page}` });
+    const pageTitle = deptPageTitle(loaderData.dept.slug, loaderData.page.title, loaderData.pageKey);
+    return seo({
+      title: `${pageTitle} — ${loaderData.dept.name}`,
+      path: `/departments/${params.slug}/${params.page}`,
+      descriptionSource: sanitizeMarkdown(loaderData.page.markdown || ""),
+      descriptionPrefix: `${pageTitle}, Department of ${loaderData.dept.name}`,
+      // "Content Coming Soon" placeholders have nothing to index yet.
+      noindex: loaderData.isPlaceholder,
+    });
+  },
   notFoundComponent: () => (
     <Layout><PageHero title="Page not found" subtitle="The requested page does not exist." /></Layout>
   ),
@@ -563,14 +573,15 @@ function MD({ children }: { children: string }) {
           </div>
         ),
         img: ({ src, alt, style, className }) => {
+          const fallbackAlt = useContext(PageTitleContext);
           const resolved = rewriteImageSrc(String(src || ""));
           if (!resolved) return null;
           // Raw HTML <img style="..."> in the source markdown (rehypeRaw)
           // opts an image out of the shared default look — used for one-off
           // treatments (e.g. a circular bordered photo) that shouldn't apply
           // to every image on every department page.
-          if (style) return <img src={resolved} alt={alt || ""} loading="lazy" style={style} className={className} />;
-          return <img src={resolved} alt={alt || ""} loading="lazy" className="mx-auto my-6 block h-auto max-h-[420px] max-w-full rounded-lg border border-border bg-white object-contain" />;
+          if (style) return <img src={resolved} alt={alt?.trim() || fallbackAlt} loading="lazy" style={style} className={className} />;
+          return <img src={resolved} alt={alt?.trim() || fallbackAlt} loading="lazy" className="mx-auto my-6 block h-auto max-h-[420px] max-w-full rounded-lg border border-border bg-white object-contain" />;
         },
       }}
     >
@@ -579,17 +590,17 @@ function MD({ children }: { children: string }) {
   );
 }
 
-function DeptSubPage() {
-  const { dept, page, pageKey, isPlaceholder, canonKey, allPages } = Route.useLoaderData();
-  // Prefer the sidebar menu label (e.g. "Industry Interface") over the raw
-  // scraped page title (which often includes the dept prefix like
-  // "Civil Industry Interface" or "CV Industry Interface").
-  const cfgItems = DEPT_PAGES[resolveDeptSlug(dept.slug)] || [];
+// Prefer the sidebar menu label (e.g. "Industry Interface") over the raw
+// scraped page title (which often includes the dept prefix like
+// "Civil Industry Interface" or "CV Industry Interface"). Shared by the page
+// hero and <title> so the two never disagree.
+function deptPageTitle(deptSlug: string, scrapedTitle: string | undefined, pageKey: string): string {
+  const cfgItems = DEPT_PAGES[resolveDeptSlug(deptSlug)] || [];
   const menuLabel = cfgItems.find((i) => i.key === pageKey)?.label;
   const rawTitle = titleCase(
     stripMdEmphasis(
       menuLabel ||
-        (page.title?.replace(/\s*-\s*ATME.*$/i, "").trim() || pageKey.replace(/-/g, " "))
+        (scrapedTitle?.replace(/\s*-\s*ATME.*$/i, "").trim() || pageKey.replace(/-/g, " "))
     )
       .replace(/\s+\d+\s*$/, "")
       .trim()
@@ -597,7 +608,12 @@ function DeptSubPage() {
   // Normalize titles like "Cs Infrastructure", "Ec Infrastructure",
   // "Me Infrastructure" down to a clean "Infrastructure" heading across
   // every department page hero.
-  const niceTitle = /infrastructure/i.test(rawTitle) ? "Infrastructure" : rawTitle;
+  return /infrastructure/i.test(rawTitle) ? "Infrastructure" : rawTitle;
+}
+
+function DeptSubPage() {
+  const { dept, page, pageKey, isPlaceholder, canonKey, allPages } = Route.useLoaderData();
+  const niceTitle = deptPageTitle(dept.slug, page.title, pageKey);
   const rewritten = rewritePdfUrls(page.markdown || "");
   const cleaned = sanitizeMarkdown(rewritten);
   // Remove any in-page banner image so it doesn't render twice; we always
@@ -682,6 +698,7 @@ function DeptSubPage() {
 
   return (
     <DeptContext.Provider value={dept.slug}>
+    <PageTitleContext.Provider value={`${niceTitle} — ${dept.name}`}>
     <Layout>
 
       <section
@@ -802,6 +819,7 @@ function DeptSubPage() {
         </div>
       </article>
     </Layout>
+    </PageTitleContext.Provider>
     </DeptContext.Provider>
   );
 }
@@ -1497,6 +1515,7 @@ function pdfUrlsInTableRows(md: string): Set<string> {
 }
 
 function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md: string; inlineTablePdfs?: boolean; cropImages?: boolean }) {
+  const fallbackAlt = useContext(PageTitleContext);
   const rawPdfs = extractPdfs(md);
   const tablePdfUrls = inlineTablePdfs ? pdfUrlsInTableRows(md) : new Set<string>();
   // Remove ALL PDF/viewer markdown links from the body so they don't render
@@ -1567,7 +1586,7 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
               <img
                 key={i}
                 src={resolved}
-                alt={seg.images[0].alt || ""}
+                alt={seg.images[0].alt?.trim() || fallbackAlt}
                 loading="lazy"
                 className="mx-auto !h-72 sm:!h-80 md:!h-96 w-full max-w-2xl object-contain rounded-lg border border-border bg-white"
               />
@@ -1592,7 +1611,7 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
                 <img
                   key={j}
                   src={resolved}
-                  alt={p.alt || ""}
+                  alt={p.alt?.trim() || fallbackAlt}
                   loading="lazy"
                   className="mx-auto !w-[300px] !h-[250px] max-w-full object-cover rounded-lg border border-border bg-white"
                 />
@@ -1613,7 +1632,7 @@ function AccordionBody({ md, inlineTablePdfs = false, cropImages = true }: { md:
                 <img
                   key={j}
                   src={resolved}
-                  alt={p.alt || ""}
+                  alt={p.alt?.trim() || fallbackAlt}
                   loading="lazy"
                   className="mx-auto w-full h-auto max-w-[280px] object-contain bg-white"
                 />

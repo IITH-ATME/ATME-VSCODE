@@ -16,16 +16,15 @@ import {
   Sparkles,
   LifeBuoy,
 } from "lucide-react";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/virtual-lab")({
-  head: () => ({
-    meta: [
-      { title: "Virtual Labs — ATME College of Engineering" },
-      { name: "description", content: "Virtual Labs @ ATME — an MoE, Government of India initiative under NMEICT enabling simulation-based experiments anytime, anywhere." },
-      { property: "og:title", content: "Virtual Labs — ATME College of Engineering" },
-      { property: "og:description", content: "Access simulation-based laboratory experiments developed by IITs, IIITs and NITs across engineering and science disciplines." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Virtual Labs — ATME College of Engineering",
+      path: "/virtual-lab",
+      description: "Virtual Labs @ ATME — an MoE, Government of India initiative under NMEICT enabling simulation-based experiments anytime, anywhere.",
+    }),
   component: VirtualLabPage,
 });
 

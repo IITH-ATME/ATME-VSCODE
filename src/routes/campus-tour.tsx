@@ -1,13 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { InfoPage } from "@/components/site/InfoPage";
+import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/campus-tour")({
-  head: () => ({
-    meta: [
-      { title: "Campus Tour — ATME College of Engineering" },
-      { name: "description", content: "Take a virtual tour of the ATME College of Engineering campus in Mysuru." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Campus Tour — ATME College of Engineering",
+      path: "/campus-tour",
+      description: "Take a virtual tour of the ATME College of Engineering campus in Mysuru.",
+    }),
   component: () => (
     <InfoPage
       eyebrow="Visit Us"

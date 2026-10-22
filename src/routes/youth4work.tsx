@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { ScrapedBody } from "@/components/site/ScrapedBody";
 import { SECTION_BANNER } from "@/lib/sectionBanners";
+import { seo } from "@/lib/seo";
 
 type S = Record<string, { title?: string; markdown?: string }>;
 
@@ -12,12 +13,12 @@ export const Route = createFileRoute("/youth4work")({
     return { markdown: page?.markdown || "" };
   },
   component: Youth4workPage,
-  head: () => ({
-    meta: [
-      { title: "Youth4work — ATME" },
-      { name: "description", content: "Youth4work and AICTE collaboration for jobs, internships and skill-based assessments at ATME College of Engineering." },
-    ],
-  }),
+  head: () =>
+    seo({
+      title: "Youth4work — ATME",
+      path: "/youth4work",
+      description: "Youth4work and AICTE collaboration for jobs, internships and skill-based assessments at ATME College of Engineering.",
+    }),
 });
 
 function Youth4workPage() {
