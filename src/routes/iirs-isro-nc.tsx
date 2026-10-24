@@ -8,6 +8,11 @@ type S = Record<string, { title?: string; markdown?: string }>;
 
 export const Route = createFileRoute("/iirs-isro-nc")({
   loader: async () => {
+    // Corrected copy first (shared with /p/iirs-isro-nc — e.g. coordinator
+    // contact changes); the raw scrape is only a fallback.
+    const { getBodyOverride } = await import("@/data/pageBodyOverrides");
+    const override = getBodyOverride("iirs-isro-nc");
+    if (override) return { markdown: override };
     const { default: scrapedAll } = await import("@/data/scrapedAll.json");
     const page = (scrapedAll as S)["iirs-isro-nc"];
     return { markdown: page?.markdown || "" };
