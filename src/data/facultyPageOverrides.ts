@@ -439,6 +439,108 @@ export const facultyPageOverrides: Record<string, FacultyPageOverride> = {
 4. Co-curricular & Extra Curricular Coordinator
 5. Academic coordinator`,
   },
+  "chandana-m": {
+    name: "Chandana M",
+    url: "",
+    md: `## Professional Experience
+
+## Contact Details
+
+- **Email ID:** Official: [chandanam.ec@atme.edu.in](mailto:chandanam.ec@atme.edu.in)
+- **Vidwan ID:** -
+- **Google Scholar ID:** -
+- **Scopus ID:** -
+- **Orcid ID:** -
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <https://www.linkedin.com/in/chandana-m-6691b8391>
+
+## Academic Details
+
+- **Qualification**
+- **PG – MTech – Automotive Electronics**
+- **UG – B.E – Electronics and Communication Engineering**
+
+## Areas of Interest
+
+1. VLSI
+
+## Publication Details
+
+**National:**
+
+- Nil
+
+**International:**
+
+- Nil
+
+## Membership in Professional Bodies
+
+- Nil
+
+## Honours/Awards/Achievements
+
+**HONOURS**
+
+- Nil
+
+**AWARDS**
+
+- Nil
+
+**ACHIEVEMENTS**
+
+- Nil
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Nil
+
+**Conferences**
+
+1. Published in MPCIT
+
+**Workshops**
+
+- Nil
+
+**STTP**
+
+- Nil
+
+**MOOC Certification**
+
+- Nil
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+**National:** Nil
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+**International:** Nil
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+- Nil
+`,
+  },
   "ms-mythri-r": {
     name: "Ms. Mythri R",
     url: "",
