@@ -78,8 +78,7 @@ const eceFaculty: Faculty[] = [
 ];
 
 const eeeFaculty: Faculty[] = [
-  { id: "dr-parthasarathy-l", name: "Dr. Parthasarathy L", designation: "Professor & Head", qualification: "Ph.D", doj: "18.07.2011", image: "/__l5e/assets-v1/21df3cc3-c2ed-4c77-bf76-7a1c2449949d/Dr-Parthasarathy-L-new.png", cvUrl: "https://old.atme.edu.in/dr-parthasarathy-l/" },
-  { id: "mr-raghavendra-l", name: "Dr. Raghavendra L", designation: "Associate Professor", qualification: "Ph.D", doj: "18.07.2014", image: "/images/uploads/2022/09/Dr.-Raghavendra-L.jpg", cvUrl: "https://old.atme.edu.in/mr-raghavendra-l/" },
+  { id: "mr-raghavendra-l", name: "Dr. Raghavendra L", designation: "Associate Professor & Head",qualification: "Ph.D", doj: "18.07.2014", image: "/images/uploads/2022/09/Dr.-Raghavendra-L.jpg", cvUrl: "https://old.atme.edu.in/mr-raghavendra-l/" },
   { id: "dr-sathish-k-r", name: "Dr. Sathish K R", designation: "Assistant Professor", qualification: "Ph.D", doj: "16.07.2012", image: "/images/uploads/2022/09/Dr-Sathish-K-R-1.jpg", cvUrl: "https://old.atme.edu.in/dr-sathish-k-r/" },
   { id: "mr-praveen-kumar-m", name: "Dr. Praveen Kumar M", designation: "Assistant Professor", qualification: "Ph.D", doj: "01.02.2013", image: "/images/uploads/2022/09/Dr.-PRAVEEN-KUMAR-M.jpg", cvUrl: "https://old.atme.edu.in/mr-praveen-kumar-m/" },
   { id: "mr-shreeshayana-r", name: "Mr. Shreeshayana R", designation: "Assistant Professor", qualification: "M.Tech", doj: "17.07.2013", image: "/images/uploads/2022/09/Shreeshayana-R.jpg", cvUrl: "https://old.atme.edu.in/mr-shreeshayana-r/" },
@@ -484,9 +483,9 @@ export const departments: Department[] = [
       },
     ],
     hod: {
-      name: "Dr. Parthasarathy L",
-      designation: "Professor & Head, EEE",
-      image: "/images/hod/parthasarathy-l.png",
+      name: "Dr. Raghavendra L",
+      designation: "Associate Professor & Head, EEE",
+      image: "/images/uploads/eee-faculty/mr-raghavendra-l.jpg",
       quote: "Emitting Elite Energy",
       message: "",
       messageBullets: [

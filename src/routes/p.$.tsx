@@ -141,6 +141,11 @@ export const Route = createFileRoute("/p/$")({
     if (/^library-3\/library-finds$/.test(key)) {
       throw redirect({ to: "/p/$", params: { _splat: "library-3/library" } });
     }
+    // Removed: Dr. Parthasarathy L's old WordPress profile — no longer on the
+    // EEE faculty; send old links to the department's faculty list.
+    if (key === "dr-parthasarathy-l") {
+      throw redirect({ to: "/departments/$slug/faculty", params: { slug: "eee" } });
+    }
     const aliased = SLUG_ALIASES[key];
     let page =
       DATA[key] ||
