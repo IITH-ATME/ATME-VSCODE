@@ -82,7 +82,7 @@ const eeeFaculty: Faculty[] = [
   { id: "dr-sathish-k-r", name: "Dr. Sathish K R", designation: "Assistant Professor", qualification: "Ph.D", doj: "16.07.2012", image: "/images/uploads/2022/09/Dr-Sathish-K-R-1.jpg", cvUrl: "https://old.atme.edu.in/dr-sathish-k-r/" },
   { id: "mr-praveen-kumar-m", name: "Dr. Praveen Kumar M", designation: "Assistant Professor", qualification: "Ph.D", doj: "01.02.2013", image: "/images/uploads/2022/09/Dr.-PRAVEEN-KUMAR-M.jpg", cvUrl: "https://old.atme.edu.in/mr-praveen-kumar-m/" },
   { id: "mr-shreeshayana-r", name: "Mr. Shreeshayana R", designation: "Assistant Professor", qualification: "M.Tech", doj: "17.07.2013", image: "/images/uploads/2022/09/Shreeshayana-R.jpg", cvUrl: "https://old.atme.edu.in/mr-shreeshayana-r/" },
-  { id: "mohan-m", name: "Mr. Mohan M", designation: "Assistant Professor", qualification: "M.Tech", doj: "11.02.2013", image: "/images/uploads/2022/11/Mr.-Mohan-M-1.jpg", cvUrl: "https://old.atme.edu.in/mohan-m/" },
+  { id: "mohan-m", name: "Mr. Mohan M", designation: "Assistant Professor", qualification: "M.Tech", doj: "11.02.2013", image: "https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/images/uploads/2026/11/mohan-m.jpeg", cvUrl: "https://old.atme.edu.in/mohan-m/" },
   { id: "ms-swapna-h", name: "Ms. Swapna H", designation: "Assistant Professor", qualification: "M.Tech", doj: "17.08.2016", image: "/images/uploads/2022/09/Ms.-Swapna-H-1.jpg", cvUrl: "https://old.atme.edu.in/ms-swapna-h/" },
   
   { id: "mrs-kavyashree-s", name: "Mrs. Kavyashree S", designation: "Assistant Professor", qualification: "M.Tech", doj: "12.06.2023", image: "/images/uploads/2022/09/Kavyashree-S.jpg", cvUrl: "https://old.atme.edu.in/mrs-kavyashree-s/" },
