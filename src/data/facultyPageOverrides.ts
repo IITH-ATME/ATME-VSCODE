@@ -3970,222 +3970,307 @@ Attender
   "dr-basanth-kumar": {
     name: "Dr. Basanth Kumar H B",
     url: "https://atme.edu.in/dr-basanth-kumar/",
-    md: `## Dr. Basanth Kumar H B
+    md: `## Professional Experience
 
-### Contact Details
+- Teaching: 18.8 Years
+- Research: 6 Years
+- Industry: Nil
 
-- **Email ID:** Official: dr.basanthkumarhb.mca@atme.edu.in · Personal: basanth.10@gmail.com
-- **Vidwan ID:** #235706
-- **Google Scholar ID:** sRLTOzoAAAAJ
-- **Scopus ID:** 57211542716
-- **Orcid ID:** 0000-0003-3542-7533
+## Contact Details
+
+- **Email ID:** Official: [dr.basanthkumarhb.mca@atme.edu.in](mailto:dr.basanthkumarhb.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/235706>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=sRLTOzoAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57211542716>
+- **Orcid ID:** <https://orcid.org/0000-0003-3542-7533>
 - **Web of Science Researcher ID:** -
-- **LinkedIn ID:** www.linkedin.com/in/basanth-kumar-h-b-9103137a
+- **LinkedIn ID:** <https://www.linkedin.com/in/basanth-kumar-h-b-9103137a>
 
-### Academic Details
+## Academic Details
 
-- Qualification
-- Ph.D.
-- MCA (Master of Computer Applications)
-- B.Sc.
+- **Qualification**
+- **Ph.D.** – Faculty of Applied Sciences
+- **PG** – MCA
+- **UG** – B.Sc.
 
-### Areas of Interest
+## Areas of Interest
 
 - Machine Learning
 - Deep Learning
 - Image Forensics
 - Digital Watermarking
 
-### Publication Details
+## Publication Details
 
-- I. Journals
-- Haranahalli Rajanna Chennamma, Basanth Kumar Halaguru Basavarajappa, Madhushree Basavaraju, Kyatanahalli Nanjappa Sowmya, and Appusamy Venkataraman Senthil Kumar, "Medical Image Authentication using Statistical Correlations", International Journal of Safety and Security Engineering, Vol. 14, No. 5, pp. 1487-1493, October 2024.
-- B Madhushree, H B Basanth Kumar, Chennamma H R, "An Exhaustive Review of authentication, tamper Detection with localization and recovery techniques for Medical images", Multimedia Tools and Applications, October 2023.
-- Halaguru Basavarajappa Basanth Kumar and Haranahalli Rajanna Chennamma, "Dataset for classification of computer graphic images and photographic images", IAES International Journal of Artificial Intelligence, vol. 11, No. 1, pp. 137-147, March 2022.
-- Halaguru Basavarajappa Basanth Kumar and Haranahalli Rajanna Chennamma, "Classification of Computer Graphic Images and Photographic Images Based on Fusion of Color and Texture Features", Revue d'Intelligence Artificielle, vol. 35, No. 2, pp. 201-207, June 2021.
+**National:**
 
-- II. Conferences
-- Basanth Kumar H.B., Chennamma H.R, Classification of Computer Graphic Images Using Deep Learning. In: Sengodan, T., Murugappan, M., Misra, S. (eds) Advances in Electrical and Computer Technologies. ICAECT 2020. Lecture Notes in Electrical Engineering, vol. 711, 2021 Springer, Singapore. https://doi.org/10.1007/978-981-15-9019-1_12
-- Basanth Kumar H B and H R Chennamma, "Watermarking of Computer Generated Imagery: A Review", In IEEE International Conference on Electrical, Computer and Communication Technologies (ICECCT), 2019, pp. 1-7.
+- Nil
 
-- III. Patent
-- H R Chennamma and H B Basanth Kumar, "A Method for Integrity Verification of DICOM Medical Images by Reversible Watermarking", Patent Application published on 3rd Feb 2023 in the Web Portal of Intellectual Property Office, India. Patent Application Number: 202341005745.
+**International:**
 
-### Membership in Professional Bodies
+- Haranahalli Rajanna Chennamma, Basanth Kumar Halaguru Basavarajappa, Madhushree Basavaraju, Kyatanahalli Nanjappa Sowmya, and Appusamy Venkataraman Senthil Kumar, “Medical Image Authentication using Statistical Correlations”, International Journal of Safety and Security Engineering, Vol. 14, No. 5, pp. 1487-1493, October 2024.
+- B Madhushree, H B Basanth Kumar, Chennamma H R, “An Exhaustive Review of authentication, tamper Detection with localization and recovery techniques for Medical images”, Multimedia Tools and Applications, October 2023.
+- Halaguru Basavarajappa Basanth Kumar and Haranahalli Rajanna Chennamma, “Dataset for classification of computer graphic images and photographic images”, IAES International Journal of Artificial Intelligence, vol. 11, No. 1, pp. 137-147, March 2022.
+- Halaguru Basavarajappa Basanth Kumar and Haranahalli Rajanna Chennamma, “Classification of Computer Graphic Images and Photographic Images Based on Fusion of Color and Texture Features”, Revue d’Intelligence Artificielle, vol. 35, No. 2, pp. 201-207, June 2021.
 
-_Nil_
+## Membership in Professional Bodies
 
-### Honours / Awards / Achievements
+- Nil
 
-_Nil_
+## Honours/Awards/Achievements
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+**HONOURS**
 
-- IUCEE (Felder-Brent), "Effective Teaching and Learning" Course, 2024 - 25.
+- Nil
 
-### Proposal / Funding / Project Financial Assistance
+**AWARDS**
 
-_Nil_
+- Nil
 
-### Patent
+**ACHIEVEMENTS**
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Institute Level
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Nil
+
+**Conferences**
+
+- Basanth Kumar H.B., Chennamma H.R, Classification of Computer Graphic Images Using Deep Learning. In: Sengodan, T., Murugappan, M., Misra, S. (eds) Advances in Electrical and Computer Technologies. ICAECT 2020. Lecture Notes in Electrical Engineering, vol. 711, 2021 Springer, Singapore. <https://doi.org/10.1007/978-981-15-9019-1_12>
+- Basanth Kumar H B and H R Chennamma, “Watermarking of Computer Generated Imagery: A Review”, In IEEE International Conference on Electrical, Computer and Communication Technologies (ICECCT), 2019, pp. 1-7.
+
+**Workshops**
+
+- Nil
+
+**STTP**
+
+- Nil
+
+**MOOC Certification**
+
+- Nil
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+**National:**
+
+- **Title:** A Method for Integrity Verification of DICOM Medical Images by Reversible Watermarking
+- **Published/Granted:** Published
+- **Patent No:** 202341005745
+
+**International:**
+
+- **Title:** Nil
+- **Published/Granted:** Nil
+- **Patent No:** Nil
+
+## Roles and Responsibilities: Institute Level
 
 - Coding and Innovation Club Co-Ordinator
+- Research Publications Committee – Department MoU’s
 
-### Roles & Responsibilities — Department Level
+## Roles and Responsibilities: Department Level
 
-- EMS Co-Ordinator
-`,
+- Department Level EMS Co-Ordinator
+- NBA Co-Ordinator
+- Department Level Research Publications Co-Ordinator
+- Department Level AICTE Co-Ordinator
+- Department Level Co-Ordinator VTU Local Inspection Committee`,
   },
   "siddegowda-c-j": {
     name: "Dr. Siddegowda C J",
     url: "https://atme.edu.in/siddegowda-c-j/",
-    md: `## Dr. Siddegowda C J
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: 21 Years
-- Research: 5 Years
+- Teaching: 22
+- Research: 5
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official:siddegowdacj.mca@atme.edu.in · Personal:siddegowdacj@gmail.com
+- **Email ID:** Official: [siddegowdacj.mca@atme.edu.in](mailto:siddegowdacj.mca@atme.edu.in)
 - **Vidwan ID:** 224780
-- **Google Scholar ID:** [https://scholar.google.com/citations?user=OztMTpcAAAAJ&hl=en](https://scholar.google.com/citations?user=OztMTpcAAAAJ&hl=en)
-- **Orcid ID:** [000-0001-8206-9367](https://orcid.org/000-0001-8206-9367)
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=OztMTpcAAAAJ&hl=en>
+- **Scopus ID:** -
+- **Orcid ID:** <https://orcid.org/000-0001-8206-9367>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** -
 
-### Academic Details
+## Academic Details
 
-- Qualification
-- Ph.D. in Computer Science
-- MCA in Computer Science
-- B.E
+- **Qualification**
+- **PhD** – Computer Science
+- **PG** - MCA
+- **UG** – BSc Computer Science
 
-### Areas of Interest
+## Areas of Interest
 
 - Deep Learning
 - Networking
 
-### Publication Details
+## Publication Details
 
-- Published a Paper Titled "Wormhole Attacks in Mobile Cognitive Radio Networks"  in international Journal of Pharma and Bio Sciences with ISSN0975-6299
-- Published a paper titled" Securing Wireless Communications of Connected Vehicles with Artificial Intelligence" in IJRTER with ISSN:2455-1457
+**National:**
 
-- Published a paper titled "PROMOTE CONSEQUENTIAL VIRTUALIZATION IN NETWORK INCLOUD COMPUTING" in IJRTER with ISSN:2455-1457
-- Siddegowda C. J. & Dr. Subrahmanya Bhat. 2025. Blood Vessels and Lesion Interconnected Features for The Severity Classification of Diabetic Retinopathy. JOURNAL OF APPLIED BIOANALYSIS, December 2025 p. 822-834. http://doi.org/10.53555/jab.v11si9.1318 (ISSN 2405-710X)
-- Siddegowda C. J. & Dr. Subrahmanya Bhat. 2025. Blood Vessels and Lesion Interconnected Features for The Severity Classification of Diabetic Retinopathy. JOURNAL OF APPLIED BIOANALYSIS, December 2025 p. 822-834. http://doi.org/10.53555/jab.v11si9.1318 (ISSN 2405-710X)
+- Published a paper titled “PROMOTE CONSEQUENTIAL VIRTUALIZATION IN NETWORK INCLOUD COMPUTING” in IJRTER with ISSN:2455-1457
+- Published a Paper Titled “Wormhole Attacks in Mobile Cognitive Radio Networks” in international Journal of Pharma and Bio Sciences with ISSN0975-6299
+- Published a paper titled” Securing Wireless Communications of Connected Vehicles with Artificial Intelligence” in IJRTER with ISSN:2455-1457
 
-### Membership in Professional Bodies
+**International:**
+
+- Published a Paper Titled “Wormhole Attacks in Mobile Cognitive Radio Networks” in international Journal of Pharma and Bio Sciences with ISSN0975-6299
+- Published a paper titled” Securing Wireless Communications of Connected Vehicles with Artificial Intelligence” in IJRTER with ISSN:2455-1457
+- Siddegowda C. J. & Dr. Subrahmanya Bhat. 2025. Blood Vessels and Lesion Interconnected Features for The Severity Classification of Diabetic Retinopathy. JOURNAL OF APPLIED BIOANALYSIS, December 2025 p. 822-834. <http://doi.org/10.53555/jab.v11si9.1318> (ISSN 2405-710X)
+
+## Membership in Professional Bodies
 
 - IAENG
 
-### Honours / Awards / Achievements
+## Honours/Awards/Achievements
 
-_Nil_
+**HONOURS**
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+- Nil
+
+**AWARDS**
+
+- Nil
+
+**ACHIEVEMENTS**
+
+- Nil
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Nil
+
+**Conferences**
+
+- Nil
+
+**Workshops**
+
+- Nil
+
+**STTP**
+
+- Nil
+
+**MOOC Certification**
 
 - NPTEL course completed on DBMS
 - IPR course NPTEL
 - Cloud Computing
 
-### Proposal / Funding / Project Financial Assistance
+## Proposal/Funding/Project Financial Assistance
 
-_Nil_
+- Nil
 
-### Patent
+## Patent
 
-_Nil_
+**National:** Nil
 
-### Roles & Responsibilities — Institute Level
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+**International:** Nil
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+## Roles and Responsibilities: Institute Level
 
 - Admission committee member
+- Sports committee member
 
-### Roles & Responsibilities — Department Level
+## Roles and Responsibilities: Department Level
 
 - Academic coordinator
 - Time Table coordinator
 - Class Teacher
-`,
+- PAC`,
   },
   "yeshashwini-bhandari-k-r": {
     name: "Yeshashwini Bhandari K R",
     url: "https://atme.edu.in/yeshashwini-bhandari-k-r/",
-    md: `## Yeshashwini Bhandari K R
+    md: `## Professional Experience
 
-### Professional Experience
+- Teaching: 06
+- Research: 1
+- Industry: 05
 
-- Teaching: 10 Years
-- Research: 0.2 Months
-- Industry: 5 Years
+## Contact Details
 
-### Contact Details
+- **Email ID:** Official: [yeshashwinibhandarikr.mca@atme.edu.in](mailto:yeshashwinibhandarikr.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/554795>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=4QNGBWsAAAAJ&hl=en&authuser=1>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=60607197800>
+- **Orcid ID:** <https://orcid.org/0009-0005-6582-3387>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <http://www.linkedin.com/in/yeshashwini-bhandari-61a689a9>
 
-- **Email ID:** Official: yeshashwinibhandarikr.mca@atme.edu.in · Personal: yeshaswini.bkr@gmail.com
-- **Vidwan ID:** Vidwan-554795
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** Scopus-60607197800
-- **Orcid ID:** [0009-0005-6582-3387](https://orcid.org/0009-0005-6582-3387)
-Web of Science Researcher ID
-- **LinkedIn ID:** [linkedin.com/in/yeshashwini-bhandari-61a689a9](https://www.linkedin.com/in/yeshashwini-bhandari-61a689a9/)
+## Academic Details
 
-### Academic Details
-
-- Qualification
+- **Qualification**
 - PhD. in (Pursuing)
 - M. C. A (Master of Computer Applications)
 - B.Sc in Computer Science
 
-### Areas of Interest
+## Areas of Interest
 
 - Edge Computing
 - Cyber Security and Networking
 - Blockchain Cryptography
 
-### Publication Details
+## Publication Details
 
-- AI-Driven Load Balancing and Energy-Efficient Resource Optimization in Mobile Edge Computing: A Comprehensive Review Proceedings - 2025 International Conference on Transformative Computing Technologies, ICTCT 2025Pages: 145 - 150 Conference Paper 2025 EID:�2-s2.0-105037439189 DOI:�[10.1109/ICTCT69201.2025.00040](https://doi.org/10.1109/ICTCT69201.2025.00040)
-- K. R. Vaddempudi, M. S. S. Rukmini, Y. B. K R, R. Periyasamy, S. Kaliappan and T. P. Priyanka, "Deploying Lightweight Neural Networks on Edge Devices for Real-Time Traffic Monitoring and Management in Smart Cities,"�2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT), Belagavi, India, 2025, pp. 1-8, doi: [10.1109/ICAFT66710.2025.11453005](https://doi.org/10.1109/ICAFT66710.2025.11453005).
-- EFFICIENCY AND SECURITY TRADE-OFF: LIGHTWEIGHT CRYPTOGRAPHY WITH NTRU FOR ENHANCED ENCRYPTION Education and Society (?????? ??? ????) : ISSN 2278-6864 with IF=6.718 Vol. 46, Issue 04, No. 08, July - September: 2023 UGC CARE Approved, Group I, Peer Reviewed, Bilingual, Multi-disciplinary Referred Journal
+- AI-Driven Load Balancing and Energy-Efficient Resource Optimization in Mobile Edge Computing: A Comprehensive Review Proceedings - 2025 International Conference on Transformative Computing Technologies, ICTCT 2025Pages: 145 – 150 Conference Paper 2025 EID: 2-s2.0-105037439189 DOI: [10.1109/ICTCT69201.2025.00040](https://doi.org/10.1109/ICTCT69201.2025.00040)
+- K. R. Vaddempudi, M. S. S. Rukmini, Y. B. K R, R. Periyasamy, S. Kaliappan and T. P. Priyanka, "Deploying Lightweight Neural Networks on Edge Devices for Real-Time Traffic Monitoring and Management in Smart Cities," 2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT), Belagavi, India, 2025, pp. 1-8, doi: [10.1109/ICAFT66710.2025.11453005](https://doi.org/10.1109/ICAFT66710.2025.11453005).
+- EFFICIENCY AND SECURITY TRADE-OFF: LIGHTWEIGHT CRYPTOGRAPHY WITH NTRU FOR ENHANCED ENCRYPTION Education and Society (शिक्षण आणि समाज) : ISSN 2278-6864 with IF=6.718 Vol. 46, Issue 04, No. 08, July – September: 2023 UGC CARE Approved, Group I, Peer Reviewed, Bilingual, Multi-disciplinary Referred Journal
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
+- BOE (Department of MCA and BCA @ VTU)
 - IAENG
 - IIC
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- FDP on National Education Policy 2020 organized by St. Francis Institute of Management and research(26th September to 30th September 2022"
-- FDP on "IOT Enabled Techniques for industrial processes at MSRIT ( 25/11/2024 to 30/11/2024)
-- FDP on "AI Mastery for Educators" organized by Vislesani i-Hub IIT Patna. ( 15/05/2025 to 7/06/2025)
-- Certification of Achievement on "Machine Learning Foundation" By Infosys ( September 28, 2024)
-- Course Completion Certificate on "Data Analytics with Python " By NPTEL ( Jan -April, 2025)
-- Innovation Ambassador training "Foundation Level".
-- Innovation Ambassador training "Advanced Level".
+- FDP on National Education Policy 2020 organized by St. Francis Institute of Management and research(26th September to 30th September 2022”
+- FDP on “IOT Enabled Techniques for industrial processes at MSRIT ( 25/11/2024 to 30/11/2024)
+- FDP on “AI Mastery for Educators” organized by Vislesani i-Hub IIT Patna. ( 15/05/2025 to 7/06/2025)
+- Certification of Achievement on “Machine Learning Foundation” By Infosys ( September 28, 2024)
+- Course Completion Certificate on “Data Analytics with Python “ By NPTEL ( Jan -April, 2025)
+- Innovation Ambassador training “Foundation Level”.
+- Innovation Ambassador training “Advanced Level”.
 
-### Proposal / Funding / Project Financial Assistance
+## Patent
 
-_Nil_
+- AN AUTONOMOUS INTERNET OF THINGS-BASED ROBOTIC SYSTEM FOR REAL-TIME MULTI-GAS ENVIRONMENTAL MONITORING AND INTELLIGENT HAZARD DETECTION
+- IOT-DRIVEN SMART HEALTHCARE SYSTEM FOR REAL - TIME PATIENT MONITORING
 
-### Patent
-
-_Nil_
-
-### Roles & Responsibilities — Institute Level
+## Roles and Responsibilities: Institute Level
 
 - Coding and Innovation Club
 - IIC
 
-### Roles & Responsibilities — Department Level
+## Roles and Responsibilities: Department Level
 
 - AIMS Coordinator
-- Website Coordinator
 - Placement Coordinator
-`,
+- NBA Coordinator`,
   },
   "prashant-r-kaigaddi": {
     name: "Prashant R Kaigaddi",
@@ -4246,285 +4331,289 @@ _Nil_
   "tanya-r": {
     name: "Tanya R",
     url: "https://atme.edu.in/tanya-r/",
-    md: `## Tanya R
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: 9 Months
-- Research: Nil
+- Teaching: 2
+- Research: 7 months
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official: tanyar.mca@atme.edu.in · Personal: tanyarajesh03@gmail.com
-- **Vidwan ID:** [vidwan.inflibnet.ac.in/profile/582630](https://vidwan.inflibnet.ac.in/profile/582630)
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** Scopus
-- **Orcid ID:** [0009-0004-6209-5102](https://orcid.org/0009-0004-6209-5102)
-Web of Science Researcher ID
-- **LinkedIn ID:** [linkedin.com/in/tanya-r-](http://www.linkedin.com/in/tanya-r-)
+- **Email ID:** Official: [tanyar.mca@atme.edu.in](mailto:tanyar.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/582630>
+- **Google Scholar ID:** -
+- **Scopus ID:** <https://id.elsevier.com/settings/redirect?code=55sPD3QFaN_TU-zDHUDvJCJq8ykOaG9RiX5ndf8L>
+- **Orcid ID:** <https://orcid.org/0009-0004-6209-5102>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <http://www.linkedin.com/in/tanya-r->
 
-### Academic Details
+## Academic Details
 
-- Qualification
+- **Qualification**
 - M. C. A (Master of Computer Applications)
 - BCA (Bachelor of Computer Applications)
 
-### Areas of Interest
+## Areas of Interest
 
 - Cyber Security
 - IoT
 - Web Technologies
 
-### Publication Details
+## Publication Details
 
 - International Conference - CyberBERT: An Intelligent Transformer-Based NLP Framework for High-Accuracy Cyber Threat Classification.
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
 - IIC ambassador
 - IAENG member
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- "Design Thinking - A Primer" - MOOC Certification (NPTEL)
-- "Distributed Systems" - MOOC Certification (NPTEL)
-- "Cyber Security and Privacy" - MOOC Certification (NPTEL)
-- "Cloud Computing" - MOOC Certification (NPTEL)
+- “Design Thinking - A Primer” - MOOC Certification (NPTEL)
+- “Distributed Systems” - MOOC Certification (NPTEL)
+- “Cyber Security and Privacy” - MOOC Certification (NPTEL)
+- “Cloud Computing” - MOOC Certification (NPTEL)
 - 6 Day Faculty Development Program in Advance Cyber Security from 21-Jul-2025 to 26-Jul-2025 (Myra School of Business).
 - 6 Day Faculty Development Program in Cyber Security from 24-Nov-2025 to 29-Nov-2025 (IIIT Dharwad).
 
-### Proposal / Funding / Project Financial Assistance
+## Proposal/Funding/Project Financial Assistance
 
-_Nil_
+- Nil
 
-### Patent
+## Patent
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Institute Level
+## Roles and Responsibilities: Institute Level
 
 - Women Cell Member
 
-### Roles & Responsibilities — Department Level
+## Roles and Responsibilities: Department Level
 
 - IA Coordinator
 - NAAC Criteria 5 Coordinator
-`,
+- Anti-ragging member`,
   },
   "vijay-kumar-s": {
     name: "Vijay Kumar S",
     url: "https://atme.edu.in/vijay-kumar-s/",
-    md: `## Vijay Kumar S
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: 9 Months
+- Teaching: 2 Years
 - Research: Nil
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official: vijaykumars.mca@atme.edu.in · Personal: vijayvicky2276@gmail.com
-- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/582801
-- **Google Scholar ID:** ?Vijay Kumar S? - ?Google Scholar?
-- **Scopus ID:** Scopus preview - Scopus - Sources
-- **Orcid ID:** [0009-0007-0389-4299](https://orcid.org/0009-0007-0389-4299)
-- **Web of Science Researcher ID:** -
-- **LinkedIn ID:** [Vijay Kumar S](https://www.linkedin.com/in/vijay-kumar-s-a77226289/)
+- **Email ID:** Official: [vijaykumars.mca@atme.edu.in](mailto:vijaykumars.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/582801>
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=ZhIhU_wAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/sources.uri?zone=TopNavBar&origin=>
+- **Orcid ID:** <https://orcid.org/0009-0007-0389-4299>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/LSL-6499-2024>
+- **LinkedIn ID:** <https://www.linkedin.com/in/vijay-kumar-s-a77226289/>
 
-### Academic Details
+## Academic Details
 
-- Qualification
+- **Qualification**
 - BSC(PMCS)
 - MCA
 
-### Areas of Interest
+## Areas of Interest
 
 - Machine learning
 - IoT
 - Cyber Security
 
-### Publication Details
+## Publication Details
 
-- A real-time speech-to-sign language translation framework using Transformer -based gesture Synthesis.
-- A Real-Time Speech-to-Sign Language Translation Framework Using Transformer-Based Gesture Synthesis | IEEE Conference Publication | IEEE Xplore
-- Advanced Gradient Boosting Models for IoT-Driven Continuous Health Monitoring: Predicting Chronic Disease Exacerbation Usaing Wearable Sensor Data.Advanced Gradient Boosting Models for IoT-Driven Continuous Health Monitoring: Predicting Chronic Disease Exacerbation Usaing Wearable Sensor Data | IEEE Conference Publication | IEEE Xplore
+1. A real-time speech-to-sign language translation framework using Transformer -based gesture Synthesis. [A Real-Time Speech-to-Sign Language Translation Framework Using Transformer-Based Gesture Synthesis | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/11518599)
+2. Advanced Gradient Boosting Models for IoT-Driven Continuous Health Monitoring: Predicting Chronic Disease Exacerbation Usaing Wearable Sensor Data. [Advanced Gradient Boosting Models for IoT-Driven Continuous Health Monitoring: Predicting Chronic Disease Exacerbation Usaing Wearable Sensor Data | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/11506667).
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
 - Member of Internet society
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**MOOC Certificates**
 
 - Full stack: bitbytebynary(june-2024)
-- Introduction to machine learning:Swayam(sep-2023)
-- Python essentials-1:Cisco(Dec-2023)
-- Cloud computing:Swayam(July-oct 2025)
-- Faculty Development Programme (FDP) on "Artificial intelligence,Machine learning,and Deep   learning in the Data Revolution Era:Progress and applications" organized by Department of Computer Science and Engineering, Department of CSE (AIML)ATME colege of engineering ,Mysuru from 3rd to 5th February 2025
-- Faculty Development Programme (FDP) on "Artificial intelligence,Machine learning,and Deep   learning in the Data Revolution Era:Progress and applications" organized by Department of Computer Science and Engineering, Department of CSE (AIML)ATME colege of engineering ,Mysuru from 3rd to 5th February 2025
-- Faculty Development Programme (FDP) on "Unlocking Generative AI-Foundation to NLP and prompt engineering" organized by Department of CSE-Data science ,ATME colege of engineering ,Mysuru from 10th  to 12th February 2025
-- Faculty Development Programme (FDP) on "Introduction to AI and its applications" jointly organized by SVIT,Bengaluru and VTU belagavi on 30th August 2025
-- Faculty Development Programme (FDP) on "Advance and Innovations in Cyber security and Artificial Intelligence"  organized by E&ICT Academy IIT Guwahati in association with Atria Institute of technology ,Bengaluru from  15th  to 19th December 2025
-- Faculty Development Programme (FDP) on "AI for Systems Security" organized by Department         of Computer Science and Engineering, NITK, Surathkal from 16th to 20th February 2026
+- Introduction to machine learning: Swayam(sep-2023)
+- Python essentials-1: Cisco(Dec-2023)
+- Cloud computing: Swayam (July-oct 2025)
 
-### Roles & Responsibilities — Department Level
+**FDPs**
 
-- NBA Cordinator
-- Sports Cordinator
-- Time table Co-cordinator
-`,
+- Faculty Development Programme (FDP) on “Artificial intelligence, Machine learning, and Deep learning in the Data Revolution Era: Progress and applications” organized by Department of Computer Science and Engineering, Department of CSE (AIML)ATME college of engineering, Mysuru from 3rd to 5th February 2025
+- Faculty Development Programme (FDP) on “Unlocking Generative AI-Foundation to NLP and prompt engineering” organized by Department of CSE-Data science, ATME college of engineering, Mysuru from 10th to 12th February 2025
+- Faculty Development Programme (FDP) on “Introduction to AI and its applications” jointly organized by SVIT, Bengaluru and VTU Belagavi on 30th August 2025
+- Faculty Development Programme (FDP) on “Advance and Innovations in Cyber security and Artificial Intelligence” organized by E&ICT Academy IIT Guwahati in association with Atria Institute of technology, Bengaluru from 15th to 19th December 2025
+- Faculty Development Programme (FDP) on “AI for Systems Security” organized by Department of Computer Science and Engineering, NITK, Surathkal from 16th to 20th February 2026.
+
+## Patent
+
+- An autonomous internet of things-based robotic system for real-time multi-gas environmental monitoring and intelligent hazard detection.
+
+## Roles and Responsibilities: Department Level
+
+- NBA Co-Ordinator
+- SEEL Co-Ordinator
+- Sports Co-Ordinator
+- Class teacher 3rd Sem BCA
+- Result Analysis Co-Ordinator
+- Promotional Co-Ordinator`,
   },
   "manikanta": {
     name: "Manikanta",
     url: "https://atme.edu.in/manikanta/",
-    md: `## Manikanta
+    md: `## Professional Experience
 
-### Professional Experience
+- Teaching: 3 Years
+- Research: 2
+- Industry: 06 months
 
-- Teaching: 2 Years
-- Research: 1 Year
-- Industry: 6 Months
+## Contact Details
 
-### Contact Details
+- **Email ID:** Official: [manikanta.mca@atme.edu.in](mailto:manikanta.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/582633>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?hl=en&user=MmzgidMAAAAJ>
+- **Scopus ID:** <https://id.elsevier.com/settings/redirect?code=AjDE7U2G3ZrP7uED3Au25MuwL6ZlCKBKquAzvw7B>
+- **Orcid ID:** <https://orcid.org/0009-0007-0771-7919>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/LSL-5704-2024>
+- **LinkedIn ID:** <https://www.linkedin.com/in/manikanta-51626b226/>
 
-- **Email ID:** Official:manikanta.mca@atme.edu.in · Personal:manikantaganes1999@gmail.com
-- **Vidwan ID:** https://vidwan.inflibnet.ac.in/profile/582633
-- **Google Scholar ID:** https://scholar.google.co.in/citations?hl=en&user=MmzgidMAAAAJ
-- **Scopus ID:** https://id.elsevier.com/settings/redirect?code=AjDE7U2G3ZrP7uED3Au25MuwL6ZlCKBKquAzvw7B
-- **Orcid ID:** https://orcid.org/0009-0007-0771-7919
-- **Web of Science Researcher ID:** https://www.webofscience.com/wos/author/record/LSL-5704-2024
-- **LinkedIn ID:** https://www.linkedin.com/in/manikanta-51626b226/
+## Academic Details
 
-### Academic Details
+- **Qualification**
+- **PhD** - Pursuing
+- **PG** - MCA, VTU CPGS Mysore (Feb 2022 - Aug 2023)
+- **UG** - BCA, University of Mysore (Jun 2019 - Sep 2021)
 
-- Qualification
-- Ph.D in Applied Sciences (Computer Applications) (Pursuing)
-- Master of Computer Application
-- Bachelor of  Computer Application
+## Areas of Interest
 
-### Areas of Interest
+- Deep Learning and Convolutional Neural Networks (CNN)
+- Thermal Imaging and Signature Analysis
+- Personalized Health Monitoring
+- Explainable AI (Grad-CAM, SHAP)
+- Machine Learning
 
-- Artificial intteligence
-- Cyber security
-- Cloud computing
+## Publication Details
 
-### Publication Details
+**National:**
 
-- Development of an AI-Based Predictive Modeling System for Microplastic Pollution - Bulletin for Technology and History (UGC CARE Group-II, Scopus Indexed), Vol. 25, Issue 6, June 2025, Paper ID: BTH/3354.
-- Neuroscientific Insights into the Cognitive Benefits of Mantra Chanting - IRJAEM, Vol. 03, Issue 05, May 2025.
-- Research Work: Machine Learning Approaches for Predicting Protein-Protein Interaction and Complexes.-ijcrt
-- Presented an international technical paper titled "Future-Enabled Health Assistant: Forecasting and Communication with Physicians" at ICAISDGs-2025
-- Presented a paper at a national conference (Anveshana 2025) on a future AI-based health assistant for disease forecasting and personalized healthcare solutions.
-- Published a paper in an international conference (ICAISDGs-2025) on an eye-tracking voice assistant for intelligent cursor control.
-- Published a paper in an international conference (ICAISDGs-2025) on a future AI-based health assistant for disease forecasting and physician communication.
-- Published a paper in an international conference (ICAISDGs-2025) on predictive analytics for crop yield using machine learning and soil data.
-- Published a paper in an international conference (ICAISDGs-2025) on AI-enhanced imaging techniques for kidney stone detection.
-- Published a paper in an international conference (ICAISDGs-2025) on bird species classification using image and audio-based deep learning.
-- Published a paper in an international conference (ICAISDGs-2025) on vitamin deficiency detection using image processing and neural networks.
+- AI-Based Predictive Modeling for Microplastic Pollution, BTH, Vol. 25, Issue 6, June 2025, Paper ID BTH/3354
+- A Comprehensive Review of CNN-Based Thermal Signature Analysis for Advancements in Personalized Health Monitoring, IRJASH, Vol. 7, Issue 7, July 2025
+- Neuroscientific Insights into Mantra Chanting, IRJAEM, May 2025
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
-- 1 Member of the International Association of Engineers (IAENG) (Membership No: 546409), recognized at the International Level..
+- Member of the International Association of Engineers (IAENG), Membership No: 546409, recognized at the International Level
 
-### Honours / Awards / Achievements
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-_Nil_
+**FDPs**
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+- National Level FDP on Ethical Hacking – 19–23 January 2026, St. Philomena’s College (Autonomous), Mysore, in collaboration with Mar Ivanios College, Thiruvananthapuram, with sessions by TechByHeart India Pvt. Ltd.
+- Three-Day Workshop on Training in EEG and fNIRS Neurophysiological Monitoring Devices – 26–28 February 2026, VTU Centre for Brain Research (VTU-CBR), Mysuru, in collaboration with ITIE Knowledge Solutions.
+- One-Day National Level FDP on TPR, Innovation and Higher Education – 18 July 2026, RJS First Grade College.
+- One-Day National Level FDP on Artificial Intelligence and the Internet of Things: Building Smart Connected Systems – 10 August 2026, T. John College (Autonomous), Bengaluru.
+- One-Day National Level FDP on Rights for Innovators and Entrepreneurs: Journey from Ideas to Impact – 8 August 2026, SSKV College of Arts and Science for Women, Kanchipuram.
+- One-Day National Level FDP on Transforming Teaching through Outcome-Based Education (OBE) – 19 August 2026, Meenakshi Ramaswamy Engineering College.
+- One-Day National Level FDP on Empowering Educators with Gen-AI, Digitization and Future-Ready Pedagogies – 20 August 2026, Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV), Kanchipuram.
+- One-Day Online FDP on Generative AI in Teaching, Research and Development – 19 August 2026, Suguna College of Arts and Science, Coimbatore.
+- One-Day Online FDP on Affirming Outcomes for Academic Success: Quality-Driven Institutional Innovation Council (IIC) – 15 August 2026, Vellalar College for Women (Autonomous), Erode.
+- One-Day Online FDP on Understanding 21st-Century Psychology of Today’s Students – 11 August 2026, RVS College of Arts and Science (Autonomous), Coimbatore.
+- One-Day National Level FDP on Future-Ready Teaching Skills for Higher Education Faculty – 17 August 2026, Hindusthan College of Engineering and Technology, Coimbatore.
+- One-Day Online FDP on Digital Skills in Language Technology and Multidisciplinary Classrooms – 17 August 2026, Maria Arts and Science College for Women, Thiruvallur.
+- One-Day Online FDP on Aligning Outcomes for Academic Success: Quality-Driven Institutional Innovation Council (IIC) – 13 August 2026, Vellalar College for Women (Autonomous), Erode.
 
-- Participated in the National Conference on Emerging Trends in Science & Technology for Ecological Conservation (ETSTEC-2025) on 15th February 2025 and presented a paper titled "Development of an AI-Based Predictive Modelling System for Microplastic Pollution: Analyzing Pollution Sources & Environmental Mitigation Strategies," organized by Surana College, Bengaluru in association with KSTA
-- Participated in the Second International Conference on Recent Trends in Science, Technology and Management (ICRTSTM 2025) on 30th June and 1st July 2025, and presented a paper titled "A Comprehensive Review of CNN-Based Thermal Signature Analysis for Advancements in Personalized Health Monitoring.
-- ANVESHANA 2025, Seshadripuram Degree College, Mysuru (Apr 2025) - Presented paper on Future-Gen Health Assistant: Forecast and Communicate with Physics.
-- Three days national level fdp on indian knowledge system
-- Three days national level fdp on UNLOCKING GENRATIVE AI
-- 6 days national level fdp on cyber security in st Philomena collage
-- 3 Day training on fnris devices and eeg devices
-- 8 ICETCC 2025, REVA University-SCITEPRESS (Nov 2025) - Presented paper on Trustless Authentication in Cloud Infrastructures Using Blockchain-Integrated Cryptographic Consensus Mechanisms.
-- ICRTSTM 2025, BVCOEW Pune & RSP Conference Hub (Jun-Jul 2025) - Presented paper on CNN-Based Thermal Signature Analysis for Advancements in Personalized Health Monitoring.
+**Conferences**
 
-### Proposal / Funding / Project Financial Assistance
+- Presented "Development of an AI-Based Predictive Modelling System for Microplastic Pollution: Analyzing Pollution Sources & Environmental Mitigation Strategies" - National Conference on Emerging Trends in Science & Technology for Ecological Conservation (ETSTEC-2025), Surana College, Bengaluru, in association with KSTA (15 Feb 2025)
+- Presented "Future-Gen Health Assistant: Forecast and Communicate with Physics" - ANVESHANA 2025, Seshadripuram Degree College, Mysuru (Apr 2025)
+- Presented "A Comprehensive Review of CNN-Based Thermal Signature Analysis for Advancements in Personalized Health Monitoring" - Second International Conference on Recent Trends in Science, Technology and Management (ICRTSTM 2025), BVCOEW Pune & RSP Conference Hub (30 June & 1 July 2025)
+- Presented "Trustless Authentication in Cloud Infrastructures Using Blockchain-Integrated Cryptographic Consensus Mechanisms" - ICETCC 2025, REVA University - SCITEPRESS Proceedings (Nov 2025)
+- Presented “Machine Learning-Based Intelligent Video Analytics Framework for Smart Surveillance using Spatiotemporal Attention and Explainability” – ICDWCI-2026
 
-_Nil_
+**Workshops**
 
-### Patent
+- Trends in Machine Learning and Creative Thinking - Dept. of Mechanical Engineering with MCA, VTU Mysore
+- Three-day training on fNIRS devices and EEG devices
 
-_Nil_
+**MOOC Certification**
 
-### Roles & Responsibilities — Institute Level
+- Intellectual Property Rights and Competition Law - NPTEL (Aug-Oct 2025); Score: 76/100
+- TCS iON Career Edge - Young Professional - TCS iON
+- Python Training - Besant Technologies
+- Demystifying the Outcome Based Education - IPSR Solutions Ltd
+- Introduction to Cyber Security - Simplilearn
+- Claude 101 - Anthropic
+- Critical Thinking in the AI Era - HP LIFE
 
-- PG INTRENSHIP COORDINATOR
+## Roles and Responsibilities: Institute Level
 
-### Roles & Responsibilities — Department Level
+- PG Internship Coordinator
 
-- PROJECT COORDINATOR
-- INTRENSHIP COORDINATOR
-- CLASS COORDINATOR
-`,
+## Roles and Responsibilities: Department Level
+
+- Project Coordinator
+- Internship Coordinator
+- Class Coordinator`,
   },
   "poojitha-s": {
     name: "Poojitha S",
     url: "https://atme.edu.in/poojitha-s/",
-    md: `## Poojitha S
+    md: `## Professional Experience
 
-### Professional Experience
+- Teaching: 1.2yrs
+- Research: -
+- Industry: -
 
-- Teaching: Nil
-- Research: Nil
-- Industry: Nil
+## Contact Details
 
-### Contact Details
+- **Email ID:** Official: [poojithas.mca@atme.edu.in](mailto:poojithas.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/653948>
+- **Google Scholar ID:** <https://acesse.one/kiivg>
+- **Scopus ID:** <https://www.scopus.com/freelookup/form/author.uri>
+- **Orcid ID:** <https://orcid.org/0009-0008-0453-1091>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <https://www.linkedin.com/in/poojitha-s-90b765329>
 
-- **Email ID:** Official: poojithas.mca@atme.edu.in · Personal: poojithas01092000@gmail.com
-Vidwan ID
-https://vidwan.inflibnet.ac.in/profile/653948
-- **Google Scholar ID:** https://acesse.one/kiivg
-- **Scopus ID:** https://www.scopus.com/freelookup/form/author.uri
-- **Orcid ID:** 0009-0008-0453-1091
-Web of Science Researcher ID
-- **LinkedIn ID:** https://www.linkedin.com/in/poojitha-s-90b765329
+## Academic Details
 
-### Academic Details
-
-- Qualification
+- **Qualification**
 - MCA
 - BSC (PMCs)
 
-### Areas of Interest
+## Areas of Interest
 
 - Python
 - Networking
 - Machine Learning
 
-### Publication Details
+## Publication Details
 
-- Presented the paper titled " Real-Time Histopathological Cancer Diagnosis using ResNet50: Transfer Learning for Automated Tumor Detection and Classification" at the 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI 2026) held during 7-9, January 2026 at Purbanchal University, Nepal
+- Presented the paper titled “ Real-Time Histopathological Cancer Diagnosis using ResNet50: Transfer Learning for Automated Tumor Detection and Classification” at the 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI 2026) held during 7-9, January 2026 at Purbanchal University, Nepal.
+- Express Animate: An End-to-End Multimodal AI Framework for Automated Animation Generation from Text Prompts, 2026 International Conference on Computing Theory and Wireless Communications, ICCTWC 2026.
+- Published the paper titled “Integrating Psychological Context Understanding into Chatbots for Wellbeing Support Using Full-Stack and NLP” in the International Journal of Advanced Research in Science, Communication and Technology (IJARSCT), Volume 6, Issue 1, August 2026, with ISSN: 2581-9429 and Impact Factor 8.2.
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- Five Days Faculty Development Program on "AI for System Security" at NITK Surathkal
-- from 16-02-2026 to 20-02-2026.
-- "Cloud Computing"-MOOC Certification (NPTEL)-with 69% from January to April (12 weeks)
+- Five Days Faculty Development Program on “AI for System Security” at NITK Surathkal from 16-02-2026 to 20-02-2026.
+- “Cloud Computing”-MOOC Certification (NPTEL)-with 69% from January to April (12 weeks)
+- “National Initiative for Technical Teachers Training(NITTT) – Completion of Modules 1 , 3 , 5 and 7
 
-### Patent
+## Roles and Responsibilities: Department Level
 
-- National
-- International
-
-- Title:
-- Published/Granted:
-- Patent No.:
-- Title:
-- Published/Granted:
-- Patent No.:
-
-### Roles & Responsibilities — Institute Level
-
-- Roles and Responsibilities: Department Level	    - Personal File Coordinator
-- Class Teacher for 1MCA Section B
+- Personal File Coordinator
+- Class Teacher for 1st MCA Section B
 - Library Coordinator
 - Member of NAAC Criteria 3
-`,
+- Member of NBA Criteria 5
+- Cultural Coordinator
+- SEEL Coordinator`,
   },
   "gowtham-mg": {
     name: "Gowtham M G",
@@ -4604,79 +4693,76 @@ _Nil_
   "yathiraj-d-n": {
     name: "Yathiraj D N",
     url: "https://atme.edu.in/yathiraj-d-n/",
-    md: `## Yathiraj D N
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: Nil
+- Teaching: 1.1
 - Research: Nil
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official: yathirajdn.mca@atme.edu.in · Personal: yathirajraj3@gmail.com
-- **Vidwan ID:** [vidwan.inflibnet.ac.in/profile/651914](https://vidwan.inflibnet.ac.in/profile/651914)
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** scopus
-- **Orcid ID:** [0009-0001-5539-2756](https://orcid.org/0009-0001-5539-2756)
-Web of Science Researcher ID
-- **LinkedIn ID:** [linkedin.com/in/yathiraj-d-n](https://www.linkedin.com/in/yathiraj-d-n/)
+- **Email ID:** Official: [yathirajdn.mca@atme.edu.in](mailto:yathirajdn.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/651914>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=zYB2AUAAAAAJ&hl=en>
+- **Scopus ID:** <https://www.scopus.com/dashboard.uri?origin=userDashboard&zone=TopNavBar>
+- **Orcid ID:** <https://orcid.org/0009-0001-5539-2756>
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <https://www.linkedin.com/in/yathiraj-d-n/>
 
-### Academic Details
+## Academic Details
 
-- Qualification
+- **Qualification**
 - M. C. A (Master of Computer Applications)
 - B.Sc in Computer Science
 
-### Areas of Interest
+## Areas of Interest
 
-- Machine learning and Data Analytics
-- Data Structures and Algorithms
-- Cybersecurity
-- Web Technologies
+1. Machine learning and Data Analytics
+2. Data Structures and Algorithms
+3. Cybersecurity
+4. Web Technologies
 
-### Publication Details
+## Publication Details
 
-- International Conference -Global Goals, Local Solutions-Integrating Sustainability in Everyday Life "Detection of Cardiovascular Diseases using ECG signal Analysis", IEEE Xplore: 18th and 19th September 2025.
-- International Conference on Intelligent Computing and Control Systems (ICICCS 2026)" Attention-Driven Convolutional Neural Network for Real-Time Driver Drowsiness and Inattention Awareness", organized by Nandha Engineering College, Erode on 16th to 18th March 2026
+- International Conference -Global Goals, Local Solutions-Integrating Sustainability in Everyday Life “Detection of Cardiovascular Diseases using ECG signal Analysis”, IEEE Xplore: 18th and 19th September 2025.
+- International Conference on Intelligent Computing and Control Systems (ICICCS 2026)” Attention-Driven Convolutional Neural Network for Real-Time Driver Drowsiness and Inattention Awareness”, organized by Nandha Engineering College, Erode on 16th to 18th March 2026
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
-_Nil_
+1. Nil
 
-### Honours / Awards / Achievements
+## Honours/Awards/Achievements
 
-- "Gold Medalist-Weight Lifting"-Mysore University Inter-Collegiate Competations held on 18th to 20th September 2019
-- "2nd in GENIUX / IT Manager (ZERONE-2025)" Intercollegiate tech fest organized by Department of MCA, Siddaganga Institute of Technology, Tumkur.
+1. “Gold Medalist-Weight Lifting”-Mysore University Inter-Collegiate Competations held on 18th to 20th September 2019
+2. “2nd in GENIUX / IT Manager (ZERONE-2025)” Intercollegiate tech fest organized by Department of MCA, Siddaganga Institute of Technology, Tumkur.
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-- "Distributed Systems"-MOOC Certification (NPTEL)-with 65% from July to September (8weeks)
-- "The Joy of Computing using Python"-MOOC Certification (NPTEL)-with 70% from July to October (12 weeks)
-- "Cloud Computing "-(NPTEL)-with 64% from January to April (12 weeks)
-- Faculty Development Programme (FDP) on "AI for Systems Security" organized by Department of Computer Science and Engineering, NITK, Surathkal from 16th to 20th February 2026
+- “Distributed Systems”-MOOC Certification (NPTEL)-with 65% from July to September (8weeks)
+- “The Joy of Computing using Python”-MOOC Certification (NPTEL)-with 70% from July to October (12 weeks)
+- “Cloud Computing “-(NPTEL)-with 64% from January to April (12 weeks)
+- Faculty Development Programme (FDP) on “AI for Systems Security” organized by Department of Computer Science and Engineering, NITK, Surathkal from 16th to 20th February 2026
 
-### Proposal / Funding / Project Financial Assistance
+## Proposal/Funding/Project Financial Assistance
 
-- Project Titled -"Simple Social Club Platform" has approved by the KSCST(Karnataka State Council for Science and Technology) under "Student Project Programme - 48th Series"
+- Project Titled -“Simple Social Club Platform” has approved by the KSCST(Karnataka State Council for Science and Technology) under “Student Project Programme – 48th Series”
 
-### Patent
+## Patent
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Institute Level
+## Roles and Responsibilities: Institute Level
 
 - Photography Club Co-ordinator
 
-### Roles & Responsibilities — Department Level
+## Roles and Responsibilities: Department Level
 
 - Class Teacher
 - Newsletter & Magazine Co-Ordinator
 - NBA Co-Ordinator
 - Website Co-Ordinator
 - Editorial Club Co-Ordinator
-- Sports Club Co-Ordinator
-`,
+- Sports Club Co-Ordinator`,
   },
   "keerthi-h": {
     name: "Keerthi H",
@@ -4820,196 +4906,521 @@ _Nil_
   "clara-b": {
     name: "Clara B",
     url: "https://atme.edu.in/clara-b/",
-    md: `## Clara B
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: Nil
+- Teaching: 5 months
 - Research: Nil
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official: clarab.bca@atme.edu.in · Personal: clarachristin753@gmail.com
-- **Vidwan ID:** [vidwan.inflibnet.ac.in/profile/711411](https://vidwan.inflibnet.ac.in/profile/711411)
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** Scopus
-- **Orcid ID:** [0009-0004-5779-0397](https://orcid.org/0009-0004-5779-0397)
+- **Email ID:** Official: [clarab.bca@atme.edu.in](mailto:clarab.bca@atme.edu.in)
+- **Vidwan ID:** -
+- **Google Scholar ID:** <https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Clara+B>
+- **Scopus ID:** <https://id.elsevier.com/settings/redirect?code=oUKhovYhRkd1yWQAWsD03EuKIWCjze8RKusREq3k>
+- **Orcid ID:** <https://orcid.org/0009-0004-5779-0397>
 - **Web of Science Researcher ID:** -
-- **LinkedIn ID:** [linkedin.com/in/clara-b-1817aa366](https://www.linkedin.com/in/clara-b-1817aa366/)
+- **LinkedIn ID:** <https://www.linkedin.com/in/clara-b-1817aa366/>
 
-### Academic Details
+## Academic Details
 
-- Qualification
-- M. C. A (Master of Computer Applications)
-- B.C.A (Bachelor of Computer Application)
+- **Qualification**
+- **PG** - M. C. A (Master of Computer Applications)
+- **UG** - B.C.A (Bachelor of Computer Application)
 
-### Areas of Interest
+## Areas of Interest
 
 - Artificial Intelligence
 - Data Structures and Algorithms
 - Java
 - Python
 
-### Membership in Professional Bodies
+## Publication Details
 
-_Nil_
+**National:**
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+- Nil
 
-- "Distributed Systems"-MOOC Certification (NPTEL)-with 64% from July to September 2024 (8weeks)
-- "Python for Data Science"-MOOC Certification (NPTEL)-with 70% from January to February (4 weeks)
+**International:**
 
-### Proposal / Funding / Project Financial Assistance
+- Nil
 
-_Nil_
+## Membership in Professional Bodies
 
-### Patent
+- Nil
 
-_Nil_
+## Honours/Awards/Achievements
 
-### Roles & Responsibilities — Institute Level
+**HONOURS**
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Department Level
+**AWARDS**
 
-_Nil_
-`,
+- Nil
+
+**ACHIEVEMENTS**
+
+- Nil
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- Nil
+
+**Conferences**
+
+- Nil
+
+**Workshops**
+
+- Nil
+
+**STTP**
+
+- Nil
+
+**MOOC Certification**
+
+- “Distributed Systems”-MOOC Certification (NPTEL)-with 64% from July to September 2024 (8weeks)
+- “Python for Data Science”-MOOC Certification (NPTEL)-with 70% from January to February (4 weeks)
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+**National:** Nil
+
+- **Title:** Nil
+- **Published/Granted:** Nil
+- **Patent No:** Nil
+
+**International:** Nil
+
+- **Title:** Nil
+- **Published/Granted:** Nil
+- **Patent No:** Nil
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+- Nil`,
   },
   "teharin": {
     name: "Teharin",
     url: "https://atme.edu.in/teharin/",
-    md: `## Teharin
+    md: `## Professional Experience
 
-### Professional Experience
-
-- Teaching: Nil
+- Teaching: 5 months
 - Research: Nil
 - Industry: Nil
 
-### Contact Details
+## Contact Details
 
-- **Email ID:** Official: teharin.bca@atme.edu.in · Personal: ateharin@gmail.com
-- **Vidwan ID:** [vidwan.inflibnet.ac.in/profile/709947](https://vidwan.inflibnet.ac.in/profile/709947)
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** Scopus
-- **Orcid ID:** [0009-0008-7146-6437](https://orcid.id/0009-0008-7146-6437)
-- **Web of Science Researcher ID:** -
-- **LinkedIn ID:** [linkedin.com/in/teharin-180a61251](https://www.linkedin.com/in/teharin-180a61251)
+- **Email ID:** Official: [teharin.bca@atme.edu.in](mailto:teharin.bca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/709947>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=L0rtV6IAAAAJ&hl=en>
+- **Scopus ID:** <https://id.elsevier.com/settings/redirect?code=NSLgl6T8K0DAe5CZi_xuoOUa3QsSaBFhDy8eD-Hi>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0009-0008-7146-6437>
+- **Web of Science Researcher ID:** Nil
+- **LinkedIn ID:** <https://www.linkedin.com/in/teharin-180a61251/>
 
-### Academic Details
+## Academic Details
 
-- Qualification
-- MCA
-- BCA
+- **Qualification**
+- **PG** - MCA
+- **UG** - BCA
 
-### Areas of Interest
+## Areas of Interest
 
 - Machine learning
 - Python
-- Cybersecurity
+- Cyber security
 - Web Technologies
 
-### Publication Details
+## Publication Details
 
-_Nil_
+**National:**
 
-### Membership in Professional Bodies
+- Nil
 
-_Nil_
+**International:**
 
-### Honours / Awards / Achievements
+- Nil
 
-_Nil_
+## Membership in Professional Bodies
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+- Nil
 
-_Nil_
+## Honours/Awards/Achievements
 
-### Proposal / Funding / Project Financial Assistance
+**HONOURS**
 
-_Nil_
+- Nil
 
-### Patent
+**AWARDS**
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Institute Level
+**ACHIEVEMENTS**
 
-_Nil_
+- Nil
 
-### Roles & Responsibilities — Department Level
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
 
-_Nil_
-`,
+**FDPs**
+
+- Nil
+
+**Conferences**
+
+- Nil
+
+**Workshops**
+
+- Nil
+
+**STTP**
+
+- Nil
+
+**MOOC Certification**
+
+- Nil
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+**National:** Nil
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+**International:** Nil
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+## Roles and Responsibilities: Institute Level
+
+- Nil
+
+## Roles and Responsibilities: Department Level
+
+- Nil`,
   },
   "ravikala-k-g": {
     name: "Ravikala K G",
     url: "https://atme.edu.in/ravikala-k-g/",
-    md: `## Ravikala K G
+    md: `## Professional Experience
 
-### Contact Details
+- Teaching: 2yrs
+- Research: 0yrs
+- Industry: NIL
 
-- **Email ID:** Official: ravikalakg.mca@atme.edu.in · Personal: ravikalakg@gmail.com
+## Contact Details
+
+- **Email ID:** Official: [ravikalakg.mca@atme.edu.in](mailto:ravikalakg.mca@atme.edu.in)
 - **Vidwan ID:** 718282
-- **Google Scholar ID:** Google Scholar
-- **Scopus ID:** 59483648600
-- **Orcid ID:** orcid
+- **Google Scholar ID:** <https://scholar.google.com/citations?hl=en&user=EfA3cvsAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=59483648600>
+- **Orcid ID:** <https://orcid.org/my-orcid?orcid=0009-0008-5904-9905>
 - **Web of Science Researcher ID:** -
-- **LinkedIn ID:** LinkedIn
+- **LinkedIn ID:** <https://www.linkedin.com/in/ravikala-kg-74955b223/>
 
-### Academic Details
+## Academic Details
 
-- Qualification
-- M. C. A (Master of Computer Applications) in Cybersecurity
-- B. C. A (Bachelor of Computer Application)
+- **Qualification**
+- **PhD** - NIL
+- **PG** - Master of Computer Applications(MCA) in Cyber Security
+- **UG** – Bachelor of Computer Applications(BCA)
 
-### Areas of Interest
+## Areas of Interest
 
-- Machine learning and Data Analytics
 - Cybersecurity
-- IOT
-- Wireless Communication
+- Wireless Communications
 
-### Publication Details
+## Publication Details
 
-- "A Machine Learning-Driven Framework for Modeling and Classifying Generative AI Readiness in Indian Higher Education," at the 6th International Conference on Intelligent Technologies (CONIT 2026), organized by KLE Institute of Technology, Hubballi, Karnataka, India, in association with IEEE Bangalore Section on 19th June to 21st June 2026.
+**National:**
+
+- NIL
+
+**International:**
+
+- A Machine Learning-Driven Framework for Modeling and Classifying Generative AI Readiness in Indian Higher Education,” at the 6th International Conference on Intelligent Technologies (CONIT 2026), organized by KLE Institute of Technology, Hubballi, Karnataka, India, in association with IEEE Bangalore Section on 19th June to 21st June 2026.
 - XXII Control Instrumentation Systems Conference (CISCON 2025), "Financial Stress Prediction and Student Retention Analysis Using Machine Learning", organized by the Department of Instrumentation and Control Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education (MAHE), Manipal, technically co-sponsored by the IEEE Bangalore Section, held on 1st–2nd August 2025.
 - 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), "Data Driven Prediction Model for Campus Placements" (Paper ID: 9969), virtually hosted by Indian Institute of Technology (IIT) Indore, from 6th to 11th July 2025.
-- 15th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2024), "Exploring the Impact of Financial Stress on Students' Academic Performance: A Machine Learning Approach", hosted by Indian Institute of Technology (IIT) Mandi, Himachal Pradesh, from 24th to 28th June 2024.
+- 15th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2024), "Exploring the Impact of Financial Stress on Students’ Academic Performance: A Machine Learning Approach", hosted by Indian Institute of Technology (IIT) Mandi, Himachal Pradesh, from 24th to 28th June 2024.
 - International Conference on Sustainable & Resilient Futures: Bridging Science, Policy, and Practice (ICSRF 2025), "Data-Driven Pathways to Resilient Education: Unveiling Lifestyle Impacts on Student Health and Academic Sustainability through Machine Learning", organized by Amrita Vishwa Vidyapeetham, Amritapuri, India.
 
-### Membership in Professional Bodies
+## Membership in Professional Bodies
 
-_Nil_
+- NIL
 
-### Honours / Awards / Achievements
+## Honours/Awards/Achievements
 
-_Nil_
+**HONOURS**
 
-### FDPs / Conferences / Workshops / STTP / MOOC Certification
+- NIL
 
-- One-Day Faculty Development Programme (FDP) titled "Professional Networking and Personal Growth for Educators on LinkedIn".
+**AWARDS**
+
+- NIL
+
+**ACHIEVEMENTS**
+
+- NIL
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- One-Day Faculty Development Programme (FDP) titled "Professional Networking and Personal Growth for Educators on LinkedIn.
 - Five-Day Faculty Development Programme (FDP) on "Mobile Application Development", organized by the Department of BCA, Amrita Vishwa Vidyapeetham, Mysuru Campus, from 9th to 13th June 2025.
-- "Inculcating Universal Human Values in Technical Education", organized by the All India Council for Technical Education (AICTE), 23rd–27th December 2024 (Five-Day Online FDP).
+- Inculcating Universal Human Values in Technical Education, organized by the All India Council for Technical Education (AICTE), 23rd–27th December 2024 (Five-Day Online FDP).
 
-### Proposal / Funding / Project Financial Assistance
+**Conferences**
 
-_Nil_
+- NIL
 
-### Patent
+**Workshops**
 
-_Nil_
+- NIL
 
-### Roles & Responsibilities — Institute Level
+**STTP**
 
-_Nil_
+- NIL
 
-### Roles & Responsibilities — Department Level
+**MOOC Certification**
 
-_Nil_
-`,
+- NIL
+
+## Proposal/Funding/Project Financial Assistance
+
+- NIL
+
+## Patent
+
+**National:** NIL
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+**International:** NIL
+
+- **Title:**
+- **Published/Granted:**
+- **Patent No:**
+
+## Roles and Responsibilities: Institute Level
+
+- NIL
+
+## Roles and Responsibilities: Department Level
+
+- MCA – SEM 1 Class Teacher`,
+  },
+  "harshitha-h-b": {
+    name: "Harshitha H B",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: 2 Years
+- Research: NIL
+- Industry: NIL
+
+## Contact Details
+
+- **Email ID:** Official: [harshithahb.mca@atme.edu.in](mailto:harshithahb.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/582802>
+- **Google Scholar ID:** <https://scholar.google.com/citations?view_op=list_works&hl=en&user=on_TuhwAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/home.uri>
+- **Orcid ID:** <https://orcid.org/0009-0001-3572-6536>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/LSL-6480-2024>
+- **LinkedIn ID:** <https://www.linkedin.com/in/harshitha-gowda-0046472b0>
+
+## Academic Details
+
+- **Qualification**
+- MCA – Master of Computer Application, 2024
+- BCA – Bachelor of Computer Application, 2022
+
+## Areas of Interest
+
+- Cyber Security
+- Cloud computing
+- Machine Learning
+- Digital Forensics
+
+## Publication Details
+
+- “Fraudulent login detection using AI” Published in IJSRD – International Journal for Scientific Research & Development| Vol. 12, Issue 12, 2025 | ISSN (online): 2321-0613-<https://www.ijsrd.com/articles/IJSRDV12I120018.pdf>
+- “Student Performance Prediction Using Machine Learning and Explainability” IJSRD - International Journal for Scientific Research & Development| Vol. 13, Issue 10, 2025 | ISSN (online): 2321-0613 <https://www.ijsrd.com/articles/IJSRDV13I100050.pdf>
+- ML-Based Product Recommendation System Using Browsing History, Purchase Data, and Seasonal Trends - IJSRD - International Journal for Scientific Research & Development| Vol. 13, Issue 10, 2025 | ISSN (online): 2321-0613 - <https://www.ijsrd.com/articles/IJSRDV13I100036.pdf>
+- MAPPO-GAT: A Graph-Attention-Driven Multi-Agent Reinforcement Learning Framework for Entropy-Aware Autonomous Drone Swarm Coordination in 2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT) during 19th to 20th December 2025. <https://ieeexplore.ieee.org/document/11452673>
+- An ML Model to detect Cyber-attacks for Wireless Sensor Networks in Microgrids in 2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT) during 19th to 20th December <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11453035&isnumber=11452641>
+- CNN-Based Waste Detection and Geospatial Dustbin Recommendation for Sustainable Environments in 2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT) during 19th to 20th December <https://link.springer.com/chapter/10.1007/978-3-032-27702-2_35>
+
+## Membership in Professional Bodies
+
+- Member of Internet Society
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs/ Workshops**
+
+- Attended FDP on “Artificial intelligence, Machine Learning and Deep Learning in the Data Revolution Era: Progress and Applications” organized by Dept. of CSE, ATME College of Engineering, Mysuru on 3rd to 5th February 2025.
+- 6-days residential Faculty Development Program (FDP) on “Cybersecurity”, Organized by Indian Institute of Science (IISc), Center of Excellence for Cybersecurity – Karnataka (CySecK), British Asian Trust group in association with IIIT Dharwad, Karnataka from 24th to 29th Nov 2025.
+- 5-days FDP on “Cloud Computing & Cloud Security: Architectures, Technologies & Best Practices” organized by ATMECE in association with ISTE (Indian Society for Technical Education), Mysuru on 16th -20th Feb 2026.
+
+**MOOC Certificate**
+
+- Certificate of Completion of NPTEL course on – Digital Forensics, 2024.
+- Certificate of Completion “Patent Filing in India” by Udemy, 2025.
+- Certificate of Completion “Generative AI for all” by Infosys Springboard,2025.
+- Certificate of Completion of Diploma “Introduction to Automation” by UiPath,2026.
+- Certificate of Completion of Diploma “Generate and Manage Test Data with UiPath Test Cloud” by UiPath,2026.
+- Certificate of Completion of NPTEL course on – Education Technology and ICT, 2026.
+
+**Conferences**
+
+- A State level Conference on Emerging trends in Computer Science and Technologies – Machine learning based Cyber Attack Detection Model using Wireless sensor networks.
+
+## Patent
+
+- IOT-Driven smart healthcare system for real - time patient monitoring
+
+## Roles and Responsibilities: Department Level
+
+- AIMS Co-ordinator
+- NAAC Criteria 1 Co-ordinator
+- NBA Criteria 3 Co-ordinator
+- UHV Cell member
+- Cultural - national and International Events Committee
+- Class teacher for BCA 1st Sem`,
+  },
+  "umme-hani-sharrif": {
+    name: "Umme Hani Sharrif",
+    url: "",
+    md: `## Professional Experience
+
+## Contact Details
+
+- **Email ID:** Official: [ummehanisharrif.mca@atme.edu.in](mailto:ummehanisharrif.mca@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/637719>
+- **Google Scholar ID:** <https://scholar.google.com/citations?user=479LPT4AAAAJ>
+- **Scopus ID:** <https://www.scopus.com/home.uri>
+- **Orcid ID:** <https://orcid.org/0009-0009-6595-1652>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/record/NXB-9225-2025>
+- **LinkedIn ID:** <https://www.linkedin.com/in/umme-hani-shariff-094453227>
+
+## Academic Details
+
+- **Qualification**
+- **PhD** - Nil
+- **PG** - MCA
+- **UG** - BCA
+
+## Areas of Interest
+
+- Blockchain Technologies
+- Web development
+- Data visualization
+- JavaScript
+- Java
+
+## Publication Details
+
+**National:**
+
+- Nil
+
+**International:**
+
+- Explainable Intelligence for Ethical Human-Centric AI: Trust Modeling Using Gradient Boosting” – Published in the proceedings of the 5th International Conference on Innovative Practices in Technology and Management (ICIPTM 2026), IEEE Conference Publication, 2026.
+- “Etherium, Bitcoin and Binance Prediction” Published in IJETS - International Research Journal of Modernization in Engineering Technology and Science Vol. 06, Issue 09, 2024 .
+
+## Membership in Professional Bodies
+
+- Nil
+
+## Honours/Awards/Achievements
+
+**HONOURS**
+
+- Nil
+
+**AWARDS**
+
+- Nil
+
+**ACHIEVEMENTS**
+
+- Nil
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- FDP : 6-day Faculty Development Program on Cybersecurity organized with IIT Dharwad with CySecK, Cyberverse Foundation and IISc (24th Nov 2025 – 29th Nov 2025)
+
+**Conferences**
+
+- A state level conference on Emerging Trends in Computer Science & Technologies (ETCST)- 2024” at VTU Regional Centre, Mysuru during 11th - 12th July 2024 on “A Hybrid approach for Digital Currency Prediction using Deep Learning”.
+- Career Forge AI: Smart Prediction and Upskilling Recommender System using NLP and ML” – Presented at the International Conference on Artificial Intelligence & Sustainable Development Goals (ICAISDGs-2025), September 27–28, 2025, Organized by Chendur Research Foundation in association with Vidya Jyothi Institute of Technology and Annai College of Arts and Science.
+
+**Workshops**
+
+- Participated in a Three-Day Workshop on "Generative AI, Agentic AI and Quantum Computing" at ATME College of Engineering, Mysuru, 23rd–25th February 2026
+
+**NPTEL**
+
+- Completed the NPTEL course on - Cloud Computing, with Elite+Silver - 82%.
+- Completed the NPTEL course on - Intellectual property right and commutative law , with Elite+Silver - 78%.
+- Completed the NPTEL course on - Privacy and Security in online social media, with Elite - 68%.
+
+**MOOC Certification**
+
+- Institution’s Innovation Council (IIC) – Online Training/Certification
+
+## Proposal/Funding/Project Financial Assistance
+
+- Nil
+
+## Patent
+
+**National:** 1
+
+- **Title:** IOT Driven smart healthcare system for real-time patent Monitoring.
+- **Published/Granted:** Yes
+- **Patent No:** 202641089657 A
+
+**International:** Nil
+
+## Roles and Responsibilities: Institute Level
+
+- WOMEN CELL MEMBER
+
+## Roles and Responsibilities: Department Level
+
+- MENTORING CO-ORDINATOR
+- MAGAZINE CO-ORDINATOR
+- ACTIVITY COORDINATOR
+- NAAC - Criteria VI Dept. Co-ordinator
+- NBA - Criteria IV Dept. Co-ordinator`,
   },
   "jayaprakash": {
     name: "Jayaprakash Narayan",
