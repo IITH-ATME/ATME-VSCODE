@@ -6,7 +6,13 @@ import { CheckCircle2, FileText, Phone, Mail, ArrowRight, Send } from "lucide-re
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { seo } from "@/lib/seo";
 
-const DEPT_OPTIONS = ["CSE", "ISE", "AIML", "ECE", "EEE", "ME", "Civil", "MBA", "MCA"] as const;
+const DEPT_OPTIONS = ["CSE", "AIML", "CSE-CY", "CSE-DS", "CSE-Design", "ECE", "EEE", "ME", "Civil", "MBA", "MCA"] as const;
+// Full names for the compact button labels, used in the enquiry email.
+const DEPT_FULL_NAMES: Partial<Record<(typeof DEPT_OPTIONS)[number], string>> = {
+  "CSE-CY": "CSE – Cyber Security",
+  "CSE-DS": "CSE – Data Science",
+  "CSE-Design": "CSE – Design",
+};
 
 const ADMISSIONS_JSON_LD = JSON.stringify({
   "@context": "https://schema.org",
@@ -41,7 +47,7 @@ function EnquiryForm() {
     e.preventDefault();
     const subject = encodeURIComponent(`Admissions Enquiry — ${form.name || "Prospective Student"}`);
     const body = encodeURIComponent(
-      `Name: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nDepartment of interest: ${form.dept}\n\nMessage:\n${form.message}\n`
+      `Name: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nDepartment of interest: ${DEPT_FULL_NAMES[form.dept as (typeof DEPT_OPTIONS)[number]] ?? form.dept}\n\nMessage:\n${form.message}\n`
     );
     window.location.href = `mailto:info@atme.edu.in?subject=${subject}&body=${body}`;
   };
