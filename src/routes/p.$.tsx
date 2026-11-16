@@ -146,6 +146,11 @@ export const Route = createFileRoute("/p/$")({
     if (key === "dr-parthasarathy-l") {
       throw redirect({ to: "/departments/$slug/faculty", params: { slug: "eee" } });
     }
+    // Removed: Mr. Ravikumar S's old WordPress profile — no longer on the
+    // Mechanical faculty; send old links to the department's faculty list.
+    if (key === "mr-ravikumar-s") {
+      throw redirect({ to: "/departments/$slug/faculty", params: { slug: "me" } });
+    }
     const aliased = SLUG_ALIASES[key];
     let page =
       DATA[key] ||
