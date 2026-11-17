@@ -13584,4 +13584,98 @@ Completed Mooc courses on:
 5. CLASS TEACHER
 `,
   },
+  "mr-praveen-kumar-m": {
+    name: "Dr. Praveen Kumar M",
+    url: "https://atme.edu.in/mr-praveen-kumar-m/",
+    md: `## Professional Experience
+
+- Teaching: 15
+- Research: 08
+- Industry: 01
+
+## Contact Details
+
+- **Email ID:** Official: [praveenkumarm_ee@atme.edu.in](mailto:praveenkumarm_ee@atme.edu.in)
+- **Vidwan ID:** <https://vidwan.inflibnet.ac.in/profile/201322>
+- **Google Scholar ID:** <https://scholar.google.co.in/citations?user=YnbXE1wAAAAJ>
+- **Scopus ID:** <https://www.scopus.com/authid/detail.uri?authorId=57713868600>
+- **Orcid ID:** <https://orcid.org/0000-0001-9598-3668>
+- **Web of Science Researcher ID:** <https://www.webofscience.com/wos/author/rid/HHZ-3910-2022>
+- **LinkedIn ID:** -
+
+## Academic Details
+
+- **Qualification**
+- Ph.D. in Nanotechnology, VTU.
+- AICTE QIP PG Certification Programme in Cyber security, IIIT Dharwad.
+- M.Tech in Computer Applications to Industrial Drives, VTU.
+- B.E in Electrical & Electronics Engineering, VTU.
+
+## Areas of Interest
+
+- Microwave Absorber, Electromagnetic interference shielding, Nanodielectrics Material, Insulation Nanocomposite, Motor Drives, Control system
+
+## Publication Details
+
+- "Musical Key Recognition Using a Hidden Markov Model," 2026 Forth International Conference on Networks, Multimedia and Information Technology (NMITCON), Bengaluru, India, 24-25 Sept. 2026, pp. 1-7, doi: 10.1109/NMITCON70171.2026.11754549. November 04, 2026, <https://ieeexplore.ieee.org/document/11754549/authors>
+- N. Shamala, M. Praveen Kumar et al. “Structural engineering of EuAl2O4 nanoparticles for advanced electrochemical dopamine electrochemical sensor”, Article published in Microchemical Journal, Publisher: ELSEVIER , Volume 215, Available online 1 July 2025, article no.114441, ISSN 0026-265X <https://doi.org/10.1016/j.microc.2025.114441>
+- Lakshmi K, Praveen Kumar M, “New Battery Management System Prototype”, Conference Proceeding: 14th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2023, June-2023, Hyderabad (Hybird), 15.06.2023 to 17.06.2023, Article published in Journal: Grenze International Journal of Engineering and Technology (GIJET) Volume 9, Issues 1 & 2, Publisher: GRENZE Scientific Society, Pages: 1196–1204, ISBN: 9781713877141 DOI: <https://www.scopus.com/authid/detail.uri?authorId=58653758000> <https://thegrenze.com/abstract/journal/1322>
+- M Praveen Kumar, Sarika Raga, S Chetana, Avinash K, Arjun dey, Dinesh Rangappa, “Evaluation of strong microwave absorption property of PVB-PEDOT:PSS-Ti3C2Tx MXene nanocomposite with materials data-driven discovery”, Article published in Journal: Transactions on Electrical and Electronic Materials, Publisher: Springer Nature, Volume 24, Issue 3, 01-June-2023, Pages: 235–241, eISSN:2092-7592. pISSN: 1229-7607 DOI: <https://doi.org/10.1007/s42341-023-00439-7> <https://link.springer.com/article/10.1007/s42341-023-00439-7>
+- M Praveen Kumar, Sarika Raga, S Chetana, Dinesh Rangappa, “X-band dielectric characterization and Microwave absorption characteristics of polyaniline loaded poly vinyl butyral (PVB)”, Article Published in Journal: Transactions on Electrical and Electronic Materials, Publisher: Springer, Volume 24, issue 1, February 2023, Pages: 46–53, DOI: <https://doi.org/10.1007/s42341-022-00415-7>, <https://link.springer.com/article/10.1007/s42341-022-00415-7>, , eISSN:2092-7592. pISSN: 1229-7607
+- Chetana Sabanhalli, Kunal Roy, M Praveen Kumar, Dinesh Rangappa, et al. “Supercritical fluid synthesized Cu2ZnSnS4-Polyaniline nanocomposites for supercapacitor application”, Article Published in Journal: Ceramics International, Publisher: Elsevier, ISSN 0272-8842, DOI:10.1016/j.ceramint.2022.08.104, August 2022. <https://www.sciencedirect.com/science/article/pii/S0272884222028905>
+- M Praveen Kumar, Sarika Raga, Chetana Sabanhalli, Dinesh Rangappa, “Realization of Anomalous Microwave Absorption Characteristics of PVB-PEDOT: PSS with Electromagnetic Data-Driven discovery”, Article Published in Journal: IEEE Transactions on Dielectric and Electrical Insulation, Publisher: IEEE Inc., Volume 29, Issue 1, Pages 178-184, Print ISSN: 1070-9878, Electronic ISSN: 1558-4135, DOI: 10.1109/TDEI.2022.3148440, 01 February 2022. <https://ieeexplore.ieee.org/document/9701314>
+- Mrs. Maria Sushma, Mr. Praveen Kumar M “Effective Utilization of Median of National Highway for Installation of PV Panel and its Interconnection with Grid” Published in International journal International Research Journal of Engineering and Technology (IRJET), Volume: 08, Special Issue Oct 2021. e-ISSN: 2395-0056, p-ISSN: 2395-0072, PP 20-35. <https://www.irjet.net/archives/V8/i10/ICRTST-2021/IRJET-V8I1004.pdf>
+- Mr. Praveen Kumar M, Mr. Santhosh Kumar R, Vinod Kumar P “Design and Simulation of the Three Phase Z-source Inverter” Published in International Research Journal of Engineering and Technology (IRJET), VOLUME: 07, SPECIAL ISSUE, June 2020, E-ISSN: 2395-0056, P-ISSN: 2395-0072, PP-70-76. <https://www.irjet.net/archives/V7/i6/ICRTST-2020/IRJET-V7I609.pdf>
+- R. Santhosh Kumar, Maria Sushma S, Praveen Kumar M, “Design and simulation of the Single phase Z-Source Inverter” Published in International Journal of Advance Research, Ideas and Innovations in Technology (IJARIIT), Volume-5, Issue-2, ISSN: 2454-132X, April 2019, PP-1399-1402. <https://www.ijariit.com/manuscript/design-and-simulation-of-the-single-phase-z-source-inverter/>
+- Mr Lawerence D Moses, Mr Vinod Kumar P, Mr Praveen Kumar “Smart Water flow Oriented Recording Device”- National Conference on Power System and Industrial Automation (NCPSIA), Published in International Journal of Computer Applications (IJCA), ISSN: 0975–8887, Volume: NCPSIA 2015(2), Page No. 10-14, December 2015. <https://research.ijcaonline.org/ncpsia2015/number2/ncpsia17237.pdf>
+
+## Membership in Professional Bodies
+
+- ISTE-Indian Society for Technical Education
+- IAENG-International Association of Engineers
+- IEI-Institute of Engineers (AMIE)
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+- Completed the Swayam Arpit Online Course “Pedagogical Innovations and Research Methodology (Interdisciplinary)”
+- Completed Training on Industrial PLC and SCADA from 10-06-2013 to 10-09-2013 in RMJ Automation solution and training Pvt. Ltd. Mysuru
+- Attended Three-Day Workshop on “Patent Drafting, Filing & Interpretation” Organized by IPR-Cell in Association with IIC ATMECE, Mysuru, 12th to 14th June 2025
+- Attended 5-Day Faculty Development Program on "Cyber Security Awareness & Emerging Technologies For Secure Social Media & Banking Applications" Date: 10th to 12th March 2025 ATMECE, MYSURU
+- Attended 5-Day FDP on "Advanced Power System Analysis using ETAP Software, held on 30th September 2024 at the Department of EEE, PESCE Mandya
+- Attended one-week FDP on “Cyber security and Forensic Awareness” Department of EEE, ATMECE. 21st to 25th August 2023.
+- Attended 3 days FDP on “Advanced communication using USRP and Labview”, Department of ECE, ATMECE. 25th to 27th September 2023
+- Undergone ‘Basic Training Program in Nano Science and Technology’ Conducted by IISc Bengaluru, from 13 – 15 March 2023,
+- Attended Recent Developments in Smart Grid and Applications Conducted by GSSSIETW, from Mysuru 05th- 07th September 2022.
+- Attended two-week online FDP on “Recent Development in Green Technologies” Conducted by ATMECE 24th-29th September 2021
+- Attended one-week online AICTE – VTU Joint Training Programme for Teachers on “An Overview of Teaching Techniques in Innovation & Design Thinking”, conducted by VTU HRDC, VIAT, Muddenahalli, Chikkaballapur from 6th to 10th December 2021.
+- Attended two-week online FDP on “Advanced and New Generation Materials in Electrical and Electronics Engineering”, conducted by BMS, Bangalore, Feb 8th-19th, 2021.
+- Attended one week online Universal Human Value on the theme “Inculcating Universal Human Values in Technical Education”, AICTE, New Delhi, 5th-9th October 2020.
+- Attended one-week online FDP on “Recent Developments in Green Technologies” conducted by ATMECE, 24th-29th September 2021
+- Attended FDP on “AICTE Exam Reforms-An overview” conducted by ATMECE, Mysore 27th - 29th August 2020.
+
+## Proposal/Funding/Project Financial Assistance
+
+- Mentored towards Project “Semi-automated waste segregation solution for efficient urban domestic waste management” with Financial assistance under the 48th Series-SPP, Karnataka State Council for Science and Technology-2025.
+- Mentored towards Project ‘IoT Based Electric Tricycle for Physically Disabled’ with Financial assistance under the 43th Series-SPP, Karnataka State Council for Science and Technology-2020.
+
+## Patent
+
+**National**
+
+**International**
+
+- **Published/Granted:** 07
+
+## Roles and Responsibilities: Institute Level
+
+- Coordinator: College Magazine Committee
+
+## Roles and Responsibilities: Department Level
+
+- NBA Co-Coordinator
+- Department Budget Coordinator
+- Department Mentoring Coordinator
+- Department QS-I Gauge Coordinator
+- NAAC Criteria-4 Coordinator`,
+  },
 };
