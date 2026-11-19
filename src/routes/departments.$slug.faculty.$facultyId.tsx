@@ -306,6 +306,24 @@ const CONTACT_ROWS: { key: string; label: string; icon: React.ComponentType<{ cl
   { key: "linkedin",       label: "LinkedIn",           icon: Linkedin,      match: (k) => /linkedin/i.test(k) },
 ];
 
+// Vidwan profiles only open at https://vidwan.inflibnet.ac.in/profile/<numeric id>.
+// Source data holds the ID in many broken shapes ("#235706", "642-437",
+// ".../235706", ".../myprofile/727137", ".../profile/528310/NTI4MzEw",
+// "//profile/…", http://…) — pull out the numeric ID and rebuild the
+// canonical link. Entries with no ID (".../myprofile", a Google Scholar ID
+// pasted into the Vidwan field, an error-page URL) yield "" so the row is
+// hidden. Links to other research-profile sites are kept as they are.
+function vidwanProfileUrl(raw: string): string {
+  const v = raw.trim();
+  const isUrl = /^(https?:)?\/\//i.test(v) || /^vidwan\./i.test(v);
+  if (isUrl && !/vidwan\.inflibnet\.ac\.in/i.test(v)) return v;
+  if (/[?&](id|email)=/i.test(v)) return "";
+  const m = isUrl
+    ? v.match(/vidwan\.inflibnet\.ac\.in\/+(?:(?:my)?profile\/+)?(\d{3,})(?:\D|$)/i)
+    : v.replace(/^(?:vidwan\s*(?:id)?\s*[-:#]?\s*|[#:]\s*)/i, "").match(/^(\d{3}-?\d{3,})$/);
+  return m ? `https://vidwan.inflibnet.ac.in/profile/${m[1].replace(/-/g, "")}` : "";
+}
+
 function ContactDetailsTable({ email, ids }: { email?: string; ids: Record<string, string> }) {
   const cleanEmail = (email ?? "").replace(/^Official\s*:\s*/i, "").trim();
   const findId = (matcher: (k: string) => boolean) => {
@@ -318,6 +336,7 @@ function ContactDetailsTable({ email, ids }: { email?: string; ids: Record<strin
   const composeUrl = (key: string, raw: string): string => {
     const v = (raw || "").trim();
     if (!v) return "";
+    if (key === "vidwan") return vidwanProfileUrl(v);
     if (/^https?:\/\//i.test(v)) return v;
     const id = v.replace(/^[#:]\s*/, "").trim();
     switch (key) {
@@ -339,7 +358,10 @@ function ContactDetailsTable({ email, ids }: { email?: string; ids: Record<strin
       }
       const raw = findId(r.match);
       if (!raw || raw === "–" || raw === "-" || /^nil$/i.test(raw)) return null;
-      return { ...r, value: raw, href: composeUrl(r.key, raw), isEmail: false };
+      const href = composeUrl(r.key, raw);
+      // No usable link (e.g. a Vidwan entry with no numeric profile ID).
+      if (!href) return null;
+      return { ...r, value: raw, href, isEmail: false };
     })
     .filter((r): r is NonNullable<typeof r> => !!r);
 
