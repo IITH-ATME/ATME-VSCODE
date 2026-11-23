@@ -261,6 +261,9 @@ export const mcaAllFaculty: Faculty[] = [
   { id: "venkatesha-g", name: "Venkatesha G", designation: "Attender", qualification: "II PUC", doj: "01/06/2023", image: "/images/uploads/2025/11/Venkatesha-G-1.jpg", cvUrl: "https://atme.edu.in/venkatesha-g/" },
 ];
 export const mcaStaff: Faculty[] = [];
+// BCA is run by the same Department of Computer Applications staff as MCA,
+// so its faculty directory lists the very same people and profiles.
+export const bcaAllFaculty: Faculty[] = mcaAllFaculty;
 export const mbaAllFaculty: Faculty[] = [
   { id: "dr-oscar-abhishek", name: "Dr. Oscar Abhishek", designation: "Associate Professor & Head", qualification: "PhD, MBA, MCom, K-SET", doj: "04/11/2024", image: "/images/uploads/2026/04/Dr.-Oscar-Abhishek-1.jpg", cvUrl: "https://atme.edu.in/dr-oscar-abhishek/" },
   { id: "dr-parthasarathy-n", name: "Dr. Parthasarathy N", designation: "Associate Professor", qualification: "PhD, MBA", doj: "06/05/2026", image: "/__l5e/assets-v1/9491c96f-387a-4a84-920c-1e52159e67d1/Dr-Parthasarathy-N.jpg", cvUrl: "/departments/mba/faculty/dr-parthasarathy-n" },

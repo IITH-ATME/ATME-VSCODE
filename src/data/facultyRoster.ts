@@ -45,7 +45,10 @@ const DUPLICATE_IDS: Record<string, string> = {
 // A person listed under several departments gets one canonical profile: the
 // first department in site order (departments.ts) that lists them.
 const HOME_PATH: Record<string, string> = {};
-for (const dept of departments) {
+// BCA lists the same staff as MCA; keep each person's MCA profile as the
+// canonical one by visiting BCA last.
+const HOME_ORDER = [...departments.filter((d) => d.slug !== "bca"), ...departments.filter((d) => d.slug === "bca")];
+for (const dept of HOME_ORDER) {
   for (const f of facultyPool(dept.slug, dept.faculty)) {
     const id = f.id ? (DUPLICATE_IDS[f.id] ?? f.id) : undefined;
     if (id && !HOME_PATH[id]) HOME_PATH[id] = profilePath(dept.slug, id);

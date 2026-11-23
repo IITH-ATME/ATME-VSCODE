@@ -1,7 +1,7 @@
 // Department data sourced from atme.edu.in directory pages.
 // Faculty images are remote CDN URLs from the source site.
 // Full CVs link back to the live profile page.
-import { ceAllFaculty, cseAllFaculty, eceAllFaculty, eeeAllFaculty, meAllFaculty, mcaAllFaculty } from "./allFaculty";
+import { ceAllFaculty, cseAllFaculty, eceAllFaculty, eeeAllFaculty, meAllFaculty, mcaAllFaculty, bcaAllFaculty } from "./allFaculty";
 import rajeshN from "@/assets/rajesh-n.png.asset.json";
 
 
@@ -736,7 +736,7 @@ export const departments: Department[] = [
       ],
     },
   }),
-  make("bca", "BCA", "Bachelor of Computer Applications", "Undergraduate programme focused on computer applications, software development, databases and IT fundamentals.", noFaculty, {
+  make("bca", "BCA", "Bachelor of Computer Applications", "Undergraduate programme focused on computer applications, software development, databases and IT fundamentals.", bcaAllFaculty, {
     about: "In today's technology-driven world, computer applications play a central and increasingly important role from communication, accessing information to harnessing the power of AI to drive innovation, automation, and intelligent decision-making across various domains. Concerning the Department of Computer Applications (BCA Programme), we intend to assure a standard of excellence in imparting higher education by practicing Hands-on Labs and Projects, Interactive Lectures, Case studies, Problem-solving sessions, Technology Integration, providing Networking opportunities and involving students in Research opportunities — leading bachelor students to benefit from a well-rounded education for the dynamic and evolving field of computer applications. The Department facilitates students to flourish their talent, enrich their expertise and competency. Students are also made spirited to become Entrepreneurs through expert talks by diversified resource persons. The duration of the BCA program is three years (Six Semesters). The curriculum, designed by VTU, is aimed at broadcasting a wide spectrum of practice and knowledge in the computing domain in the latest and emerging technologies. The Department of BCA inculcates innovative teaching-learning methods and Outcome Based Education (OBE) to enable students to become intellectual as well as competent professionals.",
     // No dept-specific Vision/Mission/PEOs/PSOs exist on old.atme.edu.in for
     // BCA — the make() defaults ("four-year BE programme…") are factually

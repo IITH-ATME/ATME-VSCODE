@@ -32,6 +32,12 @@ const scrapedMdComponents = {
 // Some faculty ids in departments.ts differ slightly from the slugs the
 // old.atme profile pages used, so the scraped/override key lookup misses.
 // Map our internal id → the key actually used in facultyPages/overrides.
+// Department name shown in a profile's header table, where it differs from
+// the department's display name.
+const DEPT_PROFILE_LABEL: Record<string, string> = {
+  bca: "Bachelor of Computer Applications (BCA)",
+};
+
 const facultyIdAliases: Record<string, string> = {
   "dr-puttegowda-d": "dr-putte-gowda-d",
   "dr-nasreenfathima": "nasreen-fathima",
@@ -196,7 +202,7 @@ function FacultyDetail() {
           const rawRows = [
             { label: nameLabel, value: faculty.name },
             { label: "Designation", value: expandDesignation(faculty.designation) },
-            { label: "Department", value: dept.name },
+            { label: "Department", value: DEPT_PROFILE_LABEL[dept.slug] ?? dept.name },
             { label: "Qualification", value: qualValue },
             { label: "Date of Joining", value: dojValue },
           ];
