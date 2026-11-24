@@ -7,6 +7,16 @@ export type Clipping = { id: string; year: string; title: string; date: string; 
 
 export const NEWS_CLIPPINGS: Clipping[] = [
   {
+    id: "2026-atme-celebrates-kannada-rajyotsava",
+    year: "2026",
+    title: "ATME CELEBRATES KANNADA RAJYOTSAVA",
+    date: "24th November 2026",
+    media: [
+      { type: "image", url: "/images/uploads/news-clippings/2026-kannada-rajyotsava-1.jpeg" },
+      { type: "image", url: "/images/uploads/news-clippings/2026-kannada-rajyotsava-2.jpeg" },
+    ],
+  },
+  {
     id: "2026-12-atmece-vtu-rank-holders-26th-convocation",
     year: "2026",
     title: "ATMECE VTU Rank Holders - 26th Convocation",
