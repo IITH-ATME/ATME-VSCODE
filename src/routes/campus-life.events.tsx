@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { EventCard } from "@/components/site/EventCard";
-import { SITE_EVENTS } from "@/data/siteEvents";
+import { eventsLatestFirst } from "@/data/siteEvents";
 import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/campus-life/events")({
@@ -14,7 +14,7 @@ export const Route = createFileRoute("/campus-life/events")({
 
   component: () => {
     const today = new Date().toISOString().slice(0, 10);
-    const events = [...SITE_EVENTS].sort((a, b) => b.startDateISO.localeCompare(a.startDateISO));
+    const events = eventsLatestFirst();
 
     return (
       <Layout>

@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { RecruiterLogoGrid } from "@/components/site/RecruiterLogoGrid";
 import { EventCard } from "@/components/site/EventCard";
-import { SITE_EVENTS } from "@/data/siteEvents";
+import { SITE_EVENTS, eventsLatestFirst } from "@/data/siteEvents";
 import { resolveAssetUrl } from "@/lib/assetUrl";
 import { seo } from "@/lib/seo";
 import { GoogleReviews } from "@/components/site/GoogleReviews";
@@ -186,10 +186,7 @@ function Home() {
   const filteredNotices = notices.filter((n) => newsFilter === "all" || n.level === newsFilter);
   const today = new Date().toISOString().slice(0, 10);
   // Only events with a real banner photo are shown here — no placeholder/blank thumbs.
-  const latestEvents = [...SITE_EVENTS]
-    .filter((e) => !!e.banner)
-    .sort((a, b) => b.startDateISO.localeCompare(a.startDateISO))
-    .slice(0, 6);
+  const latestEvents = eventsLatestFirst(SITE_EVENTS.filter((e) => !!e.banner)).slice(0, 6);
 
 
   return (

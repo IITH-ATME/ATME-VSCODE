@@ -480,3 +480,9 @@ export const SITE_EVENTS: SiteEvent[] = [
     location: "Mysuru, Karnataka",
   },
 ];
+
+/** Events newest first (by start date). Same-date events keep their order
+ *  in SITE_EVENTS, where new events are added at the top. Used by every
+ *  events listing so the latest event always comes first. */
+export const eventsLatestFirst = (events: SiteEvent[] = SITE_EVENTS): SiteEvent[] =>
+  [...events].sort((a, b) => b.startDateISO.localeCompare(a.startDateISO));

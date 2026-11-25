@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/site/Layout";
 import { EventCard } from "@/components/site/EventCard";
-import { SITE_EVENTS } from "@/data/siteEvents";
+import { eventsLatestFirst } from "@/data/siteEvents";
 import { seo } from "@/lib/seo";
 
 export const Route = createFileRoute("/upcoming-events")({
@@ -14,10 +14,10 @@ export const Route = createFileRoute("/upcoming-events")({
 
   component: () => {
     const today = new Date().toISOString().slice(0, 10);
-    // Sorted soonest-first by date; events already past still show (flagged
-    // with the "Past Event" badge) rather than the page going empty once a
-    // year's events have all happened.
-    const events = [...SITE_EVENTS].sort((a, b) => a.startDateISO.localeCompare(b.startDateISO));
+    // Latest event first; events already past still show (flagged with the
+    // "Past Event" badge) rather than the page going empty once a year's
+    // events have all happened.
+    const events = eventsLatestFirst();
 
     return (
       <Layout>
