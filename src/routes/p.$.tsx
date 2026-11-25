@@ -36,6 +36,7 @@ import { SolarRooftopGallery } from "@/components/site/SolarRooftopGallery";
 import { AboutCollegeExtras } from "@/components/site/AboutCollegeExtras";
 import { LibraryStaffPhotos } from "@/components/site/LibraryStaffPhotos";
 import { resolveAssetUrl } from "@/lib/assetUrl";
+import { SITE_EVENTS } from "@/data/siteEvents";
 import { seo, softTitle } from "@/lib/seo";
 
 import { SECTION_BANNER, type SectionKey } from "@/lib/sectionBanners";
@@ -380,6 +381,25 @@ function RehostedPage() {
     bodyMd = bodyMd.replace(/(\*\*Download (?:Brochure|Poster)\*\*)(?=\S)/gi, "$1\n\n");
   }
 
+  // Events: the event's own banner is the full-width page header (instead of
+  // the shared section banner), and is dropped from the body so it doesn't
+  // show twice. Prefer the rehosted banner from SITE_EVENTS; otherwise use
+  // the image that opens the page (before the first heading).
+  let eventBanner: { src: string; alt: string } | null = null;
+  if (key.startsWith("event/")) {
+    const listed = SITE_EVENTS.find((e) => `event/${e.slug}` === key)?.banner;
+    if (bannerImg) {
+      eventBanner = { src: listed || bannerImg.src, alt: bannerImg.alt || page.title || "Event banner" };
+    } else {
+      const firstHeading = bodyMd.search(/^#{1,6}\s/m);
+      const lead = firstHeading >= 0 ? bodyMd.slice(0, firstHeading) : bodyMd;
+      const m = lead.match(/^[ \t]*(?:\*\*)?\[?!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)(?:\]\([^)]*\))?(?:\*\*)?[ \t]*$/m);
+      if (m) bodyMd = bodyMd.replace(m[0], "");
+      const src = listed || m?.[2];
+      if (src) eventBanner = { src, alt: m?.[1] || page.title || "Event banner" };
+    }
+  }
+
   // Clubs & Associations: clean redundant department-group bold labels that
   // sit right above their `#### [<NAME>](/p/clubs-associations)` heading, fix
   // broken tables where the separator has one fewer column than the body
@@ -664,6 +684,22 @@ function RehostedPage() {
     <Layout>
       {isSeminarAuditorium ? (
         <SeminarAuditoriumGallery asBanner />
+      ) : eventBanner ? (
+        <section className="relative w-full overflow-hidden bg-[#0d3438]">
+          {/* Blurred copy fills the sides when the height cap makes the banner narrower than the screen. */}
+          <img
+            src={rewriteImageSrc(eventBanner.src) || eventBanner.src}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover scale-110 blur-2xl opacity-60"
+          />
+          <img
+            src={rewriteImageSrc(eventBanner.src) || eventBanner.src}
+            alt={eventBanner.alt}
+            className="relative mx-auto block w-full h-auto max-h-[70vh] object-contain"
+            loading="eager"
+          />
+        </section>
       ) : (
         <section className="relative w-full overflow-hidden bg-[#0d3438]">
           {heroSrc ? (
