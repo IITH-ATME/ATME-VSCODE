@@ -3387,7 +3387,7 @@ const committeesBody = `
 | **Sl. No** | **Name** | **Position** | **Contact Number** |
 | 1 | Dr. Bhagyashree S. R | Chairperson | 9900110944 |
 | 2 | Mr. Chandrashekar C | Member Secretary | 9845115924 |
-| 3 | Mr. Ravikumar S | Member | 9880543740 |
+| 3 | Mr. Rangaswamy S | Member | 7996557926 |
 | 4 | Mrs. Hemalatha M. A | NGO- Representative | 9448056478 |
 | 5 | Mrs. Pallavi T | Member (Non -Teaching) | 9342575252 |
 | 6 | Mrs. Apoorva H. S | Member (Non -Teaching) | 7795153667 |
