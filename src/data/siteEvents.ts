@@ -19,6 +19,16 @@ export type SiteEvent = {
 
 export const SITE_EVENTS: SiteEvent[] = [
   {
+    slug: "datanex-2026",
+    title: "CSE(DS) DATANEX-2026",
+    banner: "/images/uploads/events/datanex-2026.jpg",
+    startDate: "December 3, 2026",
+    startDateISO: "2026-12-03",
+    location: "ATME College of Engineering, Mysuru",
+    poster: "/pdfs/uploads/DATANEX-2026-Flyer.pdf",
+    desc: "DATANEX-2026 Technical Department Two Day's fest — Day-1: IGNITE 2026 (03/12/26) · Day 2: ELEVATE 2026 (04/12/26). Prize pool up to ₹25,000/-.",
+  },
+  {
     slug: "open-day-2026",
     title: "Open Day 2026",
     banner: "/images/uploads/events/open-day-2026.jpg",
