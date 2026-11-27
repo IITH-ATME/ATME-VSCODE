@@ -13678,4 +13678,158 @@ Completed Mooc courses on:
 - Department QS-I Gauge Coordinator
 - NAAC Criteria-4 Coordinator`,
   },
+  "dr-m-s-govinde-gowda": {
+    name: "Dr. M S Govinde Gowda",
+    url: "",
+    md: `## Professional Experience
+
+- Teaching: 39 Yrs
+- Research: 05Yrs
+- Industry: --
+
+## Contact Details
+
+- **Email ID:** Official: [Dr.Govindegowdams@atme.edu.in](mailto:Dr.Govindegowdams@atme.edu.in)
+- **Vidwan ID:** 204007
+- **Google Scholar ID:** domA4QgAAAAJ
+- **Scopus ID:** -
+- **Orcid ID:** 0000-0002-4807-870X
+- **Web of Science Researcher ID:** -
+- **LinkedIn ID:** <https://www.linkedin.com/in/dr-m-s-govinde-gowda-55811694/>
+
+## Academic Details
+
+- **Qualification**
+- **PhD** - Thermal and Fluids Engineering
+- **PG** - Thermal and Fluids Engineering
+- **UG** - Mechanical Engineering
+
+## Areas of Interest
+
+- Critical Heat Flux in Nuclear reactors,
+- Heat transfer enhancement for Free and Forced convection,
+- Heat and fluid flow problems,
+- FEM and CFD analysis,
+- Numerical analysis in an enclosed cavity,
+- Non-Conventional energy utilization
+- Investigation on Eco-friendly refrigerators etc.
+
+## Publication Details
+
+**National:**
+
+**National Conference:**
+
+- M.S. Govinde Gowda et al, “Experimental Investigation of CHF in the Vertical Annuli under Low Pressure and Low Flow conditions”, 17th National and 16th ISHMT/ ASME Heat and Mass Transfer Conference, Paper No. HMT-2004-C044, pp.206, Kalpakkam, Chennai, Jan. 2004.
+- M.S. Govinde Gowda et al, “Study of Critical Heat Flux in Uniformly Heated Vertical Annuli for Upward Flow of Water under Low Flow conditions at near Atmospheric Pressure”, Proc. of 30th National Conf. on FMFP, NITK, Surthkal (Karnatak),pp.111-118, Dec. 2004.
+- M.S. Govinde Gowda et al, “Local Voltage Drop Measurement Technique in Detection of CHF in Vertical Annuli”, Proc. of 30th National Conf. on FMFP, NITK, Surthkal (Karnatak), pp.155-161, Dec. 2004.
+- M.S. Govinde Gowda et al, “Investigation of CHF in Vertical Annuli under LPLF conditions and Comparison with the Existing Correlations”, Proc. of National Seminar on Advances in Mechanical Engineering Sciences (NAME-2004), pp.176, JNNCE, Shimoga, Feb. 2004.
+- M.S. Govinde Gowda et al, “Experimental Investigation Of Energy Losses In Circular Pipe Bends Under Laminar Flow Conditions”, Proc. of NCFMFP2006, 33rd National Conference on Fluid Mechanics and Fluid Power, IIT Bombay, India, 7th-9th Dec, 2006.
+- M.S. Govinde Gowda et al, “A study on Thermo-Acoustic Refrigerator”, Proc. of National Conference on Emerging Trends In Mechanical Engineering [ETIMS 2007], pp.287-293, Banneri-Amman Institute of Technology, Tamil Nadu, 19th-20th Dec 2007.
+- M.S. Govinde Gowda et al, “Eco-Friendly Refrigerators”, Proc. of National Conference on Emerging Trends In Mechanical Engineering [ETIMS 2008], Dept. of Mech. Engg., BMSCE, Bangalore, 28-29th August 2008.
+- M.S. Govinde Gowda et al, “A Review of Literature on Thermo-acoustic Refrigerator”, Proc. of National Conference on Advances in Mechanical engineering-2011, Dept. of Mech Engg, MIT, Manipal, January 3rd -5th, 2011.
+
+**National Journal Publication:**
+
+- M.S. Govinde Gowda et al, “Stack Optimization of Thermo-acoustic Refrigerator”, The journal of CPRI, Bangalore, Vol. 8, No. 1, pp.97-102, ISSN: 0973- 0338, March 2012.
+
+**International:**
+
+**International Conference:**
+
+- M.S. Govinde Gowda et al, “Experimental Investigation of CHF in the Vertical Annuli under Low Pressure and Low Flow conditions”, Proc. of 16th ASME Heat and Mass Transfer Conference, Paper No. HMT-2004-C044, pp.206, Kalpakkam, Chennai, Jan. 2004.
+- M.S. Govinde Gowda et al, “Experimental Investigation Of Energy Losses In Circular Pipe Bends Under Laminar Flow Conditions”, Proc. of NCFMFP2006, 3rd international Conference on Fluid Mechanics and Fluid Power, IIT Bombay, India, 7th-9th Dec, 2006.
+- M.S. Govinde Gowda et al, “Optimization of Size of a Copper Disc for IR Drop Compensation with Heat Generation on An Electrical Heater”, Proc. of International Conference on Recent Developments in Mechanical Engineering (ICRDME-2008), SUS college of Engg. & Technology, Tangori, Mohali (Pb), India, pp.6-11, 23rd-25th Jan 2008.
+- M.S. Govinde Gowda et al, “Standing and Travelling Wave Thermo-Acoustic Devises”, Proc. of International Conference on Energy Engineering and Eco-balance (ICEEE-2009), MITR, Mulshi, Pune, Maharastra, 18-19th Feb, 2009.
+
+**International Journal:**
+
+- M.S. Govinde Gowda et al, “Investigation of Critical Heat Flux in Vertical Annuli for Upward Flow of Water Under Low Pressure and Low Flow Conditions”, Int. J. of Mechanical & Automobile Engineering, Vol.4, No. 5, June-August, 2009.
+- M.S. Govinde Gowda et al, “Effect of mean operating pressure on the performance of the stack based Thermo acoustic refrigerator”, Int. J for Thermal & Environmental Engg, Vol. 5, No. 1, pp-83-89, DOI: 10.5383/ijtee.05.01.2009.
+- M.S. Govinde Gowda et al, “Theoretical Evaluation of Loudspeaker for a 10 Watts Cooling Power Thermo-Acoustic Refrigerator”, Int. J of Air-Conditioning and Refrigeration (World Scientific), 21 (4) (2013) 1350027 (8 pages), DOI: 10.1142/S2010132513500272.
+- M.S. Govinde Gowda et al, “Design and Optimization of a Loudspeaker Driven 10 Watts Cooling Power Thermo-Acoustic Refrigerator”, Int. J of Air-Conditioning and Refrigeration (World Scientific), 22 (3) (2014) 1450015 (15 pages), DOI: 10.1142/S2010132514500151.
+- M.S. Govinde Gowda et al, “Theoretical evaluation of 10 W cooling power thermo-acoustic refrigerator”, Heat Transfer-Asian Research Journal, Published online on 3 Oct (2013), DOI: 10.1002/htj.21094.
+- M.S. Govinde Gowda et al, “Design and analysis of thermo-acoustic refrigerator”, Int. J. of Air-conditioning and Refrigeration, 21 (1) (2013) 1350001 (10 pages), DOI: 10.1142/S2010132513500016.
+- M.S. Govinde Gowda et al, “Optimizing Design of Inclined Heat Pipe by Natural Convection Analysis of Flow Using CFD Simulation”, International Journal of Advanced Technology in Engineering and Science, Volume No.03, Issue No. 04, PP-116-123, April 2015.
+- M.S. Govinde Gowda et al, “Resonator optimization and studying the effect of drive ratio on the theoretical performance of a 10-W cooling power thermo-acoustic refrigerator”, accepted for publication in Int. J. of Air-conditioning and Refrigeration on 01 June 2015.
+- M.S. Govinde Gowda et al, Design and comparative analysis of thermoacoustic refrigerators, Int. J. of Air-conditioning and Refrigeration, 24 (4) (2016) 1750002 (9 pages), DOI: [10.1142/S201013251750002X](http://dx.doi.org/10.1142/S201013251750002X)
+- M. S. Govinde Gowda et al, Design and Comparative Analysis of Thermoacoustic Refrigerators, International Journal of Air-Conditioning and Refrigeration, Vol. 25, No. 1 (2017), 1750002, © World Scientific Publishing Company.
+- M. S. Govinde Gowda et al, Design Construction and Performance of 10W Thermoacoustic Refrigerators, International Journal of Air-Conditioning and Refrigeration, Vol. 25, No.3 (2017), 1750023, © World Scientific Publishing Company.
+- M. S. Govinde Gowda et al, Resonator Optimization and Studying the Effect of Drive Ratio on the Theoretical Performance of a 10-W Cooling Power Thermoacoustic Refrigerator, International Journal of Air-Conditioning and Refrigeration, Vol. 25, No.3 (2017), 1750023, © World Scientific Publishing Company.
+- M. S. Govinde Gowda et al, Design and analysis of acoustically-driven 50 W thermoacoustic refrigerators, Sådhanå (2018), © Indian Academy of Sciences, <https://doi.org/10.1007/s12046-018-0860-8>
+- M. S. Govinde Gowda et al, Development of Alternative Binary Mixtures to Replace HFC 134a in Domestic Refrigerator, Chemical Engineering Transactions, Vol. 71, pp:1399-1404, 2018, DOI:10.3303/CET1871234, ISBN 978-88-95608-68-6; ISSN 2283-9216.
+- M. S. Govinde Gowda et al, CFD Analysis of Dual-Phase Flows Inside Helically Coiled Tubes in Vapour Compression Micro-Refrigerator, Penerbit Akademia Baru, CFD Letters, Journal of Advanced Research in Fluid Mechanics and Thermal Sciences, Volume-11, Issue 2 (2019) 81-94, Journal homepage: [www.akademiabaru.com/cfdl.html](http://www.akademiabaru.com/cfdl.html), ISSN: 2180-1363
+- M. S. Govinde Gowda et al, Screening of HFCs and Fluor ethers as Alternatives to R134a Using SRK EoS, J. Inst. Eng. India Ser. C, Springer, DOI 10.1007/s40032-019-00501-5, @ The Institution of Engineers (India), 2019.
+- M. S. Govinde Gowda et al, Hydrocarbons as Alternate Refrigerants to Replace R134a in Domestic Refrigerators, International information and Engineering Technology Association, Revue des Composites et des Matériaux Avancés Vol. 29, No. 2, April, 2019, pp. 95-99, <https://doi.org/10.18280/rcma.290204>,
+- M.S. Govinde Gowda et al, An Experimental Examination into the Efficiency of a Shell-and-Tube Heat Exchanger for an EGR Cooler, Tuijin Jishu/Journal of Propulsion Technology, ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+- M.S. Govinde Gowda et al, Optimization Design and Simulation Approach of an Axial Inward Flow Reaction Turbine Incorporating with Organic Rankine Cycle, Tuijin Jishu/Journal of Propulsion Technology, ISSN: 1001-4055 Vol. 44 No. 5 (2023).
+- M.S. Govinde Gowda et al, Design and Performance Evaluation of a Shell-and-Tube Exhaust Gas Recirculation Cooler Using Kern Method with Experimental Validation on a Diesel Engine, ASME Journal of Thermal Science and Engineering Applications, ISSN: 061002-1, Vol. 18 (2026).
+
+## Membership in Professional Bodies
+
+- Life Member, Indian Society for Technical Education, ISTE (LM-2050), New Delhi
+- Fellow of Institution of Engineers (FIE)
+
+## Honours/Awards/Achievements
+
+**HONOURS**
+
+- “ Rajarshi Nalvadi Krishnaraja Wodiyar” award by the Kannada Sahithya Parishath, Mysuru on the occasion of Nalvadi Krishnaraja Wodiyar’s birth anniversary, for outstanding contribution in the field of Technical Education, on 20-06-2026
+
+**AWARDS**
+
+- “Eminent Engineer” award by the Institution of Engineers (India), Mysore chapter, on an occasion of 58th Engineers’ Day on 15th September 2025, for outstanding contribution and service in the field of Thermal & Fluids Engineering, and Turbomachines under Mechanical Engineering Division.
+- Institute is awarded with “Best Faculty ISTE Chapter-2018” from ISTE Karnataka Section for year 2017-18 by recognizing the number events conducted for the benefit of faculty. The state award was given in 21st ISTE state level Faculty convention held at Bheemanna Khandre Institute of Technology, Bhalki.
+
+## FDPs/Conferences/Workshops/STTP/MOOC Certification
+
+**FDPs**
+
+- FDP programs are also conducted especially for fresh teachers under “Teachers Induction Training Programs” to explore them on effective class room teaching.
+- “Faculty Recharge Programes” have been conducted to assure the quality of teaching by the faculty members in the Teaching-Learning Process.
+- Delivered lectures on “Turbo Machines” through Live Telecast of VTU-Edusat programme-15 during 2011.
+- Participated as Resource Person for “Carrier Counselling-2014” organized by The Hindu Education Plus on 31-5-2014 at Dr.TTIT, KGF.
+- Delivered motivational talk on “Towards excellence…..” for teachers at various Engineering colleges.
+- Invited talk on “Turbo Machines” at various colleges under FDP programs.
+- Training and motivating the faculty in making them excellent and confident in academic contents delivery under “Faculty Recharge Program”.
+- Regular conduction of FDP for the faculty to encourage them in updating the advances in their subject/specialization area.
+- As resource person to deliver talk in FDP on Turbomachinery and its Applications, during 26-27th August, 2016 at VVCE, Mysore.
+- As resource person for Faculty Enrichment Program on Teaching Techniques in Applied Thermodynamics, organized by VTU during July 2018 at VTU Centre for PG studies, Muddenahally, Chickballapur
+- An Overview of Teaching Techniques in Turbomachines, Faculty Enrichment Program jointly organized by AICTE and VTU during 22nd-26th July 2019 at VTU Centre for PG studies, Muddenahally, Chickballapur.
+- Awareness program on “NBA criteria” to the faculty members at VCET, Puttur, during 2017 to equip the faculty to prepare the documents as per NBA process.
+- Technical talk on “Essence of NBA and NAAC accreditation to the HEI” to the faculty at ATME, Mysore during 2020-21.
+- Technical talk on “How to be ready for NBA accreditation of courses” to the faculty at ATME, Mysore during 2021-22 with regard to the criterion-wise preparation.
+- Technical talk on “Avenues of NEP-2020” to faculty members at ATME, Mysore during 2021-22 to explore how they contribute in NAAC accreditation.
+- Awareness program on “Importance of Revised Blooms Taxonomy in deciding the Course Outcomes and its contribution to Program Outcomes” to faculty members at ATME, Mysore during 2021-22.
+- Workshop on “NAAC accreditation” to all faculty members at ATME, Mysore during 2021-22 to prepare them on criteria-wise and to present the documents confidently to expert team visiting during September/October 2022.
+- Awareness program on “How to use the RBT levels in preparing the internal question paper” to the faculty members of Mysore University School of Engineering, Mysore during November, 2024.
+
+**Conferences**
+
+- National = 01, International = 04
+
+**Workshops**
+
+- More than 20
+
+## Proposal/Funding/Project Financial Assistance
+
+- 1.2 Cr for NAIN at VCET, Puttur
+
+## Patent
+
+**National:**
+
+- **Title:** “Electricity Generating Floor Tiles and Method Thereof”
+- **Published/Granted:** Published
+- **Patent No:** 202341068558 A
+
+## Roles and Responsibilities: Institute Level
+
+- Executive Director at ATME Trust
+
+## Roles and Responsibilities: Department Level
+
+- Professor`,
+  },
 };
