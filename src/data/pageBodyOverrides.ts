@@ -53,7 +53,7 @@ ATMECE has the following 6 VTU-recognised Research Centres:
 | Sl. No. | Research Centre | Research Supervisor |
 | --- | --- | --- |
 | 1 | Electronics and Communication Engineering | Dr. L Basavaraj |
-| 2 | Electronics and Communication Engineering | Dr. Bhagyashree S R |
+| 2 | Electronics and Communication Engineering | Dr. S R Bhagyashree |
 | 3 | Electronics and Communication Engineering | Dr. Prathibha M K |
 | 4 | Electronics and Communication Engineering | Dr. Anitha D B |
 | 5 | Electronics and Communication Engineering | Dr. Pavithra A C |
@@ -1593,7 +1593,7 @@ The college functions under the able and untiring guidance and leadership of **M
 const deanResearchMessageBody = `
 # Dean — Research Message
 
-![Dr. Bhagyashree S R — Dean, Research](/__l5e/assets-v1/112ca0fe-7fe2-49bb-9dd0-66a47e6bb9a4/Dr-Bhagyashree-SR-Dean-Research.jpg)
+![Dr. S R Bhagyashree — Dean, Research](/__l5e/assets-v1/112ca0fe-7fe2-49bb-9dd0-66a47e6bb9a4/Dr-Bhagyashree-SR-Dean-Research.jpg)
 
 Dear students, faculty members, researchers and esteemed visitors,
 
@@ -1613,7 +1613,7 @@ Let us together embrace the spirit of exploration and innovation, driving our co
 
 **Warm regards,**
 
-<div class="mt-4"><div class="font-semibold text-lg leading-tight">Dr. Bhagyashree S R</div><div class="text-muted-foreground leading-tight">Dean — Research</div><div class="text-muted-foreground text-sm leading-tight mt-1">Senior Member IEEE • FIETE • FIEI • MISTE • Chartered Engineer • MARDSI</div><div class="text-muted-foreground text-sm leading-tight">Vice-Chair, IETE Mysore Centre • Execom Member, IEEE Mysuru Sub-section • Joint Secretary, ARDSI Mysore Chapter</div><div class="text-muted-foreground text-sm leading-tight">Professor, Electronics & Communication Engineering</div></div>
+<div class="mt-4"><div class="font-semibold text-lg leading-tight">Dr. S R Bhagyashree</div><div class="text-muted-foreground leading-tight">Dean — Research</div><div class="text-muted-foreground text-sm leading-tight mt-1">Senior Member IEEE • FIETE • FIEI • MISTE • Chartered Engineer • MARDSI</div><div class="text-muted-foreground text-sm leading-tight">Vice-Chair, IETE Mysore Centre • Execom Member, IEEE Mysuru Sub-section • Joint Secretary, ARDSI Mysore Chapter</div><div class="text-muted-foreground text-sm leading-tight">Professor, Electronics & Communication Engineering</div></div>
 `;
 
 const deanStudentAffairsProfileBody = `
