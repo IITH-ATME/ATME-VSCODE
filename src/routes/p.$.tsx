@@ -1143,7 +1143,7 @@ function RehostedPage() {
                     "atme-research/dean-research-message": {
                       image: "/__l5e/assets-v1/112ca0fe-7fe2-49bb-9dd0-66a47e6bb9a4/Dr-Bhagyashree-SR-Dean-Research.jpg",
                       name: "Dr. S R Bhagyashree",
-                      designation: "Dean, Research",
+                      designation: "Professor & Dean Research",
                       profileHref: "/departments/ece/faculty/dr-s-r-bhagyashree",
                     },
                     "dean-academics": {

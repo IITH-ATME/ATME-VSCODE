@@ -23,7 +23,7 @@ export const FACULTY_DESIGNATIONS: Record<string, string> = {
   "dr-pavithra-m-s": "Associate Professor",
   "dr-prathibha-m-k": "Associate Professor",
   "dr-putte-gowda-d": "Professor and Head",
-  "dr-s-r-bhagyashree": "Dean-Research, Professor",
+  "dr-s-r-bhagyashree": "Professor",
   "dr-sathish-k-r": "Assistant Professor",
   "dr-shakunthala-c": "Associate Professor & Head",
   "dr-shilpa-b-l": "Associate Professor",

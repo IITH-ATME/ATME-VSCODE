@@ -56,7 +56,7 @@ export const cseAllFaculty: Faculty[] = [
 
 export const eceAllFaculty: Faculty[] = [
   { id: "dr-l-basavaraj", name: "Dr. Basavaraj L", designation: "Principal", qualification: "BE, MTech in Digital Electronics, PhD", doj: "01/02/2013", image: "/__l5e/assets-v1/2c5de403-cb15-45f8-80ce-399e44b17c0e/dr-l-basavaraj.jpeg", cvUrl: "https://atme.edu.in/dr-l-basavaraj/" },
-  { id: "dr-s-r-bhagyashree", name: "Dr. S R Bhagyashree", designation: "Dean-Research, Professor", qualification: "BE, MTech, PhD", doj: "16/07/2011", image: "/__l5e/assets-v1/81200721-6480-43db-a54b-b2e399be5314/dr-s-r-bhagyashree.png", cvUrl: "https://atme.edu.in/dr-s-r-bhagyashree/" },
+  { id: "dr-s-r-bhagyashree", name: "Dr. S R Bhagyashree", designation: "Professor", qualification: "BE, MTech, PhD", doj: "16/07/2011", image: "/__l5e/assets-v1/81200721-6480-43db-a54b-b2e399be5314/dr-s-r-bhagyashree.png", cvUrl: "https://atme.edu.in/dr-s-r-bhagyashree/" },
   { id: "dr-prathibha-m-k", name: "Dr. Prathiba M K", designation: "Associate Professor & HOD", qualification: "BE in Electronics and Communication Engineering, MTech in Industrial Electronics, PhD in Electrical and Electronics Engineering", doj: "16/07/2012", image: "/__l5e/assets-v1/e02f9b1e-3cbd-4232-b31b-89535724fbae/dr-prathibha-m-k.jpg", cvUrl: "https://atme.edu.in/dr-prathibha-m-k/" },
   { id: "dr-manjula-a-v", name: "Dr. Manjula A V", designation: "Associate Professor", qualification: "BE in Electronics and Communication, MTech in Computer Application in Industrial Drives (CAID), PhD in Electronics", doj: "28/08/2025", image: "/__l5e/assets-v1/2764de29-a3ca-4e21-bc8f-3edf01000dd9/dr-manjula-a-v.jpg", cvUrl: "https://atme.edu.in/dr-manjula-a-v/" },
   { id: "dr-veeraprathap-v", name: "Dr. Veeraprathap V", designation: "Associate Professor", qualification: "BE in Electronics & Communication Engineering, MTech in Digital Electronics, PhD in Wireless Sensor Networks from UVCE, Bangalore University", doj: "02/05/2024", image: "/__l5e/assets-v1/99751a74-695a-4bf5-910c-abba68ef74e5/dr-veeraprathap-v.png", cvUrl: "https://atme.edu.in/dr-veeraprathap-v/" },
@@ -111,7 +111,7 @@ export const eeeAllFaculty: Faculty[] = [
 
 export const meAllFaculty: Faculty[] = [
   { id: "dr-m-s-govinde-gowda", name: "Dr. M S Govinde Gowda", designation: "Professor & Executive Director", qualification: "B.E, M.Tech (IIT-B), Ph.D (IIT-B)", doj: "14-10-2026", image: "https://pub-1025be799f8d4e0fbf3e476b293c054f.r2.dev/images/uploads/2026/11/dr-m-s-govinde-gowda.png", cvUrl: "/departments/me/faculty/dr-m-s-govinde-gowda" },
-  { id: "dr-srinivasa-k", name: "Dr. Srinivasa K", designation: "Professor & Dean Student Affairs", qualification: "BE, M.Tech, Ph.D", doj: "13/09/2010", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://old.atme.edu.in/dr-srinivasa-k/" },
+  { id: "dr-srinivasa-k", name: "Dr. Srinivasa K", designation: "Professor", qualification: "BE, M.Tech, Ph.D", doj: "13/09/2010", image: "/__l5e/assets-v1/1d1fac01-0255-4e42-8d7c-09a9510ac37f/srinivasa.jpg", cvUrl: "https://old.atme.edu.in/dr-srinivasa-k/" },
   { id: "dr-chethan-s", name: "Dr. Chethan S", designation: "Associate Dean Academics, Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "15/07/2014", image: "/__l5e/assets-v1/e19510b2-7ab1-462d-b546-e8a8a71fc37c/dr.-chethan-s.jpg", cvUrl: "https://old.atme.edu.in/dr-chethan-s/" },
   { id: "devaraj-m-r", name: "Mr. Devaraj M R", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "19/08/2022", image: "/images/uploads/devaraj-m-r.jpg", cvUrl: "https://old.atme.edu.in/devaraj-m-r/" },
   { id: "mr-raghu", name: "Mr. Raghu", designation: "Assistant Professor", qualification: "M.Tech in Thermal Power Engineering", doj: "", image: "/images/uploads/ME-6.jpg", cvUrl: "https://atme.edu.in/mr-raghu/" },
@@ -130,7 +130,7 @@ export const meAllFaculty: Faculty[] = [
 ];
 
 export const ceAllFaculty: Faculty[] = [
-  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor & Dean Academics", qualification: "B.E, M.Tech, Ph.D", doj: "01-06-2026", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
+  { id: "dr-nalini-elizabeth-rebello", name: "Dr. Nalini Elizabeth Rebello", designation: "Professor", qualification: "B.E, M.Tech, Ph.D", doj: "01-06-2026", image: "/__l5e/assets-v1/025f8c87-08f9-410e-8410-ae13bc3aa0ba/Dr-Nalini-Elizabeth-Rebello.jpg", cvUrl: "https://atme.edu.in/dr-nalini-elizabeth-rebello/" },
   { id: "jyothi-d-n", name: "Dr. Jyothi D N", designation: "Associate Professor & Head", qualification: "BE, M.Tech, Ph.D", doj: "14.07.2015", image: "/images/uploads/jyothi-d-n.jpg", cvUrl: "https://old.atme.edu.in/jyothi-d-n/" },
 
   { id: "mr-manu-vijay", name: "Mr. Manu Vijay", designation: "Associate Professor", qualification: "BE, M.Tech", doj: "21.08.2012", image: "/__l5e/assets-v1/fb43e973-3996-4ab8-9649-690959f0513c/Manu-Vijay.jpg", cvUrl: "https://old.atme.edu.in/mr-manu-vijay/" },
